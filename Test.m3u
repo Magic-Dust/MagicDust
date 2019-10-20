@@ -1134,9 +1134,9 @@ http://doloritaeikenberrya.s3-accelerate.amazonaws.com/nfltv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pmcvariety.files.wordpress.com/2014/08/nfl_now_logo.jpg" group-title="Sports", NFL Now
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=;url=http://nitro.ltd:25461/live/Edward/Edward/5311.m3u8
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s65025_h3_aa.png" group-title="Sports", NFL Redzone
-http://cdn14.akamaihd.xyz/live/redzone/chunks.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=;url=http://cdn14.akamaihd.xyz/live/redzone/chunks.m3u8
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s65025_h3_aa.png" group-title="Sports", NFL Redzone HD
-http://cdn15.akamaihd.xyz/live/reds/chunks.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=;url=http://cdn15.akamaihd.xyz/live/reds/chunks.m3u8
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58570_h3_aa.png" group-title="Sports", NHL Network
 plugin://script.module.tt/play/494/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58570_h3_aa.png" group-title="Sports", NHL NetworkHD
