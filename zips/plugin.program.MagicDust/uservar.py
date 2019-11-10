@@ -16,9 +16,9 @@ BUILDERNAME    = 'Kodi Fairy'
 EXCLUDES       = [ADDON_ID, 'repository.MagicDust']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
 CACHETEXT      = 'Yes'
-CACHEAGE       = 120
+CACHEAGE       = 240
 # Text File with build info in it.
-BUILDFILE      = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/builds.txt'
+BUILDFILE      = 'https://github.com/Magic-Dust/MagicDust/raw/master/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
@@ -99,15 +99,13 @@ WIZARDFILE     = BUILDFILE
 ###        Repo If Not Installed ########################
 #########################################################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL    = 'No'
+AUTOINSTALL    = 'Yes'
 # Addon ID for the repository
 REPOID         = 'repository.magicdust'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/zips/addons.xml'
-#REPOADDONXML   = 'https://raw.githubusercontent.com/drinfernoo/repository.aftermath/master/zips/addons.xml'
+REPOADDONXML   = 'https://github.com/Magic-Dust/MagicDust/raw/master/zips/plugin.program.MagicDust/addon.xml'
 # Url to folder zip is located in
-REPOZIPURL     = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/zips/repository.MagicDust/'
-#REPOZIPURL     = 'https://raw.githubusercontent.com/drinfernoo/repository.aftermath/master/zips/repository.aftermath/'
+REPOZIPURL     = 'https://github.com/Magic-Dust/MagicDust/raw/master/zips/plugin.program.MagicDust/'
 #########################################################
 
 #########################################################
@@ -116,7 +114,7 @@ REPOZIPURL     = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/
 # Enable Notification screen Yes or No
 ENABLE         = 'Yes'
 # Url to notification file
-NOTIFICATION   = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/notify.txt'
+NOTIFICATION   = 'https://github.com/Magic-Dust/MagicDust/raw/master/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE     = 'Text'
 # Font size of header
