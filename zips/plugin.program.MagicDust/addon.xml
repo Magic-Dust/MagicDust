@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.program.MagicDust" name="[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard" version="19.11.09" provider-name="Kodi Fairy">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard</summary>
-    <description lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard for maintenance tasks and automated build updates. (Because Teagan and Crispo have lady parts!)</description>
-    <platform>all</platform>
-  </extension>
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="startup.py" start="startup" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard</summary>
+		<description lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard for maintenance tasks and automated build updates. (Because Teagan and Crispo have lady parts!)</description>
+		<platform>all</platform>
+    		<dir>
+			<info compressed="false">https://github.com/Magic-Dust/MagicDust/raw/master/zips/plugin.program.MagicDust/addon.xml</info>
+                        <checksum>https://github.com/Magic-Dust/MagicDust/raw/master/zips/plugin.program.MagicDust/addon.xml.md5</checksum>
+			<datadir zip="true">https://github.com/Magic-Dust/MagicDust/raw/master/zips/plugin.program.MagicDust/</datadir>
+		</dir>
+	</extension>
 </addon>
