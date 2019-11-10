@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.magicdust" name="Magic Dust Repository" version="19.11.09" provider-name="Kodi-Fairy">
+	<extension point="xbmc.addon.repository" name="Magic Dust Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Magic-Dust/repository.magicdust/master/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/Magic-Dust/repository.magicdust/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Magic-Dust/repository.magicdust/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Magic Dust Repository</summary>
+		<description>Kodi Fairy</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
