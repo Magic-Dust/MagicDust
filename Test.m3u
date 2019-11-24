@@ -1,6 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC
-http://live.field59.com/wwsb/ngrp:wwsb1_all/playlist.m3u8
 http://190.80.3.28/ABC/ABC.isml/index.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC HD
 http://content-ausc1.uplynk.com/channel/7f4366ed88e344da86947eb0fa080ec2/f.m3u8?exp=1527750966&ct=c&cid=7f4366ed88e344da86947eb0fa080ec2&sig=37af99214f85e55b1dfbec4030d06a8dee848131f8be1421ef36fbbae30e5387&pbs=cc5c74a2900d47b48ce4ec207b247a2d
@@ -1161,7 +1160,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7Chttp%3A%
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s65025_h3_aa.png" group-title="Sports", NFL Redzone HD
 http://cdn.60fps.live/live/redh/playlist.m3u8
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s65025_h3_aa.png" group-title="Sports", NFL Redzone 1080
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://beastiptv.tv:25461/kk7su@yahoo.com/2B7qYyzg89/1486
+http://cras.spursz.xyz/show/redzone/chunks.m3u8
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58570_h3_aa.png" group-title="Sports", NHL Network
 plugin://script.module.tt/play/494/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58570_h3_aa.png" group-title="Sports", NHL NetworkHD
@@ -1962,7 +1961,7 @@ plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=http%3a%2f%2fustvgo.tv%2
 #EXTINF:-1 tvg-id="" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Music Videos", CMT HD
 https://dcunilive2-lh.akamaihd.net/i/dclive_1@390829/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Concert Channel" tvg-logo="https://pbs.twimg.com/profile_images/929125236141731841/u-mpHnWU.jpg" group-title="Music Videos", Concert Channel
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://disfruta.net:80/live/tani/tani//22238.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://disfruta.net:80/live/mfallas22/5945456326/22238.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Country Network" tvg-logo="https://i.imgur.com/AwNQHqC.png" group-title="Music Videos", Country Network
 https://dcunilive2-lh.akamaihd.net/i/dclive_1@390829/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Dancestar TV" tvg-logo="https://static1.squarespace.com/static/57e016db6b8f5bbe95acde7d/t/5b620bab352f53819eb8df27/1533152171765/2017_DSTV_Logo_Silver+2.png" group-title="Music Videos", Dancestar TV
