@@ -1,0 +1,93 @@
+<item>
+<title>[COLORgold]***PUBLIC IPTV***[/COLOR]</title><link>http://ignorame</link>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>USA IPTV</title><link>http://ignorame</link>
+<externallink>https://iptv-org.github.io/iptv/countries/us.m3u$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>UK IPTV</title><link>http://ignorame</link>
+<externallink>https://iptv-org.github.io/iptv/countries/uk.m3u$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>CANADA IPTV</title><link>http://ignorame</link>
+<externallink>https://iptv-org.github.io/iptv/countries/ca.m3u$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>FLUXUS USA</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[makelist.param2]</title>
+   <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
+   <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[logo="([^"]*)"[^"]*"USA[^"]*",(.*)\W(.*)]]></expres>
+<page>https://pastebin.com/raw/ZzGTySZE</page>
+</regex>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>Kilirushi USA</title><link>http://Ignoreme</link>
+<externallink>https://github.com/kilirushi/m3u/raw/master/us.m3u$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>Kilirushi Sports</title><link>http://Ignoreme</link>
+<externallink>https://github.com/kilirushi/m3u/raw/master/sport.m3u$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>Adult IPTV</title><link>http://Ignoreme</link>
+<externallink>https://iptv-org.github.io/iptv/categories/xxx.m3u$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLORgold]***DAILY IPTV***[/COLOR]</title><link>http://ignorame</link>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>LIST 1 </title><link>http://ignorame</link>
+<externallink>http://193.200.164.221:25461/get.php?username=marsha&amp;password=marsha&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>LIST 2 </title><link>http://ignorame</link>
+<externallink>http://193.200.164.221:25461/get.php?username=marsha&amp;password=marsha&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>LIST 3 </title><link>http://ignorame</link>
+<externallink>http://193.200.164.221:25461/get.php?username=marsha&amp;password=marsha&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>LIST 4 </title><link>http://ignorame</link>
+<externallink>http://193.200.164.221:25461/get.php?username=marsha&amp;password=marsha&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
+<title>LIST 5 </title><link>http://ignorame</link>
+<externallink>http://193.200.164.221:25461/get.php?username=marsha&amp;password=marsha&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
