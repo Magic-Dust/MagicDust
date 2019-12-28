@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC
-http://190.80.3.28/ABC/ABC.isml/index.m3u8
+https://iptvbad.000webhostapp.com/sky/master.php?id=193&f=.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC HD
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Fabc%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/abc/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC 1080
@@ -77,13 +77,13 @@ http://190.80.3.28/CW/CW.isml/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", Miami PBS
 http://190.80.3.28/PBS/PBS.isml/index.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", New York ABC 7 WABC
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/GwV7VSDXEZ/7EszXpnj1p/82699.m3u8
+https://iptvbad.000webhostapp.com/sky/master.php?id=203&f=.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", New York CBS 2 WCBS
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/GwV7VSDXEZ/7EszXpnj1p/65029.m3u8
+https://iptvbad.000webhostapp.com/sky/master.php?id=225&f=.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" group-title="Broadcast", New York NBC 4 WNBC
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/GwV7VSDXEZ/7EszXpnj1p/82624.m3u8
+https://iptvbad.000webhostapp.com/sky/master.php?id=318&f=.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", New York FOX 5 WNYW
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/GwV7VSDXEZ/7EszXpnj1p/65027.m3u8
+https://iptvbad.000webhostapp.com/sky/master.php?id=270&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1200px-The_CW.svg.png" group-title="Broadcast", New York CW (WPIX)
 http://api.new.livestream.com/accounts/8896933/events/3104530/live.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", Raleigh ABC
@@ -427,6 +427,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/GwV7VSDXEZ/7EszXpnj1p/15072.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://beastiptv.tv:25461/hildebrandt/hildebrandt/1410
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV 1080
+https://iptvbad.000webhostapp.com/sky/master.php?id=428&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
 plugin://script.module.tt/play/697/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend HD
@@ -888,7 +890,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BGameurl%5D&mode=17&regex
 #EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC HD
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fyoursports.stream%2Fing%2Facc%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+rv%3A56.0%29+Gecko%2F20100101+Firefox%2F56.0&mode=17&regexs=%7Bu%27source%27%3A%20%7B%27expres%27%3A%20u%27src%3D%22%28http%3A%5C%5C/%5C%5C/yrsprts.xyz%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27source%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/%27%7D%2C%20u%27base64%27%3A%20%7B%27expres%27%3A%20u%22mustave%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/ing/acc%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20u%27None%27%7D%7D
 #EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC 1080
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://209.222.97.118:25461/live/Dave123/dave123/5950.m3u8
+https://iptvbad.000webhostapp.com/sky/master.php?id=207&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://yousenditcc.s3.amazonaws.com/ESPN_classic_white.png" group-title="Sports", ESPN Classic
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/GwV7VSDXEZ/7EszXpnj1p/55241.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://yousenditcc.s3.amazonaws.com/ESPN_classic_white.png" group-title="Sports", ESPN Classic HD
@@ -1024,7 +1026,7 @@ plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=http%3a%2f%2fustvgo.tv%2
 #EXTINF:-1 tvg-id="I220.15952.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s15952_h3_aa.png" group-title="Sports", NBC Sport Network HD
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dnbcsn%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dnbcsn%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I220.15952.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s15952_h3_aa.png" group-title="Sports", NBC Sport Network 1080
-plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fyoursports.stream%2Fing%2Fnbcsn%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+rv%3A56.0%29+Gecko%2F20100101+Firefox%2F56.0&amp;mode=17&amp;regexs=%7Bu%27source%27%3A%20%7B%27expres%27%3A%20u%27src%3D%22%28http%3A%5C%5C/%5C%5C/yrsprts.xyz%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27source%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/%27%7D%2C%20u%27base64%27%3A%20%7B%27expres%27%3A%20u%22mustave%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/ing/nbcsn%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20u%27None%27%7D%7D
+https://iptvbad.000webhostapp.com/sky/master.php?id=331&f=.m3u8
 #EXTINF:-1 tvg-id="I696.63138.schedulesdirect.org" tvg-name="NBC Sports Bay Area" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s63138_h3_aa.png" group-title="Sports", NBCSN Bay Area
 http://tvecsnbayarea-i.akamaihd.net/hls/live/219791/CSNbayareax/1896k/prog.m3u8
 #EXTINF:-1 tvg-id="I630.49198.schedulesdirect.org" tvg-name="NBC Sports Boston" tvg-logo="http://worldsoccertalk.com/wp-content/uploads/2013/04/nbc-sports-logo-600x450.png" group-title="Sports", NBCSN Boston
@@ -1052,7 +1054,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7Chttp%3A%
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s65025_h3_aa.png" group-title="Sports", NFL Redzone
 http://buffstreamz.com/emb/rd.m3u8
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s65025_h3_aa.png" group-title="Sports", NFL Redzone HD
-plugin://plugin.video.youtube/play/?video_id=4FeKthGooTY
+https://iptvbad.000webhostapp.com/sky/master.php?id=333&f=.m3u8
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58570_h3_aa.png" group-title="Sports", NHL Network
 plugin://script.module.tt/play/494/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58570_h3_aa.png" group-title="Sports", NHL NetworkHD
@@ -1927,21 +1929,15 @@ http://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:9528-mbr/chunkl
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ikorRe8.png" group-title="Adult TV", BIKINI TV
 https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers TV
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://beastiptv.tv:25461/hildebrandt/hildebrandt/4495
-
-
+https://iptvbad.000webhostapp.com/sky/master.php?id=390&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers Europe
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://beastiptv.tv:25461/hildebrandt/hildebrandt/4495
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Dusk
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.ipturkhd.com:8000/nlineswithreshareforsale/hLIX9hIJNK/3819
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/876iuhiu/asia877kjkjhj/69816.ts
-
-
-
-
+https://iptvbad.000webhostapp.com/sky/master.php?id=393&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER TV
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/876iuhiu/asia877kjkjhj/69815.ts
+https://iptvbad.000webhostapp.com/sky/master.php?id=393&f=.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
@@ -1955,19 +1951,13 @@ http://usaserver.miamitvchannel.com/miamitv/smil:miamitv/playlist.m3u8
 #EXTINF:-1 ,tvg-logo="https://i.pinimg.com/originals/ae/b6/35/aeb635030bbc5c6d6387ae3b0a7d79ba.png" group-title="Adult TV", MILF HD
 http://live.redtraffic.xyz/milf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse Black
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/876iuhiu/asia877kjkjhj/69795.ts
-
-
+https://iptvbad.000webhostapp.com/sky/master.php?id=859&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse Gold HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/876iuhiu/asia877kjkjhj/69818.ts
-
-
+https://iptvbad.000webhostapp.com/sky/master.php?id=860&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.sistemuydu.com/wp-content/uploads/2015/06/Digiturk-Playboy-TV.png" group-title="Adult TV", Playboy
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://158.69.66.169/stream/xx1/chunks.m3u8
-
-
+https://iptvbad.000webhostapp.com/sky/master.php?id=394&f=.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.sistemuydu.com/wp-content/uploads/2015/06/Digiturk-Playboy-TV.png" group-title="Adult TV", Playboy HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/876iuhiu/asia877kjkjhj/69822.ts
+https://iptvbad.000webhostapp.com/sky/master.php?id=394&f=.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_Red_TV_Perú.png" group-title="Adult TV", RedTraffic 1
@@ -2005,7 +1995,8 @@ http://live.redtraffic.xyz/pov.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://images.zattic.com/logos/99c52002fd7a7a01f017/white/210x120.png" group-title="Adult TV", Visit-X TV
 http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.ipturkhd.com:8000/nlineswithreshareforsale/hLIX9hIJNK/3850
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/876iuhiu/asia877kjkjhj/69829.ts
+https://iptvbad.000webhostapp.com/sky/master.php?id=396&f=.m3u8
 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
+https://iptvbad.000webhostapp.com/sky/master.php?id=396&f=.m3u8
