@@ -392,7 +392,7 @@ plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=http%3a%2f%2fustvgo.tv%2
 #EXTINF:-1 tvg-id="" tvg-name="Investigation Discovery" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/ID_Canada_Logo.png/180px-ID_Canada_Logo.png" group-title="Cable", Investigation Discovery HD
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Finvestigation-discovery%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/investigation-discovery/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I305.76894.schedulesdirect.org" tvg-name="ION Television East" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18633_h3_aa.png" group-title="Cable", ION
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/801.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/1762.m3u8
 #EXTINF:-1 tvg-id="I103.17468.schedulesdirect.org" tvg-name="ITV" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s50523_h3_aa.png" group-title="Cable", ITV
 plugin://plugin.video.tvone111/play/MTI5Nw==w/play.pvr
 #EXTINF:-1 tvg-id="I103.17468.schedulesdirect.org" tvg-name="ITV" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s50523_h3_aa.png" group-title="Cable", ITV HD
@@ -428,7 +428,9 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15539.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/8930.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15539.m3u8
+
+
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
 plugin://script.module.tt/play/697/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend HD
@@ -506,7 +508,7 @@ plugin://plugin.video.tvone11/play/17/1070/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Slice" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Slice_logo.svg/1920px-Slice_logo.svg.png" group-title="Cable", Slice HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/3231.m3u8
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://static.iptv-epg.com/us/SmithsonianChannel.us.png" group-title="Cable", Smithsonian HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/37720.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/17722.m3u8
 #EXTINF:-1 tvg-id="I241.11163.schedulesdirect.org" tvg-name="Paramount" tvg-logo="http://fcfighter.com/wp-content/uploads/2011/07/spike_tv.png" group-title="Cable", Spike
 plugin://script.module.tt/play/213/play.pvr
 #EXTINF:-1 tvg-id="I557.16108.schedulesdirect.org" tvg-name="Sundance TV" tvg-logo="http://seeklogo.com/images/S/sundance-logo-ABA465A4BC-seeklogo.com.gif" group-title="Cable", Sundance
@@ -902,6 +904,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 https://gma2.blab.email/acc.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://yousenditcc.s3.amazonaws.com/ESPN_classic_white.png" group-title="Sports", ESPN Classic
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/87409.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://yousenditcc.s3.amazonaws.com/ESPN_classic_white.png" group-title="Sports", ESPN Classic HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/87409.ts
 
@@ -971,9 +975,9 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="FOX College Sports Atlantic" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", FOX College Atlantic
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/11929.m3u8
 #EXTINF:-1 tvg-id="I608.26078.schedulesdirect.org" tvg-name="FOX College Sports Central" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-fox-college-sports.png" group-title="Sports", FOX College Central
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/15477.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/60767
 #EXTINF:-1 tvg-id="" tvg-name="FOX College Sports Pacific" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", FOX College Pacific
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/15479.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/60768
 #EXTINF:-1 tvg-id="" tvg-name="Fox Sports Prime Ticket" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16743_h3_aa.png" group-title="Sports", Fox Sports Prime Ticket
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15421.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://seeklogo.net/wp-content/uploads/2013/01/fox-racing-shox-logo-vector.png" group-title="Sports", Fox Sports Racing
@@ -983,7 +987,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Carolinas
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/14866.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Detroit
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/15513.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/60772
 #EXTINF:-1 tvg-id="I654.11095.schedulesdirect.org" tvg-name="Fox Sports Florida" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Florida
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15119.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Indiana
@@ -993,7 +997,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports North
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/3072.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Ohio
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/15501.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/60776
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports San Diego
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://185.59.223.57:25461/live/203040/203040/14934.m3u8
 #EXTINF:-1 tvg-id="I646.61092.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports South
@@ -1025,11 +1029,15 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://185.59
 #EXTINF:-1 tvg-id="" tvg-name="MLB Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s62081_h3_aa.png" group-title="Sports", MLB Network
 http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_wired.m3u8
 #EXTINF:-1 tvg-id="I634.10979.schedulesdirect.org" tvg-name="MSG" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s35402_h3_aa.png" group-title="Sports", MSG
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/16101.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/3113.m3u8
+
+
 #EXTINF:-1 tvg-id="I634.10979.schedulesdirect.org" tvg-name="MSG" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s35402_h3_aa.png" group-title="Sports", MSG HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/3113.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s35402_h3_aa.png" group-title="Sports", MSG Plus
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/16099.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/86841.m3u8
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s35402_h3_aa.png" group-title="Sports", MSG Plus HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/86841.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MUTV" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s21813_h3_aa.png" group-title="Sports", MUTV
@@ -1049,7 +1057,7 @@ http://tvecsnnewengland-i.akamaihd.net/hls/live/219795/CSNnewenglandx/1896k/prog
 #EXTINF:-1 tvg-id="I698.73564.schedulesdirect.org" tvg-name="NBC Sports California" tvg-logo="http://worldsoccertalk.com/wp-content/uploads/2013/04/nbc-sports-logo-600x450.png" group-title="Sports", NBCSN California
 http://tvecsncalifornia-i.akamaihd.net/hls/live/219792/CSNcaliforniax/1896k/prog.m3u8
 #EXTINF:-1 tvg-id="I665.44905.schedulesdirect.org" tvg-name="NBC Sports Chicago" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s44905_h3_aa.png" group-title="Sports", NBCSN Chicago
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/917.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/37495
 #EXTINF:-1 tvg-id="" tvg-name="NBC Sports Philadelphia" tvg-logo="http://worldsoccertalk.com/wp-content/uploads/2013/04/nbc-sports-logo-600x450.png" group-title="Sports", NBCSN Philadelphia
 http://tvecsnphiladelph-i.akamaihd.net/hls/live/219794/CSNphiladelphiax/1896k/prog.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NBC Sports Northwest" tvg-logo="http://worldsoccertalk.com/wp-content/uploads/2013/04/nbc-sports-logo-600x450.png" group-title="Sports", NBCSN Northwest
@@ -1133,13 +1141,15 @@ plugin://script.module.tt/play/210/play.pvr
 #EXTINF:-1 tvg-id="I410.20203.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s20203_h3_aa.png" group-title="Sports", Sportsnet 360
 plugin://plugin.video.tvone11/play/8/756/play.pvr
 #EXTINF:-1 tvg-id="I410.20203.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s20203_h3_aa.png" group-title="Sports", Sportsnet 360 HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/4013.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/25226
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18798_h3_aa.png" group-title="Sports", Sportsnet East
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/3226.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18798_h3_aa.png" group-title="Sports", Sportsnet East HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/634.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/25225
 #EXTINF:-1 tvg-id="I639.49603.schedulesdirect.org" tvg-name="SportsNet New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/800px-SNY_logo.svg.png" group-title="Sports", SportsNet NY
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/37744.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/8850.m3u8
+
+
 #EXTINF:-1 tvg-id="I639.49603.schedulesdirect.org" tvg-name="SportsNet New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/800px-SNY_logo.svg.png" group-title="Sports", SportsNet NY HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/8850.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet One" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s68858_h3_aa.png" group-title="Sports", Sportsnet One
@@ -1151,9 +1161,9 @@ plugin://script.module.tt/play/214/play.pvr
 #EXTINF:-1 tvg-id="I846.62111.schedulesdirect.org" tvg-name="Sportsnet Ontario" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18799_h3_aa.png" group-title="Sports", Sportsnet Ontario HD
 plugin://plugin.video.tvone11/play/8/754/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet Pacific" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18801_h3_aa.png" group-title="Sports", Sportsnet Pacific
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/4011.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/25222
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet West" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18800_h3_aa.png" group-title="Sports", Sportsnet West
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/630.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/25221
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet West" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18800_h3_aa.png" group-title="Sports", Sportsnet West HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/3222.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet World" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s57735_h3_aa.png" group-title="Sports", Sportsnet World
@@ -1205,7 +1215,9 @@ plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=http%3a%2f%2fustvgo.tv%2
 #EXTINF:-1 tvg-id="" tvg-name="WWE Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/1121px-WWE_Logo.svg.png" group-title="Sports;Cable", WWE Network 1080
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dwwe%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dwwe%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="Yes Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s46275_h3_aa.png" group-title="Sports", Yes Network
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/3353.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/1673.m3u8
+
+
 #EXTINF:-1 tvg-id="" tvg-name="Yes Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s46275_h3_aa.png" group-title="Sports", Yes Network HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/1673.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="At The Races" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-at-the-races.png" group-title="Horse Racing", At The Races
@@ -1241,7 +1253,9 @@ plugin://plugin.video.youtube/play/?video_id=yd_pcZMsPD8
 #EXTINF:-1 tvg-logo="https://www.starhub.com/content/dam/starhub/2015/about-us/logos/starHub-logo.png" group-title="Horse Racing", Starhub
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Spectrum;url=http://182.19.212.148:8089/0.ts
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/71396.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15049.m3u8
+
+
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15049.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG 2
@@ -1634,7 +1648,9 @@ http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XO/9XO.isml/index.m3u8
 #EXTINF:-1 tvg-id="I340.28506.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/AXS_TV_Logo.png/200px-AXS_TV_Logo.png" group-title="Music Videos", AXS TV
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/64156.m3u8
 #EXTINF:-1 tvg-id="I340.28506.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/AXS_TV_Logo.png/200px-AXS_TV_Logo.png" group-title="Music Videos", AXS TV HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/45813.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/18677.m3u8
+
+
 #EXTINF:-1 tvg-id="" tvg-name="Box Hits" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/The_Box_2013.png" group-title="Music Videos", Box Hits
 http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxhits-desktop.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fboxhits%2f
 #EXTINF:-1 tvg-id="" tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/9TbpsS0.png" group-title="Music Videos", California Music Channel
@@ -1681,40 +1697,42 @@ plugin://script.module.tt/play/649/play.pvr
 http://186.155.200.118:1935/live/MelodyChannel/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.iapplemania.com/wp-content/uploads/2010/09/m2o-logo-app.jpg" group-title="Music Videos", M20
 http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Hits
-http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC 90's
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42930.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Alternative
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42944.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Brits Hits
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42943.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Dance
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42942.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Hip-Hop & R&B
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42941.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Indie
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42939.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Metal
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42938.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Pop & Country
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42937.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Pop Hits
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42936.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC R&BSoul
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42935.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Rap
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42934.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Rap 2K
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42933.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Rock
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42932.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC 90'S
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/15327.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC ALTERNATIVE
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/826.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC BRIT HITS
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/849.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC DANCE EDM
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/848.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC HIP HOP and R & B
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/847.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC HIT LIST
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/846.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC INDIE
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/845.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC MC PLAY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/842.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC METAL
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/1230.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC POP & COUNTRY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/840.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC POP HITS
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/839.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC R&B SOUL
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/838.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC RAP
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/837.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC RAP 2K
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/836.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC ROCK
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/835.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC THROWBACK JAMZ
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/833.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC TODAYS COUNTRY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/832.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Y2K
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42928.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC ThrowbackJamz
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42929.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://corporate.musicchoice.com/files/1913/8178/7936/MCPlayLogo.png" group-title="Music Videos", MC Today Country
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/42931.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://00100.co:2086/live/ana/ana/828.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MTV-Logo.svg/755px-MTV-Logo.svg.png" group-title="Music Videos", MTV
 http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MTV-Logo.svg/755px-MTV-Logo.svg.png" group-title="Music Videos", MTV HD
@@ -1742,7 +1760,7 @@ http://37.48.83.34:80/radiobrunotv/radiobrunotv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RETRO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Retro_Music_TV_logo.png" group-title="Music Videos", RETRO
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RVLTHD" tvg-logo="https://yrgp.files.wordpress.com/2016/01/re-volt-logo-big.png" group-title="Music Videos", Revolt
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/8849.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://tv2iptv.com:8000/Faysal/faysal123/37465
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://muzenly.com/wp-content/uploads/2017/01/sunburn.png" group-title="Music Videos", Sunburn TV
 https://vcndstv.teleosmedia.com/stream/dstv/sunburn/seglist_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="U TV" tvg-logo="http://img1.wikia.nocookie.net/__cb20140724130200/logopedia/images/0/0c/U_tv.png" group-title="Music Videos", U TV
@@ -1846,12 +1864,16 @@ http://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:9528-mbr/chunkl
 https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers TV
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7713.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers Europe
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://51.79.81.97:25461/ITV/4RTYUI/78
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Dusk
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://51.79.81.97:25461/ITV/4RTYUI/88
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7694.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER TV
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://51.79.81.97:25461/ITV/4RTYUI/86
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER BLUE
@@ -1870,10 +1892,16 @@ http://usaserver.miamitvchannel.com/miamitv/smil:miamitv/playlist.m3u8
 http://live.redtraffic.xyz/milf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse Black
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7718.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse Gold HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7701.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.sistemuydu.com/wp-content/uploads/2015/06/Digiturk-Playboy-TV.png" group-title="Adult TV", Playboy
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7730.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.sistemuydu.com/wp-content/uploads/2015/06/Digiturk-Playboy-TV.png" group-title="Adult TV", Playboy HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://51.79.81.97:25461/ITV/4RTYUI/79
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_Red_TV_Perú.png" group-title="Adult TV", RedTraffic 1
@@ -1912,5 +1940,8 @@ http://live.redtraffic.xyz/pov.m3u8
 http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7688.ts
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://ll-tv.xyz:24561/live/milo/milo123/7704.ts
+
