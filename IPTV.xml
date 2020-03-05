@@ -78,6 +78,22 @@
   <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
 </item>
 <item>
+<title>Alejandro</title><link>http://Ignoreme</link>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[makelist.param2]</title>
+   <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
+   <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[logo="([^"]*)"[^"]*"[^USA][^"]*",(.*)\W(.*)]]></expres>
+<page>https://raw.githubusercontent.com/Alejandro-Pereira/-Team/master/can%20ene</page>
+</regex>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+</item>
+<item>
 <title>Adult IPTV</title><link>http://Ignoreme</link>
 <externallink>https://iptv-org.github.io/iptv/categories/xxx.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
