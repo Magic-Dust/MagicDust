@@ -205,11 +205,11 @@ plugin://plugin.video.tvone11/play/17/1047/play.pvr
 https://buzzr.global.ssl.fastly.net/out/u/buzzr_hls_4.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ByuTV" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s21855_h3_aa.png" group-title="Cable", ByuTV
 http://a.jsrdn.com/broadcast/d5b46/+0000/high/c.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CBC" tvg-logo="vignette3.wikia.nocookie.net/logopedia/images/b/b7/Cbc-logo.png" group-title="Cable", CBC
+#EXTINF:-1 tvg-id="" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC
 plugin://script.module.tt/play/613/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="CBC" tvg-logo="vignette3.wikia.nocookie.net/logopedia/images/b/b7/Cbc-logo.png" group-title="Cable", CBC HD
+#EXTINF:-1 tvg-id="" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC HD
 plugin://plugin.video.arconaitv/?selection=stream.php%3Fid%3D206&mode=play
-#EXTINF:-1 tvg-id="" tvg-name="CBC Vancover" tvg-logo="vignette3.wikia.nocookie.net/logopedia/images/b/b7/Cbc-logo.png" group-title="Cable", CBC Vancover
+#EXTINF:-1 tvg-id="" tvg-name="CBC Vancover" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC Vancover
 plugin://plugin.video.tvone11/play/17/1083/play.pvr
 #EXTINF:-1 tvg-id="I148.73970.schedulesdirect.org" tvg-name="CBS Justice" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s73970_h3_aa.png" group-title="Cable", CBS Action
 plugin://plugin.video.tvone/play/65/play.pvr
@@ -1999,3 +1999,7 @@ http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=http://x-bosna.no-ip.biz:80/live.ts?channelId=150&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
 http://streamer-1.obozrenie.tv/42/39923765584d66bfda0327c1903c1a70580b23c7/240/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://icons.iconarchive.com/icons/iynque/ios7-style/1024/Weather-icon.png" group-title="Weather", radar
+https://vortex.plymouth.edu/gifs/200308193147_an.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://icons.iconarchive.com/icons/iynque/ios7-style/1024/Weather-icon.png" group-title="Weather", radar 2
+https://vortex.plymouth.edu/wxpmaps/atl_sat.gif
