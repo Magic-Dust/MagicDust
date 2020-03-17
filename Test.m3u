@@ -471,6 +471,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://hypersonic.mytvpro.org:83/live/68027114/75659469/416939.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02025567678532/qSpJjntzmBHbaRI/58654.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV 1080
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://nitro.ltd:25461/live/ottomejia/D48JslowX7/1263.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
 plugin://script.module.tt/play/697/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend HD
@@ -551,8 +553,6 @@ plugin://plugin.video.tvone/play/190/play.pvr
 plugin://plugin.video.tvone11/play/17/1070/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Slice" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Slice_logo.svg/1920px-Slice_logo.svg.png" group-title="Cable", Slice HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/927eF7UQCSpr4BoKL/68c0F9UD6JMwO5hiw/343.m3u8
-
-
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://static.iptv-epg.com/us/SmithsonianChannel.us.png" group-title="Cable", Smithsonian
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://hypersonic.mytvpro.org:83/live/68027114/75659469/524371.m3u8
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://static.iptv-epg.com/us/SmithsonianChannel.us.png" group-title="Cable", Smithsonian HD
@@ -1199,14 +1199,10 @@ plugin://script.module.tt/play/208/play.pvr
 plugin://plugin.video.tvone11/play/8/756/play.pvr
 #EXTINF:-1 tvg-id="I410.20203.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s20203_h3_aa.png" group-title="Sports", Sportsnet 360 HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/927eF7UQCSpr4BoKL/68c0F9UD6JMwO5hiw/147.m3u8
-
-
 #EXTINF:-1 tvg-id="I406.18798.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18798_h3_aa.png" group-title="Sports", Sportsnet East
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02025567678532/qSpJjntzmBHbaRI/58347.m3u8
 #EXTINF:-1 tvg-id="I406.18798.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18798_h3_aa.png" group-title="Sports", Sportsnet East HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://nitro.ltd:25461/live/ebravo29/DlTIByswBl/22345.m3u8
-
-
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://nitro.ltd:25461/live/ottomejia/D48JslowX7/22345.m3u8
 #EXTINF:-1 tvg-id="I639.49603.schedulesdirect.org" tvg-name="SportsNet New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/800px-SNY_logo.svg.png" group-title="Sports", SportsNet NY
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Fsny-sportsnet-new-york%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/sny-sportsnet-new-york/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I639.49603.schedulesdirect.org" tvg-name="SportsNet New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/800px-SNY_logo.svg.png" group-title="Sports", SportsNet NY HD
@@ -1221,12 +1217,8 @@ plugin://script.module.tt/play/214/play.pvr
 plugin://plugin.video.tvone11/play/8/754/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet Pacific" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18801_h3_aa.png" group-title="Sports", Sportsnet Pacific
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/927eF7UQCSpr4BoKL/68c0F9UD6JMwO5hiw/2434.m3u8
-
-
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet West" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18800_h3_aa.png" group-title="Sports", Sportsnet West
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/927eF7UQCSpr4BoKL/68c0F9UD6JMwO5hiw/8890.m3u8
-
-
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet West" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18800_h3_aa.png" group-title="Sports", Sportsnet West HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02025567678532/qSpJjntzmBHbaRI/58351.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sportsnet World" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s57735_h3_aa.png" group-title="Sports", Sportsnet World
@@ -1349,8 +1341,6 @@ plugin://script.module.tt/play/469/play.pvr
 plugin://script.module.tt/play/469/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MoreMax" tvg-logo="https://d2po7v53a8yrck.cloudfront.net/static/2/Open/2400x2400_1578/Source/20940/moremaxhd_2400_color_dark_light.png" group-title="Movies", MoreMax HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/927eF7UQCSpr4BoKL/68c0F9UD6JMwO5hiw/381.m3u8
-
-
 #EXTINF:-1 tvg-id="I522.59954.schedulesdirect.org" tvg-name="ThrillerMax East" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/thrillermax.png" group-title="Movies", ThrillerMax
 plugin://script.module.tt/play/471/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.imgur.com/ypQRBrH.png" group-title="Movies", Filmrise Classics
@@ -1385,8 +1375,6 @@ plugin://plugin.video.tvone11/play/41/7567/play.pvr
 plugin://script.module.tt/play/609/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="HBO Zone" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s59845_h3_aa.png" group-title="Movies", HBO Zone HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/927eF7UQCSpr4BoKL/68c0F9UD6JMwO5hiw/4828.m3u8
-
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://whitelist.tv/wp-content/uploads/2018/03/Hulu-300x300.png" group-title="Movies", Hulu
 https://ccf3786b925ee51c.mediapackage.us-east-1.amazonaws.com/out/v1/fdff572d836e4cbd84624de01d1e7a3d/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://venturebeat.com/wp-content/uploads/2016/06/netflix-logo.png?fit=578%2C578&strip=all" group-title="Movies", Netflix
