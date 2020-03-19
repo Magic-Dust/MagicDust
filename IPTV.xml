@@ -4,20 +4,24 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>[COLOR red]***Guide Update History***[/COLOR]</title><link>http://ignorame</link>
+<title>[COLOR red]***Guide Update History***[/COLOR]</title><
 <link>$doregex[makelist]</link>
 <thumbnail>https://github.com/Magic-Dust/MagicDust/raw/master/icon.png</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLORgold]Last Updated: [/COLOR][makelist.param2]/[makelist.param3]/[makelist.param1]  -  [makelist.param4]:[makelist.param5]</title>
+   <title>[COLORgold]Last Updated: [/COLOR][makelist.param2]-[makelist.param3]/[makelist.param1]  -  [makelist.param4]:[makelist.param5]</title>
    <thumbnail>https://github.com/Magic-Dust/MagicDust/raw/master/icon.png</thumbnail>
    <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA["dateModified"><relative-time datetime="([^-]*)-([^-]*)-([^T]*)T([^:]*):([^:]*):([^Z]*)]]></expres>
 <page>https://github.com/Magic-Dust/MagicDust/blob/master/Test.m3u</page>
 </regex>
+</item>
+<item>
+<title> </title>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
 <title>USA iptv-org</title><link>http://ignorame</link>
