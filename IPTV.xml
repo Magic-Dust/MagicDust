@@ -1,29 +1,31 @@
-<item>
+item>
 <title>[COLORgold]***PUBLIC IPTV***[/COLOR]</title><link>http://ignorame</link>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>USA IPTV</title><link>http://ignorame</link>
+<title>USA iptv-org</title><link>http://ignorame</link>
 <externallink>https://iptv-org.github.io/iptv/countries/us.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>UK IPTV</title><link>http://ignorame</link>
+<title>UK iptv-org</title><link>http://ignorame</link>
 <externallink>https://iptv-org.github.io/iptv/countries/uk.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>CANADA IPTV</title><link>http://ignorame</link>
+<title>CANADA iptv-org</title><link>http://ignorame</link>
 <externallink>https://iptv-org.github.io/iptv/countries/ca.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
 <title>FLUXUS USA</title>
 <link>$doregex[makelist]</link>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -35,29 +37,120 @@
 <page>https://pastebin.com/raw/ZzGTySZE</page>
 </regex>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+</item>
+<item>
+<title>Exodiver USA</title><link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/exodiver/IPTV/master/GoCast/Europa/Buckingham.m3u8$$HLSRETRY$$</externallink>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
 <title>Kilirushi USA</title><link>http://Ignoreme</link>
 <externallink>https://github.com/kilirushi/m3u/raw/master/us.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
 <title>Kilirushi Sports</title><link>http://Ignoreme</link>
 <externallink>https://github.com/kilirushi/m3u/raw/master/sport.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>Exodiver</title><link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/exodiver/IPTV/master/GoCast/Europa/Buckingham.m3u8$$HLSRETRY$$</externallink>
+<title>[COLOR gold]IPTV.com USA Daily M3Us[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
+<externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+]]></listrepeat>
+  <expres><![CDATA[<a href="(us_[^"]*)"[^=]*[^>]*>([^<]*)]]></expres>
+  <page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/</page>
+</regex>
+<regex>
+<name>FindMonth</name>
+<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
+<page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>FindYear</name>
+<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
+<page>https://m3u-iptv.com/wp-content/uploads/</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<item>
+<title>[COLOR gold]IPTV.com UK Daily M3Us[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
+<externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+]]></listrepeat>
+  <expres><![CDATA[<a href="(uk_[^"]*)"[^=]*[^>]*>([^<]*)]]></expres>
+  <page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/</page>
+</regex>
+<regex>
+<name>FindMonth</name>
+<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
+<page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>FindYear</name>
+<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
+<page>https://m3u-iptv.com/wp-content/uploads/</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<item>
+<title>[COLOR gold]IPTV.com Sports Daily M3Us [/COLOR] (long load)</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
+<externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+]]></listrepeat>
+  <expres><![CDATA[<a href="(sp_[^"]*)"[^=]*[^>]*>([^<]*)]]></expres>
+  <page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/</page>
+</regex>
+<regex>
+<name>FindMonth</name>
+<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
+<page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>FindYear</name>
+<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
+<page>https://m3u-iptv.com/wp-content/uploads/</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<title>MubzC</title><link>http://Ignoreme</link>
+<externallink>https://github.com/MubzC/M3U-Playlists/blob/master/Complete.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
   <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
 </item>
 <item>
 <title>Bitsbb01 (long load)</title>
 <link>$doregex[makelist]</link>
+<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -69,51 +162,6 @@
 <page>https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/newallchans.m3u</page>
 </regex>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>MubzC</title><link>http://Ignoreme</link>
-<externallink>https://github.com/MubzC/M3U-Playlists/blob/master/Complete.m3u$$HLSRETRY$$</externallink>
-<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
-</item>
-<item>
-<title>Alejandro</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>[makelist.param2]</title>
-   <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
-   <thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[logo="([^"]*)"[^"]*"[^USA][^"]*",(.*)\W(.*)]]></expres>
-<page>https://raw.githubusercontent.com/Alejandro-Pereira/-Team/master/can%20ene</page>
-</regex>
-<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
-</item>
-<item>
-<title>Adult IPTV</title><link>http://Ignoreme</link>
-<externallink>https://iptv-org.github.io/iptv/categories/xxx.m3u$$HLSRETRY$$</externallink>
-<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
-</item>
-<item>
-<title>Daily IPTV 1</title><link>http://Ignoreme</link>
-<externallink>https://m3u-iptv.com/wp-content/uploads/2020/03/us_170320_m3u-iptv_com-1.m3u$$HLSRETRY$$</externallink>
-<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
-</item>
-<item>
-<title>Daily IPTV 2</title><link>http://Ignoreme</link>
-<externallink>https://m3u-iptv.com/wp-content/uploads/2020/03/us_170320_m3u-iptv_com-3.m3u$$HLSRETRY$$</externallink>
-<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
-</item>
-<item>
-<title>Daily IPTV 3</title><link>http://Ignoreme</link>
-<externallink>https://m3u-iptv.com/wp-content/uploads/2020/03/us_170320_m3u-iptv_com-4.m3u$$HLSRETRY$$</externallink>
-<thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
-  <fanart>http://www.ezzer-mac.com/frank/artghost/iptv.jpg</fanart>
-</item>
