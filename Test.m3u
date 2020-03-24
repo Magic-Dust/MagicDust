@@ -1,16 +1,14 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="Coronvirus", Fox 24/7
 plugin://plugin.video.youtube/play/?video_id=mtw4SPeoHOA
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="Coronvirus", CDC 24/7
-plugin://plugin.video.youtube/play/?video_id=TQZYLaTJRP0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="Coronvirus", MAP 24/7
 plugin://plugin.video.youtube/play/?video_id=qgylp3Td1Bw
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="Coronvirus", LIVE MAP 1
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/382186.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/382186.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="Coronvirus", LIVE MAP 2
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/382185.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/382185.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="Coronvirus", LIVE MAP 3
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/382187.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/382187.m3u8
 
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
@@ -61,14 +59,18 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", PBS TvTap
 plugin://script.module.tt/play/169/play.pvr
 
+#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Albany CBS WRGB
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/82515.m3u8
+#EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" group-title="Broadcast", Albany NBC WNYT
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/82622.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", Los Angeles ABC KABC
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/300534.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/300534.m3u8
 #EXTINF:-1 tvg-id="I391.19567.schedulesdirect.org" tvg-name="" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Los Angeles CBS KCAL
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/300498.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/300498.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" group-title="Broadcast", Los Angeles NBC KNBC
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58650.m3u8
 #EXTINF:-1 tvg-id="I399.20450.schedulesdirect.org" tvg-name="" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", group-title="Broadcast", Los Angeles FOX KTTV
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/326796.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/326796.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" group-title="Broadcast", Madison NBC 15 WMTV
 http://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", Miami ABC
@@ -85,6 +87,10 @@ http://190.80.3.28/FOX/FOX.isml/index.m3u8
 http://190.80.3.28/CW/CW.isml/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", Miami PBS
 http://190.80.3.28/PBS/PBS.isml/index.m3u8
+#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Myrtle CBS WWAY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/82547.m3u8
+#EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" group-title="Broadcast", Myrtle NBC WMBF
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/82627.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", New York ABC 7 WABC
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58704.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", New York CBS 2 WCBS
@@ -94,13 +100,13 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://91
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", New York FOX 5 WNYW
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58755.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", Raleigh ABC WTVD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/337817.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/82700.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Raleigh CBS WFMY
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/300481.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/300481.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" group-title="Broadcast", Raleigh NBC WRAL
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/300432.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/300432.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", Raleigh FOX WRAZ
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/325670.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/325670.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", Sacramento ABC
 http://190.80.3.28/ABC/ABC.isml/index.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", TAMPA ABC WWSB
@@ -469,9 +475,9 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58654.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/15072.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/15072.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.macon.tv/images/metv_225x70x2.png" group-title="Cable", Me TV 1080
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/353703.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/353703.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
 plugin://script.module.tt/play/697/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend HD
@@ -979,10 +985,6 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fyoursports.stream%2Fing%2Facc%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+rv%3A56.0%29+Gecko%2F20100101+Firefox%2F56.0&mode=17&regexs=%7Bu%27source%27%3A%20%7B%27expres%27%3A%20u%27src%3D%22%28http%3A%5C%5C/%5C%5C/yrsprts.xyz%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27source%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/%27%7D%2C%20u%27base64%27%3A%20%7B%27expres%27%3A%20u%22mustave%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/ing/acc%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20u%27None%27%7D%7D
 #EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC 1080
 https://gma2.blab.email/acc.m3u8
-#EXTINF:-1 tvg-id="I615.82453.schedulesdirect.org" tvg-name="ESPN Goal Line" tvg-logo="https://planetdish.com/wp-content/uploads/2017/07/DISH-Network-Multi-Sport-ESPN-Goal-Line.png" group-title="Sports", ESPN Goal Line
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://hypersonic.mytvpro.org:83/live/68027114/75659469/532057.m3u8
-
-
 #EXTINF:-1 tvg-id="I677.72861.schedulesdirect.org" tvg-name="LONGHORN Network" tvg-logo="http://cdn1.bloguin.com/wp-content/uploads/sites/94/2015/01/Longhorn_Network.jpg" group-title="Sports", ESPN Longhorn
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Flonghorn-network%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/longhorn-network/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I677.72861.schedulesdirect.org" tvg-name="LONGHORN Network" tvg-logo="http://cdn1.bloguin.com/wp-content/uploads/sites/94/2015/01/Longhorn_Network.jpg" group-title="Sports", ESPN Longhorn HD
@@ -1018,9 +1020,7 @@ plugin://plugin.video.arconaitv/?selection=stream.php%3Fid%3D219&mode=play
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/d5c42e1f2b57b50e7583bbbafe71539dfe5e78c0a26e5cb2ae35de844d2dd751.png" group-title="Sports", FNTSY Network
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58804.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/d5c42e1f2b57b50e7583bbbafe71539dfe5e78c0a26e5cb2ae35de844d2dd751.png" group-title="Sports", FNTSY Network HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58804.m3u8
-
-
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://tv.latintvweb.com:25461/live/Donfelipe/Donfelipe213/27572.m3u8
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s82541_h3_aa.png" group-title="Sports", Fox Sports 1
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dfs1%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&amp;mode=17&amp;regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dfs1%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s82541_h3_aa.png" group-title="Sports", Fox Sports 1 HD
@@ -1040,31 +1040,31 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sa
 #EXTINF:-1 tvg-id="" tvg-name="FOX College Sports Pacific" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", FOX College Pacific
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58801.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fox Sports Prime Ticket" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16743_h3_aa.png" group-title="Sports", Fox Sports Prime Ticket
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64867.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64867.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://seeklogo.net/wp-content/uploads/2013/01/fox-racing-shox-logo-vector.png" group-title="Sports", Fox Sports Racing
 http://161.0.157.8/PLTV/88888888/224/3221226181/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Arizona
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64862.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64862.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Detroit
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64863.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64863.m3u8
 #EXTINF:-1 tvg-id="I654.11095.schedulesdirect.org" tvg-name="Fox Sports Florida" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Florida
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/65060.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/65060.m3u8
 #EXTINF:-1 tvg-id="I671.20638.schedulesdirect.org" tvg-name="Fox Sports kansas" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s11058_h3_aa.png" group-title="Sports", Fox Sports Kansas
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64864.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64864.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports North
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64865.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64865.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Ohio
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64866.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64866.m3u8
 #EXTINF:-1 tvg-id="I646.61092.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports South
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64869.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64869.m3u8
 #EXTINF:-1 tvg-id="I676.59629.schedulesdirect.org" tvg-name="Fox Sports Southwest HD" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10262_h3_aa.png" group-title="Sports", Fox Sports Southwest
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64872.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64872.m3u8
 #EXTINF:-1 tvg-id="I653.61084.schedulesdirect.org" tvg-name="Fox Sports Sun" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s61084_h3_aa.png" group-title="Sports", Fox Sports Sun
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/65053.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/65053.m3u8
 #EXTINF:-1 tvg-id="I692.59627.schedulesdirect.org" tvg-name="FOX Sports West HD" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s59627_h3_aa.png" group-title="Sports", FOX Sports West
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64873.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64873.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/Fox_Sports_South_logo.png" group-title="Sports", Fox Sports Wisconsin
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/64874.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/64874.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://auth0.com/learn/wp-content/uploads/2018/05/fuboTV_Blog_@2x.png" group-title="Sports", FUBO Sports
 https://sportsnet-midas.fubo.tv/v1/master/6c9193257c0eed8ca3f1eabccc4444f9477500f1/SportsNet/roku/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://auth0.com/learn/wp-content/uploads/2018/05/fuboTV_Blog_@2x.png" group-title="Sports", FUBO Sports HD
@@ -1082,7 +1082,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="MAV tv" tvg-logo="https://assets.lucasoil.com/logos/mavtv_motorsports_network_dark.png" group-title="Sports", MAV tv
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58655.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MAV tv" tvg-logo="https://assets.lucasoil.com/logos/mavtv_motorsports_network_dark.png" group-title="Sports", MAV tv HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/68854.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/68854.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MLB Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s62081_h3_aa.png" group-title="Sports", MLB Network
 http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_wired.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MLB Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s62081_h3_aa.png" group-title="Sports", MLB Network HD
@@ -1216,7 +1216,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sa
 #EXTINF:-1 tvg-id="I406.18798.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18798_h3_aa.png" group-title="Sports", Sportsnet East
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58347.m3u8
 #EXTINF:-1 tvg-id="I406.18798.schedulesdirect.org" tvg-name="" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s18798_h3_aa.png" group-title="Sports", Sportsnet East HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/268855.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/268855.m3u8
 #EXTINF:-1 tvg-id="I639.49603.schedulesdirect.org" tvg-name="SportsNet New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/800px-SNY_logo.svg.png" group-title="Sports", SportsNet NY
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Fsny-sportsnet-new-york%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/sny-sportsnet-new-york/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I639.49603.schedulesdirect.org" tvg-name="SportsNet New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/800px-SNY_logo.svg.png" group-title="Sports", SportsNet NY HD
@@ -1292,7 +1292,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="Yes Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s46275_h3_aa.png" group-title="Sports", Yes Network
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Fyes-network%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/yes-network/%5Cr%5Cn%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="Yes Network" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s46275_h3_aa.png" group-title="Sports", Yes Network HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/308758.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/308758.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="At The Races" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-at-the-races.png" group-title="Horse Racing", At The Races
 plugin://plugin.video.tvone111/play/MTA5Nw==w/play.pvr
@@ -1327,11 +1327,11 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=https://tjktv
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58764.m3u8
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/309344.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/309344.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG 2
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://158.69.127.36:25461/bravo/bravo/15585
-
-
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://tv.latintvweb.com:25461/live/Donfelipe/Donfelipe213/27453.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG 2 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/81931.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.empirecitycasino.com/wp-content/uploads/2017/02/logo.png" group-title="Horse Racing", Yonkers Raceway
 https://api.new.livestream.com/accounts/22933138/events/8666133/live.m3u8
 
@@ -1420,17 +1420,15 @@ plugin://script.module.tt/play/473/play.pvr
 #EXTINF:-1 tvg-id="I546.22532.schedulesdirect.org" tvg-name="Showtime West" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s21868_h3_aa.png" group-title="Movies", Showtime West HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58639.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Showtime Extreme East" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s21868_h3_aa.png" group-title="Movies", Showtime Extreme
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/308799.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/308799.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Showtime Next" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s21868_h3_aa.png" group-title="Movies", Showtime Next
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/362257.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/362257.m3u8
 #EXTINF:-1 tvg-id="I548.16153.schedulesdirect.org" tvg-name="Showtime Showcase East" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16153_h3_aa.png" group-title="Movies", Showtime Showcase
 plugin://script.module.tt/play/475/play.pvr
 #EXTINF:-1 tvg-id="I548.16153.schedulesdirect.org" tvg-name="Showtime Showcase East" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16153_h3_aa.png" group-title="Movies", Showtime Showcase HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58636.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Showtime Women" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16153_h3_aa.png" group-title="Movies", Showtime Women
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/b99fF1Ud4DIogUYwj/3d36F1UzY4KlS0WjT/11359.m3u8
-
-
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/f39bF1URXSTW5w9Dc/ a418F1UdFYE5FcM7s/11359.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SKY Action & Adventure" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s24031_h3_aa.png" group-title="Movies", SKY Action & Adventure
 plugin://script.module.tt/play/196/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="SKY Comedy" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s61182_h3_aa.png" group-title="Movies", SKY Comedy
@@ -1462,13 +1460,13 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="" tvg-name="Starz West HD" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz West
 plugin://plugin.video.tvone111/play/MTI2Mg==w/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Starz West HD" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz West HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://rayito-tv.xyz:41001/1/1/32039
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://iptvtree.net:8080/sckmydck/362a63707882/12044
 
 
 #EXTINF:-1 tvg-id="I531.67236.schedulesdirect.org" tvg-name="Starz Cinema East" tvg-logo="http://static3.wikia.nocookie.net/__cb20100919034043/logopedia/images/8/84/Starz_Cinema.jpg" group-title="Movies", Starz Cinema
 plugin://script.module.tt/play/482/play.pvr
 #EXTINF:-1 tvg-id="I531.67236.schedulesdirect.org" tvg-name="Starz Cinema East" tvg-logo="http://static3.wikia.nocookie.net/__cb20100919034043/logopedia/images/8/84/Starz_Cinema.jpg" group-title="Movies", Starz Cinema HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://rayito-tv.xyz:41001/1/1/32038
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://iptvtree.net:8080/sckmydck/362a63707882/25811
 
 
 #EXTINF:-1 tvg-id="I528.57569.schedulesdirect.org" tvg-name="Starz Comedy East" tvg-logo="http://images1.wikia.nocookie.net/__cb20100919034133/logopedia/images/d/d6/Starz_Comedy.jpg" group-title="Movies", Starz Comedy
@@ -1759,7 +1757,7 @@ http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XO/9XO.isml/9XO-audio_208482_und=20
 #EXTINF:-1 tvg-id="I340.28506.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/AXS_TV_Logo.png/200px-AXS_TV_Logo.png" group-title="Music Videos", AXS TV
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://www.sansat.net:25461/live/02023817927902/jDspXau2IAjJQmA/58698.m3u8
 #EXTINF:-1 tvg-id="I340.28506.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/AXS_TV_Logo.png/200px-AXS_TV_Logo.png" group-title="Music Videos", AXS TV HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/327473.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/327473.m3u8
 #EXTINF:-1 tvg-id="" tvg-name=""tvg-logo="https://barazaradio.com/wp-content/uploads/2019/10/logo-300x300.png" group-title="Music Videos", Baraza Classic
 https://eco.streams.ovh:443/BarazaClassic/BarazaClassic/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name=""tvg-logo="https://barazaradio.com/wp-content/uploads/2019/10/logo-300x300.png" group-title="Music Videos", Baraza Dance
@@ -1835,7 +1833,7 @@ http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RETRO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Retro_Music_TV_logo.png" group-title="Music Videos", RETRO HD
 http://592f16fa90d9b.streamlock.net/retrotv/smil:retrotv2.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RVLTHD" tvg-logo="https://yrgp.files.wordpress.com/2016/01/re-volt-logo-big.png" group-title="Music Videos", Revolt
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/303117.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/303117.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://dealood.com/content/uploads/images/June2019/sunburn[1]" group-title="Music Videos", Sunburn TV
 https://vcndstv.teleosmedia.com/stream/dstv/sunburn/seglist_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="U TV" tvg-logo="http://img1.wikia.nocookie.net/__cb20140724130200/logopedia/images/0/0c/U_tv.png" group-title="Music Videos", U TV
@@ -1944,19 +1942,19 @@ https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ikorRe8.png" group-title="Adult TV", BIKINI HD
 https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380185.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380185.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers Europe
 http://x-bosna.no-ip.biz:80/live.ts?channelId=147&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers Europe HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380186.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380186.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Dusk
 http://x-bosna.no-ip.biz:80/live.ts?channelId=152&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380188.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380188.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER TV
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://fr01.spr24.net/902/index.m3u8?token=BQF9PmuRpcxUqR
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER BLUE
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380224.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380224.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
 http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB  - MAIN STAGE
@@ -1970,11 +1968,11 @@ http://usaserver.miamitvchannel.com/miamitv/smil:miamitv/playlist.m3u8
 #EXTINF:-1 ,tvg-logo="https://i.pinimg.com/originals/ae/b6/35/aeb635030bbc5c6d6387ae3b0a7d79ba.png" group-title="Adult TV", MILF HD
 http://live.redtraffic.xyz/milf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse Black
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380236.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380236.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse Gold HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://fr01.spr24.net/909/index.m3u8?token=BQF9PmuRpcxUqR
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.sistemuydu.com/wp-content/uploads/2015/06/Digiturk-Playboy-TV.png" group-title="Adult TV", Playboy
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380220.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380220.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.sistemuydu.com/wp-content/uploads/2015/06/Digiturk-Playboy-TV.png" group-title="Adult TV", Playboy HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://fr01.spr24.net/5235/index.m3u8?token=BQF9PmuRpcxUqR
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_Red_TV_Perú.png" group-title="Adult TV", RedTraffic 1
@@ -2014,9 +2012,9 @@ http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=http://x-bosna.no-ip.biz:80/live.ts?channelId=150&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380158.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380158.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/Kericage/6824106935/380174.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://yourdnshere.xyz:83/live/OM1qxKIalX/8ItAbtKxSz/380174.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=http://fr01.spr24.net/19180/index.m3u8?token=BQF9PmuRpcxUqR
 
@@ -2026,3 +2024,11 @@ https://1946514655.rsc.cdn77.org/1946514655/tracks-v1a1/mono.m3u8
 https://nimble.dashstreams.net/onestudio/spydar/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cordcutting.com/wp-content/uploads/2016/11/pluto-tv-android.png" group-title="Sweeney", Pluto Classic Movies
 https://stitcher.pluto.tv/stitch/hls/channel/569546031a619b8f07ce6e25/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=6e360db0-724b-11e8-be77-bf4d1417b012&deviceId=889540f0-712d-11e8-b9ec-8ba319deeadf&deviceVersion=37.0.2049.0&appVersion=2.0.0&deviceDNT=0&userId=&advertisingId=&deviceLat=38.5783&deviceLon=-90.6666&app_name=&appName=&appStoreUrl=&serverSideAds=true
+#EXTINF:-1 tvg-id="" tvg-name=""  tvg-logo="http://www.universdescomics.com/wp-content/uploads/2018/05/Batman_66_logo-1.png" group-title="Sweeney", Batman 1966
+plugin://plugin.video.temptv/?action=arconai_play&amp;selection=stream.php%3Fid%3D109
+#EXTINF:-1 tvg-id="" tvg-name=""  tvg-logo="http://images2.wikia.nocookie.net/__cb20130614181540/villains/images/6/65/Beavis-and-Butt-head.png" group-title="Sweeney", Beavis and Butt-Head
+plugin://plugin.video.temptv/?action=arconai_play&amp;selection=stream.php%3Fid%3D110
+#EXTINF:-1 tvg-id="" tvg-name=""  tvg-logo="https://upload.wikimedia.org/wikipedia/pt/e/e6/The_Simpsons_promo.png" group-title="Sweeney", Simpsons
+plugin://plugin.video.temptv/?action=arconai_play&amp;selection=stream.php%3Fid%3D80
+#EXTINF:-1 tvg-id="" tvg-name=""  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Twilight_Zone_Optical.svg/600px-Twilight_Zone_Optical.svg.png" group-title="Sweeney"  The Twilight Zone
+plugin://plugin.video.temptv/?action=arconai_play&amp;selection=stream.php%3Fid%3D97
