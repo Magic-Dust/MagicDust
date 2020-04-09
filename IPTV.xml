@@ -118,33 +118,59 @@
 </regex>
 </item>
 <item>
-<title>[COLOR gold]IPTV.com Sports Daily M3Us [/COLOR] (long load)</title>
-<link>$doregex[makelist]</link>
-<thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
+<title>[COLOR gold]Extreme Codes[/COLOR] - IPTV Lists</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
-<externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
+<title>[COLOR gold][makelist.param2][/COLOR]</title>
+<link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
-  <expres><![CDATA[<a href="(sp_[^"]*)"[^=]*[^>]*>([^<]*)]]></expres>
-  <page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/</page>
+  <expres><![CDATA[<a href="([^"]*)">([^<]*)<\/a>\n]]></expres>
+  <page>https://iptvxtreamcodes.com/category/iptv-xtream-codes/</page>
 </regex>
 <regex>
-<name>FindMonth</name>
-<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
-<page>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>FindYear</name>
-<expres><![CDATA[<a href="([^\/]*)\/">[^&]*&nbsp;<\/td><\/tr>\n ]]></expres>
-<page>https://m3u-iptv.com/wp-content/uploads/</page>
-<cookieJar></cookieJar>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist2.param1][/COLOR] - [COLOR red][makelist2.param2][/COLOR]</title><link>http://ignorame</link>
+<externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+]]></listrepeat>
+  <expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
+  <page>$doregex[makelist.param2]</page>
 </regex>
 </item>
+
+<item>
+<title>[COLOR gold]IPTV Source[/COLOR] - IPTV Lists</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+]]></listrepeat>
+  <expres><![CDATA[<li>\n<a href='([^']*)'>([^<]*)]]></expres>
+  <page>https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist2.param1][/COLOR]</title><link>http://ignorame</link>
+<externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+]]></listrepeat>
+  <expres><![CDATA[<p>(http[^<]*)]]></expres>
+  <page>$doregex[makelist.param1]</page>
+</regex>
+</item>
+<item>
 <title>MubzC</title><link>http://Ignoreme</link>
 <externallink>https://github.com/MubzC/M3U-Playlists/blob/master/Complete.m3u$$HLSRETRY$$</externallink>
 <thumbnail>http://www.ezzer-mac.com/frank/artghost/iptv.png</thumbnail>
