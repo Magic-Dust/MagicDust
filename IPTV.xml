@@ -125,22 +125,22 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist.param2][/COLOR]</title>
+<title>[makelist.param2]</title>
 <link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
-  <expres><![CDATA[<a href="([^"]*)">([^<]*)<\/a>\n]]></expres>
-  <page>https://iptvxtreamcodes.com/category/iptv-xtream-codes/</page>
+<expres><![CDATA[<a href="([^"]*)">([^<]*)<\/a>\n]]></expres>
+<page>https://iptvxtreamcodes.com/category/iptv-xtream-codes/</page>
 </regex>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist2.param1][/COLOR] - [COLOR red][makelist2.param2][/COLOR]</title><link>http://ignorame</link>
+<title>[makelist2.param1] - [makelist2.param2]</title><link>http://ignorame</link>
 <externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
-  <expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
-  <page>$doregex[makelist.param2]</page>
+<expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
+<page>$doregex[makelist.param2]</page>
 </regex>
 </item>
 <item>
@@ -155,18 +155,18 @@
 <link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
-  <expres><![CDATA[<li>\n<a href='([^']*)'>([^<]*)]]></expres>
-  <page>https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8</page>
+<expres><![CDATA[<li>\n<a href='([^']*)'>([^<]*)]]></expres>
+<page>https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8</page>
 </regex>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist2.param1][/COLOR]</title><link>http://ignorame</link>
+<title>[makelist2.param1]</title><link>http://ignorame</link>
 <externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
-  <expres><![CDATA[<p>(http[^<]*)]]></expres>
-  <page>$doregex[makelist.param1]</page>
+<expres><![CDATA[<p>(http[^<]*)]]></expres>
+<page>$doregex[makelist.param1]</page>
 </regex>
 </item>
 <item>
