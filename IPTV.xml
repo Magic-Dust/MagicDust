@@ -125,7 +125,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2]</title>
+<title>[makelist.param2] - [makelist.param1] </title>
 <link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -151,7 +151,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title>
 <link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
