@@ -6,6 +6,7 @@
 <item>
 <title> </title>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<NOTPlayable>True</NOTPlayable>
 </item>
 <item>
 <title>USA iptv-org</title><link>http://ignorame</link>
@@ -62,14 +63,14 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>[COLOR gold]IPTV.com USA Daily M3Us[/COLOR]</title>
+<title>[COLOR skyblue]IPTV.com USA Daily M3Us[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2] - [makelist.param1]</title><link>http://ignorame</link>
+<title>[COLOR skyblue][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
 <externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -90,14 +91,14 @@
 </regex>
 </item>
 <item>
-<title>[COLOR gold]IPTV.com UK Daily M3Us[/COLOR]</title>
+<title>[COLOR skyblue]IPTV.com UK Daily M3Us[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2] - [makelist.param1]</title><link>http://ignorame</link>
+<title>[COLOR skyblue][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
 <externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -119,14 +120,14 @@
 </item>
 
 <item>
-<title>[COLOR gold]Extreme Codes[/COLOR] - IPTV Lists</title>
+<title>[COLOR skyblue]Extreme Codes IPTV [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2] - [makelist.param1] </title>
+<title>[COLOR skyblue][makelist.param2][/COLOR] - [makelist.param1] </title>
 <link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -136,7 +137,7 @@
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[makelist2.param1] - [makelist2.param2]</title><link>http://ignorame</link>
+<title>[COLOR skyblue][makelist2.param1][/COLOR] - [makelist2.param2]</title><link>http://ignorame</link>
 <externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -151,14 +152,14 @@
 </item>
 
 <item>
-<title>[COLOR gold]IPTV Source[/COLOR] - IPTV Lists</title>
+<title>[COLOR skyblue]IPTV Source[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title>
+<title>[COLOR skyblue][makelist.param2][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -169,7 +170,7 @@
 <name>makelist2</name>
 <listrepeat><![CDATA[
 <title>[makelist2.param1]</title><link>http://ignorame</link>
-<externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
+<externallink>[makelist2.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<p>(http[^<]*)]]></expres>
@@ -180,8 +181,8 @@
 <expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
 <page></page>
 </regex>
-  
 </item>
+
 <item>
 <title>MubzC</title><link>http://Ignoreme</link>
 <externallink>https://github.com/MubzC/M3U-Playlists/blob/master/Complete.m3u$$HLSRETRY$$</externallink>
