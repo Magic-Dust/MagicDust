@@ -69,7 +69,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
+<title>[makelist.param2] - [makelist.param1]</title><link>http://ignorame</link>
 <externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -97,7 +97,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold][makelist.param2][/COLOR] - [makelist.param1]</title><link>http://ignorame</link>
+<title>[makelist.param2] - [makelist.param1]</title><link>http://ignorame</link>
 <externallink>https://m3u-iptv.com/wp-content/uploads/$doregex[FindYear]/$doregex[FindMonth]/[makelist.param1]$$TSDOWNLOADER$$</externallink>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -119,7 +119,7 @@
 </item>
 <item>
 <title>[COLOR gold]Extreme Codes[/COLOR] - IPTV Lists</title>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
@@ -143,10 +143,9 @@
   <page>$doregex[makelist.param2]</page>
 </regex>
 </item>
-
 <item>
 <title>[COLOR gold]IPTV Source[/COLOR] - IPTV Lists</title>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
