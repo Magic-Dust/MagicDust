@@ -156,7 +156,7 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<li>\n<a href='([^']*)'>([^<]*)]]></expres>
-<page>https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8</page>
+<page>$doregex[createSessionHome]</page>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -166,8 +166,19 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<p>(http[^<]*)]]></expres>
-<page>$doregex[makelist.param1]</page>
+<page>$doregex[createSession]</page>
 </regex>
+<regex>
+<name>createSession</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
+<page></page>
+</regex>
+<regex>
+<name>createsessionhome</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
+<page></page>
+</regex>
+  
 </item>
 <item>
 <title>MubzC</title><link>http://Ignoreme</link>
