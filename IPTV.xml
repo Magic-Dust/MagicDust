@@ -117,6 +117,7 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
+
 <item>
 <title>[COLOR gold]Extreme Codes[/COLOR] - IPTV Lists</title>
 <link>$doregex[makelist]</link>
@@ -130,7 +131,7 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<a href="([^"]*)">([^<]*)<\/a>\n]]></expres>
-<page>https://iptvxtreamcodes.com/category/iptv-xtream-codes/</page>
+<page>$doregex[createsessionhome]</page>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -142,7 +143,13 @@
 <expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
 <page>$doregex[makelist.param2]</page>
 </regex>
+<regex>
+<name>createsessionhome</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('https://iptvxtreamcodes.com/category/iptv-xtream-codes/',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
+<page></page>
+</regex>
 </item>
+
 <item>
 <title>[COLOR gold]IPTV Source[/COLOR] - IPTV Lists</title>
 <link>$doregex[makelist]</link>
@@ -156,7 +163,7 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<li>\n<a href='([^']*)'>([^<]*)]]></expres>
-<page>$doregex[createSessionHome]</page>
+<page>https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8</page>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -171,11 +178,6 @@
 <regex>
 <name>createSession</name>
 <expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
-<page></page>
-</regex>
-<regex>
-<name>createsessionhome</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('https://www.iptvsrc.net/search/label/Free%20IPTV%20M3U?&max-results=8',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
 <page></page>
 </regex>
   
