@@ -121,14 +121,14 @@
 
 <item>
 <title>[COLOR skyblue]Extreme Codes IPTV [/COLOR]</title>
-<link>$doregex[makelist]|User-Agent=Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363</link>
+<link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR skyblue][makelist.param2][/COLOR] - [makelist.param1] </title>
-<link>$doregex[makelist2]</link>
+<title>[COLOR skyblue][makelist.param2][/COLOR] - [makelist.param1]</title>
+<link>$doregex[makelist2.param1]</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<a href="([^"]*)">([^<]*)<\/a>\n]]></expres>
@@ -145,12 +145,9 @@
 <expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
 <page>$doregex[makelist.param2]</page>
 </regex>
-
 <regex>
 <name>createsessionhome</name>
-<expres></expres>
 <page>$pyFunction:cloudflare.createCookie('https://iptvxtreamcodes.com/category/iptv-xtream-codes/',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</page>
-<includeheaders></includeheaders>
 <cookieJar></cookieJar>
 </regex>
 </item>
