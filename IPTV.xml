@@ -128,12 +128,13 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR skyblue][makelist.param2][/COLOR] - [makelist.param1]</title>
-<link>$doregex[makelist2.param1]</link>
+<link>$doregex[makelist2.param1]|Cookie=$get_cookies$&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363</link>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<a href="([^"]*)">([^<]*)<\/a>\n]]></expres>
 <page>https://iptvxtreamcodes.com/category/iptv-xtream-codes/</page>
-<cookieJar>$doregex[createsessionhome]</cookieJar>  
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363</agent>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -144,28 +145,13 @@
 ]]></listrepeat>
 <expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
 <page>https://iptvxtreamcodes.com/iptv-xtream-codes-09-04-2020/</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363</agent>
 </regex>
 <regex>
-<name>createsessionhome</name>
-<expres>$pyFunction:cloudflare.createCookie('https://iptvxtreamcodes.com/iptv-xtream-codes-09-04-2020/',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
-<page></page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR blue]Extreme Codes IPTV Daily Test[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
-<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[COLOR skyblue][makelist2.param1][/COLOR] - [makelist2.param2]</title><link>http://ignorame</link>
-<externallink>$doregex[makelist2.param1]$$TSDOWNLOADER$$</externallink>
-<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[<h4>(http[^<]*)<br>([^<]*)]]></expres>
-<page>https://iptvxtreamcodes.com/iptv-xtream-codes-09-04-2020/</page>
+<name>createCFCookie</name>
+<expres></expres>
+<page>$pyFunction:cloudflare.createCookie('https://iptvxtreamcodes.com/category/iptv-xtream-codes/',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</page>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
