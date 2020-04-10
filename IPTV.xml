@@ -63,9 +63,9 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 </item>
 <item>
-<title>[COLOR Red]IPTV.com USA Daily M3Us[/COLOR]</title>
+<title>[COLOR blue]IPTV.com USA Daily M3Us[/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
+<thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
@@ -91,9 +91,9 @@
 </regex>
 </item>
 <item>
-<title>[COLOR Red]IPTV.com UK Daily M3Us[/COLOR]</title>
+<title>[COLOR blue]IPTV.com UK Daily M3Us[/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://www.dailyiptvlist.com/wp-content/uploads/2017/02/logo0001.png</thumbnail>
+<thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
 <regex>
 <name>makelist</name>
@@ -120,7 +120,7 @@
 </item>
 
 <item>
-<title>[COLOR Red]Extreme Codes IPTV Daily M3Us[/COLOR]</title>
+<title>[COLOR blue]Extreme Codes IPTV Daily M3Us[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
@@ -147,13 +147,13 @@
 </regex>
 <regex>
 <name>createsessionhome</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('https://iptvxtreamcodes.com/category/iptv-xtream-codes/',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
+<expres>$pyFunction:cloudflare.createCookie('https://iptvxtreamcodes.com/category/iptv-xtream-codes/',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363')</expres>
 <page></page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR Red]IPTV Source Daily M3Us[/COLOR]</title>
+<title>[COLOR blue]IPTV Source Daily M3Us[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://iptvgo.xyz/wp-content/uploads/2018/09/iptv-player.jpg</thumbnail>
 <fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
