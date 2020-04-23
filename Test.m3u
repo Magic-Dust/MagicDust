@@ -1,5 +1,5 @@
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC
-http://190.80.3.28/ABC/ABC.isml/index.m3u8
+http://87.120.36.62:8080/hls/streama117998/index.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC HD
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Fabc%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/abc/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s10003_h3_aa.png" group-title="Broadcast", ABC 1080
@@ -1211,6 +1211,8 @@ https://p12x-lh.akamaihd.net/i/pac12plus_delivery@198236/master.m3u8
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Setanta Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/Setanta_sports_hd.png" group-title="Sports", Setanta Sports
 plugin://plugin.video.tvone11/play/8/712/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="Setanta Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/Setanta_sports_hd.png" group-title="Sports", Setanta Sports HD
+http://188.93.95.34:80/setanta_georgia/index.m3u8
 #EXTINF:-1 tvg-id="I408.104324.schedulesdirect.org" tvg-name="SKY Sports 1" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s49609_h3_aa.png" group-title="Sports", SKY Arena
 plugin://script.module.tt/play/204/play.pvr
 #EXTINF:-1 tvg-id="I404.51204.schedulesdirect.org" tvg-name="SKY Sports 2" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s51204_h3_aa.png" group-title="Sports", SKY Cricket
