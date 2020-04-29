@@ -685,12 +685,10 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://104.21
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16374_h3_aa.png" group-title="News", Fox News
 plugin://script.module.tt/play/119/play.pvr
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16374_h3_aa.png" group-title="News", Fox News HD
-plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fimkmedia.com%2Fwatch%2Ffox-news%2F%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%27source%3A%20atob%5C%5C%28%22%28%5B%5E%22%5D%2A%29%27%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//imkmedia.com/watch/fox-news/%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
-
-
+plugin://plugin.video.temptv/?action=streamlivePlay&amp;url=https%3a%2f%2fwww.streamlive.to%2fview%2f68968%2fFox-News-(SD)
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16374_h3_aa.png" group-title="News", Fox News 1080
-plugin://script.module.tt/play/119/play.pvr
--+-+#EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16374_h3_aa.png" group-title="News", Fox News Direct
+plugin://plugin.video.temptv/?action=yoursportsPlay&amp;url=http%3a%2f%2fyoursports.stream%2fing%2ffoxnews
+#EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s16374_h3_aa.png" group-title="News", Fox News Direct
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://nitro.ltd:25461/live/Max30/WQEyZd5Ilf/22184.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s58718_h3_aa.png" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
