@@ -241,7 +241,7 @@ plugin://plugin.video.tvone/play/68/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="CBS Reality" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s31756_h3_aa.png" group-title="Cable", CBS Reality SD
 plugin://plugin.video.tvone11/play/4/331/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="CBS Reality" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s31756_h3_aa.png" group-title="Cable", CBS Reality HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://46.166.148.101:8000/live/GLvph1SdWb/LOMLTWAMBf/7187.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://145.239.255.4:8080/CBSReality/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="" tvg-name="CBS Reality" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s31756_h3_aa.png" group-title="Cable", CBS Reality 1080
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/7625F1ULCasq7N2i4/8cb8F1UlUi4SqlgHS/7187.m3u8
 #EXTINF:-1 tvg-id="I104.17155.schedulesdirect.org" tvg-name="Channel 4" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s17155_h3_aa.png" group-title="Cable", Channel 4
@@ -636,6 +636,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://46.166
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://ok2.se:8000/live/7625F1ULCasq7N2i4/8cb8F1UlUi4SqlgHS/368.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TCM UK" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s64312_h3_aa.png" group-title="Cable", TCM UK
 plugin://plugin.video.tvone/play/292/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="TCM UK" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s64312_h3_aa.png" group-title="Cable", TCM UK HD
+http://145.239.255.4:8080/TCMUK/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="" tvg-name="TG 4" tvg-logo="https://ansionnachfionn.files.wordpress.com/2012/01/tg4.jpg" group-title="Cable", TG 4
 plugin://plugin.video.tvone/play/226/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="TG 4" tvg-logo="https://ansionnachfionn.files.wordpress.com/2012/01/tg4.jpg" group-title="Cable", TG 4 HD
