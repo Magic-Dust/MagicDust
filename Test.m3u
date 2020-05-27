@@ -328,6 +328,8 @@ plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%
 plugin://plugin.video.tvone/play/91/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Discovery UK" tvg-logo="https://cf-media.press.discovery.com/ugc/logos/2009/08/22/DSC_rev.png" group-title="Cable", Discovery UK HD
 http://streamidvo.multitvsolution.in/DiscoveryEng-a/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Discovery UK" tvg-logo="https://cf-media.press.discovery.com/ugc/logos/2009/08/22/DSC_rev.png" group-title="Cable", Discovery UK 1080
+http://178.132.3.162:88/Discovery/video.m3u8?token=test
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cf-media.press.discovery.com/ugc/logos/2009/08/22/DSC_rev.png" group-title="Cable", Discovery Canada
 plugin://plugin.video.tvone11/play/17/1053/play.pvr
 #EXTINF:-1 tvg-id="I294.67749.schedulesdirect.org" tvg-name="Discovery Family" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/discovery_family_channel_logo_5586.png" group-title="Cable", Discovery Family
@@ -547,6 +549,8 @@ plugin://plugin.video.temptv/?action=ustreamixPlay&amp;url=https%3a%2f%2fustream
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.worldtvpc.com/blog/wp-content/uploads/2011/01/MeTV_Logo.png" group-title="Cable", Me TV HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://seyirtv101.com:8080/orkun2020/orkun2020/4253
 #EXTINF:-1 tvg-id="I567.58530.schedulesdirect.org" tvg-name="" tvg-logo="https://stargatelegacy.com/wp-content/uploads/2015/07/mgmNet.jpg" group-title="Cable", MGM Sci-FI
+https://mgm-ssai.akamaized.net/amagi_hls_data_mgmAAAAAA-theworks/CDN/720x404_1425600/index.m3u8
+#EXTINF:-1 tvg-id="I567.58530.schedulesdirect.org" tvg-name="" tvg-logo="https://stargatelegacy.com/wp-content/uploads/2015/07/mgmNet.jpg" group-title="Cable", MGM Sci-FI HD
 https://mgm-ssai.akamaized.net/amagi_hls_data_mgmAAAAAA-theworks/CDN/1920x1080_5420800/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
 plugin://script.module.tt/play/697/play.pvr
@@ -2222,6 +2226,10 @@ http://184.173.179.163:1935/victorytelevisionnetwork/victorytelevisionnetwork/pl
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.ranklogos.com/wp-content/uploads/2014/11/The-Word-Network.png" group-title="Religious", The Word
 http://thewordhls-i.akamaihd.net/hls/live/217932-b/thewordhls/iOS/stream1.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/jn3zdTp.png" group-title="Adult TV", Ass TV
+https://www.ast.tv/stream/1/cellular.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/jn3zdTp.png" group-title="Adult TV", Ass TV HD
+http://www.ast.tv/stream/2/master.m3u8?fluxuslust.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.babestation.tv/cams/_nuxt/img/15f4392.png" group-title="Adult TV", Babestation
 http://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:9528-mbr/chunklist_b1728000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.babestation.tv/cams/_nuxt/img/15f4392.png" group-title="Adult TV", Babestation Extra
@@ -2244,6 +2252,8 @@ http://x-bosna.no-ip.biz:80/live.ts?channelId=152&deviceUser=MamaTata&devicePass
 http://x-bosna.no-ip.biz/live.ts?channelId=148&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER TV
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://195.181.161.111:80/lgeDIC06Nv/NuLLovttej/21
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER 1080
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://188.35.9.26:2030/udp/047c
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER BLUE
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://195.181.161.111:80/live/lgeDIC06Nv/NuLLovttej/8371.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
@@ -2303,8 +2313,10 @@ http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=http://x-bosna.no-ip.biz:80/live.ts?channelId=150&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red HD
-http://bit.ly/37Ir2n6
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://bit.ly/37Ir2n6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red 1080
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://188.35.9.12:21131/udp/142d
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://195.181.161.111:80/live/lgeDIC06Nv/NuLLovttej/8375.m3u8
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://188.35.9.26:2031/udp/031a
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://satelliteiptv.xyz:8080/tschardt/qg9vadjm7/13864
