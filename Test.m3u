@@ -10,6 +10,8 @@ plugin://script.module.tt/play/23/play.pvr
 plugin://plugin.video.live.streamspro/?mode=13&name=CBS&playlist=%5Bu%27http%3A%2F%2F161.0.157.5%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%24%24LSPlayOnlyOne%24%24%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%27%5D
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS SD
 http://163.172.213.234/live/CBS/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fcbs%2f
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS 1080
@@ -456,9 +458,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs
 #EXTINF:-1 tvg-id="" tvg-name="FXX West" tvg-logo="http://www.centracomblog.com/wp-content/uploads/2013/08/fxx-thumb.jpg" group-title="Cable", FXX West
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dfxxw%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&amp;mode=17&amp;regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dfxxw%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20u%27None%27%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="FYISD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Cable", FYI
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://cdn.miip.tv:8080/live/canada/123456/365.m3u8
-
-
+http://103.135.208.14/live/ibox/bd/73.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FYISD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Cable", FYI HD
 https://edge01.iptv.digijadoo.net/live/fyi_hd/chunks.m3u8
 #EXTINF:-1 tvg-id="I233.14909.schedulesdirect.org" tvg-name="Game Show Network" tvg-logo="http://direct-vs-dish.com/media/channel_logos/GSN.png.300x300_q85.png" group-title="Cable", Game Show Network
@@ -718,9 +718,7 @@ plugin://script.module.tt/play/307/play.pvr
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC 1080
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2ftlc%2f
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC Direct
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://cdn.miip.tv:8080/live/canada/123456/3712.m3u8
-
-
+http://103.135.208.14/live/ibox/bd/62.m3u8
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC UK
 plugin://plugin.video.tvone11/play/4/307/play.pvr
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC UK HD
@@ -918,6 +916,8 @@ https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/masterv3_1024x576.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SKY News America" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News America
 http://d59pscns5ugc8.cloudfront.net/cdhls/skynewsamericas/1013/live/06.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY News America" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News America HD
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News Australia
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5e46fba0c43b0d00096e5ac1/featuredImage.jpg" group-title="News", The Blaze
@@ -1087,6 +1087,8 @@ plugin://plugin.video.tvone11/play/8/720/play.pvr
 #EXTINF:-1 tvg-id="I392.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports 1080
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fbein-sports-usa%2f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.beinsportsxtra.com/images/icons/logo/beIN-SPORTS-XTRA_LOGO.png" group-title="Sports", beIN Extra
+https://bein-xtra-roku.amagi.tv/ingest/playlist404p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.beinsportsxtra.com/images/icons/logo/beIN-SPORTS-XTRA_LOGO.png" group-title="Sports", beIN Extra HD
 https://bein-xtra-roku.amagi.tv/ingest/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="I610.56783.schedulesdirect.org" tvg-name="BTN" tvg-logo="https://vignette3.wikia.nocookie.net/logopedia/images/9/95/Btn-440.png/revision/latest?cb=20151217190620" group-title="Sports", Big Ten Network
 plugin://plugin.video.tvone11/play/5/247/play.pvr
@@ -1210,6 +1212,8 @@ http://5.135.92.133:52841/out/u/509_1.m3u8
 plugin://plugin.video.tvone/play/109/play.pvr
 #EXTINF:-1 tvg-id="I865.27413.schedulesdirect.org" tvg-name="Eurosport 2" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20061.png" group-title="Sports", Eurosport HD
 https://cdn-laos.workpoint.news/uk-eurosport2_480/index.m3u8
+#EXTINF:-1 tvg-id="I250.78763.schedulesdirect.org" tvg-name="FIGHTBX" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s78763_dark_360w_270h.png" group-title="Sports", Fightbox
+https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports", Fox Sports 1
 http://198.144.159.43/upl2_2.m3u8
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports", Fox Sports 1 SD
@@ -1441,7 +1445,7 @@ https://ott-live.olympicchannel.com/out/u/OC11_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Sports", Olympic Channel 13
 https://ott-live.olympicchannel.com/out/u/OC12_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://onegolftv.com/wp-content/uploads/2018/08/onegolf-HD-with-image-200px.png" group-title="Sports", One Golf
-http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
+http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Network
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fyoursports.stream%2Flive%3Fv%3Dtvx2%3Fch%3Dpac12plus%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+rv%3A56.0%29+Gecko%2F20100101+Firefox%2F56.0&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22mustave%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/ing/tvx2%3Fch%3Dpac12plus%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Network HD
@@ -1454,6 +1458,8 @@ https://p12x-lh.akamaihd.net/i/pac12plus_delivery@198236/master.m3u8
 plugin://script.module.tt/play/672/play.pvr
 #EXTINF:-1 tvg-id="I473.109784.schedulesdirect.org" tvg-name="Real Madrid" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s109784_dark_360w_270h.png" group-title="Sports", Real Madrid HD
 plugin://plugin.video.tvone11/play/8/718/play.pvr
+#EXTINF:-1 tvg-id="I473.109784.schedulesdirect.org" tvg-name="Real Madrid" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s109784_dark_360w_270h.png" group-title="Sports", Real Madrid 1080
+http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Red Bull HD" tvg-logo="https://i.imgur.com/A4GMBN6.png" group-title="Sports", Red Bull
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Setanta Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/Setanta_sports_hd.png" group-title="Sports", Setanta Sports
@@ -1610,6 +1616,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://vlc.ne
 plugin://script.module.tt/play/785/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="UFC Network" tvg-logo="http://swiftstreamz.com/SwiftLive/images/thumbs/27041_ufcfight.jpg" group-title="Sports", UFC Network HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fufc-fight-pass%2f
+#EXTINF:-1 tvg-id="" tvg-name="UFC Network" tvg-logo="http://swiftstreamz.com/SwiftLive/images/thumbs/27041_ufcfight.jpg" group-title="Sports", UFC Network 1080
+https://receiver.adjara.com/adjarasport_live/UFCTV/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/hcbtTcz.png" group-title="Sports", VSIN
 https://api.new.livestream.com/accounts/22774234/events/6897936/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WWE Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/1121px-WWE_Logo.svg.png" group-title="Sports;Cable", WWE Network
@@ -2087,13 +2095,15 @@ https://edge1.dashmedia.tv/onestudio/gonefishing/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://smashsupreme.com/wp-content/uploads/2018/01/finn_20.png" group-title="24/7", Mobcrush
 https://ott.mobcrush.com/hls/0/ott.m3u8
 #EXTINF:-1 tvg-id="I352.12553.schedulesdirect.org" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA TV
-http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8
+https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
 #EXTINF:-1 tvg-id="I352.12553.schedulesdirect.org" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA HD
 http://hls.ums.ustream.tv/playlist/directhls/channel/6540154/playlist.m3u8?sgn=31d0dfb847c358d4cedcd2256dc4e1c42a7f13a7
 #EXTINF:-1 tvg-id="I352.12553.schedulesdirect.org" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA 1080
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fnasa-tv%2f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA Space
 http://hls.ums.ustream.tv/playlist/directhls/channel/17074538/playlist.m3u8?sgn=23d01ff63b69b7f4c64f8b170e0cbf8b196af2da
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA Space HD
+http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/l2O0fY1.png" group-title="24/7", Offshore Fishing
 http://30a-tv.com/darcizzle.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://userscontent2.emaze.com/images/3aad53e1-b1ed-4615-b73f-5da38c50f186/b6e7a922-ea23-4d64-aaa1-47f1ad5ce794.png" group-title="24/7", Rick and Morty
@@ -2428,9 +2438,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://cdn.mi
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://iptvgold.org:25461/oumlil75/esNUlsddgi/840
-
-
+http://catchup.iptv.iinet.rs/playlist.m3u8?id=177&token=dG9rZW49LVkzblctbGw0RUdzSWhVWWdDUlNiUjZMbGpBbkVUNzgmaWQ9NzImc2VjcmV0PW90dA==&DVR;?streamType=live
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER TV
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://cdn.miip.tv:8080/live/canada/123456/150.m3u8
 
