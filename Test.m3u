@@ -20,7 +20,7 @@ plugin://script.module.tt/play/64/play.pvr
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
 plugin://plugin.video.live.streamspro/?mode=13&name=NBC&playlist=%5Bu%27http%3A%2F%2F161.0.157.5%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%24%24LSPlayOnlyOne%24%24%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%5D
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC HD
-plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fplayer.php%3fstream%3dNBC
+http://198.144.159.43/hls43/playlist.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC 1080
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fnbc%2f
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC TvTap
@@ -172,6 +172,8 @@ http://210.210.155.66/h/h141/01.m3u8
 plugin://script.module.tt/play/44/play.pvr
 #EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 HD
 plugin.video.tvone11/play/4/264/play.pvr
+#EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 1080
+http://198.144.159.43/hls36/playlist.m3u8
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2
 plugin://plugin://script.module.tt/play/46/play.pvr
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2 HD
@@ -1349,7 +1351,7 @@ plugin://script.module.tt/play/159/play.pvr
 #EXTINF:-1 tvg-id="I216.32281.schedulesdirect.org" tvg-name="NBA TV" tvg-logo="https://static.epg.best/us/NBATV.us.png" group-title="Sports", NBA 1080
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fnba-tv%2f
 #EXTINF:-1 tvg-id="I220.15952.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/1/14/20170821060416!NBCSN_logo.png" group-title="Sports", NBC Sport Network
-plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fplayer.php%3fstream%3dNBCSN
+http://198.144.159.43/hls40/playlist.m3u8
 #EXTINF:-1 tvg-id="I220.15952.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/1/14/20170821060416!NBCSN_logo.png" group-title="Sports", NBC Sport Network SD
 plugin://script.module.tt/play/162/play.pvr
 #EXTINF:-1 tvg-id="I220.15952.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/1/14/20170821060416!NBCSN_logo.png" group-title="Sports", NBC Sport Network HD
@@ -2500,7 +2502,16 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://23.237
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe 1080
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://iptvgold.org:25461/oumlil75/esNUlsddgi/52021
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 1
-plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin%3A%2F%2Fplugin.video.tvone111%2Fplay%2FMTI1Mg%3D%3Dw%2Fplay.pvr%24%24lsname%3DRedbox%27%7C%7C+u%27plugin%3A%2F%2Fplugin.video.tvone11%2Fplay%2F5%2F149%2Fplay.pvr%24%24lsname%3DSwiftstreamz+HD%27%7C%7C+u%27plugin%3A%2F%2Fscript.module.7of9-swiftstreamz2%2Fplay%2F5%2F149%2Fplay.pvr%24%24lsname%3DSwiftstreamz+SD%27%7C%7C+u%27plugin%3A%2F%2Fscript.module.7of9-worldtv%2Fplay%2F119%2Fplay.pvr%24%24lsname%3DWorldTV%27%7C%7C+u%27plugin%3A%2F%2Fscript.module.tt%2Fplay%2F119%2Fplay.pvr%24%24lsname%3DTVtap%27%7C%7C+u%27plugin%3A%2F%2Fplugin.video.temptv%2F%3Faction%3Dsports24Play%26url%3Dhttp%253a%252f%252fsports24.club%252ftv%252fv%253fid%253dfoxnews%24%24lsname%3DSports24%27%5D
+plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin://script.module.tt/play/119/play.pvr%24%24lsname%3DYVTap%27%7C%7C+u%27http://1111296894.rsc.cdn77.org/ls-54548-2/tracks-v1a1/mono.m3u8%24%24lsname%3DDirect%27%7C%7C+u%27plugin://plugin.video.temptv/?action=sports24Play&amp;url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dfoxnews%24%24lsname%3DTempTVAports24%27%7C%7C+u%27plugin%3A%2F%2Fscript.module.7of9-worldtv%2Fplay%2F119%2Fplay.pvr%24%24lsname%3DWorldTV%27%7C%7C+u%27plugin%3A%2F%2Fscript.module.tt%2Fplay%2F119%2Fplay.pvr%24%24lsname%3DTVtap%27%7C%7C+u%27plugin%3A%2F%2Fplugin.video.temptv%2F%3Faction%3Dsports24Play%26url%3Dhttp%253a%252f%252fsports24.club%252ftv%252fv%253fid%253dfoxnews%24%24lsname%3DSports24%27%5D
+#EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
+plugin://script.module.tt/play/119/play.pvr
+#EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News SD
+plugin://plugin.video.temptv/?action=sports24Play&amp;url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dfoxnews
+#EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News HD
+http://1111296894.rsc.cdn77.org/ls-54548-2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News 1080
+http://foxnewsuni-f.akamaihd.net/i/FNCGOPREV_40220@40220/master.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 2A
 plugin://plugin.video.live.streamspro/?url=plugin%3A%2F%2Fscript.module.tt%2Fplay%2F119%2Fplay.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 2B
