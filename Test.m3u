@@ -1119,7 +1119,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 #EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports", ESPN HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fespn%2f
 #EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports", ESPN 1080
-http://198.144.159.43/upl1_1.m3u8
+http://198.144.159.43/upl1_2.m3u8
 #EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports", ESPN Direct
 http://boxingstreams.xyz/neinz/video/espn/g.m3u8
 #EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports", ESPN 2
@@ -2462,9 +2462,10 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://23.237
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 1
 plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin%3A%2F%2Fscript.module.tt%2Fplay%2F119%2Fplay.pvr%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%5D
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 1A
+plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin://script.module.tt/play/119/play.pvr%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%5D
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 2A
 plugin://plugin.video.live.streamspro/?url=plugin%3A%2F%2Fscript.module.tt%2Fplay%2F119%2Fplay.pvr&mode=12
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 2B
 plugin://plugin.video.live.streamspro/?url=plugin%3A%2F%2Fscript.module.tt%2Fplay%2F119%2Fplay.pvr&amp;mode=12
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 2C
