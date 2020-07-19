@@ -148,11 +148,13 @@ plugin://script.module.tt/play/44/play.pvr
 #EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 HD
 plugin.video.tvone11/play/4/264/play.pvr
 #EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 1080
-http://198.144.159.43/hls36/playlist.m3u8
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/807.m3u8
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2
 plugin://plugin://script.module.tt/play/46/play.pvr
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2 HD
 plugin://plugin.video.tvone11/play/4/265/play.pvr
+#EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2 1080
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/814.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Three" tvg-logo="http://www.bbc.co.uk/staticarchive/88f03e14f55de6eb696d7bd980e7af606c843ce1.jpg" group-title="Cable", BBC 3
 plugin://script.module.tt/play/248/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="BBC Three" tvg-logo="http://www.bbc.co.uk/staticarchive/88f03e14f55de6eb696d7bd980e7af606c843ce1.jpg" group-title="Cable", BBC 3 HD
@@ -161,8 +163,12 @@ plugin://plugin.video.tvone11/play/4/266/play.pvr
 plugin://script.module.tt/play/43/play.pvr
 #EXTINF:-1 tvg-id="I173.20684.schedulesdirect.org" tvg-name="BBC FOUR" tvg-logo="http://static.epg.best/gb/BBC4.uk.png" group-title="Cable", BBC 4 HD
 plugin://plugin.video.tvone11/play/4/267/play.pvr
+#EXTINF:-1 tvg-id="I173.20684.schedulesdirect.org" tvg-name="BBC FOUR" tvg-logo="http://static.epg.best/gb/BBC4.uk.png" group-title="Cable", BBC 4 1080
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/819.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Alba" tvg-logo="http://www.gaelic-edinburgh.net/images/bbc_alba_logo.jpg" group-title="Cable", BBC Alba
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-alba.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-alba%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
+#EXTINF:-1 tvg-id="" tvg-name="BBC Alba" tvg-logo="http://www.gaelic-edinburgh.net/images/bbc_alba_logo.jpg" group-title="Cable", BBC Alba HD
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/828.m3u8
 #EXTINF:-1 tvg-id="I264.18332.schedulesdirect.org" tvg-name="BBC America HD" tvg-logo="http://i1.wp.com/tvseriesfinale.com/wp-content/uploads/2012/06/bbcamerica01.jpg?resize=370%2C194" group-title="Cable", BBC America
 plugin://script.module.tt/play/478/play.pvr
 #EXTINF:-1 tvg-id="I264.18332.schedulesdirect.org" tvg-name="BBC America HD" tvg-logo="http://i1.wp.com/tvseriesfinale.com/wp-content/uploads/2012/06/bbcamerica01.jpg?resize=370%2C194" group-title="Cable", BBC America HD
@@ -183,10 +189,16 @@ https://cdn-laos.workpoint.news/sd-bbclifestyle_720/index.m3u8
 https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Northern Ireland" tvg-logo="https://pbs.twimg.com/profile_images/875726715888295936/BsQiIp01.jpg" group-title="Cable", BBC Northern Ireland
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-one-northern-ireland.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-one-northern-ireland%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
+#EXTINF:-1 tvg-id="" tvg-name="BBC Northern Ireland" tvg-logo="https://pbs.twimg.com/profile_images/875726715888295936/BsQiIp01.jpg" group-title="Cable", BBC Northern Ireland HD
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/810.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Scotland" tvg-logo="https://www.inspectas.co.uk/wp-content/uploads/2016/09/BBC_Scotland_corporate_logo-150x150.png" group-title="Cable", BBC Scotland
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-one-scotland.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-one-scotland%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
+#EXTINF:-1 tvg-id="" tvg-name="BBC Scotland" tvg-logo="https://www.inspectas.co.uk/wp-content/uploads/2016/09/BBC_Scotland_corporate_logo-150x150.png" group-title="Cable", BBC Scotland HD
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/812.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Wales" tvg-logo="http://www.itsmyshout.co.uk/cms/wp-content/uploads/2017/01/bbc-wales-logo-1.png" group-title="Cable", BBC Wales
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-one-wales.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-one-wales%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
+#EXTINF:-1 tvg-id="" tvg-name="BBC Wales" tvg-logo="http://www.itsmyshout.co.uk/cms/wp-content/uploads/2017/01/bbc-wales-logo-1.png" group-title="Cable", BBC Wales HD
+http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/816.m3u8
 #EXTINF:-1 tvg-id="I329.10051.schedulesdirect.org" tvg-name="" tvg-logo="http://www.novacable.com/images/logo_BET.gif" group-title="Cable", BET
 plugin://script.module.tt/play/425/play.pvr
 #EXTINF:-1 tvg-id="I329.10051.schedulesdirect.org" tvg-name="" tvg-logo="http://www.novacable.com/images/logo_BET.gif" group-title="Cable", BET HD
@@ -1288,6 +1300,8 @@ plugin://plugin.video.temptv/?action=ustreamixPlay&amp;url=https%3a%2f%2fustream
 plugin://script.module.tt/play/125/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Golf Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/ff/Golf_Channel_logo.png/220px-Golf_Channel_logo.png" group-title="Sports", Golf Channel 1080
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fgolf-channel%2f
+#EXTINF:-1 tvg-id="" tvg-name="Golf Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/ff/Golf_Channel_logo.png/220px-Golf_Channel_logo.png" group-title="Sports", Golf Channel 1080B
+http://190.122.109.218:8888/http/010
 #EXTINF:-1 tvg-id="I379.52300.schedulesdirect.org" tvg-name="La Liga TV" tvg-logo="https://combobets.com/wp-content/uploads/2015/05/La-Liga-logo.png" group-title="Sports", La Liga
 plugin://script.module.tt/play/743/play.pvr
 #EXTINF:-1 tvg-id="I379.52300.schedulesdirect.org" tvg-name="La Liga TV" tvg-logo="https://combobets.com/wp-content/uploads/2015/05/La-Liga-logo.png" group-title="Sports", La Liga HD
@@ -1655,6 +1669,12 @@ https://racingvic-i.akamaized.net/hls/live/598695/racingvic/628.m3u8
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
 #EXTINF:-1 tvg-id="I874.24226.schedulesdirect.org" tvg-name="Racing UK" tvg-logo="https://www.wheresthematch.com/images/newchannels/racinguk.gif" group-title="Horse Racing", Racing UK
 plugin://plugin.video.tvone/play/178/play.pvr
+#EXTINF:-1 tvg-ID="SK1.AU" tvg-logo="https://media.info/i/lf/300/1514269404/6402.png" group-title="Horse Racing", Sky Racing 1
+https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/sky1_extreme@569780.m3u8
+#EXTINF:-1 tvg-ID="SK2.AU" tvg-logo="https://media.info/i/lf/300/1514269377/6411.png" group-title="Horse Racing", Sky Racing 2
+https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/sky2_extreme@569780.m3u8
+#EXTINF:-1 tvg-ID="STC.AU" tvg-logo="https://www.foxtel.com.au/content/dam/foxtel/shared/channel/SRW/SRH_425x243.png" group-title="Horse Racing", Sky Thoroughbred Central
+https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/stcsd_extreme@569780.m3u8
 #EXTINF:-1 tvg-logo="http://magneticscreen.com.sg/wp-content/uploads/2016/02/1.-singapore_turf_club_logo.png" group-title="Horse Racing", Singapore
 plugin://plugin.video.youtube/play/?video_id=yd_pcZMsPD8
 #EXTINF:-1 tvg-logo="https://www.xb-net.com/wp-content/uploads/2016/07/tjk.png" group-title="Horse Racing", TJK Racing
@@ -2298,19 +2318,20 @@ http://de1se01.v2beat.live/playlist.m3u8
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="VEVO HD" tvg-logo="https://sophienorman001.files.wordpress.com/2015/10/vevo.png" group-title="Music Videos", VEVO HD
 plugin://plugin.video.youtube/play/?video_id=leopt__ATR0&list=PLkqz3S84Tw-Sd0zaBgHuusuSVJZF0d2Ik
-#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/fb/Channel_V_HD.png/revision/latest?cb=20110928200720" group-title="Music Videos", V HD
+https://livecdn.fptplay.net/foxlive/channelvhd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Music Videos", VH1
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fvh1%2f
-#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1 SD
+#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Music Videos", VH1 SD
 plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fplayer.php%3fstream%3dVH1
-#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1 HD
+#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Music Videos", VH1 HD
 http://content-ausc2.uplynk.com/channel/7a16e3d5ffd0413ba4d8ac89688ed7cd/e.m3u8?ct=c&ad.locationDesc=vh1_channel&ad.cust_params=_fw_ae%3D53da17a30bd0d3c946a41c86cb5873f1%26_vmn_ar%3Dtrue&expand=simulcast_standard&ad.kv=_fw_ae%2C53da17a30bd0d3c946a41c86cb5873f1%2C_vmn_ar%2Ctrue%2C_fw_vcid2%2C82125:vh1_67b04b0c30774b06ad1ec820ee7d0beb&delay=10800&euid=67b04b0c-3077-4b06-ad1e-c820ee7d0beb&exp=1531977295&rn=1284714433&ad.euid=67b04b0c-3077-4b06-ad1e-c820ee7d0beb&cid=7a16e3d5ffd0413ba4d8ac89688ed7cd&tc=1&sig=b3143cb0429574cc3c877de30e62fab7d66c763ec2f61cd9bfde33fdab12dfb7&pbs=62317bc417264eaeb05c22777b5c8697
-#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1 1080
+#EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Music Videos", VH1 1080
 plugin://plugin.video.tvone11/play/5/219/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1 UK
+#EXTINF:-1 tvg-id="" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Music Videos", VH1 UK
 plugin://script.module.tt/play/239/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1 UK HD
+#EXTINF:-1 tvg-id="" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Music Videos", VH1 UK HD
 plugin://plugin.video.tvone11/play/4/336/play.pvr
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yachtrockradio.com/wp-content/uploads/sites/11/2018/03/dash-logo.png" group-title="Radio", 70's
 https://ice55.securenetsystems.net/DASH26
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yachtrockradio.com/wp-content/uploads/sites/11/2018/03/dash-logo.png" group-title="Radio", 80's
@@ -2515,7 +2536,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://18
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://23.237.100.130:8080/live/w9mNEBeKqV/26PNRu2qNG/53450.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 1
-plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin://plugin.script.module.tt/play/101/play.pvr%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%5D
+plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin://plugin.video.tvone11/play/5/136/play.pvr%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%5D
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 1A
 plugin://plugin.video.live.streamspro/?mode=13&name=FXN&playlist=%5Bu%27plugin://script.module.tt/play/101/play.pvr%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%27%5D
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="Adult TV", Fox News Test 2A
