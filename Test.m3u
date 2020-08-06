@@ -155,18 +155,14 @@ plugin://plugin.video.tvone11/play/4/323/play.pvr
 http://210.210.155.66/h/h141/01.m3u8
 #EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1
 plugin://script.module.tt/play/44/play.pvr
-#EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 SD
-plugin.video.tvone11/play/4/264/play.pvr
 #EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/807.m3u8
+plugin.video.tvone11/play/4/264/play.pvr
 #EXTINF:-1 tvg-id="I115.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="http://static.epg.best/gb/BBC1.uk.png" group-title="Cable", BBC 1 1080
 http://80.32.125.233:8000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2
 plugin://plugin://script.module.tt/play/46/play.pvr
-#EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2 SD
-plugin://plugin.video.tvone11/play/4/265/play.pvr
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2 HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/814.m3u8
+plugin://plugin.video.tvone11/play/4/265/play.pvr
 #EXTINF:-1 tvg-id="I102.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="http://static.epg.best/gb/BBC2.uk.png" group-title="Cable", BBC 2 1080
 http://80.32.125.233:8000/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Three" tvg-logo="http://www.bbc.co.uk/staticarchive/88f03e14f55de6eb696d7bd980e7af606c843ce1.jpg" group-title="Cable", BBC 3
@@ -177,12 +173,8 @@ plugin://plugin.video.tvone11/play/4/266/play.pvr
 plugin://script.module.tt/play/43/play.pvr
 #EXTINF:-1 tvg-id="I173.20684.schedulesdirect.org" tvg-name="BBC FOUR" tvg-logo="http://static.epg.best/gb/BBC4.uk.png" group-title="Cable", BBC 4 HD
 plugin://plugin.video.tvone11/play/4/267/play.pvr
-#EXTINF:-1 tvg-id="I173.20684.schedulesdirect.org" tvg-name="BBC FOUR" tvg-logo="http://static.epg.best/gb/BBC4.uk.png" group-title="Cable", BBC 4 1080
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/819.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Alba" tvg-logo="http://www.gaelic-edinburgh.net/images/bbc_alba_logo.jpg" group-title="Cable", BBC Alba
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-alba.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-alba%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
-#EXTINF:-1 tvg-id="" tvg-name="BBC Alba" tvg-logo="http://www.gaelic-edinburgh.net/images/bbc_alba_logo.jpg" group-title="Cable", BBC Alba HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/828.m3u8
 #EXTINF:-1 tvg-id="I264.18332.schedulesdirect.org" tvg-name="BBC America HD" tvg-logo="http://i1.wp.com/tvseriesfinale.com/wp-content/uploads/2012/06/bbcamerica01.jpg?resize=370%2C194" group-title="Cable", BBC America
 plugin://script.module.tt/play/478/play.pvr
 #EXTINF:-1 tvg-id="I264.18332.schedulesdirect.org" tvg-name="BBC America HD" tvg-logo="http://i1.wp.com/tvseriesfinale.com/wp-content/uploads/2012/06/bbcamerica01.jpg?resize=370%2C194" group-title="Cable", BBC America HD
@@ -203,16 +195,10 @@ https://cdn-laos.workpoint.news/sd-bbclifestyle_720/index.m3u8
 https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Northern Ireland" tvg-logo="https://pbs.twimg.com/profile_images/875726715888295936/BsQiIp01.jpg" group-title="Cable", BBC Northern Ireland
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-one-northern-ireland.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-one-northern-ireland%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
-#EXTINF:-1 tvg-id="" tvg-name="BBC Northern Ireland" tvg-logo="https://pbs.twimg.com/profile_images/875726715888295936/BsQiIp01.jpg" group-title="Cable", BBC Northern Ireland HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/810.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Scotland" tvg-logo="https://www.inspectas.co.uk/wp-content/uploads/2016/09/BBC_Scotland_corporate_logo-150x150.png" group-title="Cable", BBC Scotland
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-one-scotland.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-one-scotland%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
-#EXTINF:-1 tvg-id="" tvg-name="BBC Scotland" tvg-logo="https://www.inspectas.co.uk/wp-content/uploads/2016/09/BBC_Scotland_corporate_logo-150x150.png" group-title="Cable", BBC Scotland HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/812.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Wales" tvg-logo="http://www.itsmyshout.co.uk/cms/wp-content/uploads/2017/01/bbc-wales-logo-1.png" group-title="Cable", BBC Wales
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fbbc-one-wales.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dbbc-one-wales%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
-#EXTINF:-1 tvg-id="" tvg-name="BBC Wales" tvg-logo="http://www.itsmyshout.co.uk/cms/wp-content/uploads/2017/01/bbc-wales-logo-1.png" group-title="Cable", BBC Wales HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/816.m3u8
 #EXTINF:-1 tvg-id="I329.10051.schedulesdirect.org" tvg-name="" tvg-logo="http://www.novacable.com/images/logo_BET.gif" group-title="Cable", BET
 plugin://script.module.tt/play/425/play.pvr
 #EXTINF:-1 tvg-id="I329.10051.schedulesdirect.org" tvg-name="" tvg-logo="http://www.novacable.com/images/logo_BET.gif" group-title="Cable", BET HD
@@ -265,14 +251,10 @@ plugin://plugin.video.tvone11/play/4/274/play.pvr
 http://80.32.125.233:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="4 Seven" tvg-logo="https://assets.tvplayer.com/common/logos/256/Inverted/565.png" group-title="Cable", Channel 4 Seven
 plugin://plugin.video.tvone/play/501/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="4 Seven" tvg-logo="https://assets.tvplayer.com/common/logos/256/Inverted/565.png" group-title="Cable", Channel 4 Seven HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://iptv1.privateiptv.club:80/live/freeview/freeview/846.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="E4" tvg-logo="https://static.epg.best/gb/E4.uk.png" group-title="Cable", E4
 plugin://plugin.video.tvone/play/100/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="E4" tvg-logo="https://static.epg.best/gb/E4.uk.png" group-title="Cable", E4 HD
 plugin://plugin.video.tvone11/play/4/273/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="E4" tvg-logo="https://static.epg.best/gb/E4.uk.png" group-title="Cable", E4 1080
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://iptv1.privateiptv.club:80/live/freeview/freeview/842.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Film 4" tvg-logo="https://www.comedy.co.uk/images/channels/film4.jpg" group-title="Cable", Film 4
 plugin://plugin.video.tvone/play/112/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Film 4" tvg-logo="https://www.comedy.co.uk/images/channels/film4.jpg" group-title="Cable", Film 4 HD
@@ -283,8 +265,6 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://51
 plugin://plugin.video.tvone/play/500/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="More 4" tvg-logo="https://static.epg.best/gb/More4.uk.png" group-title="Cable", More 4 HD
 plugin://plugin.video.tvone11/play/4/277/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="More 4" tvg-logo="https://static.epg.best/gb/More4.uk.png" group-title="Cable", More 4 1080
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://iptv1.privateiptv.club:80/live/freeview/freeview/844.m3u8
 #EXTINF:-1 tvg-id="I105.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://static.epg.best/gb/Channel5.uk.png" group-title="Cable", Channel 5
 plugin://plugin.video.tvone/play/299/play.pvr
 #EXTINF:-1 tvg-id="I105.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://static.epg.best/gb/Channel5.uk.png" group-title="Cable", Channel 5 HD
@@ -577,8 +557,6 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://51
 plugin://script.module.tt/play/679/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="ITV Be" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/ITVBe_logo_2014-.svg/200px-ITVBe_logo_2014-.svg.png" group-title="Cable", ITV Be HD
 plugin://plugin.video.tvone11/play/4/1800/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="ITV Be" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/ITVBe_logo_2014-.svg/200px-ITVBe_logo_2014-.svg.png" group-title="Cable", ITV Be 1080
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://iptv1.privateiptv.club:80/live/freeview/freeview/838.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/35611_utvireland.jpg" group-title="Cable", ITV Ireland
 plugin://plugin.video.tvone11/play/4/1786/play.pvr
 #EXTINF:-1 tvg-logo="https://media.localbtv.com/images/phillybtv/logos/20530-90359.png" group-title="Cable", Justice Network
@@ -852,10 +830,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&amp;mode=17
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC News" tvg-logo="http://static.epg.best/gb/BBCNews.uk.png" group-title="News", BBC News
 plugin://script.module.tt/play/47/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="BBC News" tvg-logo="http://static.epg.best/gb/BBCNews.uk.png" group-title="News", BBC News SD
-plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fnbcb.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dnbcb%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
 #EXTINF:-1 tvg-id="" tvg-name="BBC News" tvg-logo="http://static.epg.best/gb/BBCNews.uk.png" group-title="News", BBC News HD
-http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/825.m3u8
+plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwaw.easyview.eu%2Fhls%2Fnbcb.m3u8%7CReferer%3Dhttps%3A%2F%2Feasyview.eu%2Fwatch.php%3Fstream%3Dnbcb%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=12
 #EXTINF:-1 tvg-id="" tvg-name="BBC News" tvg-logo="http://static.epg.best/gb/BBCNews.uk.png" group-title="News", BBC News HD 1080
 http://80.32.125.233:8000/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Parliament" tvg-logo="http://www.livetvscene.com/wp-content/uploads/2016/10/bbc-parliament-logo-300x221.jpg" group-title="News", BBC Parliament
@@ -1654,7 +1630,7 @@ https://api.new.livestream.com/accounts/9869799/events/6761374/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/c/c0/Monterrico_TV_HD_%28Logo%29.jpg/revision/latest/scale-to-width-down/340?cb=20180406154420" group-title="Horse Racing", Monterrico
 http://vs8.live.opencaster.com/20100152275/jcpstream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.discoversaratoga.org/includes/public/assets/images/logos/logo-nyra.png" group-title="Horse Racing", NYRA
-plugin://plugin.video.youtube/play/?video_id=-IYwRcH2Lz8
+plugin://plugin.video.youtube/play/?video_id=d4XSoG3qTgc
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.capitalotb.com/wp-content/uploads/2019/09/COTB-Logo.png" group-title="Horse Racing", OTB
 https://d2up1hmow19bcd.cloudfront.net/livecf/liveracing/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/RACING.COM_logo_2016.svg/1200px-RACING.COM_logo_2016.svg.png" group-title="Horse Racing", Racing.com
@@ -1702,18 +1678,22 @@ plugin://script.module.tt/play/469/play.pvr
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://worldch.ddns.net:8080/t4hg3EDq5S/VEGR3mehZG/22549
 #EXTINF:-1 tvg-id="I522.59954.schedulesdirect.org" tvg-name="ThrillerMax East" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/thrillermax.png" group-title="Movies", ThrillerMax
 plugin://script.module.tt/play/471/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO East
+#EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO
 plugin://script.module.tt/play/128/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO East HD
+#EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fhbo%2f
-#EXTINF:-1 tvg-id="" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO East 1080
-http://103.135.208.14/live/ibox/bd/63.m3u8
+#EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 1080
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://tvla.xyz:80/live/irresnzc/250ztFpw2K/34542.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HBO West" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO West
 http://161.0.157.5/PLTV/88888888/224/3221227026/03.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2 East
+#EXTINF:-1 tvg-id="" tvg-name="HBO West" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO West HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://tvla.xyz:80/live/irresnzc/250ztFpw2K/34541.m3u8
+#EXTINF:-1 tvg-id="I502.10241.schedulesdirect.org" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2
 http://161.0.157.5/PLTV/88888888/224/3221227026/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2 East HD
+#EXTINF:-1 tvg-id="I502.10241.schedulesdirect.org" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2 HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://worldch.ddns.net:8080/t4hg3EDq5S/VEGR3mehZG/22424
+#EXTINF:-1 tvg-id="I502.10241.schedulesdirect.org" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2 1080
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://tvla.xyz:80/live/irresnzc/250ztFpw2K/34604.m3u8
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Comedy
 plugin://script.module.tt/play/604/play.pvr
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Comedy HD
@@ -1730,6 +1710,8 @@ http://streamwat.ch/custom/player/#https://liveorigin01.hbogoasia.com:8443/origi
 plugin://plugin.video.tvone11/play/41/7567/play.pvr
 #EXTINF:-1 tvg-id="I503.10243.schedulesdirect.org" tvg-name="HBO Signature East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Signature HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fhbo-signature%2f
+#EXTINF:-1 tvg-id="I503.10243.schedulesdirect.org" tvg-name="HBO Signature East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Signature 1080
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=http://tvla.xyz:80/live/irresnzc/250ztFpw2K/34606.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HBO Zone" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Zone
 plugin://script.module.tt/play/609/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="HBO Zone" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Zone HD
@@ -1935,6 +1917,8 @@ plugin://plugin.video.tvone/play/62/play.pvr
 plugin://script.module.tt/play/498/play.pvr
 #EXTINF:-1 tvg-id="I848.60755.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/200px-CBeebies.svg.png" group-title="Kids", CBeebies HD
 http://iptv1.privateiptv.club:80/live/random-robbie/random-robbie/824.m3u8
+
+
 #EXTINF:-1 tvg-id="I290.10171.schedulesdirect.org" tvg-name="Disney Channel East HD" tvg-logo="http://static.epg.best/ee/DisneyChannel.ee.png" group-title="Kids", Disney Channel
 plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fplayer.php%3fstream%3dDisney
 #EXTINF:-1 tvg-id="I290.10171.schedulesdirect.org" tvg-name="Disney Channel East HD" tvg-logo="http://static.epg.best/ee/DisneyChannel.ee.png" group-title="Kids", Disney Channel HD
