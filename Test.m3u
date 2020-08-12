@@ -28,7 +28,7 @@ plugin://script.module.tt/play/160/play.pvr
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX
 plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fplayer.php%3fstream%3dFOX
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX SD
-http://198.144.159.43/upl1_2.m3u8
+https://livecdn.fptplay.net/foxlive/foxhd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX HD
 https://gma2.blab.email/fox.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX 1080
@@ -190,9 +190,7 @@ https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logos2/images/c/c3/Bbc_entertainment_logo_2016.png" group-title="Cable", BBC Entertainment
 plugin://plugin.video.tvone11/play/4/271/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.epg.best/pl/BBCLifestyle.pl.png" group-title="Cable", BBC Lifestyle
-https://cdn-laos.workpoint.news/sd-bbclifestyle_720/index.m3u8
-
-
+https://itpolly.iptv.digijadoo.net/live/bbc_lifestyle/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.epg.best/pl/BBCLifestyle.pl.png" group-title="Cable", BBC Lifestyle HD
 https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Northern Ireland" tvg-logo="https://pbs.twimg.com/profile_images/875726715888295936/BsQiIp01.jpg" group-title="Cable", BBC Northern Ireland
@@ -694,7 +692,7 @@ plugin://plugin.video.tvone11/play/17/1070/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Slice" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Slice_logo.svg/1920px-Slice_logo.svg.png" group-title="Cable", Slice HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://worldch.ddns.net:8080/t4hg3EDq5S/VEGR3mehZG/6995
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://www.si.edu/sites/default/files/newsdesk/press_releases/sunburst.png" group-title="Cable", Smithsonian
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://worldch.ddns.net:8080/t4hg3EDq5S/VEGR3mehZG/22232
+http://103.47.132.164/PLTV/88888888/224/3221227321/index.m3u8
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://www.si.edu/sites/default/files/newsdesk/press_releases/sunburst.png" group-title="Cable", Smithsonian HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fsmithsonian-channel%2f
 #EXTINF:-1 tvg-id="I241.11163.schedulesdirect.org" tvg-name="Paramount" tvg-logo="http://fcfighter.com/wp-content/uploads/2011/07/spike_tv.png" group-title="Cable", Spike
@@ -1497,13 +1495,15 @@ plugin://script.module.tt/play/208/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/25819_94300_ten1hd.jpg" group-title="Sports", SONY Ten 1
 plugin://plugin.video.tvone11/play/8/505/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/25819_94300_ten1hd.jpg" group-title="Sports", SONY Ten 1 HD
-http://103.205.133.14/hls/ten1.m3u8
+http://103.214.202.218:8081/live/ten1hd/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/58461_43037_ten2hd.jpg" group-title="Sports", SONY Ten 2
 plugin://plugin.video.tvone11/play/8/506/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/58461_43037_ten2hd.jpg" group-title="Sports", SONY Ten 2 HD
-http://103.205.133.14/hls/ten2.m3u8
+http://103.214.202.218:8081/live/ten2hd/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/97963_6734_ten3hd.jpg" group-title="Sports", SONY Ten 3
 plugin://plugin.video.tvone11/play/8/507/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://swiftstreamz.com/SwiftPanel/images/97963_6734_ten3hd.jpg" group-title="Sports", SONY Ten 3 HD
+http://103.214.202.218:8081/live/ten3hd/chunks.m3u8
 #EXTINF:-1 tvg-id="I410.20203.schedulesdirect.org" tvg-name="" tvg-logo="http://4.bp.blogspot.com/-cgtNkdhig8E/ToT2t8TMywI/AAAAAAAACOU/i0EYFf4geUA/s320/Sportsnet+icon+2011.png" group-title="Sports", Sportsnet 360
 plugin://plugin.video.tvone11/play/8/756/play.pvr
 #EXTINF:-1 tvg-id="I410.20203.schedulesdirect.org" tvg-name="" tvg-logo="http://4.bp.blogspot.com/-cgtNkdhig8E/ToT2t8TMywI/AAAAAAAACOU/i0EYFf4geUA/s320/Sportsnet+icon+2011.png" group-title="Sports", Sportsnet 360 HD
@@ -1908,6 +1908,8 @@ plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%
 http://5.135.92.133:52841/out/u/502_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Food Network UK" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", Food Network UK
 plugin://script.module.tt/play/115/play.pvr
+#EXTINF:-1 tvg-logo="https://www.bestmediainfo.com/wp-content/uploads/2013/12/foodfood-new-logo.jpg" group-title="Food", Food Food
+https://sonyent.pc.cdn.bitgravity.com/sonyent/live/food_food.smil/chunklist_b1300000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Good Food" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Good_Food.svg/1200px-Good_Food.svg.png" group-title="Food", Good Food
 plugin://plugin.video.tvone11/play/4/339/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xjCtEPH.png" group-title="Food", Food52
