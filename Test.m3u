@@ -66,6 +66,8 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://f.
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://worldch.ddns.net:8080/t4hg3EDq5S/VEGR3mehZG/21571
 
 
+#EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", Los Angeles ABC KERO
+https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", Los Angeles ABC KABC
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://f.ok2.se:8000/Fonzi/Fonzi/82708
 #EXTINF:-1 tvg-id="I391.19567.schedulesdirect.org" tvg-name="" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Los Angeles CBS KCAL
@@ -742,8 +744,6 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=https://y5w8j
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="News", Covid-19 MAP
 plugin://plugin.video.tvone11/play/7/1823/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://docs.biofiredx.com/wp-content/uploads/2016/03/PnlsIcon_Rbugs_FullColor-300x193.png" group-title="News", Covid-19 News
-https://dai.google.com/linear/hls/event/08ADpEIeQ8iZOjusLsZbCg/master.m3u8
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
 plugin://script.module.tt/play/119/play.pvr
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News SD
@@ -1488,6 +1488,9 @@ plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%
 plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fyes-network%2f
 #EXTINF:-1 tvg-id="" tvg-name="Yes Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/06/YES_Network_logo.png" group-title="Sports", Yes Network 1080
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://f.ok2.se:8000/Fonzi/Fonzi/10034
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.gamingintelligence.com/wp-content/uploads/2008/10/17154117/Ladbrokes-lg.jpg" group-title="Horse Racing", ARC
+http://vermmd.mmdlive.lldns.net/vermmd/84c4d7bebe1f4c578e0f68744041d6fc/chunklist_b1996000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="At The Races" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-at-the-races.png" group-title="Horse Racing", At The Races
 plugin://plugin.video.tvone11/play/8/714/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="At The Races" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-at-the-races.png" group-title="Horse Racing", At The Races HD
@@ -1686,6 +1689,8 @@ https://dove-redbox.cinedigm.com/hls/amagi_hls_data_xumo-host-dovenow-redbox/CDN
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfamilyfeud/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://hometheaterreview.com/Redbox-logo.png" group-title="Redbox", Fail Army HD
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://hometheaterreview.com/Redbox-logo.png" group-title="Redbox", Filmbox
+https://1648401168.rsc.cdn77.org/1648401168/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://hometheaterreview.com/Redbox-logo.png" group-title="Redbox", Film Hub HD
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmhub/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://hometheaterreview.com/Redbox-logo.png" group-title="Redbox", Filmrise Classics
