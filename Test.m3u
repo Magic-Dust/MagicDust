@@ -648,6 +648,8 @@ plugin://script.module.tt/play/179/play.pvr
 #EXTINF:-1 tvg-id="I802.99521.schedulesdirect.org" tvg-name="RTE TWO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/RTE_TWO.svg/1024px-RTE_TWO.svg.png" group-title="Cable", RTE TWO
 plugin://script.module.tt/play/180/play.pvr
 #plugin://plugin.video.tvone11/play/4/322/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://web.sheffieldlive.org/wp-content/uploads/2014/10/SLTV_TVset_graphic.jpg" group-title="Cable", Sheffield TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SKY Atlantic" tvg-logo="https://www.sky.de/static/img/senderlogos_dark/sky_logo_skyatlantic-hd_b.png" group-title="Cable", SKY Atlantic
 plugin://plugin.video.tvone/play/192/play.pvr
 #plugin://plugin.video.tvone11/play/4/310/play.pvr
@@ -918,6 +920,8 @@ http://n1.klowdtv.net/live1/oan_720p/chunks.m3u8
 https://oneamericanews-roku-us.amagi.tv/hls/amagi_hls_data_oneameric-oneamericanews/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets2.thebureauinvestigates.com/uploads/_headerMedium/press_tv_170206_161447.png?mtime=20170206161447" group-title="News", PressTV Ireland
 https://live2.presstv.com/liveprs/smil:liveprs.smil/chunklist_w2071542233_b394100_slen.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Reuters_logo.svg/800px-Reuters_logo.svg.png" group-title="News", Reuters
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://220.158.149.28:8180/live/TV00000000000000000034@HHZT
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RTÉ_logo.svg/640px-RTÉ_logo.svg.png" group-title="News" group-title="News", RTE News Now
 https://live.rte.ie/live/a/channel3/news.isml/news.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RTÉ_logo.svg/640px-RTÉ_logo.svg.png" group-title="News" group-title="News", RTE News HD
@@ -1212,6 +1216,10 @@ http://5.135.92.133:52841/out/u/509_1.m3u8
 plugin://plugin.video.tvone/play/109/play.pvr
 #EXTINF:-1 tvg-id="I250.78763.schedulesdirect.org" tvg-name="FIGHTBX" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s78763_dark_360w_270h.png" group-title="Sports", Fightbox HD
 https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://discoverflow.co/sites/discoverflow.co.jamaica/files/Flow_Sports_1_Logo_Primary_RGB.png" group-title="Sports", FloSports 1
+http://161.0.157.5/PLTV/88888888/224/3221226899/01.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://discoverflow.co/sites/discoverflow.co.jamaica/files/Flow_Sports_1_Logo_Primary_RGB.png" group-title="Sports", FloSports 1 HD
+http://161.0.157.9/PLTV/88888888/224/3221226899/03.m3u8
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports", Fox Sports 1
 https://gma2.blab.email/fs1.m3u8
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports", Fox Sports 1 SD
@@ -1620,8 +1628,12 @@ plugin://plugin.video.youtube/play/?video_id=yd_pcZMsPD8
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=https://tjktv.ercdn.net/tjktv.m3u8
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://185.232.53.5:2086/wickeduk/etqyhww45e/15049
+#EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://randomserver.site:2086/123456789/123456789/95438
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG 2
 http://185.232.53.5:2086/wickeduk/etqyhww45e/15050
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG 2 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://randomserver.site:2086/123456789/123456789/15050
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://culinarygourmet.files.wordpress.com/2010/01/empirecitylogo_thumb.png" group-title="Horse Racing", Yonkers Raceway
 https://api.new.livestream.com/accounts/22933138/events/8666133/live.m3u8
 
