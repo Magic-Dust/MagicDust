@@ -501,7 +501,8 @@ plugin://plugin.video.tvone/play/133/play.pvr
 #plugin://plugin.video.tvone11/play/16/1021/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="History UK" tvg-logo="http://static.epg.best/de/History.de.png" group-title="Cable", History UK HD
 http://103.47.132.164/PLTV/88888888/224/3221227335/index.m3u8
-#CANADAplugin://plugin.video.tvone11/play/17/1062/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="History UK" tvg-logo="http://static.epg.best/de/History.de.png" group-title="Cable", History UK 1080
+https://liveanevia.mncnow.id/live/eds/History/sa_dash_vmx/History.mpd
 #EXTINF:-1 tvg-id="" tvg-name="H2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/H2_TV_logo.svg/1180px-H2_TV_logo.svg.png" group-title="Cable", H2
 plugin://plugin.video.tvone/play/126/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="H2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/H2_TV_logo.svg/1180px-H2_TV_logo.svg.png" group-title="Cable", H2 SD
@@ -754,7 +755,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dusa-network%26token%3d
 #plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fusa-network%2f
 #EXTINF:-1 tvg-id="I242.11207.schedulesdirect.org" tvg-name="USA Network East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/300px-USA-Network-Logo.svg.png" group-title="Cable", USA 1080B
-http://185.59.223.135/usa/index.m3u8
+http://cdnak19.cast4u.info/channels/4/10804.m3u8
 #EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fvh1%2f
 #EXTINF:-1 tvg-id="I335.11218.schedulesdirect.org" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/440px-VH1_logonew.svg.png" group-title="Cable", VH1 HD
@@ -904,6 +905,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D%7CUser-Agen
 https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Info Wars" tvg-logo="https://hw.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2finfowars%2f
+#EXTINF:-1 tvg-id="" tvg-name="Info Wars" tvg-logo="https://hw.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars 1080
+http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News", MSNBC
 plugin://script.module.tt/play/424/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News", MSNBC HD
@@ -1372,6 +1375,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://localdblagent.club:8080/1935/1935/1739
 #EXTINF:-1 tvg-id="I154.34710.schedulesdirect.org" tvg-name="NFL Network HD" tvg-logo="https://static.epg.best/us/NFLNetwork.us.png" group-title="Sports", NFL Network
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7Chttp%3A%2F%2Fyoursports.stream%2Flive%3Fv%3Dnfl%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+rv%3A56.0%29+Gecko%2F20100101+Firefox%2F56.0&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22mustave%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/ing/nfl%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
+#EXTINF:-1 tvg-id="I154.34710.schedulesdirect.org" tvg-name="NFL Network HD" tvg-logo="https://static.epg.best/us/NFLNetwork.us.png" group-title="Sports", NFL Network SD
+http://a.crackstreams.vip/show/nfl/playlist.m3u8
 #EXTINF:-1 tvg-id="I154.34710.schedulesdirect.org" tvg-name="NFL Network HD" tvg-logo="https://static.epg.best/us/NFLNetwork.us.png" group-title="Sports", NFL Network HD
 plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dnfl-network%26token%3d
 #plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fnfl-network%2f
