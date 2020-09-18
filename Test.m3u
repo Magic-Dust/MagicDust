@@ -1687,7 +1687,7 @@ plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.t
 #EXTINF:-1 tvg-id="I502.10241.schedulesdirect.org" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2
 http://66.northerniptv.ca:8000/live/shelley321/shelley321/26322.m3u8
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Comedy
-http://randomserver.site:2086/123456789/123456789/15470?checkedby:iptvcat.com
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://randomserver.site:2086/123456789/123456789/15470
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Comedy HD
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fhbo-comedy%2f
 #EXTINF:-1 tvg-id="I507.16585.schedulesdirect.org" tvg-name="HBO Family East HD" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Family
