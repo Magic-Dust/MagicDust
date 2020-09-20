@@ -1436,7 +1436,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://randomserver
 
 
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone HD
-http://posta12.azureedge.net/hls/redzonehd/chunks.m3u8
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://randomserver.site:2086/123456789/123456789/2913
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://script.module.tt/play/494/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network HD
