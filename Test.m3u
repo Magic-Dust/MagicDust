@@ -353,7 +353,7 @@ plugin://plugin.video.tvone/play/91/play.pvr
 http://178.132.3.162:88/Discovery/video.m3u8?token=test
 #EXTINF:-1 tvg-id="I294.67749.schedulesdirect.org" tvg-name="Discovery Family" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/discovery_family_channel_logo_5586.png" group-title="Cable", Discovery Family
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:25461/berny/berny1234/3676
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Discovery_History_logo.svg/1280px-Discovery_History_logo.svg.png" group-title="Cable", Discovery History
+#EXTINF:-1 tvg-id="I269.14771.schedulesdirect.org" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Discovery_History_logo.svg/1280px-Discovery_History_logo.svg.png" group-title="Cable", Discovery History
 http://178.132.3.162:88/Discovery_History/video.m3u8?token=test
 #EXTINF:-1 tvg-id="I261.16125.schedulesdirect.org" tvg-name="Discovery Life" tvg-logo="https://www.tkscable.com/uploads/pics/Channel_Logos/discovery_life.png" group-title="Cable", Discovery Life
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3ddiscoverylife
@@ -1126,8 +1126,12 @@ http://api.new.livestream.com/accounts/11205802/events/3629935/live.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://allfootballvideo.com/images/channel-logo/Arena-Sport-1.png" group-title="Sports", ArenaSport 1
 plugin://script.module.tt/play/33/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://allfootballvideo.com/images/channel-logo/Arena-Sport-1.png" group-title="Sports", ArenaSport 1 HD
+plugin://plugin.video.tvone1112/play/489/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://tvprofil.net/img/kanali-logo/arenasport_2_logo.png" group-title="Sports", ArenaSport 2
 plugin://script.module.tt/play/34/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://tvprofil.net/img/kanali-logo/arenasport_2_logo.png" group-title="Sports", ArenaSport 2 HD
+plugin://plugin.video.tvone1112/play/490/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tvprofil.com/img/kanali-logo/arenasport_3_logo.png" group-title="Sports", ArenaSport 3
 plugin://script.module.tt/play/35/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://tvprofil.net/img/kanali-logo/arenasport_4_logo.png" group-title="Sports", ArenaSport 4
