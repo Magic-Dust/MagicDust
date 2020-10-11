@@ -916,6 +916,8 @@ https://pe-ak-lp01a-9c9media.akamaized.net/live/DMCDigi07/p/dash/00000001/459c40
 plugin://plugin.video.tvone1112/play/1914/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="C-Span" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_of_C-SPAN.svg/800px-Logo_of_C-SPAN.svg.png" group-title="News", C-Span
 https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="C-Span" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_of_C-SPAN.svg/800px-Logo_of_C-SPAN.svg.png" group-title="News", C-Span HD
+plugin://plugin.video.youtube/play/?video_id=t_G0ia3JOVs
 #EXTINF:-1 tvg-id="I351.10162.schedulesdirect.org" tvg-name="C-SPAN 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_of_C-SPAN.svg/800px-Logo_of_C-SPAN.svg.png" group-title="News", C-SPAN 2
 https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="C-Span Book TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_of_C-SPAN.svg/800px-Logo_of_C-SPAN.svg.png" group-title="News", C-Span 3
@@ -1777,7 +1779,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=https://tjktv
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network
 http://163.172.36.217:8000/play/a01t/index.m3u8
 #EXTINF:-1 tvg-id="I602.21345.schedulesdirect.org" tvg-name="TVG Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG Network SD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:25461/berny/berny1234/35238
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://api.zforce.tv:826/thedodgerfan@protonmail.com/75j3xx7EMg/109225
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/TVG_logo.svg/1200px-TVG_logo.svg.png" group-title="Horse Racing", TVG 2
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:25461/berny/berny1234/35239
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://culinarygourmet.files.wordpress.com/2010/01/empirecitylogo_thumb.png" group-title="Horse Racing", Yonkers Raceway
@@ -1792,9 +1794,11 @@ plugin://plugin.video.tvone1112/play/1980/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Cinemax East HD" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies", Cinemax East HD
 plugin://script.module.tt/play/467/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Cinemax East HD" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies", Cinemax East 1080
-http://fdtvapps.xyz/channel/cinemax.m3u8
+https://edge.roku-live.top.comcast.net/out/u/cinemax-east.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Cinemax West" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies", Cinemax West
 plugin://script.module.tt/play/469/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="Cinemax West" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies", Cinemax West HD
+https://edge.roku-live.top.comcast.net/out/u/cinemax-west.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MoreMax" tvg-logo="https://d2po7v53a8yrck.cloudfront.net/static/2/Open/2400x2400_1578/Source/20940/moremaxhd_2400_color_dark_light.png" group-title="Movies", MoreMax
 plugin://plugin.video.tvone1112/play/1983/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MoreMax" tvg-logo="https://d2po7v53a8yrck.cloudfront.net/static/2/Open/2400x2400_1578/Source/20940/moremaxhd_2400_color_dark_light.png" group-title="Movies", MoreMax HD
@@ -1804,14 +1808,13 @@ plugin://script.module.tt/play/471/play.pvr
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO
 plugin://script.module.tt/play/128/play.pvr
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO SD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://localdblagent.club:8080/Carlos1/Carlos1/1456
+https://edge.roku-live.top.comcast.net/out/u/hbo-east.m3u8
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO HD
 plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dhbo-usa%26token%3d
-#plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fhbo%2f
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 1080
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:25461/berny/berny1234/19658
 #EXTINF:-1 tvg-id="I502.10241.schedulesdirect.org" tvg-name="HBO 2 East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO 2
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://localdblagent.club:8080/Carlos1/Carlos1/10237
+https://edge.roku-live.top.comcast.net/out/u/hbo-west.m3u8
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Comedy
 plugin://script.module.tt/play/604/play.pvr
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://static.epg.best/us/HBO.us.png" group-title="Movies", HBO Comedy HD
@@ -1839,7 +1842,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:2
 #EXTINF:-1 tvg-id="" tvg-name="Showtime East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime East
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fshowtime%2f
 #EXTINF:-1 tvg-id="" tvg-name="Showtime East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime East SD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://localdblagent.club:8080/Carlos1/Carlos1/1465
+https://edge.roku-live.top.comcast.net/out/u/showtime-east.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Showtime East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime East HD
 plugin://script.module.tt/play/472/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Showtime East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime East 1080
@@ -1847,7 +1850,7 @@ plugin://plugin.video.tvone1112/play/1308/play.pvr
 #EXTINF:-1 tvg-id="I546.22532.schedulesdirect.org" tvg-name="Showtime West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime West
 plugin://script.module.tt/play/473/play.pvr
 #EXTINF:-1 tvg-id="I546.22532.schedulesdirect.org" tvg-name="Showtime West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime West HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:25461/berny/berny1234/41400
+https://edge.roku-live.top.comcast.net/out/u/showtime-west.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Showtime Extreme East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime Extreme
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://ingrid.ltd:25461/berny/berny1234/5883
 #EXTINF:-1 tvg-id="" tvg-name="Showtime Next" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime Next
@@ -1902,6 +1905,8 @@ plugin://plugin.video.tvone1112/play/172/play.pvr
 plugin://plugin.video.tvone/play/291/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Starz East" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz East
 plugin://script.module.tt/play/602/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="Starz East" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz East SD
+https://edge.roku-live.top.comcast.net/out/u/starz-encore.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Starz East" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz East HD
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fstarz-channel-live%2f
 #EXTINF:-1 tvg-id="" tvg-name="Starz East" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz East 1080
@@ -1909,7 +1914,7 @@ plugin://plugin.video.tvone1112/play/1085/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Starz West HD" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz West
 plugin://plugin.video.tvone1112/play/1086/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Starz West HD" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz West HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://localdblagent.club:8080/Carlos1/Carlos1/2613
+https://edge.roku-live.top.comcast.net/out/u/starz-west.m3u8
 #EXTINF:-1 tvg-id="I531.67236.schedulesdirect.org" tvg-name="Starz Cinema East" tvg-logo="http://static3.wikia.nocookie.net/__cb20100919034043/logopedia/images/8/84/Starz_Cinema.jpg" group-title="Movies", Starz Cinema
 plugin://script.module.tt/play/482/play.pvr
 #EXTINF:-1 tvg-id="I531.67236.schedulesdirect.org" tvg-name="Starz Cinema East" tvg-logo="http://static3.wikia.nocookie.net/__cb20100919034043/logopedia/images/8/84/Starz_Cinema.jpg" group-title="Movies", Starz Cinema HD
