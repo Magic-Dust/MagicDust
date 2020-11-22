@@ -814,8 +814,6 @@ plugin://script.module.tvchoice/play/1283/play.pvr
 plugin://plugin.video.tvone1112/play/1369/play.pvr
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC TVTAP
 plugin://script.module.tvforfree/play/307/play.pvr
-#EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC Direct
-http://103.47.132.164/PLTV/88888888/224/3221227113/index.m3u8
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC UK
 plugin://script.module.tvforfree/play/288/play.pvr
 #EXTINF:-1 tvg-id="I827.17454.schedulesdirect.org" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC UK HD
@@ -1033,7 +1031,7 @@ https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index_750.m3u8
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="I349.87925.schedulesdirect.org" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News", NewsmaxTV HD
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_1080.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NewsmaxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/NewsNetLogo.png" group-title="News", NewsNet
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/NewsNetLogo.png" group-title="News", NewsNet
 http://broadcastny.yournewsnet.com:8081/master/newsnetweb/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-logo="http://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/398_300.png" group-title="News", NHK World
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp/index_1180.m3u8
@@ -1138,6 +1136,8 @@ https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8?iu=/4
 https://content.uplynk.com/channel/6cbf2d32a5384dc1b787539b1102433c.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hugetv.org/wp-content/uploads/2016/05/fox11LA.png" group-title="Local News", LA Fox 11
 https://api.new.livestream.com/accounts/6140873/events/2549324/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/WGAL.png" group-title="Local News", Lancaster PA NBC WGAL
+https://bozztv.com/teleyupp/teleup-nbc-wgal/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://media.graytvinc.com/designimages/site+logo+368x132+Depth.png" group-title="Local News", Madison NBC 15 WMTV
 http://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img.new.livestream.com/events/0000000000376b67/62eb6fa8-58f2-4877-9341-3b4279f17066_30000.jpg" group-title="Local News", Myrtle WMBF
@@ -1572,14 +1572,14 @@ plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.t
 #EXTINF:-1 tvg-id="I154.34710.schedulesdirect.org" tvg-name="NFL Network HD" tvg-logo="https://static.epg.best/us/NFLNetwork.us.png" group-title="Sports", NFL Network 1080
 plugin://plugin.video.youtube/play/?video_id=99KZNaS4R7A
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://mains.vip:2086/craigg/1Lurn7m3F1/2913
-#http://a.crackstreams.vip/show/redzone/playlist.m3u8
+plugin://plugin.video.thecrew/?action=play&amp;url=%24doregex%5Bmakelist2%5D%7Cregex%3D5358d5a0e62e201627742c22fb1ff0a9
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone SD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://gold.euromediaserver.com:80/bahri2020/bahri2020/49403
+plugin://plugin.video.youtube/play/?video_id=PoT6XPeNYKU
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone HD
-http://weak_spell.highstream.club/edge/RedZone/chunks.m3u8
+plugin://plugin.video.youtube/play/?video_id=oZZ2w0GLFOI
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone 1080
 http://tracka.azureedge.net/show/redzone/chunks.m3u8
+plugin://plugin.video.thecrew/?action=play&url=++++++++%3Csublink%3Ehttp%3A%2F%2Fcdn.crackstreams.net%2Flive%2Fredzone%2Findex.m3u8%7Cuser-agent%3Dipad%26referer%3Dhttp%3A%2F%2Fcrackstreams.net%2Femb%2Fnfl%2Fredzone.php%3C%2Fsublink%3E++++++++%3Csublink%3Ehttp%3A%2F%2Ftracka.azureedge.net%2Fshow%2Fredzone%2Fplaylist.m3u8%3C%2Fsublink%3E++++++++%3Csublink%3Ehttp%3A%2F%2Fcdn.odece.xyz%2F9.m3u8%7CReferer%3Dhttp%3A%2F%2Fcdn.odece.xyz%2F9.php%3C%2Fsublink%3E++++&content=addons
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://script.module.tvforfree/play/494/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network HD
@@ -2324,6 +2324,8 @@ http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Adult_Swim.png" group-title="24/7", Adult Swim Live
 https://adultswimtv.warnermediacdn.com/hls/live/2007031/livestream/master_Layer7.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Adult_Swim.png" group-title="24/7", Adult Swim Live HD
+https://media.cdn.adultswim.com/streams/playlists/live-stream.primary.v2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Adult_Swim.png" group-title="24/7", Adult Swim Cartoon
 http://amd.cdn.turner.com/adultswim/big/streams/playlists/animated-marathon.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Adult_Swim.png" group-title="24/7", Adult Swim HD
