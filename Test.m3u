@@ -3,7 +3,7 @@
 plugin://plugin.video.tvone1112/play/386/play.pvr
 #plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dabc-tv%26token%3d
 #plugin://plugin.video.temptv/?action=ustvgoPlay&amp;url=https%3a%2f%2fustvgo.tv%2fplayer.php%3fstream%3dABC
-#EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC HD
+#EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast;FAV", ABC HD
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC 1080
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dabc
@@ -13,16 +13,16 @@ plugin://script.module.tvforfree/play/23/play.pvr
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS Choice
 plugin://plugin.video.live.streamspro/?mode=13&name=CBS&playlist=%5Bu%27http%3A%2F%2F161.0.157.5%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%24%24lsname%3DLink+1%24%24lsname%3D%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%24%24lsname%3DLink+2%24%24lsname%3D%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%24%24lsname%3DLink+3%24%24lsname%3D%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227041%2Findex.m3u8%24%24lsname%3DLink+4%24%24lsname%3D%27%5D
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS HD
-plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dcbs
-#plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fcbs%2f
+#plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dcbs
+plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fcbs%2f
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS 1080
 plugin://plugin.video.tvone1112/play/464/play.pvr
 #plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dcbs%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dcbs%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
-#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS TvTap
+#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast;FAV", CBS TvTap
 plugin://script.module.tvforfree/play/64/play.pvr
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC Choice
 plugin://plugin.video.live.streamspro/?mode=13&name=NBC&playlist=%5Bu%27http%3A%2F%2F161.0.157.5%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%24%24lsname%3DLink+1%24%24lsname%3D%27%7C%7C+u%27http%3A%2F%2F161.0.157.8%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%24%24lsname%3DLink+2%24%24lsname%3D%27%7C%7C+u%27http%3A%2F%2F161.0.157.50%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%24%24lsname%3DLink+3%24%24lsname%3D%27%7C%7C+u%27http%3A%2F%2F161.0.157.51%2FPLTV%2F88888888%2F224%2F3221227040%2Findex.m3u8%24%24lsname%3DLink+4%24%24lsname%3D%27%5D
-#EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC HD
+#EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast;FAV", NBC HD
 http://161.0.157.51/PLTV/88888888/224/3221227040/01.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC 1080
 plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dnbc-usa%26token%3d
@@ -33,7 +33,7 @@ plugin://script.module.tvforfree/play/160/play.pvr
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dfox
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX SD
 plugin://plugin.video.tvone1112/play/152/play.pvr
-#EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX HD
+#EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast;FAV", FOX HD
 https://gma2.blab.email/fox.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX 1080
 plugin://script.module.tvchoice/play/1277/play.pvr
