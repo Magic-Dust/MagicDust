@@ -193,10 +193,6 @@ plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.t
 #EXTINF:-1 tvg-id="I254.10021.schedulesdirect.org" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Cable", AMC 1080
 plugin://plugin.video.thecrew/?action=play&url=%24doregex%5Bplayplay%5D%7Cregex%3D7b6b55a24954b6df82736ade1effac7a&content=0
 #plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2famc%2f
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.google.com/logos/2011/lucilleball11-hp-tv.png" group-title="Cable", American Classic
-https://nimble.dashstreams.net/onestudio/americanclassictv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.google.com/logos/2011/lucilleball11-hp-tv.png" group-title="Cable", American Classic HD
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", American Heroes
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dahc
 #EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", American Heroes SD
@@ -349,8 +345,6 @@ plugin://script.module.tvforfree/play/85/play.pvr
 plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dcomedy-central%26token%3d
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://logos-vector.com/images/logo/mid/1/3/1/131652/Comedy_Central_5233c_138x138.png" group-title="Cable", Comedy Central UK
 plugin://script.module.tvforfree/play/84/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://logos-vector.com/images/logo/mid/1/3/1/131652/Comedy_Central_5233c_138x138.png" group-title="Cable", Comedy Central Extra
-plugin://script.module.tvforfree/play/647/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Cable", Comet TV
 https://usgeowall.sinclairstoryline.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8?
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Cable", Comet TV HD
@@ -722,7 +716,7 @@ plugin://script.module.tvforfree/play/189/play.pvr
 plugin://plugin.video.tvone1112/play/268/play.pvr
 #EXTINF:-1 tvg-id="I107.64590.schedulesdirect.org" tvg-name="SKY Two" tvg-logo="https://www.skymedia.co.uk/wp-content/uploads/2016/01/channel-logo-sky-2.png" group-title="Cable", SKY Two
 plugin://script.module.tvforfree/play/190/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="SKY Two" tvg-logo="https://www.skymedia.co.uk/wp-content/uploads/2016/01/channel-logo-sky-2.png" group-title="Cable", SKY Two HD
+#EXTINF:-1 tvg-id="I107.64590.schedulesdirect.org" tvg-name="SKY Two" tvg-logo="https://www.skymedia.co.uk/wp-content/uploads/2016/01/channel-logo-sky-2.png" group-title="Cable", SKY Two HD
 plugin://plugin.video.tvone1112/play/269/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Slice" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Slice_logo.svg/1920px-Slice_logo.svg.png" group-title="Cable", Slice
 plugin://plugin.video.tvone1112/play/1931/play.pvr
@@ -1401,8 +1395,6 @@ plugin://script.module.tvforfree/play/145/play.pvr
 http://156.146.43.241:2200/EX/LFCTV_HD-uk/tracks-v1a1/mono.m3u8?token=
 #EXTINF:-1 tvg-id="I640.59607.schedulesdirect.org" tvg-name="" tvg-logo="https://rosshollebon.files.wordpress.com/2010/06/masn-logo1.png" group-title="Sports", MASN
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://localdblagent.club:8080/Carlos1/Carlos1/13140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://sportsmockery.com/wp-content/uploads/2019/10/Cubs-Marquee-Network.png" group-title="Sports", Marquee Spors Network
-plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dmarquee%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&mode=17&regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dmarquee%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20None%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="MAV tv" tvg-logo="https://assets.lucasoil.com/logos/mavtv_motorsports_network_dark.png" group-title="Sports", MAV tv
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fsports24.club%2Ftv%2Fv%3Fid%3Dmavtv%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F64.0.3282.140+Safari%2F537.36+Edge%2F18.17763&amp;mode=17&amp;regexs=%7Bu%27base64%27%3A%20%7B%27expres%27%3A%20u%22xurl%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//sports24.club/tv/v%3Fid%3Dmavtv%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20u%27None%27%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="MAV tv" tvg-logo="https://assets.lucasoil.com/logos/mavtv_motorsports_network_dark.png" group-title="Sports", MAV tv HD
@@ -1433,8 +1425,6 @@ plugin://script.module.tvforfree/play/154/play.pvr
 plugin://plugin.video.tvone1112/play/411/play.pvr
 #EXTINF:-1 tvg-id="I870.21813.schedulesdirect.org" tvg-name="MUTV" tvg-logo="http://www.indianfootballnetwork.com/blog/wp-content/uploads/2013/11/manchester_united_logo.png" group-title="Sports", MUTV 1080
 plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.to%2fstream.php%3fid%3dmu-tv%26token%3d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.houstonmotorsportspark.com/NASCAR/NASCAR.png" group-title="Sports", NASCAR
-https://dd2zjam465om0.cloudfront.net/out/v1/46c8ebab8e694683b10f5b14fb0baa85/index.m3u8
 #EXTINF:-1 tvg-id="I216.32281.schedulesdirect.org" tvg-name="NBA TV" tvg-logo="https://static.epg.best/us/NBATV.us.png" group-title="Sports", NBA
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bget-decode%5D%7CReferer%3Dhttp%3A%2F%2Fyoursports.stream%2Fing%2Fnbatv%26User-Agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+rv%3A56.0%29+Gecko%2F20100101+Firefox%2F56.0&amp;mode=17&amp;regexs=%7Bu%27source%27%3A%20%7B%27expres%27%3A%20u%27src%3D%22%28http%3A%5C%5C/%5C%5C/yrsprts.xyz%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27source%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/%27%7D%2C%20u%27base64%27%3A%20%7B%27expres%27%3A%20u%22mustave%20%3D%20atob.%27%28.%2A%3F%29%27%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20u%27base64%27%2C%20%27page%27%3A%20u%27http%3A//yoursports.stream/ing/nbatv%27%7D%2C%20u%27get-decode%27%3A%20%7B%27expres%27%3A%20u%27%24pyFunction%3Abase64.b64decode%28%22%24doregex%5Bbase64%5D%22%29%27%2C%20%27name%27%3A%20u%27get-decode%27%2C%20%27page%27%3A%20u%27None%27%7D%7D
 #EXTINF:-1 tvg-id="I216.32281.schedulesdirect.org" tvg-name="NBA TV" tvg-logo="https://static.epg.best/us/NBATV.us.png" group-title="Sports", NBA SD
@@ -1974,8 +1964,6 @@ plugin://script.module.tvforfree/play/115/play.pvr
 plugin://plugin.video.tvone1112/play/132/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xjCtEPH.png" group-title="Food", Food52
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-food52/CDN/1280x720_5000000/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d1cm41cmeatikf.cloudfront.net/web/corp/images/tm-logo-white.png" group-title="Food", Tastemade
-https://tastemadessai.akamaized.net/amagi_hls_data_tastemade-tastemadexumo/CDN/master.m3u8
 
 #EXTINF:-1 tvg-id="I298.21883.schedulesdirect.org" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids", Boomerang
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fboomerang%2f
@@ -2089,9 +2077,9 @@ http://amd.cdn.turner.com/adultswim/big/streams/playlists/animated-marathon.m3u8
 plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fadult-swim%2f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/FLKdEzZ.png" group-title="24/7", America's Funniest Videos
 https://linear-12.frequency.stream/dist/roku/12/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://diysolarpanelsv.com/images/fish-in-a-tank-clipart-6.png" group-title="24/7", Aquarium
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium
 plugin://plugin.video.youtube/play/?video_id=P7EB3Zxqj7g
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://diysolarpanelsv.com/images/fish-in-a-tank-clipart-6.png" group-title="24/7", Aquarium 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium 2
 plugin://plugin.video.youtube/play/?video_id=9X68mdwJJZE
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Myrtle Beach
 http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
@@ -2099,9 +2087,9 @@ http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
 http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/fEjPBk3.png" group-title="24/7", BeachTV- Keys
 http://media4.tripsmarter.com:1935/LiveTV/KTVHD/chunklist_w363623166.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/DistroTV_250x250.png?raw=true" group-title="24/7", Chive TV
+#EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg" group-title="24/7", Chive TV
 https://a.jsrdn.com/broadcast/4df1bf71c1/+0000/c.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/DistroTV_250x250.png?raw=true" group-title="24/7", Chive TV HD
+#EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg", Chive TV HD
 http://a.jsrdn.com/broadcast/4df1bf71c1/+0000/high/c.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pXOyNEy.png" group-title="24/7", Classic Movies
 http://nrpus.bozztv.com/36bay2/gusa-tvsclassicmovies/index.m3u8
@@ -2129,7 +2117,7 @@ https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_pg13_zw9_27065_ftv_p
 https://fash1043.cloudycdn.services/store/_definst_/tmsp00043/vod/03/13/263291/55t_NOID_UKR8__394059.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xLC8ulA.png" group-title="24/7, Gone Fishing
 https://edge1.dashmedia.tv/onestudio/gonefishing/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://smashsupreme.com/wp-content/uploads/2018/01/finn_20.png" group-title="24/7", Mobcrush
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.mobcrush.com/static/com/mobcrush/images/mobcrush-icon.png" group-title="24/7", Mobcrush
 https://ott.mobcrush.com/hls/0/ott.m3u8
 #EXTINF:-1 tvg-id="I352.12553.schedulesdirect.org" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA TV
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
@@ -2203,19 +2191,19 @@ https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-bar.stream/playlist.m3u8
 https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-beach.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Voleyball
 https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-volleyball.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Field1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Field1
 plugin://plugin.video.youtube/play/?video_id=LuFHHGUUosM
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Field2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Field2
 plugin://plugin.video.youtube/play/?video_id=0Ypk_c9gev8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Field3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Field3
 plugin://plugin.video.youtube/play/?video_id=OfDHSCGmmtM
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Field4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Field4
 plugin://plugin.video.youtube/play/?video_id=lQQUDIKBp6w
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Field5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Field5
 plugin://plugin.video.youtube/play/?video_id=1sgMIpmlgHM
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Field6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Field6
 plugin://plugin.video.youtube/play/?video_id=XrJIUee3Rz8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://parks.nmb.us/wp-content/uploads/2016/07/top-logo-parks.png" group-title="Live Web-Cams", NMB Shark Park
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://parks.nmb.us/ImageRepository/Document?documentID=1034" group-title="Live Web-Cams", NMB Shark Park
 plugin://plugin.video.youtube/play/?video_id=Ugka607z6O4
 #EXTINF:-1, tvg-logo="http://www.ncbeaches.com/images/features/DiamondShoalsLightTower.jpg" group-title="Live Web-Cams", NMB Frying Pan
 plugin://plugin.video.youtube/play/?video_id=vGimsBVpuN8
