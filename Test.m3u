@@ -111,13 +111,13 @@ plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fpb
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", PBS SP24
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dpbs
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", Albany ABC WTEN
-special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WTEN.py
+RunScript(special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WTEN.py)
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Albany CBS WRGB
-special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WRGB.py
+RunScript(special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WRGB.py)
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", Albany NBC WNYT
-special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WNYT.py
+RunScript(special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WNYT.py)
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", Albany FOX WXXA
-special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WXXA.py
+RunScript(special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WXXA.py)
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.pbs.org/stations/wmht-color-logo-SC6Ur8e.png" group-title="Broadcast", Albany PBS
 plugin://slyguy.pbs.live/?_=play&_play=1&callsign=WMHT&_l=.pvr
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", Los Angeles ABC KERO
