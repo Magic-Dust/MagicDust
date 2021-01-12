@@ -1,4 +1,3 @@
-
 #EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC Direct1
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
@@ -112,17 +111,13 @@ plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fpb
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", PBS SP24
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dpbs
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", Albany ABC WTEN
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://beastiptv.tv:25461/live/Reyr07/Glendat11/9799.ts
-
-
+special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WTEN.py
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", Albany CBS WRGB
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://yourdnshere.xyz:83/live/trevorparker/8177168823/384019.ts
+special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WRGB.py
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", Albany NBC WNYT
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://yourdnshere.xyz:83/live/trevorparker/8177168823/384021.ts
+special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WNYT.py
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", Albany FOX WXXA
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://watch-myjokertv.xyz:8080/Pepsijr/Makaveli1983/34317
-
-
+special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/WXXA.py
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.pbs.org/stations/wmht-color-logo-SC6Ur8e.png" group-title="Broadcast", Albany PBS
 plugin://slyguy.pbs.live/?_=play&_play=1&callsign=WMHT&_l=.pvr
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", Los Angeles ABC KERO
@@ -360,8 +355,6 @@ plugin://plugin.video.tvone11/play/5/206/play.pvr
 plugin://plugin.video.tvone1112/play/1081/play.pvr
 #EXTINF:-1 tvg-id="I329.10051.schedulesdirect.org" tvg-name="" tvg-logo="http://www.novacable.com/images/logo_BET.gif" group-title="Cable", BET Redbox
 plugin://plugin.video.tvone111/play/1284/play.pvr
-#EXTINF:-1 tvg-id="I329.10051.schedulesdirect.org" tvg-name="" tvg-logo="http://www.novacable.com/images/logo_BET.gif" group-title="Cable", BET Magic
-special://home/userdata/addon_data/plugin.video.live.streamspro/MagicDust/channel.py
 #EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="Bravo East" tvg-logo="http://2.bp.blogspot.com/_jrLT7H4sK60/SQsc5X2XBVI/AAAAAAAADe8/2mug4NaIaRI/s400/work_bravo_logo.jpg" group-title="Cable", Bravo tvTap
 plugin://plugin.video.tvone/play/56/play.pvr
 #EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="Bravo East" tvg-logo="http://2.bp.blogspot.com/_jrLT7H4sK60/SQsc5X2XBVI/AAAAAAAADe8/2mug4NaIaRI/s400/work_bravo_logo.jpg" group-title="Cable", Bravo Mobdro
