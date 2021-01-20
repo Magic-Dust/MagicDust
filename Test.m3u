@@ -912,6 +912,8 @@ plugin://plugin.video.tvone1/play/channels/8f022230ec3e10446d945121e0b77f89/play
 plugin://plugin.video.tvone1112/play/475/play.pvr
 #EXTINF:-1 tvg-id="I616.33638.schedulesdirect.org" tvg-name="Pop TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png" group-title="Cable", Pop Direct1
 https://live-poptv-fastly-prod.global.ssl.fastly.net/pop/master.m3u8
+#EXTINF:-1 tvg-id="I616.33638.schedulesdirect.org" tvg-name="Pop TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png" group-title="Cable", Pop Direct2
+http://n1.klowdtv.net/live2/pop_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="I616.33638.schedulesdirect.org" tvg-name="Pop TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png" group-title="Cable", Pop USTVGO
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fpop%2f
 #EXTINF:-1 tvg-id="" tvg-name="Quest" tvg-logo="http://hoolatv.com/sites/default/files/channels/quest.png" group-title="Cable", Quest Mobdro
@@ -1254,6 +1256,8 @@ http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8
 https://github.com/exodiver/IPTV/raw/master/M3U8/Token/EuroNews.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
+#EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business Direct
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business SD
 plugin://plugin.video.tvone1/play/news/aa7c197f17242c5edb20a789d4c62c2b/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business HD
@@ -1316,14 +1320,13 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_1080.m3u8
 http://broadcastny.yournewsnet.com:8081/master/newsnetweb/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-logo="http://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/398_300.png" group-title="News", NHK World
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News", OAN Direct
-https://cdn.klowdtv.net/803B48A/oan_aws_ms/OAN.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News", OAN
 http://n1.klowdtv.net/live1/oan_360p/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News", OAN HD
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fone-america-news-network%2f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News", OAN 1080
 http://n1.klowdtv.net/live1/oan_720p/playlist.m3u8
+#http://cdn.klowdtv.net/803B48A/oan_aws_ms/OAN.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News", OAN Encore
 https://oneamericanews-roku-us.amagi.tv/hls/amagi_hls_data_oneameric-oneamericanews/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RTÉ_logo.svg/640px-RTÉ_logo.svg.png" group-title="News" group-title="News", RTE News Now
