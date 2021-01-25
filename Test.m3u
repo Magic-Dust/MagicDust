@@ -359,6 +359,8 @@ plugin://plugin.video.temptv/?action=ustreamixPlay&url=https%3a%2f%2fustreamix.t
 https://buzzrota-web.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I374.21855.schedulesdirect.org" tvg-name="ByuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/BYUtv_logo.svg/200px-BYUtv_logo.svg.png" group-title="Cable", ByuTV
 http://a.jsrdn.com/broadcast/d5b46/+0000/high/c.m3u8
+#EXTINF:-1 tvg-id="I210.10091.schedulesdirect.org" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC Direct
+https://cdn006.teleuptv.net/ydcl2V1MVC/playlist.m3u8
 #EXTINF:-1 tvg-id="I210.10091.schedulesdirect.org" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC tvTap
 plugin://plugin.video.tvone/play/613/play.pvr
 #EXTINF:-1 tvg-id="I210.10091.schedulesdirect.org" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC Mobdro
@@ -443,6 +445,8 @@ http://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
 plugin://plugin.video.tvone11/play/17/1085/play.pvr
 #EXTINF:-1 tvg-id="I218.10112.schedulesdirect.org" tvg-name="CHCH Channel" tvg-logo="http://www.channelzerodigital.com/images/CHCH.png" group-title="Cable", CHching! Livenet
 plugin://plugin.video.tvone1112/play/1912/play.pvr
+#EXTINF:-1 tvg-id="I253.10136.schedulesdirect.org" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City Direct
+https://cdn006.teleuptv.net/iSykLSKMFr/playlist.m3u8
 #EXTINF:-1 tvg-id="I253.10136.schedulesdirect.org" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City Mobdro
 plugin://plugin.video.tvone1/play/channels/0d219a36164cc49d3c64755974e49c2c/play.pvr
 #EXTINF:-1 tvg-id="I253.10136.schedulesdirect.org" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City Swift
@@ -451,8 +455,14 @@ plugin://plugin.video.tvone11/play/17/1048/play.pvr
 plugin://plugin.video.tvone1112/play/1974/play.pvr
 #EXTINF:-1 tvg-id="I9406.16325.schedulesdirect.org" tvg-name="CAS" tvg-logo="http://www.classicartsshowcase.org/cas/wp-content/themes/cas/images/logo.png" group-title="Cable", Classic Arts Showcase
 https://classicarts.global.ssl.fastly.net/live/cas/master_3000k.m3u8
+#EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT
+plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fcmt-country-music-television%2f
+#EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT HD
+plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5dcc42446750e200093b15e2%2Fmaster.m3u8%3Fterminate%3Dfalse%26deviceType%3Dweb%26deviceMake%3Dweb%26deviceModel%3Dweb%26sid%3D182%26deviceId%3D5dcc42446750e200093b15e2%26deviceVersion%3DDNT%26appVersion%3DDNT%26deviceDNT%3D0%26userId%3D%26advertisingId%3D%26deviceLat%3D%26deviceLon%3D%26app_name%3D%26appName%3Dweb%26buildVersion%3D%26appStoreUrl%3D%26architecture%3D%26includeExtendedEvents%3Dfalse%26marketingRegion%3DUS%26serverSideAds%3Dfalse&amp;content=addons
 #EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT USTVGO
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fcmt%2f
+#EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT Mobdro
+plugin://plugin.video.tvone1/play/channels/ff6b0a0b408801038eeb24dddcd99e5a/play.pvr
 #EXTINF:-1 tvg-id="I249.10149.schedulesdirect.org" tvg-name="Comedy Central East" tvg-logo="http://logos-vector.com/images/logo/mid/1/3/1/131652/Comedy_Central_5233c_138x138.png" group-title="Cable", Comedy C tvTap
 plugin://plugin.video.tvone/play/85/play.pvr
 #EXTINF:-1 tvg-id="I249.10149.schedulesdirect.org" tvg-name="Comedy Central East" tvg-logo="http://logos-vector.com/images/logo/mid/1/3/1/131652/Comedy_Central_5233c_138x138.png" group-title="Cable", Comedy C Mobdro
@@ -1254,10 +1264,8 @@ plugin://plugin.video.tvone1112/play/1973/play.pvr
 http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Euronews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/1280px-Euronews_2016_logo.svg.png" group-title="News", Euronews
 https://github.com/exodiver/IPTV/raw/master/M3U8/Token/EuroNews.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business
+#EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News;Fav3", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
-#EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News;Fav3", Fox Business Direct
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business SD
 plugin://plugin.video.tvone1/play/news/aa7c197f17242c5edb20a789d4c62c2b/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business HD
@@ -2686,10 +2694,6 @@ https://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU-92/playlist.
 https://flash8.xdevel.com/californiatv/californiatv/manifest_w271418466.mpd
 #EXTINF:-1 tvg-id="" tvg-name="Capital TV" tvg-logo="http://media-assets-03.thedrum.com/cache/images/thedrum-prod/public-drum_basic_article-120126-main_images-Capital_FM_Network_logo_0--default--300.png" group-title="Music Videos", Capital TV
 http://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/index_5_av-p.m3u8
-#EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Music Videos;Fav5", CMT HD
-plugin://plugin.video.temptv/?action=myustvPlay&amp;url=http%3a%2f%2fmyustv.com%2fwatch%2fcmt-country-music-television%2f
-
-
 #EXTINF:-1 tvg-id="" tvg-name="Kerrang!" tvg-logo="https://www.aloud.com/aloud/img/logos/kerrang.png" group-title="Music Videos", Kerrang!
 plugin://plugin.video.tvone/play/649/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://sabonner.melody.tv/bundles/app/images/logo-melody.png?v=1" group-title="Music Videos", Melody Channel
@@ -2832,27 +2836,23 @@ plugin://plugin.audio.radio_de/station/19004
 plugin://plugin.audio.radio_de/station/23601
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://212.102.60.121:8000/calem7/4BY4CSaMUW/55257
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/13403
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10062
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers Europe
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://yourdnshere.xyz:83/live/trevorparker/8177168823/380186.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10090
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a6/Dorcel_TV_Logo.svg/200px-Dorcel_TV_Logo.svg.png" group-title="Adult TV", Dorcel
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://212.102.60.121:8000/calem7/4BY4CSaMUW/55258
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10081
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a6/Dorcel_TV_Logo.svg/200px-Dorcel_TV_Logo.svg.png" group-title="Adult TV", Dorcel HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/5529
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10065
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://tvtvtv.ru/icons/erox_hd.png" group-title="Adult TV", EROX
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://212.102.60.121:8000/calem7/4BY4CSaMUW/55260
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10105
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://tvtvtv.ru/icons/erox_hd.png" group-title="Adult TV", EROX HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=tp://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/13867
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10121
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/674060
+plugin://plugin.video.tvone1/play/channels/dcd83748a61b77531c01b4c283dacb81/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/5525
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER BLUE
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://yourdnshere.xyz:83/live/trevorparker/8177168823/380153.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10077
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER BLUE HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://wohuogai.com:37000/live/5bPitTMLmw/rdFjNYkMdz/69809.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10114
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
 http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB  - MAIN STAGE
@@ -2870,11 +2870,13 @@ https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/chunklist_w
 #EXTINF:-1 ,tvg-logo="https://i.pinimg.com/originals/ae/b6/35/aeb635030bbc5c6d6387ae3b0a7d79ba.png" group-title="Adult TV", MILF HD
 http://live.redtraffic.xyz/milf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/13863
+plugin://plugin.video.tvone1/play/channels/0d2e805a7bdc31c36b104bdc2fc0580e/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/13862
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10054
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse 2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10092
 #EXTINF:-1 tvg-id="I457.54335.schedulesdirect.org" tvg-name="" tvg-logo="http://www.vector-logo.net/logo_preview/eps/p/Playboy_TV.png" group-title="Adult TV", Playboy
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/19674
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10080
 #EXTINF:-1 tvg-id="I457.54335.schedulesdirect.org" tvg-name="" tvg-logo="http://www.vector-logo.net/logo_preview/eps/p/Playboy_TV.png" group-title="Adult TV", Playboy HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/17717
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img1.wikia.nocookie.net/__cb20150315153455/logopedia/images/9/98/PRIVATE_TV.png" group-title="Adult TV", Private
@@ -2914,10 +2916,8 @@ http://live.redtraffic.xyz/pov.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://images.zattic.com/logos/99c52002fd7a7a01f017/white/210x120.png" group-title="Adult TV", Visit-X TV
 http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/13864
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10101
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red HD
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://88.198.32.78:80/edis1/edis1/7922
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://mypanel.tv:8080/live:cardak7_1/HSi2ulXczL/53706
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid TV Europe HD
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://yourdnshere.xyz:83/live/trevorparker/8177168823/380158.ts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/18864
