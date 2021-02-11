@@ -6,9 +6,9 @@ http://161.0.157.8/PLTV/88888888/224/3221227041/index.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast;Fav", NBC
 http://161.0.157.50/PLTV/88888888/224/3221227040/index.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast;Fav", FOX
-https://gma2.blab.email/fox.m3u8
+plugin://script.module.eviltentv/play/152/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1200px-The_CW.svg.png" group-title="Broadcast", CW
-https://cdn006.teleuptv.net/rTK2EQCVCX/playlist.m3u8
+plugin://script.module.eviltentv/play/468/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", PBS
 https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/chunklist_b600000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/09/WPDE15.png/220px-WPDE15.png" group-title="Broadcast", WPDE ABC15 Myrtle
@@ -162,6 +162,8 @@ plugin://plugin.video.tvone11/play/5/218/play.pvr
 plugin://plugin.video.tvone/play/603/play.pvr
 #EXTINF:-1 tvg-id="I266.16834.schedulesdirect.org" tvg-name="FYISD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Cable", FYI
 plugin://script.module.realtv/play/channels/89a0ec69fae5a63c6724cc9b146971a0/play.pvr
+
+
 #EXTINF:-1 tvg-id="I233.14909.schedulesdirect.org" tvg-name="Game Show Network" tvg-logo="http://direct-vs-dish.com/media/channel_logos/GSN.png.300x300_q85.png" group-title="Cable", Game Show
 plugin://plugin.video.temptv/?action=ustvgoPlay&url=https%3a%2f%2fustvgo.tv%2fgsn%2f
 #EXTINF:-1 tvg-id="I252.10050.schedulesdirect.org" tvg-name="Global" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s10050_dark_360w_270h.png" group-title="Cable", Global
@@ -186,6 +188,8 @@ plugin://plugin.video.tvone11/play/5/251/play.pvr
 plugin://plugin.video.tvone/play/606/play.pvr
 #EXTINF:-1 tvg-id="I305.76894.schedulesdirect.org" tvg-name="" tvg-logo="http://imagehosting.biz/images/2019/02/14/ion.png" group-title="Cable", ION
 plugin://script.module.realtv/play/channels/788875e09d2e59cd858b50232c0cd2fe/play.pvr
+
+
 #EXTINF:-1 tvg-id="I103.17468.schedulesdirect.org" tvg-name="ITV" tvg-logo="http://static.epg.best/gb/ITV1.uk.png" group-title="Cable", ITV
 plugin://plugin.video.tvone/play/137/play.pvr
 #EXTINF:-1 tvg-id="I118.20630.schedulesdirect.org" tvg-name="ITV2" tvg-logo="http://static.epg.best/gb/ITV2.uk.png" group-title="Cable", ITV 2
@@ -204,6 +208,8 @@ plugin://plugin.video.tvone11/play/5/215/play.pvr
 http://bamus-eng-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.worldtvpc.com/blog/wp-content/uploads/2011/01/MeTV_Logo.png" group-title="Cable", MeTV
 plugin://script.module.realtv/play/channels/2f6eaddc5baa2f20c4ec949b6e903e90/play.pvr
+
+
 #EXTINF:-1 tvg-id="I138.47657.schedulesdirect.org" tvg-name="More 4" tvg-logo="https://static.epg.best/gb/More4.uk.png" group-title="Cable", More 4
 plugin://plugin.video.tvone/play/500/play.pvr
 #EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
@@ -234,6 +240,8 @@ plugin://script.module.eviltentv/play/250/play.pvr
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="I238.52199.schedulesdirect.org" tvg-name="Reelz Channel HD" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Reelz.png" group-title="Cable", Reelz
 plugin://script.module.realtv/play/channels/7ecb633e341f4e8686225ae5b4cf8735/play.pvr
+
+
 #EXTINF:-1 tvg-id="I384.83098.schedulesdirect.org" tvg-name="Revolt Music" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s83098_dark_360w_270h.png" group-title="Cable", Revolt
 https://bozztv.com/teleyupp/teleup-revolt/playlist.m3u8
 #EXTINF:-1 tvg-id="I801.99537.schedulesdirect.org" tvg-name="RTE ONE" tvg-logo="https://learning.gaa.ie/sites/default/files/rte-logo.png" group-title="Cable", RTE 1
@@ -252,6 +260,8 @@ plugin://plugin.video.tvone111/play/1351/play.pvr
 plugin://script.module.eviltentv/play/1931/play.pvr
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://www.si.edu/sites/default/files/newsdesk/press_releases/sunburst.png" group-title="Cable", Smithsonian
 plugin://script.module.realtv/play/channels/978dea787f2d5d12839e1cf9581ac6cd/play.pvr
+
+
 #EXTINF:-1 tvg-id="I241.11163.schedulesdirect.org" tvg-name="Paramount" tvg-logo="http://fcfighter.com/wp-content/uploads/2011/07/spike_tv.png" group-title="Cable", Spike
 plugin://plugin.video.tvone/play/213/play.pvr
 #EXTINF:-1 tvg-id="I557.16108.schedulesdirect.org" tvg-name="Sundance TV" tvg-logo="http://seeklogo.com/images/S/sundance-logo-ABA465A4BC-seeklogo.com.gif" group-title="Cable", Sundance
@@ -347,7 +357,7 @@ plugin://script.module.eviltentv/play/1927/play.pvr
 https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News;Fav3", MSNBC
 plugin://plugin.video.tvone11/play/5/245/play.pvr
-#EXTINF:-1 tvg-id="I349.87925.schedulesdirect.org" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News;Fav3", NewsmaxTV
+#EXTINF:-1 tvg-id="I349.87925.schedulesdirect.org" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News;Fav3", Newsmax
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-logo="http://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/398_300.png" group-title="News", NHK World
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
@@ -368,7 +378,7 @@ http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable;Fav3", Weather Channel
 http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/weather_central.png" group-title="News;Cable", Weather Central
-plugin://script.module.realtv/play/news/9bc1039133418795af445a74855ce244/play.pvr
+plugin://script.module.eviltentv/play/1979/play.pvr
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
 
@@ -432,6 +442,8 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://104.218.60.6
 
 #EXTINF:-1 tvg-id="I608.26078.schedulesdirect.org" tvg-name="" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-fox-college-sports.png" group-title="Sports;Fav4", College Central FOX
 plugin://script.module.realtv/play/sports/cd2cf42e341cf544b0ea56a2bea4ddef/play.pvr
+
+
 #EXTINF:-1 tvg-id="I654.11095.schedulesdirect.org" tvg-name="Fox Sports Florida" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", Florida Fox Sports
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://212.102.60.121:8000/calem7/4BY4CSaMUW/58096
 
@@ -442,18 +454,32 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://212.102.60.1
 
 #EXTINF:-1 tvg-id="I671.20638.schedulesdirect.org" tvg-name="" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports;Fav4", Midwest Fox Sports
 plugin://script.module.realtv/play/sports/1ac6637f665cbe1ac8d46fad0a151ee3/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", North Fox Sports
 plugin://script.module.realtv/play/sports/eb7978459bd051a2b91c12bb72734ec5/play.pvr
+
+
 #EXTINF:-1 tvg-id="I646.61092.schedulesdirect.org" tvg-name="" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports;Fav4", South Fox Sports
 plugin://script.module.realtv/play/sports/b256a598237a9334530dd54d07bfe996/play.pvr
+
+
 #EXTINF:-1 tvg-id="I676.59629.schedulesdirect.org" tvg-name="Fox Sports Southwest HD" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", Southwest Fox Sports
 plugin://script.module.realtv/play/sports/e58fd1f9ede8de3fff1ccf897c083a69/play.pvr
+
+
 #EXTINF:-1 tvg-id="I653.61084.schedulesdirect.org" tvg-name="Fox Sports Sun" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", Sun Fox Sports
 plugin://script.module.realtv/play/sports/deac4fc4c9c09619f9990a93730a786e/play.pvr
+
+
 #EXTINF:-1 tvg-id="I692.59627.schedulesdirect.org" tvg-name="FOX Sports West HD" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", West FOX Sports
 plugin://script.module.realtv/play/sports/5bf569c45b0894b1c4f5706656944acf/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="FOX Sports WISCONSIN" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", WISCONSIN FOX Sports
 plugin://script.module.realtv/play/sports/bac40024107897effeeb36c17c5a619e/play.pvr
+
+
 #EXTINF:-1 tvg-logo="https://static.epg.best/au/FoxSportsNews.au.png" group-title="Sports", Fox Sports News Australia
 https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master1280x720.m3u8
 #EXTINF:-1 tvg-id="I218.14899.schedulesdirect.org" tvg-name="Golf Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/ff/Golf_Channel_logo.png/220px-Golf_Channel_logo.png" group-title="Sports;Fav4", Golf Ch
@@ -494,22 +520,14 @@ plugin://plugin.video.thecrew/?action=play&amp;url=%24doregex%5Bmakelist2%5D%7Cr
 plugin://plugin.video.tvone/play/494/play.pvr
 #EXTINF:-1 tvg-id="I624.104186.schedulesdirect.org" tvg-name="Olympic Channel" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Sports", Olympic Channel
 plugin://script.module.realtv/play/sports/6c4d781d6c582d4fb3d68c182d15ee8e/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://onegolftv.com/wp-content/uploads/2018/08/onegolf-HD-with-image-200px.png" group-title="Sports", One Golf
 http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Network
 plugin://script.module.realtv/play/sports/3619e0336e8eb4b2ada31fa23d45b494/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Arizona
-plugin://script.module.realtv/play/sports/1c8e0ebd20c8898244dd5ebbed73529d/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Bay Area
-plugin://script.module.realtv/play/sports/1330a4705b4158981805e0520d28cc52/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 LA
-plugin://script.module.realtv/play/sports/2b9fd8c3b5d5500f6426594e5f6f527e/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Mountain
-plugin://script.module.realtv/play/sports/1ba5f03e3a692e696121ceec84e7194d/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Oregon
-plugin://script.module.realtv/play/sports/57299916a9d0be4c4e41dadd81e50e56/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Washington
-plugin://script.module.realtv/play/sports/63f7866581150a22a09e6ae8ab2ef532/play.pvr
+
+
 #EXTINF:-1 tvg-id="I473.109784.schedulesdirect.org" tvg-name="Real Madrid" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s109784_dark_360w_270h.png" group-title="Sports", Real Madrid
 plugin://plugin.video.tvone/play/672/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Red Bull HD" tvg-logo="https://i.imgur.com/A4GMBN6.png" group-title="Sports", Red Bull
@@ -581,6 +599,8 @@ plugin://plugin.video.tvone/play/241/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Yes Network" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s46275_dark_360w_270h.png" group-title="Sports;Fav4", Yes Network
 plugin://script.module.realtv/play/sports/00520183d27e7b817e9d015f1d2c7c3c/play.pvr
 
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.gamingintelligence.com/wp-content/uploads/2008/10/17154117/Ladbrokes-lg.jpg" group-title="Horse Racing", ARC
 http://vermmd.mmdlive.lldns.net/vermmd/84c4d7bebe1f4c578e0f68744041d6fc/chunklist_b1996000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="At The Races" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-at-the-races.png" group-title="Horse Racing", At The Races
@@ -631,14 +651,14 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://212.102.60.1
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://culinarygourmet.files.wordpress.com/2010/01/empirecitylogo_thumb.png" group-title="Horse Racing", Yonkers Raceway
 https://api.new.livestream.com/accounts/22933138/events/8666133/live.m3u8
 
-#EXTINF:-1 tvg-id="I519.59948.schedulesdirect.org" tvg-name="ActionMax East" tvg-logo="https://wtcks.com/images/channels/logos/actionmax.png" group-title="Movies;Fav6", ActionMax
+#EXTINF:-1 tvg-id="I519.59948.schedulesdirect.org" tvg-name="ActionMax East" tvg-logo="https://wtcks.com/images/channels/logos/actionmax.png" group-title="Movies", ActionMax
 plugin://plugin.video.tvone/play/468/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Cinemax East HD" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies;Fav6", Cinemax East
 plugin://plugin.video.tvone111/play/1279/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="Cinemax West" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies", Cinemax West
-plugin://plugin.video.tvone/play/469/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="Cinemax West" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies;Fav6", Cinemax West
+https://edge.roku-live.top.comcast.net/out/u/cinemax-west.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MoreMax" tvg-logo="https://d2po7v53a8yrck.cloudfront.net/static/2/Open/2400x2400_1578/Source/20940/moremaxhd_2400_color_dark_light.png" group-title="Movies;Fav6", MoreMax
-plugin://script.module.realtv/play/channels/10c1ea6134af757b596084ce15199907/play.pvr
+plugin://script.module.eviltentv/play/1983/play.pvr
 #EXTINF:-1 tvg-id="I522.59954.schedulesdirect.org" tvg-name="ThrillerMax East" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/thrillermax.png" group-title="Movies", ThrillerMax
 plugin://plugin.video.tvone/play/471/play.pvr
 #EXTINF:-1 tvg-id="I560.74073.schedulesdirect.org" tvg-name="" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s74073_dark_360w_270h.png" group-title="Movies", Epix
@@ -659,10 +679,6 @@ plugin://plugin.video.tvone/play/609/play.pvr
 plugin://plugin.video.tvone111/play/1268/play.pvr
 #EXTINF:-1 tvg-id="I546.22532.schedulesdirect.org" tvg-name="Showtime West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies;Fav6", Showtime West
 plugin://plugin.video.tvone/play/473/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="Showtime Extreme East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime Extreme
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://redcoliptv.com:8090/concert/concert/16147
-
-
 #EXTINF:-1 tvg-id="I548.16153.schedulesdirect.org" tvg-name="Showtime Showcase East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/270px-Showtime.svg.png" group-title="Movies", Showtime Showcase
 plugin://plugin.video.tvone/play/475/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="SKY Action & Adventure" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Action & Adventure
@@ -706,6 +722,8 @@ plugin://script.module.eviltentv/play/259/play.pvr
 
 #EXTINF:-1 tvg-id="" tvg-name="Cooking Channel" tvg-logo="http://www.sporkful.com/wp-content/themes/sporkfulMKII/img/cooking_channel_logo.png" group-title="Food", Cooking Channel
 plugin://script.module.realtv/play/channels/1961c10bfb64b36bc0c030b0106b56e1/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.outdoorcookingchannel.com/wp-content/uploads/2014/06/150-logo.png" group-title="Food", Cooking Outdoors
 http://edge1.tikilive.com:1935/unrestricted_tikilive/25947/amlst:NWKlw6jwyXpz/chunklist_w981409619_b1105254.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/SxRzFO8.png" group-title="Food", Cooking 4U
@@ -739,8 +757,6 @@ plugin://script.module.eviltentv/play/1368/play.pvr
 plugin://plugin.video.tvone/play/166/play.pvr
 #EXTINF:-1 tvg-id="I301.19211.schedulesdirect.org" tvg-name="Nick Jr" tvg-logo="http://static.epg.best/sa/NickJr.sa.png" group-title="Kids", Nick Jr
 plugin://plugin.video.tvone/play/645/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://images.wikia.com/nickelodeon/images/archive/8/8e/20111127040207!TeenNick_logo_2009.png" group-title="Kids", Teen Nick
-plugin://script.module.realtv/play/channels/b1b71f301db79f1b172312f154b61665/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Kids", PBS Kids
 http://live-cdn.pbskids.org/out/u/est.m3u8
 
@@ -781,16 +797,12 @@ https://linear-12.frequency.stream/dist/roku/12/hls/master/playlist.m3u8
 plugin://plugin.video.youtube/play/?video_id=P7EB3Zxqj7g
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium 2
 plugin://plugin.video.youtube/play/?video_id=9X68mdwJJZE
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.clipartbest.com/cliparts/yTo/4g9/yTo4g99xc.png" group-title="24/7;Fav7", Batman 1966
-plugin://script.module.realtv/play/shows/a09f2a301ed5610d507dc27695d60f5f/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Myrtle Beach
 http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Panama City
 http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/fEjPBk3.png" group-title="24/7", BeachTV- Keys
 http://media4.tripsmarter.com:1935/LiveTV/KTVHD/chunklist_w363623166.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mtv.mtvnimages.com/crop-images/2014/10/13/beavisandbutthead.jpg" group-title="24/7;Fav7", Beavis and Butthead
-plugin://script.module.realtv/play/shows/d61aab1489b27a5cffd192451d68f8b2/play.pvr
 #EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg" group-title="24/7", Chive TV
 https://a.jsrdn.com/broadcast/4df1bf71c1/+0000/c.m3u8
 #EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg", Chive TV HD
@@ -811,66 +823,40 @@ plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-st
 https://video.blivenyc.com/broadcast/prod/2061/29/file-4692k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.signature-fires.co.uk/img/fireplace-surrounds/The-Kent-Bolection.png" group-title="24/7", Fireplace
 plugin://plugin.video.youtube/play/?video_id=0fYL_qiDYf0
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://img.elcomercio.pe/files/article_content_ec_fotos/files/crop/uploads/2018/07/25/5b58e7686ac42.r_1532559215441.84-91-988-610.jpeg" group-title="24/7;Fav7", Frasier
-plugin://script.module.realtv/play/shows/74c017ff244bc0c565cbd8e65a97ca14/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/thumb/b/b0/Fashion_tv.png/120px-Fashion_tv.png" group-title="24/7", FTV [COLOR magenta] (5 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Fashion&playlist=%5Bu%27https%3A%2F%2Ffash1043.cloudycdn.services%2Fslive%2F_definst_%2Fftv_ftv_pg13_zw9_27065_ftv_pg13_196_hls.smil%2Fchunklist_b4700000_t64MTA4MHA%3D.m3u8%24%24lsname%3DInternational%27%7C%7C+u%22http%3A%2F%2Ffash1043.cloudycdn.services%2Fslive%2F_definst_%2Fftv_ftv_pg16_d9y_27042_ftv_pg16_194_hls.smil%2Fchunklist.m3u8%24%24lsname%3DL%27Original%22%7C%7C+u%27https%3A%2F%2Ffash1043.cloudycdn.services%2Fslive%2F_definst_%2Fftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil%2Fplaylist.m3u8%24%24lsname%3DMidnight+Secret%27%7C%7C+u%27https%3A%2F%2Ffash1043.cloudycdn.services%2Fstore%2F_definst_%2Ftmsp00043%2Fvod%2F03%2F12%2F263249%2Feem_42685_3J4I_393864.smil%2Fchunklist.m3u8%24%24lsname%3DPhotoshoot%27%7C%7C+u%27http%3A%2F%2Ffash1043.cloudycdn.services%2Fslive%2F_definst_%2Fftv_paris_adaptive.smil%2Fchunklist.m3u8%24%24lsname%3DParis%27%5D
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/kGaMUhq.jpg" group-title="24/7", Gilligan's Island
-plugin://script.module.realtv/play/shows/1eff7e0fb32607afdc1561564569fe9e/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.amazonaws.com/bonanzleimages/afu/images/1742/9757/77/godzillamisbwvmsn.jpg" group-title="24/7;Fav7", Godzilla Movies
-plugin://script.module.realtv/play/movies/247cbeaf93c2a84655b57a73e6f29982/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/Hanna-Barbera.png" group-title="24/7", Hanna Barbera
-plugin://script.module.realtv/play/shows/e692c87c6df7c73175db9762422ebdc7/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5e66928133461100077dfd73/colorLogoPNG.png" group-title="24/7;Fav7, Johnny Carson
 plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5e66928133461100077dfd73%2Fmaster.m3u8%3Fterminate%3Dfalse%26deviceType%3Dweb%26deviceMake%3Dweb%26deviceModel%3Dweb%26sid%3D514%26deviceId%3D5e66928133461100077dfd73%26deviceVersion%3DDNT%26appVersion%3DDNT%26deviceDNT%3D0%26userId%3D%26advertisingId%3D%26deviceLat%3D%26deviceLon%3D%26app_name%3D%26appName%3Dweb%26buildVersion%3D%26appStoreUrl%3D%26architecture%3D%26includeExtendedEvents%3Dfalse%26marketingRegion%3DUS%26serverSideAds%3Dfalse&amp;content=addons
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fanart.tv/fanart/tv/72514/hdclearart/looney-tunes-53f71075458d9.png" group-title="24/7;Fav7", Looney Toons
-plugin://script.module.realtv/play/shows/5a99ffea4bd840223bc5498bc0a79b2c/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.mobcrush.com/static/com/mobcrush/images/mobcrush-icon.png" group-title="24/7", Mobcrush
 https://ott.mobcrush.com/hls/0/ott.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5bd833b41843b56328bac189/colorLogoPNG.png" group-title="24/7", MythBusters
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5bd833b41843b56328bac189/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=869&deviceId=5bd833b41843b56328bac189&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5bd833b41843b56328bac189/colorLogoPNG.png" group-title="24/7;Fav7", MythBusters 2
-plugin://script.module.realtv/play/shows/976a1868a8a60830fa76ac9ce387b89b/play.pvr
 #EXTINF:-1 tvg-id="I352.12553.schedulesdirect.org" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA TV
 https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
 #EXTINF:-1 tvg-id="I352.12553.schedulesdirect.org" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA TV HD
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/l2O0fY1.png" group-title="24/7", Offshore Fishing
 http://30a-tv.com/darcizzle.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://owenscorning.com.mx/wp-content/uploads/2018/07/pink-panther-856x1024.png" group-title="24/7;Fav7", Pink Panther
-plugin://script.module.realtv/play/shows/e38d6e5a7ccbfa33b4681a43cde0be3d/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.bonniercorp.com/wp-content/uploads/2013/06/logo_PopularScience-400x144.png" group-title="24/7", Popular Science
 http://a.jsrdn.com/broadcast/447912f76b/+0000/low/c.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://userscontent2.emaze.com/images/3aad53e1-b1ed-4615-b73f-5da38c50f186/b6e7a922-ea23-4d64-aaa1-47f1ad5ce794.png" group-title="24/7", Rick and Morty
 http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i0.kym-cdn.com/entries/icons/facebook/000/015/339/Robot_Chicken.jpg" group-title="24/7", Robot Chicken
 https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Simpsons_FamilyPicture.png" group-title="24/7;Fav7", Simpsons
-plugin://script.module.realtv/play/shows/829b83137c556b08fce058e2ba9b343a/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.pngmart.com/files/5/South-Park-PNG-Photo.png" group-title="24/7;Fav7", Southpark
-plugin://script.module.realtv/play/shows/d279eb03080cdc91c708349912867b15/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.pinimg.com/originals/d6/8c/dd/d68cdd473f7a56f574b7514e24fbc1ce.jpg" group-title="24/7;Fav7", Squidbillies
 https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream_7.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7", Surf
 https://0e52d42a12b74a218576cd628069fa50.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_SurfNowTV/1e05afbf-0234-4d61-9406-20bf6719fce5/3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7", Surf 2
 https://1091-surfnowtv-1.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/HiKbVss.jpg" group-title="24/7;Fav7", The Bionic Woman
-plugin://script.module.realtv/play/shows/370efe17a1276a4eac6bbaa9a0f0270f/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a0/Tpir_40_logo.png" group-title="24/7;Fav7", The Price is Right
 https://tpir-plutolive-vo.akamaized.net/r/hlslive/tpir.m3u8?chname=tpir&pub=cd44c23c-4796-475f-bcb1-b846bed4cf40
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/S1Q7FGN.jpg" group-title="24/7;Fav7", The Six Million Dollar Man
-plugin://script.module.realtv/play/shows/eb247b0d641afc3938f3e938bc78b493/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG9.png" group-title="24/7;Fav7", TOM & JERRY
 https://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_high.flv
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5dae084727c8af0009fe40a4/colorLogoPNG.png" group-title="24/7;Fav7", TOSH.0
 plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5dae084727c8af0009fe40a4%2Fmaster.m3u8%3Fterminate%3Dfalse%26deviceType%3Dweb%26deviceMake%3Dweb%26deviceModel%3Dweb%26sid%3D470%26deviceId%3D5dae084727c8af0009fe40a4%26deviceVersion%3DDNT%26appVersion%3DDNT%26deviceDNT%3D0%26userId%3D%26advertisingId%3D%26deviceLat%3D%26deviceLon%3D%26app_name%3D%26appName%3Dweb%26buildVersion%3D%26appStoreUrl%3D%26architecture%3D%26includeExtendedEvents%3Dfalse%26marketingRegion%3DUS%26serverSideAds%3Dfalse&amp;content=addons
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mobiletv.mobibase.com/html/logo/hd/channel_ld_723.png" group-title="24/7", Superyacht TV
-http://cdn.mobibase.com/hls/733/258_5000k/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/TWiT.svg/130px-TWiT.svg.png" group-title="24/7", TWiT
 http://iphone-streaming.ustream.tv/uhls/1524/streams/live/iphone/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/SgEYfDn.jpg" group-title="24/7;Fav7", WKRP in Cincinnati
-plugin://script.module.realtv/play/shows/9e76a006acc0b72b277a46d23ffcfa7b/play.pvr
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Albany Egg
 https://wms-prod-2.wetmet.net/live/225-05-01/playlist.m3u8
@@ -979,6 +965,8 @@ https://18a6ff4fa5424e6797030b139ca98e6c.mediatailor.us-west-2.amazonaws.com/v1/
 https://54d4596f49b947b987be6175b1a7a3f7.mediatailor.us-west-2.amazonaws.com/v1/manifest/6b8beeb9ed833d048c8c8155a25a28fe617c5474/80s_party_plex/81854f83-4b79-442c-b943-8c87300fe190/5.m3u8
 #EXTINF:-1 tvg-id="I336.22561.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4c/Axs-tv-button-logo-blue.png" group-title="Music Videos", AXS
 plugin://script.module.realtv/play/channels/0f9e9e2afc05990353de2ee15740eb65/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="Box Hits" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/The_Box_2013.png" group-title="Music Videos", Box Hits
 http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxhits-desktop.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fboxhits%2f
 #EXTINF:-1 tvg-id="" tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/9TbpsS0.png" group-title="Music Videos", California Music Channel
@@ -991,8 +979,12 @@ plugin://plugin.video.tvone/play/649/play.pvr
 http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
 #EXTINF:-1 tvg-id="I160.60964.schedulesdirect.org" tvg-name="MTV US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MTV-Logo.svg/755px-MTV-Logo.svg.png" group-title="Music Videos;Fav5", MTV
 plugin://script.module.realtv/play/music/acd1502f9efa3810a8319425443c3af8/play.pvr
+
+
 #EXTINF:-1 tvg-id="I332.16361.schedulesdirect.org" tvg-name="MTV2" tvg-logo="https://vignette.wikia.nocookie.net/logosfake/images/9/94/Wrecked_TV_2.png" group-title="Music Videos;Fav5", MTV 2
 plugin://script.module.realtv/play/music/de61e616c8b3d871c94d2e7b89facd40/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8?sd=10&rebase=on==?" group-title="Music Videos", MTV Biggest Pop
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://images2.wikia.nocookie.net/__cb20111124002008/logopedia/images/8/87/Mtv_base_2011.png" group-title="Music Videos", MTV Base
@@ -1115,6 +1107,8 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xt
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://xtremesportsplus.myq-see.com:8080/Adan123456/Adan123456/10105
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://hustlercareers.com/assets/img/index.png" group-title="Adult TV", HUSTLER
 plugin://script.module.realtv/play/channels/dcd83748a61b77531c01b4c283dacb81/play.pvr
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
 http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - MAIN STAGE
@@ -1131,6 +1125,8 @@ https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/chunklist_w
 http://live.redtraffic.xyz/milf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/7/7e/Penthouse_hd.png" group-title="Adult TV", Penthouse
 plugin://script.module.realtv/play/channels/0d2e805a7bdc31c36b104bdc2fc0580e/play.pvr
+
+
 #EXTINF:-1 tvg-id="I457.54335.schedulesdirect.org" tvg-name="" tvg-logo="http://www.vector-logo.net/logo_preview/eps/p/Playboy_TV.png" group-title="Adult TV", Playboy
 http://187.188.147.165:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://img1.wikia.nocookie.net/__cb20150315153455/logopedia/images/9/98/PRIVATE_TV.png" group-title="Adult TV", Private
