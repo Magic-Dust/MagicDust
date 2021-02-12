@@ -239,9 +239,7 @@ plugin://script.module.eviltentv/play/250/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="Red Bull TV" tvg-logo="https://i.imgur.com/A4GMBN6.png" group-title="Cable", Red Bull
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="I238.52199.schedulesdirect.org" tvg-name="Reelz Channel HD" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Reelz.png" group-title="Cable", Reelz
-plugin://script.module.realtv/play/channels/7ecb633e341f4e8686225ae5b4cf8735/play.pvr
-
-
+plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
 #EXTINF:-1 tvg-id="I384.83098.schedulesdirect.org" tvg-name="Revolt Music" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s83098_dark_360w_270h.png" group-title="Cable", Revolt
 https://bozztv.com/teleyupp/teleup-revolt/playlist.m3u8
 #EXTINF:-1 tvg-id="I801.99537.schedulesdirect.org" tvg-name="RTE ONE" tvg-logo="https://learning.gaa.ie/sites/default/files/rte-logo.png" group-title="Cable", RTE 1
@@ -803,7 +801,7 @@ http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
 http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/fEjPBk3.png" group-title="24/7", BeachTV- Keys
 http://media4.tripsmarter.com:1935/LiveTV/KTVHD/chunklist_w363623166.m3u8
-#EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg" group-title="24/7", Chive TV
+#EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg" group-title="24/7;Fav7", Chive TV
 https://a.jsrdn.com/broadcast/4df1bf71c1/+0000/c.m3u8
 #EXTINF:-1 tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg", Chive TV HD
 http://a.jsrdn.com/broadcast/4df1bf71c1/+0000/high/c.m3u8
@@ -821,6 +819,8 @@ https://video.blivenyc.com/broadcast/prod/2061/61/file-4692k.m3u8
 plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5b329e0a7b9d8872aeb49ceb%2Fmaster.m3u8%3Fterminate%3Dfalse%26deviceType%3Dweb%26deviceMake%3Dweb%26deviceModel%3Dweb%26sid%3D636%26deviceId%3D5b329e0a7b9d8872aeb49ceb%26deviceVersion%3DDNT%26appVersion%3DDNT%26deviceDNT%3D0%26userId%3D%26advertisingId%3D%26deviceLat%3D%26deviceLon%3D%26app_name%3D%26appName%3Dweb%26buildVersion%3D%26appStoreUrl%3D%26architecture%3D%26includeExtendedEvents%3Dfalse%26marketingRegion%3DUS%26serverSideAds%3Dfalse&amp;content=addons
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/ce03bcd0975942929a2cef7daced1a01474dd7f441b691ceaa2a9dba454b4cdb.png" group-title="24/7", Puppy TV
 https://video.blivenyc.com/broadcast/prod/2061/29/file-4692k.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/RIXSg4L.png" group-title="24/7;Fav7", Fail Army
+https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebLinux/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.signature-fires.co.uk/img/fireplace-surrounds/The-Kent-Bolection.png" group-title="24/7", Fireplace
 plugin://plugin.video.youtube/play/?video_id=0fYL_qiDYf0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/thumb/b/b0/Fashion_tv.png/120px-Fashion_tv.png" group-title="24/7", FTV [COLOR magenta] (5 items )[/COLOR]
@@ -845,7 +845,7 @@ http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.pinimg.com/originals/d6/8c/dd/d68cdd473f7a56f574b7514e24fbc1ce.jpg" group-title="24/7;Fav7", Squidbillies
 https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream_7.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7", Surf
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7;Fav7", Surf
 https://0e52d42a12b74a218576cd628069fa50.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_SurfNowTV/1e05afbf-0234-4d61-9406-20bf6719fce5/3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7", Surf 2
 https://1091-surfnowtv-1.samsung.wurl.com/manifest/playlist.m3u8
@@ -978,9 +978,7 @@ plugin://plugin.video.tvone/play/649/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.iapplemania.com/wp-content/uploads/2010/09/m2o-logo-app.jpg" group-title="Music Videos", M20
 http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
 #EXTINF:-1 tvg-id="I160.60964.schedulesdirect.org" tvg-name="MTV US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MTV-Logo.svg/755px-MTV-Logo.svg.png" group-title="Music Videos;Fav5", MTV
-plugin://script.module.realtv/play/music/acd1502f9efa3810a8319425443c3af8/play.pvr
-
-
+plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5ca672f515a62078d2ec0ad2%2Fmaster.m3u8%3Fterminate%3Dfalse%26deviceType%3Dweb%26deviceMake%3Dweb%26deviceModel%3Dweb%26sid%3D178%26deviceId%3D5ca672f515a62078d2ec0ad2%26deviceVersion%3DDNT%26appVersion%3DDNT%26deviceDNT%3D0%26userId%3D%26advertisingId%3D%26deviceLat%3D%26deviceLon%3D%26app_name%3D%26appName%3Dweb%26buildVersion%3D%26appStoreUrl%3D%26architecture%3D%26includeExtendedEvents%3Dfalse%26marketingRegion%3DUS%26serverSideAds%3Dfalse&mode=12
 #EXTINF:-1 tvg-id="I332.16361.schedulesdirect.org" tvg-name="MTV2" tvg-logo="https://vignette.wikia.nocookie.net/logosfake/images/9/94/Wrecked_TV_2.png" group-title="Music Videos;Fav5", MTV 2
 plugin://script.module.realtv/play/music/de61e616c8b3d871c94d2e7b89facd40/play.pvr
 
