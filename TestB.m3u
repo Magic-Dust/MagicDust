@@ -189,9 +189,7 @@ plugin://plugin.video.tvone11/play/5/251/play.pvr
 #EXTINF:-1 tvg-id="I285.16615.schedulesdirect.org" tvg-name="Investigation Discovery" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/ID_Canada_Logo.png/180px-ID_Canada_Logo.png" group-title="Cable", Invest Disc
 plugin://plugin.video.tvone/play/606/play.pvr
 #EXTINF:-1 tvg-id="I305.76894.schedulesdirect.org" tvg-name="" tvg-logo="http://imagehosting.biz/images/2019/02/14/ion.png" group-title="Cable", ION
-plugin://script.module.realtv/play/channels/788875e09d2e59cd858b50232c0cd2fe/play.pvr
-
-
+https://ion-plus.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="I103.17468.schedulesdirect.org" tvg-name="ITV" tvg-logo="http://static.epg.best/gb/ITV1.uk.png" group-title="Cable", ITV
 plugin://plugin.video.tvone/play/137/play.pvr
 #EXTINF:-1 tvg-id="I118.20630.schedulesdirect.org" tvg-name="ITV2" tvg-logo="http://static.epg.best/gb/ITV2.uk.png" group-title="Cable", ITV 2
@@ -305,6 +303,10 @@ plugin://script.module.eviltentv/play/474/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.dishpromotions.com/wp-content/uploads/ZLVNG-logo.png" group-title="Cable", Z Living
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;name=Dish;url=https://y5w8j4a9.ssl.hwcdn.net/zlivingusa_r/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cpac.conservative.org/wp-content/uploads/2021/01/cpac-2021-logo-texture.png" group-title="News", CPAC 2021
+https://cdn.jwplayer.com/live/events/hjZ88QGb.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cpac.conservative.org/wp-content/uploads/2021/01/cpac-2021-logo-texture.png" group-title="News", CPAC 2021 YT
+plugin://plugin.video.youtube/play/?video_id=QBbvLmqlWNo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://mediamythalert.files.wordpress.com/2012/01/abc-news-logo.png" group-title="News", ABC NEWS
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-id="I503.19037.schedulesdirect.org" tvg-name="BBC News" tvg-logo="http://static.epg.best/gb/BBCNews.uk.png" group-title="News", BBC News
@@ -316,7 +318,7 @@ https://liveproduseast.global.ssl.fastly.net/us/Channel-USTV-AWS-virginia-1/Sour
 #EXTINF:-1 tvg-id="I502.20711.schedulesdirect.org" tvg-name="Bloomberg TV UK" tvg-logo="https://images.indiegogo.com/file_attachments/567036/files/20140508163818-BLOOMBERG-tv-LOGO.png" group-title="News", Bloomberg UK
 http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8
 #EXTINF:-1 tvg-id="I502.10094.schedulesdirect.org" tvg-name="CBC NEWS" tvg-logo="http://uploads.webflow.com/53e12d5562b384c7018347fa/5409e6c36774599c3d7eee2a_CBC_News_Logo.png" group-title="News", CBC News
-plugin://plugin.video.tvone/play/613/play.pvr
+https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CBSN" tvg-logo="https://i.imgur.com/MH7kNnl.png" group-title="News", CBSN
 https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-id="I355.10139.schedulesdirect.org" tvg-name="CNBC US" tvg-logo="http://www.cnbc.com/live-tv/sites/nbcutve-cnbc/files/logos/CNBC-logo-header-%402x%281%29.png" group-title="News;Fav3", CNBC
@@ -358,11 +360,13 @@ https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News;Fav3", MSNBC
 plugin://plugin.video.tvone11/play/5/245/play.pvr
 #EXTINF:-1 tvg-id="I349.87925.schedulesdirect.org" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News;Fav3", Newsmax
-http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_720.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-logo="http://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/398_300.png" group-title="News", NHK World
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News;Fav3", OAN
 http://n1.klowdtv.net/live1/oan_360p/chunks.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2015/04/OANlogo.png" group-title="News;Fav3", OAN Encore
+https://oneamericanews-roku-us.amagi.tv/hls/amagi_hls_data_oneameric-oneamericanews/CDN/512x288_875600/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RTÉ_logo.svg/640px-RTÉ_logo.svg.png" group-title="News" group-title="News", RTE News
 https://live.rte.ie/live/a/channel3/news.isml/news-video=144960.m3u8
 #EXTINF:-1 tvg-id="I724.58333.schedulesdirect.org" tvg-name="RT US" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News", RT
@@ -825,7 +829,6 @@ plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-st
 https://video.blivenyc.com/broadcast/prod/2061/29/file-4692k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/RIXSg4L.png" group-title="24/7;Fav7", Fail Army
 https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebLinux/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8
-https://dai.google.com/linear/hls/event/7tuuoX1wSsCTaki1HqJFYw/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.signature-fires.co.uk/img/fireplace-surrounds/The-Kent-Bolection.png" group-title="24/7", Fireplace
 plugin://plugin.video.youtube/play/?video_id=0fYL_qiDYf0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/thumb/b/b0/Fashion_tv.png/120px-Fashion_tv.png" group-title="24/7", FTV [COLOR magenta] (5 items )[/COLOR]
