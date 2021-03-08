@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast;Fav", ABC
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
-#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast;Fav", CBS
+#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast;Fav;NCAA", CBS
 http://161.0.157.8/PLTV/88888888/224/3221227041/index.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast;Fav", NBC
 http://161.0.157.50/PLTV/88888888/224/3221227040/index.m3u8
@@ -266,7 +266,7 @@ plugin://plugin.video.tvone/play/213/play.pvr
 plugin://plugin.video.tvone/play/676/play.pvr
 #EXTINF:-1 tvg-id="I244.58623.schedulesdirect.org" tvg-name="Syfy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sci_Fi_2002.svg/320px-Sci_Fi_2002.svg.png" group-title="Cable;Fav2", Syfy
 plugin://plugin.video.tvone111/play/1247/play.pvr
-#EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable;Fav2", TBS
+#EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable;Fav2;NCAA", TBS
 plugin://plugin.video.tvone/play/222/play.pvr
 #EXTINF:-1 tvg-id="I256.12852.schedulesdirect.org" tvg-name="TCM US" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM
 plugin://plugin.video.tvone/play/292/play.pvr
@@ -276,11 +276,11 @@ plugin://script.module.eviltentv/play/271/play.pvr
 plugin://plugin.video.tvone11/play/5/204/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/wzBD6fy.png" group-title="Cable", TMZ
 https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1234A-tmz/CDN/1280x720_5000000/index.m3u8
-#EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable;Fav2", TNT
+#EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable;Fav;NCAA2", TNT
 plugin://script.module.eviltentv/play/255/play.pvr
 #EXTINF:-1 tvg-id="I277.11180.schedulesdirect.org" tvg-name="Travel Channel US" tvg-logo="https://logos-download.com/wp-content/uploads/2017/04/Travel_Channel_United_Kingdom_UK_logo.png" group-title="Cable", Travel Channel
 plugin://script.module.eviltentv/play/1373/play.pvr
-#EXTINF:-1 tvg-id="I246.10153.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable", Tru TV Swift
+#EXTINF:-1 tvg-id="I246.10153.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable;NCAA", Tru TV
 plugin://plugin.video.tvone11/play/4/332/play.pvr
 #EXTINF:-1 tvg-id="I304.73541.schedulesdirect.org" tvg-name="TV Land" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tv_land_logo15.png/200px-Tv_land_logo15.png" group-title="Cable", TV Land
 plugin://plugin.video.tvone11/play/5/237/play.pvr
@@ -396,9 +396,9 @@ plugin://script.module.eviltentv/play/111/play.pvr
 plugin://plugin.video.tvone11/play/8/634/play.pvr
 #EXTINF:-1 tvg-id="I869.95772.schedulesdirect.org" tvg-name="BT Sport 3" tvg-logo="http://static.epg.best/gb/BTSport3.uk.png" group-title="Sports", BT Sport 3
 plugin://plugin.video.tvone/play/298/play.pvr
-#EXTINF:-1 tvg-id="I221.16365.schedulesdirect.org" tvg-name="CBS Sports Network" tvg-logo="http://www.world-challengetv.com/raceImages/CBSSN_Logo_Bluecr1.jpg" group-title="Sports;Fav4", CBS Sports
+#EXTINF:-1 tvg-id="I221.16365.schedulesdirect.org" tvg-name="CBS Sports Network" tvg-logo="https://ia600806.us.archive.org/18/items/CbsSportsNetwork_201708/cbs%20sports%20network.png" group-title="Sports;Fav4;NCAA", CBS Sports
 plugin://plugin.video.tvone/play/416/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/CBS_Sports_HQ.png" group-title="Sports", CBSN HQ
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/CBS_Sports_HQ.png" group-title="Sports;NCAA", CBSN HQ
 https://sportshq-mediapackage-cedexis.cbsaavideo.com/out/v1/be87d7783e5c4270a5830ea5d1164850/desktop.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://tvtap.net/tvtap1/images/channel_imgs/250118032637cel.png" group-title="Sports", Celtic tv
 plugin://plugin.video.tvone/play/619/play.pvr
@@ -414,17 +414,17 @@ plugin://plugin.video.tvone/play/661/play.pvr
 plugin://plugin.video.tvone/play/779/play.pvr
 #EXTINF:-1 tvg-id="I623.87000.schedulesdirect.org" tvg-name="Eleven Sports" tvg-logo="https://hdtvpolska.com/wp-content/uploads/2016/09/Eleven-Sports-Network.png" group-title="Sports", Eleven Sports UK
 plugin://plugin.video.tvone/play/779/play.pvr
-#EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports;Fav4", ESPN
+#EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports;Fav4;NCAA", ESPN
 https://gma2.blab.email/fs2.m3u8
-#EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports;Fav4", ESPN 2
+#EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports;Fav4;NCAA", ESPN 2
 https://gma2.blab.email/espn2.m3u8
-#EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports;Fav4", ESPN ACC
+#EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports;Fav4;NCAA", ESPN ACC
 https://gma2.blab.email/acc.m3u8
-#EXTINF:-1 tvg-id="I207.16485.schedulesdirect.org" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports", ESPN News
+#EXTINF:-1 tvg-id="I207.16485.schedulesdirect.org" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports;NCAA", ESPN News
 https://gma2.blab.email/espnews.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SEC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/SEC_Network_Logo.png" group-title="Sports", ESPN SEC
 https://gma2.blab.email/sec.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ESPNU" tvg-logo="http://static.epg.best/us/ESPNU.us.png" group-title="Sports;Fav4", ESPN U
+#EXTINF:-1 tvg-id="" tvg-name="ESPNU" tvg-logo="http://static.epg.best/us/ESPNU.us.png" group-title="Sports;Fav4;NCAA", ESPN U
 https://gma2.blab.email/espnu.m3u8
 #EXTINF:-1 tvg-id="I864.18337.schedulesdirect.org" tvg-name="Eurosport 1" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20061.png" group-title="Sports", Eurosport
 plugin://script.module.eviltentv/play/107/play.pvr
@@ -432,9 +432,9 @@ plugin://script.module.eviltentv/play/107/play.pvr
 plugin://plugin.video.tvone11/play/8/710/play.pvr
 #EXTINF:-1 tvg-id="I250.78763.schedulesdirect.org" tvg-name="FIGHTBX" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s78763_dark_360w_270h.png" group-title="Sports", Fightbox
 plugin://script.module.eviltentv/play/1074/play.pvr
-#EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports;Fav4", Fox Sports 1
+#EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports;Fav4;NCAA", Fox Sports 1
 https://gma2.blab.email/fs1.m3u8
-#EXTINF:-1 tvg-id="I618.33178.schedulesdirect.org" tvg-name="Fox Sports 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs2.png" group-title="Sports;Fav4", Fox Sports 2
+#EXTINF:-1 tvg-id="I618.33178.schedulesdirect.org" tvg-name="Fox Sports 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs2.png" group-title="Sports;Fav4;NCAA", Fox Sports 2
 http://4.26.188.2:8081/udp/239.193.10.102:23902
 #EXTINF:-1 tvg-id="I608.26078.schedulesdirect.org" tvg-name="FOX College Sports Central" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-fox-college-sports.png" group-title="Sports", College Atlantic FOX
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://104.218.60.68:83/a0w10NwSwz/35222020350823A324475658352020/106
