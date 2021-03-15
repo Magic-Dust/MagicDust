@@ -2,11 +2,11 @@
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast;Fav", ABC
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast;Fav;NCAA", CBS
-http://161.0.157.8/PLTV/88888888/224/3221227041/index.m3u8
+plugin://script.module.eviltentv/play/464/play.pvr
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast;Fav", NBC
-http://161.0.157.50/PLTV/88888888/224/3221227040/index.m3u8
+plugin://plugin.video.tvone/play/160/play.pvr
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast;Fav", FOX
-plugin://script.module.eviltentv/play/152/play.pvr
+http://gma2.blab.email/fox.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1200px-The_CW.svg.png" group-title="Broadcast", CW
 plugin://script.module.eviltentv/play/468/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://orig12.deviantart.net/aef1/f/2017/165/4/5/1984_pbs_logo_recreation_with_current_p_head_logo_by_kennyclarkawesome123-dbcqooy.png" group-title="Broadcast", PBS
@@ -739,8 +739,8 @@ plugin://plugin.video.tvone/play/115/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xjCtEPH.png" group-title="Food", Food52
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-food52/CDN/1280x720_5000000/index.m3u8
 
-#EXTINF:-1 tvg-id="I298.21883.schedulesdirect.org" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids", Boomerang
-plugin://script.module.eviltentv/play/1036/play.pvr
+#EXTINF:-1 tvg-id="I298.21883.schedulesdirect.org" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids;Fav5", Boomerang
+plugin://plugin.video.tvone/play/635/play.pvr
 #EXTINF:-1 tvg-id="I296.12131.schedulesdirect.org" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids;Fav5", Cartoon Network
 plugin://plugin.video.tvone/play/63/play.pvr
 #EXTINF:-1 tvg-id="I601.78843.schedulesdirect.org" tvg-name="Cartoon Network UK" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network UK
@@ -795,7 +795,7 @@ http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Adult_Swim.png" group-title="24/7", Adult Swim HD
 https://adultswimtv.warnermediacdn.com/hls/live/2007031/livestream/master_Layer7.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/FLKdEzZ.png" group-title="24/7", America's Funniest Videos
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/FLKdEzZ.png" group-title="24/7;Fav5", America's Funniest Videos
 https://linear-12.frequency.stream/dist/roku/12/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium
 plugin://plugin.video.youtube/play/?video_id=P7EB3Zxqj7g
@@ -857,8 +857,6 @@ https://0e52d42a12b74a218576cd628069fa50.mediatailor.us-east-1.amazonaws.com/v1/
 https://1091-surfnowtv-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a0/Tpir_40_logo.png" group-title="24/7", The Price is Right
 https://tpir-plutolive-vo.akamaized.net/r/hlslive/tpir.m3u8?chname=tpir&pub=cd44c23c-4796-475f-bcb1-b846bed4cf40
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG9.png" group-title="24/7;Fav5", TOM & JERRY
-https://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_high.flv
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5dae084727c8af0009fe40a4/colorLogoPNG.png" group-title="24/7;Fav6", TOSH.0
 plugin://plugin.video.temptv/?action=lists_play&amp;url=https%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5dae084727c8af0009fe40a4%2Fmaster.m3u8%3Fterminate%3Dfalse%26deviceType%3Dweb%26deviceMake%3Dweb%26deviceModel%3Dweb%26sid%3D470%26deviceId%3D5dae084727c8af0009fe40a4%26deviceVersion%3DDNT%26appVersion%3DDNT%26deviceDNT%3D0%26userId%3D%26advertisingId%3D%26deviceLat%3D%26deviceLon%3D%26app_name%3D%26appName%3Dweb%26buildVersion%3D%26appStoreUrl%3D%26architecture%3D%26includeExtendedEvents%3Dfalse%26marketingRegion%3DUS%26serverSideAds%3Dfalse&amp;content=addons
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/TWiT.svg/130px-TWiT.svg.png" group-title="24/7", TWiT
@@ -1018,7 +1016,7 @@ https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f7722
 https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f772244d9be0077c/107/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/I_concerts_logo.png/220px-I_concerts_logo.png" group-title="Music Videos", Stingray Hot Country
 https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f772244d9be0077c/108/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/I_concerts_logo.png/220px-I_concerts_logo.png" group-title="Music Videos", Stingray Concerts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/I_concerts_logo.png/220px-I_concerts_logo.png" group-title="Music Videos;Fav6", Stingray Concerts
 https://stingray-qelloconcerts-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/I_concerts_logo.png/220px-I_concerts_logo.png" group-title="Music Videos", Stingray Concerts HD
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumostingrayqello/CDN/master.m3u8
@@ -1043,7 +1041,7 @@ http://icy-e-bab-04-cr.sharp-stream.com:80/absolute90s.mp3
 http://icy-e-bab-04-cr.sharp-stream.com:80/absolute00s.mp3
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yachtrockradio.com/wp-content/uploads/sites/11/2018/03/dash-logo.png" group-title="Radio", 00's
 https://ice55.securenetsystems.net/DASH19
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn-radiotime-logos.tunein.com/s23205g.png" group-title="Radio", AM1300
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn-radiotime-logos.tunein.com/s23205g.png" group-title="Radio;Fav6", AM1300
 http://147.135.84.28/wgdj-am
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yachtrockradio.com/wp-content/uploads/sites/11/2018/03/dash-logo.png" group-title="Radio", Alternative
 https://ice55.securenetsystems.net/DASH12
