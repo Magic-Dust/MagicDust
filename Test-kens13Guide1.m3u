@@ -1,0 +1,15 @@
+#EXTM3U x-tvg-url="https://github.com/kens13/EPG/raw/master/guide_1.xml"
+#EXTINF:-1 tvg-id="49613" tvg-name="Discovery Channel UK" tvg-logo="https://cf-media.press.discovery.com/ugc/logos/2009/08/22/DSC_rev.png" group-title="Cable", Discovery UK
+plugin://plugin.video.tvone/play/91/play.pvr
+#EXTINF:-1 tvg-id="66488" tvg-name="Discocery World" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s25788_dark_360w_270h.png" group-title="Cable", Discocery World
+plugin://plugin.video.tvone/play/697/play.pvr
+#EXTINF:-1 tvg-id="49534" tvg-name="National Geographic UK" tvg-logo="https://www.dishtvchannel.com/regional/nat_geo_asia_hd.jpg" group-title="Cable", Nat Geo UK
+plugin://plugin.video.tvone/play/155/play.pvr
+#EXTINF:-1 tvg-id="91097" tvg-name="WGN America" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/WGN_America_2009_logo.svg/140px-WGN_America_2009_logo.svg.png" group-title="Cable", WGN HD
+https://cdn006.teleuptv.net/mBm5MQ50rA/playlist.m3u8
+#EXTINF:-1 tvg-id="76382" tvg-name="PAC 12 Networks" tvg-logo="https://www.dishactivations.com/wp-content/uploads/2014/05/PAC12-Networks.png" group-title="Sports", PAC 12 Network
+plugin://script.module.realtv/play/sports/3619e0336e8eb4b2ada31fa23d45b494/play.pvr
+#EXTINF:-1 tvg-id="65340" tvg-name="Sky Cinema Select" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Select
+plugin://script.module.eviltentv/play/172/play.pvr
+#EXTINF:-1 tvg-id="50011" tvg-name="True Movies 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/True_Movies.png" group-title="Movies", True Movies 2 HD
+plugin://script.module.eviltentv/play/259/play.pvr
