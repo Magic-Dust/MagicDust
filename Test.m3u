@@ -647,7 +647,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5e46fba0c43b0d00096e5ac1&_l=.pvr
 #EXTINF:-1 tvg-id="I359.58649.schedulesdirect.org" tvg-name="Fox Business" tvg-logo="http://channels.roku.com/images/2d95f06b46e94a10bfed789460ac7289-hd.jpg" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
-http://1111296894.rsc.cdn77.org/ls-54548-2/tracks-v1a1/mono.m3u8
+https://bozztv.com/teleyupp/AsEAeOtIxz/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="I349.87925.schedulesdirect.org" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News", Newsmax
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_720.m3u8
 #EXTINF:-1 tvg-id="6445" tvg-name="One America" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
@@ -1429,6 +1429,8 @@ plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-06-2019-12-06-20
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-185914490-12-04-2019&_l=.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-190655242-12-04-2019" tvg-name="Stingray Pop Adult" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-190655242-12-04-2019.png" group-title="Music Videos", Pop Adult
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-190655242-12-04-2019&_l=.pvr
+#EXTINF:-1 tvg-id="TheCountryNetwork.us" tvg-name="The Country Network" tvg-logo="https://vhx.imgix.net/thecountrynetwork/assets/ebce7f33-c71a-458a-8a97-b1f15ff398d9.png" group-title="Music Videos", The Country Network
+https://ott.streann.com/loadbalancer/services/public/channels/5fac1ab92cdcdff351a7123c/playlist.m3u8
 #EXTINF:-1 tvg-id="V2BEAT.uk" tvg-name="" tvg-logo="https://www.vibee.tv/wp-content/uploads/2019/03/logo_v2beat_page_small-1-2.png" group-title="Music Videos", V2BEAT TV
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="5f32f26bcd8aea00071240e5" tvg-name="Vevo '70s" tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/colorLogoPNG.png" group-title="Music Videos", Vevo '70s
@@ -1520,8 +1522,8 @@ https://ice55.securenetsystems.net/DASH2
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yachtrockradio.com/wp-content/uploads/sites/11/2018/03/dash-logo.png" group-title="Radio", The Strip
 https://ice55.securenetsystems.net/DASH24
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn-radiotime-logos.tunein.com/s28576d.png" group-title="Radio", WEQX 102.7
-http://rocket.surfernetwork.com:10000/live/weqx_aac/chunklist_w1718796682.m3u8
-#http://crystalout.surfernetwork.com:8001/WEQX_MP3
+#http://rocket.surfernetwork.com:10000/live/weqx_aac/chunklist_w1718796682.m3u8
+http://crystalout.surfernetwork.com:8001/WEQX_MP3|User-Agent=iPad
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.radio.net/images/broadcasts/0e/36/19004/1/c175.png" group-title="Radio", WFAN 101.9 FM
 plugin://plugin.audio.radio_de/station/19004
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://wgna.com/files/2012/07/GNA1a-revised3.png" group-title="Radio", WGNA - 107.7
