@@ -648,6 +648,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5e46fba0c43b0d00096e5ac1&_l=.pvr
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
 https://bozztv.com/teleyupp/AsEAeOtIxz/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="FOXNewsNow.us" tvg-name="FOX News Now" tvg-logo="https://i.imgur.com/hc5a1YP.png" group-title="News", Fox News Now
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://iotwreport.com/wp-content/uploads/2021/04/frank-lindell-site-.jpg" group-title="News", Frank Speech
 https://frnksocial.mmdlive.lldns.net/frnksocial/0bae63f27d8944e3b4dc516a75e457f8/chunklist_b2592000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i1.wp.com/usawatchdog.com/wp-content/uploads/2021/04/1a.png?ssl=1" group-title="News", Absolute Interference
@@ -1368,10 +1370,10 @@ http://169.47.9.197:1935/live/wb.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="1 Music" tvg-logo="https://1music.ro/wp-content/uploads/2012/12/Top101_644X3621.png" group-title="Music Videos", 1 Music
 http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.star1079.com/images/K%20TODD%20Rainbow%20logo%20Version%202.png" group-title="Music Videos", 70's
-https://18a6ff4fa5424e6797030b139ca98e6c.mediatailor.us-west-2.amazonaws.com/v1/manifest/6b8beeb9ed833d048c8c8155a25a28fe617c5474/that_70s_channel_plex/19b70c9a-59d0-418c-9cbc-80be9698c16b/5.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mightygforcenationradio.homestead.com/80s-logo.png" group-title="Music Videos", 80's
-https://54d4596f49b947b987be6175b1a7a3f7.mediatailor.us-west-2.amazonaws.com/v1/manifest/6b8beeb9ed833d048c8c8155a25a28fe617c5474/80s_party_plex/81854f83-4b79-442c-b943-8c87300fe190/5.m3u8
+#EXTINF:-1 tvg-id="80sLoop.us" tvg-name="80s Loop" tvg-logo="https://i.imgur.com/jxY0QSw.png" group-title="Music Videos", 80s Loop
+https://loop-80s-1.roku.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="90sLoop.us" tvg-name="90s Loop" tvg-logo="https://i.imgur.com/jxY0QSw.png" group-title="Music Videos", 90s Loop
+https://loop-90s-1.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="BoxHits.uk" tvg-name="Box Hits" tvg-logo="https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/open/Rovi%2520Images/Logo/81318/source_81318_92_36.jpg" group-title="Music Videos", Box Hits
 http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxhits-desktop.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fboxhits%2f
 #EXTINF:-1 tvg-id="TheBoxUK.uk" tvg-name="The Box UK" tvg-logo="https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/open/Rovi%2520Images/Logo/26456/source_26456_92_36_white.png" group-title="Music Videos", The Box UK
