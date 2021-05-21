@@ -286,11 +286,11 @@ plugin://plugin.video.tvone/play/22/play.pvr
 https://aenetworks-crime360-1.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="I560.75031.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_for_ABC_Spark.svg/800px-Logo_for_ABC_Spark.svg.png" group-title="Cable", ABC Spark
 plugin://plugin.video.tvone/play/491/play.pvr
-#EXTINF:-1 tvg-id="tv.101002210221" tvg-logo="https://static.epg.best/au/ABC.au.png" group-title="Cable", ABC AU
+#EXTINF:-1 tvg-id="tv.101002210221" tvg-name="ABC TV" tvg-logo="https://static.epg.best/au/ABC.au.png" group-title="Cable", ABC AU
 https://c.mjh.nz/101002510251/
-#EXTINF:-1 tvg-id="tv.101002210222" tvg-logo="https://i.mjh.nz/.images/tv.101002210222.png" group-title="Cable", ABC COMEDY AU
+#EXTINF:-1 tvg-id="tv.101002210222" tvg-name="" tvg-logo="https://i.mjh.nz/.images/tv.101002210222.png" group-title="Cable", ABC COMEDY AU
 https://c.mjh.nz/101002210222/
-#EXTINF:-1 tvg-id="tv.101002210224" tvg-name="" tvg-logo="https://i.mjh.nz/.images/tv.101002210224.png" group-title="Cable", ABC Me
+#EXTINF:-1 tvg-id="tv.101002210224" tvg-name="ABC ME" tvg-logo="https://i.mjh.nz/.images/tv.101002210224.png" group-title="Cable", ABC Me
 plugin://plugin.video.au.freeview/?_=play&slug=tv.101002210224&_l=.pvr
 #EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", AHC
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dahc
@@ -528,7 +528,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5cb0cae7a461406ffe3f5213&_l=.pvr
 plugin://script.module.eviltentv/play/475/play.pvr
 #EXTINF:-1 tvg-id="70" tvg-name="Pop TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png" group-title="Cable", Pop
 http://n1.klowdtv.net/live2/pop_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="QuestUK.us" tvg-name="Quest" tvg-logo="http://hoolatv.com/sites/default/files/channels/quest.png" group-title="Cable", Quest
+#EXTINF:-1 tvg-id="QuestUK.us" tvg-name="Quest UK" tvg-logo="http://hoolatv.com/sites/default/files/channels/quest.png" group-title="Cable", Quest
 plugin://plugin.video.tvone111/play/1364/play.pvr
 #EXTINF:-1 tvg-id="I155.45828.schedulesdirect.org" tvg-name="Really" tvg-logo="https://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s45828_dark_360w_270h.png" group-title="Cable", Really
 plugin://script.module.eviltentv/play/250/play.pvr
@@ -961,9 +961,9 @@ http://vs8.live.opencaster.com/20100152275/jcpstream/playlist.m3u8
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27expres%27%3A%20u%27%23%24pyFunction%5Cr%5Cnimport%20re%2Curllib2%2Cresolveurl%5Cr%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%23streamwatcher2013%5Cr%5Cn%20%20source%3Durllib2.urlopen%28%5C%27https%3A//www.youtube.com/c/thenyra/featured%5C%27%29.read%28%29%5Cr%5Cn%20%20return%20resolveurl.resolve%28%5C%27https%3A//www.youtube.com//watch%3Fv%3D%5C%27%2Bre.findall%28%5C%27%22watchEndpoint%22%3A%7B%22videoId%22%3A%22%28%5B%5E%22%5D%2B%29%5B%5E%7B%5D%2A%7B%5B%5E%7B%5D%2A%7B%5B%5E%3A%5D%2A%3A%5B%5E%3A%5D%2A%3A%22LIVE%5C%27%2Csource%29%5B0%5D%29%5Cr%5Cn%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//www.youtube.com/c/thenyra/featured%27%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.capitalotb.com/wp-content/uploads/2019/09/COTB-Logo.png" group-title="Horse Racing", OTB
 https://d2up1hmow19bcd.cloudfront.net/livecf/liveracing/playlist.m3u8
-#EXTINF:-1 tvg-id="tv.101305020528" tvg-name="RACING.COM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/RACING.COM_logo_2016.svg/1200px-RACING.COM_logo_2016.svg.png" group-title="Horse Racing", Racing.com
+#EXTINF:-1 tvg-id="Racingcom.au" tvg-name="RACING.COM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/RACING.COM_logo_2016.svg/1200px-RACING.COM_logo_2016.svg.png" group-title="Horse Racing", Racing.com
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/628.m3u8
-#EXTINF:-1 tvg-id="I874.24226.schedulesdirect.org" tvg-name="Racing UK" tvg-logo="https://www.wheresthematch.com/images/newchannels/racinguk.gif" group-title="Horse Racing", Racing UK
+#EXTINF:-1 tvg-id="RacingTV.uk" tvg-name="Racing UK" tvg-logo="https://www.wheresthematch.com/images/newchannels/racinguk.gif" group-title="Horse Racing", Racing UK
 plugin://plugin.video.tvone/play/178/play.pvr
 #EXTINF:-1 tvg-ID="tv.sky1rw" tvg-logo="https://media.info/i/lf/300/1514269404/6402.png" group-title="Horse Racing", Sky Racing 1
 https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/sky1_extreme@569780.m3u8
