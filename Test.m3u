@@ -1,11 +1,11 @@
-#EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
-#EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/tvtv.us.guide.xml"
+#EXTINF:-1 tvg-id="ABCEast.us" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-abc-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS
+#EXTINF:-1 tvg-id="CBSEast.us" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-cbs-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX
+#EXTINF:-1 tvg-id="FoxEast.us" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX
 http://gma2.blab.email/fox.m3u8
-#EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
+#EXTINF:-1 tvg-id="NBCEast.us" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-nbc-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/cw.png" group-title="Broadcast", CW
 plugin://script.module.eviltentv/play/468/play.pvr
@@ -34,14 +34,6 @@ https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
 https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8
 #EXTINF:-1 tvg-id="WTVJ.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WTVJ MIAMI NBC
 https://wtvjlive-f.akamaihd.net/i/wtvja1_1@19309/master.m3u8
-#EXTINF:-1 tvg-id="abc.sc.myrtlebeach.wpde" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WPDE MYRTLEBEACH ABC
-https://content.uplynk.com/61fb4f9811b64bddaf2cfb0e2e4a32db.m3u8
-#EXTINF:-1 tvg-id="cbs.sc.myrtlebeach.wbtw" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WBTW MYRTLEBEACH CBS
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-cbs-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="fox.sc.myrtlebeach.wfxb" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", WFXB MYRTLEBEACH FOX
-http://gma2.blab.email/fox.m3u8
-#EXTINF:-1 tvg-id="nbc.sc.myrtlebeach.wmbf" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WMBF MYRTLEBEACH NBC
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-nbc-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="WABCTV.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WABC NEWYORK ABC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-abc-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="WCBSTV.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WCBS NEWYORK CBS
@@ -52,255 +44,243 @@ https://lnc-wnyw-fox-aws.tubi.video/index.m3u8
 https://wnbclive-f.akamaihd.net/i/wnbca1_1@13992/master.m3u8
 #EXTINF:-1 tvg-id="WPIX.us" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Broadcast", WPIX 11 NY
 https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8
-#EXTINF:-1 tvg-id="abc.nc.raleigh.wtvd" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WTVD RALEIGH ABC
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-abc-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="cbs.nc.raleigh.wncn" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WNCN RALEIGH CBS
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-cbs-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="fox.nc.raleigh.wraz" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", WRAZ RALEIGH FOX
-http://gma2.blab.email/fox.m3u8
-#EXTINF:-1 tvg-id="nbc.nc.raleigh.wral" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WRAL RALEIGH NBC
-http://media-hls-az1.wral.com/livehttporigin/_definst_/mp4:encoder25-high/chunklist.m3u8
-#EXTINF:-1 tvg-id="abc.usvirginislands.wcvi" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WCVI USVIRGINISLANDS ABC
-http://dcunilive30-lh.akamaihd.net/i/dclive_1@534251/master.m3u8
 
-#EXTINF:-1 tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-logo-WRiXY6t.png" group-title="PBS", Alaska Public Media
+#EXTINF:-1 tvg-id="KAKM.us" tvg-logo="https://image.pbs.org/stations/kakm-color-logo-WRiXY6t.png" group-title="PBS", Alaska Public Media
 https://kakmdt.lls.cdn.pbs.org/kakmdt/241f6bfb-7b98-4cbd-af3a-3bf219bdb80f/primary.m3u8
-#EXTINF:-1 tvg-id="WBIQ" tvg-logo="https://image.pbs.org/stations/wbiq-color-logo-EM0u194.png" group-title="PBS", Alabama PBS
+#EXTINF:-1 tvg-id="WBIQ.us" tvg-logo="https://image.pbs.org/stations/wbiq-color-logo-EM0u194.png" group-title="PBS", Alabama PBS
 https://wbiqdt.lls.cdn.pbs.org/wbiqdt/fa2db1d4-85a0-4a75-aa3d-1f5028578d52/primary.m3u8
-#EXTINF:-1 tvg-id="KAET" tvg-logo="https://image.pbs.org/stations/kaet-color-logo-KkYt9tL.png" group-title="PBS", Arizona PBS
+#EXTINF:-1 tvg-id="KAET.us" tvg-logo="https://image.pbs.org/stations/kaet-color-logo-KkYt9tL.png" group-title="PBS", Arizona PBS
 https://kaetdt.lls.cdn.pbs.org/kaetdt/6d08b852-2c19-4eb7-9348-a5e15b685357/primary.m3u8
-#EXTINF:-1 tvg-id="KETS" tvg-logo="https://image.pbs.org/stations/kets-color-logo-PwynLIB.png" group-title="PBS", Arkansas PBS
+#EXTINF:-1 tvg-id="KETS.us" tvg-logo="https://image.pbs.org/stations/kets-color-logo-PwynLIB.png" group-title="PBS", Arkansas PBS
 https://ketsdt.lls.cdn.pbs.org/ketsdt/b5545820-5d66-4396-9f94-b5bd58aa34d9/primary.m3u8
-#EXTINF:-1 tvg-id="KLRU" tvg-logo="https://image.pbs.org/stations/klru-color-logo-oJsVk0O.png" group-title="PBS", Austin PBS, KLRU-TV
+#EXTINF:-1 tvg-id="KLRU.us" tvg-logo="https://image.pbs.org/stations/klru-color-logo-oJsVk0O.png" group-title="PBS", Austin PBS, KLRU-TV
 https://klrudt.lls.cdn.pbs.org/klrudt/4afb5e16-16d0-4803-bc68-70b7816d6c7c/primary.m3u8
-#EXTINF:-1 tvg-id="WEDH" tvg-logo="https://image.pbs.org/stations/wedh-color-logo-ywXAH7z.png" group-title="PBS", Connecticut PBS
+#EXTINF:-1 tvg-id="WEDH.us" tvg-logo="https://image.pbs.org/stations/wedh-color-logo-ywXAH7z.png" group-title="PBS", Connecticut PBS
 https://wedhdt.lls.cdn.pbs.org/wedhdt/d7096786-0d6d-4b42-b1b6-df7934b92fcb/primary.m3u8
-#EXTINF:-1 tvg-id="WTVS" tvg-logo="https://image.pbs.org/stations/wtvs-color-logo-TnCSqVZ.png" group-title="PBS", Detroit Public TV
+#EXTINF:-1 tvg-id="WTVS.us" tvg-logo="https://image.pbs.org/stations/wtvs-color-logo-TnCSqVZ.png" group-title="PBS", Detroit Public TV
 https://wtvsdt.lls.cdn.pbs.org/wtvsdt/7f382f2c-72eb-4e19-ba1b-1d6d143ae841/primary.m3u8
-#EXTINF:-1 tvg-id="WETP" tvg-logo="https://image.pbs.org/stations/wetp-color-logo-RTHIWMx.png" group-title="PBS", East Tennessee PBS
+#EXTINF:-1 tvg-id="WETP.us" tvg-logo="https://image.pbs.org/stations/wetp-color-logo-RTHIWMx.png" group-title="PBS", East Tennessee PBS
 https://wetpdt.lls.cdn.pbs.org/wetpdt/c65964f8-23e4-4080-9bd0-7d8e66af698d/primary.m3u8
-#EXTINF:-1 tvg-id="WUFT" tvg-logo="https://image.pbs.org/stations/wuft-color-logo-a15fvqX.png" group-title="PBS", Florida's 5 WUFT-TV
+#EXTINF:-1 tvg-id="WUFT.us" tvg-logo="https://image.pbs.org/stations/wuft-color-logo-a15fvqX.png" group-title="PBS", Florida's 5 WUFT-TV
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="WGBH" tvg-logo="https://image.pbs.org/stations/wgbh-color-logo-lJYHmys.png" group-title="PBS", GBH Boston
+#EXTINF:-1 tvg-id="WGBH.us" tvg-logo="https://image.pbs.org/stations/wgbh-color-logo-lJYHmys.png" group-title="PBS", GBH Boston
 https://wgbhdt.lls.cdn.pbs.org/wgbhdt/7387eb2c-e0ce-4069-82d9-08865df87edf/primary.m3u8
-#EXTINF:-1 tvg-id="WGTV" tvg-logo="https://image.pbs.org/stations/wgtv-color-logo-3QqVBkI.png" group-title="PBS", Georgia PBS
+#EXTINF:-1 tvg-id="WGTV.us" tvg-logo="https://image.pbs.org/stations/wgtv-color-logo-3QqVBkI.png" group-title="PBS", Georgia PBS
 https://wgtvdt.lls.cdn.pbs.org/wgtvdt/a4907776-c769-452f-ab2f-74bb1f86676f/primary.m3u8
-#EXTINF:-1 tvg-id="KUHT" tvg-logo="https://image.pbs.org/stations/kuht-color-logo-t3Tjr3d.png" group-title="PBS", Houston PBS
+#EXTINF:-1 tvg-id="KUHT.us" tvg-logo="https://image.pbs.org/stations/kuht-color-logo-t3Tjr3d.png" group-title="PBS", Houston PBS
 https://kuhtdt.lls.cdn.pbs.org/kuhtdt/a0c19534-b8cd-4d9f-8856-442a473c4aff/primary.m3u8
-#EXTINF:-1 tvg-id="KAID" tvg-logo="https://image.pbs.org/stations/kaid-color-logo-ttoxKeH.png" group-title="PBS", Idaho PBS
+#EXTINF:-1 tvg-id="KAID.us" tvg-logo="https://image.pbs.org/stations/kaid-color-logo-ttoxKeH.png" group-title="PBS", Idaho PBS
 https://kaiddt.lls.cdn.pbs.org/kaiddt/8a949120-ff4f-4d71-9c96-ca4978e3b39a/primary.m3u8
-#EXTINF:-1 tvg-id="KDIN" tvg-logo="https://image.pbs.org/stations/kdin-color-logo-oPnCcjN.png" group-title="PBS", Iowa PBS
+#EXTINF:-1 tvg-id="KDIN.us" tvg-logo="https://image.pbs.org/stations/kdin-color-logo-oPnCcjN.png" group-title="PBS", Iowa PBS
 https://kdindt.lls.cdn.pbs.org/kdindt/4b65e70a-e262-4290-ae67-45bd0814cafd/primary.m3u8
-#EXTINF:-1 tvg-id="WJCT" tvg-logo="https://image.pbs.org/stations/wjct-color-logo-Znr5oW8.png" group-title="PBS", Jax PBS
+#EXTINF:-1 tvg-id="WJCT.us" tvg-logo="https://image.pbs.org/stations/wjct-color-logo-Znr5oW8.png" group-title="PBS", Jax PBS
 https://wjctdt.lls.cdn.pbs.org/wjctdt/5eee712c-8713-4283-8af1-c0ba9d25d6fd/primary.m3u8
-#EXTINF:-1 tvg-id="KAMU" tvg-logo="https://image.pbs.org/stations/kamu-color-logo-b2P88AZ.png" group-title="PBS", KAMU-TX
+#EXTINF:-1 tvg-id="KAMU.us" tvg-logo="https://image.pbs.org/stations/kamu-color-logo-b2P88AZ.png" group-title="PBS", KAMU-TX
 https://kamudt.lls.cdn.pbs.org/kamudt/ef3867c9-4da7-4704-9855-10308b3afe4c/primary.m3u8
-#EXTINF:-1 tvg-id="KCPT" tvg-logo="https://image.pbs.org/stations/kcpt-color-logo-l8W9kBf.png" group-title="PBS", Kansas City PBS
+#EXTINF:-1 tvg-id="KCPT.us" tvg-logo="https://image.pbs.org/stations/kcpt-color-logo-l8W9kBf.png" group-title="PBS", Kansas City PBS
 https://kcptdt.lls.cdn.pbs.org/kcptdt/b053c129-9506-40e4-810a-7b610b62e58d/primary.m3u8
-#EXTINF:-1 tvg-id="KBTC" tvg-logo="https://image.pbs.org/stations/kbtc-color-logo-JmDxLy1.png" group-title="PBS", KBTC Seattle
+#EXTINF:-1 tvg-id="KBTC.us" tvg-logo="https://image.pbs.org/stations/kbtc-color-logo-JmDxLy1.png" group-title="PBS", KBTC Seattle
 https://kbtcdt.lls.cdn.pbs.org/kbtcdt/79a490c8-0603-4aa5-9126-81a947c47db0/primary-1080p.m3u8
-#EXTINF:-1 tvg-id="KEET" tvg-logo="https://image.pbs.org/stations/keet-color-logo-Te0L7YO.png" group-title="PBS", KEET CA
+#EXTINF:-1 tvg-id="KEET.us" tvg-logo="https://image.pbs.org/stations/keet-color-logo-Te0L7YO.png" group-title="PBS", KEET CA
 https://keetdt.lls.cdn.pbs.org/keetdt/1b41a3da-967a-40fa-8243-87740f94dbd5/primary.m3u8
-#EXTINF:-1 tvg-id="KENW" tvg-logo="https://image.pbs.org/stations/kenw-color-logo-84iEHqJ.png" group-title="PBS", KENW New Mexico
+#EXTINF:-1 tvg-id="KENW.us" tvg-logo="https://image.pbs.org/stations/kenw-color-logo-84iEHqJ.png" group-title="PBS", KENW New Mexico
 https://kenwdt.lls.cdn.pbs.org/kenwdt/90a9e431-b5ac-4de4-868f-1f9dbfe8b101/primary.m3u8
-#EXTINF:-1 tvg-id="KERA" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="PBS", KERA TX
+#EXTINF:-1 tvg-id="KERA.us" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="PBS", KERA TX
 https://keradt.lls.cdn.pbs.org/keradt/b3291387-78a4-41e1-beb0-da2f61a96a3e/primary.m3u8
-#EXTINF:-1 tvg-id="KLCS" tvg-logo="https://image.pbs.org/stations/klcs-color-logo-tbZ8xjs.png" group-title="PBS", KLCS LA
+#EXTINF:-1 tvg-id="KLCS.us" tvg-logo="https://image.pbs.org/stations/klcs-color-logo-tbZ8xjs.png" group-title="PBS", KLCS LA
 https://klcsdt.lls.cdn.pbs.org/klcsdt/c39fde04-f0c0-4f41-b797-a2c14938238b/primary.m3u8
-#EXTINF:-1 tvg-id="KLRN" tvg-logo="https://image.pbs.org/stations/klrn-color-logo-Atz4AL7.png" group-title="PBS", KLRN San Antonio
+#EXTINF:-1 tvg-id="KLRN.us" tvg-logo="https://image.pbs.org/stations/klrn-color-logo-Atz4AL7.png" group-title="PBS", KLRN San Antonio
 https://klrndt.lls.cdn.pbs.org/klrndt/ee754c65-49eb-4f8b-a9be-6061442b0f49/primary.m3u8
-#EXTINF:-1 tvg-id="KMOS" tvg-logo="https://image.pbs.org/stations/kmos-color-logo-Nz9z2lP.png" group-title="PBS", KMOS Missouri
+#EXTINF:-1 tvg-id="KMOS.us" tvg-logo="https://image.pbs.org/stations/kmos-color-logo-Nz9z2lP.png" group-title="PBS", KMOS Missouri
 https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
-#EXTINF:-1 tvg-id="KQED" tvg-logo="https://image.pbs.org/stations/kqed-color-logo-0YECBkA.png" group-title="PBS", KQED San Francisco
+#EXTINF:-1 tvg-id="KQED.us" tvg-logo="https://image.pbs.org/stations/kqed-color-logo-0YECBkA.png" group-title="PBS", KQED San Francisco
 https://kqeddt.lls.cdn.pbs.org/kqeddt/1978f5fc-903b-44c5-8db4-76335078ea74/primary.m3u8
-#EXTINF:-1 tvg-id="KSPS" tvg-logo="https://image.pbs.org/stations/ksps-color-logo-vD3BaAG.png" group-title="PBS", KSPS Spokane
+#EXTINF:-1 tvg-id="KSPS.us" tvg-logo="https://image.pbs.org/stations/ksps-color-logo-vD3BaAG.png" group-title="PBS", KSPS Spokane
 https://kspsdt.lls.cdn.pbs.org/kspsdt/3c8c7461-f130-483a-9b6c-84dbae163c07/primary.m3u8
-#EXTINF:-1 tvg-id="KTWU" tvg-logo="https://image.pbs.org/stations/ktwu-color-logo-nRhiEat.png" group-title="PBS", KTWU Kansas
+#EXTINF:-1 tvg-id="KTWU.us" tvg-logo="https://image.pbs.org/stations/ktwu-color-logo-nRhiEat.png" group-title="PBS", KTWU Kansas
 https://ktwudt.lls.cdn.pbs.org/ktwudt/164fbea8-3e32-44f3-a701-20ad6de50b72/primary.m3u8
-#EXTINF:-1 tvg-id="KUAC" tvg-logo="https://image.pbs.org/stations/kuac-color-logo-yhllXfJ.png" group-title="PBS", KUAC Alaska
+#EXTINF:-1 tvg-id="KUAC.us" tvg-logo="https://image.pbs.org/stations/kuac-color-logo-yhllXfJ.png" group-title="PBS", KUAC Alaska
 https://pbs.lls.cdn.pbs.org/pst/index.m3u8
-#EXTINF:-1 tvg-id="KVCR" tvg-logo="https://image.pbs.org/stations/kvcr-color-logo-UZLGQDT.png" group-title="PBS", KVCR LA
+#EXTINF:-1 tvg-id="KVCR.us" tvg-logo="https://image.pbs.org/stations/kvcr-color-logo-UZLGQDT.png" group-title="PBS", KVCR LA
 https://kvcrdt.lls.cdn.pbs.org/kvcrdt/d5fc9451-1456-4ea1-9476-4db346756a96/primary.m3u8
-#EXTINF:-1 tvg-id="KAWE" tvg-logo="https://image.pbs.org/stations/kawe-color-logo-vp1azdH.png" group-title="PBS", Lakeland PBS
+#EXTINF:-1 tvg-id="KAWE.us" tvg-logo="https://image.pbs.org/stations/kawe-color-logo-vp1azdH.png" group-title="PBS", Lakeland PBS
 https://kawedt.lls.cdn.pbs.org/kawedt/bb77b7f7-78ec-4134-aa62-3902aeca6169/primary.m3u8
-#EXTINF:-1 tvg-id="WYIN" tvg-logo="https://image.pbs.org/stations/wyin-color-logo-5EfXGxF.png" group-title="PBS", Lakeshore PBS
+#EXTINF:-1 tvg-id="WYIN.us" tvg-logo="https://image.pbs.org/stations/wyin-color-logo-5EfXGxF.png" group-title="PBS", Lakeshore PBS
 https://wyindt.lls.cdn.pbs.org/wyindt/473411db-09f0-4b27-99a9-c15e827ba9c3/primary.m3u8
-#EXTINF:-1 tvg-id="WLPB" tvg-logo="https://image.pbs.org/stations/wlpb-color-logo-a3yOPNj.png" group-title="PBS", LPB/LOUISIANA PBS
+#EXTINF:-1 tvg-id="WLPB.us" tvg-logo="https://image.pbs.org/stations/wlpb-color-logo-a3yOPNj.png" group-title="PBS", LPB/LOUISIANA PBS
 https://wlpbdt.lls.cdn.pbs.org/wlpbdt/3b9285dd-13b3-4fec-a9b0-02b57dd8c7ba/primary.m3u8
-#EXTINF:-1 tvg-id="WCBB" tvg-logo="https://image.pbs.org/stations/wcbb-color-logo-rZOHeNI.png" group-title="PBS", Maine Public
+#EXTINF:-1 tvg-id="WCBB.us" tvg-logo="https://image.pbs.org/stations/wcbb-color-logo-rZOHeNI.png" group-title="PBS", Maine Public
 https://wcbbdt.lls.cdn.pbs.org/wcbbdt/48bc2487-14e0-4875-a893-58a0b06ec29e/primary.m3u8
-#EXTINF:-1 tvg-id="WMVS" tvg-logo="https://image.pbs.org/stations/wmvs-color-logo-80wi8xD.png" group-title="PBS", Milwaukee PBS
+#EXTINF:-1 tvg-id="WMVS.us" tvg-logo="https://image.pbs.org/stations/wmvs-color-logo-80wi8xD.png" group-title="PBS", Milwaukee PBS
 https://wmvsdt.lls.cdn.pbs.org/wmvsdt/27146fbb-5f51-4924-9e00-bb46e89e18a8/primary.m3u8
-#EXTINF:-1 tvg-id="WMPN" tvg-logo="https://image.pbs.org/stations/wmpn-color-logo-dvaWs7F.png" group-title="PBS", Mississippi Public Broadcasting
+#EXTINF:-1 tvg-id="WMPN.us" tvg-logo="https://image.pbs.org/stations/wmpn-color-logo-dvaWs7F.png" group-title="PBS", Mississippi Public Broadcasting
 https://wmpndt.lls.cdn.pbs.org/wmpndt/5598653f-dc4d-4911-9d99-260b3453f6a1/primary.m3u8
-#EXTINF:-1 tvg-id="KUSM" tvg-logo="https://image.pbs.org/stations/kusm-color-logo-gRwB1mO.png" group-title="PBS", Montana PBS
+#EXTINF:-1 tvg-id="KUSM.us" tvg-logo="https://image.pbs.org/stations/kusm-color-logo-gRwB1mO.png" group-title="PBS", Montana PBS
 https://kusmdt.lls.cdn.pbs.org/kusmdt/e588e03b-d9c4-4988-aba1-94a3b98e88c2/primary.m3u8
-#EXTINF:-1 tvg-id="WCFE" tvg-logo="https://image.pbs.org/stations/wcfe-color-logo-G8jTRtK.png" group-title="PBS", Mountain Lake PBS
+#EXTINF:-1 tvg-id="WCFE.us" tvg-logo="https://image.pbs.org/stations/wcfe-color-logo-G8jTRtK.png" group-title="PBS", Mountain Lake PBS
 https://wcfedt.lls.cdn.pbs.org/wcfedt/bf21732a-f52f-46ca-bbb6-4ae9663a94bf/primary-1080p.m3u8
-#EXTINF:-1 tvg-id="WMPB" tvg-logo="https://image.pbs.org/stations/wmpb-color-logo-88Tvm0E.png" group-title="PBS", MPT/Maryland PBS
+#EXTINF:-1 tvg-id="WMPB.us" tvg-logo="https://image.pbs.org/stations/wmpb-color-logo-88Tvm0E.png" group-title="PBS", MPT/Maryland PBS
 https://wmpbdt.lls.cdn.pbs.org/wmpbdt/fdb26654-eed0-4858-aa50-a84b538f4747/primary.m3u8
-#EXTINF:-1 tvg-id="WNPT" tvg-logo="https://image.pbs.org/stations/wnpt-color-logo-bvNffpZ.png" group-title="PBS", Nashville PBS
+#EXTINF:-1 tvg-id="WNPT.us" tvg-logo="https://image.pbs.org/stations/wnpt-color-logo-bvNffpZ.png" group-title="PBS", Nashville PBS
 https://wnptdt.lls.cdn.pbs.org/wnptdt/42559186-b19b-45b5-9861-078ec38bb981/primary.m3u8
-#EXTINF:-1 tvg-id="KUON" tvg-logo="https://image.pbs.org/stations/kuon-color-logo-pjeWRml.png" group-title="PBS", NET-Nebraska's PBS
+#EXTINF:-1 tvg-id="KUON.us" tvg-logo="https://image.pbs.org/stations/kuon-color-logo-pjeWRml.png" group-title="PBS", NET-Nebraska's PBS
 https://kuondt.lls.cdn.pbs.org/kuondt/b107784d-680c-48d5-8d48-ccb870cbb9dc/primary.m3u8
-#EXTINF:-1 tvg-id="WGBY" tvg-logo="https://image.pbs.org/stations/wgby-color-logo-8vL3bG4.png" group-title="PBS", New England PBS
+#EXTINF:-1 tvg-id="WGBY.us" tvg-logo="https://image.pbs.org/stations/wgby-color-logo-8vL3bG4.png" group-title="PBS", New England PBS
 https://wgbydt.lls.cdn.pbs.org/wgbydt/b62fa183-78dc-41d7-bd8a-12602304b118/primary.m3u8
-#EXTINF:-1 tvg-id="WENH" tvg-logo="https://image.pbs.org/stations/wenh-color-logo-JnVCaYt.png" group-title="PBS", New Hampshire PBS
+#EXTINF:-1 tvg-id="WENH.us" tvg-logo="https://image.pbs.org/stations/wenh-color-logo-JnVCaYt.png" group-title="PBS", New Hampshire PBS
 https://wenhdt.lls.cdn.pbs.org/wenhdt/5be2a7e3-fc57-471e-80ff-c5ea79229078/primary.m3u8
-#EXTINF:-1 tvg-id="KNME" tvg-logo="https://image.pbs.org/stations/knme-color-logo-Nee7WeI.png" group-title="PBS", New Mexico PBS
+#EXTINF:-1 tvg-id="KNME.us" tvg-logo="https://image.pbs.org/stations/knme-color-logo-Nee7WeI.png" group-title="PBS", New Mexico PBS
 https://knmedt.lls.cdn.pbs.org/knmedt/97ba98c8-6deb-47b8-9809-2d1f3cc299bf/primary.m3u8
-#EXTINF:-1 tvg-id="KETC" tvg-logo="https://image.pbs.org/stations/ketc-color-logo-TF7FBxM.png" group-title="PBS", Nine PBS
+#EXTINF:-1 tvg-id="KETC.us" tvg-logo="https://image.pbs.org/stations/ketc-color-logo-TF7FBxM.png" group-title="PBS", Nine PBS
 https://ketcdt.lls.cdn.pbs.org/ketcdt/0436e066-85c7-408b-a4fd-5b492ccb5fd8/primary.m3u8
-#EXTINF:-1 tvg-id="WNJT" tvg-logo="https://image.pbs.org/stations/wnjt-color-logo-l8JzHEA.png" group-title="PBS", NJ PBS
+#EXTINF:-1 tvg-id="WNJT.us" tvg-logo="https://image.pbs.org/stations/wnjt-color-logo-l8JzHEA.png" group-title="PBS", NJ PBS
 https://wnjtdt.lls.cdn.pbs.org/wnjtdt/63b643e1-1a13-4dd9-9bab-ff6f7527715f/primary.m3u8
-#EXTINF:-1 tvg-id="KRCB" tvg-logo="https://image.pbs.org/stations/krcb-color-logo-vdt09AR.png" group-title="PBS", Northern California PBS
+#EXTINF:-1 tvg-id="KRCB.us" tvg-logo="https://image.pbs.org/stations/krcb-color-logo-vdt09AR.png" group-title="PBS", Northern California PBS
 https://krcbdt.lls.cdn.pbs.org/krcbdt/08e0ed35-f9dc-4758-9d6d-82c81adcacda/primary.m3u8
-#EXTINF:-1 tvg-id="KWSU" tvg-logo="https://image.pbs.org/stations/kwsu-color-logo-YedAZrM.png" group-title="PBS", Northwest PBS
+#EXTINF:-1 tvg-id="KWSU.us" tvg-logo="https://image.pbs.org/stations/kwsu-color-logo-YedAZrM.png" group-title="PBS", Northwest PBS
 https://pbs.lls.cdn.pbs.org/pst/index.m3u8
-#EXTINF:-1 tvg-id="KETA" tvg-logo="https://image.pbs.org/stations/keta-color-logo-zLpaPzl.png" group-title="PBS", Oklahoma PBS
+#EXTINF:-1 tvg-id="KETA.us" tvg-logo="https://image.pbs.org/stations/keta-color-logo-zLpaPzl.png" group-title="PBS", Oklahoma PBS
 https://ketadt.lls.cdn.pbs.org/ketadt/edf8065c-f56a-42f7-a7aa-f5267eb9ffc9/primary.m3u8
-#EXTINF:-1 tvg-id="KOPB" tvg-logo="https://image.pbs.org/stations/kopb-color-logo-ARWGVOL.png" group-title="PBS", OPB Oregon
+#EXTINF:-1 tvg-id="KOPB.us" tvg-logo="https://image.pbs.org/stations/kopb-color-logo-ARWGVOL.png" group-title="PBS", OPB Oregon
 https://kopbdt.lls.cdn.pbs.org/kopbdt/908d1940-5074-4a1e-b111-169206513fef/primary.m3u8
-#EXTINF:-1 tvg-id="KOZK" tvg-logo="https://image.pbs.org/stations/kozk-color-logo-5d6XPqh.png" group-title="PBS", Ozarks PBS
+#EXTINF:-1 tvg-id="KOZK.us" tvg-logo="https://image.pbs.org/stations/kozk-color-logo-5d6XPqh.png" group-title="PBS", Ozarks PBS
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="WTVI" tvg-logo="https://image.pbs.org/stations/wtvi-color-logo-AGVjtCR.png" group-title="PBS", PBS Charlotte
+#EXTINF:-1 tvg-id="WTVI.us" tvg-logo="https://image.pbs.org/stations/wtvi-color-logo-AGVjtCR.png" group-title="PBS", PBS Charlotte
 https://wtvidt.lls.cdn.pbs.org/wtvidt/b44fd824-0168-46e3-bcb8-6322cf4c1e11/primary.m3u8
-#EXTINF:-1 tvg-id="WFWA" tvg-logo="https://image.pbs.org/stations/wfwa-color-logo-CqxfCD0.png" group-title="PBS", PBS Fort Wayne
+#EXTINF:-1 tvg-id="WFWA.us" tvg-logo="https://image.pbs.org/stations/wfwa-color-logo-CqxfCD0.png" group-title="PBS", PBS Fort Wayne
 https://wfwadt.lls.cdn.pbs.org/wfwadt/3f02e9df-66c8-4f3d-8f51-a76c7255a45d/primary.m3u8
-#EXTINF:-1 tvg-id="KPTS" tvg-logo="https://image.pbs.org/stations/kpts-color-logo-jcDDWAk.png" group-title="PBS", PBS Kansas
+#EXTINF:-1 tvg-id="KPTS.us" tvg-logo="https://image.pbs.org/stations/kpts-color-logo-jcDDWAk.png" group-title="PBS", PBS Kansas
 https://kptsdt.lls.cdn.pbs.org/kptsdt/f8cd0e67-9e8d-464d-aaf1-f7874f5f6ae6/primary.m3u8
-#EXTINF:-1 tvg-id="KVIE" tvg-logo="https://image.pbs.org/stations/kvie-color-logo-HIwxjNr.png" group-title="PBS", PBS KVIE PBC NoCal
+#EXTINF:-1 tvg-id="KVIE.us" tvg-logo="https://image.pbs.org/stations/kvie-color-logo-HIwxjNr.png" group-title="PBS", PBS KVIE PBC NoCal
 https://kviedt.lls.cdn.pbs.org/kviedt/4d8fea94-86b8-4663-9c69-4c4cb62257e4/primary.m3u8
-#EXTINF:-1 tvg-id="WNIT" tvg-logo="https://image.pbs.org/stations/wnit-color-logo-F92Om3j.png" group-title="PBS", PBS Michian
+#EXTINF:-1 tvg-id="WNIT.us" tvg-logo="https://image.pbs.org/stations/wnit-color-logo-F92Om3j.png" group-title="PBS", PBS Michian
 https://wnitdt.lls.cdn.pbs.org/wnitdt/4e7fdf7b-c8dc-4376-8de4-b78ef29edf73/primary.m3u8
-#EXTINF:-1 tvg-id="WUNC" tvg-logo="https://image.pbs.org/stations/wunc-color-logo-WX2Nyf1.png" group-title="PBS", PBS North Carolina
+#EXTINF:-1 tvg-id="WUNC.us" tvg-logo="https://image.pbs.org/stations/wunc-color-logo-WX2Nyf1.png" group-title="PBS", PBS North Carolina
 https://wuncdt.lls.cdn.pbs.org/wuncdt/fa2384b8-9593-4d58-a129-4deb3a1f764a/primary.m3u8
-#EXTINF:-1 tvg-id="KNPB" tvg-logo="https://image.pbs.org/stations/knpb-color-logo-BC98BpO.png" group-title="PBS", PBS Reno
+#EXTINF:-1 tvg-id="KNPB.us" tvg-logo="https://image.pbs.org/stations/knpb-color-logo-BC98BpO.png" group-title="PBS", PBS Reno
 https://knpbdt.lls.cdn.pbs.org/knpbdt/6a6a875e-4af4-4e1e-8502-422071b9cdac/primary.m3u8
-#EXTINF:-1 tvg-id="KOCE" tvg-logo="https://image.pbs.org/stations/koce-color-logo-q1ciZxl.png" group-title="PBS", PBS SoCal | KCET
+#EXTINF:-1 tvg-id="KOCE.us" tvg-logo="https://image.pbs.org/stations/koce-color-logo-q1ciZxl.png" group-title="PBS", PBS SoCal | KCET
 https://kocedt.lls.cdn.pbs.org/kocedt/057f6e22-7d9c-4fd6-b968-bc17102698de/primary.m3u8
-#EXTINF:-1 tvg-id="KUED" tvg-logo="https://image.pbs.org/stations/kued-color-logo-QzVe4jk.png" group-title="PBS", PBS Utah
+#EXTINF:-1 tvg-id="KUED.us" tvg-logo="https://image.pbs.org/stations/kued-color-logo-QzVe4jk.png" group-title="PBS", PBS Utah
 https://kueddt.lls.cdn.pbs.org/kueddt/b0784447-7908-43f6-b188-9d6a30102ea3/primary.m3u8
-#EXTINF:-1 tvg-id="WPNE" tvg-logo="https://image.pbs.org/stations/wpne-color-logo-Ng9deOl.png" group-title="PBS", PBS Wisconsin
+#EXTINF:-1 tvg-id="WPNE.us" tvg-logo="https://image.pbs.org/stations/wpne-color-logo-Ng9deOl.png" group-title="PBS", PBS Wisconsin
 https://wpnedt.lls.cdn.pbs.org/wpnedt/a3a25e36-3ba3-40b4-990f-7460511f0127/primary.m3u8
-#EXTINF:-1 tvg-id="WSBE" tvg-logo="https://image.pbs.org/stations/wsbe-color-logo-UWhZUgX.png" group-title="PBS", Rhode Island PBS
+#EXTINF:-1 tvg-id="WSBE.us" tvg-logo="https://image.pbs.org/stations/wsbe-color-logo-UWhZUgX.png" group-title="PBS", Rhode Island PBS
 https://hls-wsbedt.lls.cdn.pbs.org/bpk-tv/pbs/default/index.m3u8
-#EXTINF:-1 tvg-id="KRMA" tvg-logo="https://image.pbs.org/stations/krma-color-logo-o3u55BF.png" group-title="PBS", Rocky Mountain PBS
+#EXTINF:-1 tvg-id="KRMA.us" tvg-logo="https://image.pbs.org/stations/krma-color-logo-o3u55BF.png" group-title="PBS", Rocky Mountain PBS
 https://krmadt.lls.cdn.pbs.org/krmadt/1cebd1cc-9ca8-49e4-8dfc-40aa63a08c6c/primary.m3u8
-#EXTINF:-1 tvg-id="WRLK" tvg-logo="https://image.pbs.org/stations/wrlk-color-logo-BQXhGgO.png" group-title="PBS", SCETV SC
+#EXTINF:-1 tvg-id="WRLK.us" tvg-logo="https://image.pbs.org/stations/wrlk-color-logo-BQXhGgO.png" group-title="PBS", SCETV SC
 https://wrlkdt.lls.cdn.pbs.org/wrlkdt/50ac3de0-09e0-43db-8bb6-d83826fd637c/primary.m3u8
-#EXTINF:-1 tvg-id="WNET" tvg-logo="https://image.pbs.org/stations/wnet-color-logo-UWM8skJ.png" group-title="PBS", THIRTEEN/WNET New York
+#EXTINF:-1 tvg-id="WNET.us" tvg-logo="https://image.pbs.org/stations/wnet-color-logo-UWM8skJ.png" group-title="PBS", THIRTEEN/WNET New York
 https://wnetdt.lls.cdn.pbs.org/wnetdt/80f93f7f-9742-47b8-aa58-0c0ceb866d9f/primary.m3u8
-#EXTINF:-1 tvg-id="KTCA" tvg-logo="https://image.pbs.org/stations/ktca-color-logo-DtUjr88.png" group-title="PBS", Twin Cities PBS
+#EXTINF:-1 tvg-id="KTCA.us" tvg-logo="https://image.pbs.org/stations/ktca-color-logo-DtUjr88.png" group-title="PBS", Twin Cities PBS
 https://ktcadt.lls.cdn.pbs.org/ktcadt/3742dff1-85cd-42d1-ab39-7ffa8ef10211/primary.m3u8
-#EXTINF:-1 tvg-id="KLVX" tvg-logo="https://image.pbs.org/stations/klvx-color-logo-Zrq94K0.png" group-title="PBS", Vegas PBS
+#EXTINF:-1 tvg-id="KLVX.us" tvg-logo="https://image.pbs.org/stations/klvx-color-logo-Zrq94K0.png" group-title="PBS", Vegas PBS
 https://klvxdt.lls.cdn.pbs.org/klvxdt/ca45083b-e314-4063-bd2e-0d614f01ea43/primary.m3u8
-#EXTINF:-1 tvg-id="WETK" tvg-logo="https://image.pbs.org/stations/wetk-color-logo-EUiudKw.png" group-title="PBS", Vermont PBS
+#EXTINF:-1 tvg-id="WETK.us" tvg-logo="https://image.pbs.org/stations/wetk-color-logo-EUiudKw.png" group-title="PBS", Vermont PBS
 https://wetkdt.lls.cdn.pbs.org/wetkdt/3bef3c0b-a9c5-4585-ab56-29b462da5c7c/primary.m3u8
-#EXTINF:-1 tvg-id="WCVE" tvg-logo="https://image.pbs.org/stations/wcve-color-logo-oxBFtYj.png" group-title="PBS", VPM Wyoming
+#EXTINF:-1 tvg-id="WCVE.us" tvg-logo="https://image.pbs.org/stations/wcve-color-logo-oxBFtYj.png" group-title="PBS", VPM Wyoming
 https://wcvedt.lls.cdn.pbs.org/wcvedt/86532025-6a98-4ed7-87ef-cce5615bfcf0/primary.m3u8
-#EXTINF:-1 tvg-id="WCMU" tvg-logo="https://image.pbs.org/stations/wcmu-color-logo-IFflFOQ.png" group-title="PBS", WCMU C Michigan
+#EXTINF:-1 tvg-id="WCMU.us" tvg-logo="https://image.pbs.org/stations/wcmu-color-logo-IFflFOQ.png" group-title="PBS", WCMU C Michigan
 https://wcmudt.lls.cdn.pbs.org/wcmudt/e435c068-30ee-4296-a9f0-58a561ea9487/primary.m3u8
-#EXTINF:-1 tvg-id="WDSE" tvg-logo="https://image.pbs.org/stations/wdse-color-logo-8HTtHGT.png" group-title="PBS", WDSE Minnesota
+#EXTINF:-1 tvg-id="WDSE.us" tvg-logo="https://image.pbs.org/stations/wdse-color-logo-8HTtHGT.png" group-title="PBS", WDSE Minnesota
 https://wdsedt.lls.cdn.pbs.org/wdsedt/38c2df8a-4e7e-4193-8cc6-8704059cbb1a/primary.m3u8
-#EXTINF:-1 tvg-id="WEDU" tvg-logo="https://image.pbs.org/stations/wedu-color-logo-dyVC3gw.png" group-title="PBS", WEDU Tampa PBS
+#EXTINF:-1 tvg-id="WEDU.us" tvg-logo="https://image.pbs.org/stations/wedu-color-logo-dyVC3gw.png" group-title="PBS", WEDU Tampa PBS
 https://wedudt.lls.cdn.pbs.org/wedudt/c4ab80c1-ca8c-4a6e-a8b5-c5995919792b/primary.m3u8
-#EXTINF:-1 tvg-id="WEIU" tvg-logo="https://image.pbs.org/stations/weiu-color-logo-lPZqBoM.png" group-title="PBS", WEIU E Illinois
+#EXTINF:-1 tvg-id="WEIU.us" tvg-logo="https://image.pbs.org/stations/weiu-color-logo-lPZqBoM.png" group-title="PBS", WEIU E Illinois
 https://weiudt.lls.cdn.pbs.org/weiudt/85af7dd6-89ae-4fde-9826-79b04c30aaa4/primary.m3u8
-#EXTINF:-1 tvg-id="WLJT" tvg-logo="https://image.pbs.org/stations/wljt-color-logo-40kDyJ7.png" group-title="PBS", West TN PBS
+#EXTINF:-1 tvg-id="WLJT.us" tvg-logo="https://image.pbs.org/stations/wljt-color-logo-40kDyJ7.png" group-title="PBS", West TN PBS
 https://wljtdt.lls.cdn.pbs.org/wljtdt/0afd0cce-f52c-4e96-baac-f05ffdf9560c/primary.m3u8
-#EXTINF:-1 tvg-id="WVPB" tvg-logo="https://image.pbs.org/stations/wvpb-color-logo-i25eOaV.png" group-title="PBS", West Virginia PBS
+#EXTINF:-1 tvg-id="WVPB.us" tvg-logo="https://image.pbs.org/stations/wvpb-color-logo-i25eOaV.png" group-title="PBS", West Virginia PBS
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="WETA" tvg-logo="https://image.pbs.org/stations/weta-color-logo-iZbJH8k.png" group-title="PBS", WETA DC
+#EXTINF:-1 tvg-id="WETA.us" tvg-logo="https://image.pbs.org/stations/weta-color-logo-iZbJH8k.png" group-title="PBS", WETA DC
 https://wetadt5.lls.cdn.pbs.org/wetadt5/92d89794-5ff0-4fe6-a443-cc888104e021/primary.m3u8
-#EXTINF:-1 tvg-id="WFSU" tvg-logo="https://image.pbs.org/stations/wfsu-color-logo-2rGfhuV.png" group-title="PBS", WFSU Tallahassee
+#EXTINF:-1 tvg-id="WFSU.us" tvg-logo="https://image.pbs.org/stations/wfsu-color-logo-2rGfhuV.png" group-title="PBS", WFSU Tallahassee
 https://wfsuhd.lls.cdn.pbs.org/wfsuhd/da7db8ae-5c3b-450e-9a25-76aa661eac79/primary.m3u8
-#EXTINF:-1 tvg-id="WFYI" tvg-logo="https://image.pbs.org/stations/wfyi-color-logo-b1rB992.png" group-title="PBS", WFYI Indianapolis
+#EXTINF:-1 tvg-id="WFYI.us" tvg-logo="https://image.pbs.org/stations/wfyi-color-logo-b1rB992.png" group-title="PBS", WFYI Indianapolis
 https://wfyidt.lls.cdn.pbs.org/wfyidt/046a9b3c-01b4-42b1-b789-83555437476d/primary.m3u8
-#EXTINF:-1 tvg-id="WGCU" tvg-logo="https://image.pbs.org/stations/wgcu-color-logo-B2z38TQ.png" group-title="PBS", WGCU Public Media
+#EXTINF:-1 tvg-id="WGCU.us" tvg-logo="https://image.pbs.org/stations/wgcu-color-logo-B2z38TQ.png" group-title="PBS", WGCU Public Media
 https://wgcudt.lls.cdn.pbs.org/wgcudt/19aacc3d-896b-4426-b319-ea0082ef6369/primary.m3u8
-#EXTINF:-1 tvg-id="WGTE" tvg-logo="https://image.pbs.org/stations/wgte-color-logo-sENFX0A.png" group-title="PBS", WGTE Toledo
+#EXTINF:-1 tvg-id="WGTE.us" tvg-logo="https://image.pbs.org/stations/wgte-color-logo-sENFX0A.png" group-title="PBS", WGTE Toledo
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="WHRO" tvg-logo="https://image.pbs.org/stations/whro-color-logo-pnOyqHc.png" group-title="PBS", WHRO Norfolk
+#EXTINF:-1 tvg-id="WHRO.us" tvg-logo="https://image.pbs.org/stations/whro-color-logo-pnOyqHc.png" group-title="PBS", WHRO Norfolk
 https://whrodt.lls.cdn.pbs.org/whrodt/47568125-b3c7-4f5f-8c35-d27027113102/primary.m3u8
-#EXTINF:-1 tvg-id="WHUT" tvg-logo="https://image.pbs.org/stations/whut-color-logo-78vu5YA.png" group-title="PBS", WHUT Howard University
+#EXTINF:-1 tvg-id="WHUT.us" tvg-logo="https://image.pbs.org/stations/whut-color-logo-78vu5YA.png" group-title="PBS", WHUT Howard University
 https://whutdt.lls.cdn.pbs.org/whutdt/722b847a-5e2a-4d14-9429-2d430b10b1ee/primary.m3u8
-#EXTINF:-1 tvg-id="WHYY" tvg-logo="https://image.pbs.org/stations/whyy-color-logo-5IozCyy.png" group-title="PBS", WHYY  Philadelphia
+#EXTINF:-1 tvg-id="WHYY.us" tvg-logo="https://image.pbs.org/stations/whyy-color-logo-5IozCyy.png" group-title="PBS", WHYY  Philadelphia
 https://whyydt.lls.cdn.pbs.org/whyydt/6e441aa1-51ab-4ecd-a1dc-bc99da43c3ed/primary.m3u8
-#EXTINF:-1 tvg-id="WILL" tvg-logo="https://image.pbs.org/stations/will-color-logo-TdLBUIQ.png" group-title="PBS", WILL C Illinois
+#EXTINF:-1 tvg-id="WILL.us" tvg-logo="https://image.pbs.org/stations/will-color-logo-TdLBUIQ.png" group-title="PBS", WILL C Illinois
 https://willdt.lls.cdn.pbs.org/willdt/11bd36cd-46d5-4c3a-bdc8-ae497a23c712/primary.m3u8
-#EXTINF:-1 tvg-id="WITF" tvg-logo="https://image.pbs.org/stations/witf-color-logo-5GOvo0P.png" group-title="PBS", WITF Harrisburg
+#EXTINF:-1 tvg-id="WITF.us" tvg-logo="https://image.pbs.org/stations/witf-color-logo-5GOvo0P.png" group-title="PBS", WITF Harrisburg
 https://witfdt.lls.cdn.pbs.org/witfdt/6b45b1e5-671e-439a-8673-ad21a5e56f32/primary.m3u8
-#EXTINF:-1 tvg-id="WKNO" tvg-logo="https://image.pbs.org/stations/wkno-color-logo-zGtgLes.png" group-title="PBS", WKNO Memphis
+#EXTINF:-1 tvg-id="WKNO.us" tvg-logo="https://image.pbs.org/stations/wkno-color-logo-zGtgLes.png" group-title="PBS", WKNO Memphis
 https://wknodt.lls.cdn.pbs.org/wknodt/6b3ba9b1-843d-4c44-a8e3-fada6005f081/primary.m3u8
-#EXTINF:-1 tvg-id="WLIW" tvg-logo="https://image.pbs.org/stations/wliw-color-logo-9RssGYk.png" group-title="PBS", WLIW21 Long Island
+#EXTINF:-1 tvg-id="WLIW.us" tvg-logo="https://image.pbs.org/stations/wliw-color-logo-9RssGYk.png" group-title="PBS", WLIW21 Long Island
 https://wliwdt.lls.cdn.pbs.org/wliwdt/a58c2765-7e77-4114-9668-75920022c6bc/primary.m3u8
-#EXTINF:-1 tvg-id="WLRN" tvg-logo="https://image.pbs.org/stations/wlrn-color-logo-8lxOo1A.png" group-title="PBS", WLRN Miami Public Media
+#EXTINF:-1 tvg-id="WLRN.us" tvg-logo="https://image.pbs.org/stations/wlrn-color-logo-8lxOo1A.png" group-title="PBS", WLRN Miami Public Media
 https://wlrndt.lls.cdn.pbs.org/wlrndt/8f70a678-a636-4dfa-873e-699f0212f78b/primary.m3u8
-#EXTINF:-1 tvg-id="WMHT" tvg-logo="https://image.pbs.org/stations/wmht-color-logo-SC6Ur8e.png" group-title="PBS", WMHT Schenectady
+#EXTINF:-1 tvg-id="WMHT.us" tvg-logo="https://image.pbs.org/stations/wmht-color-logo-SC6Ur8e.png" group-title="PBS", WMHT Schenectady
 https://wmhtdt.lls.cdn.pbs.org/wmhtdt/0777611a-56f1-4668-8094-932ae7498998/primary.m3u8
-#EXTINF:-1 tvg-id="WNED" tvg-logo="https://image.pbs.org/stations/wned-color-logo-LDyMtDZ.png" group-title="PBS", WNED Buffalo
+#EXTINF:-1 tvg-id="WNED.us" tvg-logo="https://image.pbs.org/stations/wned-color-logo-LDyMtDZ.png" group-title="PBS", WNED Buffalo
 https://wneddt.lls.cdn.pbs.org/wneddt/7e1c137a-9e83-4416-8b5a-b81042382e91/primary.m3u8
-#EXTINF:-1 tvg-id="WOSU" tvg-logo="https://image.pbs.org/stations/wosu-color-logo-c3tdR8s.png" group-title="PBS", WOSU Columbus
+#EXTINF:-1 tvg-id="WOSU.us" tvg-logo="https://image.pbs.org/stations/wosu-color-logo-c3tdR8s.png" group-title="PBS", WOSU Columbus
 https://wosudt.lls.cdn.pbs.org/wosudt/ba216f45-d78e-41cf-a23e-2026f3c99a5a/primary.m3u8
-#EXTINF:-1 tvg-id="WOUB" tvg-logo="https://image.pbs.org/stations/woub-color-logo-GNFW2aN.png" group-title="PBS", WOUB/WOUC Ohio
+#EXTINF:-1 tvg-id="WOUB.us" tvg-logo="https://image.pbs.org/stations/woub-color-logo-GNFW2aN.png" group-title="PBS", WOUB/WOUC Ohio
 https://woubdt.lls.cdn.pbs.org/woubdt/4dc91f2b-0076-46d9-ba82-0c9130cde12c/primary.m3u8
-#EXTINF:-1 tvg-id="WPBS" tvg-logo="https://image.pbs.org/stations/wpbs-color-logo-xPCWK8v.png" group-title="PBS", WPBS NY
+#EXTINF:-1 tvg-id="WPBS.us" tvg-logo="https://image.pbs.org/stations/wpbs-color-logo-xPCWK8v.png" group-title="PBS", WPBS NY
 https://wpbsdt.lls.cdn.pbs.org/wpbsdt/c17cb584-9efe-46fc-ac91-3fb453714069/primary.m3u8
-#EXTINF:-1 tvg-id="WPBT" tvg-logo="https://image.pbs.org/stations/wpbt-color-logo-7uKIiwQ.png" group-title="PBS", WPBT South Florida
+#EXTINF:-1 tvg-id="WPBT.us" tvg-logo="https://image.pbs.org/stations/wpbt-color-logo-7uKIiwQ.png" group-title="PBS", WPBT South Florida
 https://wpbtdt.lls.cdn.pbs.org/wpbtdt/b2c0d4c6-4544-4bb3-8d2d-bc803c5d7381/primary.m3u8
-#EXTINF:-1 tvg-id="WPSU" tvg-logo="https://image.pbs.org/stations/wpsu-color-logo-ttqPhg4.png" group-title="PBS", WPSU Penn State
+#EXTINF:-1 tvg-id="WPSU.us" tvg-logo="https://image.pbs.org/stations/wpsu-color-logo-ttqPhg4.png" group-title="PBS", WPSU Penn State
 https://wpsudt.lls.cdn.pbs.org/wpsudt/dfef8386-9db4-41b2-97ab-82cdce4a19be/primary.m3u8
-#EXTINF:-1 tvg-id="WQED" tvg-logo="https://image.pbs.org/stations/wqed-color-logo-sgcbMoL.png" group-title="PBS", WQED Multimedia
+#EXTINF:-1 tvg-id="WQED.us" tvg-logo="https://image.pbs.org/stations/wqed-color-logo-sgcbMoL.png" group-title="PBS", WQED Multimedia
 https://wqeddt.lls.cdn.pbs.org/wqeddt/9f860866-5985-487e-8191-0a2c49d5d6bb/primary.m3u8
-#EXTINF:-1 tvg-id="WQLN" tvg-logo="https://image.pbs.org/stations/wqln-color-logo-KL2EiTH.png" group-title="PBS", WQLN Erie
+#EXTINF:-1 tvg-id="WQLN.us" tvg-logo="https://image.pbs.org/stations/wqln-color-logo-KL2EiTH.png" group-title="PBS", WQLN Erie
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="WQPT" tvg-logo="https://image.pbs.org/stations/wqpt-color-logo-j0TKnrH.png" group-title="PBS", WQPT N Illinois
+#EXTINF:-1 tvg-id="WQPT.us" tvg-logo="https://image.pbs.org/stations/wqpt-color-logo-j0TKnrH.png" group-title="PBS", WQPT N Illinois
 https://wqptdt.lls.cdn.pbs.org/wqptdt/d431813a-086d-4a12-917a-d160f6b5c4c7/primary.m3u8
-#EXTINF:-1 tvg-id="WSIU" tvg-logo="https://image.pbs.org/stations/wsiu-color-logo-MuF2hbl.png" group-title="PBS", WSIU Carbondale
+#EXTINF:-1 tvg-id="WSIU.us" tvg-logo="https://image.pbs.org/stations/wsiu-color-logo-MuF2hbl.png" group-title="PBS", WSIU Carbondale
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="WSKG" tvg-logo="https://image.pbs.org/stations/wskg-color-logo-z8BzR6w.png" group-title="PBS", WSKG Binghamton
+#EXTINF:-1 tvg-id="WSKG.us" tvg-logo="https://image.pbs.org/stations/wskg-color-logo-z8BzR6w.png" group-title="PBS", WSKG Binghamton
 https://wskgdt.lls.cdn.pbs.org/wskgdt/2d4742f8-8053-4ea5-8aab-1494fd1822c5/primary.m3u8
-#EXTINF:-1 tvg-id="WSRE" tvg-logo="https://image.pbs.org/stations/wsre-color-logo-dDf0Kci.png" group-title="PBS", WSRE Pensacola
+#EXTINF:-1 tvg-id="WSRE.us" tvg-logo="https://image.pbs.org/stations/wsre-color-logo-dDf0Kci.png" group-title="PBS", WSRE Pensacola
 https://wsredt.lls.cdn.pbs.org/wsredt/fc47f495-57b9-4aea-bb6b-d2ce52b74ea1/primary.m3u8
-#EXTINF:-1 tvg-id="WTTW" tvg-logo="https://image.pbs.org/stations/wttw-color-logo-7wApMDD.png" group-title="PBS", WTTW Chicago
+#EXTINF:-1 tvg-id="WTTW.us" tvg-logo="https://image.pbs.org/stations/wttw-color-logo-7wApMDD.png" group-title="PBS", WTTW Chicago
 https://wttwdt.lls.cdn.pbs.org/wttwdt/8030a253-4b34-463e-82e2-ec0726e24e58/primary.m3u8
-#EXTINF:-1 tvg-id="WUCF" tvg-logo="https://image.pbs.org/stations/wucf-color-logo-iOMRU9F.png" group-title="PBS", WUCF Orlando
+#EXTINF:-1 tvg-id="WUCF.us" tvg-logo="https://image.pbs.org/stations/wucf-color-logo-iOMRU9F.png" group-title="PBS", WUCF Orlando
 https://wucfdt.lls.cdn.pbs.org/wucfdt/70dc9cfa-54dd-47f1-8039-e518544fd496/primary.m3u8
-#EXTINF:-1 tvg-id="WUNC" tvg-logo="https://image.pbs.org/stations/wunc-color-logo-DKmT3AM.png" group-title="PBS", WUNC Raleigh
+#EXTINF:-1 tvg-id="WUNC.us" tvg-logo="https://image.pbs.org/stations/wunc-color-logo-DKmT3AM.png" group-title="PBS", WUNC Raleigh
 plugin://slyguy.pbs.live/?_=play&_play=1&callsign=WUNC&_l=.pvr
-#EXTINF:-1 tvg-id="WVIA" tvg-logo="https://image.pbs.org/stations/wvia-color-logo-QeIzGKg.png" group-title="PBS", WVIA Scranton
+#EXTINF:-1 tvg-id="WVIA.us" tvg-logo="https://image.pbs.org/stations/wvia-color-logo-QeIzGKg.png" group-title="PBS", WVIA Scranton
 https://wviadt.lls.cdn.pbs.org/wviadt/951e97d7-7c2c-45c0-abff-261c852fcb7d/primary.m3u8
-#EXTINF:-1 tvg-id="WXEL" tvg-logo="https://image.pbs.org/stations/wxel-color-logo-68qp57x.png" group-title="PBS", WXEL South Florida PBS
+#EXTINF:-1 tvg-id="WXEL.us" tvg-logo="https://image.pbs.org/stations/wxel-color-logo-68qp57x.png" group-title="PBS", WXEL South Florida PBS
 https://wxeldt.lls.cdn.pbs.org/wxeldt/6f553836-7e24-445a-8c3c-cc418aaba9dc/primary.m3u8
-#EXTINF:-1 tvg-id="WXXI" tvg-logo="https://image.pbs.org/stations/wxxi-color-logo-ak63HTq.png" group-title="PBS", WXXI Public Broadcasting
+#EXTINF:-1 tvg-id="WXXI.us" tvg-logo="https://image.pbs.org/stations/wxxi-color-logo-ak63HTq.png" group-title="PBS", WXXI Public Broadcasting
 https://wxxidt.lls.cdn.pbs.org/wxxidt/d518ca7e-a094-4362-832b-ae1d426d3729/primary.m3u8
-#EXTINF:-1 tvg-id="WYES" tvg-logo="https://image.pbs.org/stations/wyes-color-logo-Y4h6hNM.png" group-title="PBS", WYES-TV/New Orleans
+#EXTINF:-1 tvg-id="WYES.us" tvg-logo="https://image.pbs.org/stations/wyes-color-logo-Y4h6hNM.png" group-title="PBS", WYES-TV/New Orleans
 https://wyesdt.lls.cdn.pbs.org/wyesdt/6c0e9c73-3ad2-45c6-9741-1aa36878006a/primary.m3u8
-#EXTINF:-1 tvg-id="KCWC" tvg-logo="https://image.pbs.org/stations/kcwc-color-logo-3LXmFXZ.png" group-title="PBS", Wyoming PBS
+#EXTINF:-1 tvg-id="KCWC.us" tvg-logo="https://image.pbs.org/stations/kcwc-color-logo-3LXmFXZ.png" group-title="PBS", KCWC Wyoming PBS
 https://kcwcdt.lls.cdn.pbs.org/kcwcdt/84b31db3-3cd6-442f-b87b-1ec11d54259d/primary.m3u8
 
-#EXTINF:-1 tvg-id="I265.10035.schedulesdirect.org" tvg-name="A&E East" tvg-logo="http://www.hdicon.com/wp-content/uploads/2013/04/AE_2008.png" group-title="Cable", A&E
+#EXTINF:-1 tvg-id="AEEast.us" tvg-name="A&E East" tvg-logo="http://www.hdicon.com/wp-content/uploads/2013/04/AE_2008.png" group-title="Cable", A&E
 plugin://plugin.video.tvone/play/22/play.pvr
-#EXTINF:-1 tvg-id="6000a5a9e767980007b497ca" tvg-name="A&E 360" tvg-logo="https://images.pluto.tv/channels/6000a5a9e767980007b497ca/colorLogoPNG.png" group-title="Cable", A&E Crime 360
+#EXTINF:-1 tvg-id="AECrime360.us" tvg-name="A&E 360" tvg-logo="https://images.pluto.tv/channels/6000a5a9e767980007b497ca/colorLogoPNG.png" group-title="Cable", A&E Crime 360
 https://aenetworks-crime360-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="I560.75031.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_for_ABC_Spark.svg/800px-Logo_for_ABC_Spark.svg.png" group-title="Cable", ABC Spark
-plugin://plugin.video.tvone/play/491/play.pvr
-#EXTINF:-1 tvg-id="tv.101002210221" tvg-name="ABC TV" tvg-logo="https://static.epg.best/au/ABC.au.png" group-title="Cable", ABC AU
-https://c.mjh.nz/101002510251/
-#EXTINF:-1 tvg-id="tv.101002210222" tvg-name="" tvg-logo="https://i.mjh.nz/.images/tv.101002210222.png" group-title="Cable", ABC COMEDY AU
-https://c.mjh.nz/101002210222/
-#EXTINF:-1 tvg-id="tv.101002210224" tvg-name="ABC ME" tvg-logo="https://i.mjh.nz/.images/tv.101002210224.png" group-title="Cable", ABC Me
+#EXTINF:-1 tvg-id="AEBestof.us" tvg-name="A&E (Best of)" tvg-logo="https://i.imgur.com/zl7Gzwm.png" group-title="Cable", A&E Best of
+https://bk7l2w4nlx53-hls-live.5centscdn.com/AETV/514c04b31b5f01cf00dd4965e197fdda.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCME.au" tvg-name="ABC ME" tvg-logo="https://i.mjh.nz/.images/tv.101002210224.png" group-title="Cable", ABC Me
 plugin://plugin.video.au.freeview/?_=play&slug=tv.101002210224&_l=.pvr
-#EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", AHC
+#EXTINF:-1 tvg-id="ABCSpark.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_for_ABC_Spark.svg/800px-Logo_for_ABC_Spark.svg.png" group-title="Cable", ABC Spark
+plugin://plugin.video.tvone/play/491/play.pvr
+#EXTINF:-1 tvg-id="AmericanHeroesChannelUSA.us" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", AHC
 plugin://plugin.video.temptv/?action=sports24Play&url=http%3a%2f%2fsports24.club%2ftv%2fv%3fid%3dahc
-#EXTINF:-1 tvg-id="I826.21258.schedulesdirect.org" tvg-name="Alibi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Alibi.svg/150px-Alibi.svg.png" group-title="Cable", Alibi
+#EXTINF:-1 tvg-id="AlibiIreland.uk" tvg-name="Alibi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Alibi.svg/150px-Alibi.svg.png" group-title="Cable", Alibi
 plugin://plugin.video.tvone/play/27/play.pvr
-#EXTINF:-1 tvg-id="I254.10021.schedulesdirect.org" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Cable;Favorite", AMC
+#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Cable;Favorite", AMC
 plugin://plugin.video.tvone/play/28/play.pvr
 #EXTINF:-1 tvg-id="5e8254118601b80007b4b7ae" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Cable", AMC Stories
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e8254118601b80007b4b7ae&_l=.pvr
-#EXTINF:-1 tvg-id="KJEOLD3.us" tvg-name="AMG TV" tvg-logo="https://amgtv.tv/wp-content/uploads/2019/11/new_amgtv_PNG.png" group-title="Cable", AMG
+#EXTINF:-1 tvg-id="AMGTV.us" tvg-name="AMG TV" tvg-logo="https://amgtv.tv/wp-content/uploads/2019/11/new_amgtv_PNG.png" group-title="Cable", AMG
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="I282.57394.schedulesdirect.org" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
 plugin://plugin.video.tvone/play/31/play.pvr
@@ -332,9 +312,11 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5ca670f6593a5d78f0e85aed&_l=.pvr
 plugin://plugin.video.tvone11/play/5/173/play.pvr
 #EXTINF:-1 tvg-id="britcom-11-06-2019"  tvg-name="BritCom" tvg-logo="https://i.mjh.nz/Stirr/.images/britcom-11-06-2019.png" group-title="Cable", BritCom
 plugin://slyguy.stirr.provider/?_=play&id=britcom-11-06-2019&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-05-18-2020-05-18-2020" tvg-name="Buzzr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Buzzr_%28TV_Network%29_Logo.png" group-title="Cable", Buzzr
+#EXTINF:-1 tvg-id="Bounce.us" tvg-name="Bounce" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/teleup/content/common/logos/channel/logos/dyotpl.png"group-title="Cable", Bounce
+https://bozztv.com/teleyupp/teleup-bounce/playlist.m3u8
+#EXTINF:-1 tvg-id="Buzzr.us" tvg-name="Buzzr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Buzzr_%28TV_Network%29_Logo.png" group-title="Cable", Buzzr
 https://buzzrota-web.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="I374.21855.schedulesdirect.org" tvg-name="ByuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/BYUtv_logo.svg/200px-BYUtv_logo.svg.png" group-title="Cable", ByuTV
+#EXTINF:-1 tvg-id="byuTV.us" tvg-name="ByuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/BYUtv_logo.svg/200px-BYUtv_logo.svg.png" group-title="Cable", ByuTV
 http://a.jsrdn.com/broadcast/d5b46/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="CBC.ca" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC
 plugin://plugin.video.tvone/play/613/play.pvr
@@ -360,7 +342,7 @@ plugin://plugin.video.tvone/play/642/play.pvr
 https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e.m3u8
 #EXTINF:-1 tvg-id="I218.10112.schedulesdirect.org" tvg-name="CHCH Channel" tvg-logo="http://www.channelzerodigital.com/images/CHCH.png" group-title="Cable", CHching!
 plugin://plugin.video.tvone11/play/17/1085/play.pvr
-#EXTINF:-1 tvg-id="I253.10136.schedulesdirect.org" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City
+#EXTINF:-1 tvg-id="CityTVHD.ca" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City
 plugin://plugin.video.tvone11/play/17/1048/play.pvr
 #EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/cmt/%27%7D%7D
@@ -627,7 +609,7 @@ plugin://script.module.eviltentv/play/474/play.pvr
 #EXTINF:-1 tvg-id="KILM4.us" tvg-name="Z Living" tvg-logo="https://www.dishpromotions.com/wp-content/uploads/ZLVNG-logo.png" group-title="Cable", Z Living
 https://y5w8j4a9.ssl.hwcdn.net/zlivingusa_r/index.m3u8
 
-#EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", Rwal ARmerica's Voice
+#EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", America's Voice
 https://content-ausw1.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 #EXTINF:-1 tvg-id="I355.10139.schedulesdirect.org" tvg-name="CNBC US" tvg-logo="http://www.cnbc.com/live-tv/sites/nbcutve-cnbc/files/logos/CNBC-logo-header-%402x%281%29.png" group-title="News", CNBC
 plugin://plugin.video.tvone/play/79/play.pvr
@@ -647,17 +629,21 @@ https://cdn.klowdtv.net/803B48A/oan_aws_ms/OAN.m3u8
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e7cf6c7b156d500078c5f44&_l=.pvr
 #EXTINF:-1 tvg-id="tv.101002210220" tvg-name="ABC NEWS" tvg-logo="https://mediamythalert.files.wordpress.com/2012/01/abc-news-logo.png" group-title="News", ABC NEWS
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:-1 tvg-id="5e46fba0c43b0d00096e5ac1" tvg-name="Blaze Live" tvg-logo="https://images.pluto.tv/channels/5e46fba0c43b0d00096e5ac1/colorLogoPNG.png" group-title="News", Blaze
+#EXTINF:-1 tvg-id="BlazeLive.us" tvg-name="Blaze Live" tvg-logo="https://images.pluto.tv/channels/5e46fba0c43b0d00096e5ac1/colorLogoPNG.png" group-title="News", Blaze
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e46fba0c43b0d00096e5ac1&_l=.pvr
 #EXTINF:-1 tvg-id="I503.19037.schedulesdirect.org" tvg-name="BBC News" tvg-logo="http://static.epg.best/gb/BBCNews.uk.png" group-title="News", BBC News
 plugin://plugin.video.tvone/play/47/play.pvr
 #EXTINF:-1 tvg-id="I346.89690.schedulesdirect.org" tvg-name="BBC World News" tvg-logo="http://www.userlogos.org/files/logos/bluewolverine07/bbc%20news%20logo.png" group-title="News", BBC World News
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#EXTINF:-1 tvg-id="I353.71799.schedulesdirect.org" tvg-name="Bloomberg TV" tvg-logo="https://images.indiegogo.com/file_attachments/567036/files/20140508163818-BLOOMBERG-tv-LOGO.png" group-title="News", Bloomberg US
+#EXTINF:-1 tvg-id="BloombergTVUS.us" tvg-name="Bloomberg TV" tvg-logo="https://images.indiegogo.com/file_attachments/567036/files/20140508163818-BLOOMBERG-tv-LOGO.png" group-title="News", Bloomberg US
 https://liveproduseast.global.ssl.fastly.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8
 #EXTINF:-1 tvg-id="BloombergTVUK.us" tvg-name="Bloomberg TV UK" tvg-logo="https://images.indiegogo.com/file_attachments/567036/files/20140508163818-BLOOMBERG-tv-LOGO.png" group-title="News", Bloomberg UK
 http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8
-#EXTINF:-1 tvg-id="I502.10094.schedulesdirect.org" tvg-name="CBC NEWS" tvg-logo="http://uploads.webflow.com/53e12d5562b384c7018347fa/5409e6c36774599c3d7eee2a_CBC_News_Logo.png" group-title="News", CBC News
+#EXTINF:-1 tvg-id="BloombergTVUSLiveEvent.us" tvg-name="Bloomberg TV US Live Event" tvg-logo="https://images.indiegogo.com/file_attachments/567036/files/20140508163818-BLOOMBERG-tv-LOGO.png" group-title="News", Bloomberg US Live Event
+https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
+#EXTINF:-1 tvg-id="BloombergTVUSPoliticsLiveEvent.us" tvg-name="Bloomberg TV US Politics Live Event" tvg-logo="https://i.imgur.com/4UIqtXt.jpg" group-title="Business",Bloomberg Politics Live Event
+https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_politics.m3u8
+#EXTINF:-1 tvg-id="CBCNews.ca" tvg-name="CBC NEWS" tvg-logo="http://uploads.webflow.com/53e12d5562b384c7018347fa/5409e6c36774599c3d7eee2a_CBC_News_Logo.png" group-title="News", CBC News
 https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
 #EXTINF:-1 tvg-id="5dc9b8223687ff000936ed79" tvg-name="CBSN New York 2" tvg-logo="https://i.imgur.com/MH7kNnl.png" group-title="News", CBSN
 https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -698,7 +684,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5df97894467dfa00091c873c&_l=.pvr
 https://dai.google.com/linear/hls/event/0PopB0AoSiClAGrHVHBTlw/master.m3u8
 #EXTINF:-1 tvg-id="I507.80647.schedulesdirect.org" tvg-name="NHK World" tvg-logo="http://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/398_300.png" group-title="News", NHK World
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
-#EXTINF:-1 tvg-id="RTENews.ie" tvg-name="RTÃ‰ News" tvg-logo="https://edware.ie/wp-content/uploads/2018/07/RTE-NEWS-Logo.png" group-title="News" group-title="News", RTE News
+#EXTINF:-1 tvg-id="RTENews.ie" tvg-name="RTÉ News" tvg-logo="https://edware.ie/wp-content/uploads/2018/07/RTE-NEWS-Logo.png" group-title="News" group-title="News", RTE News
 https://live.rte.ie/live/a/channel3/news.isml/news.m3u8
 #EXTINF:-1 tvg-id="I724.58333.schedulesdirect.org" tvg-name="RT US" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News", RT
 https://rt-usa.secure.footprint.net/1105.m3u8
@@ -712,13 +698,19 @@ http://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
 http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable", Weather Channel
 https://weather-lh.akamaihd.net/i/twc_1@92006/index_1200_av-p.m3u8?sd=10&rebase=on
-#EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
+#EXTINF:-1 tvg-id="AccuWeather.us" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
 
+#EXTINF:-1 tvg-id="AdventureSportsNetwork.us" tvg-name="Adventure Sports Network" tvg-logo="https://cdn.shopify.com/s/files/1/2685/8396/articles/adventure-sport-network-blog-post_2048x.jpg" group-title="Sports", Adventure Sports Network
+https://gizmeon.s.llnwi.net/channellivev3/live/master.m3u8?channel=275
 #EXTINF:-1 tvg-id="I392.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
 plugin://script.module.eviltentv/play/601/play.pvr
 #EXTINF:-1 tvg-id="5df975e2b27cf5000921c102" tvg-name="beIN SPORTS XTRA" tvg-logo="https://images.pluto.tv/channels/5df975e2b27cf5000921c102/colorLogoPNG.png" group-title="Sports", beIN XTRA
 plugin://slyguy.pluto.tv.provider/?_=play&id=5df975e2b27cf5000921c102&_l=.pvr
+#EXTINF:-1 tvg-id="BekSportsEast.us" tvg-name="Bek Sports East" tvg-logo="https://pbs.twimg.com/media/DfLqnf4VMAA0m27.png" group-title="Sports", Bek Sports East
+https://wowzaprod188-i.akamaihd.net/hls/live/728897/54d0bcd5/playlist.m3u8
+#EXTINF:-1 tvg-id="BekSportsWest.us" tvg-name="Bek Sports West" tvg-logo="https://pbs.twimg.com/media/DfLqnf4VMAA0m27.png" group-title="Sports", Bek Sports West
+https://wowzaprod188-i.akamaihd.net/hls/live/728897/89b077e6/playlist.m3u8
 #EXTINF:-1 tvg-id="5967f5cf73ac1fec2fc07148" tvg-name="Big Sky Conference Live" tvg-logo="https://images.pluto.tv/channels/59641d9173ac1fec2fc01f17/colorLogoPNG.png" group-title="Sports", Big Sky
 plugin://slyguy.pluto.tv.provider/?_=play&id=5967f5cf73ac1fec2fc07148&_l=.pvr
 #EXTINF:-1 tvg-id="I610.56783.schedulesdirect.org" tvg-name="BTN" tvg-logo="https://vignette3.wikia.nocookie.net/logopedia/images/9/95/Btn-440.png/revision/latest?cb=20151217190620" group-title="Sports", Big Ten
@@ -751,7 +743,7 @@ plugin://plugin.video.tvone/play/779/play.pvr
 https://gma2.blab.email/fs2.m3u8
 #EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports", ESPN 2
 https://gma2.blab.email/espn2.m3u8
-#EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC
+#EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC
 https://gma2.blab.email/acc.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-10-28-2020-232939597-10-28-2020.png" group-title="Sports", ESPN ACCDN
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
@@ -989,7 +981,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;url=http://212.102.60.1
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://culinarygourmet.files.wordpress.com/2010/01/empirecitylogo_thumb.png" group-title="Horse Racing", Yonkers Raceway
 https://api.new.livestream.com/accounts/22933138/events/8666133/live.m3u8
 
-#EXTINF:-1 tvg-id="I519.59948.schedulesdirect.org" tvg-name="ActionMax East" tvg-logo="https://wtcks.com/images/channels/logos/actionmax.png" group-title="Movies", ActionMax
+#EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-name="ActionMax East" tvg-logo="https://wtcks.com/images/channels/logos/actionmax.png" group-title="Movies", ActionMax
 plugin://plugin.video.tvone/play/468/play.pvr
 #EXTINF:-1 tvg-id="I515.34933.schedulesdirect.org" tvg-name="Cinemax East HD" tvg-logo="http://4.bp.blogspot.com/-t6yR937E3Ko/TjjMG-JJ7PI/AAAAAAAAB24/BScsqYy3a7s/s500/Cinemax+logo+2011.png" group-title="Movies", Cinemax East
 plugin://plugin.video.tvone111/play/1279/play.pvr
@@ -1136,7 +1128,7 @@ https://gustotv-samsung-au.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="tv.320203000304" tvg-logo="https://i.mjh.nz/.images/tv.320203000304.png" group-title="Food", SBS Food
 plugin://plugin.video.au.freeview/?_=play&slug=tv.320203000304&_l=.pvr
 
-#EXTINF:-1 tvg-id="I298.21883.schedulesdirect.org" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids", Boomerang
+#EXTINF:-1 tvg-id="Boomerang.us" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids", Boomerang
 plugin://plugin.video.tvone/play/635/play.pvr
 #EXTINF:-1 tvg-id="I296.12131.schedulesdirect.org" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network
 plugin://plugin.video.tvone/play/63/play.pvr
@@ -1177,6 +1169,8 @@ https://lsqvc1uscln-lh.akamaihd.net/i/lsqvc1uscln_01@809410/master.m3u8
 https://lsqvc2us-lh.akamaihd.net/i/lsqvc2us_01@809440/master.m3u8
 #EXTINF:-1 tvg-id="QVC3.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC 3
 https://lsqvc3us-lh.akamaihd.net/i/lsqvc3us_01@809459/master.m3u8
+#EXTINF:-1 tvg-id="BeautyIQ.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC Beauty IQ
+https://lsqvc4us-lh.akamaihd.net/i/lsqvc4us_01@802711/master.m3u8
 #EXTINF:-1 tvg-id="QVCUK.us" tvg-name="" tvg-logo="https://i.imgur.com/A6CDOD3.jpg" group-title="Shopping", QVC UK
 http://live.qvcuk.simplestreamcdn.com/live/qvcuk_main_clean/bitrate1.isml/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/A6CDOD3.jpg" group-title="Shopping", QVC +1 UK
@@ -1198,18 +1192,22 @@ https://c.mjh.nz/101406020626/
 
 #EXTINF:-1 tvg-id="5f4d83e0a382c00007bc02e7" tvg-name="90210" tvg-logo="https://images.pluto.tv/channels/5f4d83e0a382c00007bc02e7/colorLogoPNG.png" group-title="24/7", 90210
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f4d83e0a382c00007bc02e7&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-06-23-2020-06-23-2020" tvg-name="AFV" tvg-logo="https://i.imgur.com/FLKdEzZ.png" group-title="24/7", America's Funniest Videos
+#EXTINF:-1 tvg-id="AdultSwim.us" tvg-name="Adult Swim" tvg-logo="https://i.imgur.com/ixywxhs.jpg" group-title="24/7", Adult Swim
+https://adultswimtv.warnermediacdn.com/hls/live/2007031/livestream/master.m3u8
+#EXTINF:-1 tvg-id="AFVSTIRR.us" tvg-name="AFV" tvg-logo="https://i.imgur.com/FLKdEzZ.png" group-title="24/7", America's Funniest Videos
 https://linear-12.frequency.stream/dist/roku/12/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium
 plugin://plugin.video.youtube/play/?video_id=P7EB3Zxqj7g
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium 2
 plugin://plugin.video.youtube/play/?video_id=9X68mdwJJZE
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Myrtle Beach
+#EXTINF:-1 tvg-id="BeachTVPawleysIsland.us" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Myrtle Beach
 http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Panama City
+#EXTINF:-1 tvg-id="BeachTVPanamaCity.us" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", BeachTV- Panama City
 http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/fEjPBk3.png" group-title="24/7", BeachTV- Keys
+#EXTINF:-1 tvg-id="BeachTVKeyWestFloridaKeys.us" tvg-name="" tvg-logo="https://i.imgur.com/fEjPBk3.png" group-title="24/7", BeachTV- Keys
 http://media4.tripsmarter.com:1935/LiveTV/KTVHD/chunklist_w363623166.m3u8
+#EXTINF:-1 tvg-id="BeverlyHillbilliesSTIRR.us" tvg-name="" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/2855ccff-6344-45e2-a8d0-54982f399f5c-small3x1_stirr_0120_epg_TheBeverlyHillbillies_1920x1080.png?cb=eccbc87e4b5ce2fe28308fd9f2a7baf3" group-title="Classic", Beverly Hillbillies
+https://dai.google.com/linear/hls/event/TEeUv9DbStyK8DyFmG3Cfw/master.m3u8
 #EXTINF:-1 tvg-id="stirr-biographies-10-10-2019" tvg-name="STIRR Biographies" tvg-logo="https://i.mjh.nz/Stirr/.images/stirr-biographies-10-10-2019.png" group-title="24/7", Biographies
 plugin://slyguy.stirr.provider/?_=play&id=stirr-biographies-10-10-2019&_l=.pvr
 #EXTINF:-1 tvg-id="5ef396d1be50a3000722808b" tvg-name="The Carol Burnett Show" tvg-logo="https://images.pluto.tv/channels/5ef396d1be50a3000722808b/colorLogoPNG.png" group-title="24/7", Carol Burnett Show
@@ -1224,18 +1222,14 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/cruise_tv/hls_video/inde
 plugin://slyguy.pluto.tv.provider/?_=play&id=5b85a7582921777994caea63&_l=.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-05-20-2019-05-20-2019" tvg-name="Docurama" tvg-logo="https://www.mayday.is/img/showcase_docurama/dcr-branding-full.png" group-title="24/7", Docurama
 https://docurama.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="DogTV.us" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/ce03bcd0975942929a2cef7daced1a01474dd7f441b691ceaa2a9dba454b4cdb.png" group-title="24/7", Dog TV 1
+#EXTINF:-1 tvg-id="AKCTV.us" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/ce03bcd0975942929a2cef7daced1a01474dd7f441b691ceaa2a9dba454b4cdb.png" group-title="24/7", Dog TV 1
 https://video.blivenyc.com/broadcast/prod/2061/22/file-3192k.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/ce03bcd0975942929a2cef7daced1a01474dd7f441b691ceaa2a9dba454b4cdb.png" group-title="24/7", Dog TV 2
+#EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/ce03bcd0975942929a2cef7daced1a01474dd7f441b691ceaa2a9dba454b4cdb.png" group-title="24/7", Dog TV 2
 https://video.blivenyc.com/broadcast/prod/2061/61/file-4692k.m3u8
-#EXTINF:-1 tvg-id="599375885ceaac3cabccbed7" tvg-name="Cats 24/7" tvg-logo="https://images.pluto.tv/channels/599375885ceaac3cabccbed7/colorLogoPNG.png" group-title="24/7", Cats 24/7
-plugin://slyguy.pluto.tv.provider/?_=play&id=599375885ceaac3cabccbed7&_l=.pvr
-#EXTINF:-1 tvg-id="5b329e0a7b9d8872aeb49ceb" tvg-name="Dogs 24/7" tvg-logo="https://images.pluto.tv/channels/5b329e0a7b9d8872aeb49ceb/colorLogoPNG.png" group-title="24/7", Dogs 24/7
-plugin://slyguy.pluto.tv.provider/?_=play&id=5b329e0a7b9d8872aeb49ceb&_l=.pvr
+#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-name="AKC TV - Puppies" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="24/7", Dog TV 3
+https://video.blivenyc.com/broadcast/prod/2061/29/file-4692k.m3u8
 #EXTINF:-1 tvg-id="5bb1ad55268cae539bcedb08" tvg-name="The Pet Collective" tvg-logo="https://images.pluto.tv/channels/5bb1ad55268cae539bcedb08/colorLogoPNG.png" group-title="24/7", The Pet Collective
 plugin://slyguy.pluto.tv.provider/?_=play&id=5bb1ad55268cae539bcedb08&_l=.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.roku.com/developer_channels/prod/ce03bcd0975942929a2cef7daced1a01474dd7f441b691ceaa2a9dba454b4cdb.png" group-title="24/7", Puppy TV
-https://video.blivenyc.com/broadcast/prod/2061/29/file-4692k.m3u8
 #EXTINF:-1 tvg-id="fail-army-wurl-external-07-28-2018" tvg-name="FailArmy" tvg-logo="https://i.imgur.com/RIXSg4L.png" group-title="24/7", Fail Army
 plugin://slyguy.stirr.provider/?_=play&id=fail-army-wurl-external-07-28-2018&_l=.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.signature-fires.co.uk/img/fireplace-surrounds/The-Kent-Bolection.png" group-title="24/7", Fireplace
@@ -1461,7 +1455,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5fd7bca3e0a4ee0007a38e8c&_l=.pvr
 plugin://slyguy.pluto.tv.provider/?_=play&id=5da0d75e84830900098a1ea0&_l=.pvr
 #EXTINF:-1 tvg-id="5d93b635b43dd1a399b39eee" tvg-name="Vevo Pop" tvg-logo="https://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="Music Videos", Vevo Pop
 plugin://slyguy.pluto.tv.provider/?_=play&id=5d93b635b43dd1a399b39eee&_l=.pvr
-#EXTINF:-1 tvg-id="5f32f397795b750007706448" tvg-name="Vevo ReggaetÃ³n & Trap" tvg-logo="https://images.pluto.tv/channels/5f32f397795b750007706448/colorLogoPNG.png" group-title="Music Videos", Vevo ReggaetÃ³n
+#EXTINF:-1 tvg-id="5f32f397795b750007706448" tvg-name="Vevo Reggaetón & Trap" tvg-logo="https://images.pluto.tv/channels/5f32f397795b750007706448/colorLogoPNG.png" group-title="Music Videos", Vevo Reggaetón
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f32f397795b750007706448&_l=.pvr
 #EXTINF:-1 tvg-id="5da0d83f66c9700009b96d0e" tvg-name="Vevo R&B" tvg-logo="https://images.pluto.tv/channels/5da0d83f66c9700009b96d0e/colorLogoPNG.png" group-title="Music Videos", Vevo R&B
 plugin://slyguy.pluto.tv.provider/?_=play&id=5da0d83f66c9700009b96d0e&_l=.pvr
@@ -1581,7 +1575,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://po
 http://187.188.147.165:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="PrivateTV.us" tvg-name="" tvg-logo="http://img1.wikia.nocookie.net/__cb20150315153455/logopedia/images/9/98/PRIVATE_TV.png" group-title="Adult TV", Private
 http://87.207.71.147:4000/play/a03b/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_Red_TV_PerÃº.png" group-title="Adult TV", RedTraffic [COLOR magenta] (10 items )[/COLOR]
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_Red_TV_Perú.png" group-title="Adult TV", RedTraffic [COLOR magenta] (10 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=RedTraffic&playlist=%5Bu%27http%3A%2F%2Flive.redtraffic.xyz%2Fblowjob.m3u8%24%24lsname%3Dblowjob%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Fbigass.m3u8%24%24lsname%3Dbigass%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Fhardcore.m3u8%24%24lsname%3Dhardcore%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Fpornstar.m3u8%24%24lsname%3Dpornstar%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Flesbian.m3u8%24%24lsname%3Dlesbian%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Fbigtits.m3u8%24%24lsname%3Dbigtits%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Ffetish.m3u8%24%24lsname%3Dfetish%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Fmilf.m3u8%24%24lsname%3Dmilf%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Frussian.m3u8%24%24lsname%3Drussian%27%7C%7C+u%27http%3A%2F%2Flive.redtraffic.xyz%2Fteen.m3u8%24%24lsname%3Dteen%27%5D
 #EXTINF:-1 tvg-id="Sextreme.br" tvg-name="Sextreme" tvg-logo="https://www.fulltv.com.ar/images/guia/sextreme_1539979743_0.jpg" group-title="Adult TV", Sextreme
 http://187.188.147.165:8000/play/a012/index.m3u8
