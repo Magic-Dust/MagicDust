@@ -17,18 +17,35 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.magicdust" name="[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard" version="21.03.28" provider-name="Kodi Fairy">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="startup.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard</summary>
+<addon id="plugin.program.magicdust" name="[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard" version="21.06.17" provider-name="Kodi Fairy">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard</summary>
 		<description lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard for maintenance tasks and automated build updates. (Because Teagan and Crispo have lady parts!)</description>
-		<platform>all</platform>
-	</extension>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://github.com/Magic-Dust/MagicDust/tree/master/zips/repository.MagicDust/</source>
+        <news>
+1.4.9
+ - Fix Error Related to Log
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
 </addon>
 </addons>
