@@ -34,13 +34,13 @@
     
     <extension point="xbmc.addon.metadata">
         <summary lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard</summary>
-		<description lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard for maintenance tasks and automated build updates. (Because Teagan and Crispo have lady parts!)</description>
+        <description lang="en">[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard for maintenance tasks and automated build updates. (Because Teagan and Crispo have lady parts!)</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://github.com/Magic-Dust/MagicDust/tree/master/zips/repository.MagicDust/</source>
+        <source>https://magic-dust.github.io/MagicDust/zips/plugin.program.magicdust/</source>
         <news>
-1.4.9
- - Fix Error Related to Log
+21.06.17
+ - KODI 19 ONLY
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -48,4 +48,5 @@
         </assets>
     </extension>
 </addon>
+
 </addons>
