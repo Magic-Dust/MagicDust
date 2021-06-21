@@ -4,7 +4,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-cbs-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", FOX
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
+http://164.68.124.111/fox.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-nbc-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/cw.png" group-title="Broadcast", CW
@@ -536,7 +536,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5df975e2b27cf5000921c102&_l=.pvr
 #EXTINF:-1 tvg-id="5967f5cf73ac1fec2fc07148" tvg-name="Big Sky Conference Live" tvg-logo="https://images.pluto.tv/channels/59641d9173ac1fec2fc01f17/colorLogoPNG.png" group-title="Sports", Big Sky
 plugin://slyguy.pluto.tv.provider/?_=play&id=5967f5cf73ac1fec2fc07148&_l=.pvr
 #EXTINF:-1 tvg-id="I610.56783.schedulesdirect.org" tvg-name="BTN" tvg-logo="https://vignette3.wikia.nocookie.net/logopedia/images/9/95/Btn-440.png/revision/latest?cb=20151217190620" group-title="Sports", Big Ten
-https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314148008
+http://164.68.124.111/btn.m3u8
 #EXTINF:-1 tvg-id="I427.73823.schedulesdirect.org" tvg-name="BOXnation" tvg-logo="https://watch.boxnation.com/assets/boxnation/images/logo_box_nation.png" group-title="Sports", BOXnation
 plugin://plugin.video.tvone11/play/8/711/play.pvr
 #EXTINF:-1 tvg-id="I867.82450.schedulesdirect.org" tvg-name="BT Sport 1" tvg-logo="http://static.epg.best/gb/BTSport1.uk.png" group-title="Sports", BT Sport 1
@@ -560,21 +560,21 @@ plugin://plugin.video.tvone/play/661/play.pvr
 #EXTINF:-1 tvg-id="ElevenSportsUSA.uk" tvg-name="Eleven Sports" tvg-logo="https://hdtvpolska.com/wp-content/uploads/2016/09/Eleven-Sports-Network.png" group-title="Sports", Eleven Sports US
 plugin://plugin.video.tvone/play/779/play.pvr
 #EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports", ESPN
-plugin://plugin.video.smr_link_tester/?link=https%3A%2F%2Fm3u-editor.com%2Fserve%2Fa9490c60-ca60-11eb-9757-a16ca088906c%2F314147972&mode=play_link
+https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147972
 #EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports", ESPN 2
-plugin://plugin.video.smr_link_tester/?link=https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147973&mode=play_link
+https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147973
 #EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC
-plugin://plugin.video.smr_link_tester/?mode=play_link&link=https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314148002
+http://164.68.124.111/acc.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-10-28-2020-232939597-10-28-2020.png" group-title="Sports", ESPN ACCDN
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
 #EXTINF:-1 tvg-id="I677.72861.schedulesdirect.org" tvg-name="Longhorn Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Longhorn_Network_logo.svg/1024px-Longhorn_Network_logo.svg.png" group-title="Sports", ESPN Longhorn
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
 #EXTINF:-1 tvg-id="I207.16485.schedulesdirect.org" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports", ESPN News
-https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147976
+http://164.68.124.111/espnews.m3u8
 #EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="SEC Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/sec_network.png" group-title="Sports", ESPN SEC
-https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147980
+http://164.68.124.111/sec.m3u8
 #EXTINF:-1 tvg-id="I208.60696.schedulesdirect.org" tvg-name="ESPNU" tvg-logo="http://static.epg.best/us/ESPNU.us.png" group-title="Sports", ESPN U
-https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147975
+http://164.68.124.111/espnu.m3u8
 #EXTINF:-1 tvg-id="I864.18337.schedulesdirect.org" tvg-name="Eurosport 1" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20061.png" group-title="Sports", Eurosport
 plugin://plugin.video.tvone1112/play/107/play.pvr
 #EXTINF:-1 tvg-id="I865.27413.schedulesdirect.org" tvg-name="Eurosport 2" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20061.png" group-title="Sports", Eurosport 2
@@ -584,7 +584,7 @@ plugin://plugin.video.tvone1112/play/1074/play.pvr
 #EXTINF:-1 tvg-id="I388.81448.schedulesdirect.org" tvg-name="" tvg-logo="https://archive.org/download/FightNetwork/fight%20network.jpg" group-title="Sports", Fight Network
 https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147984
 #EXTINF:-1 tvg-id="I219.82541.schedulesdirect.org" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports", Fox Sports 1
-https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314148000
+http://164.68.124.111/fs1.m3u8
 #EXTINF:-1 tvg-id="I618.33178.schedulesdirect.org" tvg-name="Fox Sports 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs2.png" group-title="Sports", Fox Sports 2
 http://4.26.188.2:8081/udp/239.193.10.102:23902
 #EXTINF:-1 tvg-id="I608.26078.schedulesdirect.org" tvg-name="" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-fox-college-sports.png" group-title="Sports", College Central FOX
