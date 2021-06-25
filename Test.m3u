@@ -31,7 +31,7 @@ https://svc-lvanvato-cxtv-wftv.cmgvideo.com/wftv/2564k/index.m3u8
 #EXTINF:-1 tvg-id="WFORTV.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WFOR MIAMI CBS
 https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
 #EXTINF:-1 tvg-id="WSVN.us" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", WSVN MIAMI FOX
-https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8
+https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8+-
 #EXTINF:-1 tvg-id="WTVJ.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WTVJ MIAMI NBC
 plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DWTVJ+%28NBC%29+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2F4db1d24ace55499893fc611683c2a88%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
 #EXTINF:-1 tvg-id="WABCTV.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WABC NEWYORK ABC
@@ -50,8 +50,6 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-cbs-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="WRAZ.us" tvg-logo="http://shaw.ca/uploadedImages/Television/Channel_Listings/Full_Channel_Listings/LOGO_140x_foxHD.png" group-title="Broadcast", WRAZ RALEIGH FOX
 http://gma2.blab.email/fox.m3u8
-#EXTINF:-1 tvg-id="WRAL.us" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast", WRAL RALEIGH NBC
-http://media-hls-az1.wral.com/livehttporigin/_definst_/mp4:encoder25-high/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-logo-WRiXY6t.png" group-title="PBS", Alaska Public Media
 plugin://slyguy.pbs.live/?_=play&callsign=KAKM&_l=.pvr
@@ -521,6 +519,8 @@ http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 https://weather-lh.akamaihd.net/i/twc_1@92006/index_1200_av-p.m3u8?sd=10&rebase=on
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
+#EXTINF:-1 tvg-id="WRAL.us" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast;News", WRAL RALEIGH NBC
+http://media-hls-az1.wral.com/livehttporigin/_definst_/mp4:encoder25-high/chunklist.m3u8
 #EXTINF:-1 tvg-id="YahooFinanceSource1.us" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/YahooFinance_450x450.png?raw=true" group-title="News", Yahoo! Finance
 https://yahoo-plex.amagi.tv/playlist.m3u8
 
@@ -621,7 +621,7 @@ plugin://plugin.video.tvone1112/play/411/play.pvr
 #EXTINF:-1 tvg-id="I216.32281.schedulesdirect.org" tvg-name="NBA TV" tvg-logo="https://static.epg.best/us/NBATV.us.png" group-title="Sports", NBA
 plugin://plugin.video.tvone/play/159/play.pvr
 #EXTINF:-1 tvg-id="I220.15952.schedulesdirect.org" tvg-name="NBCSN" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/1/14/20170821060416!NBCSN_logo.png" group-title="Sports", NBCSN
-plugin://plugin.video.tvone11/play/8/768/play.pvr
+plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/nbcsn/%27%7D%7D
 #EXTINF:-1 tvg-id="I628.10996.schedulesdirect.org" tvg-name="New England Sports Network" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-nesn.png" group-title="Sports", NESN
 https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314148006
 #EXTINF:-1 tvg-id="I154.45399.schedulesdirect.org" tvg-name="NFL Network HD" tvg-logo="https://static.epg.best/us/NFLNetwork.us.png" group-title="Sports", NFL Network
