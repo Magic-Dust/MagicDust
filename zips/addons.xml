@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="repository.MagicDust" name="Magic Dust Repository" version="19.11.09" provider-name="Kodi-Fairy">
-	<extension point="xbmc.addon.repository" name="Magic Dust Repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/zips/addons.xml</info>
-                        <checksum>https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Magic Dust Repository</summary>
-		<description>Kodi Fairy</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon id="repository.MagicDust" name="Magic Dust Repository" version="21.06.26" provider-name="Kodi-Fairy">
+    <extension point="xbmc.addon.repository" name="Magic Dust Repository">
+        <dir>
+            <info compressed="false">https://magic-dust.github.io/MagicDust/zips/addons.xml</info>
+            <checksum>https://magic-dust.github.io/MagicDust/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://magic-dust.github.io/MagicDust/zips/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Magic Dust Repository</summary>
+        <description>Kodi Fairy</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+
 </addon>
 
 <addon id="plugin.program.magicdust" name="[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard" version="21.06.25" provider-name="Kodi Fairy">
@@ -39,8 +45,7 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://magic-dust.github.io/MagicDust/zips/plugin.program.magicdust/</source>
         <news>
-21.06.17
- - KODI 19 ONLY
+            21.06.17 - KODI 19 ONLY
         </news>
         <assets>
             <icon>icon.png</icon>
