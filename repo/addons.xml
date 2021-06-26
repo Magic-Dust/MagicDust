@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
     
+<?xml version="1.0" encoding="UTF-8"?>
+
 <addon id="repository.MagicDust" name="Magic Dust Repository" version="21.06.26" provider-name="Kodi-Fairy">
     <extension point="xbmc.addon.repository" name="Magic Dust Repository">
         <dir>
@@ -22,7 +24,7 @@
     </extension>
 
 </addon>
-
+    
 <addon id="plugin.program.magicdust" name="[B][COLOR dodgerblue]Magic Dust[/COLOR][/B] Wizard" version="21.06.26" provider-name="Kodi Fairy">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
