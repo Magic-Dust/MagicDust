@@ -1364,8 +1364,13 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://po
 http://87.207.71.147:4000/play/a03b/index.m3u8
 #EXTINF:-1 tvg-id="I498.16315.schedulesdirect.org" tvg-name="Xtsy-New Frontier" tvg-logo="https://d5ip5p2ldkpmf.cloudfront.net/cinema/MDTV/ppv-xtsy.jpg" group-title="Adult TV", Xtsy HD
 http://213.151.233.20:8000/dna-6233-tv-pc/hls/4004v105.m3u8
-#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:mimetype=video/mp2t
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #EXTINF:-1,group-title="Adult TV", HBOtest
 http://rv.flysat.live:80/307210013157/307210013157/81216
+#EXTINF:-1,group-title="Adult TV", HBOtest2
+plugin://plugin.video.smr_link_tester/?link=http://rv.flysat.live:80/307210013157/307210013157/81216
+#EXTINF:-1,group-title="Adult TV", HBOtest3
+plugin://plugin.video.streamlink-tester/?action=play&url=http://rv.flysat.live:80/307210013157/307210013157/81216
+#EXTINF:-1,group-title="Adult TV", HBOtest4
+plugin://script.video.F4mProxyr/?url=http://rv.flysat.live:80/307210013157/307210013157/81216&streamtype=TSDOWNLOADER
