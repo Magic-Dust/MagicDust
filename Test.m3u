@@ -1369,8 +1369,4 @@ http://213.151.233.20:8000/dna-6233-tv-pc/hls/4004v105.m3u8
 #EXTINF:-1,group-title="Adult TV", HBOtest
 http://rv.flysat.live:80/307210013157/307210013157/81216
 #EXTINF:-1,group-title="Adult TV", HBOtest2
-plugin://plugin.video.smr_link_tester/?link=http://rv.flysat.live:80/307210013157/307210013157/81216
-#EXTINF:-1,group-title="Adult TV", HBOtest3
-plugin://plugin.video.streamlink-tester/?action=play&url=http://rv.flysat.live:80/307210013157/307210013157/81216
-#EXTINF:-1,group-title="Adult TV", HBOtest4
-plugin://script.video.F4mProxyr/?url=http://rv.flysat.live:80/307210013157/307210013157/81216&streamtype=TSDOWNLOADER
+http://rv.flysat.live:80/307210013157/307210013157/81216
