@@ -10,46 +10,94 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
 plugin://plugin.video.tvone1112/play/468/play.pvr
 
-#EXTINF:-1 tvg-id="WTEN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/WTEN_Albany_2019.png" group-title="Broadcast", WTEN ALBANY ABC10
+#EXTINF:-1 tvg-id="abc.ny.albany.wten" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/WTEN_Albany_2019.png" group-title="Broadcast", WTEN ALBANY ABC10
+#WTEN.us
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-abc-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="WRGB.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/WRGB_CBS6_2016_logo.png" group-title="Broadcast", WRGB ALBANY CBS6
+#EXTINF:-1 tvg-id="cbs.ny.albany.wrgb" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/WRGB_CBS6_2016_logo.png" group-title="Broadcast", WRGB ALBANY CBS6
+#WRGB.us
 https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8
-#EXTINF:-1 tvg-id="WXXATV.us" tvg-logo="http://img1.wikia.nocookie.net/__cb20130101220914/logopedia/images/6/63/Wxxa_2007.png" group-title="Broadcast", WXXA ALBANY FOX23
+#EXTINF:-1 tvg-id="fox.ny.albany.wxxa" tvg-logo="http://img1.wikia.nocookie.net/__cb20130101220914/logopedia/images/6/63/Wxxa_2007.png" group-title="Broadcast", WXXA ALBANY FOX23
+#WXXATV.us
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
-#EXTINF:-1 tvg-id="WNYT.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7d/Wnyt_2008.png" group-title="Broadcast", WNYT ALBANY NBC13
+#EXTINF:-1 tvg-id="nbc.ny.albany.wnyt" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7d/Wnyt_2008.png" group-title="Broadcast", WNYT ALBANY NBC13
+#WNYT.us
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-nbc-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="KABCTV.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", KABC LOSANGELES ABC
+#EXTINF:-1 tvg-id="fox.il.chicago.wfld" tvg-name="WFLD FOX 32 Chicago" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Broadcast", WFLD Chicago FOX
+https://lnc-wfld-fox-aws.tubi.video/index.m3u8
+#EXTINF:-1 tvg-id="abc.ca.losangeles.kabc" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", KABC LOSANGELES ABC
+#KABCTV.us
 http://31.220.41.87:8081/live/us-abc.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="abc.co.denver.kmgh" tvg-name="ABC 7 Denver" tvg-logo="https://i.imgur.com/JExsI09.png" group-title="Broadcast", KMGH Denver ABC
+https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
+#EXTINF:-1 tvg-id="abc.mi.detroit.wxyz" tvg-name="ABC 7 Detroit" tvg-logo="https://i.imgur.com/8sQ5mfL.png" group-title="Broadcast", WXYZ Detroit ABC
+https://content-auso2.uplynk.com/channel/9c9e4e410b5a471391c116166d8c010e.m3u8?ad=live
+#EXTINF:-1 tvg-id="abc.ca.bakersfield.kero" tvg-logo="https://scripps.com/wp-content/uploads/2019/01/_media_23_abc.png" group-title="Broadcast", KERO ABC
+https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
 #EXTINF:-1 tvg-id="I391.19567.schedulesdirect.org" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", KCBS LOSANGELES CBS
 https://cbsn-la-cedexis.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
 #EXTINF:-1 tvg-id="I399.20450.schedulesdirect.org" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", KTTV LOSANGELES FOX
 https://lnc-kttv-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="KNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", KNBC LOSANGELES NBC
-plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DKNBC+%28NBC%29+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2Fce50ea375ad949f3ba54d225cab7c140%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
-#EXTINF:-1 tvg-id="WPLG.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WPLG - FL.MIAMI ABC
+https://cdnapisec.kaltura.com/p/2630451/sp/2630451/playManifest/entryId/1_61e7x33e/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
+#plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DKNBC+%28NBC%29+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2Fce50ea375ad949f3ba54d225cab7c140%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
+#EXTINF:-1 tvg-id="nbc.wi.madison.wmtv" tvg-name="NBC 15 Madison WI" tvg-logo="https://i.imgur.com/qOO32m6.png" group-title="Broadcast", WMTV Madison NBC
+https://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q
+#EXTINF:-1 tvg-id="abc.fl.miami.wplg" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WPLG MIAMI ABC
+#WPLG.us
 https://svc-lvanvato-cxtv-wftv.cmgvideo.com/wftv/2564k/index.m3u8
 #EXTINF:-1 tvg-id="WFORTV.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WFOR MIAMI CBS
 https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
 #EXTINF:-1 tvg-id="WSVN.us" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WSVN MIAMI FOX
-https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8+-
+https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8
 #EXTINF:-1 tvg-id="WTVJ.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WTVJ MIAMI NBC
 plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DWTVJ+%28NBC%29+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2F4db1d24ace55499893fc611683c2a88%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
-#EXTINF:-1 tvg-id="WABCTV.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WABC NEWYORK ABC
+#EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WABC NEWYORK ABC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-abc-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="WCBSTV.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WCBS NEWYORK CBS
+#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WCBS NEWYORK CBS
 http://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/master.m3u8
-#EXTINF:-1 tvg-id="WNYW.us" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WNYW NEWYORK FOX
+#EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WNYW NEWYORK FOX
 https://lnc-wnyw-fox-aws.tubi.video/index.m3u8
-#EXTINF:-1 tvg-id="WNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WNBC NEWYORK NBC
+#EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WNBC NEWYORK NBC
 plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DWNBC+%28NBC%29+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2F2ac9aad11dfd4b7695aed6c654c81887%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
 #EXTINF:-1 tvg-id="WPIX.us" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Broadcast", WPIX 11 NY
 https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8
-#EXTINF:-1 tvg-id="WTVD.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WTVD RALEIGH ABC
+#EXTINF:-1 tvg-id="abc.fl.orlando.wftv" tvg-name="ABC 9 Orlando FL" tvg-logo="https://mediaweb.wftv.com/theme/images/placeholder-square.jpg" group-title="Broadcast", WFTV Orlando ABC
+https://d3qm7vzp07vxse.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10070_fe1f5f6c-cd0b-4993-a4a4-6db66be4f313_LE/in/cmg-wftvtv-hls-v3/live.m3u8
+#EXTINF:-1 tvg-id="fox.fl.orlando.wofl" tvg-name="WOFL Fox 35 Orlando" tvg-logo="https://i.imgur.com/BOA8KKZ.jpg" group-title="Broadcast", WOFL Orlando Fox
+https://lnc-wofl-fox-aws.tubi.video/index.m3u8
+#EXTINF:-1 tvg-id="fox.pa.philadelphia.wtxf" tvg-name="FOX 29 Philadelphia" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Broadcast", WTXF Philadelphia FOX
+https://lnc-wtxf-fox-aws.tubi.video/index.m3u8
+#EXTINF:-1 tvg-id="abc.az.phoenix.knxv" tvg-name="ABC 15" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/KNXV_Logo.png" group-title="Broadcast", KNXVTV Phoenix ABC
+https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
+#EXTINF:-1 tvg-id="fox.az.phoenix.ksaz" tvg-name="KZAS Fox 10 Phoenix" tvg-logo="https://i.imgur.com/TCzjchS.jpg" group-title="Broadcast", KZAS Phoenix Fox
+https://lnc-ksaz-fox-aws.tubi.video/index.m3u8
+#EXTINF:-1 tvg-id="nbc.pa.pittsburgh.wpxi" tvg-name="NBC 11 Pittsburgh PA" tvg-logo="https://i.imgur.com/iud5PUZ.png" group-title="Broadcast", WPXI Pittsburgh NBC
+https://svc-lvanvato-cxtv-wpxi.cmgvideo.com/wpxi/2564k/index.m3u8
+#EXTINF:-1 tvg-id="abc.nc.raleigh.wtvd" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WTVD RALEIGH ABC
+#WTVD.us
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-abc-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="WNCN.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WNCN RALEIGH CBS
+#EXTINF:-1 tvg-id="cbs.nc.raleigh.wncn" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WNCN RALEIGH CBS
+#WNCN.us
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-cbs-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="WRAZ.us" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WRAZ RALEIGH FOX
+#EXTINF:-1 tvg-id="fox.nc.raleigh.wraz" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WRAZ RALEIGH FOX
+#WRAZ.us
 http://164.68.124.111/fox.m3u8
+#EXTINF:-1 tvg-id="nbc.ca.sanfrancisco.kntv" tvg-name="Bay Area NBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/KNTV_11_NBC_Bay_Area.svg/1920px-KNTV_11_NBC_Bay_Area.svg.png" group-title="Broadcast", KNTV San Diego NBC
+https://streams.the6tv.duckdns.org:2443/locals/BayArea/kntv-dt1.m3u8
+#EXTINF:-1 tvg-id="nbc.ca.sandiego.knsd" tvg-name="KNSD-DT1" tvg-logo="https://media.nbcsandiego.com/2021/04/San-Diego.png" group-title="Broadcast", KNSD San Diego NBC
+https://streams.the6tv.duckdns.org:2443/locals/SanDiego/knsd-dt1.m3u8
+#EXTINF:-1 tvg-id="abc.fl.sarasota.wwsb" tvg-name="ABC 7 Sarasota FL" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/raycom/HJ3SAXRMNFAHXOFIRVYCQBIOGM.jpg" group-title="Broadcast", WWSB Sarasota ABC
+https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
+#EXTINF:-1 tvg-id="fox.ga.savannah.wtgs" tvg-name="FOX 28 Savannah" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/FOX28WTGS.PNG" group-title="Broadcast", WTGS Savannah FOX
+https://content.uplynk.com/channel/e56ba52a1b9d45ad8c8a033fd83fe480.m3u8
+#EXTINF:-1 tvg-id="fox.wa.seattle.kcpq" tvg-name="KCPQ Fox Q13 Seattle" tvg-logo="https://i.imgur.com/4xs5ERr.jpg" group-title="Broadcast", KCPQ Seattle Fox
+https://lnc-kcpq-fox-aws.tubi.video/index.m3u8
+#EXTINF:-1 tvg-id="fox.fl.tampa.wtvt" tvg-name="FOX 13 Tampa Bay" tvg-logo="https://i.imgur.com/Bvkri2L.png" group-title="Broadcast", WTVT Tampa Bay FOX
+https://lnc-wtvt-fox-aws.tubi.video/index.m3u8
+#EXTINF:-1 tvg-id="cbs.dc.washington.wusa" tvg-name="CBS 9 Washington DC" tvg-logo="https://i.imgur.com/Ekt1an0.png" group-title="Broadcast", WUSA Washington CBS
+https://livevideo01.wusa9.com/hls/live/2015498/newscasts/live.m3u8
+#EXTINF:-1 tvg-id="fox.dc.washington.wttg" tvg-name="FOX 5 Washington DC" tvg-logo="https://i.imgur.com/ktLKla7.png" group-title="Broadcast", WTTG Washington FOX
+https://lnc-wttg-fox-aws.tubi.video/index.m3u8
 
 #EXTINF:-1 tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-logo-WRiXY6t.png" group-title="PBS", Alaska Public Media
 plugin://slyguy.pbs.live/?_=play&callsign=KAKM&_l=.pvr
@@ -483,6 +531,8 @@ https://bozztv.com/teleyupp/AsEAeOtIxz/tracks-v1a1/mono.m3u8
 plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-samsungus.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DFox+News+Now%27%7C%7C+%27https%3A%2F%2Fsvc-lvanvato-cxtv-wfxt.cmgvideo.com%2Fwfxt%2F2564k%2Findex.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flnc-kdfw-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DDallas%27%7C%7C+%27https%3A%2F%2Flnc-kriv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DHouston%27%7C%7C+%27https%3A%2F%2Flnc-kttv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DLos+Angeles%27%7C%7C+%27https%3A%2F%2Flnc-ksaz-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DPhoenix%27%7C%7C+%27https%3A%2F%2Flnc-ktvu-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSan+Francisco%27%7C%7C+%27https%3A%2F%2Flnc-kcpq-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSeattle%27%5D
 #EXTINF:-1 tvg-id="I9864.70130.schedulesdirect.org" tvg-name="France 24" tvg-logo="http://static.epg.best/fr/France24English.fr.png" group-title="News", France 24
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master_2000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://home.frankspeech.com/sites/default/files/FINALFrankLOGO_415x150_ver4.png" group-title="News", Frank Speech
+https://frnksocial.mmdlive.lldns.net/frnksocial/25726d76f12b4564a75c888191e26445/manifest.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Logo_of_Free_Speech_TV.png" group-title="News", Free Speech
 https://edge.free-speech-tv-live.top.comcast.net/out/u/fstv.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.uk/view-resources/dachser2/public/gbnews_landing/hero-new.png" group-title="News", GBN
@@ -527,7 +577,8 @@ http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 https://weather-lh.akamaihd.net/i/twc_1@92006/index_1200_av-p.m3u8?sd=10&rebase=on
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
-#EXTINF:-1 tvg-id="WRAL.us" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast;News", WRAL RALEIGH NBC
+#EXTINF:-1 tvg-id="nbc.nc.raleigh.wral" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast;News", WRAL RALEIGH NBC
+#WRAL.us
 plugin://plugin.video.wrallocal/?mode=GV&amp;url=https%3A%2F%2Fwww.wral.com%2Fnews%2Fvideo%2F1082826%2F
 #EXTINF:-1 tvg-id="USAJ4300005PJ" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/YahooFinance_450x450.png?raw=true" group-title="News", Yahoo! Finance
 https://yahoo-plex.amagi.tv/playlist.m3u8
@@ -588,6 +639,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5ad8d659fd87eb3a2717afc9&_l=.pvr
 http://164.68.124.111/fs1.m3u8
 #EXTINF:-1 tvg-id="I618.33178.schedulesdirect.org" tvg-name="Fox Sports 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs2.png" group-title="Sports", Fox Sports 2
 http://4.26.188.2:8081/udp/239.193.10.102:23902
+#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="" tvg-logo="https://rolo.nocdnrlly.xyz/images/teams/Logo-Fox-Soccer-Plus.png" group-title="Sports", Fox Soccer Plus
+plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetM3u8%5D&mode=17&regexs=%7B%27getM3u8%27%3A%20%7B%27name%27%3A%20%27getM3u8%27%2C%20%27expres%27%3A%20%27%23%24pyFunction%5Cnimport%20re%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%23streamwatcher2013%5Cn%20%20stream%3Dre.findall%28%5C%27id%3D.vid%5B%5C%5Cw%5C%5CW%5D%2A%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%5C%27%2Cpage_data%29%5B0%5D%5Cn%20%20return%20stream.replace%28%5C%27/master%5C%27%2C%5C%27/d%5C%27%29%2B%5C%27%7Cuser-agent%3Dipad%26origin%3Dhttps%3A//freefeds.com%26referer%3Dhttps%3A//freefeds.com/%5C%27%5Cn%27%2C%20%27page%27%3A%20%27https%3A//freefeds.com/stream/56872.html%27%2C%20%27referer%27%3A%20%27https%3A//freefeds.com/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Frolo.nocdnrlly.xyz%2Fimages%2Fteams%2FLogo-Fox-Soccer-Plus.png
 #EXTINF:-1 tvg-id="I653.61084.schedulesdirect.org" tvg-name="" tvg-logo="https://seeklogo.com/images/F/fox-sports-logo-46B7571340-seeklogo.com.png" group-title="Sports", South Fox Sports
 https://m3u-editor.com/serve/a9490c60-ca60-11eb-9757-a16ca088906c/314147999
 
@@ -653,6 +706,8 @@ http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 plugin://plugin.video.au.freeview/?_=play&slug=tv.7pac12&_l=.pvr
 #EXTINF: -1 tvg-id="PAC12Arizona.us" tvg-name="" tvg-logo="https://d2z1w4aiblvrwu.cloudfront.net/brand/Iwt/Iwt_large.png" group-title="Sports", PAC-12 Arizona
 plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DPac-12+Arizona+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2Fdca7be0c490a44f08124d8923f15aa57%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
+#EXTINF: -1 tvg-id="Pac12BayArea.us" tvg-name="" tvg-logo="https://d2z1w4aiblvrwu.cloudfront.net/brand/Iwt/Iwt_large.png" group-title="Sports", PAC-12 Bay Area
+plugin://plugin.video.tvone11/play/5/1924/play.pvr
 #EXTINF: -1 tvg-id="Pac12LosAngeles.us" tvg-name="" tvg-logo="https://d2z1w4aiblvrwu.cloudfront.net/brand/Iwt/Iwt_large.png" group-title="Sports", PAC-12 Los Angeles
 plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DPac-12+Los+Angeles+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2F1f20a83c5be24783af991f5d5eb07ed8%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
 #EXTINF: -1 tvg-id="Pac12Mountain.us" tvg-name="" tvg-logo="https://d2z1w4aiblvrwu.cloudfront.net/brand/Iwt/Iwt_large.png" group-title="Sports", PAC-12 Mountain
