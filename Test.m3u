@@ -65,6 +65,8 @@ https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 https://livevideo01.9news.com/hls/live/2014548/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="abc.mi.detroit.wxyz" tvg-name="ABC 7 Detroit" tvg-logo="https://i.imgur.com/8sQ5mfL.png" group-title="Broadcast", WXYZ Detroit ABC
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WXYZ.m3u8
+#EXTINF:-1 tvg-id="fox.mi.detroit.wjbk" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/tvstations/images/5/51/WJBK_Full_ID_logo.png/revision/latest?cb=20190324233534" group-title="Broadcast", WJBK Detroit FOX
+https://lnc-wjbk-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="nbc.wi.greenbay.wgba" tvg-name="NBC 26" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/31cd86c/2147483647/strip/true/crop/600x200+0+0/resize/400x133!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F09%2F30%2F6709482a41ef96f6ba6259d6ae66%2Fwgba-geographic-locator-600x200.png" group-title="Broadcast", WGBA Green Bay NBC
 https://content.uplynk.com/channel/1fbfb28ae5044f619f75ae0adb011989.m3u8
 #EXTINF:-1 tvg-id="cbs.tx.houston.khou" tvg-name="" tvg-logo="http://img4.wikia.nocookie.net/__cb20140721034242/logopedia/images/1/13/KHOU_2011.png" group-title="Broadcast", KHOU Houston CBS
@@ -110,7 +112,7 @@ https://dai.google.com/linear/hls/pa/event/7BPTt6VDSxmXxnTUaYlu1g/stream/090bed2
 #EXTINF:-1 tvg-id="nbc.sc.myrtlebeach.wmbf" tvg-name="" tvg-logo="https://www.wmbfnews.com/resizer/SA5WSCc7vYsWmprzueAIW1M1yMk=/1200x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/FLP355YYXBHXTJ45DRAOZRGUSA.png" group-title="Broadcast", WMBF Myrtle NBC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-nbc-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WABC NEWYORK ABC
-https://streams.the6tv.duckdns.org:2443/locals/NewYorkCity/wabc-dt1.m3u8
+https://cdn87.theus6tv.tk/locals/NewYorkCity/wabc-dt1.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WCBS NEWYORK CBS
 http://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/master.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WNYW NEWYORK FOX
@@ -156,13 +158,13 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="nbc.nc.raleigh.wral" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast;News", WRAL RALEIGH NBC
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Fnews%2Fvideo%2F1082826%2F
 #EXTINF:-1 tvg-id="nbc.ca.sanfrancisco.kntv" tvg-name="Bay Area NBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/KNTV_11_NBC_Bay_Area.svg/1920px-KNTV_11_NBC_Bay_Area.svg.png" group-title="Broadcast", KNTV San Diego NBC
-https://streams.the6tv.duckdns.org:2443/locals/BayArea/kntv-dt1.m3u8
+https://cdn87.theus6tv.tk/locals/BayArea/kntv-dt1.m3u8
 #EXTINF:-1 tvg-id="nbc.ca.sandiego.knsd" tvg-name="KNSD-DT1" tvg-logo="https://media.nbcsandiego.com/2021/04/San-Diego.png" group-title="Broadcast", KNSD San Diego NBC
-https://streams.the6tv.duckdns.org:2443/locals/SanDiego/knsd-dt1.m3u8
+https://cdn87.theus6tv.tk/locals/SanDiego/knsd-dt1.m3u8
 #EXTINF:-1 tvg-id="LocalNowSanDiegoCA.us" tvg-name="Local Now San Diego CA" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Broadcast", Now San Diego
 https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/caSanDiego/index.m3u8
 #EXTINF:-1 tvg-id="abc.ca.sanfrancisco.kgo" tvg-name="ABC7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/KGOTVABC7.png" group-title="Broadcast", KGO SanFrancisco ABC
-https://streams.the6tv.duckdns.org:2443/locals/BayArea/kgo-dt1.m3u8
+https://cdn87.theus6tv.tk/locals/BayArea/kgo-dt1.m3u8
 #EXTINF:-1 tvg-id="abc.fl.sarasota.wwsb" tvg-name="ABC 7 Sarasota FL" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/raycom/HJ3SAXRMNFAHXOFIRVYCQBIOGM.jpg" group-title="Broadcast", WWSB Sarasota ABC
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
 #EXTINF:-1 tvg-id="fox.ga.savannah.wtgs" tvg-name="FOX 28 Savannah" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/FOX28WTGS.PNG" group-title="Broadcast", WTGS Savannah FOX
@@ -274,7 +276,7 @@ https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="I282.57394.schedulesdirect.org" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
 plugin://plugin.video.tvone/play/31/play.pvr
 #EXTINF:-1 tvg-id="I25.16800.schedulesdirect.org" tvg-name="" tvg-logo="https://media-usba.mybtv.net/logos/4.5.png" group-title="Cable", Antenna TV
-https://streams.the6tv.duckdns.org:2443/locals/Fresno/kmsg-43.5.m3u8
+https://cdn87.theus6tv.tk/locals/Fresno/kmsg-43.5.m3u8
 #EXTINF:-1 tvg-id="I77.17484.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/AXN_logo.svg/120px-AXN_logo.svg.png" group-title="Cable", AXN
 plugin://plugin.video.tvone1112/play/486/play.pvr
 #EXTINF:-1 tvg-id="I976.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="https://ia800102.us.archive.org/14/items/stevechatfield27_gmail_Bbc1/bbc%201.png" group-title="Cable", BBC 1
@@ -342,6 +344,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5ca671f215a62078d2ec0abf&_l=.pvr
 #EXTINF:-1 tvg-id="5f99e24636d67d0007a94e6d" tvg-name="Comedy Central Animation" tvg-logo="https://images.pluto.tv/channels/5f99e24636d67d0007a94e6d/colorLogoPNG.png" group-title="Cable", Comedy C Animation
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f99e24636d67d0007a94e6d&_l=.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-05-21-2019-05-21-2019" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Cable", Comet TV
+#https://usgeowall.sinclairstoryline.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
 https://dai.google.com/linear/hls/event/83L2OqtGSZ6lbWt8ODomWg/master.m3u8
 #EXTINF:-1 tvg-id="5dae0b4841a7d0000938ddbd" tvg-name="" tvg-logo="https://janthonyrich.com/wp-content/uploads/2015/01/featured_clients_court_tv.png" group-title="Cable", Court TV
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dae0b4841a7d0000938ddbd/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=395&deviceId=5dae0b4841a7d0000938ddbd&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
@@ -420,7 +423,7 @@ plugin://plugin.video.tvone1112/play/1975/play.pvr
 #EXTINF:-1 tvg-id="I110.17442.schedulesdirect.org" tvg-name="Gold" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Gold_2014.svg/1200px-Gold_2014.svg.png" group-title="Cable", Gold
 plugin://plugin.video.tvone11/play/4/276/play.pvr
 #EXTINF:-1 tvg-id="Grit.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Cable", Grit
-https://streams.the6tv.duckdns.org:2443/locals/SanDiego/kfmb-dt3.m3u8
+https://cdn87.theus6tv.tk/locals/SanDiego/kfmb-dt3.m3u8
 #EXTINF:-1 tvg-id="I312.66268.schedulesdirect.org" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Cable", Hallmark
 plugin://plugin.video.tvone11/play/5/203/play.pvr
 #EXTINF:-1 tvg-id="I565.46710.schedulesdirect.org" tvg-name="Hallmark Movies & Mysteries" tvg-logo="https://ia800803.us.archive.org/6/items/HallmarkMoviesMysteries_201708/hallmark%20movies%20%26%20mysteries.png" group-title="Cable", HLM
@@ -623,9 +626,9 @@ https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8
 #EXTINF:-1 tvg-id="I501.17615.schedulesdirect.org" tvg-name="CTV News" tvg-logo="https://www.bellmedia.ca/wp-content/uploads/2015/01/CTVNEWS_white-500-490x490.png" group-title="News", CTV News
 http://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
 #EXTINF:-1 tvg-id="I225.79318.schedulesdirect.org" tvg-name="DW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_(TV)_Logo_2012.png" group-title="News", Deutsche Welle
-http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8
+https://m-c010-j2apps.s.llnwi.net/hls_hd/8024.DWEnglishHD.in.m3u8
 #EXTINF:-1 tvg-id="I508.83671.schedulesdirect.org" tvg-name="Euronews" tvg-logo="https://ia802804.us.archive.org/20/items/euronews_201708/euronews.png" group-title="News", Euronews
-https://github.com/exodiver/IPTV/raw/master/M3U8/Token/EuroNews.m3u8
+https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
 #EXTINF:-1 tvg-id="I359.58649.schedulesdirect.org" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
@@ -634,7 +637,7 @@ https://bozztv.com/teleyupp/AsEAeOtIxz/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="USBA300024TN" tvg-name="FOX News Now" tvg-logo="https://i.imgur.com/hc5a1YP.png" group-title="News", Fox LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-samsungus.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DFox+News+Now%27%7C%7C+%27https%3A%2F%2Fsvc-lvanvato-cxtv-wfxt.cmgvideo.com%2Fwfxt%2F2564k%2Findex.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flnc-kdfw-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DDallas%27%7C%7C+%27https%3A%2F%2Flnc-kriv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DHouston%27%7C%7C+%27https%3A%2F%2Flnc-kttv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DLos+Angeles%27%7C%7C+%27https%3A%2F%2Flnc-ksaz-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DPhoenix%27%7C%7C+%27https%3A%2F%2Flnc-ktvu-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSan+Francisco%27%7C%7C+%27https%3A%2F%2Flnc-kcpq-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSeattle%27%5D
 #EXTINF:-1 tvg-id="I9864.70130.schedulesdirect.org" tvg-name="France 24" tvg-logo="http://static.epg.best/fr/France24English.fr.png" group-title="News", France 24
-http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master_2000.m3u8
+http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/lusogamer.com/wp-content/uploads/2021/04/Frank-Speech-App.png" group-title="News", Frank Speech
 https://frnksocial.mmdlive.lldns.net/frnksocial/5d9ea07faa964dec8f1a2ca71a9af4b3/manifest.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Logo_of_Free_Speech_TV.png" group-title="News", Free Speech
@@ -642,13 +645,14 @@ https://edge.free-speech-tv-live.top.comcast.net/out/u/fstv.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.uk/view-resources/dachser2/public/gbnews_landing/hero-new.png" group-title="News", GBN
 https://live-gbnews.simplestreamcdn.com/gbnews/gbnews/bitrate1.isml/live.m3u8
 #EXTINF:-1 tvg-id="I252.10050.schedulesdirect.org" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
-https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/master.m3u8
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
 #EXTINF:-1 tvg-id="I204.64549.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://cdn.cnn.com/cnnnext/dam/assets/170504153446-hln-logo-card-may-2017-large-169.jpg" group-title="News", Headline News
-plugin://plugin.video.tvone1112/play/1927/play.pvr
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="Infowars.us" tvg-name="Info Wars" tvg-logo="https://archives.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars
-https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8
+http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
 #EXTINF:-1 tvg-id="I356.16300.schedulesdirect.org" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News", MSNBC
-plugin://plugin.video.tvone11/play/5/245/play.pvr
+#plugin://plugin.video.tvone11/play/5/245/play.pvr
+http://1111296894.rsc.cdn77.org/LS-ATL-54548-10/playlist.m3u8
 #EXTINF:-1 tvg-id="5df97894467dfa00091c873c" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/NBCNewsNow.png?raw=true" group-title="News", NBCN LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=NBCN+LIVE&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-vizio.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DNews+Now%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live11%40183427%2Fmaster.m3u8%24%24lsname%3DEvent+1%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live12%40187393%2Fmaster.m3u8%24%24lsname%3DEvent+2%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live13%40187394%2Fmaster.m3u8%24%24lsname%3DEvent+3%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live14%40187395%2Fmaster.m3u8%24%24lsname%3DEvent+4%27%7C%7C+%27http%3A%2F%2Fwmaqlive-f.akamaihd.net%2Fi%2Fwmaqa1_1%4022923%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fwrclive-f.akamaihd.net%2Fi%2Fwrcb1_1%4046880%2Fmaster.m3u8%24%24lsname%3DDC%27%7C%7C+%27http%3A%2F%2Fmedia-hls-az1.wral.com%2Flivehttporigin%2F_definst_%2Fmp4%3Aencoder25-high%2Fchunklist.m3u8%24%24lsname%3DRaleigh%27%5D
 #EXTINF:-1 tvg-id="News12NewYork.us" tvg-name="" tvg-logo="https://corporate.tubitv.com/wp-content/uploads/2020/10/News12BlueLogo2.png" group-title="News", News12 New York
@@ -665,16 +669,16 @@ http://n1.klowdtv.net/live1/oan_360p/chunks.m3u8
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e7cf6c7b156d500078c5f44&_l=.pvr
 #EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", Real America's Voice
 https://p1media-americasvoice-1.roku.wurl.com/manifest/b1ba4c5e9571b4919d24d0e97f8b7202.m3u8
-#EXTINF:-1 tvg-id="RTENews.ie" tvg-name="" tvg-logo="https://archive.org/download/RteNews_201805/rte%20news.png" group-title="News" group-title="News", RTE News
-https://live.rte.ie/live/a/channel3/news.isml/news-video=144960.m3u8
 #EXTINF:-1 tvg-id="I724.58333.schedulesdirect.org" tvg-name="RT US" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News", RT
 https://rt-usa.secure.footprint.net/1105.m3u8
 #EXTINF:-1 tvg-id="I511.98986.schedulesdirect.org" tvg-name="RT UK" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News", RT UK
 https://rt-uk.secure.footprint.net/1106.m3u8
+#EXTINF:-1 tvg-id="RTENews.ie" tvg-name="" tvg-logo="https://archive.org/download/RteNews_201805/rte%20news.png" group-title="News" group-title="News", RTE News
+https://live.rte.ie/live/a/channel3/news.isml/news-video=144960.m3u8
 #EXTINF:-1 tvg-id="I875.16234.schedulesdirect.org" tvg-name="SKY News" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News
 http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/latest.m3u8
 #EXTINF:-1 tvg-id="VoATV.us" tvg-name="Voice of America" tvg-logo="https://i.imgur.com/7zieaS3.png" group-title="News", Voice of America
-http://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
+https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
 #EXTINF:-1 tvg-id="WSJ.us" tvg-name="" tvg-logo="https://newcanaanlibrary.org/wp-content/uploads/2016/12/wsj.png" group-title="News", Wall Street Journal
 http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable", Weather Channel
@@ -1519,7 +1523,7 @@ http://www.filmon.com/vr-streams/6170.high/playlist.m3u8
 #EXTINF:-1 tvg-id="I457.54335.schedulesdirect.org" tvg-name="" tvg-logo="http://www.vector-logo.net/logo_preview/eps/p/Playboy_TV.png" group-title="Adult TV", Playboy
 http://187.188.147.165:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="PlayboyTVEurope.us" tvg-name="Playboy TV" tvg-logo="http://www.vector-logo.net/logo_preview/eps/p/Playboy_TV.png" group-title="Adult TV", Playboy UK
-http://187.188.147.165:8000/play/a00l/index.m3u8
+http://pvserver.link:8080/mkZ5D3DteY/6178378546/87444
 #EXTINF:-1 tvg-id="PrivateTV.us" tvg-name="" tvg-logo="http://img1.wikia.nocookie.net/__cb20150315153455/logopedia/images/9/98/PRIVATE_TV.png" group-title="Adult TV", Private
 http://87.207.71.147:4000/play/a03b/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_Red_TV_Perú.png" group-title="Adult TV", RedTraffic[COLOR magenta] (10 items )[/COLOR]
@@ -1527,13 +1531,13 @@ plugin://plugin.video.live.streamspro/?mode=13&name=RedTraffic&playlist=%5Bu%27h
 #EXTINF:-1 tvg-id="Sextreme.br" tvg-name="Sextreme" tvg-logo="https://www.fulltv.com.ar/images/guia/sextreme_1539979743_0.jpg" group-title="Adult TV", Sextreme
 http://187.188.147.165:8000/play/a012/index.m3u8
 #EXTINF:-1 tvg-id="VisitXTV.nl" tvg-name="" tvg-logo="http://images.zattic.com/logos/99c52002fd7a7a01f017/white/210x120.png" group-title="Adult TV", Visit-X TV
-http://stream.visit-x.tv/vxtv/live/playlist.m3u8
+http://194.116.150.47:1935/vxtv/live_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="I683.16498.schedulesdirect.org" tvg-name="Venus" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/107.png" group-title="Adult TV", Venus
 http://187.188.147.165:8000/play/a01d/index.m3u8
 #EXTINF:-1 tvg-id="VividRed.us" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Red
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/285
+http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/285
 #EXTINF:-1 tvg-id="VividTouch.us" tvg-name="" tvg-logo="https://www.plughitzlive.com/images/news/logos/onetime/vividentertainment.png" group-title="Adult TV", Vivid Touch
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/285
+http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/285
 #EXTINF:-1 tvg-id="I498.16315.schedulesdirect.org" tvg-name="Xtsy-New Frontier" tvg-logo="https://d5ip5p2ldkpmf.cloudfront.net/cinema/MDTV/ppv-xtsy.jpg" group-title="Adult TV", Xtsy XXX
 http://87.207.71.147:4000/play/a03b/index.m3u8
 #EXTINF:-1 tvg-id="I498.16315.schedulesdirect.org" tvg-name="Xtsy-New Frontier" tvg-logo="https://d5ip5p2ldkpmf.cloudfront.net/cinema/MDTV/ppv-xtsy.jpg" group-title="Adult TV", Xtsy HD
