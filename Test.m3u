@@ -29,18 +29,10 @@ https://lnc-waga-fox-aws.tubi.video/index.m3u8
 https://livevideo01.11alive.com/hls/live/2015499/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="LocalNowAtlantaGA.us" tvg-name="Local Now Atlanta GA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Broadcast", Now Atlanta
 https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/gaAtlanta/index.m3u8
-#EXTINF:-1 tvg-id="fox.tx.austin.ktbc" tvg-name="CBS 46" tvg-logo="http://static2.wikia.nocookie.net/__cb20130705034908/logopedia/images/9/9c/KTBC_FOX.png" group-title="Broadcast", KTBC Austin FOX
-https://lnc-ktbc-fox-aws.tubi.video/index.m3u8
-#EXTINF:-1 tvg-id="cbs.me.bangor.wabi" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/WABI_Logo.png/200px-WABI_Logo.png" group-title="Broadcast", WABI Bangor CBS
-https://ad-playlistserver.aws.syncbak.com/playlist/13613390/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOjEzNjEzMzkwLCJtZDUiOiI2Y2M5MzczYjIxZWIwNzQ4ZDA0YTRlYzYyMjU2YjBhMiIsImlhdCI6MTQ5NzM4MTU5NywiaXNzIjoiU3luY2JhayIsInN1YiI6IkdyYXkifQ.qJPiMCbnGjAn9wgPrGjVl3M9Xfc4CVSyoZTZ5OH-1jo
-#EXTINF:-1 tvg-id="abc.la.batonrouge.wbrz" tvg-name="ABC 2 Baton Rouge LA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/WBRZ_Logo_2013.png" group-title="Broadcast", WBRZ Baton Rouge ABC
-http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist_b1300000.m3u8
 #EXTINF:-1 tvg-id="nbc.ma.boston.wbts" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/31/WBTS_NBC10.png/revision/latest?cb=20180218035532" group-title="Broadcast", WBTS Boston NBC
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdV0JUUyAoTkJDKSB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy8xOWFjNWRhN2ZlNzk0ZmZiOTgzNDgyYmI3ODYzOTI1OS9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="fox.ma.boston.wfxt" tvg-name="Boston 25 News (WFXT)" tvg-logo="https://i.imgur.com/YGdDVAQ.jpg" group-title="Broadcast", WFXT Boston FOX
 https://d2dy6pkj44n6e7.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10020_27d61a9c-67b2-4d7c-9486-626a6a071467_LE/in/cmg-wftxtv-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="nbc.ny.buffalo.wgrz" tvg-name="NBC 2 Buffalo NY (WGRZ)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4b/WGRZlogo.png" group-title="Broadcast", WGRZ Buffalo NBC
-https://livevideo01.wgrz.com/hls/live/2016286/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="nbc.nc.charlotte.wcnc" tvg-name="" tvg-logo="https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/WCNC-TV__55b5f0/NBC_Charlotte.png__23002.png" group-title="Broadcast", WCNC Charlotte NBC
 https://livevideo01.wcnc.com/hls/live/2015505/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="fox.il.chicago.wfld" tvg-name="WFLD FOX 32 Chicago" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Broadcast", WFLD Chicago FOX
@@ -57,8 +49,6 @@ https://cbsn-dal-cedexis.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d
 https://lnc-kdfw-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="nbc.tx.dallas.kxas" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7d/Former_KXAS-TV_logo.png" group-title="Broadcast", KXAS Dallas NBC
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdS1hBUyAoTkJDKSB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9jZWNjMjFkYWQ3Yzk0NzFkYTFhYjczNmQ5MDFhMTMyZC9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
-#EXTINF:-1 tvg-id="cbs.oh.dayton.whio" tvg-name="WHIO" tvg-logo="https://i.imgur.com/n38ZKuE.png" group-title="Broadcast", WHIO Dayton CBS
-https://svc-lvanvato-cxtv-whio.cmgvideo.com/whio/2596k/index.m3u8
 #EXTINF:-1 tvg-id="abc.co.denver.kmgh" tvg-name="ABC 7 Denver" tvg-logo="https://i.imgur.com/JExsI09.png" group-title="Broadcast", KMGH Denver ABC
 https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 #EXTINF:-1 tvg-id="nbc.co.denver.kusa" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/kusa-9news.png" group-title="Broadcast", KUSA Denver NBC
@@ -75,7 +65,7 @@ https://livevideo01.khou.com/hls/live/2014966/newscasts/live.m3u8
 https://d2eit0bra9qkiw.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10050_b9ac3c93-be86-4f7e-82b8-796b7f8bfda3_LE/in/cmg-wjaxtv-hls-v3/live.m3u8
 #EXTINF:-1 tvg-id="abc.ca.losangeles.kabc" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", KABC LOSANGELES ABC
 #EXTVLCOPT:http-referrer=https://abc7.com/watch/
-https://content.uplynk.com/ext/2118d9222a87420ab69223af9cfa0a0f/master.m3u8
+https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/KABCwatch.m3u8
 #plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdS05CQyAoTkJDKSB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9jZTUwZWEzNzVhZDk0OWYzYmE1NGQyMjVjYWI3YzE0MC9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="abc.ca.bakersfield.kero" tvg-logo="https://scripps.com/wp-content/uploads/2019/01/local_media_23_abc.png" group-title="Broadcast", KERO LOSANGELES ABC
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
@@ -85,14 +75,6 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 https://lnc-kttv-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="nbc.ca.losangeles.knbc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", KNBC LOSANGELES NBC
 https://cdnapisec.kaltura.com/p/2630451/sp/2630451/playManifest/entryId/1_61e7x33e/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
-#EXTINF:-1 tvg-id="nbc.wi.madison.wmtv" tvg-name="NBC 15 Madison WI" tvg-logo="https://i.imgur.com/qOO32m6.png" group-title="Broadcast", WMTV Madison NBC
-https://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q
-#EXTINF:-1 tvg-id="abc.nh.manchester.wmur" tvg-name="" tvg-logo="https://www.nhbeer.org/wp-content/uploads/2017/02/logo-1.png" group-title="Broadcast", WMUR Manchester ABC
-https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-WMUR.m3u8
-#EXTINF:-1 tvg-id="abc.tn.memphis.watn" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Abc24logo.png/125px-Abc24logo.png" group-title="Broadcast", WATN Memphis ABC
-https://livevideo01.localmemphis.com/hls/live/2011654/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="fox.tn.memphis.whbq" tvg-name="" tvg-logo="https://www.coxmediagroup.com/wp-content/uploads/2017/01/myfoxmemphis.png" group-title="Broadcast", WHBQ Memphis FOX
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WHBQ.m3u8
 #EXTINF:-1 tvg-id="abc.fl.miami.wplg" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WPLG MIAMI ABC
 https://svc-lvanvato-cxtv-wftv.cmgvideo.com/wftv/2564k/index.m3u8
 #EXTINF:-1 tvg-id="WFORTV.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WFOR MIAMI CBS
@@ -101,8 +83,6 @@ https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
 https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8
 #EXTINF:-1 tvg-id="WTVJ.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", WTVJ MIAMI NBC
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdV1RWSiAoTkJDKSB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy80ZGIxZDI0YWNlNTU0OTk4OTNmYzYxMTY4M2MyYTg4L3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
-#EXTINF:-1 tvg-id="fox.wi.milwaukee.witi" tvg-name="WITI Fox 6 Milwaukee" tvg-logo="https://i.imgur.com/qmOd9Yr.jpg" group-title="Broadcast", WITI Milwaukee FOX
-https://lnc-witi-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="abc.sc.myrtlebeach.wpde" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/WPDE15.png" group-title="Broadcast", WPDE Myrtle ABC
 https://content-ause2.uplynk.com/75450478ee5546ad84ee06acc63479e4.m3u8
 #EXTINF:-1 tvg-id="cbs.sc.myrtlebeach.wbtw" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Broadcast", WBTW Myrtle CBS
@@ -125,12 +105,6 @@ https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8
 https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/nyNewYorkCity/index.m3u8
 #EXTINF:-1 tvg-id="abc.va.norfolk.wvec" tvg-name="" tvg-logo="http://hamptonroadscares.org/show/wvec/image/2008090514-4-50-210x150/WVEC_logo.png" group-title="Broadcast", WVEC Norfolk ABC
 https://livevideo01.13newsnow.com/hls/live/2014545/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="cbs.ne.omaha.kmtv" tvg-name="KMTV Omaha" tvg-logo="https://i.imgur.com/80WxTxG.png" group-title="Broadcast", KMTV Omaha CBS
-https://content.uplynk.com/4a09fbea28ef4f32bce095e9eae04bd8.m3u8
-#EXTINF:-1 tvg-id="abc.fl.orlando.wftv" tvg-name="ABC 9 Orlando FL" tvg-logo="https://mediaweb.wftv.com/theme/images/placeholder-square.jpg" group-title="Broadcast", WFTV Orlando ABC
-https://d3qm7vzp07vxse.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10070_fe1f5f6c-cd0b-4993-a4a4-6db66be4f313_LE/in/cmg-wftvtv-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="fox.fl.orlando.wofl" tvg-name="WOFL Fox 35 Orlando" tvg-logo="https://i.imgur.com/BOA8KKZ.jpg" group-title="Broadcast", WOFL Orlando Fox
-https://lnc-wofl-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="fox.pa.philadelphia.wtxf" tvg-name="FOX 29 Philadelphia" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Broadcast", WTXF Philadelphia FOX
 https://lnc-wtxf-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="LocalNowPhiladelphiaPA.us" tvg-name="Local Now Philadelphia PA" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Broadcast", Now Philadelphia
@@ -143,10 +117,6 @@ https://lnc-ksaz-fox-aws.tubi.video/index.m3u8
 https://livevideo01.12news.com/hls/live/2015501/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="LocalNowPhoenixAZ.us" tvg-name="Local Now Phoenix AZ" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Broadcast", Now Phoenix
 https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/azPhoenix/index.m3u8
-#EXTINF:-1 tvg-id="nbc.pa.pittsburgh.wpxi" tvg-name="NBC 11 Pittsburgh PA" tvg-logo="https://i.imgur.com/iud5PUZ.png" group-title="Broadcast", WPXI Pittsburgh NBC
-https://svc-lvanvato-cxtv-wpxi.cmgvideo.com/wpxi/2564k/index.m3u8
-#EXTINF:-1 tvg-id="nbc.or.portland.kgw" tvg-name="NBC 8 Portland OR (KGW)" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/51P0bggQTnL.png" group-title="Broadcast", KGW Portland NBC
-https://livevideo01.kgw.com/hls/live/2015506/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="abc.nc.raleigh.wtvd" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", WTVD RALEIGH ABC
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXUFCQyBSQUxFSUdILFdUVkQsWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIiIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImZmbXBlZ2RpcmVjdDovL2h0dHA6Ly9pbmdyaWQubHRkOjI1NDYxL2xpdmUvYm9iMzIxLzcyYlJoSktlVTkvMjE3NTcubTN1OHxVc2VyLUFnZW50PWlQYWQoVVM6KDEpIEFCQyAxMSBSYWxlaWdoIE5DIChXVFZEKSAtIDJBQkMpIl19
 #EXTINF:-1 tvg-id="cbs.nc.raleigh.wncn" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WNCN RALEIGH CBS
@@ -157,18 +127,6 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nbc.nc.raleigh.wral" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast;News", WRAL RALEIGH NBC
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Fnews%2Fvideo%2F1082826%2F
-#EXTINF:-1 tvg-id="nbc.ca.sanfrancisco.kntv" tvg-name="Bay Area NBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/KNTV_11_NBC_Bay_Area.svg/1920px-KNTV_11_NBC_Bay_Area.svg.png" group-title="Broadcast", KNTV San Diego NBC
-https://cdn87.theus6tv.tk/locals/BayArea/kntv-dt1.m3u8
-#EXTINF:-1 tvg-id="nbc.ca.sandiego.knsd" tvg-name="KNSD-DT1" tvg-logo="https://media.nbcsandiego.com/2021/04/San-Diego.png" group-title="Broadcast", KNSD San Diego NBC
-https://cdn87.theus6tv.tk/locals/SanDiego/knsd-dt1.m3u8
-#EXTINF:-1 tvg-id="LocalNowSanDiegoCA.us" tvg-name="Local Now San Diego CA" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Broadcast", Now San Diego
-https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/caSanDiego/index.m3u8
-#EXTINF:-1 tvg-id="abc.ca.sanfrancisco.kgo" tvg-name="ABC7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/KGOTVABC7.png" group-title="Broadcast", KGO SanFrancisco ABC
-https://cdn87.theus6tv.tk/locals/BayArea/kgo-dt1.m3u8
-#EXTINF:-1 tvg-id="abc.fl.sarasota.wwsb" tvg-name="ABC 7 Sarasota FL" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/raycom/HJ3SAXRMNFAHXOFIRVYCQBIOGM.jpg" group-title="Broadcast", WWSB Sarasota ABC
-https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
-#EXTINF:-1 tvg-id="fox.ga.savannah.wtgs" tvg-name="FOX 28 Savannah" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/FOX28WTGS.PNG" group-title="Broadcast", WTGS Savannah FOX
-https://content.uplynk.com/channel/e56ba52a1b9d45ad8c8a033fd83fe480.m3u8
 #EXTINF:-1 tvg-id="abc.wa.seattle.komo" tvg-name="KOMO News" tvg-logo="https://i.imgur.com/8vXRrRe.jpg" group-title="Broadcast", KOMO Seattle ABC
 https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8
 #EXTINF:-1 tvg-id="cbs.wa.seattle.kiro" tvg-name="KIRO 7" tvg-logo="https://mediaweb.kirotv.com/photo/2018/09/24/kiro7_header_logo_152x60_13118164_ver1.0.png" group-title="Broadcast", KIRO Seattle CBS
@@ -177,14 +135,12 @@ https://svc-lvanvato-cxtv-kiro.cmgvideo.com/kiro/1864k/index.m3u8
 https://lnc-kcpq-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="nbc.wa.seattle.king" tvg-name="" tvg-logo="https://www.watchnextgentv.com/wp-content/uploads/2020/12/king-5-nbc-seattle.png" group-title="Broadcast", KING Seattle NBC
 https://livevideo01.king5.com/hls/live/2006665/live/live.m3u8
-#EXTINF:-1 tvg-id="cbs.wa.spokane.krem" tvg-name="" tvg-logo="https://yt3.ggpht.com/a/AGF-l7_lBquiyqccYrmVjIQOSyVw1nQAmJVLjUHUbA=s900-mo-c-c0xffffffff-rj-k-no" group-title="Broadcast", KREM Spokane CBS
-https://livevideo01.krem.com/hls/live/2017156/newscasts/live.m3u8
+#EXTINF:-1 tvg-id="abc.fl.tampa.wfts" tvg-name="" tvg-logo="http://static3.wikia.nocookie.net/__cb20110330062436/logopedia/images/b/b6/Wfts2008.png" group-title="Broadcast", WFTS Tampa ABC
+https://wfts-syndication.ewscloud.com/out/v1/cdf4355ff2f54f76a0963dec6266512c/index.m3u8
 #EXTINF:-1 tvg-id="cbs.fl.tampa.wtsp" tvg-name="" tvg-logo="http://images3.wikia.nocookie.net/__cb20110330104723/logopedia/images/5/5c/Wtsp.png" group-title="Broadcast", WTSP Tampa CBS
 https://livevideo01.wtsp.com/hls/live/2015503/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="fox.fl.tampa.wtvt" tvg-name="FOX 13 Tampa Bay" tvg-logo="https://i.imgur.com/Bvkri2L.png" group-title="Broadcast", WTVT Tampa FOX
 https://lnc-wtvt-fox-aws.tubi.video/index.m3u8
-#EXTINF:-1 tvg-id="fox.ok.tulsa.koki" tvg-name="FOX 23 Tulsa OK" tvg-logo="https://i.imgur.com/pRKEMb1.jpg" group-title="Broadcast", KOKI Tulsa FOX
-https://d3nzocdfkx2ybv.cloudfront.net/in/cmg-kokitv-hls-v3/live.m3u8
 #EXTINF:-1 tvg-id="abc.dc.washington.wjla" tvg-name="WJLA" tvg-logo="https://i.imgur.com/LttuGfq.png" group-title="Broadcast", WJLA Washington ABC
 https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8
 #EXTINF:-1 tvg-id="cbs.dc.washington.wusa" tvg-name="CBS 9 Washington DC" tvg-logo="https://i.imgur.com/Ekt1an0.png" group-title="Broadcast", WUSA Washington CBS
@@ -193,8 +149,6 @@ https://livevideo01.wusa9.com/hls/live/2015498/newscasts/live.m3u8
 https://lnc-wttg-fox-aws.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="nbc.dc.washington.wrc" tvg-name="NBC 4 News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_of_WRC-TV.png" group-title="Broadcast", WRC Washington NBC
 https://wrclive-f.akamaihd.net/i/wrcb1_1@46880/master.m3u8
-#EXTINF:-1 tvg-id="cbs.fl.westpalmbeach.wpec" tvg-name="CBS 12 News" tvg-logo="https://i.imgur.com/SG7iSaA.png" group-title="Broadcast", WPEC West Palm Beach CBS
-https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
 
 #EXTINF:-1 tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-logo-WRiXY6t.png" group-title="PBS", Alaska Public Media
 plugin://slyguy.pbs.live/?_=play&callsign=KAKM&_l=.pvr
@@ -281,16 +235,12 @@ plugin://plugin.video.PLsportowo/?image=%2fstorage%2femulated%2f0%2fAndroid%2fda
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="I282.57394.schedulesdirect.org" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
 plugin://plugin.video.tvone/play/31/play.pvr
-#EXTINF:-1 tvg-id="I25.16800.schedulesdirect.org" tvg-name="" tvg-logo="https://media-usba.mybtv.net/logos/4.5.png" group-title="Cable", Antenna TV
+#EXTINF:-1 tvg-id="WSFLTV3.us" tvg-name="" tvg-logo="https://media-usba.mybtv.net/logos/4.5.png" group-title="Cable", Antenna TV
 https://cdn87.theus6tv.tk/locals/Fresno/kmsg-43.5.m3u8
-#EXTINF:-1 tvg-id="I77.17484.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/AXN_logo.svg/120px-AXN_logo.svg.png" group-title="Cable", AXN
-plugin://plugin.video.tvone1112/play/486/play.pvr
 #EXTINF:-1 tvg-id="I976.87840.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="https://ia800102.us.archive.org/14/items/stevechatfield27_gmail_Bbc1/bbc%201.png" group-title="Cable", BBC 1
 plugin://plugin.video.tvone111/play/1301/play.pvr
 #EXTINF:-1 tvg-id="I969.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="https://ia800600.us.archive.org/26/items/stevechatfield27_gmail_Bbc2/bbc%202.jpg" group-title="Cable", BBC 2
 plugin://plugin.video.tvone/play/46/play.pvr
-#EXTINF:-1 tvg-id="I848.60755.schedulesdirect.org" tvg-name="BBC Three" tvg-logo="http://www.bbc.co.uk/staticarchive/88f03e14f55de6eb696d7bd980e7af606c843ce1.jpg" group-title="Cable", BBC 3
-plugin://plugin.video.tvone11/play/4/266/play.pvr
 #EXTINF:-1 tvg-id="I815.20684.schedulesdirect.org" tvg-name="BBC FOUR" tvg-logo="https://ia800104.us.archive.org/12/items/Bbc4Hd/bbc%204%20hd.png" group-title="Cable", BBC 4
 plugin://plugin.video.tvone/play/43/play.pvr
 #EXTINF:-1 tvg-id="I264.18332.schedulesdirect.org" tvg-name="BBC America HD" tvg-logo="https://ia800800.us.archive.org/19/items/BbcAmerica/bbc%20america.png" group-title="Cable", BBC America
@@ -367,7 +317,7 @@ plugin://plugin.video.tvone/play/691/play.pvr
 #EXTINF:-1 tvg-id="I250.17594.schedulesdirect.org" tvg-name="CTV Vancouver" tvg-logo="http://img2.wikia.nocookie.net/__cb20130421182722/logopedia/images/c/c4/CTV3d.png" group-title="Cable", CTV Vancouver
 plugin://plugin.video.tvone11/play/17/1082/play.pvr
 #EXTINF:-1 tvg-id="5ef0fbed39ff730007383a69" tvg-name="Dabl" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Cable", Dabl
-plugin://slyguy.pluto.tv.provider/?_=play&id=5ef0fbed39ff730007383a69&_l=.pvr
+http://dai.google.com/linear/hls/event/oIKcyC8QThaW4F2KeB-Tdw/master.m3u8
 #EXTINF:-1 tvg-id="I811.24305.schedulesdirect.org" tvg-name="Dave" tvg-logo="https://fanart.tv/fanart/movies/11566/hdmovielogo/dave-5717db724bef8.png" group-title="Cable", Dave
 plugin://plugin.video.tvone11/play/4/278/play.pvr
 #EXTINF:-1 tvg-id="I286.16617.schedulesdirect.org" tvg-name="Destination America HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/55/Destination_America_Logo_2012.png" group-title="Cable", Dest America
@@ -736,7 +686,7 @@ http://stream2.grandma.fit/espn2.m3u8
 #http://164.68.124.111/espn2.m3u8
 #EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://cdn.bleacherreport.net/images/team_logos/328x328/acc_basketball.png" group-title="Sports", ESPN ACC
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdRVNQTiBBQ0MgTmV0d29yayB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9kM2QxNDI4ZTlmZWE0N2VhYjExYTRmMzVmMGJkYTY0ZS9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
-#EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-10-28-2020-232939597-10-28-2020.png" group-title="Sports", ESPN ACCDN
+#EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i0.wp.com/cardinalsportszone.com/wp-content/uploads/2016/08/20160828_090514.png?ssl=1" group-title="Sports", ESPN ACCDN
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
 #EXTINF:-1 tvg-id="I677.72861.schedulesdirect.org" tvg-name="Longhorn Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Longhorn_Network_logo.svg/1024px-Longhorn_Network_logo.svg.png" group-title="Sports", ESPN Longhorn
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
@@ -838,8 +788,6 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f84ce2ac265700008d48dcf&_l=.pvr
 #EXTINF:-1 tvg-id="USBA3000380A" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/08/73/USBA3000380A_20210525T051536.png" group-title="Sports", PlayersTV
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&amp;id=USBA3000380A&amp;_l=.pvr
-#EXTINF:-1 tvg-id="tv.redbull.tv" tvg-name="Red Bull HD" tvg-logo="https://ia803107.us.archive.org/22/items/RedBullTVLogo/Red-Bull-TV-Logo.png" group-title="Sports", Red Bull
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="SkySportAction.uk" tvg-name="SKY Sports Action" tvg-logo="https://archive.org/download/SkySportsAction_201708/sky%20sports%20action.png" group-title="Sports", SKY Action
 plugin://plugin.video.tvone1112/play/95/play.pvr
 #EXTINF:-1 tvg-id="I407.104324.schedulesdirect.org" tvg-name="SKY Sports 1" tvg-logo="http://static.epg.best/gb/SkySportsArena.uk.png" group-title="Sports", SKY Arena
@@ -1034,9 +982,9 @@ plugin://plugin.video.tvone11/play/4/311/play.pvr
 plugin://plugin.video.tvone/play/202/play.pvr
 #EXTINF:-1 tvg-id="I302.49139.schedulesdirect.org" tvg-name="SKY Select" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Select
 plugin://plugin.video.tvone1112/play/172/play.pvr
-#EXTINF:-1 tvg-id="I568.69130.schedulesdirect.org" tvg-name="Sony Movie Channel US" tvg-logo="https://static.epg.best/gb/SonyMoviesAction.uk.png" group-title="Movies", Sony Movies US
+#EXTINF:-1 tvg-id="I568.69130.schedulesdirect.org" tvg-name="Sony Movie Channel East" tvg-logo="https://static.epg.best/gb/SonyMoviesAction.uk.png" group-title="Movies", Sony Movies US
 plugin://plugin.video.tvone/play/291/play.pvr
-#EXTINF:-1 tvg-id="I386.69091.schedulesdirect.org" tvg-name="Sony Movie Channel US" tvg-logo="https://static.epg.best/gb/SonyMoviesAction.uk.png" group-title="Movies", Sony Movies UK
+#EXTINF:-1 tvg-id="I386.69091.schedulesdirect.org" tvg-name="Sony Movie Channel UK" tvg-logo="https://static.epg.best/gb/SonyMoviesAction.uk.png" group-title="Movies", Sony Movies UK
 plugin://plugin.video.tvone/play/291/play.pvr
 #EXTINF:-1 tvg-id="I525.34941.schedulesdirect.org" tvg-name="Starz East" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz East
 plugin://plugin.video.tvone/play/602/play.pvr
@@ -1103,10 +1051,6 @@ http://live-cdn.pbskids.org/out/u/est.m3u8
 https://html5-lh.akamaihd.net/i/html5_01@182967/master.m3u8
 #EXTINF:-1 tvg-id="HSN2.us" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/hsn2.jpg.300x300_q85.jpg" group-title="Shopping", Home Shopping Network 2
 https://hsn2html5-lh.akamaihd.net/i/hsn2html5_01@13178/master.m3u8
-#EXTINF:-1 tvg-id="GemsTV.uk" tvg-name="Gems TV" tvg-logo="https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/TV%2520Guide%2520Widget%2520Logos/EU%2520LOGOS/Gems-TV.png" group-title="Shopping", Gems TV UK
-http://wowzaprod134-i.akamaihd.net/hls/live/577814/ccddaf02/playlist.m3u8
-#EXTINF:-1 tvg-id="JewelleryMaker.uk" tvg-name="Jewellery Maker" tvg-logo="https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/86835/jewellerymakertv_colordark.png" group-title="Shopping", Jewellery Maker
-http://wowzaprod134-i.akamaihd.net/hls/live/577814/ccddaf02/playlist.m3u8
 #EXTINF:-1 tvg-id="JewelryTV.us" tvg-name="" tvg-logo="https://i.imgur.com/1HJraea.png" group-title="Shopping", Jewelry Television
 http://wowzaprod134-i.akamaihd.net/hls/live/577814/ccddaf02/playlist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-05-26-2020-05-26-2020" tvg-name="QVC" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Shopping", QVC
@@ -1117,18 +1061,8 @@ https://lsqvc2us-lh.akamaihd.net/i/lsqvc2us_01@809440/master.m3u8
 https://lsqvc3us-lh.akamaihd.net/i/lsqvc3us_01@809459/master.m3u8
 #EXTINF:-1 tvg-id="BeautyIQ.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC Beauty IQ
 https://lsqvc4us-lh.akamaihd.net/i/lsqvc4us_01@802711/master.m3u8
-#EXTINF:-1 tvg-id="QVCUK.us" tvg-name="" tvg-logo="https://i.imgur.com/A6CDOD3.jpg" group-title="Shopping", QVC UK
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_main_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 tvg-id="QVCBeauty.us" tvg-name="" tvg-logo="https://i.imgur.com/A6CDOD3.jpg" group-title="Shopping", QVC Beauty UK
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 tvg-id="QVCStyle.us" tvg-name="QVC Style" tvg-logo="https://i.imgur.com/A6CDOD3.jpg" group-title="Shopping", QVC Style UK
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_style_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 tvg-id="QVCExtra.us" tvg-name="" tvg-logo="https://i.imgur.com/A6CDOD3.jpg" group-title="Shopping", QVC Extra UK
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_extra_clean/bitrate1.isml/live.m3u8
 #EXTINF:-1 tvg-id="ShopHQ.us" tvg-name="Shop HQ" tvg-logo="https://i.imgur.com/OG8ifFe.png" group-title="Shopping", Shop HQ
 https://aos01-evine.secure.footprint.net/evine/cleanfeed/VIDEO_0_2064000.m3u8
-#EXTINF:-1 tvg-id="ShopLC.us" tvg-name="" tvg-logo="http://a.mktgcdn.com/p/dPmnN3t4j5p_GtwhGkjavu3FHXMCavOR-HsnRz8KhpI/400x400.png" group-title="Shopping", Shop LC
-https://v-pi.mybtv.net/event/4.4/640x480?start_time=2019-12-13T20%3A45%3A00.000Z&end_time=2026&env=prd&uid=29375
 #EXTINF:-1 tvg-id="TheShoppingChannel.us" tvg-name="" tvg-logo="https://i.imgur.com/i3lItFB.png" group-title="Shopping", The Shopping Channel
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 
@@ -1188,30 +1122,14 @@ https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e82
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 #EXTINF:-1 tvg-id="30ADarcizzleOffshore.us" tvg-name="" tvg-logo="https://i.imgur.com/l2O0fY1.png" group-title="24/7", Offshore Fishing
 http://30a-tv.com/darcizzle.m3u8
-#EXTINF:-1 tvg-id="PopularScience.us" tvg-name="" tvg-logo="https://www.bonniercorp.com/wp-content/uploads/2013/06/logo_PopularScience-400x144.png" group-title="24/7", Popular Science
-http://a.jsrdn.com/broadcast/447912f76b/+0000/low/c.m3u8
-#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-name="" tvg-logo="https://userscontent2.emaze.com/images/3aad53e1-b1ed-4615-b73f-5da38c50f186/b6e7a922-ea23-4d64-aaa1-47f1ad5ce794.png" group-title="24/7", Rick and Morty
-http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
-#EXTINF:-1 tvg-id="RobotChicken.us" tvg-name="" tvg-logo="http://i0.kym-cdn.com/entries/icons/facebook/000/015/339/Robot_Chicken.jpg" group-title="24/7", Robot Chicken
-https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.pinimg.com/originals/d6/8c/dd/d68cdd473f7a56f574b7514e24fbc1ce.jpg" group-title="24/7", Squidbillies
 https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream_7.m3u8
-#EXTINF:-1 tvg-id="its-showtime-at-the-apollo" tvg-name="It's Showtime at the Apollo" tvg-logo="https://i.mjh.nz/Stirr/.images/its-showtime-at-the-apollo.png" group-title="24/7", It's Showtime at the Apollo
-plugin://slyguy.stirr.provider/?_=play&id=its-showtime-at-the-apollo&_l=.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7", Surf
 https://0e52d42a12b74a218576cd628069fa50.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_SurfNowTV/1e05afbf-0234-4d61-9406-20bf6719fce5/3.m3u8
 #EXTINF:-1 tvg-id="USBB10000058A" tvg-name="" tvg-logo="https://cdn4.iconfinder.com/data/icons/hotel-vol-3/256/106-512.png" group-title="24/7", Surf 2
 https://1091-surfnowtv-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="5ef3977e5d773400077de284" tvg-name="Three's Company" tvg-logo="https://images.pluto.tv/channels/5ef3977e5d773400077de284/colorLogoPNG.png" group-title="24/7", Three's Company
 plugin://slyguy.pluto.tv.provider/?_=play&id=5ef3977e5d773400077de284&_l=.pvr
-#EXTINF:-1 tvg-id="5f7791b8372da90007fd45e6" tvg-name="The Price Is Right: The Barker Era" tvg-logo="https://images.pluto.tv/channels/5f7791b8372da90007fd45e6/colorLogoPNG.png" group-title="24/7", The Price Is Right
-plugin://slyguy.pluto.tv.provider/?_=play&id=5f7791b8372da90007fd45e6&_l=.pvr
-#EXTINF:-1 tvg-id="5dae084727c8af0009fe40a4" tvg-name="Tosh.0" tvg-logo="https://images.pluto.tv/channels/5dae084727c8af0009fe40a4/colorLogoPNG.png" group-title="24/7", TOSH.0
-plugin://slyguy.pluto.tv.provider/?_=play&id=5dae084727c8af0009fe40a4&_l=.pvr
-#EXTINF:-1 tvg-id="5ab3e1242be690697279c75d" tvg-name="Wipeout" tvg-logo="https://images.pluto.tv/channels/5ab3e1242be690697279c75d/colorLogoPNG.png" group-title="24/7", Wipeout
-plugin://slyguy.pluto.tv.provider/?_=play&id=5ab3e1242be690697279c75d&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-06-25-2020-213812110-06-25-2020" tvg-name="Wipeout Xtra" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-06-25-2020-213812110-06-25-2020.png" group-title="24/7", Wipeout Xtra
-plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-06-25-2020-213812110-06-25-2020&_l=.pvr
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Albany Egg
 https://wms-prod-2.wetmet.net/live/225-05-01/playlist.m3u8
@@ -1223,8 +1141,6 @@ https://wms-prod-1.wetmet.net/live/153-06-01/playlist.m3u8
 https://wms-prod-2.wetmet.net/live/225-08-01/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Lake George
 https://wms-prod-2.wetmet.net/live/225-04-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Lake George Algonquin
-https://videos-3.earthcam.com/fecnetwork/14619.flv/chunklist_w74294994.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Saratoga Springs
 https://wms-prod-2.wetmet.net/live/225-03-01/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Schenectady
@@ -1233,8 +1149,6 @@ https://wms-prod-2.wetmet.net/live/225-02-01/playlist.m3u8
 https://wms-prod-2.wetmet.net/live/225-01-01/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Murrels Inlet Marsh
 https://wms-prod-1.wetmet.net/live/02-18-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Cherry Grove Pier
-https://use01-smr04-relay.ozolio.com/hll-live/_definst_/relay01.ominbry.fd0.sm1.av2.at0.sh2.rt10429.rc0.basic.stream/chunklist_w103050196.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Captain's Quarters
 plugin://plugin.video.youtube/play/?video_id=3Wc7ymW90lM
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Crown Reef
@@ -1298,8 +1212,6 @@ plugin://plugin.video.youtube/play/?video_id=og8bbxl0iW8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://davis-seafood.com/images/wrightsville.png" group-title="Live Web-Cams", Wrightsville Beach
 http://169.47.9.197:1935/live/wb.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ONE1Music.de" tvg-name="" tvg-logo="https://i.imgur.com/fHbHbEH.png" group-title="Music Videos", 1 Music
-https://serve-first.folxplay.tv/folx/ch-3/master.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-name="" tvg-logo="https://yt3.ggpht.com/a/AATXAJxvZdxWvccPdGYqcS-KoK5C8khNULsGIg8lvoOW=s900-c-k-c0xffffffff-no-rj-mo" group-title="Music Videos", 1 Music Channel
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id=""CaliforniaMusicChannel.us" tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/9TbpsS0.png" group-title="Music Videos", California Music Channel
@@ -1369,21 +1281,21 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroMusicTV.cz" tvg-name="RETRO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Retro_Music_TV_logo.png" group-title="Music Videos", RETRO
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-185615218-12-04-2019" tvg-name="Stingray Flashback 70s" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-185615218-12-04-2019.png" group-title="Music Videos", Stingray 70s
+#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-185615218-12-04-2019" tvg-name="Stingray Flashback 70s" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray 70s
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-185615218-12-04-2019&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-184749725-12-04-2019" tvg-name="Stingray Everything 80s" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-184749725-12-04-2019.png" group-title="Music Videos", Stingray 80s
+#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-184749725-12-04-2019" tvg-name="Stingray Everything 80s" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray 80s
 https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f772244d9be0077c/128/master.m3u8
-#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-190935337-12-04-2019" tvg-name="Stingray Rock Alternative" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-190935337-12-04-2019.png" group-title="Music Videos", Stingray Alternative
+#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-190935337-12-04-2019" tvg-name="Stingray Rock Alternative" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray Alternative
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-190935337-12-04-2019&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-192438503-12-04-2019" tvg-name="Stingray Classic Rock" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-192438503-12-04-2019.png" group-title="Music Videos", Stingray Classic Rock
+#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-192438503-12-04-2019" tvg-name="Stingray Classic Rock" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray Classic Rock
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-192438503-12-04-2019&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-185914490-12-04-2019" tvg-name="Stingray Hot Country" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-185914490-12-04-2019.png" group-title="Music Videos", Stingray Country
+#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-185914490-12-04-2019" tvg-name="Stingray Hot Country" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray Country
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-185914490-12-04-2019&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-12-06-2019-12-06-2019" tvg-name="Stingray Hit List" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-06-2019-12-06-2019.png" group-title="Music Videos", Stingray Hit List
+#EXTINF:-1 tvg-id="externallinearfeed-12-06-2019-12-06-2019" tvg-name="Stingray Hit List" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray Hit List
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-06-2019-12-06-2019&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-03-13-2020-03-13-2020" tvg-name="LiveXLive" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-03-13-2020-03-13-2020.png" group-title="Music Videos", Stingray LiveX
+#EXTINF:-1 tvg-id="externallinearfeed-03-13-2020-03-13-2020" tvg-name="LiveXLive" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray LiveX
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-03-13-2020-03-13-2020&_l=.pvr
-#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-190655242-12-04-2019" tvg-name="Stingray Pop Adult" tvg-logo="https://i.mjh.nz/Stirr/.images/externallinearfeed-12-04-2019-190655242-12-04-2019.png" group-title="Music Videos", Stingray Pop Adult
+#EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-190655242-12-04-2019" tvg-name="Stingray Pop Adult" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray Pop Adult
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-190655242-12-04-2019&_l=.pvr
 #EXTINF:-1 tvg-id="TheCountryNetwork.us" tvg-name="The Country Network" tvg-logo="https://vhx.imgix.net/thecountrynetwork/assets/ebce7f33-c71a-458a-8a97-b1f15ff398d9.png" group-title="Music Videos", The Country Network
 https://ott.streann.com/loadbalancer/services/public/channels/5fac1ab92cdcdff351a7123c/playlist.m3u8
