@@ -581,7 +581,7 @@ https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8
 https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8
 #EXTINF:-1 tvg-id="I501.17615.schedulesdirect.org" tvg-name="CTV News" tvg-logo="https://www.bellmedia.ca/wp-content/uploads/2015/01/CTVNEWS_white-500-490x490.png" group-title="News", CTV News
 http://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
-#EXTINF:-1 tvg-id="I225.79318.schedulesdirect.org" tvg-name="DW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_(TV)_Logo_2012.png" group-title="News", Deutsche Welle
+#EXTINF:-1 tvg-id="I225.79318.schedulesdirect.org" tvg-name="Deutsche Welle" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_(TV)_Logo_2012.png" group-title="News", Deutsche Welle
 https://m-c010-j2apps.s.llnwi.net/hls_hd/8024.DWEnglishHD.in.m3u8
 #EXTINF:-1 tvg-id="I508.83671.schedulesdirect.org" tvg-name="Euronews" tvg-logo="https://ia802804.us.archive.org/20/items/euronews_201708/euronews.png" group-title="News", Euronews
 https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
@@ -595,7 +595,7 @@ plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27
 #EXTINF:-1 tvg-id="I9864.70130.schedulesdirect.org" tvg-name="France 24" tvg-logo="http://static.epg.best/fr/France24English.fr.png" group-title="News", France 24
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/lusogamer.com/wp-content/uploads/2021/04/Frank-Speech-App.png" group-title="News", Frank Speech
-https://frnksocial.mmdlive.lldns.net/frnksocial/5d9ea07faa964dec8f1a2ca71a9af4b3/manifest.m3u8
+https://cdn3.wowza.com/1/b3JJSjBvNWovcEdp/SVVPQXNk/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Logo_of_Free_Speech_TV.png" group-title="News", Free Speech
 https://edge.free-speech-tv-live.top.comcast.net/out/u/fstv.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.uk/view-resources/dachser2/public/gbnews_landing/hero-new.png" group-title="News", GBN
@@ -1076,8 +1076,8 @@ https://linear-12.frequency.stream/dist/roku/12/hls/master/playlist.m3u8
 plugin://plugin.video.youtube/play/?video_id=P7EB3Zxqj7g
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pngimg.com/uploads/aquarium/aquarium_PNG54.png" group-title="24/7", Aquarium 2
 plugin://plugin.video.youtube/play/?video_id=9X68mdwJJZE
-#EXTINF:-1 tvg-id="BeachTVPawleysIsland.us" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", Beach TV [COLOR magenta] (3 items )[/COLOR]
-plugin://plugin.video.live.streamspro/?mode=13&amp;name=Beach+TV&amp;playlist=%5B%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FMTVHD%2Fplaylist.m3u8%24%24lsname%3DMyrtle+Beach%27%7C%7C+%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FDTVHD%2Fplaylist.m3u8%24%24lsname%3DFlorida+-+Alabama%27%7C%7C+%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FBTVHD%2Fplaylist.m3u8%24%24lsname%3DPanama+City%27%7C%7C+%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FKTVHD%2Fchunklist_w363623166.m3u8%24%24lsname%3DKey+West%27%5D
+#EXTINF:-1 tvg-id="BeachTVPawleysIsland.us" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", Beach TV [COLOR magenta] (5 items )[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=Beach+TV&playlist=%5B%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FDTVHD%2Fplaylist.m3u8%24%24lsname%3DFlorida+-+Alabama%27%7C%7C+%27https%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FKTVHD%2Fplaylist.m3u8%24%24lsname%3DKey+West%27%7C%7C+%27https%3A%2F%2F5ed325193d4e1.streamlock.net%3A444%2FLiveTV%2FMTVHD%2Fplaylist.m3u8%24%24lsname%3DMyrtle+Beach%27%7C%7C+%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FBTVHD%2Fplaylist.m3u8%24%24lsname%3DPanama+City%27%7C%7C+%22http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FMTVHD%2Fplaylist.m3u8%24%24lsname%3DPawley%27s+Island%22%5D
 #EXTINF:-1 tvg-id="beverly-hillbillies-01-16-2020" tvg-name="" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/2855ccff-6344-45e2-a8d0-54982f399f5c-small3x1_stirr_0120_epg_TheBeverlyHillbillies_1920x1080.png?cb=eccbc87e4b5ce2fe28308fd9f2a7baf3" group-title="24/7", Beverly Hillbillies
 https://dai.google.com/linear/hls/event/TEeUv9DbStyK8DyFmG3Cfw/master.m3u8
 #EXTINF:-1 tvg-id="stirr-biographies-10-10-2019" tvg-name="STIRR Biographies" tvg-logo="https://i.mjh.nz/Stirr/.images/stirr-biographies-10-10-2019.png" group-title="24/7", Biographies
