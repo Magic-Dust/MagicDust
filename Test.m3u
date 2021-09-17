@@ -36,7 +36,7 @@ https://d2dy6pkj44n6e7.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5
 #EXTINF:-1 tvg-id="nbc.nc.charlotte.wcnc" tvg-name="" tvg-logo="https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/WCNC-TV__55b5f0/NBC_Charlotte.png__23002.png" group-title="Broadcast", WCNC Charlotte NBC
 https://livevideo01.wcnc.com/hls/live/2015505/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="fox.il.chicago.wfld" tvg-name="WFLD FOX 32 Chicago" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Broadcast", WFLD Chicago FOX
-https://lnc-wfld-fox-aws.tubi.video/index.m3u8
+https://iptv-all.lanesh4d0w.codes/united-states/fox-chicago
 #EXTINF:-1 tvg-id="abc.oh.cleveland.wews" tvg-name="WEWS 5 ABC Cleveland News" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/606e0f9a9739652ec518e8c1" group-title="Broadcast", WEWS Cleveland ABC
 https://wews-syndication.ewscloud.com/out/v1/72729e3f4dbe4aafbab93d6b1117e5f1/index.m3u8
 #EXTINF:-1 tvg-id="nbc.oh.cleveland.wkyc" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/e/e5/WKYC_3_1999.svg/revision/latest/scale-to-width-down/200?cb=20160127213331" group-title="Broadcast", WKYC Cleveland NBC
@@ -693,6 +693,8 @@ plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-23293959
 #http://stream2.grandma.fit/espnews.m3u8
 #http://164.68.124.111/espnews.m3u8
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustvgo.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustvgo.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustvgo.tv/espnews/%27%7D%7D
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Plus" tvg-logo="https://clipground.com/images/espn-plus-logo-clipart-5.png" group-title="Sports", ESPN Plus
+http://stream.tvtap.live:8081/live/espnusahd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="SEC Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/sec_network.png" group-title="Sports", ESPN SEC
 http://stream2.grandma.fit/sec.m3u8
 #http://164.68.124.111/sec.m3u8
@@ -1413,8 +1415,6 @@ https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/playlist.
 http://cdn.adultiptv.net/milf.m3u8
 #EXTINF:-1 tvg-id="BrazzersTV.us" tvg-name="Brazzers TV" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/295
-#EXTINF:-1 tvg-id="BrazzersTVEurope.us" tvg-name="Brazzers TV" tvg-logo="https://cardsharing-server.tv/wp-content/uploads/2018/10/Brazzers-TV.png" group-title="Adult TV", Brazzers UK
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/295
 #EXTINF:-1 tvg-id="DorcelTV.nl" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a6/Dorcel_TV_Logo.svg/200px-Dorcel_TV_Logo.svg.png" group-title="Adult TV", Dorcel
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/294
 #EXTINF:-1 tvg-id="EPG123.NULL.schedulesdirect.org" tvg-name="Dusk" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/3774.png" group-title="Adult TV", Dusk
@@ -1422,17 +1422,17 @@ http://187.188.147.165:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="EroxHD.us" tvg-name="" tvg-logo="http://tvtvtv.ru/icons/erox_hd.png" group-title="Adult TV", EROX
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/292
 #EXTINF:-1 tvg-id="HustlerHDEurope.us" tvg-name="Hustler TV" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/1019.png" group-title="Adult TV", Hustler TV
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER;name=Dish;url=http://portal.simiptv.co.uk:8080/alipajiuk/oRGQpcPAkZ/282
-#EXTINF:-1 tvg-id="HustlerTV.us" tvg-name="Hustler TV" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/1019.png" group-title="Adult TV", Hustler HD
 http://188.35.9.26:2030/udp/047c
 #EXTINF:-1 tvg-id="BlueHustlerEurope.us" tvg-name="" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/1019.png" group-title="Adult TV", Blue Hustler
 http://46.23.144.153:81/udp/239.1.6.36:1234
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
 http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - MAIN STAGE
-https://2001live-videos.s3.amazonaws.com/MSTeaserAug2020/playlist.m3u8
+https://keycdn.2001live.com/MSTeaserJun2021/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - MAIN STAGE POV
+https://keycdn.2001live.com/MSPOVTeaserJun2021/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - DRESSING  ROOM
-https://2001live-videos.s3.amazonaws.com/DRTeaserOct2020/playlist.m3u8
+https://keycdn.2001live.com/DRTeaserJuly2021/playlist.m3u8
 #EXTINF:-1 tvg-id="MiamiTV.us" tvg-name="" tvg-logo="http://www.giniko.com/logos/190x110/95.png" group-title="Adult TV", Miami TV
 https://59ec5453559f0.streamlock.net/miamitv/smil:miamitvWEB/chunklist_w214662580_b2592000.m3u8
 #EXTINF:-1 tvg-id="MiamiTV.us" tvg-name="" tvg-logo="http://www.giniko.com/logos/190x110/95.png" group-title="Adult TV", Miami TV HD
