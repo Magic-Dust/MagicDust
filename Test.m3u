@@ -634,7 +634,8 @@ https://live.rte.ie/live/a/channel3/news.isml/news-video=144960.m3u8
 #EXTINF:-1 tvg-id="I875.16234.schedulesdirect.org" tvg-name="SKY News" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News
 http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/latest.m3u8
 #EXTINF:-1 tvg-id="TheFirst.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc953ab6426646dbd7347b4" group-title="News", The First
-https://redseat-thefirst-glewedtv.amagi.tv/index.m3u8
+#https://redseat-thefirst-glewedtv.amagi.tv/index.m3u8
+https://thefirst-oando.amagi.tv/hls/amagi_hls_data_thefirstd-thefirst-oando/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="VoATV.us" tvg-name="Voice of America" tvg-logo="https://i.imgur.com/7zieaS3.png" group-title="News", Voice of America
 https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
 #EXTINF:-1 tvg-id="WSJ.us" tvg-name="" tvg-logo="https://newcanaanlibrary.org/wp-content/uploads/2016/12/wsj.png" group-title="News", Wall Street Journal
@@ -764,13 +765,15 @@ https://bcovlive-a.akamaihd.net/f1fe983d710642b08c2232d4f5e1bb49/us-east-1/61415
 #EXTINF:-1 tvg-id="I154.45399.schedulesdirect.org" tvg-name="NFL Network HD" tvg-logo="https://static.epg.best/us/NFLNetwork.us.png" group-title="Sports", NFL Network
 plugin://plugin.video.tvone/play/164/play.pvr
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone
-plugin://plugin.video.thecrew/?action=play&url=%24doregex%5Bmakelist2%5D%7Cregex%3D5358d5a0e62e201627742c22fb1ff0a9&content=0
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone HD
-plugin://plugin.video.thecrew/?action=play&url=%24doregex%5Bmakelist2%5D%7Cregex%3Dc7246be30f8d4bd74ddadeb60fd4e93b&content=0
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone 1080
-https://d35mj76pqe199h.cloudfront.net/out/v1/cb59c0a67871485da9a67c4da0470e82/index.m3u8
+plugin://plugin.video.sporthdme/?description=%5bCOLORred%5d%2a%5b%2fCOLOR%5d%5bCOLORgold%5d%5bI%5d01%3a00%20PM%5b%2fCOLOR%5d%5b%2fI%5d%20%5bB%5dRedZone%20American%20Football%5b%2fB%5d%20-%20%5bI%5dAmerican%20Football%5b%2fI%5d&amp;iconimage=http%3a%2f%2fwww.sporthd.live%2fimages%2fnfl.png&amp;mode=4&amp;name=%5bCOLORred%5d%2a%5b%2fCOLOR%5d%5bCOLORgold%5d%5bI%5d01%3a00%20PM%5b%2fCOLOR%5d%5b%2fI%5d%20%5bB%5dRedZone%20American%20Football%5b%2fB%5d%20-%20%5bI%5dAmerican%20Football%5b%2fI%5d&amp;url=aW5mb19vdXRsaW5lPC9pPjwvc3Bhbj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDtQbGVhc2UgbG9naW4gb3IgcmVnaXN0ZXIgdG8gaGF2ZSBhY2Nlc3MgdG8gdGhlIHN0cmVhbXMgaW4gSEQgYW5kIHdpdGhvdXQgbGFnLiA8YSBocmVmPSIvYWRtaW4vbG9naW4ucGhwIj5Mb2dpbiAvIFJlZ2lzdGVyIGhlcmU%253D
+#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone SICILANO
+plugin://plugin.video.thecrew/?action=play&amp;url=%24doregex%5Bmakelist2%5D%7Cregex%3D5358d5a0e62e201627742c22fb1ff0a9&amp;content=0
+#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone HANSON
+plugin://plugin.video.thecrew/?action=play&amp;url=%24doregex%5Bmakelist%5D%7Cregex%3D60fcf6b3cf7df22ee5628af8fe72c57c&amp;content=addons
+#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Sling
+plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJORkwgUmVkem9uZSAiLCAibGluayI6IFsiaHR0cHM6Ly9zNGFwcHRtcGFwcjIwMTkwOS5oZXJva3VhcHAuY29tL2xpdmUtaS1tYWluLW5mbHZpZGVvLmFrYW1haXplZC5uZXQvY2gyMS8yMDlhNDYxMC02YWM3LTQ3NzktYWQwZi1lNzljODcyMTMyZWYvMjA5YTQ2MTAtNmFjNy00Nzc5LWFkMGYtZTc5Yzg3MjEzMmVmLmlzbS9leHA9MTYzMTUxNDM4Mn5hY2w9JTJmKn5kYXRhPWhkbnRsLDdmZmZmYzljLWRjMDgtNDViZS1iNGI4LTgwZjY1MDY5NTg3MH5obWFjPTM2OWZkNzRiNGUwN2FkMjBkYmRhZmJjMzdhYTEzMmYwODU0YmRlMzllMjkyNDIyMmIwNTU2ZTQ0M2MxNjgyYTkvUXVhbGl0eUxldmVscyg0NzQ5OTUyKS9NYW5pZmVzdCh2aWRlbyxmb3JtYXQ9bTN1OC1hYXBsLXYzLGF1ZGlvdHJhY2s9YXVkaW8sZmlsdGVyPWhscyk_aGtleXZhbHVlX1hDU0tqcWcwL1NZUlVRcjRJWVAzMmc9PV92aWRlbz0xLm0zdTgiLCAiaHR0cDovL3NvbGF5ZXIuYXp1cmVlZGdlLm5ldC9obHMvcmVkem9uZS9jaHVua3MubTN1OHxSZWZlcmVyPWh0dHA6Ly9iZXN0c29sYXJpcy5jb20vIiwgImh0dHA6Ly9kcWVzaHB6ZzFxYnp0LmNsb3VkZnJvbnQubmV0L3N0cmVhbXMvUkVEWk9ORS9jaHVua3MubTN1OHxSZWZlcmVyPWh0dHA6Ly9jcmFja3N0cmVhbXMuYml6LyJdLCAidGh1bWJuYWlsIjogImh0dHBzOi8vd3d3LmRhaWx5ZG90LmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxNy8wOC9uZmwtcmVkem9uZS1sb2dvLTIwMDB4MTAwMC0xLTEwMjR4NTEyLmpwZyIsICJmYW5hcnQiOiAiaHR0cHM6Ly9jZG4xMS5iaWdjb21tZXJjZS5jb20vcy1rNXhiM2Q1bmx1L2ltYWdlcy9zdGVuY2lsLzIwNDh4MjA0OC9wcm9kdWN0cy85MC8zMjEvRGFsbGFzX0Nvd2JveXNfTmV3XzAxXzEzeDE5X0xSXzUzMDhfRGFsQ293MDEtMTN4MTktU3RhZGl1bUFydENvbS0xMDI4cHhfXzY4NjQ3LjE1MjAyOTE0OTAuanBnP2M9MiIsICJ0eXBlIjogIml0ZW0ifQ==&
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Youtube
-plugin://plugin.video.youtube/play/?video_id=kpYwXisq8-s
+plugin://plugin.video.youtube/play/?video_id=m2fqG70seYI
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://plugin.video.tvone/play/494/play.pvr
 #EXTINF:-1 tvg-id="I624.104186.schedulesdirect.org" tvg-name="Olympic Channel" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Sports", Olympic Channel
