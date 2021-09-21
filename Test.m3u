@@ -586,7 +586,7 @@ https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20
 #EXTINF:-1 tvg-id="I359.58649.schedulesdirect.org" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
-https://bozztv.com/teleyupp/AsEAeOtIxz/tracks-v1a1/mono.m3u8
+http://1111296894.rsc.cdn77.org/ls-54548-2/mono.m3u8
 #http://stream2.grandma.fit/btn.m3u8
 #EXTINF:-1 tvg-id="USBA300024TN" tvg-name="FOX News Now" tvg-logo="https://i.imgur.com/hc5a1YP.png" group-title="News", Fox LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-samsungus.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DFox+News+Now%27%7C%7C+%27https%3A%2F%2Fsvc-lvanvato-cxtv-wfxt.cmgvideo.com%2Fwfxt%2F2564k%2Findex.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flnc-kdfw-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DDallas%27%7C%7C+%27https%3A%2F%2Flnc-kriv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DHouston%27%7C%7C+%27https%3A%2F%2Flnc-kttv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DLos+Angeles%27%7C%7C+%27https%3A%2F%2Flnc-ksaz-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DPhoenix%27%7C%7C+%27https%3A%2F%2Flnc-ktvu-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSan+Francisco%27%7C%7C+%27https%3A%2F%2Flnc-kcpq-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSeattle%27%5D
@@ -634,15 +634,14 @@ https://live.rte.ie/live/a/channel3/news.isml/news-video=144960.m3u8
 #EXTINF:-1 tvg-id="I875.16234.schedulesdirect.org" tvg-name="SKY News" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News
 http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/latest.m3u8
 #EXTINF:-1 tvg-id="TheFirst.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc953ab6426646dbd7347b4" group-title="News", The First
-#https://redseat-thefirst-glewedtv.amagi.tv/index.m3u8
-https://thefirst-oando.amagi.tv/hls/amagi_hls_data_thefirstd-thefirst-oando/CDN/playlist.m3u8
+https://redseat-thefirst-glewedtv.amagi.tv/index720p.m3u8
 #EXTINF:-1 tvg-id="VoATV.us" tvg-name="Voice of America" tvg-logo="https://i.imgur.com/7zieaS3.png" group-title="News", Voice of America
 https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
 #EXTINF:-1 tvg-id="WSJ.us" tvg-name="" tvg-logo="https://newcanaanlibrary.org/wp-content/uploads/2016/12/wsj.png" group-title="News", Wall Street Journal
 http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable", Weather Channel
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%7D%7D
-#https://weather-lh.akamaihd.net/i/twc_1@92006/index_1200_av-p.m3u8?sd=10&rebase=on
+#plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%7D%7D
+https://cdn88.theus6tv.tk/united-states/cable/the-weather-channel.m3u8
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
 #EXTINF:-1 tvg-id="USAJ4300005PJ" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/YahooFinance_450x450.png?raw=true" group-title="News", Yahoo! Finance
@@ -1431,10 +1430,13 @@ http://46.23.144.153:81/udp/239.1.6.36:1234
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.rokuguide.com/sites/default/files/logos/jasmintv.png" group-title="Adult TV", Jasmin TV HD
 http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - MAIN STAGE
+#EXTVLCOPT:http-referrer=https://2001live.com/
 https://keycdn.2001live.com/MSTeaserJun2021/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - MAIN STAGE POV
+#EXTVLCOPT:http-referrer=https://2001live.com/
 https://keycdn.2001live.com/MSPOVTeaserJun2021/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://stripjointsmusic.com/wp-content/uploads/2017/04/SJ_Logo_Name-Girl-300x231-1-300x231.png" group-title="Adult TV", LIVE STRIP CLUB - DRESSING  ROOM
+#EXTVLCOPT:http-referrer=https://2001live.com/
 https://keycdn.2001live.com/DRTeaserJuly2021/playlist.m3u8
 #EXTINF:-1 tvg-id="MiamiTV.us" tvg-name="" tvg-logo="http://www.giniko.com/logos/190x110/95.png" group-title="Adult TV", Miami TV
 https://59ec5453559f0.streamlock.net/miamitv/smil:miamitvWEB/chunklist_w214662580_b2592000.m3u8
