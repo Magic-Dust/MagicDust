@@ -15,7 +15,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #EXTINF:-1 tvg-id="cbs.ny.albany.wrgb" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/WRGB_CBS6_2016_logo.png" group-title="Broadcast", WRGB ALBANY CBS6
 https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8
 #EXTINF:-1 tvg-id="fox.ny.albany.wxxa" tvg-logo="http://img1.wikia.nocookie.net/__cb20130101220914/logopedia/images/6/63/Wxxa_2007.png" group-title="Broadcast", WXXA ALBANY FOX23
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
+http://31.220.41.88:8081/live/us-paramount.stream/playlist.m3u8?token=null
 #EXTINF:-1 tvg-id="nbc.ny.albany.wnyt" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7d/Wnyt_2008.png" group-title="Broadcast;News", WNYT ALBANY NBC13
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-nbc-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="abc.ga.atlanta.wsb" tvg-name="" tvg-logo="https://i.imgur.com/HkY10xX.jpg" group-title="Broadcast", WSBTV Atlanta ABC
@@ -103,9 +103,7 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 #EXTINF:-1 tvg-id="cbs.nc.raleigh.wncn" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", WNCN RALEIGH CBS
 https://livevideo01.wfmynews2.com/hls/live/2016285/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="fox.nc.raleigh.wraz" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", WRAZ RALEIGH FOX
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
-
-
+http://31.220.41.88:8081/live/us-paramount.stream/playlist.m3u8?token=null
 #EXTINF:-1 tvg-id="nbc.nc.raleigh.wral" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Broadcast;News", WRAL RALEIGH NBC
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Fnews%2Fvideo%2F1082826%2F
 #EXTINF:-1 tvg-id="abc.fl.tampa.wfts" tvg-name="" tvg-logo="http://static3.wikia.nocookie.net/__cb20110330062436/logopedia/images/b/b6/Wfts2008.png" group-title="Broadcast", WFTS Tampa ABC
@@ -224,8 +222,6 @@ plugin://plugin.video.tvone/play/425/play.pvr
 plugin://slyguy.pluto.tv.provider/?_=play&id=5ca670f6593a5d78f0e85aed&_l=.pvr
 #EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="Bravo East" tvg-logo="https://ia800807.us.archive.org/18/items/BravoHd/bravo%20hd.png" group-title="Cable", Bravo
 plugin://plugin.video.tvone11/play/5/173/play.pvr
-#EXTINF:-1 tvg-id="Bounce.us" tvg-name="Bounce" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/70/Bounce_TV_2017_Logo.png" group-title="Cable", Bounce
-https://bozztv.com/teleyupp/teleup-bounce/playlist.m3u8
 #EXTINF:-1 tvg-id="5812bfbe4ced4f7b601b12e6" tvg-name="Buzzr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Buzzr_%28TV_Network%29_Logo.png" group-title="Cable", Buzzr
 https://buzzrota-web.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I374.21855.schedulesdirect.org" tvg-name="ByuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/BYUtv_logo.svg/200px-BYUtv_logo.svg.png" group-title="Cable", ByuTV
@@ -307,7 +303,7 @@ plugin://plugin.video.tvone/play/92/play.pvr
 plugin://plugin.video.tvone11/play/5/1846/play.pvr
 #EXTINF:-1 tvg-id="I285.16615.schedulesdirect.org" tvg-name="Discovery ID" tvg-logo="https://ia800800.us.archive.org/3/items/InvestigationDiscovery_201708/investigation%20discovery.png" group-title="Cable", Discovery ID
 plugin://plugin.video.tvone111/play/1015/play.pvr
-#EXTINF:-1 tvg-id="I368.58793.schedulesdirect.org" tvg-name="Dmax" tvg-logo="https://ia800803.us.archive.org/24/items/stevechatfield27_gmail_Dmax/dmax.png" group-title="Cable", DMAX
+#EXTINF:-1 tvg-id="I172.58793.schedulesdirect.org" tvg-name="Dmax" tvg-logo="https://ia800803.us.archive.org/24/items/stevechatfield27_gmail_Dmax/dmax.png" group-title="Cable", DMAX
 plugin://plugin.video.tvone/play/97/play.pvr
 #EXTINF:-1 tvg-id="I284.16616.schedulesdirect.org" tvg-name="Science Channel" tvg-logo="https://ia800809.us.archive.org/11/items/DiscoveryScience/discovery%20science.png" group-title="Cable", Disc Science
 plugin://plugin.video.tvone/play/488/play.pvr
@@ -728,6 +724,8 @@ plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJbQ09MT1Jkb2RnZXJi
 plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJbQ09MT1Jkb2RnZXJibHVlXVtDT0xPUndoaXRlXSB8W0JdW0ldIE5GTCBSZWRab25lWy9CXVsvSV1cbiAgW0NPTE9ScmVkXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICIiLCAiZmFuYXJ0IjogIiIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHBzOi8vdXN0dmdvLnR2L25mbC1yZWR6b25lLyJdLCAidHlwZSI6ICJpdGVtIn0
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Crackstream
 plugin://plugin.video.PLsportowo/?mode=playcrackstreams&url=https%3A%2F%2Fbuffstream.io%2Fnfl-streams%2Fnfl-red-zone-live-stream&image=http%3A%2F%2Fcrackstreams.is%2Fimages%2Fnfl.png&title=NFL+Redzone
+#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Loop
+plugin://plugin.video.the-loop/play_video/eyJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHBzOi8vdXN0dmdvLnR2L25mbC1yZWR6b25lLyJdLCAidGl0bGUiOiAiW0NPTE9SIGtoYWtpXU5GTCBSZWRab25lIFsvQ09MT1JdIiwgInR5cGUiOiAiaXRlbSIsICJmYW5hcnQiOiAiaHR0cHM6Ly9pLmltZ3VyLmNvbS81WUNEOFp2LmpwZyIsICJ0aHVtYm5haWwiOiAiaHR0cHM6Ly9pLmltZ3VyLmNvbS83bmx4alRJLnBuZyJ9
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://plugin.video.tvone/play/494/play.pvr
 #EXTINF:-1 tvg-id="I624.104186.schedulesdirect.org" tvg-name="Olympic Channel" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Sports", Olympic Channel
@@ -888,7 +886,7 @@ plugin://plugin.video.tvone/play/470/play.pvr
 #EXTINF:-1 tvg-id="I519.59948.schedulesdirect.org" tvg-name="ActionMax East" tvg-logo="https://ia803107.us.archive.org/34/items/ActionMax/action%20max.png" group-title="Movies", ActionMax
 plugin://plugin.video.tvone/play/468/play.pvr
 #EXTINF:-1 tvg-id="I515.34933.schedulesdirect.org" tvg-name="Cinemax East HD" tvg-logo="https://ia800603.us.archive.org/7/items/CinemaxHd/cinemax%20hd.png" group-title="Movies", Cinemax East
-plugin://plugin.video.tvone111/play/1279/play.pvr
+http://31.220.41.88:8081/live/us-cinemax.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="I516.35975.schedulesdirect.org" tvg-name="Cinemax West" tvg-logo="https://ia803104.us.archive.org/22/items/cinemax_201805/cinemax.png" group-title="Movies", Cinemax West
 plugin://plugin.video.tvone1112/play/1983/play.pvr
 #EXTINF:-1 tvg-id="I517.10121.schedulesdirect.org" tvg-name="MoreMax" tvg-logo="https://ia800802.us.archive.org/5/items/CinemaxMoremax/cinemax%20moremax.png" group-title="Movies", MoreMax
@@ -931,13 +929,11 @@ plugin://plugin.video.tvone11/play/4/312/play.pvr
 plugin://plugin.video.tvone/play/197/play.pvr
 #EXTINF:-1 tvg-id="I1000.50176.schedulesdirect.org" tvg-name="SKY Crime & Thriller" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Crime & Thriller
 plugin://plugin.video.tvone1112/play/177/play.pvr
-#EXTINF:-1 tvg-id="I847.68466.schedulesdirect.org" tvg-name="SKY Disney" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Disney
-plugin://plugin.video.tvone/play/194/play.pvr
 #EXTINF:-1 tvg-id="I985.61179.schedulesdirect.org" tvg-name="SKY Movies Drama" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Drama
 plugin://plugin.video.tvone/play/199/play.pvr
 #EXTINF:-1 tvg-id="I987.61181.schedulesdirect.org" tvg-name="SKY Family" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Family
 plugin://plugin.video.tvone/play/200/play.pvr
-#EXTINF:-1 tvg-id="I994.59691.schedulesdirect.org" tvg-name="SKY Modern Greats" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Modern Greats
+#EXTINF:-1 tvg-id="I989.61180.schedulesdirect.org" tvg-name="SKY Modern Greats" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Modern Greats
 plugin://plugin.video.tvone1112/play/175/play.pvr
 #EXTINF:-1 tvg-id="I995.59691.schedulesdirect.org" tvg-name="SKY Premiere" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Premiere
 plugin://plugin.video.tvone11/play/4/311/play.pvr
@@ -956,7 +952,7 @@ plugin://plugin.video.tvone111/play/1262/play.pvr
 #EXTINF:-1 tvg-id="I531.67236.schedulesdirect.org" tvg-name="Starz Cinema East" tvg-logo="http://static3.wikia.nocookie.net/__cb20100919034043/logopedia/images/8/84/Starz_Cinema.jpg" group-title="Movies", Starz Cinema
 plugin://plugin.video.tvone/play/482/play.pvr
 #EXTINF:-1 tvg-id="I528.57569.schedulesdirect.org" tvg-name="Starz Comedy East" tvg-logo="http://images1.wikia.nocookie.net/__cb20100919034133/logopedia/images/d/d6/Starz_Comedy.jpg" group-title="Movies", Starz Comedy
-plugin://plugin.video.tvone11/play/5/169/play.pvr
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdU3RhcnogQ29tZWR5IHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzL2Q5NmIxMDJhYzVjNTQ5NjdiZjU2YjhiNTdlMjBjODRlL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
 #EXTINF:-1 tvg-id="I529.16311.schedulesdirect.org" tvg-name="Starz Edge East HD" tvg-logo="http://images2.wikia.nocookie.net/__cb20100919034218/logopedia/images/5/58/Starz_Edge.jpg" group-title="Movies", Starz Edge
 plugin://plugin.video.tvone/play/484/play.pvr
 #EXTINF:-1 tvg-id="I535.10178.schedulesdirect.org" tvg-name="Encore East" tvg-logo="http://images2.wikia.nocookie.net/__cb20100919034218/logopedia/images/5/58/Starz_Edge.jpg" group-title="Movies", Starz Encore HD
