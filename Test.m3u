@@ -201,7 +201,7 @@ https://amc-amcpresents-1.vizio.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="AMCRush.us" tvg-name="AMC Rush" tvg-logo="https://i.imgur.com/yngqRL8.png" group-title="Cable", AMC Rush
 https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", AHC
-plugin://plugin.video.PLsportowo/?image=%2fstorage%2femulated%2f0%2fAndroid%2fdata%2forg.xbmc.kodi%2ffiles%2f.kodi%2faddons%2fplugin.video.PLsportowo%2fresources%2fplay.png&mode=getsportsbayLinks&title=%5bB%5d22%3a49%20%5bCOLOR%20gold%5dAHC%5b%2fCOLOR%5d%5bCOLOR%20khaki%5d%20-%20US%20TV%20Channels%20%5b%2fCOLOR%5d%5b%2fB%5d&url=https%3a%2f%2fsportsbay.org%2fwatch%2f70077%2f1%2fahc-live.html
+plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DAmerican+Heroes+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2F60329dee602d4e9c8a18524d4a01ff9d%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
 #EXTINF:-1 tvg-id="WKFKLD3.us" tvg-name="AMG" tvg-logo="https://amgtv.tv/wp-content/uploads/2019/11/new_amgtv_PNG.png" group-title="Cable", AMG
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="I282.57394.schedulesdirect.org" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
@@ -635,6 +635,10 @@ plugin://plugin.video.tvone/play/298/play.pvr
 plugin://plugin.video.tvone/play/416/play.pvr
 #EXTINF:-1 tvg-id="5e9f2c05172a0f0007db4786" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/CBS_Sports_HQ.png" group-title="Sports", CBS HQ
 https://dai.google.com/linear/hls/pa/event/9Lq0ERvoSR-z9AwvFS-xYA/stream/d72fcd11-9c68-4240-bb85-0e7fed1d38cd:MRN2/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.politico.com/dims4/default/ff36141/2147483647/resize/1160x%3E/quality/90/?url=https:%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa%20-%20draftkings%20.png" group-title="Sports", DraftKings
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdRHJhZnRLaW5ncyBCYXNlYmFsbCB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9iZTBkODk0ZGUxODY0MTUxOWNlMmY5NTg3YzBkNDAwYy9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
+#EXTINF:-1 tvg-id="USBA300039YG" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/05/51/USBA300039YG_20210525T051538.png" group-title="Sports", EDGEsport
+plugin://slyguy.samsung.tv.plus/?_=play&amp;_play=1&id=USBA300039YG&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I206.10179.schedulesdirect.org" tvg-name="ESPN US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/220px-ESPN_wordmark.svg.png" group-title="Sports", ESPN
 #http://stream2.grandma.fit/fs2.m3u8
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7Cuser-agent%3Dipad%26referer%3Dhttps%3A%2F%2Fwww.eplayer.to%2F&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27Clappr.Player%5B%5C%5Cw%5C%5CW%5D%2B%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%27%2C%20%27page%27%3A%20%27https%3A//www.eplayer.to/poscitech.php%3Flive%3D44%27%2C%20%27referer%27%3A%20%27https%3A//poscitech.club/tv/ch116.php%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
@@ -717,18 +721,6 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 #plugin://plugin.video.tvone/play/164/play.pvr
 #EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7Cuser-agent%3Dipad%26referer%3Dhttps%3A%2F%2Fwww.eplayer.to%2F&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27Clappr.Player%5B%5C%5Cw%5C%5CW%5D%2B%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%27%2C%20%27page%27%3A%20%27https%3A//www.eplayer.to/poscitech.php%3Flive%3D5%27%2C%20%27referer%27%3A%20%27https%3A//poscitech.club/tv/ch116.php%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone SICILANO
-plugin://plugin.video.thecrew/?action=play&url=%24doregex%5Bmakelist2%5D%7Cregex%3D5358d5a0e62e201627742c22fb1ff0a9&content=0
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone HANSON
-https://d7hi1u858ph26.cloudfront.net/out/v1/4e840a9d18034d67ba9a439f741d06ff/index.m3u8
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Sling
-plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJbQ09MT1Jkb2RnZXJibHVlXVtDT0xPUndoaXRlXSB8W0JdW0ldIE5GTCBSZWRab25lWy9CXVsvSV1cbiAgW0NPTE9ScmVkXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICIiLCAiZmFuYXJ0IjogIiIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHBzOi8vdXN0dmdvLnR2L25mbC1yZWR6b25lLyJdLCAidHlwZSI6ICJpdGVtIn0=
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone USTVGO
-plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJbQ09MT1Jkb2RnZXJibHVlXVtDT0xPUndoaXRlXSB8W0JdW0ldIE5GTCBSZWRab25lWy9CXVsvSV1cbiAgW0NPTE9ScmVkXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICIiLCAiZmFuYXJ0IjogIiIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHBzOi8vdXN0dmdvLnR2L25mbC1yZWR6b25lLyJdLCAidHlwZSI6ICJpdGVtIn0
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Crackstream
-plugin://plugin.video.PLsportowo/?mode=playcrackstreams&url=https%3A%2F%2Fbuffstream.io%2Fnfl-streams%2Fnfl-red-zone-live-stream&image=http%3A%2F%2Fcrackstreams.is%2Fimages%2Fnfl.png&title=NFL+Redzone
-#EXTINF:-1 tvg-id="I703.65025.schedulesdirect.org" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone Loop
-plugin://plugin.video.the-loop/play_video/eyJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHBzOi8vdXN0dmdvLnR2L25mbC1yZWR6b25lLyJdLCAidGl0bGUiOiAiW0NPTE9SIGtoYWtpXU5GTCBSZWRab25lIFsvQ09MT1JdIiwgInR5cGUiOiAiaXRlbSIsICJmYW5hcnQiOiAiaHR0cHM6Ly9pLmltZ3VyLmNvbS81WUNEOFp2LmpwZyIsICJ0aHVtYm5haWwiOiAiaHR0cHM6Ly9pLmltZ3VyLmNvbS83bmx4alRJLnBuZyJ9
 #EXTINF:-1 tvg-id="I215.58570.schedulesdirect.org" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://plugin.video.tvone/play/494/play.pvr
 #EXTINF:-1 tvg-id="I624.104186.schedulesdirect.org" tvg-name="Olympic Channel" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Sports", Olympic Channel
@@ -753,6 +745,8 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f84ce2ac265700008d48dcf&_l=.pvr
 #EXTINF:-1 tvg-id="USBA3000380A" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/08/73/USBA3000380A_20210525T051536.png" group-title="Sports", PlayersTV
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&amp;id=USBA3000380A&amp;_l=.pvr
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i1.wp.com/weplay.co/wp-content/uploads/2018/12/PS-logo-website.png?fit=250%2C157&ssl=1" group-title="Sports", Premiere
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdUHJlbWllcmUgfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvZmM5MTAyOWQ1ZTE3NGNmNmEyMTVmYjQ4NDEwYmYwNTAvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="SkySportAction.uk" tvg-name="SKY Sports Action" tvg-logo="https://archive.org/download/SkySportsAction_201708/sky%20sports%20action.png" group-title="Sports", SKY Action
 plugin://plugin.video.tvone1112/play/95/play.pvr
 #EXTINF:-1 tvg-id="I1033.104322.schedulesdirect.org" tvg-name="SKY Sports 1" tvg-logo="http://static.epg.best/gb/SkySportsArena.uk.png" group-title="Sports", SKY Arena
