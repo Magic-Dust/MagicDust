@@ -597,12 +597,9 @@ https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
 #EXTINF:-1 tvg-id="WSJ.us" tvg-name="" tvg-logo="https://newcanaanlibrary.org/wp-content/uploads/2016/12/wsj.png" group-title="News", Wall Street Journal
 http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable", Weather Channel
-#plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%7D%7D
-https://cdn88.theus6tv.tk/united-states/cable/the-weather-channel.m3u8
+plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%7D%7D
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ojLdgOg.png" group-title="News;Cable", Weather Fox
-https://content-ause1-ur-fox1.uplynk.com/channel/5ade905c3468461689a0f841f335b848/b.m3u8?pbs=881335a79fbe4bfb9eb8a59d0360b790&cdn=ec
 #EXTINF:-1 tvg-id="USAJ4300005PJ" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/YahooFinance_450x450.png?raw=true" group-title="News", Yahoo! Finance
 https://yahoo-plex.amagi.tv/playlist.m3u8
 
