@@ -48,7 +48,6 @@ https://livevideo01.9news.com/hls/live/2014548/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="abc.ca.losangeles.kabc" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", KABC LOSANGELES ABC
 #EXTVLCOPT:http-referrer=https://abc7.com/watch/
 https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/KABCwatch.m3u8
-#plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdS05CQyAoTkJDKSB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9jZTUwZWEzNzVhZDk0OWYzYmE1NGQyMjVjYWI3YzE0MC9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="abc.ca.bakersfield.kero" tvg-logo="https://scripps.com/wp-content/uploads/2019/01/local_media_23_abc.png" group-title="Broadcast", KERO LOSANGELES ABC
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
 #EXTINF:-1 tvg-id="I391.19567.schedulesdirect.org" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", KCBS LOSANGELES CBS
@@ -457,7 +456,7 @@ plugin://plugin.video.tvone11/play/5/204/play.pvr
 #EXTINF:-1 tvg-id="CAAJ4000006UF" tvg-name="TMZ" tvg-logo="https://i.imgur.com/wzBD6fy.png" group-title="Cable", TMZ
 https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1234A-tmz/CDN/1280x720_5000000/index.m3u8
 #EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable", TNT
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/tnt/%27%7D%7D
+https://tve-live-lln.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TNTWest.us" tvg-name="" tvg-logo="https://i.imgur.com/xvL9KPI.png" group-title="Cable", TNT West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I277.11180.schedulesdirect.org" tvg-name="Travel Channel US" tvg-logo="https://ia800804.us.archive.org/11/items/TravelChannel/travel%20channel.png" group-title="Cable", Travel Channel
@@ -544,7 +543,6 @@ https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
 http://1111296894.rsc.cdn77.org/ls-54548-2/mono.m3u8
-#http://stream2.grandma.fit/btn.m3u8
 #EXTINF:-1 tvg-id="USBA300024TN" tvg-name="FOX News Now" tvg-logo="https://i.imgur.com/hc5a1YP.png" group-title="News", Fox LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-samsungus.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DFox+News+Now%27%7C%7C+%27https%3A%2F%2Fsvc-lvanvato-cxtv-wfxt.cmgvideo.com%2Fwfxt%2F2564k%2Findex.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flnc-kdfw-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DDallas%27%7C%7C+%27https%3A%2F%2Flnc-kriv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DHouston%27%7C%7C+%27https%3A%2F%2Flnc-kttv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DLos+Angeles%27%7C%7C+%27https%3A%2F%2Flnc-ksaz-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DPhoenix%27%7C%7C+%27https%3A%2F%2Flnc-ktvu-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSan+Francisco%27%7C%7C+%27https%3A%2F%2Flnc-kcpq-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSeattle%27%5D
 #EXTINF:-1 tvg-id="I9864.70130.schedulesdirect.org" tvg-name="France 24" tvg-logo="http://static.epg.best/fr/France24English.fr.png" group-title="News", France 24
@@ -592,14 +590,13 @@ http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/latest.m3u8
 https://redseat-thefirst-glewedtv.amagi.tv/index720p.m3u8
 #EXTINF:-1 tvg-id="VoATV.us" tvg-name="Voice of America" tvg-logo="https://i.imgur.com/7zieaS3.png" group-title="News", Voice of America
 https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
-#EXTINF:-1 tvg-id="WSJ.us" tvg-name="" tvg-logo="https://newcanaanlibrary.org/wp-content/uploads/2016/12/wsj.png" group-title="News", Wall Street Journal
-http://wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable", Weather Channel
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%7D%7D
+#EXTINF:-1 tvg-id="FoxWeather.us" tvg-logo="https://static.foxnews.com/static/orion/styles/img/fox-weather/s/logos/fox-weather-logo-stacked-color.svg" group-title="News;Cable", Weather Fox
+https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
-#EXTINF:-1 tvg-id="USAJ4300005PJ" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/YahooFinance_450x450.png?raw=true" group-title="News", Yahoo! Finance
-https://yahoo-plex.amagi.tv/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="I392.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
 plugin://plugin.video.tvone1112/play/601/play.pvr
