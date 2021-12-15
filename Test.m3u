@@ -375,6 +375,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5ff8c708653d080007361b14&_l=.pvr
 plugin://slyguy.pluto.tv.provider/?_=play&id=5cb0cae7a461406ffe3f5213&_l=.pvr
 #EXTINF:-1 tvg-id="I808.48021.schedulesdirect.org" tvg-name="Pick" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/c/cf/Pick2013.png" group-title="Cable", Pick
 plugin://plugin.video.tvone1112/play/475/play.pvr
+#EXTINF:-1 tvg-id="PixLTV.us" tvg-name="" tvg-logo="https://yt3.ggpht.com/-Hl2ZTSZs-68/AAAAAAAAAAI/AAAAAAAAAAA/-cdz84mI0bc/s900-c-k-no/photo.jpg" group-title="Cable", PixL
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdUGl4TCB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy81NTU5NmFkNzBkYWI0ZGJiYmZlZjYzMWYyMmY5NDhlZS9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="I862.33638.schedulesdirect.org" tvg-name="Pop TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png" group-title="Cable", Pop
 http://n1.klowdtv.net/live2/pop_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="I917.45828.schedulesdirect.org" tvg-name="Really" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Really_logo_2013.svg/250px-Really_logo_2013.svg.png" group-title="Cable", Really
@@ -383,8 +385,6 @@ plugin://plugin.video.tvone1112/play/250/play.pvr
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="I238.52199.schedulesdirect.org" tvg-name="Reelz Channel HD" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Reelz.png" group-title="Cable", Reelz
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
-#EXTINF:-1 tvg-id="I384.83098.schedulesdirect.org" tvg-name="Revolt Music" tvg-logo="https://static-us-east-2-fastly-a.www.philo.com/images/channel_logos/RVLTHD/large_dark.png?auto=webp&format=png8" group-title="Cable", Revolt
-https://bozztv.com/teleyupp/teleup-revolt/playlist.m3u8
 #EXTINF:-1 tvg-id="I603.10188.schedulesdirect.org" tvg-name="RFD TV" tvg-logo="https://www.tobincenter.org/sites/default/files/organization_logo/2015-12/rfdtv_logo.png" group-title="Cable", RFD TV
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%28%3Fs%29%28%3Fi%29RFD%5B%5E%22%5D%2A%5B%5E%3A%5D%2A%3A%20%22%28%5B%5E%3F%5D%2A%29.%2B%3F%22status%22%3A%20%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//raw.githubusercontent.com/ericziethen/ez-iptvcat-scraper/master/data/countries/united%2520states%2520of%2520america.json%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I939.25554.schedulesdirect.org" tvg-name="RTE ONE" tvg-logo="https://learning.gaa.ie/sites/default/files/rte-logo.png" group-title="Cable", RTE 1
@@ -531,10 +531,16 @@ http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
 http://1111296894.rsc.cdn77.org/LS-ATL-54548-10/playlist.m3u8
 #EXTINF:-1 tvg-id="5df97894467dfa00091c873c" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/NBCNewsNow.png?raw=true" group-title="News", NBCN LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=NBCN+LIVE&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-vizio.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DNews+Now%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live11%40183427%2Fmaster.m3u8%24%24lsname%3DEvent+1%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live12%40187393%2Fmaster.m3u8%24%24lsname%3DEvent+2%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live13%40187394%2Fmaster.m3u8%24%24lsname%3DEvent+3%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live14%40187395%2Fmaster.m3u8%24%24lsname%3DEvent+4%27%7C%7C+%27http%3A%2F%2Fwmaqlive-f.akamaihd.net%2Fi%2Fwmaqa1_1%4022923%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fwrclive-f.akamaihd.net%2Fi%2Fwrcb1_1%4046880%2Fmaster.m3u8%24%24lsname%3DDC%27%7C%7C+%27http%3A%2F%2Fmedia-hls-az1.wral.com%2Flivehttporigin%2F_definst_%2Fmp4%3Aencoder25-high%2Fchunklist.m3u8%24%24lsname%3DRaleigh%27%5D
+#EXTINF:-1 tvg-id="NTDTV.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/ntd_television_logo.png" group-title="News", NTD TV
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdTkRUViAyNHg3IHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzLzNiMGM4YTQyM2NhNzQ1MDU4Y2Y3Zjc5NWM5ZmI1MjJlL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
 #EXTINF:-1 tvg-id="externallinearfeed-09-28-2021-09-28-2021" tvg-name="" tvg-logo="https://corporate.tubitv.com/wp-content/uploads/2020/10/News12BlueLogo2.png" group-title="News", News12 New York
 https://lnc-news12.tubi.video/index.m3u8
 #EXTINF:-1 tvg-id="I349.87925.schedulesdirect.org" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News", Newsmax
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_720.m3u8
+#EXTINF:-1 tvg-id="NewsNationEast.us" tvg-name="" tvg-logo="https://www.newsnationnow.com/wp-content/uploads/sites/108/2020/07/cropped-favicon-tranparent-bkg.png" group-title="News", NewsNation
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdTmV3c05hdGlvbiB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy8zMGQ4ZDYyMWEwOTQ0ZWQ1YjhmYzcxNzU1ZjRjNGVmOC9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
+#EXTINF:-1 tvg-id="Newsy.us" tvg-logo="https://i.imgur.com/eEqyFBX.jpg" group-title="News", Newsy
+https://content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-09-27-2019-204550290-09-27-2019" tvg-name="Newsy" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Newsy_2015_Logo.png/220px-Newsy_2015_Logo.png" group-title="News", Newsy
 https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
 #EXTINF:-1 tvg-id="I507.80647.schedulesdirect.org" tvg-name="NHK World" tvg-logo="http://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/398_300.png" group-title="News", NHK World
@@ -1340,6 +1346,9 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroMusicTV.cz" tvg-name="RETRO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Retro_Music_TV_logo.png" group-title="Music Videos", RETRO
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1 tvg-id="I384.83098.schedulesdirect.org" tvg-name="Revolt Music" tvg-logo="https://static-us-east-2-fastly-a.www.philo.com/images/channel_logos/RVLTHD/large_dark.png?auto=webp&format=png8" group-title="Music Videos", Revolt
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdUkVWT0xUIFRWIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzLzZiNDI4NDdkN2M1ODQ0ZWNiMGQ0YWMyYTg3NzY0MGM4L3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
+#https://bozztv.com/teleyupp/teleup-revolt/playlist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-185615218-12-04-2019" tvg-name="Stingray Flashback 70s" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray 70s
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-185615218-12-04-2019&_l=.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-184749725-12-04-2019" tvg-name="Stingray Everything 80s" tvg-logo="https://www.broadbandtvnews.com/wp-content/uploads/2014/12/Stingray_Music_Vert_RGB.png" group-title="Music Videos", Stingray 80s
