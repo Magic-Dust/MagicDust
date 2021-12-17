@@ -217,7 +217,8 @@ https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e
 #EXTINF:-1 tvg-id="I218.10112.schedulesdirect.org" tvg-name="CHCH Channel" tvg-logo="http://www.channelzerodigital.com/images/CHCH.png" group-title="Cable", CHching!
 plugin://plugin.video.tvone11/play/17/1085/play.pvr
 #EXTINF:-1 tvg-id="I253.10136.schedulesdirect.org" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City
-plugin://plugin.video.tvone11/play/17/1048/play.pvr
+http://encodercdn1.frontline.ca/bespin/output/City_Toronto_720p/playlist.m3u8
+#plugin://plugin.video.tvone11/play/17/1048/play.pvr
 #EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/cmt/%27%7D%7D
 #EXTINF:-1 tvg-id="5f68f53eb1e5800007390bf8" tvg-name="CMT Equal Play" tvg-logo="https://images.pluto.tv/channels/5f68f53eb1e5800007390bf8/colorLogoPNG.png" group-title="Cable", CMT Equal Play
@@ -239,7 +240,8 @@ https://2-fss-2.streamhoster.com/pl_120/201852-1297026-1/master.m3u8
 #EXTINF:-1 tvg-id="I571.61469.schedulesdirect.org" tvg-name="" tvg-logo="https://fanart.tv/fanart/tv/94351/clearlogo/CrimeInvestigationNetwork-94351.png" group-title="Cable", C&I
 plugin://plugin.video.tvone1112/play/1363/play.pvr
 #EXTINF:-1 tvg-id="I212.10108.schedulesdirect.org" tvg-name="CTV" tvg-logo="http://img2.wikia.nocookie.net/__cb20130421182722/logopedia/images/c/c4/CTV3d.png" group-title="Cable", CTV Toronto
-plugin://plugin.video.tvone/play/691/play.pvr
+http://encodercdn1.frontline.ca/encoder183/output/CTV_Toronto_720p/playlist.m3u8
+#plugin://plugin.video.tvone/play/691/play.pvr
 #EXTINF:-1 tvg-id="I250.17594.schedulesdirect.org" tvg-name="CTV Vancouver" tvg-logo="http://img2.wikia.nocookie.net/__cb20130421182722/logopedia/images/c/c4/CTV3d.png" group-title="Cable", CTV Vancouver
 plugin://plugin.video.tvone11/play/17/1082/play.pvr
 #EXTINF:-1 tvg-id="5ef0fbed39ff730007383a69" tvg-name="Dabl" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Cable", Dabl
@@ -572,24 +574,33 @@ http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/latest.m3u8
 https://redseat-thefirst-glewedtv.amagi.tv/index720p.m3u8
 #EXTINF:-1 tvg-id="VoATV.us" tvg-name="Voice of America" tvg-logo="https://i.imgur.com/7zieaS3.png" group-title="News", Voice of America
 https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
-#EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s91994_dark_360w_270h.png" group-title="News;Cable", AccuWeather
+
+#EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s91994_dark_360w_270h.png" group-title="Weather", AccuWeather
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxWeather.us" tvg-logo="https://1.bp.blogspot.com/-TIj7_AZ8kM4/YOw0VXC_ClI/AAAAAAAACBg/Rim7peVzaK4w9pOIbOtZuNfOMyyMh7fnACLcBGAsYHQ/s320/foxweather.png" group-title="News;Cable", Fox Weather
+#EXTINF:-1 tvg-id="FoxWeather.us" tvg-logo="https://1.bp.blogspot.com/-TIj7_AZ8kM4/YOw0VXC_ClI/AAAAAAAACBg/Rim7peVzaK4w9pOIbOtZuNfOMyyMh7fnACLcBGAsYHQ/s320/foxweather.png" group-title="Weather", Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
-#EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="News;Cable", Weather Channel
+#EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="Weather", Weather Channel
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F&mode=17&regexs=%7Bu%27getUrl%27%3A%20%7B%27post%27%3A%20u%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27expres%27%3A%20u%27%28.%2A%29%27%2C%20%27referer%27%3A%20u%27https%3A//ustv247.tv/%27%2C%20%27name%27%3A%20u%27getUrl%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/data.php%27%7D%2C%20u%27stripper%27%3A%20%7B%27expres%27%3A%20u%22src%3D%27%5C%5C/clappr%5B%5E%3D%5D%2A%3D%28%5B%5E%27%5D%2A%29%22%2C%20%27name%27%3A%20u%27stripper%27%2C%20%27page%27%3A%20u%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%7D%7D
-#EXTINF:-1 tvg-id="KCKSLD6.us" tvg-name="Weather Nation" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="News;Cable", Weather Nation
+#EXTINF:-1 tvg-id="KCKSLD6.us" tvg-name="Weather Nation" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="Weather", Weather Nation
 https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
-#EXTINF:-1 tvg-id="I505.10170.schedulesdirect.org" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s10170_dark_360w_270h.png" group-title="News;Cable", Weather Network
+#EXTINF:-1 tvg-id="I505.10170.schedulesdirect.org" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s10170_dark_360w_270h.png" group-title="Weather", Weather Network
 http://encodercdn1.frontline.ca/kamino/output/The_Weather_Network_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-c_qMPBpxrhg/AAAAAAAAAAI/AAAAAAAAAAA/XxUteOHOKLM/s900-c-k-no/photo.jpg" group-title="News;Cable", WPDE Weather
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-c_qMPBpxrhg/AAAAAAAAAAI/AAAAAAAAAAA/XxUteOHOKLM/s900-c-k-no/photo.jpg" group-title="Weather", WPDE Forecast
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%22embedUrl%22%3A%20%22%5B%5E%3D%5D%2A%3D%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//wpde.com/weather%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Fyt3.ggpht.com%2F-c_qMPBpxrhg%2FAAAAAAAAAAI%2FAAAAAAAAAAA%2FXxUteOHOKLM%2Fs900-c-k-no%2Fphoto.jpg
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/u9LbOrBpK88jlIAhGeo972oj5T8Y58YT3Y2V7RJsTY0TYm1Nb3teApmP3HMe0SV3TqtU=w300" group-title="News;Cable", WRAL Weather
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-c_qMPBpxrhg/AAAAAAAAAAI/AAAAAAAAAAA/XxUteOHOKLM/s900-c-k-no/photo.jpg" group-title="Weather", WPDE Futurecast
+https://wpde.com/resources/ftptransfer/wpde/maps/CarolinaFuturecast.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/u9LbOrBpK88jlIAhGeo972oj5T8Y58YT3Y2V7RJsTY0TYm1Nb3teApmP3HMe0SV3TqtU=w300" group-title="Weather", WRAL Forecast
 plugin://plugin.video.wrallocal/?mode=GV&amp;url=https%3A%2F%2Fwww.wral.com%2Fwral-weathercenter-forecast%2F1076424%2F
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh6.ggpht.com/G4Hy6Q4umDwaa8OpORtYsQw_OLDfcaRkEHm1UPDB_A6L_0tv8BMAt8Bi-wruN7hEyg=w300" group-title="News;Cable", WRAL Doppler5000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh6.ggpht.com/G4Hy6Q4umDwaa8OpORtYsQw_OLDfcaRkEHm1UPDB_A6L_0tv8BMAt8Bi-wruN7hEyg=w300" group-title="Weather", WRAL Doppler5000
 plugin://plugin.video.wrallocal/?mode=GV&amp;url=https%3A%2F%2Fwww.wral.com%2Flive_dualdoppler5000_radar%2F1068935%2F
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="News;Cable", WRGB Weather
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", WRGB Forecast
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%22embedUrl%22%3A%20%22%5B%5E%3D%5D%2A%3D%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//cbs6albany.com/weather%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Flh3.googleusercontent.com%2FsiKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", WRGB ALB Doppler 
+https://cbs6albany.com/resources/ftptransfer/wrgb/maps/web_regional_radar_loop_790.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", WRGB US Doppler
+https://cbs6albany.com/resources/ftptransfer/wrgb/maps/web_east_satrad_loop_790.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh3.googleusercontent.com/ctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk=w300" group-title="Weather", WTVT Tampa Bay Doppler
+plugin://plugin.video.youtube/play/?video_id=02YHmNwsQsw
 
 #EXTINF:-1 tvg-id="BallySportsArizona.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/ballysports-az.png" group-title="Sports", Bally Sports Arizona
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%28%3Fs%29%28%3Fi%29Bally%20Sports%20Arizona%5B%5E%22%5D%2A%5B%5E%3A%5D%2A%3A%20%22%28%5B%5E%3F%5D%2A%29.%2B%3F%22status%22%3A%20%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//raw.githubusercontent.com/ericziethen/ez-iptvcat-scraper/master/data/countries/united%2520states%2520of%2520america.json%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
@@ -1253,7 +1264,7 @@ https://wms-prod-1.wetmet.net/live/02-20-01/playlist.m3u8
 #EXTINF:-1, tvg-logo="http://www.ncbeaches.com/images/features/DiamondShoalsLightTower.jpg" group-title="Live Web-Cams", NMB Frying Pan Topside
 plugin://plugin.video.youtube/play/?video_id=vGimsBVpuN8
 #EXTINF:-1, tvg-logo="http://www.ncbeaches.com/images/features/DiamondShoalsLightTower.jpg" group-title="Live Web-Cams", NMB Frying Pan Sea
-plugin://plugin.video.youtube/play/?video_id=bqaXUYOBf_o
+plugin://plugin.video.youtube/play/?video_id=og8bbxl0iW8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.earthcam.com/camshots/256x144/f80c8ef23f903196347a7b4ee6bb85a2.jpg" group-title="Live Web-Cams", Fish Tank
 plugin://plugin.video.youtube/play/?video_id=nQvh-rAoK4k
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.reinteentours.com/images/cs-logos/project-hawaii.png" group-title="Live Web-Cams", Hawaii Surf
