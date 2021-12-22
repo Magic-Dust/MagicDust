@@ -143,7 +143,7 @@ http://aenetworks-ae-1.roku.wurl.com/manifest/playlist.m3u8
 https://c.mjh.nz/101002210221/
 #EXTINF:-1 tvg-id="tv.101002210224" tvg-name="" tvg-logo="https://i.imgur.com/gBh54wY.png" group-title="Cable", ABC Me
 https://c.mjh.nz/101002210224/
-#EXTINF:-1 tvg-id="tv.abc2" tvg-name="" tvg-logo="https://i.mjh.nz/.images/tv.abctvplus.png" group-title="Cable", ABC Plus
+#EXTINF:-1 tvg-id="tv.101002210222" tvg-name="" tvg-logo="https://i.mjh.nz/.images/tv.abctvplus.png" group-title="Cable", ABC Plus
 plugin://plugin.video.au.freeview/?_=play&_play=1&slug=tv.abc2&_is_live=1#.pvr
 #EXTINF:-1 tvg-id="I560.75031.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_for_ABC_Spark.svg/800px-Logo_for_ABC_Spark.svg.png" group-title="Cable", ABC Spark
 plugin://plugin.video.tvone/play/491/play.pvr
@@ -185,6 +185,8 @@ plugin://plugin.video.tvone11/play/4/292/play.pvr
 plugin://plugin.video.tvone/play/66/play.pvr
 #EXTINF:-1 tvg-id="I231.31756.schedulesdirect.org" tvg-name="CBS Reality" tvg-logo="https://ia600806.us.archive.org/12/items/CbsReality/cbs%20reality.png" group-title="Cable", CBS Reality
 plugin://plugin.video.tvone11/play/4/331/play.pvr
+#EXTINF:-1 tvg-ID="" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/channel_one_aus.png" group-title="Cable", Channel One
+plugin://plugin.video.tvone11/play/24/1231/play.pvr
 #EXTINF:-1 tvg-id="I241.17155.schedulesdirect.org" tvg-name="Channel 4" tvg-logo="https://ia800808.us.archive.org/35/items/Channel4_201708/channel%204.png" group-title="Cable", Channel 4
 plugin://plugin.video.tvone/play/77/play.pvr
 #EXTINF:-1 tvg-id="I4 Seven.75804.schedulesdirect.org" tvg-name="4 Seven" tvg-logo="https://ia800804.us.archive.org/10/items/4Seven/4%20seven.png" group-title="Cable", Channel 4/7
@@ -203,6 +205,24 @@ plugin://plugin.video.tvone111/play/1330/play.pvr
 plugin://plugin.video.tvone11/play/4/335/play.pvr
 #EXTINF:-1 tvg-id="I238.21793.schedulesdirect.org" tvg-name="Challenge" tvg-logo="https://ia800809.us.archive.org/14/items/challenge_201708/challenge.png" group-title="Cable", Challenge
 plugin://plugin.video.tvone/play/642/play.pvr
+#EXTINF:-1 tvg-ID="Seven.us" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/channel_7hd_aus.png" group-title="Cable", Channel Seven
+plugin://plugin.video.tvone11/play/24/1218/play.pvr
+#EXTINF:-1 tvg-ID="7Two.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/7two_aus.png" group-title="Cable", Channel 7 Two
+plugin://plugin.video.tvone1112/play/754/play.pvr
+#EXTINF:-1 tvg-ID="7flix.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/7flix_aus.png" group-title="Cable", Channel 7 flix
+plugin://plugin.video.tvone11/play/24/1212/play.pvr
+#EXTINF:-1 tvg-ID="7mate.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/7mate_aus.png" group-title="Cable", Channel 7 mate
+plugin://plugin.video.tvone1112/play/755/play.pvr
+#EXTINF:-1 tvg-ID="tv.101204200421" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/channel_9_aus.png" group-title="Cable", Channel 9
+plugin://plugin.video.tvone11/play/24/1219/play.pvr
+#EXTINF:-1 tvg-ID="9Go.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/9_go_aus.png" group-title="Cable", Channel 9 Go!
+plugin://plugin.video.tvone1112/play/724/play.pvr
+#EXTINF:-1 tvg-ID="9Life.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/9_go_aus.png" group-title="Cable", Channel 9 Life
+plugin://plugin.video.tvone11/play/24/1217/play.pvr
+#EXTINF:-1 tvg-ID="tv.101204200427" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/9_gem_aus.png" group-title="Cable", Channel 9 Gem
+plugin://plugin.video.tvone11/play/24/1215/play.pvr
+#EXTINF:-1 tvg-ID="tv.101406020625" tvg-logo="https://i.mjh.nz/.images/tv.101406020625.png" group-title="Cable", Channel 10
+plugin://plugin.video.tvone1112/play/735/play.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-01-15-2020-201540715-01-15-2020" tvg-name="Charge" tvg-logo="https://watchcharge.com/wp-content/themes/charge/images/chargelogo.png" group-title="Cable", Charge!
 https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e.m3u8
 #EXTINF:-1 tvg-id="I218.10112.schedulesdirect.org" tvg-name="CHCH Channel" tvg-logo="http://www.channelzerodigital.com/images/CHCH.png" group-title="Cable", CHching!
@@ -386,10 +406,16 @@ plugin://plugin.video.tvone/play/179/play.pvr
 plugin://plugin.video.tvone/play/179/play.pvr
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk" tvg-name="Sheffield Live TV" tvg-logo="https://web.sheffieldlive.org/wp-content/uploads/2014/10/SLTV_TVset_graphic.jpg" group-title="Cable", Sheffield TV
 http://tv.sheffieldlive.org/hls/main.m3u8
+#EXTINF:-1 tvg-id="SkyOneUK.uk" tvg-name="SKY 1" tvg-logo="https://ia800801.us.archive.org/28/items/stevechatfield27_gmail_Sky1/sky%201.png" group-title="Cable", SKY 1
+plugin://plugin.video.tvone11/play/4/318/play.pvr
+#EXTINF:-1 tvg-id="" tvg-name="SKY 2" tvg-logo="https://ia902803.us.archive.org/32/items/stevechatfield27_gmail_Sky2/sky%202.png" group-title="Cable", SKY 2
+plugin://plugin.video.tvone111/play/1351/play.pvr
+#EXTINF:-1 tvg-id="SkyArtsUK.uk" tvg-name="SKY Arts" tvg-logo="https://ia800809.us.archive.org/24/items/SkyArts_201708/sky%20arts.png" group-title="Cable", SKY Arts
+plugin://plugin.video.tvone/play/191/play.pvr
 #EXTINF:-1 tvg-id="I984.70434.schedulesdirect.org" tvg-name="SKY Atlantic" tvg-logo="https://ia800803.us.archive.org/18/items/SkyAtlantic_201708/sky%20atlantic.png" group-title="Cable", SKY Atlantic
 plugin://plugin.video.tvone1112/play/279/play.pvr
-#EXTINF:-1 tvg-id="I1070.64590.schedulesdirect.org" tvg-name="SKY Two" tvg-logo="https://ia800801.us.archive.org/14/items/SkyLiving/sky%20living.png" group-title="Cable", SKY Living
-plugin://plugin.video.tvone111/play/1351/play.pvr
+#EXTINF:-1 tvg-id="I1070.64590.schedulesdirect.org" tvg-name="SKY Living" tvg-logo="https://ia800801.us.archive.org/14/items/SkyLiving/sky%20living.png" group-title="Cable", SKY Living
+plugin://plugin.video.tvone111/play/1341/play.pvr
 #EXTINF:-1 tvg-id="I601.15181.schedulesdirect.org" tvg-name="Slice" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Slice_logo.svg/1920px-Slice_logo.svg.png" group-title="Cable", Slice
 plugin://plugin.video.tvone1112/play/1931/play.pvr
 #EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="" tvg-logo="https://www.si.edu/sites/default/files/newsdesk/press_releases/sunburst.png" group-title="Cable", Smithsonian
@@ -1014,7 +1040,9 @@ plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ1700008H6&_l=.pvr
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdQ29va2luZyBDaGFubmVsIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzL2JmNmU3ZjlkYmUzNzRhMjZhYTZmZmY0NDhiYzdhMGQyL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
 #EXTINF:-1 tvg-id="I231.12574.schedulesdirect.org" tvg-name="Food Network East" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", Food Network
 plugin://plugin.video.tvone/play/116/play.pvr
-#EXTINF:-1 tvg-id="FoodNetworkUK.us" tvg-name="Food Network UK" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", Food Network UK
+#EXTINF:-1 tvg-id="tv.320203000304" tvg-name="Food Network UA" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/food_network_aus.png" group-title="Food", Food Network AU
+plugin://plugin.video.au.freeview/?_=play&slug=tv.320203000304&_l=.pvr
+#EXTINF:-1 tvg-id="FoodNetworkUK.us" tvg-name="Food Network UK" tvg-logo="http://www.lyngsat-logo.com/hires/ff/food_network_uk_plus1.png" group-title="Food", Food Network UK
 plugin://plugin.video.tvone/play/115/play.pvr
 #EXTINF:-1 tvg-id="5877ac8cb791f4eb4a140d81" tvg-name="Food TV" tvg-logo="https://images.pluto.tv/channels/5877ac8cb791f4eb4a140d81/colorLogoPNG.png" group-title="Food", Food TV
 plugin://slyguy.pluto.tv.provider/?_=play&id=5877ac8cb791f4eb4a140d81&_l=.pvr
@@ -1022,8 +1050,6 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5877ac8cb791f4eb4a140d81&_l=.pvr
 https://gustotv-samsung-au.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="USAJ2200009C2" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/20/USAJ2200009C2_20210525T051654.png" group-title="Food", Hungry
 plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ2200009C2&_l=.pvr
-#EXTINF:-1 tvg-id="tv.320203000304" tvg-logo="https://i.mjh.nz/.images/tv.320203000304.png" group-title="Food", SBS Food
-plugin://plugin.video.au.freeview/?_=play&slug=tv.320203000304&_l=.pvr
 #EXTINF:-1 tvg-id="USAK3508707A" tvg-logo="https://i.imgur.com/dwMUVhs.png" group-title="Food", Tastemade[COLOR magenta] (6 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Tastemade&playlist=%5B%27https%3A%2F%2Ftastemade-xumo.amagi.tv%2Fhls%2Famagi_hls_data_tastemade-tastemadefreetv16xumo%2FCDN%2Fmaster.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https%3A%2F%2Ftmint-aus-samsungau.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DAustralia%27%7C%7C+%27https%3A%2F%2Ftastemadees16intl-samsungmexico.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DMexico%27%7C%7C+%27https%3A%2F%2Ftastemade-intl-vizioca.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DInternational%27%7C%7C+%27https%3A%2F%2Ftastemade-pt16intl-samsungbrazil.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DBrazil%27%7C%7C+%27https%3A%2F%2Ftastemadeintaus-smindia.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DIndia%27%5D
 
