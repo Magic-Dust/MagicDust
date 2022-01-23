@@ -2,13 +2,13 @@
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
 https://5e6cea03e25b6.streamlock.net/live/WTXLHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS
-http://encodercdn1.frontline.ca/vantrix/ltv/Bell_CBSHB_AtopItci_2015_01_12_HD/hls_hd.m3u8
+plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/encoder183/output/CBS_Detroit_720p/playlist.m3u8&streamtype=HLSRETRY
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", FOX
-http://encodercdn1.frontline.ca/encoder182/output/FOX_Boston_720p/playlist.m3u8
+plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/encoder182/output/FOX_Boston_720p/playlist.m3u8&streamtype=HLSRETRY
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
-http://encodercdn1.frontline.ca/encoder183/output/NBC_Boston_720p/playlist.m3u8
+plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/encoder183/output/NBC_Boston_720p/playlist.m3u8&streamtype=HLSRETRY
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
-http://encodercdn1.frontline.ca/kamino/output/pix11_720p/playlist.m3u8
+plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/kamino/output/pix11_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CWPlusEast.us" tvg-logo="https://i.imgur.com/PZrtfPb.png" group-title="Broadcast", CW Seed
 https://cwseedlive.cwtv.com/ingest/playlist.m3u8
 
@@ -1163,6 +1163,8 @@ http://stream2.grandma.fit/acc.m3u8
 https://playoutengine.sinclairstoryline.com/playout/f2f8b269-dd85-4434-bdd3-b3a64ca9cd60/g.m3u8
 #EXTINF:-1 tvg-id="TennisChannelPlus2.us" tvg-logo="http://static.epg.best/us/TennisChannel.us.png" group-title="Sports", Tennis Channel+ 2
 https://playoutengine.sinclairstoryline.com/playout/e1838c44-dcb6-47b5-93d4-a0547833518f.m3u8
+#EXTINF:-1 tvg-id="TennisChannelUK.uk" tvg-logo="https://i.imgur.com/WEM9B83.png" group-title="Sports", Tennis Channel UK
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I400.11182.schedulesdirect.org" tvg-name="TSN 1" tvg-logo="https://www.curling.ca/wp-content/uploads/2011/09/tsn-300x90.png" group-title="Sports", TSN 1
 plugin://plugin.video.tvone111/play/1128/play.pvr
 #EXTINF:-1 tvg-id="I401.18990.schedulesdirect.org" tvg-name="TSN 2" tvg-logo="https://www.curling.ca/wp-content/uploads/2011/09/tsn-300x90.png" group-title="Sports", TSN 2
