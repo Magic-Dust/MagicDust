@@ -1,14 +1,16 @@
 #EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
-https://5e6cea03e25b6.streamlock.net/live/WTXLHD.stream/playlist.m3u8
+https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS
-plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/encoder183/output/CBS_Detroit_720p/playlist.m3u8&streamtype=HLSRETRY
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+http://encodercdn1.frontline.ca/encoder183/output/CBS_Detroit_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", FOX
-plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/encoder182/output/FOX_Boston_720p/playlist.m3u8&streamtype=HLSRETRY
+https://5e6cea03e25b6.streamlock.net/live/WTWC-FX.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
-plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/encoder183/output/NBC_Boston_720p/playlist.m3u8&streamtype=HLSRETRY
+https://5e6cea03e25b6.streamlock.net/live/WTWC-NB.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
-plugin://plugin.video.f4mTester/?url=http://encodercdn1.frontline.ca/kamino/output/pix11_720p/playlist.m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+http://encodercdn1.frontline.ca/kamino/output/pix11_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CWPlusEast.us" tvg-logo="https://i.imgur.com/PZrtfPb.png" group-title="Broadcast", CW Seed
 https://cwseedlive.cwtv.com/ingest/playlist.m3u8
 
@@ -249,6 +251,8 @@ https://livevideo01.kgw.com/hls/live/2015506/newscasts/live.m3u8
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WMTW.m3u8
 #EXTINF:-1 tvg-id="WTVD.us" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WTVD RALEIGH ABC
 https://api.abcotvs.com/v3/wtvd/m3u8/url?id=563661&key=yuemix
+
+
 #EXTINF:-1 tvg-id="WNCN.us" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Local", WNCN RALEIGH CBS
 https://livevideo01.wfmynews2.com/hls/live/2016285/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WRAZ.us" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Local", WRAZ RALEIGH FOX
