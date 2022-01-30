@@ -48,18 +48,18 @@ http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/playlist.
 #EXTINF:-1 tvg-id="KTVBTV.us" tvg-logo="https://i.imgur.com/2sLPTiM.jpg" group-title="Local", KTVB Boise NBC
 https://livevideo01.ktvb.com/hls/live/2014542/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="FOXEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/320px-FOX_wordmark-red.svg.png" group-title="Local", WFXT Boston FOX
-http://encodercdn1.frontline.ca/encoder182/output/FOX_Boston_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder182/output/FOX_Boston/playlist.m3u8
 #https://wfxt-live.localnowlive.com/v1/manifest/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_60ec6e73bf2fa637c1113392_wfxt-live/b8c36e4f-5455-4038-a56a-526acd528ead/0.m3u8
 #EXTINF:-1 tvg-id="WCVB.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/WCVB-TV_Logo.png/300px-WCVB-TV_Logo.png" group-title="Local", WCVB Boston
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WCVB.m3u8
 #EXTINF:-1 tvg-id="WBTS.us" tvg-logo="https://www.directv.com/images/logos/channels/dark/large/875.png" group-title="Local", WBTS Boston NBC
-http://encodercdn1.frontline.ca/encoder183/output/NBC_Boston_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder183/output/NBC_Boston/playlist.m3u8
 #EXTINF:-1 tvg-id="WHDH.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b5/WHDH_7_logo.png" group-title="Local", WHDH Boston
 https://bcsecurelivehls-i.akamaihd.net/hls/live/598046/4744899807001_1/livestream/master.m3u8
 #EXTINF:-1 tvg-id="WGRZ.us" tvg-logo="https://i.imgur.com/m4MZTtj.jpg" group-title="Local", WGRZ Buffalo NBC
 https://livevideo01.wgrz.com/hls/live/2016286/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WVNY.us" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/abc-logo-2013-butterscotch-us.png" group-title="Local", WVNY Burlington ABC
-http://encodercdn1.frontline.ca/kamino/output/ABC_Burlington_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/kamino/output/ABC_Burlington/playlist.m3u8
 #EXTINF:-1 tvg-id="WCIV2.us" tvg-logo="http://images4.wikia.nocookie.net/__cb20111017171036/logopedia/images/6/6c/WCIV_ABC_News_4_logo_2011.png" group-title="Local", WCIV Charleston ABC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%28%3Fs%29%28%3Fi%29WCIV%5B%5E%22%5D%2A%5B%5E%3A%5D%2A%3A%20%22%28%5B%5E%3F%5D%2A%29.%2B%3F%22status%22%3A%20%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//raw.githubusercontent.com/ericziethen/ez-iptvcat-scraper/master/data/countries/united%2520states%2520of%2520america.json%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="WCSCTV.us" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/01/WCSC.jpg" group-title="Local", WCSC Charleston CBS
@@ -75,9 +75,9 @@ https://livevideo01.wcnc.com/hls/live/2015505/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WFLDTV.us" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Local", WFLD Chicago FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WFLD-Monetizer.m3u8
 #EXTINF:-1 tvg-id="WMAQTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ac/WMAQ_Logo_2012.png" group-title="Local", WMAQ Chicago NBC
-http://wmaqlive-f.akamaihd.net/i/wmaqa1_1@22923/master.m3u8
+https://wmaqlive-f.akamaihd.net/i/CHICAGO_STREAM1@22923/master.m3u8
 #EXTINF:-1 tvg-id="WGN-TV.us" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/wgn-america-us.png" group-title="Local", WGN Chicago
-http://encodercdn1.frontline.ca/encoder182/output/WGN_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder182/output/WGN/playlist.m3u8
 #EXTINF:-1 tvg-id="WLWTTV.us" tvg-logo="https://i.imgur.com/7erOEZJ.gif" group-title="Local", WLWT Cincinnati NBC
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WLWT.m3u8
 #EXTINF:-1 tvg-id="WEWSTV.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/606e0f9a9739652ec518e8c1" group-title="Local", WEWS Cleveland ABC
@@ -107,7 +107,7 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,C
 #EXTINF:-1 tvg-id="WXYZTV.us" tvg-logo="https://i.imgur.com/J9fH2sG.png" group-title="Local", WXYZ Detroit ABC
 https://wxyz-live.localnowlive.com/v1/manifest/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_60ae91960fc0ab60b432e002_epg-wxyz/909fd6c5-ec37-4fc5-a760-7324bb1053d4/0.m3u8
 #EXTINF:-1 tvg-id="WWJTV.us" tvg-logo="https://www.nicepng.com/png/full/443-4431727_cbs-logo-png.png" group-title="Local", WWJ Detroit CBS
-http://encodercdn1.frontline.ca/encoder183/output/CBS_Detroit_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder183/output/CBS_Detroit/playlist.m3u8
 #EXTINF:-1 tvg-id="WJBK.us" tvg-logo="https://i.imgur.com/EL9Bwtf.png" group-title="Local", WJBK Detroit FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WJBK-Monetizer.m3u8
 #EXTINF:-1 tvg-id="WZZM.us" tvg-logo="https://i.imgur.com/eapvJpP.jpg" group-title="Local", WZZM Grand Rapids ABC
@@ -296,7 +296,7 @@ https://livevideo01.krem.com/hls/live/2017156/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="KHQTV.us" tvg-logo="https://i.imgur.com/LwwJQw0.png" group-title="Local", KHQ Spokane NBC
 http://encodercdn1.frontline.ca/encoder184/output/NBC_Spokane/playlist.m3u8
 #EXTINF:-1 tvg-id="KAYUTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/320px-FOX_wordmark-red.svg.png" group-title="Local", KAYU Spokane FOX
-http://encodercdn1.frontline.ca/encoder182/output/FOX_Spokane_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder182/output/FOX_Spokane/playlist.m3u8
 #EXTINF:-1 tvg-id="KTVI.us" tvg-logo="https://i.imgur.com/Hednfc9.png" group-title="Local", KTVI St Louis FOX
 https://iptv-all.lanesh4d0w.repl.co/united-states/ktvi-tv
 #EXTINF:-1 tvg-id="KSDKTV.us" tvg-logo="https://i.imgur.com/4zQaZBX.jpg" group-title="Local", KSDK St Louis NBC
@@ -326,8 +326,7 @@ https://livevideo01.wusa9.com/hls/live/2015498/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WTTGTV.us" tvg-logo="https://i.imgur.com/ktLKla7.png" group-title="Local", WTTG Washington DC FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTTG-Monetizer.m3u8
 #EXTINF:-1 tvg-id="WRCTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_of_WRC-TV.png" group-title="Local", WRCT Washington DC NBC
-#https://wrclive-f.akamaihd.net/i/wrcb1_1@46880/master.m3u8
-https://wrclive-f.akamaihd.net/i/DC_STREAM1@22925/master.m3u8
+https://wrclive-f.akamaihd.net/i/wrcb1_1@46880/master.m3u8
 #EXTINF:-1 tvg-id="WPEC.us" tvg-logo="https://i.imgur.com/SG7iSaA.png" group-title="Local", WPEC West Palm Beach CBS
 https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
 #EXTINF:-1 tvg-id="WPTVTV.us" tvg-logo="https://i.imgur.com/dwtqWbI.png" group-title="Local", WPTV West Palm Beach NBC
@@ -497,7 +496,7 @@ https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e
 #EXTINF:-1 tvg-id="I218.10112.schedulesdirect.org" tvg-name="CHCH Channel" tvg-logo="http://www.channelzerodigital.com/images/CHCH.png" group-title="Cable", CHching!
 plugin://plugin.video.tvone11/play/17/1085/play.pvr
 #EXTINF:-1 tvg-id="I214.10125.schedulesdirect.org" tvg-name="City TV Toronto" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City
-http://encodercdn1.frontline.ca/bespin/output/City_Toronto_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/bespin/output/City_Toronto/playlist.m3u8
 #EXTINF:-1 tvg-id="I253.10136.schedulesdirect.org" tvg-name="City TV Vancouver" tvg-logo="https://upload.wikimedia.org/wikipedia/ca/d/d5/Citytv_logo2001.png" group-title="Cable", City Vancouver
 plugin://plugin.video.tvone11/play/17/1048/play.pvr
 #EXTINF:-1 tvg-id="I327.59440.schedulesdirect.org" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Cable", CMT
@@ -521,7 +520,7 @@ https://2-fss-2.streamhoster.com/pl_120/201852-1297026-1/master.m3u8
 #EXTINF:-1 tvg-id="I571.61469.schedulesdirect.org" tvg-name="" tvg-logo="https://fanart.tv/fanart/tv/94351/clearlogo/CrimeInvestigationNetwork-94351.png" group-title="Cable", C&I
 plugin://plugin.video.tvone1112/play/1363/play.pvr
 #EXTINF:-1 tvg-id="I212.10108.schedulesdirect.org" tvg-name="CTV" tvg-logo="http://img2.wikia.nocookie.net/__cb20130421182722/logopedia/images/c/c4/CTV3d.png" group-title="Cable", CTV Toronto
-http://encodercdn1.frontline.ca/encoder183/output/CTV_Toronto_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder183/output/CTV_Toronto/playlist.m3u8
 #EXTINF:-1 tvg-id="I250.17594.schedulesdirect.org" tvg-name="CTV Vancouver" tvg-logo="http://img2.wikia.nocookie.net/__cb20130421182722/logopedia/images/c/c4/CTV3d.png" group-title="Cable", CTV Vancouver
 plugin://plugin.video.tvone11/play/17/1082/play.pvr
 #EXTINF:-1 tvg-id="CTV2Toronto.ca" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/ctv2-2018.png" group-title="Cable", CTV 2
@@ -814,7 +813,7 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_10
 #EXTINF:-1 tvg-id="I358.10146.schedulesdirect.org" tvg-name="CNN International" tvg-logo="https://ia800802.us.archive.org/11/items/CnnHd/cnn%20hd.png" group-title="News", CNN International
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CPACOttawaEn.ca" tvg-logo="https://myhealthhub.frontline.ca/myhealthhubtv/channellogos/CPAC.png" group-title="News", CPAC
-http://encodercdn1.frontline.ca/yavin/output/CPAC_English_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/yavin/output/CPAC_English/playlist.m3u8
 #EXTINF:-1 tvg-id="I503.18168.schedulesdirect.org" tvg-name="CP24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/CablePulse24.png" group-title="News", CP24
 http://encodercdn1.frontline.ca/vantrix/ltv/Bell_CP24H_AtopItci_2015_01_12_HD/hls_hd.m3u8
 #EXTINF:-1 tvg-id="I350.10161.schedulesdirect.org" tvg-name="C-Span" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_of_C-SPAN.svg/800px-Logo_of_C-SPAN.svg.png" group-title="News", C-Span
@@ -824,7 +823,7 @@ https://near-necessary-suede.glitch.me/united-states/cspan2
 #EXTINF:-1 tvg-id="CSPAN3.us" tvg-name="C-SPAN 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Logo_of_C-SPAN.svg/800px-Logo_of_C-SPAN.svg.png" group-title="News", C-SPAN 3
 https://near-necessary-suede.glitch.me/united-states/cspan3
 #EXTINF:-1 tvg-id="I501.17615.schedulesdirect.org" tvg-name="CTV News" tvg-logo="https://www.bellmedia.ca/wp-content/uploads/2015/01/CTVNEWS_white-500-490x490.png" group-title="News", CTV News
-http://encodercdn1.frontline.ca/bespin/output/CTV_News_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/bespin/output/CTV_News/playlist.m3u8
 #EXTINF:-1 tvg-id="I230.79318.schedulesdirect.org" tvg-name="Deutsche Welle" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_(TV)_Logo_2012.png" group-title="News", Deutsche Welle
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="I508.83671.schedulesdirect.org" tvg-name="Euronews" tvg-logo="https://ia802804.us.archive.org/20/items/euronews_201708/euronews.png" group-title="News", Euronews
@@ -832,7 +831,7 @@ https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20
 #EXTINF:-1 tvg-id="I359.58649.schedulesdirect.org" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.schedulesdirect.org" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
-http://encodercdn1.frontline.ca/encoder181/output/FOX_News_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder181/output/FOX_News/playlist.m3u8
 #http://1111296894.rsc.cdn77.org/ls-54548-2/mono.m3u8
 #EXTINF:-1 tvg-id="USBA300024TN" tvg-name="FOX News Now" tvg-logo="https://i.imgur.com/hc5a1YP.png" group-title="News", Fox LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-samsungus.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DFox+News+Now%27%7C%7C+%27https%3A%2F%2Fsvc-lvanvato-cxtv-wfxt.cmgvideo.com%2Fwfxt%2F2564k%2Findex.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flnc-kdfw-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DDallas%27%7C%7C+%27https%3A%2F%2Flnc-kriv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DHouston%27%7C%7C+%27https%3A%2F%2Flnc-kttv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DLos+Angeles%27%7C%7C+%27https%3A%2F%2Flnc-ksaz-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DPhoenix%27%7C%7C+%27https%3A%2F%2Flnc-ktvu-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSan+Francisco%27%7C%7C+%27https%3A%2F%2Flnc-kcpq-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSeattle%27%5D
@@ -849,7 +848,7 @@ https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Info Wars" tvg-logo="https://archives.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars
 http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
 #EXTINF:-1 tvg-id="I356.16300.schedulesdirect.org" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News", MSNBC
-http://encodercdn1.frontline.ca/encoder182/output/MSNBC_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/encoder182/output/MSNBC/playlist.m3u8
 #EXTINF:-1 tvg-id="5df97894467dfa00091c873c" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/NBCNewsNow.png?raw=true" group-title="News", NBCN LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=NBCN+LIVE&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-vizio.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DNews+Now%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live11%40183427%2Fmaster.m3u8%24%24lsname%3DEvent+1%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live12%40187393%2Fmaster.m3u8%24%24lsname%3DEvent+2%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live13%40187394%2Fmaster.m3u8%24%24lsname%3DEvent+3%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live14%40187395%2Fmaster.m3u8%24%24lsname%3DEvent+4%27%7C%7C+%27http%3A%2F%2Fwmaqlive-f.akamaihd.net%2Fi%2Fwmaqa1_1%4022923%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fwrclive-f.akamaihd.net%2Fi%2Fwrcb1_1%4046880%2Fmaster.m3u8%24%24lsname%3DDC%27%7C%7C+%27http%3A%2F%2Fmedia-hls-az1.wral.com%2Flivehttporigin%2F_definst_%2Fmp4%3Aencoder25-high%2Fchunklist.m3u8%24%24lsname%3DRaleigh%27%5D
 #EXTINF:-1 tvg-id="NTDTV.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/ntd_television_logo.png" group-title="News", NTD TV
@@ -901,7 +900,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs
 #EXTINF:-1 tvg-id="USBB4400001QA" tvg-name="Weather Nation" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png" group-title="Weather", Weather Nation
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-Weather-Nation.m3u8
 #EXTINF:-1 tvg-id="I505.10170.schedulesdirect.org" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s10170_dark_360w_270h.png" group-title="Weather", Weather Network
-http://encodercdn1.frontline.ca/kamino/output/The_Weather_Network_720p/playlist.m3u8
+http://encodercdn1.frontline.ca/kamino/output/The_Weather_Network/playlist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-11-30-2020-11-30-2020" tvg-name="" tvg-logo="https://3gz8cg829c.execute-api.us-west-2.amazonaws.com/prod/image-renderer/16x9/full/600/center/90/edc83729-f468-454d-a6ed-a774fc218a0b-large16x9_STIRR_0721_EPG_WeatherSpy_1920x1080.png?1625778769035?cb=c4ca4238a0b923820dcc509a6f75849b" group-title="Weather", Weather Spy
 https://dai.google.com/linear/hls/event/vZB78SsNSXWOR63VJrNC2Q/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", Albany Forecast
