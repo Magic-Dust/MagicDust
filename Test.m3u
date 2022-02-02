@@ -10,7 +10,8 @@ https://v-pi.theus6tv.tk/hls/3.1/playlist.m3u8
 https://v-pi.theus6tv.tk/hls/29.1/playlist.m3u8
 #https://5e6cea03e25b6.streamlock.net/live/WTWC-FX.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="I392.11705.schedulesdirect.org" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
-https://5e6cea03e25b6.streamlock.net/live/WTWC-NB.stream/playlist.m3u8
+https://v-ny.mybtv.net/live/548.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+#https://5e6cea03e25b6.streamlock.net/live/WTWC-NB.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
 https://5e6cea03e25b6.streamlock.net/live/WTLHCW.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CWPlusEast.us" tvg-logo="https://i.imgur.com/PZrtfPb.png" group-title="Broadcast", CW Seed
@@ -337,6 +338,8 @@ https://d2w2eizx69h821.cloudfront.net/v1/manifest/385c85a93929f94966d0fb186fc33b
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WPBF.m3u8
 #EXTINF:-1 tvg-id="WNEP.us" tvg-logo="https://i.imgur.com/1s3Euh5.jpg" group-title="Local", WNEP Wilkes Barre ABC
 https://livevideo01.wnep.com/hls/live/2011655/newscasts/live.m3u8
+#EXTINF:-1 tvg-id="WWAY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/WWAY_logo.png/250px-WWAY_logo.png" group-title="Local", WWAY Willmington
+https://dai.google.com/linear/hls/event/A7CgcBYNTuKfvFvW8rmiJA/master.m3u8
 #EXTINF:-1 tvg-id="WXIITV.us" tvg-logo="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/wxii/logo.png" group-title="Local", WXII Winston-Salem
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WXII.m3u8
 
@@ -415,17 +418,17 @@ plugin://plugin.video.tvone/play/491/play.pvr
 plugin://plugin.video.tvone/play/27/play.pvr
 #EXTINF:-1 tvg-id="I254.10021.schedulesdirect.org" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Cable"", AMC
 plugin://plugin.video.tvone/play/28/play.pvr
-#EXTINF:-1 tvg-id="AMCCanada.us" tvg-name="AMC CA" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/amc.png" group-title="Cable"", AMC CA
+#EXTINF:-1 tvg-id="AMCCanada.us" tvg-name="AMC CA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/amc.png.300x300_q85.png" group-title="Cable"", AMC CA
 plugin://plugin.video.tvone11/play/17/1043/play.pvr
 #EXTINF:-1 tvg-id="5e8254118601b80007b4b7ae" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Cable", AMC Stories
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e8254118601b80007b4b7ae&_l=.pvr
 #EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", AHC
 plugin://plugin.video.madtitansports/play_video/%7B%27type%27%3A+%27item%27%2C+%27title%27%3A+%27%5BCOLORred%5D%5BCOLORdodgerblue%5DAmerican+Heroes+%7CSL%7C%5B%2FCOLOR%5D%5B%2FCOLOR%5D%27%2C+%27thumbnail%27%3A+%27-%27%2C+%27sportjetextractors%27%3A+%5B%27http%3A%2F%2Fcbd46b77.cdn.cms.movetv.com%2Fcms%2Fapi%2Fchannels%2F60329dee602d4e9c8a18524d4a01ff9d%2Fschedule%2Fnow%2Fplayback_info.qvt%27%5D%7D
-#EXTINF:-1 tvg-id="WFNYCD7.us" tvg-name="AMG" tvg-logo="https://static.fanart.tv/fanart/music/428e927a-e69e-43c4-acaf-c69b632a01da/musiclogo/amg-4f8481f83b2dd.png" group-title="Cable", AMG
+#EXTINF:-1 tvg-id="K38IZD4.us" tvg-name="AMG" tvg-logo="https://static.fanart.tv/fanart/music/428e927a-e69e-43c4-acaf-c69b632a01da/musiclogo/amg-4f8481f83b2dd.png" group-title="Cable", AMG
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="I282.57394.schedulesdirect.org" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
 plugin://plugin.video.tvone/play/31/play.pvr
-#EXTINF:-1 tvg-id="WPIX2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Cable", Antenna TV
+#EXTINF:-1 tvg-id="AntennaTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Cable", Antenna TV
 https://v-pi.theus6tv.tk/hls/17.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I93.17153.schedulesdirect.org" tvg-name="BBC ONE" tvg-logo="https://ia800102.us.archive.org/14/items/stevechatfield27_gmail_Bbc1/bbc%201.png" group-title="Cable", BBC 1
 plugin://plugin.video.tvone111/play/1301/play.pvr
@@ -468,7 +471,7 @@ plugin://plugin.video.tvone/play/501/play.pvr
 plugin://plugin.video.tvone111/play/1310/play.pvr
 #EXTINF:-1 tvg-id="I488.21494.schedulesdirect.org" tvg-name="Film 4" tvg-logo="https://ia800807.us.archive.org/19/items/Film4Hd/film%204%20hd.png" group-title="Cable", Film 4
 plugin://plugin.video.tvone/play/112/play.pvr
-#EXTINF:-1 tvg-id="I721.47657.schedulesdirect.org" tvg-name="More 4" tvg-logo="https://ia800800.us.archive.org/26/items/More4Hd/more%204%20hd.png" group-title="Cable", More 4
+#EXTINF:-1 tvg-id="I722.47657.schedulesdirect.org" tvg-name="More 4" tvg-logo="https://ia800800.us.archive.org/26/items/More4Hd/more%204%20hd.png" group-title="Cable", More 4
 plugin://plugin.video.tvone/play/500/play.pvr
 #EXTINF:-1 tvg-id="I105.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://www.freeview.co.uk/sites/default/files/styles/255_wide/public/2019-10/Channel5LogoPurple-255x140.png?itok=dFURSH1w" group-title="Cable", Channel 5
 https://a.jsrdn.com/broadcast/22679_24MrQma9TX/-0500/c.m3u8
@@ -476,7 +479,7 @@ https://a.jsrdn.com/broadcast/22679_24MrQma9TX/-0500/c.m3u8
 plugin://plugin.video.tvone111/play/1330/play.pvr
 #EXTINF:-1 tvg-id="I5 USA.52335.schedulesdirect.org" tvg-name="5 USA" tvg-logo="https://ia800805.us.archive.org/22/items/stevechatfield27_gmail_5Usa/5%20usa.png" group-title="Cable", 5 USA
 plugin://plugin.video.tvone11/play/4/335/play.pvr
-#EXTINF:-1 tvg-ID="Seven.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/channel_7hd_aus.png" group-title="Cable", Channel Seven
+#EXTINF:-1 tvg-ID="7Central.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/channel_7hd_aus.png" group-title="Cable", Channel Seven
 plugin://plugin.video.tvone11/play/24/1218/play.pvr
 #EXTINF:-1 tvg-ID="7Two.au" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/7two_aus.png" group-title="Cable", Channel 7 Two
 plugin://plugin.video.tvone1112/play/754/play.pvr
@@ -522,7 +525,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&rege
 #EXTINF:-1 tvg-id="CoziTV.us" tvg-name="Cozi TV" tvg-logo="http://static.epg.best/us/CoziTV.us.png" group-title="Cable", Cozi TV HD
 https://v-ny.theus6tv.tk/hls/4.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #WNBCDT2.us
-#EXTINF:-1 tvg-id="WLIWDT2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/1920px-Create_TV_network_logo.svg.png" group-title="Cable", Create TV
+#EXTINF:-1 tvg-id="Create.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/1920px-Create_TV_network_logo.svg.png" group-title="Cable", Create TV
 https://v-ny.theus6tv.tk/hls/21.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I571.61469.schedulesdirect.org" tvg-name="" tvg-logo="https://fanart.tv/fanart/tv/94351/clearlogo/CrimeInvestigationNetwork-94351.png" group-title="Cable", C&I
 plugin://plugin.video.tvone1112/play/1363/play.pvr
@@ -540,9 +543,9 @@ plugin://plugin.video.tvone11/play/4/278/play.pvr
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USAJ3400005BA&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I286.16617.schedulesdirect.org" tvg-name="Destination America HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/55/Destination_America_Logo_2012.png" group-title="Cable", Dest America
 plugin://plugin.video.tvone/play/638/play.pvr
-#EXTINF:-1 tvg-id="DigiTV.us" tvg-name="Digi TV" tvg-logo="https://digi.hu/sites/default/themes/digi/logo.png" group-title="Cable", Digi TV
+#EXTINF:-1 tvg-id="KTVWDT5.us" tvg-name="Digi TV" tvg-logo="https://digi.hu/sites/default/themes/digi/logo.png" group-title="Cable", Digi TV
 https://amg01443-netxholdingsllc-digitv200-ono-zzfy4.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="I278.11150.schedulesdirect.org" tvg-name="Discovery Channel USA" tvg-logo="http://jeffgreenleaf.com/wp-content/uploads/DISCOVERY-CHANNEL.png" group-title="Cable"", Discovery
+#EXTINF:-1 tvg-id="I278.56905.schedulesdirect.org" tvg-name="Discovery Channel USA" tvg-logo="http://jeffgreenleaf.com/wp-content/uploads/DISCOVERY-CHANNEL.png" group-title="Cable"", Discovery
 plugin://plugin.video.tvone11/play/5/147/play.pvr
 #EXTINF:-1 tvg-id="DiscoveryChannelCanada.us" tvg-name="Discovery Channel CA" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/discovery-canada.png" group-title="Cable"", Discovery CA
 plugin://plugin.video.tvone11/play/17/1053/play.pvr
@@ -556,9 +559,9 @@ plugin://plugin.video.tvone/play/92/play.pvr
 plugin://plugin.video.tvone11/play/5/1846/play.pvr
 #EXTINF:-1 tvg-id="I285.16615.schedulesdirect.org" tvg-name="Discovery ID" tvg-logo="https://ia800800.us.archive.org/3/items/InvestigationDiscovery_201708/investigation%20discovery.png" group-title="Cable", Discovery ID
 plugin://plugin.video.tvone111/play/1015/play.pvr
-#EXTINF:-1 tvg-id="I369.58793.schedulesdirect.org" tvg-name="Dmax" tvg-logo="https://cms.cignal.tv/Upload/Thumbnails/DMAX.png" group-title="Cable", DMAX
+#EXTINF:-1 tvg-id="I369.58793.schedulesdirect.org" tvg-name="Dmax" tvg-logo="https://www.freeview.co.uk/sites/default/files/styles/255_wide/public/2019-10/DMAX-logo-255x140.png?itok=F_cnaF3c" group-title="Cable", DMAX
 plugin://plugin.video.tvone/play/97/play.pvr
-#EXTINF:-1 tvg-id="I185.110960.schedulesdirect.org" tvg-name="Science Channel" tvg-logo="https://www.rikstv.no/globalassets/innholdsblokker/11-tv-kanaler/logo-png/discovery-science.png?width=240&quality=90" group-title="Cable", Disc Science
+#EXTINF:-1 tvg-id="I284.16616.schedulesdirect.org" tvg-name="Science Channel" tvg-logo="https://www.rikstv.no/globalassets/innholdsblokker/11-tv-kanaler/logo-png/discovery-science.png?width=240&quality=90" group-title="Cable", Disc Science
 plugin://plugin.video.tvone/play/488/play.pvr
 #EXTINF:-1 tvg-id="DiscoveryScienceCanada.us" tvg-name="Science Channe CA" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/science16.png" group-title="Cable", Disc Science CA
 plugin://plugin.video.tvone11/play/17/1054/play.pvr
@@ -588,7 +591,7 @@ plugin://slyguy.samsung.tv.plus/?_=play&id=USBB600001QD&_l=.pvr
 plugin://plugin.video.tvone/play/123/play.pvr
 #EXTINF:-1 tvg-id="I258.14988.schedulesdirect.org" tvg-name="FXM retro" tvg-logo="https://cdns.directv.com/content/dam/dtv/gmott/iCrossing/images/channels/fxm-720.png" group-title="Cable", FXM
 plugin://plugin.video.tvone11/play/5/218/play.pvr
-#EXTINF:-1 tvg-id="I259.17927.schedulesdirect.org" tvg-name="FXX East HD" tvg-logo="https://spng.pinpng.com/pngs/s/168-1684020_index-of-images-rh-scdezign-com-fxx-channel.png" group-title="Cable", FXX
+#EXTINF:-1 tvg-id="I259.17927.schedulesdirect.org" tvg-name="FXX East HD" tvg-logo="https://i.ytimg.com/vi/RJ1bM5E3ZNI/hqdefault.jpg" group-title="Cable", FXX
 plugin://plugin.video.tvone/play/603/play.pvr
 #EXTINF:-1 tvg-id="I266.16834.schedulesdirect.org" tvg-name="FYISD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Cable", FYI
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdRllJIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzL2Q5YThlM2JiMjk0YTRjMDhiMjM1NWVkNzcxYjNjY2IxL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
@@ -695,28 +698,28 @@ http://n1.klowdtv.net/live2/pop_720p/playlist.m3u8
 plugin://plugin.video.tvone1112/play/250/play.pvr
 #EXTINF:-1 tvg-id="I238.52199.schedulesdirect.org" tvg-name="Reelz Channel HD" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Reelz.png" group-title="Cable", Reelz
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
-#EXTINF:-1 tvg-id="W30BW.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/RetroTV_logo.png" group-title="Cable", Retro TV
+#EXTINF:-1 tvg-id="WXNYLD4.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/RetroTV_logo.png" group-title="Cable", Retro TV
 https://v-pi.theus6tv.tk/hls/2.5/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WPIXDT4.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f2/Rewind_TV_logo.png" group-title="Cable", Rewind TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://v-ny.theus6tv.tk/hls/11.4/playlist.m3u8
 #EXTINF:-1 tvg-id="RFDTV.us" tvg-name="RFD TV" tvg-logo="https://www.tobincenter.org/sites/default/files/organization_logo/2015-12/rfdtv_logo.png" group-title="Cable", RFD TV
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%28%3Fs%29%28%3Fi%29RFD%5B%5E%22%5D%2A%5B%5E%3A%5D%2A%3A%20%22%28%5B%5E%3F%5D%2A%29.%2B%3F%22status%22%3A%20%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//raw.githubusercontent.com/ericziethen/ez-iptvcat-scraper/master/data/countries/united%2520states%2520of%2520america.json%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
-#EXTINF:-1 tvg-id="I944.25554.schedulesdirect.org" tvg-name="RTE ONE" tvg-logo="https://learning.gaa.ie/sites/default/files/rte-logo.png" group-title="Cable", RTE 1
+#EXTINF:-1 tvg-id="I945.25554.schedulesdirect.org" tvg-name="RTE ONE" tvg-logo="https://learning.gaa.ie/sites/default/files/rte-logo.png" group-title="Cable", RTE 1
 plugin://plugin.video.tvone/play/179/play.pvr
-#EXTINF:-1 tvg-id="I937.99521.schedulesdirect.org" tvg-name="RTE TWO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/RTE_TWO.svg/1024px-RTE_TWO.svg.png" group-title="Cable", RTE 2
+#EXTINF:-1 tvg-id="I938.99521.schedulesdirect.org" tvg-name="RTE TWO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/RTE_TWO.svg/1024px-RTE_TWO.svg.png" group-title="Cable", RTE 2
 plugin://plugin.video.tvone/play/179/play.pvr
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk" tvg-name="Sheffield Live TV" tvg-logo="https://web.sheffieldlive.org/wp-content/uploads/2014/10/SLTV_TVset_graphic.jpg" group-title="Cable", Sheffield TV
 http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="SkyArtsUK.uk" tvg-name="SKY Arts" tvg-logo="https://ia800802.us.archive.org/19/items/SkyArtsHd/sky%20arts%20hd.png" group-title="Cable", SKY Arts
 plugin://plugin.video.tvone/play/191/play.pvr
-#EXTINF:-1 tvg-id="I989.70434.schedulesdirect.org" tvg-name="SKY Atlantic" tvg-logo="https://ia800803.us.archive.org/18/items/SkyAtlantic_201708/sky%20atlantic.png" group-title="Cable", SKY Atlantic
+#EXTINF:-1 tvg-id="I990.70434.schedulesdirect.org" tvg-name="SKY Atlantic" tvg-logo="https://ia800803.us.archive.org/18/items/SkyAtlantic_201708/sky%20atlantic.png" group-title="Cable", SKY Atlantic
 plugin://plugin.video.tvone1112/play/279/play.pvr
 #EXTINF:-1 tvg-id="SkyMaxHD.uk" tvg-name="SKY 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Sky_Max_2021.svg/220px-Sky_Max_2021.svg.png" group-title="Cable", SKY Max
 plugin://plugin.video.tvone11/play/4/318/play.pvr
 #EXTINF:-1 tvg-id="SkyShowcaseHD.uk" tvg-name="SKY 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sky_Showcase_2021.svg/220px-Sky_Showcase_2021.svg.png" group-title="Cable", SKY Showcase
 plugin://plugin.video.tvone111/play/1351/play.pvr
-#EXTINF:-1 tvg-id="I1073.64590.schedulesdirect.org" tvg-name="SKY Living" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Sky_Witness_%282020%29.png/250px-Sky_Witness_%282020%29.png" group-title="Cable", SKY Witness
+#EXTINF:-1 tvg-id="I1074.64590.schedulesdirect.org" tvg-name="SKY Living" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Sky_Witness_%282020%29.png/250px-Sky_Witness_%282020%29.png" group-title="Cable", SKY Witness
 plugin://plugin.video.tvone111/play/1341/play.pvr
 #EXTINF:-1 tvg-id="I601.15181.schedulesdirect.org" tvg-name="Slice" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Slice_logo.svg/1920px-Slice_logo.svg.png" group-title="Cable", Slice
 plugin://plugin.video.tvone1112/play/1931/play.pvr
@@ -742,7 +745,7 @@ https://tve-live-lln.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3
 plugin://plugin.video.tvone/play/292/play.pvr
 #EXTINF:-1 tvg-id="TCMCentralEasternEurope.us" tvg-name="TCM UK" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM UK
 plugin://plugin.video.tvone11/play/4/296/play.pvr
-#EXTINF:-1 tvg-id="I1136.99534.schedulesdirect.org" tvg-name="TG 4" tvg-logo="https://ansionnachfionn.files.wordpress.com/2012/01/tg4.jpg" group-title="Cable", TG 4
+#EXTINF:-1 tvg-id="I1137.99534.schedulesdirect.org" tvg-name="TG 4" tvg-logo="https://ansionnachfionn.files.wordpress.com/2012/01/tg4.jpg" group-title="Cable", TG 4
 plugin://plugin.video.tvone1112/play/271/play.pvr
 #EXTINF:-1 tvg-id="TheFilmDetective.us" tvg-name="The Film Detective" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/608c4cca0d15c505155c93a2" group-title="Cable", The Film Detective
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Ffilmdetective-localnow.amagi.tv%2Findex.m3u8%7Chttp-user-agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.131+Safari%2F537.36&mode=12&iconimage=https%3A%2F%2Ff9q4g5j6.ssl.hwcdn.net%2F608c4cca0d15c505155c93a2
@@ -768,7 +771,7 @@ plugin://slyguy.samsung.tv.plus/?_=play&id=GBAJ49000184K&_l=.pvr
 https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="Tru TV West" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/trutv.png" group-title="Cable", Tru TV West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TrueCrimeNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/True_Crime_Network_logo.svg/1024px-True_Crime_Network_logo.svg.png" group-title="Cable", True Crime
+#EXTINF:-1 tvg-id="TrueCrimeNetwork.us" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/true-crime.png" group-title="Cable", True Crime
 https://v-pi.theus6tv.tk/hls/65.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I304.73541.schedulesdirect.org" tvg-name="TV Land" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tv_land_logo15.png/200px-Tv_land_logo15.png" group-title="Cable", TV Land
 plugin://plugin.video.tvone11/play/5/237/play.pvr
@@ -819,7 +822,7 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8
 https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-id="5dc48170e280c80009a861ab" tvg-name="" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBS News LIVE[COLOR magenta] (7 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+LIVE&playlist=%5B%27https%3A%2F%2Fcbsnewshd-lh.akamaihd.net%2Fi%2FcbsnewsLivePlayer_1%40196305%2Fmaster.m3u8%24%24lsname%3DLive+Event%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2F26FJK7wRSo6RhPsK70XS_w%2Fmaster.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FDWt8iR1YQ-OJQsxczu8KfQ%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FEUo67MWSRh6toPi0heJKnQ%2Fmaster.m3u8%24%24lsname%3DDenver%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FTxSbNMu4R5anKrjV02VOBg%2Fmaster.m3u8%24%24lsname%3DLA%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FrtcMlf4RTvOEkaudeany5w%2Fmaster.m3u8%24%24lsname%3DNew+York%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FXu-ITJ2GTNGaxGn893mmWg%2Fmaster.m3u8%24%24lsname%3DPhilly%27%5D
-#EXTINF:-1 tvg-id="I355.10139.schedulesdirect.org" tvg-name="CNBC US" tvg-logo="http://www.haynesvillemovie.com/assets/media/2009/06/cnbc_transparent.png" group-title="News", CNBC
+#EXTINF:-1 tvg-id="I355.10139.schedulesdirect.org" tvg-name="CNBC US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="News", CNBC
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/cnbc-live-streaming-free/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/cnbc-live-streaming-free/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I357.26849.schedulesdirect.org" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC World
 plugin://plugin.video.tvone111/play/1323/play.pvr
