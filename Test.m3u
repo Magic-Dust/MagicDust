@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
 #EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
 https://v-ny.theus6tv.tk/hls/7.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast", CBS
+#EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="CBS New York" tvg-logo="https://image.flaticon.com/icons/png/512/826/826356.png" group-title="Broadcast;NCAA Tournament", CBS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://v-pi.theus6tv.tk/hls/3.1/playlist.m3u8
 #EXTINF:-1 tvg-id="I398.20360.schedulesdirect.org" tvg-name="FOX New York" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", FOX
@@ -725,9 +725,9 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5c393cad2de254456f7ef8c2&_l=.pvr
 plugin://plugin.video.tvone111/play/1286/play.pvr
 #EXTINF:-1 tvg-id="I244.58623.schedulesdirect.org" tvg-name="Syfy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sci_Fi_2002.svg/320px-Sci_Fi_2002.svg.png" group-title="Cable", Syfy
 plugin://plugin.video.tvone111/play/1247/play.pvr
-#EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable", TBS
+#EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable;NCAA Tournament", TBS
 https://tve-live-lln.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TBSWest.us" tvg-name="TBS West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable", TBS West
+#EXTINF:-1 tvg-id="TBSWest.us" tvg-name="TBS West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable;NCAA Tournament", TBS West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I256.12852.schedulesdirect.org" tvg-name="TCM US" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM
 plugin://plugin.video.tvone1112/play611/play.pvr
@@ -745,7 +745,7 @@ https://v-pi.theus6tv.tk/hls/51.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows 
 plugin://plugin.video.tvone11/play/5/204/play.pvr
 #EXTINF:-1 tvg-id="CAAJ4000006UF" tvg-name="TMZ" tvg-logo="https://i.imgur.com/wzBD6fy.png" group-title="Cable", TMZ
 https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1234A-tmz/CDN/1280x720_5000000/index.m3u8
-#EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable", TNT
+#EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable;NCAA Tournament", TNT
 https://tve-live-lln.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TNTWest.us" tvg-name="" tvg-logo="https://i.imgur.com/xvL9KPI.png" group-title="Cable", TNT West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
@@ -755,9 +755,9 @@ plugin://plugin.video.tvone1112/play/1373/play.pvr
 plugin://slyguy.pluto.tv.provider/?_=play&id=59c01b1953680139c6ae9d4d&_l=.pvr
 #EXTINF:-1 tvg-id="GBAJ49000184K" tvg-name="" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/60/GBAJ49000184K_20200923T100413.png" group-title="Cable", Travel XP
 plugin://slyguy.samsung.tv.plus/?_=play&id=GBAJ49000184K&_l=.pvr
-#EXTINF:-1 tvg-id="I246.10153.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable", Tru TV
+#EXTINF:-1 tvg-id="I246.10153.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable;NCAA Tournament", Tru TV
 https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="Tru TV West" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/trutv.png" group-title="Cable", Tru TV West
+#EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="Tru TV West" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/trutv.png" group-title="Cable;NCAA Tournament", Tru TV West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TrueCrimeNetwork.us" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/true-crime.png" group-title="Cable", True Crime
 https://v-pi.theus6tv.tk/hls/65.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
@@ -988,9 +988,9 @@ plugin://plugin.video.tvone1112/play/111/play.pvr
 plugin://plugin.video.tvone11/play/8/634/play.pvr
 #EXTINF:-1 tvg-id="I197.95772.schedulesdirect.org" tvg-name="BT Sport 3" tvg-logo="http://static.epg.best/gb/BTSport3.uk.png" group-title="Sports", BT Sport 3
 plugin://plugin.video.tvone1112/play526/play.pvr
-#EXTINF:-1 tvg-id="I221.16365.schedulesdirect.org" tvg-name="CBS Sports Network" tvg-logo="https://ia600806.us.archive.org/18/items/CbsSportsNetwork_201708/cbs%20sports%20network.png" group-title="Sports", CBS Sports
+#EXTINF:-1 tvg-id="I221.16365.schedulesdirect.org" tvg-name="CBS Sports Network" tvg-logo="https://ia600806.us.archive.org/18/items/CbsSportsNetwork_201708/cbs%20sports%20network.png" group-title="Sports;NCAA Tournament", CBS Sports
 plugin://plugin.video.tvone11/play/8/1902/play.pvr
-#EXTINF:-1 tvg-id="5e9f2c05172a0f0007db4786" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/CBS_Sports_HQ.png" group-title="Sports", CBS HQ
+#EXTINF:-1 tvg-id="5e9f2c05172a0f0007db4786" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/CBS_Sports_HQ.png" group-title="Sports;NCAA Tournament", CBS HQ
 https://dai.google.com/linear/hls/pa/event/9Lq0ERvoSR-z9AwvFS-xYA/stream/d72fcd11-9c68-4240-bb85-0e7fed1d38cd:MRN2/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.politico.com/dims4/default/ff36141/2147483647/resize/1160x%3E/quality/90/?url=https:%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa%20-%20draftkings%20.png" group-title="Sports", DraftKings
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdRHJhZnRLaW5ncyBCYXNlYmFsbCB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9iZTBkODk0ZGUxODY0MTUxOWNlMmY5NTg3YzBkNDAwYy9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
