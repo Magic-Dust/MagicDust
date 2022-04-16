@@ -427,6 +427,7 @@ plugin://plugin.video.tvone111/play/1327/play.pvr
 plugin://plugin.video.tvone1112/play463/play.pvr
 #EXTINF:-1 tvg-id="AMCCanada.us" tvg-name="AMC CA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/amc.png.300x300_q85.png" group-title="Cable"", AMC CA
 plugin://plugin.video.tvone111/play/2077/play.pvr
+#AMCPlus.us
 #EXTINF:-1 tvg-id="5e8254118601b80007b4b7ae" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Cable", AMC Stories
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e8254118601b80007b4b7ae&_l=.pvr
 #EXTINF:-1 tvg-id="I287.78808.schedulesdirect.org" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Cable", AHC
@@ -441,7 +442,7 @@ https://v-pi.theus6tv.tk/hls/17.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows 
 plugin://plugin.video.tvone111/play/1301/play.pvr
 #EXTINF:-1 tvg-id="I159.17154.schedulesdirect.org" tvg-name="BBC TWO" tvg-logo="https://ia800600.us.archive.org/26/items/stevechatfield27_gmail_Bbc2/bbc%202.jpg" group-title="Cable", BBC 2
 plugin://plugin.video.tvone1112/play138/play.pvr
-#EXTINF:-1 tvg-id="BBCRedButton1.uk" tvg-name="BBC THREE" tvg-logo="https://posabilitymagazine.co.uk/wp-content/uploads/2014/08/bbc3logo_5035-300x151.png" group-title="Cable", BBC 3
+#EXTINF:-1 tvg-id="BBCThree.uk" tvg-name="BBC THREE" tvg-logo="https://posabilitymagazine.co.uk/wp-content/uploads/2014/08/bbc3logo_5035-300x151.png" group-title="Cable", BBC 3
 plugin://plugin.video.tvone1112/play/139/play.pvr
 #EXTINF:-1 tvg-id="I815.20684.schedulesdirect.org" tvg-name="BBC FOUR" tvg-logo="https://ia800104.us.archive.org/12/items/Bbc4Hd/bbc%204%20hd.png" group-title="Cable", BBC 4
 plugin://plugin.video.tvone111/play/1304/play.pvr
@@ -517,6 +518,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f68f53eb1e5800007390bf8&_l=.pvr
 #EXTINF:-1 tvg-id="I249.10149.schedulesdirect.org" tvg-name="Comedy Central East" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Comedy_Central_UK.svg/861px-Comedy_Central_UK.svg.png" group-title="Cable", Comedy C
 plugin://plugin.video.tvone111/play/1272/play.pvr
+#EXTINF:-1 tvg-id="ComedyCentralUK.uk" tvg-name="Comedy Central East" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Comedy_Central_UK.svg/861px-Comedy_Central_UK.svg.png" group-title="Cable", Comedy UK
+http://uksono1-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5ca671f215a62078d2ec0abf" tvg-name="Comedy Central Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ca671f215a62078d2ec0abf/colorLogoPNG.png" group-title="Cable", Comedy C Pluto
 plugin://slyguy.pluto.tv.provider/?_=play&id=5ca671f215a62078d2ec0abf&_l=.pvr
 #EXTINF:-1 tvg-id="5f99e24636d67d0007a94e6d" tvg-name="Comedy Central Animation" tvg-logo="https://images.pluto.tv/channels/5f99e24636d67d0007a94e6d/colorLogoPNG.png" group-title="Cable", Comedy C Animation
@@ -837,7 +840,8 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8
 #https://bcliveuniv-lh.akamaihd.net/i/news_1@194050/master.m3u8
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA370000104" tvg-name="CBSN" tvg-logo="https://i.imgur.com/MH7kNnl.png" group-title="News", CBSN
-https://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8
+#https://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-id="CBSN.us" tvg-name="" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBS News LIVE[COLOR magenta] (7 items )[/COLOR]
 #5dc48170e280c80009a861ab
 plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+LIVE&playlist=%5B%27https%3A%2F%2Fcbsnewshd-lh.akamaihd.net%2Fi%2FcbsnewsLivePlayer_1%40196305%2Fmaster.m3u8%24%24lsname%3DLive+Event%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2F26FJK7wRSo6RhPsK70XS_w%2Fmaster.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FDWt8iR1YQ-OJQsxczu8KfQ%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FEUo67MWSRh6toPi0heJKnQ%2Fmaster.m3u8%24%24lsname%3DDenver%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FTxSbNMu4R5anKrjV02VOBg%2Fmaster.m3u8%24%24lsname%3DLA%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FrtcMlf4RTvOEkaudeany5w%2Fmaster.m3u8%24%24lsname%3DNew+York%27%7C%7C+%27https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FXu-ITJ2GTNGaxGn893mmWg%2Fmaster.m3u8%24%24lsname%3DPhilly%27%5D
@@ -1668,25 +1672,35 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #EXTINF:-1 tvg-id="I332.16361.schedulesdirect.org" tvg-name="MTV2" tvg-logo="https://vignette.wikia.nocookie.net/logosfake/images/9/94/Wrecked_TV_2.png" group-title="Music Videos", MTV 2
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdTVRWMiB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy84MzVkZDc0YjZhODY0NjYzOGVkMWVlODdmZDgzOWI5ZS9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="MTV80s.us" tvg-name="MTV 80s" tvg-logo="https://i.imgur.com/A49Zg9l.png" group-title="Music Videos", MTV 80's
-http://190.61.37.173:8000/play/a01m/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://images2.wikia.nocookie.net/__cb20111124002008/logopedia/images/8/87/Mtv_base_2011.png" group-title="Music Videos", MTV Base
+http://myott.top/stream/1VGPHYLZTH/87.m3u8
+#MTV80s.uk
+#EXTINF:-1 tvg-id="MTV90s.us" tvg-name="MTV 80s" tvg-logo="https://i.imgur.com/A49Zg9l.png" group-title="Music Videos", MTV 90's
+http://myott.top/stream/1VGPHYLZTH/88.m3u8
+#MTV90s.uk
+#EXTINF:-1 tvg-id="MTV00s.us" tvg-name="MTV 80s" tvg-logo="https://i.imgur.com/A49Zg9l.png" group-title="Music Videos", MTV 00's
+http://myott.top/stream/1VGPHYLZTH/165.m3u8
+#MTV00s.uk
+#EXTINF:-1 tvg-id="MTVBaseUK.uk" tvg-name="MTV Base UK" tvg-logo="http://images2.wikia.nocookie.net/__cb20111124002008/logopedia/images/8/87/Mtv_base_2011.png" group-title="Music Videos", MTV Base
 plugin://plugin.video.tvone1112/play/275/play.pvr
 #EXTINF:-1 tvg-id="5d14fd1a252d35decbc4080c" tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png" group-title="Music Videos", MTV Biggest Pop
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 #EXTINF:-1 tvg-id="5d3609cd6a6c78d7672f2a81" tvg-name="MTV Block Party" tvg-logo="https://images.pluto.tv/channels/5d3609cd6a6c78d7672f2a81/colorLogoPNG.png" group-title="Music Videos", MTV Block Party
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
-#EXTINF:-1 tvg-id="5d14fdb8ca91eedee1633117" tvg-name="MTV Spankin' New" tvg-logo="https://images.pluto.tv/channels/5d14fdb8ca91eedee1633117/colorLogoPNG.png" group-title="Music Videos", MTV Spankin' New
-plugin://slyguy.pluto.tv.provider/?_=play&id=5d14fdb8ca91eedee1633117&_l=.pvr
 #EXTINF:-1 tvg-id="I336.22561.schedulesdirect.org" tvg-name="MTV Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/MTV_Classic_2017_logo.svg/1200px-MTV_Classic_2017_logo.svg.png" group-title="Music Videos", MTV Classic
+#MTVClassicUK.uk
 plugin://plugin.video.tvone1112/play/1248/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="MTV Dance" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/MTV_Dance_2017_logo_Australia.svg/1200px-MTV_Dance_2017_logo_Australia.svg.png" group-title="Music Videos", MTV Dance
+#EXTINF:-1 tvg-id="MTVDance.UK" tvg-name="MTV Dance" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/MTV_Dance_2017_logo_Australia.svg/1200px-MTV_Dance_2017_logo_Australia.svg.png" group-title="Music Videos", MTV Dance
 plugin://plugin.video.tvone/play/295/play.pvr
 #EXTINF:-1 tvg-id="I410.24214.schedulesdirect.org" tvg-name="MTV Hits" tvg-logo="https://my.tvguide.co.uk/channel_logos/190.png" group-title="Music Videos", MTV Hits
+#MTVHitsEurope.uk
 plugin://plugin.video.tvone1112/play/273/play.pvr
 #EXTINF:-1 tvg-id="MTVLive.us" tvg-name="MTV Live" tvg-logo="http://logo.plusx.tv/logo/MTV%20Live%20HD.png" group-title="Music Videos", MTV Live
-plugin://plugin.video.tvone/play/643/play.pvr
+http://myott.top/stream/1VGPHYLZTH/215.m3u8
+#plugin://plugin.video.tvone/play/643/play.pvr
 #EXTINF:-1 tvg-id="MTVRocksEurope.us" tvg-name="MTV Rocks" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MTV_Rocks_2017_logo.svg/1200px-MTV_Rocks_2017_logo.svg.png" group-title="Music Videos", MTV Rocks
 plugin://plugin.video.tvone/play/296/play.pvr
+#EXTINF:-1 tvg-id="5d14fdb8ca91eedee1633117" tvg-name="MTV Spankin' New" tvg-logo="https://images.pluto.tv/channels/5d14fdb8ca91eedee1633117/colorLogoPNG.png" group-title="Music Videos", MTV Spankin' New
+plugin://slyguy.pluto.tv.provider/?_=play&id=5d14fdb8ca91eedee1633117&_l=.pvr
 #EXTINF:-1 tvg-id="" tvg-name="MTV Vintage" tvg-logo="https://seeklogo.com/images/M/mtv-logo-B88195D873-seeklogo.com.png" group-title="Music Videos", MTV Vintage
 plugin://plugin.video.tvone/play/620/play.pvr
 #EXTINF:-1 tvg-id="5d14fc31252d35decbc4080b" tvg-name="Yo! MTV" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Music Videos", MTV Yo!
