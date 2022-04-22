@@ -19,6 +19,8 @@ http://uksono1-samsunguk.amagi.tv/playlist.m3u8
 https://v-ny.theus6tv.tk/hls/33.1/playlist.m3u8
 #EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable", TBS
 https://tve-live-lln.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I256.12852.schedulesdirect.org" tvg-name="TCM US" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM
+https://tve-live-lln.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable", TNT
 https://tve-live-lln.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I246.10153.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable", Tru TV
@@ -45,10 +47,6 @@ https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i0.wp.com/cardinalsportszone.com/wp-content/uploads/2016/08/20160828_090514.png?ssl=1" group-title="Sports", ACC Network
 https://a.jsrdn.com/broadcast/542cb2ce3c/+0000/c.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Redsox" tvg-logo="https://static.wikia.nocookie.net/lostpedia/images/5/5c/Red_Sox.png/revision/latest?cb=20080713155553" group-title="Sports", RedSox
-http://retsports.com/mlb/redsox.php
-#EXTINF:-1 tvg-id="" tvg-name="Yankees" tvg-logo="https://sportslogohistory.com/wp-content/uploads/2018/03/new_york_yankees_1968-pres.png" group-title="Sports", Yankees
-http://retsports.com/mlb/redsox.php
 
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s91994_dark_360w_270h.png" group-title="Weather", AccuWeather
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
@@ -57,9 +55,40 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,F
 
 #EXTINF:-1 tvg-id="CaptitalOTBBetting.us" tvg-name="" tvg-logo="https://www.capitalotb.com/wp-content/uploads/2019/09/COTB-Logo.png" group-title="Horse Racing", OTB
 https://d2up1hmow19bcd.cloudfront.net/livecf/liveracing/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.santaanita.com/wp-content/uploads/2020/03/gulfstream.png" group-title="Horse Racing", Gulfstream Park
+https://api.new.livestream.com/accounts/9869799/events/3519786/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://mdhorsemen.com/images/MARYLAND_RACING_COMMISSION.png" group-title="Horse Racing", Maryland Racing
+https://api.new.livestream.com/accounts/9869799/events/6761374/live.m3u8
 
 #EXTINF:-1 tvg-id="I160.60964.schedulesdirect.org" tvg-name="MTV US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MTV-Logo.svg/755px-MTV-Logo.svg.png" group-title="Music Videos", MTV
 http://38.127.211.18/live/c2eds/MTV/HLS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn-radiotime-logos.tunein.com/s28576d.png" group-title="Radio", WEQX 102.7
 #EXTVLCOPT:http-user-agent=iPad
 http://crystalout.surfernetwork.com:8001/WEQX_MP3
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Albany Egg
+https://wms-prod-2.wetmet.net/live/225-05-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Albany Skyline
+https://wms-prod-2.wetmet.net/live/225-09-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Albany Capital
+https://wms-prod-1.wetmet.net/live/153-06-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Glens Falls
+https://wms-prod-2.wetmet.net/live/225-08-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Lake George
+https://wms-prod-2.wetmet.net/live/225-04-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Saratoga Springs
+https://wms-prod-2.wetmet.net/live/225-03-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Schenectady
+https://wms-prod-2.wetmet.net/live/225-02-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Live Web-Cams", Troy
+https://wms-prod-2.wetmet.net/live/225-01-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Murrels Inlet Marsh
+https://wms-prod-1.wetmet.net/live/02-18-01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Skywheel
+https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-blvd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Riptydz Inside
+https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-bar.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Riptydz Outside
+https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-beach.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Live Web-Cams", Myrtle Voleyball
+https://5ab0d1d85f91f.streamlock.net/Riptydz/cam-rt-volleyball.stream/playlist.m3u8
