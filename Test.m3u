@@ -716,7 +716,8 @@ http://n1.klowdtv.net/live2/pop_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="I142.45828.schedulesdirect.org" tvg-name="Really" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Really_logo_2013.svg/250px-Really_logo_2013.svg.png" group-title="Cable", Really
 plugin://plugin.video.tvone1112/play/250/play.pvr
 #EXTINF:-1 tvg-id="I238.52199.schedulesdirect.org" tvg-name="Reelz Channel HD" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Reelz.png" group-title="Cable", Reelz
-plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
+https://bcovlive-a.akamaihd.net/c733a9aa448a4a44a10c527c6f5bf7a4/us-east-1/5245389775001/playlist.m3u8
+#plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
 #EXTINF:-1 tvg-id="WXNYLD4.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/RetroTV_logo.png" group-title="Cable", Retro TV
 https://v-pi.theus6tv.tk/hls/2.5/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WPIXDT4.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f2/Rewind_TV_logo.png" group-title="Cable", Rewind TV
@@ -831,7 +832,7 @@ plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5
 #EXTINF:-1 tvg-id="I91.19037.schedulesdirect.org" tvg-name="BBC News" tvg-logo="https://ia800803.us.archive.org/12/items/BbcNewsHd/bbc%20news%20hd.png" group-title="News", BBC News
 plugin://plugin.video.tvone1112/play948/play.pvr
 #EXTINF:-1 tvg-id="I346.89690.schedulesdirect.org" tvg-name="BBC World News" tvg-logo="http://www.userlogos.org/files/logos/bluewolverine07/bbc%20news%20logo.png" group-title="News", BBC World News
-#http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#http://gtv01.airlinktt.co/live/smil:BBC_WORLD.smil/playlist.m3u8
 http://ott-cdn.ucom.am/s24/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 #EXTINF:-1 tvg-id="5e46fba0c43b0d00096e5ac1" tvg-name="Blaze Live" tvg-logo="https://images.pluto.tv/channels/5e46fba0c43b0d00096e5ac1/colorLogoPNG.png" group-title="News", Blaze
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e46fba0c43b0d00096e5ac1&_l=.pvr
@@ -882,8 +883,10 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 plugin://plugin.video.live.streamspro/?mode=13&name=FOX+Regional&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-samsungus.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DFox+News+Now%27%7C%7C+%27https%3A%2F%2Fsvc-lvanvato-cxtv-wfxt.cmgvideo.com%2Fwfxt%2F2564k%2Findex.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flnc-kdfw-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DDallas%27%7C%7C+%27https%3A%2F%2Flnc-kriv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DHouston%27%7C%7C+%27https%3A%2F%2Flnc-kttv-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DLos+Angeles%27%7C%7C+%27https%3A%2F%2Flnc-ksaz-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DPhoenix%27%7C%7C+%27https%3A%2F%2Flnc-ktvu-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSan+Francisco%27%7C%7C+%27https%3A%2F%2Flnc-kcpq-fox-aws.tubi.video%2Findex.m3u8%24%24lsname%3DSeattle%27%5D
 #EXTINF:-1 tvg-id="I9862.58685.schedulesdirect.org" tvg-name="France 24" tvg-logo="http://static.epg.best/fr/France24English.fr.png" group-title="News", France 24
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Frank Speech" tvg-logo="https://i0.wp.com/lusogamer.com/wp-content/uploads/2021/04/Frank-Speech-App.png" group-title="News", Frank Speech
-https://cdn15.frankspeech.com/hls/frank/mainchannel1/chunklist_b464000.m3u8|Referer=https://frankspeech.com/
+#EXTINF:-1 tvg-id="" tvg-name="Frank Speech" tvg-logo="https://frankspeech.com/sites/default/files/frankspeech_logo_0622_0.png" group-title="News", Frank Speech
+https://cdn15.frankspeech.com/hls/frank/mainchannel1/playlist.m3u8|Referer=https://frankspeech.com/&Origin=https://frankspeech.com
+#EXTINF:-1 tvg-id="" tvg-name="Frank Speech" tvg-logo="https://frankspeech.com/sites/default/files/frankspeech_logo_0622_0.png" group-title="News", Frank Speech 2
+https://ltv-dl.frankspeech.com/hls/frank/mainchannel2/playlist.m3u8|Referer=https://frankspeech.com/&Origin=https://frankspeech.com
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.uk/view-resources/dachser2/public/gbnews_landing/hero-new.png" group-title="News", GBN
 https://live-gbnews.simplestreamcdn.com/gbnews/gbnews/bitrate1.isml/live.m3u8
 #EXTINF:-1 tvg-id="I252.10050.schedulesdirect.org" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
@@ -914,6 +917,9 @@ https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
 https://oneamericanews-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5e7cf6c7b156d500078c5f44" tvg-name="OAN Plus" tvg-logo="https://images.pluto.tv/channels/5e7cf6c7b156d500078c5f44/colorLogoPNG.png" group-title="News", OAN Plus
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e7cf6c7b156d500078c5f44&_l=.pvr
+#EXTINF:-1 tvg-id="" tvg-name="RBSN" tvg-logo="https://www.rsbnetwork.com/wp-content/uploads/2021/12/site-logo-rrwdsfc2.png" group-title="News", RBSN
+#https://live-fd164e1.rmbl.ws/slot-18/ngrp:73cv-qia5_all/chunklist_b1046608.m3u8|Referer=https://rsbnetwork.tv/&Origin=https://rsbnetwork.tv
+https://live-fd164e1.rmbl.ws/slot-18/ngrp:73cv-qia5_all/playlist.m3u8|Referer=https://rsbnetwork.tv/&Origin=https://rsbnetwork.tv
 #EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", Real America's Voice
 https://8430d785459544a5aa0fc4d83bd3097c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_AmericasVoice/playlist.m3u8
 #https://p1media-americasvoice-1.roku.wurl.com/manifest/b1ba4c5e9571b4919d24d0e97f8b7202.m3u8
@@ -936,7 +942,6 @@ https://newsuk-talkradiotv-brightcove.amagi.tv/playlist.m3u8
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/40/USBB1500001GD_20210622T090612.png" group-title="News", USA Today
 plugin://slyguy.samsung.tv.plus/?_=play&amp;_play=1&amp;id=USBB1500001GD&amp;_is_live=1&amp;_noresume=.pvr
-
 #EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="AccuWeather Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s91994_dark_360w_270h.png" group-title="Weather", AccuWeather
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us" tvg-logo="https://1.bp.blogspot.com/-TIj7_AZ8kM4/YOw0VXC_ClI/AAAAAAAACBg/Rim7peVzaK4w9pOIbOtZuNfOMyyMh7fnACLcBGAsYHQ/s320/foxweather.png" group-title="Weather", Fox Weather
@@ -1347,7 +1352,8 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 #EXTINF:-1 tvg-id="I560.74073.schedulesdirect.org" tvg-name="" tvg-logo="https://archive.org/services/img/stevechatfield27_gmail_Epix_201805" group-title="Movies", Epix Hits
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdRVBJWCBIaXRzIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzLzg2ODZiMzllOGZhNzRiMGRhYThiMGY4MDA2OWMxYWMxL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO East" tvg-logo="https://ia800802.us.archive.org/13/items/HboHd/hbo%20hd.png" group-title="Movies", HBO
-plugin://plugin.video.thecrew/?action=play&url=%24doregex%5Bmakelist2%5D%7Cregex%3Dce5d012cd48b604c8c600fdf558ce5d6&content=0
+plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdSEJPIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzLzFmN2I4YTE1MjAxNTQ1YzZhMTBkNWI1MGRiODU5ZThiL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
+#plugin://plugin.video.thecrew/?action=play&url=%24doregex%5Bmakelist2%5D%7Cregex%3Dce5d012cd48b604c8c600fdf558ce5d6&content=0
 #EXTINF:-1 tvg-id="I502.10241.schedulesdirect.org" tvg-name="HBO 2 East" tvg-logo="https://ia800801.us.archive.org/6/items/stevechatfield27_gmail_Hbo2/hbo%202.png" group-title="Movies", HBO 2
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdSEJPMiB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9jZGFmMGRiY2E2NzQ0MjlhYmUzYjhlMjkzNjJiZDk2YS9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="I506.59839.schedulesdirect.org" tvg-name="HBO Comedy East" tvg-logo="https://ia800801.us.archive.org/17/items/HboComedy/hbo%20comedy.png" group-title="Movies", HBO Comedy
