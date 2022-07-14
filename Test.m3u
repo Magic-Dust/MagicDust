@@ -317,6 +317,10 @@ https://dai.google.com/linear/hls/event/A7CgcBYNTuKfvFvW8rmiJA/master.m3u8
 #EXTINF:-1 tvg-id="WXIITV.us" tvg-name="" tvg-logo="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/wxii/logo.png" group-title="Local", WXII Winston-Salem
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WXII.m3u8
 
+#EXTINF:-1 tvg-id="PBSEast.us" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="PBS", PBS National East
+https://pbs.lls.cdn.pbs.org/est/index.m3u8
+#EXTINF:-1 tvg-id="PBSWest.us" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="PBS", PBS National West
+https://pbs.lls.cdn.pbs.org/pst/index.m3u8
 #EXTINF:-1 tvg-id="KAKM" tvg-name="" tvg-logo="https://image.pbs.org/stations/kakm-color-logo-WRiXY6t.png" group-title="PBS", Alaska Public Media
 plugin://slyguy.pbs.live/?_=play&callsign=KAKM&_l=.pvr
 #EXTINF:-1 tvg-id="KAETDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kaet-color-logo-KkYt9tL.png" group-title="PBS", Arizona PBS
@@ -329,7 +333,7 @@ plugin://slyguy.pbs.live/?_=play&callsign=wgtv&_l=.pvr
 plugin://slyguy.pbs.live/?_=play&callsign=WNED&_l=.pvr
 #EXTINF:-1 tvg-id="WTVI" tvg-name="" tvg-logo="https://image.pbs.org/stations/wtvi-color-logo-AGVjtCR.png" group-title="PBS", Charlotte
 plugin://slyguy.pbs.live/?_=play&callsign=WTVI&_l=.pvr
-#EXTINF:-1 tvg-id="WTTWDT1.us" tvg-name="" tvg-logo="" group-title="PBS", WTTW Chicago
+#EXTINF:-1 tvg-id="WTTWDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="PBS", WTTW Chicago
 plugin://slyguy.pbs.live/?_=play&callsign=WTTW&_l=.pvr
 #EXTINF:-1 tvg-id="WVIZDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/wviz-color-cobranded-logo-Di0tIvT.png" group-title="PBS", Cleveland
 plugin://slyguy.pbs.live/?_=play&callsign=WVIZ&_l=.pvr
@@ -511,7 +515,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f68f53eb1e5800007390bf8&_l=.pvr
 #EXTINF:-1 tvg-id="I249.62420.zap2it.com" tvg-name="Comedy Central East" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Comedy_Central_UK.svg/861px-Comedy_Central_UK.svg.png" group-title="Cable", Comedy C
 plugin://plugin.video.tvone111/play/1272/play.pvr
-#EXTINF:-1 tvg-id="ComedyCentralUK.uk" tvg-name="Comedy Central East" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Comedy_Central_UK.svg/861px-Comedy_Central_UK.svg.png" group-title="Cable", Comedy UK
+#EXTINF:-1 tvg-id="ComedyCentralUK.uk" tvg-name="Comedy Central UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Comedy_Central_UK.svg/861px-Comedy_Central_UK.svg.png" group-title="Cable", Comedy UK
 http://uksono1-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5ca671f215a62078d2ec0abf" tvg-name="Comedy Central Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ca671f215a62078d2ec0abf/colorLogoPNG.png" group-title="Cable", Comedy C Pluto
 plugin://slyguy.pluto.tv.provider/?_=play&id=5ca671f215a62078d2ec0abf&_l=.pvr
@@ -611,7 +615,8 @@ plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB19000017U&_is_live=1&_nor
 #EXTINF:-1 tvg-id="I564.105723.zap2it.com" tvg-name="Hallmark Drama" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Cable", Hallmark Drama
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdSGFsbG1hcmsgRHJhbWEgfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvNzk0OGQwOTYwODllNDU0MWIwNTliOWM1NTYxYzVlM2Yvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="USBB2900003O3" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Heartland_TV_logo.png" group-title="Cable", Heartland
-plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB2900003O3&_is_live=1&_noresume=.pvr
+#plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB2900003O3&_is_live=1&_noresume=.pvr
+https://v-ny.theus6tv.tk/hls/33.6/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WWORDT4.us" tvg-name="Heroes and Icons" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/heroesicons.png" group-title="Cable", Heroes and Icons
 https://v-ny.theus6tv.tk/hls/9.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I229.49788.zap2it.com" tvg-name="HGTV East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Cable", HGTV
