@@ -956,9 +956,26 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&rege
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/u9LbOrBpK88jlIAhGeo972oj5T8Y58YT3Y2V7RJsTY0TYm1Nb3teApmP3HMe0SV3TqtU=w300" group-title="Weather", Forecast Raleigh
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Fwral-weathercenter-forecast%2F1076424%2F
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA test1
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA gecolor
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:mimetype=image/gif
+#KODIPROP:loop=1
 https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA test2
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:mimetype=image/gif
+#KODIPROP:inputstream.ffmpegdirect.loop=0
+https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA test3
+pipe://ffmpeg -i https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif out.mkv pipe:1
+
+#ffmpeg -i https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif out.mkv
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", NORTHEAST gecolor
 https://cdn.star.nesdis.noaa.gov//GOES16/ABI/SECTOR/NE/GEOCOLOR/GOES16-NE-GEOCOLOR-600x600.gif
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", NORTHEAST infrared
