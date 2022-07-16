@@ -988,25 +988,25 @@ plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwww.youtube.com%2F%2Fwa
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Flive_dualdoppler5000_radar%2F1068935%2F
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh3.googleusercontent.com/ctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk=w300" group-title="Radar", Tampa Bay
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27%23%24pyFunction%5Cnimport%20re%2Curllib.request%2Cresolveurl%5Cnfrom%20urllib.request%20import%20urlopen%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%23NYRA%5Cn%20%20source%20%3D%20urllib.request.urlopen%28%5C%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%5C%27%29.read%28%29.decode%28%5C%27utf-8%5C%27%29%5Cn%20%20return%20resolveurl.resolve%28%5C%27https%3A//www.youtube.com//watch%3Fv%3D%5C%27%2Bre.findall%28%5C%27channelFeaturedContentRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%5C%27%2Csource%29%5B0%5D%29%5Cn%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=http%3A%2F%2Flh3.googleusercontent.com%2FctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk%3Dw300
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Ocean gecolor
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Atlantic Ocean gecolor
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-TAW-GEOCOLOR-900x540.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Ocean infrared
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Atlantic Ocean infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-TAW-13-900x540.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Coast gecolor
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Atlantic Coast gecolor
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Coast infrared
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Atlantic Coast infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-13-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Gulf of Mexico gecolor
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Gulf of Mexico gecolor
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-GM-GEOCOLOR-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Gulf of Mexico infrared
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Gulf of Mexico infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-GM-13-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Caribbean gecolor
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Caribbean gecolor
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CAR-GEOCOLOR-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Caribbean infrared
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Caribbean infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CAR-13-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Puerto Rico gecolor
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Puerto Rico gecolor
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-GEOCOLOR-600x600.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Puerto Rico infrared
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Puerto Rico infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-13-600x600.gif
 
 #EXTINF:-1 tvg-id="I655.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
