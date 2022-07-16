@@ -973,9 +973,9 @@ plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Flive_d
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27%23%24pyFunction%5Cnimport%20re%2Curllib.request%2Cresolveurl%5Cnfrom%20urllib.request%20import%20urlopen%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%23NYRA%5Cn%20%20source%20%3D%20urllib.request.urlopen%28%5C%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%5C%27%29.read%28%29.decode%28%5C%27utf-8%5C%27%29%5Cn%20%20return%20resolveurl.resolve%28%5C%27https%3A//www.youtube.com//watch%3Fv%3D%5C%27%2Bre.findall%28%5C%27channelFeaturedContentRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%5C%27%2Csource%29%5B0%5D%29%5Cn%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=http%3A%2F%2Flh3.googleusercontent.com%2FctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk%3Dw300
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", Radar USA
 https://cbs6albany.com/resources/ftptransfer/wrgb/maps/web_east_satrad_loop_790.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast playmedia
-PlayMedia(https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif)
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast infared
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast staclk
+stack://https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif , https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast strm
 https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/Radar/NOAA-ACir.strm
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast gif
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif
