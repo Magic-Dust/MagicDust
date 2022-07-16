@@ -949,36 +949,65 @@ https://bcliveunivsecure-lh.akamaihd.net/i/twn_1@631672/master.m3u8
 https://dai.google.com/linear/hls/event/vZB78SsNSXWOR63VJrNC2Q/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", Forecast Albany
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%22embedUrl%22%3A%20%22%5B%5E%3D%5D%2A%3D%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//cbs6albany.com/weather%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Flh3.googleusercontent.com%2FsiKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static-newson.akamaized.net/icons/v3/sinclair/WCIV.png" group-title="Weather", Forecast Charleston
+plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%22embedUrl%22%3A%20%22%5B%5E%3D%5D%2A%3D%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//abcnews4.com/weather%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Fstatic-newson.akamaized.net%2Ficons%2Fv3%2Fsinclair%2FWCIV.png
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-c_qMPBpxrhg/AAAAAAAAAAI/AAAAAAAAAAA/XxUteOHOKLM/s900-c-k-no/photo.jpg" group-title="Weather", Forecast Myrtle Beach
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&regexs=%7B%27makelist%27%3A%20%7B%27name%27%3A%20%27makelist%27%2C%20%27expres%27%3A%20%27%22embedUrl%22%3A%20%22%5B%5E%3D%5D%2A%3D%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//wpde.com/weather%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Fyt3.ggpht.com%2F-c_qMPBpxrhg%2FAAAAAAAAAAI%2FAAAAAAAAAAA%2FXxUteOHOKLM%2Fs900-c-k-no%2Fphoto.jpg
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/u9LbOrBpK88jlIAhGeo972oj5T8Y58YT3Y2V7RJsTY0TYm1Nb3teApmP3HMe0SV3TqtU=w300" group-title="Weather", Forecast Raleigh
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Fwral-weathercenter-forecast%2F1076424%2F
-#EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", Radar Albany
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA gecolor
+https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", NORTHEAST gecolor
+https://cdn.star.nesdis.noaa.gov//GOES16/ABI/SECTOR/NE/GEOCOLOR/GOES16-NE-GEOCOLOR-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", NORTHEAST infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-NE-13-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", SOUTHEAST gecolor
+https://cdn.star.nesdis.noaa.gov//GOES16/ABI/SECTOR/SE/GEOCOLOR/GOES16-SE-GEOCOLOR-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", SOUTHEAST infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-SE-13-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", GREAT LAKES gecolor
+https://cdn.star.nesdis.noaa.gov//GOES16/ABI/SECTOR/CGL/GEOCOLOR/GOES16-CGL-GEOCOLOR-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", GREAT LAKES infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CGL-13-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Radar", Albany
 https://cbs6albany.com/resources/ftptransfer/wrgb/maps/web_regional_radar_loop_790.gif
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.wbrz.com/images/news/2017-03/severeweather.jpg" group-title="Weather", Radar Baton Rouge
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.wbrz.com/images/news/2017-03/severeweather.jpg" group-title="Radar", Baton Rouge
 https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLThlzdku4XoE8MFKy-9J6Ire_vIgqnYKGmRx77f3w=s48-c-k-c0x00ffffff-no-rj" group-title="Weather", Radar Fort Meyers
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLThlzdku4XoE8MFKy-9J6Ire_vIgqnYKGmRx77f3w=s48-c-k-c0x00ffffff-no-rj" group-title="Radar", Fort Meyers
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwww.youtube.com%2F%2Fwatch%3Fv%3D%24doregex%5BgetUrl%5D%26mode%3D19&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22%24pyFunction%3A%20%27%24doregex%5Bfeatured%5D%27%20if%20not%20%27%24doregex%5Bfeatured%5D%27%3D%3D%27%27%20else%20%27%24doregex%5Bvideo%5D%27%20%22%2C%20%27page%27%3A%20None%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27featured%27%3A%20%7B%27name%27%3A%20%27featured%27%2C%20%27expres%27%3A%20%27channelFeaturedContentRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/c/KHOU/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27video%27%3A%20%7B%27name%27%3A%20%27video%27%2C%20%27expres%27%3A%20%27channelVideoPlayerRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/user/NBC2swfl/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Fyt3.ggpht.com%2Fytc%2FAKedOLThlzdku4XoE8MFKy-9J6Ire_vIgqnYKGmRx77f3w%3Ds48-c-k-c0x00ffffff-no-rj
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-c_qMPBpxrhg/AAAAAAAAAAI/AAAAAAAAAAA/XxUteOHOKLM/s900-c-k-no/photo.jpg" group-title="Weather", Radar Myrtle Beach
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-c_qMPBpxrhg/AAAAAAAAAAI/AAAAAAAAAAA/XxUteOHOKLM/s900-c-k-no/photo.jpg" group-title="Radar", Myrtle Beach
 https://wpde.com/resources/ftptransfer/wpde/maps/CarolinaFuturecast.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu9n1c90Fa7PTKna_U4cRixT4UfEznmM1F4-FVFSyMA=s88-c-k-c0x00ffffff-no-rj" group-title="Weather", Radar Houston
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu9n1c90Fa7PTKna_U4cRixT4UfEznmM1F4-FVFSyMA=s88-c-k-c0x00ffffff-no-rj" group-title="Radar", Houston
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwww.youtube.com%2F%2Fwatch%3Fv%3D%24doregex%5BgetUrl%5D%26mode%3D19&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22%24pyFunction%3A%20%27%24doregex%5Bfeatured%5D%27%20if%20not%20%27%24doregex%5Bfeatured%5D%27%3D%3D%27%27%20else%20%27%24doregex%5Bvideo%5D%27%20%22%2C%20%27page%27%3A%20None%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27featured%27%3A%20%7B%27name%27%3A%20%27featured%27%2C%20%27expres%27%3A%20%27channelFeaturedContentRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/c/KHOU/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27video%27%3A%20%7B%27name%27%3A%20%27video%27%2C%20%27expres%27%3A%20%27channelVideoPlayerRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Fyt3.ggpht.com%2Fytc%2FAMLnZu9n1c90Fa7PTKna_U4cRixT4UfEznmM1F4-FVFSyMA%3Ds88-c-k-c0x00ffffff-no-rj
-#EXTINF:-1 tvg-id="" tvg-logo="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1046/2021/09/22082754/WDAY-2021.png" group-title="Weather", Radar North Dakota
+#EXTINF:-1 tvg-id="" tvg-logo="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1046/2021/09/22082754/WDAY-2021.png" group-title="Radar", North Dakota
 https://player-api.new.livestream.com/accounts/27442514/events/8331542/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/41NGr7FizCMGVS3vbcIUaZEaNOcrJCM5TJuSFG-2Gj720PWSMEYSBTcKnR83QlgcJySE1YJwKw=s88-c-k-c0x00ffffff-no-rj" group-title="Weather", Radar Oklahoma
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/41NGr7FizCMGVS3vbcIUaZEaNOcrJCM5TJuSFG-2Gj720PWSMEYSBTcKnR83QlgcJySE1YJwKw=s88-c-k-c0x00ffffff-no-rj" group-title="Radar", Oklahoma
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwww.youtube.com%2F%2Fwatch%3Fv%3D%24doregex%5BgetUrl%5D%26mode%3D19&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22%24pyFunction%3A%20%27%24doregex%5Bfeatured%5D%27%20if%20not%20%27%24doregex%5Bfeatured%5D%27%3D%3D%27%27%20else%20%27%24doregex%5Bvideo%5D%27%20%22%2C%20%27page%27%3A%20None%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27featured%27%3A%20%7B%27name%27%3A%20%27featured%27%2C%20%27expres%27%3A%20%27channelFeaturedContentRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/c/KHOU/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27video%27%3A%20%7B%27name%27%3A%20%27video%27%2C%20%27expres%27%3A%20%27channelVideoPlayerRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/channel/UC8snzfsTlCvVyGUDAbifQkw/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=https%3A%2F%2Fyt3.ggpht.com%2F41NGr7FizCMGVS3vbcIUaZEaNOcrJCM5TJuSFG-2Gj720PWSMEYSBTcKnR83QlgcJySE1YJwKw%3Ds88-c-k-c0x00ffffff-no-rj
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh6.ggpht.com/G4Hy6Q4umDwaa8OpORtYsQw_OLDfcaRkEHm1UPDB_A6L_0tv8BMAt8Bi-wruN7hEyg=w300" group-title="Weather", Radar Raleigh
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh6.ggpht.com/G4Hy6Q4umDwaa8OpORtYsQw_OLDfcaRkEHm1UPDB_A6L_0tv8BMAt8Bi-wruN7hEyg=w300" group-title="Radar", Raleigh
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Flive_dualdoppler5000_radar%2F1068935%2F
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh3.googleusercontent.com/ctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk=w300" group-title="Weather", Radar Tampa Bay
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lh3.googleusercontent.com/ctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk=w300" group-title="Radar", Tampa Bay
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27%23%24pyFunction%5Cnimport%20re%2Curllib.request%2Cresolveurl%5Cnfrom%20urllib.request%20import%20urlopen%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%23NYRA%5Cn%20%20source%20%3D%20urllib.request.urlopen%28%5C%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%5C%27%29.read%28%29.decode%28%5C%27utf-8%5C%27%29%5Cn%20%20return%20resolveurl.resolve%28%5C%27https%3A//www.youtube.com//watch%3Fv%3D%5C%27%2Bre.findall%28%5C%27channelFeaturedContentRenderer%22%3A.%2A%3FvideoId%22%3A%22%28%5B%5E%22%5D%2A%29%5C%27%2Csource%29%5B0%5D%29%5Cn%27%2C%20%27page%27%3A%20%27https%3A//www.youtube.com/channel/UC91-f7w908RyjwNWGQlpsMQ/featured%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D&iconimage=http%3A%2F%2Flh3.googleusercontent.com%2FctwGrz70shURfyH4wZXf_3cqKDyjUnIHGcfDHuEoz6IPnxi6jClYXbsA1PlGoIVIclk%3Dw300
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://lh3.googleusercontent.com/siKcQFpccfv6nRptFrAZjlJ9wyFkn7ZIDczeEpXV6-HjuUG-P1YlraQUK9ZLjyuZCSY" group-title="Weather", Radar USA
-https://cbs6albany.com/resources/ftptransfer/wrgb/maps/web_east_satrad_loop_790.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast staclk
-stack://https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif , https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast strm
-https://raw.githubusercontent.com/Magic-Dust/MagicDust/master/Radar/NOAA-ACir.strm
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Weather", Atlantic Coast gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Ocean gecolor
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-TAW-GEOCOLOR-900x540.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Ocean infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-TAW-13-900x540.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Coast gecolor
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-GEOCOLOR-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Atlantic Coast infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-EUS-13-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Gulf of Mexico gecolor
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-GM-GEOCOLOR-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Gulf of Mexico infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-GM-13-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Caribbean gecolor
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CAR-GEOCOLOR-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Caribbean infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CAR-13-1000x1000.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Puerto Rico gecolor
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-GEOCOLOR-600x600.gif
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png/v1/fill/w_183,h_170,al_c,q_85,usm_0.66_1.00_" group-title="Radar", Puerto Rico infrared
+https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-13-600x600.gif
 
 #EXTINF:-1 tvg-id="I655.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
 plugin://plugin.video.tvone1112/play/601/play.pvr
