@@ -964,11 +964,14 @@ https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLO
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA test2
 #KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.open_mode=cURL
+#KODIPROP:mimetype=image/gif
 https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", USA test3
-ffmpeg -i https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif out.mkv
+#KODIPROP:mimetype=image/gif
+https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif
+#ffmpeg -i https://cdn.star.nesdis.noaa.gov//GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif out.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://fosterscholars.noaa.gov/media/img/noaa-logo-144x144.png" group-title="Radar", NORTHEAST gecolor
 https://cdn.star.nesdis.noaa.gov//GOES16/ABI/SECTOR/NE/GEOCOLOR/GOES16-NE-GEOCOLOR-600x600.gif
