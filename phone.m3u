@@ -1,20 +1,16 @@
 #EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
-http://v-px.theus6tv.duckdns.org/hls/7.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-ny.theus6tv.duckdns.org/hls/7.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="CBS New York" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Broadcast", CBS
-http://v-px.theus6tv.duckdns.org/hls/2.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="I5.1.20360.zap2it.com" tvg-name="FOX New York" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Broadcast", FOX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-https://v-pi.theus6tv.tk/hls/29.1/playlist.m3u8
+http://v-ny.theus6tv.duckdns.org/hls/2.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+#EXTINF:-1 tvg-id="I5.1.20360.zap2it.com" tvg-name="FOX New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FOX-Channel-Germany.svg/150px-FOX-Channel-Germany.svg.png" group-title="Broadcast", FOX
+http://v-pi.theus6tv.duckdns.org/hls/29.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
-https://v-ny.mybtv.net/live/548.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-pi.theus6tv.duckdns.org/hls/10.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
 https://trn10.tulix.tv/WUPA-CW/index.m3u8
-#EXTINF:-1 tvg-id="PBSEast.us" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", PBS National East
-https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="PBSWest.us" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", PBS National West
-https://pbs.lls.cdn.pbs.org/pst/index.m3u8
-#EXTINF:-1 tvg-id="PBSKidsEasternCentral.us" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Broadcast", PBS Kids
-https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est.m3u8
+#plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+#EXTINF:-1 tvg-id="CWPlusEast.us" tvg-name="" tvg-logo="https://i.imgur.com/PZrtfPb.png" group-title="Broadcast", CW Seed
+https://cwseedlive.cwtv.com/ingest/playlist.m3u8
 
 #EXTINF:-1 tvg-id="WRGB.us" tvg-name="" tvg-logo="https://i.imgur.com/ByPFQGp.png" group-title="Local", WRGB Albany CBS
 https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8
@@ -210,9 +206,9 @@ http://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/master.m3u8
 #EXTINF:-1 tvg-id="WNYW.us" tvg-name="" tvg-logo="https://i.imgur.com/OfGcsUO.png" group-title="Local", WNYW New York FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTTG-Monetizer.m3u8
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WNBC NEW YORK NBC
-http://v-px.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-ny.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I111.21253.zap2it.com" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Local", WPIX NEW YORK
-http://v-px.theus6tv.duckdns.org/hls/11.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-ny.theus6tv.duckdns.org/hls/11.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I111.21253.zap2it.com" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Local", WPIX NEW YORK HD
 https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8
 #EXTINF:-1 tvg-id="WVEC.us" tvg-name="" tvg-logo="https://i.imgur.com/P5PtUcR.jpg" group-title="Local", WVEC Norfolk ABC
@@ -232,12 +228,12 @@ http://51.161.118.146:8080/ISG03_FOX_ORLANDO_FL_WOFL/video.m3u8
 #EXTINF:-1 tvg-id="WESHDT1.us" tvg-name="" tvg-logo="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/wesh/logo.png" group-title="Local", WESH Orlando NBC
 http://51.161.118.146:8080/ISG03_NBC_ORLANDO_FL_WESH/video.m3u8
 #EXTINF:-1 tvg-id="WPVIDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/WPVI-TV_logos.svg/1024px-WPVI-TV_logos.svg.pn" group-title="Local", WPVI Philadelphia ABC
-https://v-pi.theus6tv.tk/hls/6.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-pi.theus6tv.duckdns.org/hls/6.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WPHLDT1.us" tvg-name="" tvg-logo="" group-title="Local", WPHL Philadelphia CBS
-https://v-pi.theus6tv.tk/hls/17.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-pi.theus6tv.duckdns.org/hls/17.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WTXFTV.us" tvg-name="" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Local", WTXF Philadelphia FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTXF-Monetizer.m3u8
-#https://v-pi.theus6tv.tk/hls/29.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+http://v-pi.theus6tv.duckdns.org/hls/29.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="KNXVTV.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC
 https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
 #EXTINF:-1 tvg-id="KNXVTV.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC HD
@@ -279,7 +275,7 @@ https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8
 #EXTINF:-1 tvg-id="KOMOTV.us" tvg-name="" tvg-logo="https://i.imgur.com/8vXRrRe.jpg" group-title="Local", KOMO Seattle ABC HD
 http://51.161.118.146:8080/ISG03_ABC_SEATTLE_WA_KOMO/video.m3u8
 #EXTINF:-1 tvg-id="KIROTV.us" tvg-name="" tvg-logo="https://i.imgur.com/u6470R1.png" group-title="Local", KIRO Seattle CBS
-https://svc-lvanvato-cxtv-kiro.cmgvideo.com/kiro/1864k/index.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kiro7seattle-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="KIROTV.us" tvg-name="" tvg-logo="https://i.imgur.com/u6470R1.png" group-title="Local", KIRO Seattle CBS HD
 http://51.161.118.146:8080/ISG03_CBS_SEATTLE_WA_KIRO/video.m3u8
 #EXTINF:-1 tvg-id="KCPQTV.us" tvg-name="" tvg-logo="https://i.imgur.com/4xs5ERr.jpg" group-title="Local", KCPQ Seattle FOX
@@ -334,8 +330,7 @@ http://89.187.175.143:80/3076/mpegts
 #EXTINF:-1 tvg-id="HistoryEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png" group-title="Cable", History East
 http://89.187.175.143:80/3031/mpegts
 #EXTINF:-1 tvg-id="MeTV.us" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/me-tv-us.png" group-title="Cable", MeTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-http://v-px.theus6tv.duckdns.org/hls/33.1/playlist.m3u8
+http://v-ny.theus6tv.duckdns.org/hls/33.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-logo="https://logos-download.com/wp-content/uploads/2016/07/National_Geographic_Channel_logo-700x247.png" group-title="Cable", National Geographic
 http://89.187.175.143:80/3094/mpegts
 #EXTINF:-1 tvg-id="ParamountNetworkEast.us" tvg-logo="https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/US/paramount-network-us.png" group-title="Cable", Paramount Network
@@ -376,6 +371,8 @@ https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 https://a.jsrdn.com/broadcast/542cb2ce3c/+0000/c.m3u8
 #EXTINF:-1 tvg-id="ESPN.us" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png" group-title="Sports", ESPN
 http://69.164.224.53:80/ESPN/mpegts
+#EXTINF:-1 tvg-id="I209.12444.zap2it.com" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports", ESPN 2
+http://69.164.224.53:80/ESPN2/mpegts
 #EXTINF:-1 tvg-id="ESPNU.us" tvg-logo="https://secure.espncdn.com/watchespn/images/channels/500b1f7c-dad5-33f9-907c-87427babe201.png" group-title="Sports", ESPNU
 http://89.187.175.143:80/3044/mpegts
 #EXTINF:-1 tvg-id="I219.82541.zap2it.com" tvg-name="Fox Sports 1 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/foxs1.png" group-title="Sports", Fox Sports 1
@@ -406,7 +403,6 @@ http://89.187.175.143:80/3046/mpegts
 http://89.187.175.143:80/3047/mpegts
 #EXTINF:-1 tvg-id="TSN5.ca" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-tsn5-192.png" group-title="Sports", TSN5
 http://89.187.175.143:80/3048/mpegts
-
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.gamingintelligence.com/wp-content/uploads/2008/10/17154117/Ladbrokes-lg.jpg" group-title="Horse Racing", ARC European
 http://vermmd.mmdlive.lldns.net/vermmd/84c4d7bebe1f4c578e0f68744041d6fc/chunklist_b1996000.m3u8
