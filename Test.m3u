@@ -10,71 +10,102 @@ http://v-pi.theus6tv.duckdns.org/hls/10.1/playlist.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 
-#EXTINF:-1 tvg-id="WWAYDT1.us" tvg-name="" tvg-logo="https://s3.amazonaws.com/media.muckrack.com/groups/icons/wwaytv3.png" group-title="Broadcast", ABC 3.1 WWAY Wilmington
+#EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="" tvg-logo="https://s3.amazonaws.com/media.muckrack.com/groups/icons/wwaytv3.png" group-title="Broadcast", ABC 3.1 WWAY Wilmington
+#WWAYDT1.us
 http://192.168.1.3:5004/auto/v3.1
-#EXTINF:-1 tvg-id="WWAYDT2.us" tvg-name="" tvg-logo="http://www.tvnewslivestream.com/wp-content/uploads/2019/08/WWAY-ABC-CBS-13-News-238x150.jpg" group-title="Broadcast", CBS 3.2 WWAY Wilmington
+#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="http://www.tvnewslivestream.com/wp-content/uploads/2019/08/WWAY-ABC-CBS-13-News-238x150.jpg" group-title="Broadcast", CBS 3.2 WWAY Wilmington
+#WWAYDT2.us
 http://192.168.1.3:5004/auto/v3.2
-#EXTINF:-1 tvg-id="WWAYDT3.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 3.3 WWAY Wilmington
+#EXTINF:-1 tvg-id="CWEast.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 3.3 WWAY Wilmington
+#WWAYDT3.us
 http://192.168.1.3:5004/auto/v3.3
-#EXTINF:-1 tvg-id="WWAYDT4.us" tvg-name="" tvg-logo="https://www.defytvnet.com/wp-content/uploads/2021/06/logo-defy.png" group-title="Broadcast", DEFY 3.4 Wilmington
+#EXTINF:-1 tvg-id="KKPXDT4.us" tvg-name="" tvg-logo="https://www.defytvnet.com/wp-content/uploads/2021/06/logo-defy.png" group-title="Broadcast", DEFY 3.4 Wilmington
+#WWAYDT4.us
 http://192.168.1.3:5004/auto/v3.4
-#EXTINF:-1 tvg-id="WECTDT1.us" tvg-name="" tvg-logo="https://gray-local-listings.s3.amazonaws.com/temp/9QTlTZ7VrDgbQqL60nbZZl5pr8rWNtoqES5SfIzU.jpeg" group-title="Broadcast", NBC 6.1 WECT Wilmington
+#EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://gray-local-listings.s3.amazonaws.com/temp/9QTlTZ7VrDgbQqL60nbZZl5pr8rWNtoqES5SfIzU.jpeg" group-title="Broadcast", NBC 6.1 WECT Wilmington
+#WECTDT1.us
 http://192.168.1.3:5004/auto/v6.1
-#EXTINF:-1 tvg-id="WBTWDT1.us" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Broadcast", CBS 13.1 WBTW Myrtle Beach
+#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Broadcast", CBS 13.1 WBTW Myrtle Beach
+#WBTWDT1.us
 http://192.168.1.3:5004/auto/v13.1
-#EXTINF:-1 tvg-id="WPDEDT1.us" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Broadcast", ABC 15.1 WPDE Myrtle Beach
+#EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Broadcast", ABC 15.1 WPDE Myrtle Beach
+#WPDEDT1.us
 http://192.168.1.3:5004/auto/v15.1
-#EXTINF:-1 tvg-id="WPDEDT2.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 15.2 WPDE Myrtle Beach
+#EXTINF:-1 tvg-id="CWEast.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 15.2 WPDE Myrtle Beach
+#WPDEDT2.us
 http://192.168.1.3:5004/auto/v15.2
-#EXTINF:-1 tvg-id="WPDEDT3.us" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Broadcast", 15.3 COMET WPDE Myrtle Beach
+#EXTINF:-1 tvg-id="Comet.us" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Broadcast", 15.3 COMET WPDE Myrtle Beach
+#WPDEDT3.us
 http://192.168.1.3:5004/auto/v15.3
 #EXTINF:-1 tvg-id="WPDEDT4.us" tvg-name="" tvg-logo="https://image.winudf.com/v2/image1/Y29tLndwZGUuYW5kcm9pZC53ZWF0aGVyX2ljb25fMTU0NzkyNTAyNF8wMjQ/icon.png?w=170&fakeurl=1" group-title="Broadcast", 15.4 WEATHER WPDE Myrtle Beach
 http://192.168.1.3:5004/auto/v15.4
-#EXTINF:-1 tvg-id="WPDEDT5.us" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Broadcast", 15.5 DABL WPDE Myrtle Beach
+#EXTINF:-1 tvg-id="Dabl.us" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Broadcast", 15.5 DABL WPDE Myrtle Beach
+#WPDEDT5.us
 http://192.168.1.3:5004/auto/v15.5
-#EXTINF:-1 tvg-id="WWMBDT1.us" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Broadcast", 21.1 DABL WWMB Myrtle Beach
+#EXTINF:-1 tvg-id="Dabl.us" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Broadcast", 21.1 DABL WWMB Myrtle Beach
+#WWMBDT1.us
 http://192.168.1.3:5004/auto/v21.1
-#EXTINF:-1 tvg-id="WWMBDT2.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TBD_Logo_2019.svg/220px-TBD_Logo_2019.svg.png" group-title="Broadcast", 21.2 TBDNET WWMB Myrtle Beach
+#EXTINF:-1 tvg-id="KBCWDT4.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TBD_Logo_2019.svg/220px-TBD_Logo_2019.svg.png" group-title="Broadcast", 21.2 TBDNET WWMB Myrtle Beach
+#WWMBDT2.us
 http://192.168.1.3:5004/auto/v21.2
-#EXTINF:-1 tvg-id="WWMBDT3.us" tvg-name="" tvg-logo="http://static.epg.best/us/Stadium.us.png" group-title="Broadcast", 21.3 STADNET WWMB Myrtle Beach
+#EXTINF:-1 tvg-id="Stadium.us" tvg-name="" tvg-logo="http://static.epg.best/us/Stadium.us.png" group-title="Broadcast", 21.3 STADNET WWMB Myrtle Beach
+#WWMBDT3.us
 http://192.168.1.3:5004/auto/v21.3
-#EXTINF:-1 tvg-id="WWMBDT4.us" tvg-name="" tvg-logo="https://televisionadgroup.com/wp-content/uploads/2018/10/Charge_network_logo-300x168.png" group-title="Broadcast", 21.4 CHARGE WWMB Myrtle Beach
+#EXTINF:-1 tvg-id="Charge.us" tvg-name="" tvg-logo="https://televisionadgroup.com/wp-content/uploads/2018/10/Charge_network_logo-300x168.png" group-title="Broadcast", 21.4 CHARGE WWMB Myrtle Beach
+#WWMBDT4.us
 http://192.168.1.3:5004/auto/v21.4
 #EXTINF:-1 tvg-id="WHMCDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.1 PBS ETV Myrtle Beach
 http://192.168.1.3:5004/auto/v23.1
-#EXTINF:-1 tvg-id="WHMCDT2.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.2 SCETV WHMC Myrtle Beach
+#EXTINF:-1 tvg-id="PBSEast.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.2 SCETV WHMC Myrtle Beach
+#WHMCDT2.us
 http://192.168.1.3:5004/auto/v23.2
-#EXTINF:-1 tvg-id="WHMCDT3.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.3 WORLD WHMC Myrtle Beach
+#EXTINF:-1 tvg-id="K43LWD2.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.3 WORLD WHMC Myrtle Beach
+#WHMCDT3.us
 http://192.168.1.3:5004/auto/v23.3
-#EXTINF:-1 tvg-id="WHMCDT4.us" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Broadcast", 23.4 PBSKIDS WHMC Myrtle Beach
+#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Broadcast", 23.4 PBSKIDS WHMC Myrtle Beach
+#WHMCDT4.us
 http://192.168.1.3:5004/auto/v23.4
-#EXTINF:-1 tvg-id="WMBFDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/WMBF-TV_News_logo.svg/338px-WMBF-TV_News_logo.svg.png" group-title="Broadcast", 32.1 NBC WMBF Myrtle Beach
+#EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/WMBF-TV_News_logo.svg/338px-WMBF-TV_News_logo.svg.png" group-title="Broadcast", 32.1 NBC WMBF Myrtle Beach
+#WMBFDT1.us
 http://192.168.1.3:5004/auto/v32.1
-#EXTINF:-1 tvg-id="WMBFDT2.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Broadcast", 32.2 BOUNCE WMBF Myrtle Beach
+#EXTINF:-1 tvg-id="Bounce.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Broadcast", 32.2 BOUNCE WMBF Myrtle Beach
+#WMBFDT2.us
 http://192.168.1.3:5004/auto/v32.2
-#EXTINF:-1 tvg-id="WMBFDT3.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/220px-Circle_Network_logo.svg.png" group-title="Broadcast", 32.3 CIRCLNET WMBF Myrtle Beach
+#EXTINF:-1 tvg-id="Circle.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/220px-Circle_Network_logo.svg.png" group-title="Broadcast", 32.3 CIRCLNET WMBF Myrtle Beach
+#WMBFDT3.us
 http://192.168.1.3:5004/auto/v32.3
-#EXTINF:-1 tvg-id="WMBFDT4.us" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/bf/LAFF_(You_Know_You_Want_To).png/revision/latest?cb=20150810143650" group-title="Broadcast", 32.4 LAFF WMBF Myrtle Beach
+#EXTINF:-1 tvg-id="Laff.us" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/bf/LAFF_(You_Know_You_Want_To).png/revision/latest?cb=20150810143650" group-title="Broadcast", 32.4 LAFF WMBF Myrtle Beach
+#WMBFDT4.us
 http://192.168.1.3:5004/auto/v32.4
-#EXTINF:-1 tvg-id="WMBFDT5.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Broadcast", 32.5 GRIT WMBF Myrtle Beach
+#EXTINF:-1 tvg-id="Grit.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Broadcast", 32.5 GRIT WMBF Myrtle Beach
+#WMBFDT5.us
 http://192.168.1.3:5004/auto/v32.5
-#EXTINF:-1 tvg-id="WMBFDT6.us" tvg-name="" tvg-logo="http://wmbctv.com/wp-content/uploads/2018/09/Quest-Logo-Horizontal.png" group-title="Broadcast", 32.6 QUESTNET WMBF Myrtle Beach
+#EXTINF:-1 tvg-id="Quest.us" tvg-name="" tvg-logo="http://wmbctv.com/wp-content/uploads/2018/09/Quest-Logo-Horizontal.png" group-title="Broadcast", 32.6 QUESTNET WMBF Myrtle Beach
+#WMBFDT6.us
 http://192.168.1.3:5004/auto/v32.6
-#EXTINF:-1 tvg-id="WFXBDT1.us" tvg-name="" tvg-logo="http://s3.amazonaws.com/sidearm.sites/uncp.sidearmsports.com/images/2016/6/11/Sponsor_WFXB.png" group-title="Broadcast", 43.1 FOX WFXB Myrtle Beach
+#EXTINF:-1 tvg-id="I5.1.20360.zap2it.com" tvg-name="" tvg-logo="http://s3.amazonaws.com/sidearm.sites/uncp.sidearmsports.com/images/2016/6/11/Sponsor_WFXB.png" group-title="Broadcast", 43.1 FOX WFXB Myrtle Beach
+#WFXBDT1.us
 http://192.168.1.3:5004/auto/v43.1
-#EXTINF:-1 tvg-id="WFXBDT2.us" tvg-name="" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Broadcast", 43.2 QVC Myrtle Beach
+#EXTINF:-1 tvg-id="QVCUS.us" tvg-name="" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Broadcast", 43.2 QVC Myrtle Beach
+#WFXBDT2.us
 http://192.168.1.3:5004/auto/v43.2
-#EXTINF:-1 tvg-id="WFXBDT3.us" tvg-name="" tvg-logo="https://www.starttv.com/images/logo_v3.png" group-title="Broadcast", 43.3 STARTTV Myrtle Beach
+#EXTINF:-1 tvg-id="StartTV.us" tvg-name="" tvg-logo="https://www.starttv.com/images/logo_v3.png" group-title="Broadcast", 43.3 STARTTV Myrtle Beach
+#WFXBDT3.us
 http://192.168.1.3:5004/auto/v43.3
-#EXTINF:-1 tvg-id="WFXBDT4.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/me-tv-us.png" group-title="Broadcast", 43.4 METV Myrtle Beach
+#EXTINF:-1 tvg-id="METV.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/me-tv-us.png" group-title="Broadcast", 43.4 METV Myrtle Beach
+#WFXBDT4.us
 http://192.168.1.3:5004/auto/v43.4
-#EXTINF:-1 tvg-id="WFXBDT5.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/heroesicons.png" group-title="Broadcast", 43.5 H&I Myrtle Beach
+#EXTINF:-1 tvg-id="HeroesIconsEast.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/heroesicons.png" group-title="Broadcast", 43.5 H&I Myrtle Beach
+#WFXBDT5.us
 http://192.168.1.3:5004/auto/v43.5
-#EXTINF:-1 tvg-id="WFXBDT6.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/true-crime.png" group-title="Broadcast", 43.6 True Crime Myrtle Beach
+#EXTINF:-1 tvg-id="TrueCrimeNetwork.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/true-crime.png" group-title="Broadcast", 43.6 True Crime Myrtle Beach
+#WFXBDT6.us
 http://192.168.1.3:5004/auto/v43.6
-#EXTINF:-1 tvg-id="WFXBDT7.us" tvg-name="" tvg-logo="http://static.epg.best/us/CoziTV.us.png" group-title="Broadcast", 43.7 COZITV Myrtle Beach
+#EXTINF:-1 tvg-id="CoziTV.us" tvg-name="" tvg-logo="http://static.epg.best/us/CoziTV.us.png" group-title="Broadcast", 43.7 COZITV Myrtle Beach
+#WFXBDT7.us
 http://192.168.1.3:5004/auto/v43.7
-#EXTINF:-1 tvg-id="WFXBDT8.us" tvg-name="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/GetTV_2016_logo.png" user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" group-title="Broadcast", 43.8 GETTV Myrtle Beach
+#EXTINF:-1 tvg-id="GetTV.us" tvg-name="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/GetTV_2016_logo.png" user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" group-title="Broadcast", 43.8 GETTV Myrtle Beach
+#WFXBDT8.us
 http://192.168.1.3:5004/auto/v43.8
 
 #EXTINF:-1 tvg-id="WRGBDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ByPFQGp.png" group-title="Local", WRGB Albany CBS
