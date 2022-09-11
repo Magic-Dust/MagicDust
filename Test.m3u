@@ -8,27 +8,91 @@ http://v-pi.theus6tv.duckdns.org/hls/29.1/playlist.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
 http://v-pi.theus6tv.duckdns.org/hls/10.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
-https://trn10.tulix.tv/WUPA-CW/index.m3u8
-#plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
-#EXTINF:-1 tvg-id="CWPlusEast.us" tvg-name="" tvg-logo="https://i.imgur.com/PZrtfPb.png" group-title="Broadcast", CW Seed
-https://cwseedlive.cwtv.com/ingest/playlist.m3u8
+plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 
-#EXTINF:-1 tvg-id="WRGB.us" tvg-name="" tvg-logo="https://i.imgur.com/ByPFQGp.png" group-title="Local", WRGB Albany CBS
+#EXTINF:-1 tvg-id="WWAYDT1.us" tvg-name="" tvg-logo="https://s3.amazonaws.com/media.muckrack.com/groups/icons/wwaytv3.png" group-title="Broadcast", ABC 3.1 WWAY Wilmington
+http://192.168.1.3:5004/auto/v3.1
+#EXTINF:-1 tvg-id="WWAYDT2.us" tvg-name="" tvg-logo="http://www.tvnewslivestream.com/wp-content/uploads/2019/08/WWAY-ABC-CBS-13-News-238x150.jpg" group-title="Broadcast", CBS 3.2 WWAY Wilmington
+http://192.168.1.3:5004/auto/v3.2
+#EXTINF:-1 tvg-id="WWAYDT3.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 3.3 WWAY Wilmington
+http://192.168.1.3:5004/auto/v3.3
+#EXTINF:-1 tvg-id="WWAYDT4.us" tvg-name="" tvg-logo="https://www.defytvnet.com/wp-content/uploads/2021/06/logo-defy.png" group-title="Broadcast", DEFY 3.4 Wilmington
+http://192.168.1.3:5004/auto/v3.4
+#EXTINF:-1 tvg-id="WECTDT1.us" tvg-name="" tvg-logo="https://gray-local-listings.s3.amazonaws.com/temp/9QTlTZ7VrDgbQqL60nbZZl5pr8rWNtoqES5SfIzU.jpeg" group-title="Broadcast", NBC 6.1 WECT Wilmington
+http://192.168.1.3:5004/auto/v6.1
+#EXTINF:-1 tvg-id="WBTWDT1.us" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Broadcast", CBS 13.1 WBTW Myrtle Beach
+http://192.168.1.3:5004/auto/v13.1
+#EXTINF:-1 tvg-id="WPDEDT1.us" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Broadcast", ABC 15.1 WPDE Myrtle Beach
+http://192.168.1.3:5004/auto/v15.1
+#EXTINF:-1 tvg-id="WPDEDT2.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 15.2 WPDE Myrtle Beach
+http://192.168.1.3:5004/auto/v15.2
+#EXTINF:-1 tvg-id="WPDEDT3.us" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Broadcast", 15.3 COMET WPDE Myrtle Beach
+http://192.168.1.3:5004/auto/v15.3
+#EXTINF:-1 tvg-id="WPDEDT4.us" tvg-name="" tvg-logo="https://image.winudf.com/v2/image1/Y29tLndwZGUuYW5kcm9pZC53ZWF0aGVyX2ljb25fMTU0NzkyNTAyNF8wMjQ/icon.png?w=170&fakeurl=1" group-title="Broadcast", 15.4 WEATHER WPDE Myrtle Beach
+http://192.168.1.3:5004/auto/v15.4
+#EXTINF:-1 tvg-id="WPDEDT5.us" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Broadcast", 15.5 DABL WPDE Myrtle Beach
+http://192.168.1.3:5004/auto/v15.5
+#EXTINF:-1 tvg-id="WWMBDT1.us" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Broadcast", 21.1 DABL WWMB Myrtle Beach
+http://192.168.1.3:5004/auto/v21.1
+#EXTINF:-1 tvg-id="WWMBDT2.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TBD_Logo_2019.svg/220px-TBD_Logo_2019.svg.png" group-title="Broadcast", 21.2 TBDNET WWMB Myrtle Beach
+http://192.168.1.3:5004/auto/v21.2
+#EXTINF:-1 tvg-id="WWMBDT3.us" tvg-name="" tvg-logo="http://static.epg.best/us/Stadium.us.png" group-title="Broadcast", 21.3 STADNET WWMB Myrtle Beach
+http://192.168.1.3:5004/auto/v21.3
+#EXTINF:-1 tvg-id="WWMBDT4.us" tvg-name="" tvg-logo="https://televisionadgroup.com/wp-content/uploads/2018/10/Charge_network_logo-300x168.png" group-title="Broadcast", 21.4 CHARGE WWMB Myrtle Beach
+http://192.168.1.3:5004/auto/v21.4
+#EXTINF:-1 tvg-id="WHMCDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.1 PBS ETV Myrtle Beach
+http://192.168.1.3:5004/auto/v23.1
+#EXTINF:-1 tvg-id="WHMCDT2.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.2 SCETV WHMC Myrtle Beach
+http://192.168.1.3:5004/auto/v23.2
+#EXTINF:-1 tvg-id="WHMCDT3.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.3 WORLD WHMC Myrtle Beach
+http://192.168.1.3:5004/auto/v23.3
+#EXTINF:-1 tvg-id="WHMCDT4.us" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Broadcast", 23.4 PBSKIDS WHMC Myrtle Beach
+http://192.168.1.3:5004/auto/v23.4
+#EXTINF:-1 tvg-id="WMBFDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/WMBF-TV_News_logo.svg/338px-WMBF-TV_News_logo.svg.png" group-title="Broadcast", 32.1 NBC WMBF Myrtle Beach
+http://192.168.1.3:5004/auto/v32.1
+#EXTINF:-1 tvg-id="WMBFDT2.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Broadcast", 32.2 BOUNCE WMBF Myrtle Beach
+http://192.168.1.3:5004/auto/v32.2
+#EXTINF:-1 tvg-id="WMBFDT3.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/220px-Circle_Network_logo.svg.png" group-title="Broadcast", 32.3 CIRCLNET WMBF Myrtle Beach
+http://192.168.1.3:5004/auto/v32.3
+#EXTINF:-1 tvg-id="WMBFDT4.us" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/bf/LAFF_(You_Know_You_Want_To).png/revision/latest?cb=20150810143650" group-title="Broadcast", 32.4 LAFF WMBF Myrtle Beach
+http://192.168.1.3:5004/auto/v32.4
+#EXTINF:-1 tvg-id="WMBFDT5.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Broadcast", 32.5 GRIT WMBF Myrtle Beach
+http://192.168.1.3:5004/auto/v32.5
+#EXTINF:-1 tvg-id="WMBFDT6.us" tvg-name="" tvg-logo="http://wmbctv.com/wp-content/uploads/2018/09/Quest-Logo-Horizontal.png" group-title="Broadcast", 32.6 QUESTNET WMBF Myrtle Beach
+http://192.168.1.3:5004/auto/v32.6
+#EXTINF:-1 tvg-id="WFXBDT1.us" tvg-name="" tvg-logo="http://s3.amazonaws.com/sidearm.sites/uncp.sidearmsports.com/images/2016/6/11/Sponsor_WFXB.png" group-title="Broadcast", 43.1 FOX WFXB Myrtle Beach
+http://192.168.1.3:5004/auto/v43.1
+#EXTINF:-1 tvg-id="WFXBDT2.us" tvg-name="" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Broadcast", 43.2 QVC Myrtle Beach
+http://192.168.1.3:5004/auto/v43.2
+#EXTINF:-1 tvg-id="WFXBDT3.us" tvg-name="" tvg-logo="https://www.starttv.com/images/logo_v3.png" group-title="Broadcast", 43.3 STARTTV Myrtle Beach
+http://192.168.1.3:5004/auto/v43.3
+#EXTINF:-1 tvg-id="WFXBDT4.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/me-tv-us.png" group-title="Broadcast", 43.4 METV Myrtle Beach
+http://192.168.1.3:5004/auto/v43.4
+#EXTINF:-1 tvg-id="WFXBDT5.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/heroesicons.png" group-title="Broadcast", 43.5 H&I Myrtle Beach
+http://192.168.1.3:5004/auto/v43.5
+#EXTINF:-1 tvg-id="WFXBDT6.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/true-crime.png" group-title="Broadcast", 43.6 True Crime Myrtle Beach
+http://192.168.1.3:5004/auto/v43.6
+#EXTINF:-1 tvg-id="WFXBDT7.us" tvg-name="" tvg-logo="http://static.epg.best/us/CoziTV.us.png" group-title="Broadcast", 43.7 COZITV Myrtle Beach
+http://192.168.1.3:5004/auto/v43.7
+#EXTINF:-1 tvg-id="WFXBDT8.us" tvg-name="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/GetTV_2016_logo.png" user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" group-title="Broadcast", 43.8 GETTV Myrtle Beach
+http://192.168.1.3:5004/auto/v43.8
+
+#EXTINF:-1 tvg-id="WRGBDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ByPFQGp.png" group-title="Local", WRGB Albany CBS
 https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8
-#EXTINF:-1 tvg-id="WSBTV.us" tvg-name="" tvg-logo="https://i.imgur.com/HkY10xX.jpg" group-title="Local", WSB Atlanta ABC
+#EXTINF:-1 tvg-id="WSBDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/HkY10xX.jpg" group-title="Local", WSB Atlanta ABC
 https://d2rwx6gwduugne.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10010_183ec1c7-4183-4661-803b-3ed282ffb625_LE/in/cmg-wsbtvnow-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="WSBTV.us" tvg-name="" tvg-logo="https://i.imgur.com/HkY10xX.jpg" group-title="Local", WSB Atlanta ABC HD
+#EXTINF:-1 tvg-id="WSBDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/HkY10xX.jpg" group-title="Local", WSB Atlanta ABC HD
 https://trn10.tulix.tv/WSB-ABC/index.m3u8
 #http://51.161.118.146:8080/ISG03_ABC_ATLANTA_GA_WSB/video.m3u8
-#EXTINF:-1 tvg-id="WGCLTV.us" tvg-name="" tvg-logo="https://i.imgur.com/XuzRQjy.png" group-title="Local", WGCL Atlanta CBS
+#EXTINF:-1 tvg-id="WGCLDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/XuzRQjy.png" group-title="Local", WGCL Atlanta CBS
 https://trn10.tulix.tv/WGCL-CBS/index.m3u8
-#EXTINF:-1 tvg-id="WGCLTV.us" tvg-name="" tvg-logo="https://i.imgur.com/XuzRQjy.png" group-title="Local", WGCL Atlanta CBS HD
+#EXTINF:-1 tvg-id="WGCLDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/XuzRQjy.png" group-title="Local", WGCL Atlanta CBS HD
 http://51.161.118.146:8080/ISG03_CBS_ATLANTA_GA_WGCL/tracks-v4a1/mono.m3u8
-#EXTINF:-1 tvg-id="WAGATV.us" tvg-name="" tvg-logo="https://i.imgur.com/DcZoeGw.jpg" group-title="Local", WAGA Atlanta FOX
+#EXTINF:-1 tvg-id="WAGADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/DcZoeGw.jpg" group-title="Local", WAGA Atlanta FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WAGA-Monetizer.m3u8
-#EXTINF:-1 tvg-id="WXIATV.us" tvg-name="" tvg-logo="https://i.imgur.com/yR2o6Dw.jpg" group-title="Local", WXIA Atlanta NBC
+#EXTINF:-1 tvg-id="WXIADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/yR2o6Dw.jpg" group-title="Local", WXIA Atlanta NBC
 http://51.161.118.146:8080/ISG03_NBC_ATLANTA_GA_WXIA/video.m3u8
-#EXTINF:-1 tvg-id="WBAL.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/54/WBAL_Horizontal_Logo_2013.png" group-title="Local", WBAL Baltimore NBC
+#EXTINF:-1 tvg-id="WBALDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/54/WBAL_Horizontal_Logo_2013.png" group-title="Local", WBAL Baltimore NBC
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WBAL.m3u8
 #EXTINF:-1 tvg-id="WBALDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/54/WBAL_Horizontal_Logo_2013.png" group-title="Local", WBAL Baltimore NBC HD
 http://51.161.118.146:8080/ISG03_NBC_BALTIMORE_MD_WBAL/video.m3u8
@@ -44,35 +108,35 @@ http://51.161.118.146:8080/ISG03_CBS_BOSTON_MA_WBZ/video.m3u8
 https://d2dy6pkj44n6e7.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10020_27d61a9c-67b2-4d7c-9486-626a6a071467_LE/in/cmg-wftxtv-hls-v3/live.m3u8
 #EXTINF:-1 tvg-id="FOXEast.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/320px-FOX_wordmark-red.svg.png" group-title="Local", WFXT Boston FOX HD
 http://51.161.118.146:8080/ISG03_FOX_BOSTON_MA_WFXT/video.m3u8
-#EXTINF:-1 tvg-id="WSOCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/7forojc.jpg" group-title="Local", WSOC Charlotte ABC
+#EXTINF:-1 tvg-id="WSOCDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/7forojc.jpg" group-title="Local", WSOC Charlotte ABC
 https://d3nzocdfkx2ybv.cloudfront.net/in/cmg-wsoctv-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="WSOCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/7forojc.jpg" group-title="Local", WSOC Charlotte ABC HD
+#EXTINF:-1 tvg-id="WSOCDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/7forojc.jpg" group-title="Local", WSOC Charlotte ABC HD
 http://51.161.118.146:8080/ISG03_ABC_CHARLOTTE_NC_WSOC/video.m3u8
 #EXTINF:-1 tvg-id="WBTVDT1.us" tvg-name="" tvg-logo="https://www.wbtv.com/resizer/Ucgdyw_zgFdAJ27XwhJR_S1p1pA=/arc-photo-gray/arc3-prod/public/ZOU7BX2WUJDBRLGTTZWJZUS4BA.png" group-title="Local", WBTV Charlotte CBS
 http://51.161.118.146:8080/ISG03_CBS_CHARLOTTE_NC_WBTV/tracks-v4a1/mono.m3u8
-#EXTINF:-1 tvg-id="WCNCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/2EyiCqw.jpg" group-title="Local", WCNC Charlotte NBC
+#EXTINF:-1 tvg-id="WCNCDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/2EyiCqw.jpg" group-title="Local", WCNC Charlotte NBC
 https://livevideo01.wcnc.com/hls/live/2015505/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WCNCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/2EyiCqw.jpg" group-title="Local", WCNC Charlotte NBC HD
+#EXTINF:-1 tvg-id="WCNCDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/2EyiCqw.jpg" group-title="Local", WCNC Charlotte NBC HD
 http://51.161.118.146:8080/ISG03_NBC_CHARLOTTE_NC_WCNC/video.m3u8
 #EXTINF:-1 tvg-id="WLSDT1.us" tvg-name="" tvg-logo="https://cdn.abcotvs.net/abcotv/static/wls/logos/wls_logo_2x.png" group-title="Local", WLS Chicago ABC
 http://51.161.118.146:8080/ISG03_ABC_CHICAGO_IL_WLS/video.m3u8
 #EXTINF:-1 tvg-id="WBBMDT1.us" tvg-name="" tvg-logo="https://stg-images.radio.com/aiu-media/RDCStationMigrationLogorectangleWBBMAM-4d279a50-966e-4c5c-92a7-c348f0a4ed68.png" group-title="Local", WBBM Chicago CBS
 http://51.161.118.146:8080/ISG03_CBS_CHICAGO_IL_WBBM/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-id="WFLDTV.us" tvg-name="" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Local", WFLD Chicago FOX
+#EXTINF:-1 tvg-id="WFLDDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Local", WFLD Chicago FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WFLD-Monetizer.m3u8
-#EXTINF:-1 tvg-id="WFLDTV.us" tvg-name="" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Local", WFLD Chicago FOX HD
+#EXTINF:-1 tvg-id="WFLDDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="Local", WFLD Chicago FOX HD
 http://51.161.118.146:8080/ISG03_FOX_CHICAGO_IL_WFLD/video.m3u8
 #EXTINF:-1 tvg-id="WMAQTV.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ac/WMAQ_Logo_2012.png" group-title="Local", WMAQ Chicago NBC
 https://wmaqlive-f.akamaihd.net/i/CHICAGO_STREAM1@22923/master.m3u8
-#EXTINF:-1 tvg-id="WMAQTV.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ac/WMAQ_Logo_2012.png" group-title="Local", WMAQ Chicago NBC HD
+#EXTINF:-1 tvg-id="WMAQDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ac/WMAQ_Logo_2012.png" group-title="Local", WMAQ Chicago NBC HD
 http://51.161.118.146:8080/ISG03_NBC_CHICAGO_IL_WMAQ/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="WGNDT1.us" tvg-name="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9e/WGN9_Chicago_2017.svg/revision/latest/scale-to-width-down/250?cb=20210529173322" group-title="Local", WGN Chicago
 #EXTVLCOPT:http-referrer=https://plus.teleup.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
 https://cdn1-8p.teleuptv.net/3773db6d-881b-4096-b9cc-b4fe99ab68ac/index.m3u8
-#EXTINF:-1 tvg-id="WEWSTV.us" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTDlkLcU8ttGRBu52teqTkm6Kf7l_YHFo5L9XwZtA=s88-c-k-c0x00ffffff-no-rj" group-title="Local", WEWS Cleveland ABC
+#EXTINF:-1 tvg-id="WEWSDT1.us" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTDlkLcU8ttGRBu52teqTkm6Kf7l_YHFo5L9XwZtA=s88-c-k-c0x00ffffff-no-rj" group-title="Local", WEWS Cleveland ABC
 https://wews-syndication.ewscloud.com/out/v1/72729e3f4dbe4aafbab93d6b1117e5f1/index.m3u8
-#EXTINF:-1 tvg-id="WEWSTV.us" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTDlkLcU8ttGRBu52teqTkm6Kf7l_YHFo5L9XwZtA=s88-c-k-c0x00ffffff-no-rj" group-title="Local", WEWS Cleveland ABC HD
+#EXTINF:-1 tvg-id="WEWSDT1.us" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTDlkLcU8ttGRBu52teqTkm6Kf7l_YHFo5L9XwZtA=s88-c-k-c0x00ffffff-no-rj" group-title="Local", WEWS Cleveland ABC HD
 http://51.161.118.146:8080/ISG03_ABC_CLEVELAND_OH_WEWS/video.m3u8
 #EXTINF:-1 tvg-id="WOIODT1.us" tvg-name="" tvg-logo="https://static.wikia.nocookie.net/tvstations/images/0/00/WOIO_CBS_19_2019_Logo.png" group-title="Local", WOIO Cleveland CBS
 http://51.161.118.146:8080/ISG03_CBS_CLEVELAND_OH_WOIO/tracks-v5a1/mono.m3u8
@@ -82,27 +146,27 @@ http://51.161.118.146:8080/ISG03_FOX_CLEVELAND_OH_WJW/video.m3u8
 https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WKYCDT1.us" tvg-name="" tvg-logo="https://www.wkyc.com/assets/shared-images/logos/wkyc.png" group-title="Local", WKYC Cleveland NBC HD
 http://51.161.118.146:8080/ISG03_NBC_CLEVELAND_OH_WKYC/video.m3u8
-#EXTINF:-1 tvg-id="WFAA.us" tvg-name="" tvg-logo="https://i.imgur.com/0a0FVSv.jpg" group-title="Local", WFAA Dallas ABC
+#EXTINF:-1 tvg-id="WFAADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/0a0FVSv.jpg" group-title="Local", WFAA Dallas ABC
 https://livevideo01.wfaa.com/hls/live/2014541/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WFAA.us" tvg-name="" tvg-logo="https://i.imgur.com/0a0FVSv.jpg" group-title="Local", WFAA Dallas ABC HD
+#EXTINF:-1 tvg-id="WFAADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/0a0FVSv.jpg" group-title="Local", WFAA Dallas ABC HD
 http://51.161.118.146:8080/ISG03_ABC_DALLAS_TX_WFAA/video.m3u8
 #EXTINF:-1 tvg-id="KTVTDT1.us" tvg-name="" tvg-logo="https://www.livenewsworld.com/wp-content/uploads/2019/12/KTVT-Dallas.jpg" group-title="Local", KTVT Dallas CBS
 http://51.161.118.146:8080/ISG03_CBS_DALLAS_TX_KTVT/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-id="KDFWTV.us" tvg-name="" tvg-logo="https://i.imgur.com/gjIKpMJ.png" group-title="Local", KDFW Dallas FOX
+#EXTINF:-1 tvg-id="KDFWDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/gjIKpMJ.png" group-title="Local", KDFW Dallas FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-KDFW-Monetizer.m3u8
-#EXTINF:-1 tvg-id="KDFWTV.us" tvg-name="" tvg-logo="https://i.imgur.com/gjIKpMJ.png" group-title="Local", KDFW Dallas FOX HD
+#EXTINF:-1 tvg-id="KDFWDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/gjIKpMJ.png" group-title="Local", KDFW Dallas FOX HD
 http://51.161.118.146:8080/ISG03_FOX_DALLAS_TX_KDFW/video.m3u8
-#EXTINF:-1 tvg-id="KMGHTV.us" tvg-name="" tvg-logo="https://i.imgur.com/JExsI09.png" group-title="Local", KMGH Denver ABC
+#EXTINF:-1 tvg-id="KMGHDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/JExsI09.png" group-title="Local", KMGH Denver ABC
 https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
-#EXTINF:-1 tvg-id="KMGHTV.us" tvg-name="" tvg-logo="https://i.imgur.com/JExsI09.png" group-title="Local", KMGH Denver ABC HD
+#EXTINF:-1 tvg-id="KMGHDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/JExsI09.png" group-title="Local", KMGH Denver ABC HD
 http://51.161.118.146:8080/ISG03_ABC_DENVER_CO_KMGH/video.m3u8
 #EXTINF:-1 tvg-id="KCNCDT1.us" tvg-name="" tvg-logo="" group-title="Local", KCNC Denver CBS
 http://51.161.118.146:8080/ISG03_CBS_DENVER_CO_KCNC/video.m3u8
-#EXTINF:-1 tvg-id="KUSATV.us" tvg-name="" tvg-logo="https://i.imgur.com/uv82wud.jpg" group-title="Local", KUSA Denver NBC
+#EXTINF:-1 tvg-id="KUSADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/uv82wud.jpg" group-title="Local", KUSA Denver NBC
 https://livevideo01.9news.com/hls/live/2014548/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="KDVRDT1.us" tvg-name="" tvg-logo="https://kdvr.com/wp-content/uploads/sites/11/2021/09/header-logo-sept-2021.png" group-title="Local", KDVR Denver FOX
 http://51.161.118.146:8080/ISG03_FOX_DENVER_CO_KDVR/video.m3u8
-#EXTINF:-1 tvg-id="WXYZTV.us" tvg-name="" tvg-logo="https://i.imgur.com/J9fH2sG.png" group-title="Local", WXYZ Detroit ABC
+#EXTINF:-1 tvg-id="WXYZDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/J9fH2sG.png" group-title="Local", WXYZ Detroit ABC
 https://wxyz-syndication.ewscloud.com/out/v1/459e356d18be4af88bfd34140d590ada/index.m3u8
 #EXTINF:-1 tvg-id="WWJDT1.us" tvg-name="" tvg-logo="https://detroit.cbslocal.com/wp-content/uploads/sites/15909782/2018/07/4_detroit_cbs621.png" group-title="Local", WWJ Detroit CBS
 http://51.161.118.146:8080/ISG03_CBS_DETROIT_MI_WWJ/video.m3u8
@@ -110,19 +174,19 @@ http://51.161.118.146:8080/ISG03_CBS_DETROIT_MI_WWJ/video.m3u8
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WJBK-Monetizer.m3u8
 #EXTINF:-1 tvg-id="WDIVDT1.us" tvg-name="" tvg-logo="" group-title="Local", WDIV Detroit NBC
 http://51.161.118.146:8080/ISG03_NBC_DETROIT_MI_WDIV/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/1a4cb5a/2147483647/strip/true/crop/358x133+0+0/resize/358x133!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8a%2Fd4%2F28316f43411aadcc4efbf48aee69%2Fwftx-main-logo.png" group-title="Local", WFTX Fort Myers
+#EXTINF:-1 tvg-id="WFXTDT1.us" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/1a4cb5a/2147483647/strip/true/crop/358x133+0+0/resize/358x133!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8a%2Fd4%2F28316f43411aadcc4efbf48aee69%2Fwftx-main-logo.png" group-title="Local", WFTX Fort Myers
 https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8
-#EXTINF:-1 tvg-id="WFMYTV.us" tvg-name="" tvg-logo="https://i.imgur.com/ps6uQSW.jpg" group-title="Local", WFMY Greensboro CBS
+#EXTINF:-1 tvg-id="WFMYDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ps6uQSW.jpg" group-title="Local", WFMY Greensboro CBS
 https://livevideo01.wfmynews2.com/hls/live/2016285/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="KTRKDT1.us" tvg-name="" tvg-logo="https://cdn.abcotvs.net/abcotv/static/ktrk/logos/ktrk_logo_2x.png" group-title="Local", KTRK Houston ABC
 http://51.161.118.146:8080/ISG03_ABC_HOUSTON_TX_KTRK/video.m3u8
-#EXTINF:-1 tvg-id="KHOUTV.us" tvg-name="" tvg-logo="https://i.imgur.com/aTU1n4l.jpg" group-title="Local", KHOU Houston CBS
+#EXTINF:-1 tvg-id="KHOUDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/aTU1n4l.jpg" group-title="Local", KHOU Houston CBS
 https://livevideo01.khou.com/hls/live/2014966/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="KHOUTV.us" tvg-name="" tvg-logo="https://i.imgur.com/aTU1n4l.jpg" group-title="Local", KHOU Houston CBS HD
+#EXTINF:-1 tvg-id="KHOUDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/aTU1n4l.jpg" group-title="Local", KHOU Houston CBS HD
 http://51.161.118.146:8080/ISG03_CBS_HOUSTON_TX_KHOU/video.m3u8
-#EXTINF:-1 tvg-id="KRIV.us" tvg-name="" tvg-logo="https://i.imgur.com/AZ8MWRp.jpg" group-title="Local", KRIV Houston FOX
+#EXTINF:-1 tvg-id="KRIVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/AZ8MWRp.jpg" group-title="Local", KRIV Houston FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-KRIV-Monetizer.m3u8
-#EXTINF:-1 tvg-id="KRIV.us" tvg-name="" tvg-logo="https://i.imgur.com/AZ8MWRp.jpg" group-title="Local", KRIV Houston FOX HD
+#EXTINF:-1 tvg-id="KRIVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/AZ8MWRp.jpg" group-title="Local", KRIV Houston FOX HD
 http://51.161.118.146:8080/ISG03_FOX_HOUSTON_TX_KRIV/video.m3u8
 #EXTINF:-1 tvg-id="KPRCDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/KPRC-TV_Logo.png/100px-KPRC-TV_Logo.png" group-title="Local", KPRC Houston NBC
 http://51.161.118.146:8080/ISG03_NBC_HOUSTON_TX_KPRC/video.m3u8
@@ -130,85 +194,85 @@ http://51.161.118.146:8080/ISG03_NBC_HOUSTON_TX_KPRC/video.m3u8
 http://51.161.118.146:8080/ISG03_ABC_INDIANAPOLIS_IN_WRTV/video.m3u8
 #EXTINF:-1 tvg-id="WXINDT1.us" tvg-name="" tvg-logo="https://fox59.com/wp-content/uploads/sites/21/2020/02/cropped-wxin_logo.png" group-title="Local", WXIN Indianapolis FOX
 http://51.161.118.146:8080/ISG03_FOX_INDIANAPOLIS_IN_WXIN/video.m3u8
-#EXTINF:-1 tvg-id="WTHRTV.us" tvg-name="" tvg-logo="https://i.imgur.com/DQK8BrE.jpg" group-title="Local", WTHR Indianapolis NBC
+#EXTINF:-1 tvg-id="WTHRDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/DQK8BrE.jpg" group-title="Local", WTHR Indianapolis NBC
 https://livevideo01.wthr.com/hls/live/2013835/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WTHRTV.us" tvg-name="" tvg-logo="https://i.imgur.com/DQK8BrE.jpg" group-title="Local", WTHR Indianapolis NBC HD
+#EXTINF:-1 tvg-id="WTHRDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/DQK8BrE.jpg" group-title="Local", WTHR Indianapolis NBC HD
 http://51.161.118.146:8080/ISG03_NBC_INDIANAPOLIS_IN_WTHR/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Local", WTLV Jacksonville ABC
+#EXTINF:-1 tvg-id="WTLVDT1.us" tvg-name="" tvg-logo="" group-title="Local", WTLV Jacksonville ABC
 https://d3nzocdfkx2ybv.cloudfront.net/in/cmg-wjaxtv-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="WJAXTV.us" tvg-name="" tvg-logo="https://i.imgur.com/vEjcM9P.png" group-title="Local", WJAX Jacksonville CBS
+#EXTINF:-1 tvg-id="WJAXDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/vEjcM9P.png" group-title="Local", WJAX Jacksonville CBS
 https://d3nzocdfkx2ybv.cloudfront.net/in/cmg-wftvtv-hls-v3/live.m3u8
 #https://d2eit0bra9qkiw.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10050_b9ac3c93-be86-4f7e-82b8-796b7f8bfda3_LE/in/cmg-wjaxtv-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="WJAXTV.us" tvg-name="" tvg-logo="https://i.imgur.com/vEjcM9P.png" group-title="Local", WJAX Jacksonville CBS HD
+#EXTINF:-1 tvg-id="WJAXDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/vEjcM9P.png" group-title="Local", WJAX Jacksonville CBS HD
 http://51.161.118.146:8080/ISG03_CBS_JACKSONVILLE_FL_WJAX/video.m3u8
 #EXTINF:-1 tvg-id="WFOXDT1.us" tvg-name="" tvg-logo="https://www.actionnewsjax.com/pf/resources/images/sites/cmg-tv-10050/station-logo.png" group-title="Local", WFOX Jacksonville FOX
 https://d3nzocdfkx2ybv.cloudfront.net/in/cmg-wjaxtv-hls-v3/live.m3u8
 #EXTINF:-1 tvg-id="WFOXDT1.us" tvg-name="" tvg-logo="https://www.actionnewsjax.com/pf/resources/images/sites/cmg-tv-10050/station-logo.png" group-title="Local", WFOX Jacksonville FOX HD
 http://51.161.118.146:8080/ISG03_FOX_JACKSONVILLE_FL_WFOX/video.m3u8
-#EXTINF:-1 tvg-id="KMBCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/DCBHkiP.jpg" group-title="Local", KMBC Kansas City ABC
+#EXTINF:-1 tvg-id="KMBCDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/DCBHkiP.jpg" group-title="Local", KMBC Kansas City ABC
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-KMBC.m3u8
-#EXTINF:-1 tvg-id="KSHBTV.us" tvg-name="" tvg-logo="https://i.imgur.com/BMncWbQ.png" group-title="Local", KSHB Kansas City NBC
+#EXTINF:-1 tvg-id="KSHBDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/BMncWbQ.png" group-title="Local", KSHB Kansas City NBC
 https://kshb-syndication.ewscloud.com/out/v1/4368cbfbec0541f8b78f762adbb6fccd/index.m3u8
-#EXTINF:-1 tvg-id="KTNVTV.us" tvg-name="" tvg-logo="https://i.imgur.com/QbkW7zY.png" group-title="Local", KTNV Las Vegas ABC
+#EXTINF:-1 tvg-id="KTNVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/QbkW7zY.png" group-title="Local", KTNV Las Vegas ABC
 https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8
-#EXTINF:-1 tvg-id="KABCTV.us" tvg-name="" tvg-logo="https://imgur.com/nKAUCLF.jpg" group-title="Local", KABC Los Angeles ABC
+#EXTINF:-1 tvg-id="KABCDT1.us" tvg-name="" tvg-logo="https://imgur.com/nKAUCLF.jpg" group-title="Local", KABC Los Angeles ABC
 https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
-#EXTINF:-1 tvg-id="KABCTV.us" tvg-name="" tvg-logo="https://imgur.com/nKAUCLF.jpg" group-title="Local", KABC Los Angeles ABC HD
+#EXTINF:-1 tvg-id="KABCDT1.us" tvg-name="" tvg-logo="https://imgur.com/nKAUCLF.jpg" group-title="Local", KABC Los Angeles ABC HD
 http://51.161.118.146:8080/ISG03_CBS_LOS_ANGELES_CA_KCBS/video.m3u8
 #EXTINF:-1 tvg-id="KCBSDT1.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", KCBS LOSANGELES CBS
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXUNCUyBMT1MgQU5HRUxFUyxLQ0JTLFsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICIiLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJmZm1wZWdkaXJlY3Q6Ly9odHRwOi8vaW5ncmlkLmx0ZDoyNTQ2MS9saXZlL2JvYjMyMS83MmJSaEpLZVU5LzU5NjMubTN1OHxVc2VyLUFnZW50PWlQYWQoVVM6KDEpIENCUyAyIExvcyBBbmdlbGVzIENBIChLQ0JTKSAtIDJDQlMpIiwgImh0dHA6Ly84NS4yMDMuMzMuODg6ODAvZ3JhbmRlZTIvaGIyWG1mNDAvMjMyNDlccihbQ09MT1JwaW5rXUlQVFZ8Z3JhbmQ6IFsvQ09MT1JdQ0JTIDIgS0NCUyBMb3MgQW5nZWxlcyBIRCBVUykiXX0=
-#EXTINF:-1 tvg-id="KTTV.us" tvg-name="" tvg-logo="http://live-tv-channels.org/pt-data/uploads/logo/us-fox-11-los-angeles.jpg" group-title="Local", KTTV Los Angeles FOX
+#EXTINF:-1 tvg-id="KTTVDT1.us" tvg-name="" tvg-logo="http://live-tv-channels.org/pt-data/uploads/logo/us-fox-11-los-angeles.jpg" group-title="Local", KTTV Los Angeles FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-KTTV-Monetizer.m3u8
-#EXTINF:-1 tvg-id="KTTV.us" tvg-name="" tvg-logo="http://live-tv-channels.org/pt-data/uploads/logo/us-fox-11-los-angeles.jpg" group-title="Local", KTTV Los Angeles FOX HD
+#EXTINF:-1 tvg-id="KTTVDT1.us" tvg-name="" tvg-logo="http://live-tv-channels.org/pt-data/uploads/logo/us-fox-11-los-angeles.jpg" group-title="Local", KTTV Los Angeles FOX HD
 http://51.161.118.146:8080/ISG03_FOX_LOS_ANGELES_CA_KTTV/video.m3u8
-#EXTINF:-1 tvg-id="KNBC.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", KNBC LOSANGELES NBC
+#EXTINF:-1 tvg-id="KNBCDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", KNBC LOSANGELES NBC
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdS05CQyAoTkJDKSB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9jZTUwZWEzNzVhZDk0OWYzYmE1NGQyMjVjYWI3YzE0MC9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
-#EXTINF:-1 tvg-id="KNBC.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", KNBC LOSANGELES NBC HD
+#EXTINF:-1 tvg-id="KNBCDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", KNBC LOSANGELES NBC HD
 http://51.161.118.146:8080/ISG03_NBC_LOS_ANGELES_CA_KNBC/video.m3u8
-#EXTINF:-1 tvg-id="WHAS.us" tvg-name="" tvg-logo="https://i.imgur.com/ATiQ6J9.jpg" group-title="Local", WHAS Louisville ABC
+#EXTINF:-1 tvg-id="WHASDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ATiQ6J9.jpg" group-title="Local", WHAS Louisville ABC
 https://livevideo01.whas11.com/hls/live/2016284/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WLKY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/cbs.png" group-title="Local", WLKY Louisville
+#EXTINF:-1 tvg-id="WLKYDT1.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/cbs.png" group-title="Local", WLKY Louisville
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WLKY.m3u8
-#EXTINF:-1 tvg-id="WATNTV.us" tvg-name="" tvg-logo="https://i.imgur.com/ukf1WZ0.jpg" group-title="Local", WATN Memphis ABC
+#EXTINF:-1 tvg-id="WATNDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ukf1WZ0.jpg" group-title="Local", WATN Memphis ABC
 https://livevideo01.localmemphis.com/hls/live/2011654/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WHBQTV.us" tvg-name="" tvg-logo="https://i.imgur.com/E9vX12j.jpg" group-title="Local", WHBQ Memphis FOX
+#EXTINF:-1 tvg-id="WHBQDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/E9vX12j.jpg" group-title="Local", WHBQ Memphis FOX
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WHBQ.m3u8
-#EXTINF:-1 tvg-id="WPLG.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WPLG MIAMI ABC
+#EXTINF:-1 tvg-id="WPLGDT1.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WPLG MIAMI ABC
 https://svc-lvanvato-cxtv-wftv.cmgvideo.com/wftv/2564k/index.m3u8
-#EXTINF:-1 tvg-id="WPLG.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WPLG MIAMI ABC HD
+#EXTINF:-1 tvg-id="WPLGDT1.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WPLG MIAMI ABC HD
 http://51.161.118.146:8080/ISG03_ABC_MIAMI_FL_WPLG/video.m3u8
-#EXTINF:-1 tvg-id="WFORTV.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WFOR MIAMI CBS
+#EXTINF:-1 tvg-id="WFORDT1.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WFOR MIAMI CBS
 https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8
-#EXTINF:-1 tvg-id="WFORTV.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WFOR MIAMI CBS HD
+#EXTINF:-1 tvg-id="WFORDT1.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WFOR MIAMI CBS HD
 http://38.127.211.18/live/c2eds/CBS/HLS/index.m3u8
 #http://51.161.118.146:8080/ISG03_CBS_MIAMI_FL_WFOR/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-id="WSVN.us" tvg-name="" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Local", WSVN MIAMI FOX
+#EXTINF:-1 tvg-id="WSVNDT1.us" tvg-name="" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Local", WSVN MIAMI FOX
 https://bozztv.com/teleyupp1/teleup-GgIpXe0CjT/playlist.m3u8
-#EXTINF:-1 tvg-id="WSVN.us" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Local", WSVN MIAMI FOX HD
+#EXTINF:-1 tvg-id="WSVNDT1.us" tvg-logo="http://img2.wikia.nocookie.net/__cb20110408042951/logopedia/images/2/2c/Fox_hd.png" group-title="Local", WSVN MIAMI FOX HD
 http://51.161.118.146:8080/ISG03_FOX_MIAMI_FL_WSVN/video.m3u8
-#EXTINF:-1 tvg-id="WTVJ.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WTVJ MIAMI NBC
+#EXTINF:-1 tvg-id="WTVJDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WTVJ MIAMI NBC
 http://38.127.211.18/live/c2eds/NBC/HLS/index.m3u8
-#EXTINF:-1 tvg-id="WTVJ.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WTVJ MIAMI NBC HD
+#EXTINF:-1 tvg-id="WTVJDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WTVJ MIAMI NBC HD
 http://51.161.118.146:8080/ISG03_NBC_MIAMI_FL_WTVJ/video.m3u8
-#EXTINF:-1 tvg-id="WPDETV.us" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Local", WPDE Myrtle Beach ABC
+#EXTINF:-1 tvg-id="WPDEDT1.us" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Local", WPDE Myrtle Beach ABC
 https://content-ause2.uplynk.com/75450478ee5546ad84ee06acc63479e4.m3u8
-#EXTINF:-1 tvg-id="WBTW.us" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Local", WBTW Myrtle Beach CBS
+#EXTINF:-1 tvg-id="WBTWDT1.us" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Local", WBTW Myrtle Beach CBS
 https://livevideo01.wltx.com/hls/live/2017152/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WWLTV.us" tvg-name="" tvg-logo="https://i.imgur.com/BvlV1dl.jpg" group-title="Local", WWLTV New Orleans CBS
+#EXTINF:-1 tvg-id="WWLDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/BvlV1dl.jpg" group-title="Local", WWLTV New Orleans CBS
 https://livevideo01.wwltv.com/hls/live/2016516/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WWLTV.us" tvg-name="" tvg-logo="https://i.imgur.com/BvlV1dl.jpg" group-title="Local", WWLTV New Orleans CBS HD
+#EXTINF:-1 tvg-id="WWLDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/BvlV1dl.jpg" group-title="Local", WWLTV New Orleans CBS HD
 http://51.161.118.146:8080/ISG03_CBS_NEW_ORLEANS_LA_WWL/video.m3u8
 #EXTINF:-1 tvg-id="WVUEDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/WVUE-DT_Logo.png/225px-WVUE-DT_Logo.png" group-title="Local", WVUE New Orleans FOX
 http://51.161.118.146:8080/ISG03_FOX_NEW_ORLEANS_LA_WVUE/video.m3u8
-#EXTINF:-1 tvg-id="WDSUTV.us" tvg-name="" tvg-logo="https://i.imgur.com/cB1bxJw.jpg" group-title="Local", WDSU New Orleans NBC
+#EXTINF:-1 tvg-id="WDSUDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/cB1bxJw.jpg" group-title="Local", WDSU New Orleans NBC
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-WDSU.m3u8
-#EXTINF:-1 tvg-id="WDSUTV.us" tvg-name="" tvg-logo="https://i.imgur.com/cB1bxJw.jpg" group-title="Local", WDSU New Orleans NBC HD
+#EXTINF:-1 tvg-id="WDSUDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/cB1bxJw.jpg" group-title="Local", WDSU New Orleans NBC HD
 http://51.161.118.146:8080/ISG03_NBC_NEW_ORLEANS_LA_WDSU/video.m3u8
-#EXTINF:-1 tvg-id="I396.11259.schedulesdirect.org" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WABC NEW YORK ABC
+#EXTINF:-1 tvg-id="WABCDT1.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WABC NEW YORK ABC
 https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8
 #EXTINF:-1 tvg-id="I390.11331.schedulesdirect.org" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WCBS NEW YORK CBS
 http://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/master.m3u8
-#EXTINF:-1 tvg-id="WNYW.us" tvg-name="" tvg-logo="https://i.imgur.com/OfGcsUO.png" group-title="Local", WNYW New York FOX
+#EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/OfGcsUO.png" group-title="Local", WNYW New York FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTTG-Monetizer.m3u8
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WNBC NEW YORK NBC
 http://v-ny.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
@@ -216,9 +280,9 @@ http://v-ny.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (W
 http://v-ny.theus6tv.duckdns.org/hls/11.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I111.21253.zap2it.com" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Local", WPIX NEW YORK HD
 https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8
-#EXTINF:-1 tvg-id="WVEC.us" tvg-name="" tvg-logo="https://i.imgur.com/P5PtUcR.jpg" group-title="Local", WVEC Norfolk ABC
+#EXTINF:-1 tvg-id="WVECDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/P5PtUcR.jpg" group-title="Local", WVEC Norfolk ABC
 https://livevideo01.13newsnow.com/hls/live/2014545/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WESH.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/nbc.png" group-title="Local", WESH Orlando
+#EXTINF:-1 tvg-id="WESHDT1.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/nbc.png" group-title="Local", WESH Orlando
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WESH.m3u8
 #EXTINF:-1 tvg-id="WFTVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/2TYoO5j.png" group-title="Local", WFTV Orlando ABC
 https://d3qm7vzp07vxse.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10070_fe1f5f6c-cd0b-4993-a4a4-6db66be4f313_LE/in/cmg-wftvtv-hls-v3/live.m3u8
@@ -236,86 +300,86 @@ http://51.161.118.146:8080/ISG03_NBC_ORLANDO_FL_WESH/video.m3u8
 http://v-pi.theus6tv.duckdns.org/hls/6.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WPHLDT1.us" tvg-name="" tvg-logo="" group-title="Local", WPHL Philadelphia CBS
 http://v-pi.theus6tv.duckdns.org/hls/17.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="WTXFTV.us" tvg-name="" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Local", WTXF Philadelphia FOX
+#EXTINF:-1 tvg-id="WTXFDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Local", WTXF Philadelphia FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTXF-Monetizer.m3u8
 http://v-pi.theus6tv.duckdns.org/hls/29.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="KNXVTV.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC
+#EXTINF:-1 tvg-id="KNXVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC
 https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
-#EXTINF:-1 tvg-id="KNXVTV.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC HD
+#EXTINF:-1 tvg-id="KNXVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC HD
 http://51.161.118.146:8080/ISG03_ABC_PHOENIX_AZ_KNXV/video.m3u8
 #EXTINF:-1 tvg-id="KPHODT1.us" tvg-name="" tvg-logo="http://www.smecc.org/kpho-tv/150px-KPHO5.png" group-title="Local", KPHO Phoenix CBS
 http://51.161.118.146:8080/ISG03_CBS_PHOENIX_AZ_KPHO/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-id="KZAS.us" tvg-name="" tvg-logo="https://i.imgur.com/TCzjchS.jpg" group-title="Local", KZAS Phoenix FOX
+#EXTINF:-1 tvg-id="KZASDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/TCzjchS.jpg" group-title="Local", KZAS Phoenix FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-KSAZ-Monetizer.m3u8
-#EXTINF:-1 tvg-id="KZAS.us" tvg-name="" tvg-logo="https://i.imgur.com/TCzjchS.jpg" group-title="Local", KZAS Phoenix FOX HD
+#EXTINF:-1 tvg-id="KZASDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/TCzjchS.jpg" group-title="Local", KZAS Phoenix FOX HD
 http://51.161.118.146:8080/ISG03_FOX_PHOENIX_AZ_KSAZ/video.m3u8
-#EXTINF:-1 tvg-id="KPNXTV.us" tvg-name="" tvg-logo="https://i.imgur.com/f1FiXuX.jpg" group-title="Local", KPNX Phoenix NBC
+#EXTINF:-1 tvg-id="KPNXDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/f1FiXuX.jpg" group-title="Local", KPNX Phoenix NBC
 https://livevideo01.12news.com/hls/live/2015501/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="KPNXTV.us" tvg-name="" tvg-logo="https://i.imgur.com/f1FiXuX.jpg" group-title="Local", KPNX Phoenix NBC HD
+#EXTINF:-1 tvg-id="KPNXDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/f1FiXuX.jpg" group-title="Local", KPNX Phoenix NBC HD
 http://51.161.118.146:8080/ISG03_NBC_PHOENIX_AZ_KPNX/video.m3u8
-#EXTINF:-1 tvg-id="WTAETV.us" tvg-name="" tvg-logo="https://i.imgur.com/4iEFQjd.png" group-title="Local", WTAE Pittsburg ABC
+#EXTINF:-1 tvg-id="WTAEDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/4iEFQjd.png" group-title="Local", WTAE Pittsburg ABC
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WTAE.m3u8
-#EXTINF:-1 tvg-id="WTAETV.us" tvg-name="" tvg-logo="https://i.imgur.com/4iEFQjd.png" group-title="Local", WTAE Pittsburg ABC HD
+#EXTINF:-1 tvg-id="WTAEDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/4iEFQjd.png" group-title="Local", WTAE Pittsburg ABC HD
 http://51.161.118.146:8080/ISG03_ABC_PITTSBURGH_PA_WTAE/video.m3u8
 #EXTINF:-1 tvg-id="KDKADT1.us" tvg-name="" tvg-logo="https://assets3.cbsnewsstatic.com/hub/i/r/2022/04/11/7ba7ccd0-4386-46f3-a8f9-71e81f4a0555/thumbnail/640x360/a94cbd857d0bb82d61b865d436211dd5/kdka-logo.jpg" group-title="Local", KDKA Pittsburgh CBS
 http://51.161.118.146:8080/ISG03_CBS_PITTSBURGH_PA_KDKA/video.m3u8
-#EXTINF:-1 tvg-id="WPXITV.us" tvg-name="" tvg-logo="https://i.imgur.com/iud5PUZ.png" group-title="Local", WPXI Pittsburgh NBC
+#EXTINF:-1 tvg-id="WPXIDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/iud5PUZ.png" group-title="Local", WPXI Pittsburgh NBC
 https://d3nzocdfkx2ybv.cloudfront.net/in/cmg-wpxitv-hls-v3/live.m3u8
-#EXTINF:-1 tvg-id="WPXITV.us" tvg-name="" tvg-logo="https://i.imgur.com/iud5PUZ.png" group-title="Local", WPXI Pittsburgh NBC HD
+#EXTINF:-1 tvg-id="WPXIDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/iud5PUZ.png" group-title="Local", WPXI Pittsburgh NBC HD
 http://51.161.118.146:8080/ISG03_NBC_PITTSBURGH_PA_WPXI/video.m3u8
-#EXTINF:-1 tvg-id="WTVD.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WTVD RALEIGH ABC
+#EXTINF:-1 tvg-id="WTVDDT1.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WTVD RALEIGH ABC
 https://content.uplynk.com/channel/ext/f05837c508c44712aa7129d531f7dbe6/wtvd_24x7_news.m3u8
-#EXTINF:-1 tvg-id="WTVD.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WTVD RALEIGH ABC HD
+#EXTINF:-1 tvg-id="WTVDDT1.us" tvg-name="" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Local", WTVD RALEIGH ABC HD
 http://51.161.118.146:8080/ISG03_ABC_RALEIGH_NC_WTVD/video.m3u8
-#EXTINF:-1 tvg-id="WNCN.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WNCN RALEIGH CBS
+#EXTINF:-1 tvg-id="WNCNDT1.us" tvg-name="" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Local", WNCN RALEIGH CBS
 https://livevideo01.wfmynews2.com/hls/live/2016285/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WRALTV.us" tvg-name="" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Local", WRAL RALEIGH NBC
+#EXTINF:-1 tvg-id="WRALDT1.us" tvg-name="" tvg-logo="https://www.tvnewslivestream.com/wp-content/uploads/2018/02/NBC-17-WRAL.jpg" group-title="Local", WRAL RALEIGH NBC
 plugin://plugin.video.wrallocal/?mode=GV&url=https%3A%2F%2Fwww.wral.com%2Fnews%2Fvideo%2F1082826%2F
-#EXTINF:-1 tvg-id="WTGSTV.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/FOX28WTGS.PNG" group-title="Local", WTGS Savannah FOX
+#EXTINF:-1 tvg-id="WTGSDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/FOX28WTGS.PNG" group-title="Local", WTGS Savannah FOX
 https://content.uplynk.com/channel/e56ba52a1b9d45ad8c8a033fd83fe480.m3u8
-#EXTINF:-1 tvg-id="WJCL.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/abc.png" group-title="Local", WJCL Savannah
+#EXTINF:-1 tvg-id="WJCLDT1.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/abc.png" group-title="Local", WJCL Savannah
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WJCL.m3u8
-#EXTINF:-1 tvg-id="KOMOTV.us" tvg-name="" tvg-logo="https://i.imgur.com/8vXRrRe.jpg" group-title="Local", KOMO Seattle ABC
+#EXTINF:-1 tvg-id="KOMODT1.us" tvg-name="" tvg-logo="https://i.imgur.com/8vXRrRe.jpg" group-title="Local", KOMO Seattle ABC
 https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8
-#EXTINF:-1 tvg-id="KOMOTV.us" tvg-name="" tvg-logo="https://i.imgur.com/8vXRrRe.jpg" group-title="Local", KOMO Seattle ABC HD
+#EXTINF:-1 tvg-id="KOMODT1.us" tvg-name="" tvg-logo="https://i.imgur.com/8vXRrRe.jpg" group-title="Local", KOMO Seattle ABC HD
 http://51.161.118.146:8080/ISG03_ABC_SEATTLE_WA_KOMO/video.m3u8
-#EXTINF:-1 tvg-id="KIROTV.us" tvg-name="" tvg-logo="https://i.imgur.com/u6470R1.png" group-title="Local", KIRO Seattle CBS
+#EXTINF:-1 tvg-id="KIRODT1.us" tvg-name="" tvg-logo="https://i.imgur.com/u6470R1.png" group-title="Local", KIRO Seattle CBS
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kiro7seattle-ono/playlist.m3u8
-#EXTINF:-1 tvg-id="KIROTV.us" tvg-name="" tvg-logo="https://i.imgur.com/u6470R1.png" group-title="Local", KIRO Seattle CBS HD
+#EXTINF:-1 tvg-id="KIRODT1.us" tvg-name="" tvg-logo="https://i.imgur.com/u6470R1.png" group-title="Local", KIRO Seattle CBS HD
 http://51.161.118.146:8080/ISG03_CBS_SEATTLE_WA_KIRO/video.m3u8
-#EXTINF:-1 tvg-id="KCPQTV.us" tvg-name="" tvg-logo="https://i.imgur.com/4xs5ERr.jpg" group-title="Local", KCPQ Seattle FOX
+#EXTINF:-1 tvg-id="KCPQDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/4xs5ERr.jpg" group-title="Local", KCPQ Seattle FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-KCPQ-Monetizer.m3u8
-#EXTINF:-1 tvg-id="KCPQTV.us" tvg-name="" tvg-logo="https://i.imgur.com/4xs5ERr.jpg" group-title="Local", KCPQ Seattle FOX HD
+#EXTINF:-1 tvg-id="KCPQDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/4xs5ERr.jpg" group-title="Local", KCPQ Seattle FOX HD
 http://51.161.118.146:8080/ISG03_FOX_SEATTLE_WA_KCPQ/video.m3u8
-#EXTINF:-1 tvg-id="KINGTV.us" tvg-name="" tvg-logo="https://i.imgur.com/aDqnu8Y.jpg" group-title="Local", KING Seattle NBC
+#EXTINF:-1 tvg-id="KINGDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/aDqnu8Y.jpg" group-title="Local", KING Seattle NBC
 https://livevideo01.king5.com/hls/live/2006665/live/live.m3u8
-#EXTINF:-1 tvg-id="KINGTV.us" tvg-name="" tvg-logo="https://i.imgur.com/aDqnu8Y.jpg" group-title="Local", KING Seattle NBC HD
+#EXTINF:-1 tvg-id="KINGDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/aDqnu8Y.jpg" group-title="Local", KING Seattle NBC HD
 http://51.161.118.146:8080/ISG03_NBC_SEATTLE_WA_KING/video.m3u8
-#EXTINF:-1 tvg-id="WFTSTV.us" tvg-name="" tvg-logo="http://static3.wikia.nocookie.net/__cb20110330062436/logopedia/images/b/b6/Wfts2008.png" group-title="Local", WFTS Tampa ABC
+#EXTINF:-1 tvg-id="WFTSDT1.us" tvg-name="" tvg-logo="http://static3.wikia.nocookie.net/__cb20110330062436/logopedia/images/b/b6/Wfts2008.png" group-title="Local", WFTS Tampa ABC
 https://wfts-syndication.ewscloud.com/out/v1/cdf4355ff2f54f76a0963dec6266512c/index.m3u8
-#EXTINF:-1 tvg-id="WTSPTV.us" tvg-name="" tvg-logo="https://i.imgur.com/Plp4dZh.jpg" group-title="Local", WTSP Tampa CBS
+#EXTINF:-1 tvg-id="WTSPDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/Plp4dZh.jpg" group-title="Local", WTSP Tampa CBS
 https://livevideo01.wtsp.com/hls/live/2015503/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WTSPTV.us" tvg-name="" tvg-logo="https://i.imgur.com/Plp4dZh.jpg" group-title="Local", WTSP Tampa CBS HD
+#EXTINF:-1 tvg-id="WTSPDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/Plp4dZh.jpg" group-title="Local", WTSP Tampa CBS HD
 http://51.161.118.146:8080/ISG03_CBS_TAMPA_FL_WTSP/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-id="WTVT.us" tvg-name="" tvg-logo="https://i.imgur.com/Bvkri2L.png" group-title="Local", WTVT Tampa Bay FOX
+#EXTINF:-1 tvg-id="WTVTDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/Bvkri2L.png" group-title="Local", WTVT Tampa Bay FOX
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTVT-Monetizer.m3u8
-#EXTINF:-1 tvg-id="WJLATV.us" tvg-name="" tvg-logo="https://i.imgur.com/LttuGfq.png" group-title="Local", WJLA Washington DC ABC
+#EXTINF:-1 tvg-id="WJLADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/LttuGfq.png" group-title="Local", WJLA Washington DC ABC
 https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8
-#EXTINF:-1 tvg-id="WJLATV.us" tvg-name="" tvg-logo="https://i.imgur.com/LttuGfq.png" group-title="Local", WJLA Washington DC ABC HD
+#EXTINF:-1 tvg-id="WJLADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/LttuGfq.png" group-title="Local", WJLA Washington DC ABC HD
 http://51.161.118.146:8080/ISG03_ABC_WASHINGTON_DC_WJLA/video.m3u8
-#EXTINF:-1 tvg-id="WUSATV.us" tvg-name="" tvg-logo="https://i.imgur.com/Ekt1an0.png" group-title="Local", WUSA Washington DC CBS
+#EXTINF:-1 tvg-id="WUSADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/Ekt1an0.png" group-title="Local", WUSA Washington DC CBS
 https://livevideo01.wusa9.com/hls/live/2015498/newscasts/live.m3u8
-#EXTINF:-1 tvg-id="WUSATV.us" tvg-name="" tvg-logo="https://i.imgur.com/Ekt1an0.png" group-title="Local", WUSA Washington DC CBS HD
+#EXTINF:-1 tvg-id="WUSADT1.us" tvg-name="" tvg-logo="https://i.imgur.com/Ekt1an0.png" group-title="Local", WUSA Washington DC CBS HD
 http://51.161.118.146:8080/ISG03_CBS_WASHINGTON_DC_WUSA/video.m3u8
-#EXTINF:-1 tvg-id="WTTGTV.us" tvg-name="" tvg-logo="https://i.imgur.com/ktLKla7.png" group-title="Local", WTTG Washington DC FOX
+#EXTINF:-1 tvg-id="WTTGDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ktLKla7.png" group-title="Local", WTTG Washington DC FOX
 http://51.161.118.146:8080/ISG03_FOX_WASHINGTON_DC_WTTG/video.m3u8
-#EXTINF:-1 tvg-id="WTTGTV.us" tvg-name="" tvg-logo="https://i.imgur.com/ktLKla7.png" group-title="Local", WTTG Washington DC FOX HD
+#EXTINF:-1 tvg-id="WTTGDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/ktLKla7.png" group-title="Local", WTTG Washington DC FOX HD
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTTG-Monetizer.m3u8
-#EXTINF:-1 tvg-id="WRCTV.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_of_WRC-TV.png" group-title="Local", WRCT Washington DC NBC
+#EXTINF:-1 tvg-id="WRCDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_of_WRC-TV.png" group-title="Local", WRCT Washington DC NBC
 https://wrclive-f.akamaihd.net/i/wrcb1_1@46880/master.m3u8
-#EXTINF:-1 tvg-id="WWAY.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/WWAY_logo.png/250px-WWAY_logo.png" group-title="Local", WWAY Willmington
+#EXTINF:-1 tvg-id="WWAYDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/WWAY_logo.png/250px-WWAY_logo.png" group-title="Local", WWAY Willmington
 https://dai.google.com/linear/hls/event/A7CgcBYNTuKfvFvW8rmiJA/master.m3u8
-#EXTINF:-1 tvg-id="WXIITV.us" tvg-name="" tvg-logo="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/wxii/logo.png" group-title="Local", WXII Winston-Salem
+#EXTINF:-1 tvg-id="WXIIDT1.us" tvg-name="" tvg-logo="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/wxii/logo.png" group-title="Local", WXII Winston-Salem
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-WXII.m3u8
 
 #EXTINF:-1 tvg-id="PBSEast.us" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="PBS", PBS National East
@@ -417,7 +481,7 @@ plugin://slyguy.pbs.live/?_=play&callsign=WVIA&_l=.pvr
 plugin://plugin.video.tvone11/play/5/1795/play.pvr
 #EXTINF:-1 tvg-id="6000a5a9e767980007b497ca" tvg-name="A&E 360" tvg-logo="https://images.pluto.tv/channels/6000a5a9e767980007b497ca/colorLogoPNG.png" group-title="Cable", A&E Crime 360
 https://aenetworks-crime360-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="USAJ3000006X5" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/LivelyPlace_476x476.png?raw=true" group-title="Cable", A&E Lively Place
+#EXTINF:-1 tvg-id="LivelyPlace.us" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/LivelyPlace_476x476.png?raw=true" group-title="Cable", A&E Lively Place
 http://aenetworks-ae-1.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="tv.101002210221" tvg-name="" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/5/57/Abcblue2014.png/revision/latest/scale-to-width-down/228?cb=20170624044706" group-title="Cable", ABC AU
 https://c.mjh.nz/101002210221/
@@ -839,6 +903,7 @@ plugin://plugin.video.tvone111/play/1323/play.pvr
 http://ott-cdn.ucom.am/s65/index.m3u8
 #EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I358.10146.zap2it.com" tvg-name="CNN International" tvg-logo="https://ia800802.us.archive.org/11/items/CnnHd/cnn%20hd.png" group-title="News", CNN International
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="I503.18168.schedulesdirect.org" tvg-name="CP24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/CablePulse24.png" group-title="News", CP24
