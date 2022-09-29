@@ -10,29 +10,22 @@ http://v-pi.theus6tv.duckdns.org/hls/10.1/playlist.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 
-#EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="" tvg-logo="https://s3.amazonaws.com/media.muckrack.com/groups/icons/wwaytv3.png" group-title="Broadcast", ABC 3.1 WWAY Wilmington
-#WWAYDT1.us
+#EXTINF:-1 tvg-id="WWAYDT1.us" tvg-name="" tvg-logo="https://s3.amazonaws.com/media.muckrack.com/groups/icons/wwaytv3.png" group-title="Broadcast", ABC 3.1 WWAY Wilmington
 http://192.168.1.5:5004/auto/v3.1
-#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="http://www.tvnewslivestream.com/wp-content/uploads/2019/08/WWAY-ABC-CBS-13-News-238x150.jpg" group-title="Broadcast", CBS 3.2 WWAY Wilmington
-#WWAYDT2.us
+#EXTINF:-1 tvg-id="WWAYDT2.us" tvg-name="" tvg-logo="http://www.tvnewslivestream.com/wp-content/uploads/2019/08/WWAY-ABC-CBS-13-News-238x150.jpg" group-title="Broadcast", CBS 3.2 WWAY Wilmington
 http://192.168.1.5:5004/auto/v3.2
-#EXTINF:-1 tvg-id="CWEast.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 3.3 WWAY Wilmington
-#WWAYDT3.us
+#EXTINF:-1 tvg-id="WWAYDT3.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 3.3 WWAY Wilmington
 http://192.168.1.5:5004/auto/v3.3
 #EXTINF:-1 tvg-id="KKPXDT4.us" tvg-name="" tvg-logo="https://www.defytvnet.com/wp-content/uploads/2021/06/logo-defy.png" group-title="Broadcast", DEFY 3.4 Wilmington
 #WWAYDT4.us
 http://192.168.1.5:5004/auto/v3.4
-#EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://gray-local-listings.s3.amazonaws.com/temp/9QTlTZ7VrDgbQqL60nbZZl5pr8rWNtoqES5SfIzU.jpeg" group-title="Broadcast", NBC 6.1 WECT Wilmington
-#WECTDT1.us
+#EXTINF:-1 tvg-id="WECTDT1.us" tvg-name="" tvg-logo="https://gray-local-listings.s3.amazonaws.com/temp/9QTlTZ7VrDgbQqL60nbZZl5pr8rWNtoqES5SfIzU.jpeg" group-title="Broadcast", NBC 6.1 WECT Wilmington
 http://192.168.1.5:5004/auto/v6.1
-#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Broadcast", CBS 13.1 WBTW Myrtle Beach
-#WBTWDT1.us
+#EXTINF:-1 tvg-id="WBTWDT1.us" tvg-name="" tvg-logo="http://0.gravatar.com/blavatar/8f0835f18bc1d1939fc9e0f3ee3667db?s=200&ts=1476682095" group-title="Broadcast", CBS 13.1 WBTW Myrtle Beach
 http://192.168.1.5:5004/auto/v13.1
-#EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Broadcast", ABC 15.1 WPDE Myrtle Beach
-#WPDEDT1.us
+#EXTINF:-1 tvg-id="WPDEDT1.us" tvg-name="" tvg-logo="https://thompsonfarmandnursery.com/wp-content/uploads/2015/08/logo1.jpg" group-title="Broadcast", ABC 15.1 WPDE Myrtle Beach
 http://192.168.1.5:5004/auto/v15.1
-#EXTINF:-1 tvg-id="CWEast.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 15.2 WPDE Myrtle Beach
-#WPDEDT2.us
+#EXTINF:-1 tvg-id="WPDEDT2.us" tvg-name="" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW 15.2 WPDE Myrtle Beach
 http://192.168.1.5:5004/auto/v15.2
 #EXTINF:-1 tvg-id="Comet.us" tvg-name="" tvg-logo="https://i.imgur.com/ZIZZG8v.png" group-title="Broadcast", 15.3 COMET WPDE Myrtle Beach
 #WPDEDT3.us
@@ -54,19 +47,17 @@ http://192.168.1.5:5004/auto/v21.3
 #EXTINF:-1 tvg-id="Charge.us" tvg-name="" tvg-logo="https://televisionadgroup.com/wp-content/uploads/2018/10/Charge_network_logo-300x168.png" group-title="Broadcast", 21.4 CHARGE WWMB Myrtle Beach
 #WWMBDT4.us
 http://192.168.1.5:5004/auto/v21.4
-#EXTINF:-1 tvg-id="WHMCDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.1 PBS ETV Myrtle Beach
+#EXTINF:-1 tvg-id="WRLKDT1.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.1 PBS ETV Myrtle Beach
+#WHMCDT1.us
 http://192.168.1.5:5004/auto/v23.1
-#EXTINF:-1 tvg-id="PBSEast.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.2 SCETV WHMC Myrtle Beach
-#WHMCDT2.us
+#EXTINF:-1 tvg-id="WRLKDT2.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.2 SCETV WHMC Myrtle Beach
 http://192.168.1.5:5004/auto/v23.2
-#EXTINF:-1 tvg-id="K43LWD2.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.3 WORLD WHMC Myrtle Beach
-#WHMCDT3.us
+#EXTINF:-1 tvg-id="WRLKDT3.us" tvg-name="" tvg-logo="https://image.pbs.org/stations/kera-color-logo-xdItoeS.png" group-title="Broadcast", 23.3 WORLD WHMC Myrtle Beach
 http://192.168.1.5:5004/auto/v23.3
 #EXTINF:-1 tvg-id="PBSKids.us" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Broadcast", 23.4 PBSKIDS WHMC Myrtle Beach
 #WHMCDT4.us
 http://192.168.1.5:5004/auto/v23.4
-#EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/WMBF-TV_News_logo.svg/338px-WMBF-TV_News_logo.svg.png" group-title="Broadcast", 32.1 NBC WMBF Myrtle Beach
-#WMBFDT1.us
+#EXTINF:-1 tvg-id="WMBFDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/WMBF-TV_News_logo.svg/338px-WMBF-TV_News_logo.svg.png" group-title="Broadcast", 32.1 NBC WMBF Myrtle Beach
 http://192.168.1.5:5004/auto/v32.1
 #EXTINF:-1 tvg-id="Bounce.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Broadcast", 32.2 BOUNCE WMBF Myrtle Beach
 #WMBFDT2.us
@@ -83,8 +74,7 @@ http://192.168.1.5:5004/auto/v32.5
 #EXTINF:-1 tvg-id="Quest.us" tvg-name="" tvg-logo="http://wmbctv.com/wp-content/uploads/2018/09/Quest-Logo-Horizontal.png" group-title="Broadcast", 32.6 QUESTNET WMBF Myrtle Beach
 #WMBFDT6.us
 http://192.168.1.5:5004/auto/v32.6
-#EXTINF:-1 tvg-id="I5.1.20360.zap2it.com" tvg-name="" tvg-logo="http://s3.amazonaws.com/sidearm.sites/uncp.sidearmsports.com/images/2016/6/11/Sponsor_WFXB.png" group-title="Broadcast", 43.1 FOX WFXB Myrtle Beach
-#WFXBDT1.us
+#EXTINF:-1 tvg-id="WFXBDT1.us" tvg-name="" tvg-logo="http://s3.amazonaws.com/sidearm.sites/uncp.sidearmsports.com/images/2016/6/11/Sponsor_WFXB.png" group-title="Broadcast", 43.1 FOX WFXB Myrtle Beach
 http://192.168.1.5:5004/auto/v43.1
 #EXTINF:-1 tvg-id="QVCUS.us" tvg-name="" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Broadcast", 43.2 QVC Myrtle Beach
 #WFXBDT2.us
@@ -1541,6 +1531,8 @@ https://html5-lh.akamaihd.net/i/html5_01@182967/master.m3u8
 https://hsn2html5-lh.akamaihd.net/i/hsn2html5_01@13178/master.m3u8
 #EXTINF:-1 tvg-id="JewelryTV.us" tvg-name="" tvg-logo="https://i.imgur.com/1HJraea.png" group-title="Shopping", Jewelry Television
 http://wowzaprod134-i.akamaihd.net/hls/live/577814/ccddaf02/playlist.m3u8
+#EXTINF:-1 tvg-id="JewelryTVExtra.us" tvg-logo="https://i.imgur.com/1HJraea.png" group-title="Shopping", Jewelry TV Extra
+https://cdn3.wowza.com/1/R3ZYNjNvdGVoaDFZ/Q3pENnlF/hls/vf0vvvvq/2728/chunklist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-05-26-2020-05-26-2020" tvg-name="QVC" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Shopping", QVC
 https://lsqvc1uscln-lh.akamaihd.net/i/lsqvc1uscln_01@809410/master.m3u8
 #EXTINF:-1 tvg-id="QVC2.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC 2
