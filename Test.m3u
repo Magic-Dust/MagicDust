@@ -961,6 +961,7 @@ https://ltv-dl.frankspeech.com/hls/frank/mainchannel2/playlist.m3u8|Referer=http
 https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
 #https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.uk/view-resources/dachser2/public/gbnews_landing/hero-new.png" group-title="News", GBN
+#I515.2340.tvguide.co.uk
 https://live-gbnews-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/gbnews-live/live.m3u8
 #EXTINF:-1 tvg-id="I68.15993.schedulesdirect.org" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2F49a91e7f-1023-430f-8d66-561055f3d0f7%2Flive.isml%2F.m3u8&mode=12
@@ -998,7 +999,8 @@ https://8430d785459544a5aa0fc4d83bd3097c.mediatailor.us-east-1.amazonaws.com/v1/
 #https://p1media-americasvoice-1.roku.wurl.com/manifest/b1ba4c5e9571b4919d24d0e97f8b7202.m3u8
 #EXTINF:-1 tvg-id="Reuters.uk" tvg-name="Reuters" tvg-logo="https://qph.fs.quoracdn.net/main-qimg-2a3a027201401e63412ee335d3b49720" group-title="News", Reuters
 https://32ce4aad1eed49b1ba2999fb68d119c8.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_ReutersNow/678e78de-ad71-4747-936a-55da37f68898/6.m3u8
-#EXTINF:-1 tvg-id="RT News" tvg-name="RT US" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News", RT News
+#EXTINF:-1 tvg-id="I722.21063.schedulesdirect.org" tvg-name="RT US" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News", RT News
+#RT News
 https://rt-glb.rttv.com/dvr/rtnews/playlist_800Kb.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52|Referer=https://www.rt.com/|Origin=https://www.rt.com
 #EXTINF:-1 tvg-id="RTENews.ie" tvg-name="" tvg-logo="https://archive.org/download/RteNews_201805/rte%20news.png" group-title="News" group-title="News", RTE News
 plugin://plugin.video.tvone11/play/4/1784/play.pvr
@@ -1099,19 +1101,26 @@ https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-GEOCOLOR-600x600.gif
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Puerto Rico infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-13-600x600.gif
 
-#EXTINF:-1 tvg-id="ATTSportsNetPittsburgh.us" tvg-name="" tvg-logo="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/830/2017/06/02171931/attsn-logo1.png" group-title="Sports", ATT SportsNet
+#EXTINF:-1 tvg-id="I41.11054.zap2it.com" tvg-name="" tvg-logo="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/830/2017/06/02171931/attsn-logo1.png" group-title="Sports", ATT SportsNet
+#ATTSportsNetPittsburgh.us
 http://89.187.175.143:80/3073/mpegts
-#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY North
+#EXTINF:-1 tvg-id="I668.10977.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY North
+#BallySportsSoutheast.us
 http://89.187.175.143:80/3113/mpegts
-#EXTINF:-1 tvg-id="BallySportsGreatLakes.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Great Lakes
+#EXTINF:-1 tvg-id="I663.17619.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Great Lakes
+#BallySportsGreatLakes.us
 http://89.187.175.143:80/3115/mpegts
-#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast
+#EXTINF:-1 tvg-id="I646.12410.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast
+#BallySportsSoutheast.us
 http://89.187.175.143:80/3069/mpegts
-#EXTINF:-1 tvg-id="BallySportsSouthwest.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southwest
+#EXTINF:-1 tvg-id="I676.10262.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southwest
+#BallySportsSouthwest.us
 http://89.187.175.143:80/3070/mpegts
-#EXTINF:-1 tvg-id="BallySportsSoutheastTennessee.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Tennessee
+#EXTINF:-1 tvg-id="I671.74333.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Tennessee
+#BallySportsSoutheastTennessee.us
 http://89.187.175.143:80/3068/mpegts
-#EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Wisconsin
+#EXTINF:-1 tvg-id="I669.16348.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Wisconsin
+#BallySportsWisconsin.us
 http://89.187.175.143:80/3116/mpegts
 
 #EXTINF:-1 tvg-id="I655.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
