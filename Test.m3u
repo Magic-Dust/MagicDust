@@ -1008,6 +1008,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs
 plugin://plugin.video.live.streamspro/?mode=13&name=Sky+News&playlist=%5B%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002689%2Fskynewsau-extra1%2Fmaster.m3u8%24%24lsname%3DExtra+1%27%7C%7C+%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002690%2Fskynewsau-extra2%2Fmaster.m3u8%24%24lsname%3DExtra+2%27%7C%7C+%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002691%2Fskynewsau-extra3%2Fmaster.m3u8%24%24lsname%3DExtra+3%27%5D
 #EXTINF:-1 tvg-id="TalkTV.uk" tvg-logo="https://media.info/i/lf/900/1650993741/7543.png" group-title="News", Talk TV
 https://newsuk-talkradiotv-brightcove.amagi.tv/playlist.m3u8
+#http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/talktv/live
 #EXTINF:-1 tvg-id="externallinearfeed-05-25-2020-174756630-05-25-2020" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc953ab6426646dbd7347b4" group-title="News", The First
 #https://redseat-thefirst-glewedtv.amagi.tv/index720p.m3u8
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
@@ -1098,6 +1099,21 @@ https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-GEOCOLOR-600x600.gif
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.wixstatic.com/media/6af838_e1c107156695415c8611e4b1d46ce0bd~mv2.png" group-title="Radar", Puerto Rico infrared
 https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-PR-13-600x600.gif
 
+#EXTINF:-1 tvg-id="ATTSportsNetPittsburgh.us" tvg-name="" tvg-logo="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/830/2017/06/02171931/attsn-logo1.png" group-title="Sports", ATT SportsNet
+http://89.187.175.143:80/3073/mpegts
+#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY North
+http://89.187.175.143:80/3113/mpegts
+#EXTINF:-1 tvg-id="BallySportsGreatLakes.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Great Lakes
+http://89.187.175.143:80/3115/mpegts
+#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast
+http://89.187.175.143:80/3069/mpegts
+#EXTINF:-1 tvg-id="BallySportsSouthwest.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southwest
+http://89.187.175.143:80/3070/mpegts
+#EXTINF:-1 tvg-id="BallySportsSoutheastTennessee.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Tennessee
+http://89.187.175.143:80/3068/mpegts
+#EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Wisconsin
+http://89.187.175.143:80/3116/mpegts
+
 #EXTINF:-1 tvg-id="I655.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
 plugin://plugin.video.tvone1112/play/601/play.pvr
 #EXTINF:-1 tvg-id="5df975e2b27cf5000921c102" tvg-name="beIN SPORTS XTRA" tvg-logo="https://images.pluto.tv/channels/5df975e2b27cf5000921c102/colorLogoPNG.png" group-title="Sports", beIN XTRA
@@ -1127,7 +1143,9 @@ plugin://plugin.video.tvone112/play/38/735/play.pvr
 #EXTINF:-1 tvg-id="I209.12444.zap2it.com" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports", ESPN 2
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/espn2/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/espn2/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I612.111871.zap2it.com" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/500px-ACC_Network_ESPN_logo.svg.png" group-title="Sports", ESPN ACC
-plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+#ACCNetwork.us
+#plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+http://89.187.175.143:80/3111/mpegts
 #EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i0.wp.com/cardinalsportszone.com/wp-content/uploads/2016/08/20160828_090514.png?ssl=1" group-title="Sports", ACC Network
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
 #EXTINF:-1 tvg-id="I677.72861.zap2it.com" tvg-name="Longhorn Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Longhorn_Network_logo.svg/1024px-Longhorn_Network_logo.svg.png" group-title="Sports", ESPN Longhorn
@@ -1393,9 +1411,8 @@ plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwww.youtube.com%2F%2Fwa
 #EXTINF:-1 tvg-id="I520.59961.zap2it.com" tvg-name="5 StarMax" tvg-logo="https://ia801004.us.archive.org/15/items/Cinemax5Starmax/cinemax%205%20starmax.png" group-title="Movies", 5 Star Max
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdNVN0YXJNYXggfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvNjNlZDQ1ZGFmNDc5NGE2MTkzODNiYTBmMTQyZWFhZDMvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="I519.59948.zap2it.com" tvg-name="ActionMax East" tvg-logo="https://ia803107.us.archive.org/34/items/ActionMax/action%20max.png" group-title="Movies", ActionMax
-plugin://plugin.video.tvone/play/468/play.pvr
-
-
+#plugin://plugin.video.tvone/play/468/play.pvr
+http://89.187.175.143:80/3012/mpegts
 #EXTINF:-1 tvg-id="I515.34933.zap2it.com" tvg-name="Cinemax East HD" tvg-logo="https://ia800603.us.archive.org/7/items/CinemaxHd/cinemax%20hd.png" group-title="Movies", Cinemax East
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/cinemax/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/cinemax/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I516.12508.zap2it.com" tvg-name="Cinemax West" tvg-logo="https://ia803104.us.archive.org/22/items/cinemax_201805/cinemax.png" group-title="Movies", Cinemax West
@@ -1403,9 +1420,8 @@ plugin://plugin.video.tvone1112/play/1983/play.pvr
 #EXTINF:-1 tvg-id="I517.10121.zap2it.com" tvg-name="MoreMax" tvg-logo="https://ia800802.us.archive.org/5/items/CinemaxMoremax/cinemax%20moremax.png" group-title="Movies", MoreMax
 plugin://plugin.video.tvone1112/play/1983/play.pvr
 #EXTINF:-1 tvg-id="I522.59954.zap2it.com" tvg-name="ThrillerMax East" tvg-logo="https://archive.org/download/thrillermax/thrillermax.png" group-title="Movies", ThrillerMax
-plugin://plugin.video.tvone/play/471/play.pvr
-
-
+#plugin://plugin.video.tvone/play/471/play.pvr
+http://89.187.175.143:80/3032/mpegts
 #EXTINF:-1 tvg-id="I558.65687.zap2it.com" tvg-name="" tvg-logo="https://ia800809.us.archive.org/15/items/stevechatfield27_gmail_Epix/epix.png" group-title="Movies", Epix
 https://edge.roku-live.top.comcast.net/out/u/epix-east.m3u8
 #EXTINF:-1 tvg-id="Epix2East.us" tvg-name="" tvg-logo="https://ia800806.us.archive.org/18/items/Epix2_201708/epix%202.png" group-title="Movies", Epix 2
@@ -1455,14 +1471,6 @@ plugin://plugin.video.tvone11/play/4/311/play.pvr
 plugin://plugin.video.tvone111/play/1347/play.pvr
 #EXTINF:-1 tvg-id="SkyCinemaSelect.uk" tvg-name="SKY Select" tvg-logo="https://store.virginmedia.com/content/dam/eSales/TV/responsive/tv-logos/tv-logo-skymovies-372x246.jpg" group-title="Movies", SKY Select
 plugin://plugin.video.tvone1112/play/172/play.pvr
-#EXTINF:-1 tvg-id="SonyMoviesUSA.us" tvg-name="Sony Movie Channel East" tvg-logo="https://static.epg.best/gb/SonyMoviesAction.uk.png" group-title="Movies", Sony Movies US
-plugin://plugin.video.tvone/play/291/play.pvr
-
-
-#EXTINF:-1 tvg-id="I386.69091.schedulesdirect.org" tvg-name="Sony Movie Channel UK" tvg-logo="https://static.epg.best/gb/SonyMoviesAction.uk.png" group-title="Movies", Sony Movies UK
-plugin://plugin.video.tvone/play/291/play.pvr
-
-
 #EXTINF:-1 tvg-id="I525.12719.zap2it.com" tvg-name="Starz East" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz East
 plugin://plugin.video.tvone1112/play1085/play.pvr
 #EXTINF:-1 tvg-id="I526.34949.zap2it.com" tvg-name="Starz West HD" tvg-logo="https://logonoid.com/images/thumbs/starz-logo.png" group-title="Movies", Starz West
@@ -1475,6 +1483,7 @@ plugin://plugin.video.tvone111/play/1263/play.pvr
 plugin://plugin.video.tvone1112/play1088/play.pvr
 #EXTINF:-1 tvg-id="I535.36225.zap2it.com" tvg-name="Encore East" tvg-logo="http://images2.wikia.nocookie.net/__cb20100919034218/logopedia/images/5/58/Starz_Edge.jpg" group-title="Movies", Starz Encore
 plugin://plugin.video.tvone1112/play/2029/play.pvr
+
 #EXTINF:-1 tvg-id="5e84f54a82f05300080e6746" tvg-name="America's Test Kitchen" tvg-logo="https://images.pluto.tv/channels/5e84f54a82f05300080e6746/colorLogoPNG.png" group-title="Food", America's Test Kitchen
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e84f54a82f05300080e6746&_l=.pvr
 #EXTINF:-1 tvg-id="5fb5844bf5514d0007945bda" tvg-name="BBC Food" tvg-logo="https://images.pluto.tv/channels/5fb5844bf5514d0007945bda/colorLogoPNG.png" group-title="Food", BBC Food
@@ -1958,14 +1967,26 @@ http://cdn.adultiptv.net/teen.m3u8
 http://cdn.adultiptv.net/threesome.m3u8
 #EXTINF:-1 tvg-id="BrazzersTV.us" tvg-name="Brazzers TV" tvg-logo="https://www.oranet.sk/img/tv_thumbs/brazzers.png" group-title="Adult TV", Brazzers
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7Cuser-agent%3Dipad%26referer%3Dhttps%3A%2F%2Fwww.eplayer.to%2F&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27Clappr.Player%5B%5C%5Cw%5C%5CW%5D%2B%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%27%2C%20%27page%27%3A%20%27https%3A//www.eplayer.to/poscitech.php%3Flive%3D196%27%2C%20%27referer%27%3A%20%27https%3A//poscitech.club/tv/ch116.php%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+#EXTINF:-1 tvg-id="BrazzersTV.us" tvg-name="Brazzers TV" tvg-logo="https://www.oranet.sk/img/tv_thumbs/brazzers.png" group-title="Adult TV", Brazzers HD
+http://213.59.128.163:8000/udp/239.255.50.195:5500
 #EXTINF:-1 tvg-id="DorcelTV.nl" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/a6/Dorcel_TV_Logo.svg/revision/latest/scale-to-width-down/250?cb=20110314011540" group-title="Adult TV", Dorcel
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7Cuser-agent%3Dipad%26referer%3Dhttps%3A%2F%2Fwww.eplayer.to%2F&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27Clappr.Player%5B%5C%5Cw%5C%5CW%5D%2B%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%27%2C%20%27page%27%3A%20%27https%3A//www.eplayer.to/poscitech.php%3Flive%3D196%27%2C%20%27referer%27%3A%20%27https%3A//poscitech.club/tv/ch116.php%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+#EXTINF:-1 tvg-id="DorcelTV.nl" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/a6/Dorcel_TV_Logo.svg/revision/latest/scale-to-width-down/250?cb=20110314011540" group-title="Adult TV", Dorcel HD
+http://77.72.22.42:8080/9064/index.m3u8
 #EXTINF:-1 tvg-id="HustlerHDUSA.us" tvg-name="Hustler TV" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/1019.png" group-title="Adult TV", Hustler TV
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7Cuser-agent%3Dipad%26referer%3Dhttps%3A%2F%2Fwww.eplayer.to%2F&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27Clappr.Player%5B%5C%5Cw%5C%5CW%5D%2B%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%27%2C%20%27page%27%3A%20%27https%3A//www.eplayer.to/poscitech.php%3Flive%3D198%27%2C%20%27referer%27%3A%20%27https%3A//poscitech.club/tv/ch116.php%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+#EXTINF:-1 tvg-id="HustlerHDUSA.us" tvg-name="Hustler TV" tvg-logo="http://content.iptvprivateserver.tv/stalker_portal/misc/logos/240/1019.png" group-title="Adult TV", Hustler HD
+http://77.72.22.42:8080/9065/index.m3u8
 #EXTINF:-1 tvg-id="MiamiTV.us" tvg-name="" tvg-logo="http://www.giniko.com/logos/190x110/95.png" group-title="Adult TV", Miami TV
 http://59ec5453559f0.streamlock.net:1935/Miamitv/smil:WEB/chuklist.m3u8
 #EXTINF:-1 tvg-id="MiamiTVJennyLive.us" tvg-name="" tvg-logo="http://www.giniko.com/logos/190x110/95.png" group-title="Adult TV", Miami TV Jenny Live
 https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
+#EXTINF:0 group-title=" tvg-logo="https://i.imgur.com/l6FAcN9.png" group-title="Adult TV", PENTHOUSE GOLD HD
+http://80.24.75.92:5555/udp/239.111.4.1:1234
+#EXTINF:0 group-title="" tvg-logo="https://i.imgur.com/D0sUDW4.png" group-title="Adult TV", PENTHOUSE QUICKIES
+http://80.24.75.92:5555/udp/239.111.4.2:1234
+#EXTINF:0 group-title="" tvg-logo="https://i.imgur.com/g9Chi7i.png" group-title="Adult TV", PLAYBOY
+http://cdn.xcore.ca:80/lXt3MaocUu/JQBEtoTQsR/119
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.logolynx.com/images/logolynx/c3/c30b8f856c94ed1afd729b5e93a657d0.png" group-title="Adult TV", Reality Kings
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7Cuser-agent%3Dipad%26referer%3Dhttps%3A%2F%2Fwww.eplayer.to%2F&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%27Clappr.Player%5B%5C%5Cw%5C%5CW%5D%2B%3F%28%3F%3Asource%7Csrc%7Cfile%29%3A%5C%5Cs%2A%5B%5C%5C%5C%27%22%5D%28%5B%5E%5C%5C%5C%27%22%5D%2B%29%27%2C%20%27page%27%3A%20%27https%3A//www.eplayer.to/poscitech.php%3Flive%3D197%27%2C%20%27referer%27%3A%20%27https%3A//poscitech.club/tv/ch116.php%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets.streamtest.in/logo/802/74_redtraffic-russian.jpg?v=1552908564" group-title="Adult TV", RedTraffic[COLOR magenta] (10 items )[/COLOR]
