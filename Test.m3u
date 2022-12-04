@@ -699,17 +699,12 @@ plugin://plugin.video.tvone11/play/4/276/play.pvr
 http://v-pi.theus6tv.duckdns.org/hls/2.2/playlist.m3u8|User-Agent==Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="GritXtra.us"tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Cable", Grit Xtra
 https://scripps-gritxtra-1-us.vizio.wurl.tv/playlist.m3u8
-#fixMe
-
-
 #EXTINF:-1 tvg-id="I312.11221.zap2it.com" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Cable", Hallmark
 plugin://plugin.video.tvone11/play/5/203/play.pvr
 #EXTINF:-1 tvg-id="I565.46710.zap2it.com" tvg-name="Hallmark Movies & Mysteries" tvg-logo="https://ia800803.us.archive.org/6/items/HallmarkMoviesMysteries_201708/hallmark%20movies%20%26%20mysteries.png" group-title="Cable", HLM
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/hallmark-movies-mysteries-live-streaming-free/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/hallmark-movies-mysteries-live-streaming-free/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
-#EXTINF:-1 tvg-id="USBB19000017U" tvg-name="Hallmark Movies & More" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/07/31/USBB19000017U_20211230T073100.png" group-title="Cable", Hallmark Movies & More
-plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB19000017U&_is_live=1&_noresume=.pvr
-#fixMe
-
+#EXTINF:-1 tvg-id="628e685ba3811100070551a8" tvg-name="Hallmark Movies & More" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/07/31/USBB19000017U_20211230T073100.png" group-title="Cable", Hallmark Movies & More
+plugin://slyguy.pluto.tv.provider/?_=play&_play=1&id=628e685ba3811100070551a8&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I564.105723.zap2it.com" tvg-name="Hallmark Drama" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Cable", Hallmark Drama
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdSGFsbG1hcmsgRHJhbWEgfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvNzk0OGQwOTYwODllNDU0MWIwNTliOWM1NTYxYzVlM2Yvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="USBB2900003O3" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Heartland_TV_logo.png" group-title="Cable", Heartland
@@ -774,11 +769,7 @@ plugin://plugin.video.tvone1112/play1963/play.pvr
 #EXTINF:-1 tvg-id="I283.66804.zap2it.com" tvg-name="Nat Geo Wild" tvg-logo="http://static.epg.best/us/NatGeoWild.us.png" group-title="Cable", Nat Geo Wild
 plugin://plugin.video.tvone11/play/4/304/play.pvr
 #EXTINF:-1 tvg-id="I606.14776.zap2it.com" tvg-name="Outdoor Channel" tvg-logo="http://i.mjh.nz/.images/tv.7outdoor.png" group-title="Cable", Outdoor Channel
-https://outdoorchannel-samsungau.amagi.tv/playlist.m3u8
-#fixMe
-
-
-#plugin://plugin.video.au.freeview/?_=play&slug=tv.7outdoor&_l=.pvr
+plugin://plugin.video.au.freeview/?_=play&_play=1&slug=mjh-7-out&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I274.69061.zap2it.com" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/d/d8/Ovation_logo_2010.svg/revision/latest/scale-to-width-down/200?cb=20101122153741" group-title="Cable", Ovation
 https://bozztv.com/teleyupp/teleup-ovation/playlist.m3u8
 #EXTINF:-1 tvg-id="I279.70387.zap2it.com" tvg-name="OWN" tvg-logo="http://direct-vs-dish.com/media/channel_logos/OWN_2011_logo.PNG.300x300_q85.png" group-title="Cable", OWN
@@ -789,16 +780,13 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #plugin://plugin.video.tvone11/play/5/1845/play.pvr
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVBBUkFNT1VOVFsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICJodHRwczovL3R2dHYudXMvdHZtL2kvaW1hZ2Uvc3RhdGlvbi8xMDB4MTAwL3BhcmFtb3VudC5wbmciLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJmZm1wZWdkaXJlY3Q6Ly9odHRwOi8vODkuMTg3LjE3NS4xNDM6ODAvMzAxNS9pbmRleC5tM3U4PyZDb25uZWN0aW9uPWtlZXAtYWxpdmUiXX0=
 #EXTINF:-1 tvg-id="ParamountNetworkEast.us" tvg-name="Paramount Network" tvg-logo="https://static.epg.best/us/ParamountNetwork.us.png" group-title="Cable", Paramount HD
-http://89.187.175.143:80/3015/mpegts
+plugin://plugin.video.tvone/play/677/play.pvr
 #EXTINF:-1 tvg-id="ParamountNetworkEast.us" tvg-name="Paramount Network" tvg-logo="https://static.epg.best/us/ParamountNetwork.us.png" group-title="Cable", Paramount Back1
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/13465
 #EXTINF:-1 tvg-id="5ff8c708653d080007361b14" tvg-name="Paramount+ Picks" tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/colorLogoPNG.png" group-title="Cable", Paramount+
 plugin://slyguy.pluto.tv.provider/?_=play&id=5ff8c708653d080007361b14&_l=.pvr
-#EXTINF:-1 tvg-id="USAJ26000054W" tvg-name="Paramount Movie Channel" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="Cable", Paramount Movie
-plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USAJ26000054W&_is_live=1&_noresume=.pvr
-#fixMe
-
-
+#EXTINF:-1 tvg-id="5cb0cae7a461406ffe3f5213" tvg-name="Paramount Movie Channel" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="Cable", Paramount Movie
+plugin://slyguy.pluto.tv.provider/?_=play&_play=1&id=5cb0cae7a461406ffe3f5213&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-09-26-2019-09-26-2019" tvg-name="People TV" tvg-logo="https://3gz8cg829c.execute-api.us-west-2.amazonaws.com/prod/image-renderer/16x9/full/600/center/90/1dc8ed79-89b1-4fac-934f-c21844fed370-large16x9_STIRR_0721_EPG_PeopleTV_1920x1080.png?1625778766954?cb=c4ca4238a0b923820dcc509a6f75849b" group-title="Cable", People TV
 plugin://slyguy.stirr.provider/?_=play&amp;_play=1&amp;id=externallinearfeed-09-26-2019-09-26-2019&amp;_is_live=1&amp;_noresume=.pvr
 #EXTINF:-1 tvg-id="I159.1172.tvguide.co.uk" tvg-name="Pick" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/c/cf/Pick2013.png" group-title="Cable", Pick
@@ -871,7 +859,8 @@ plugin://plugin.video.tvone1112/play/1373/play.pvr
 #EXTINF:-1 tvg-id="59c01b1953680139c6ae9d4d" tvg-name="Pluto TV Travel" tvg-logo="https://images.pluto.tv/channels/59c01b1953680139c6ae9d4d/colorLogoPNG.png" group-title="Cable", Travel TV
 plugin://slyguy.pluto.tv.provider/?_=play&id=59c01b1953680139c6ae9d4d&_l=.pvr
 #EXTINF:-1 tvg-id="Travelxp4KNorthAmerica.in" tvg-name="" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/60/GBAJ49000184K_20200923T100413.png" group-title="Cable", Travel XP
-plugin://slyguy.samsung.tv.plus/?_=play&id=GBAJ49000184K&_l=.pvr
+#plugin://slyguy.samsung.tv.plus/?_=play&id=GBAJ49000184K&_l=.pvr
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I246.10153.zap2it.com" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable", Tru TV
 https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="Tru TV West" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/trutv.png" group-title="Cable", Tru TV West
@@ -908,10 +897,7 @@ plugin://plugin.video.tvone11/play/5/1838/play.pvr
 #EXTINF:-1 tvg-id="5e82530945600e0007ca076c" tvg-name="All Reality by WE tv" tvg-logo="https://images.pluto.tv/channels/5e82530945600e0007ca076c/colorLogoPNG.png" group-title="Cable", WE Reality
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e82530945600e0007ca076c&_l=.pvr
 #EXTINF:-1 tvg-id="USAJ340001380" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/02/USAJ340001380_20210525T051706.png" group-title="Cable", WE Weddings
-plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ340001380&_l=.pvr
-#fixMe
-
-
+https://amc-allweddings-1-us.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I155.908.tvguide.co.uk" tvg-name="Yesterday" tvg-logo="https://pbs.twimg.com/profile_images/2458836812/NewTwitterlogo.png" group-title="Cable", Yesterday
 plugin://plugin.video.tvone1112/play/474/play.pvr
 
@@ -996,9 +982,6 @@ plugin://plugin.video.tvone1112/play1372/play.pvr
 http://nbcnews2.akamaized.net/hls/live/723426-b/NBCNewsPlaymaker24x7Linear99a3a827-ua/master.m3u8
 #EXTINF:-1 tvg-id="NBCNewsNowEvent1.us" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/NBCNewsNow.png?raw=true" group-title="News", NBCN LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=NBCN+LIVE&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-vizio.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DNews+Now%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live11%40183427%2Fmaster.m3u8%24%24lsname%3DEvent+1%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live12%40187393%2Fmaster.m3u8%24%24lsname%3DEvent+2%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live13%40187394%2Fmaster.m3u8%24%24lsname%3DEvent+3%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live14%40187395%2Fmaster.m3u8%24%24lsname%3DEvent+4%27%7C%7C+%27http%3A%2F%2Fwmaqlive-f.akamaihd.net%2Fi%2Fwmaqa1_1%4022923%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fwrclive-f.akamaihd.net%2Fi%2Fwrcb1_1%4046880%2Fmaster.m3u8%24%24lsname%3DDC%27%7C%7C+%27http%3A%2F%2Fmedia-hls-az1.wral.com%2Flivehttporigin%2F_definst_%2Fmp4%3Aencoder25-high%2Fchunklist.m3u8%24%24lsname%3DRaleigh%27%5D
-#fixMe
-
-
 #EXTINF:-1 tvg-id="NTDTVEast.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/ntd_television_logo.png" group-title="News", NTD TV
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-09-28-2021-09-28-2021" tvg-name="" tvg-logo="https://corporate.tubitv.com/wp-content/uploads/2020/10/News12BlueLogo2.png" group-title="News", News12 New York
@@ -1041,8 +1024,7 @@ https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I516.2083.tvguide.co.uk" tvg-logo="https://images.tvguide.co.uk/pa/0x80/1f44f6b5-2568-5d0b-ab57-ebef563add07.png" group-title="News", TRT World
 https://tv-trtworld.live.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/40/USBB1500001GD_20210622T090612.png" group-title="News", USA Today
-plugin://slyguy.samsung.tv.plus/?_=play&amp;_play=1&amp;id=USBB1500001GD&amp;_is_live=1&amp;_noresume=.pvr
-#fixMe
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-USA-Today.m3u8
 
 #EXTINF:-1 tvg-id="VoATVGlobal.us" tvg-logo="https://media.wnyc.org/i/800/0/c/85/1/voa_radio_global_live.JPG" group-title="News", Voice of America
 https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/VOA-TVMC06_1080/chunklist.m3u8
@@ -1141,7 +1123,7 @@ plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="I654.11095.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Florida
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14500
 #EXTINF:-1 tvg-id="BallySportsGreatLakes.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Great Lakes
-http://89.187.175.143:80/3115/mpegts
+plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="BallySportsIndiana.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Indiana
 plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="BallySportsKansasCity.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Kansas City
@@ -1165,10 +1147,9 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:
 #EXTINF:-1 tvg-id="I646.12410.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY South
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14508
 #EXTINF:-1 tvg-id="I646.12410.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast
-#BallySportsSoutheast.us
-http://89.187.175.143:80/3069/mpegts
+http://angeltv.biz:6969/darlene/darlene/14508
 #EXTINF:-1 tvg-id="I646.12410.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast Back1
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14507
+http://angeltv.biz:6969/darlene/darlene/14507
 #EXTINF:-1 tvg-id="BallySportsSoutheastGeorgia.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast Georgia
 plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="BallySportsSoutheastNorthCarolina.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southeast North Carolina
@@ -1178,20 +1159,17 @@ plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="BallySportsSoCal.us" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY SoCal
 plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="I676.10262.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southwest
-#BallySportsSouthwest.us
-http://89.187.175.143:80/3070/mpegts
+http://angeltv.biz:6969/darlene/darlene/14509
 #EXTINF:-1 tvg-id="I676.10262.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Southwest Back1
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14509
 #EXTINF:-1 tvg-id="I653.18003.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Sun
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14510
 #EXTINF:-1 tvg-id="I671.74333.zap2it.com" tvg-name=""tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Tennessee
-#BallySportsSoutheastTennessee.us
-http://89.187.175.143:80/3068/mpegts
+plugin://plugin.video.magiciptv/pvr
 #EXTINF:-1 tvg-id="BallySportsWest.us" tvg-name=""tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY West
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14511
 #EXTINF:-1 tvg-id="I669.16348.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Wisconsin
-#BallySportsWisconsin.us
-http://89.187.175.143:80/3116/mpegts
+http://superbits.tv:2095/jYNTPHGx/ayUbbFPX/120224
 #EXTINF:-1 tvg-id="I669.16348.zap2it.com" tvg-name="" tvg-logo="https://www.ballysports.com/images/image/private/t_16-9_1024/f_auto/prod/rbomyvnzrnq0s39tilzp.jpg" group-title="Sports", BALLY Wisconsin Back1
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/14512
 #EXTINF:-1 tvg-id="I655.76950.schedulesdirect.org" tvg-name="beIN Sports HD" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports", beIN Sports
@@ -1261,8 +1239,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #EXTINF:-1 tvg-id="I209.12444.zap2it.com" tvg-name="ESPN 2 US" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/espn2.png" group-title="Sports", ESPN 2 Back1
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/1248
 #EXTINF:-1 tvg-id="I612.111871.zap2it.com" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/500px-ACC_Network_ESPN_logo.svg.png" group-title="Sports", ESPN ACC
-http://89.187.175.143:80/3111/mpegts
-#plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
+plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/acc-network/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I612.111871.zap2it.com" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/500px-ACC_Network_ESPN_logo.svg.png" group-title="Sports", ESPN ACC Back1
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:6969/darlene/darlene/1200
 #EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i0.wp.com/cardinalsportszone.com/wp-content/uploads/2016/08/20160828_090514.png?ssl=1" group-title="Sports", ACC Network
@@ -1328,9 +1305,6 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5Bmakelist%5D&mode=17&rege
 #EXTINF:-1 tvg-id="USAJ3504716A" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/17/USAJ3504716A_20210525T051628.png" group-title="Sports", FTF
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=CAAJ3400004U1&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="USAJ2200023Z0" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/78/USAJ2200023Z0_20210525T051529.png" group-title="Sports", fubo Sports Network
-#plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ2200023Z0&_l=.pvr
-#fixMe
-
 https://dai2-xumo.fubo.tv/amagi_hls_data_xumo1212A-fubo/CDN/master.m3u8
 #EXTINF:-1 tvg-id="USAK3508711A" tvg-name="Fuel TV" tvg-logo="http://i.mjh.nz/.images/tv.7fueltv.png" group-title="Sports", Fuel TV[COLOR magenta] (7 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Fuel+tv&playlist=%5B%27https%3A%2F%2Ffueltv-fueltv-1.samsung.wurl.com%2Fmanifest%2Fplaylist.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https%3A%2F%2Ffueltv-fueltv-2-gb.samsung.wurl.com%2Fmanifest%2Fplaylist.m3u8%24%24lsname%3DEngland%27%7C%7C+%27https%3A%2F%2Fi.mjh.nz%2Fau%2FSydney%2Ftv.7fueltv.m3u8%24%24lsname%3DAustralia%27%7C%7C+%27https%3A%2F%2Ffueltv-fueltv-9-br.samsung.wurl.com%2Fmanifest%2Fplaylist.m3u8%24%24lsname%3DBrazil%27%7C%7C+%27https%3A%2F%2Ffueltv-fueltv-11-mx.samsung.wurl.com%2Fmanifest%2Fplaylist.m3u8%24%24lsname%3DMexico%27%7C%7C+%27http%3A%2F%2Ffueltv-fueltv-14-nl.samsung.wurl.com%2Fmanifest%2Fplaylist.m3u8%24%24lsname%3DNetherland%27%7C%7C+%27https%3A%2F%2Ffueltv-fueltv-13-se.samsung.wurl.com%2Fmanifest%2Fplaylist.m3u8%24%24lsname%3DSweden%27%5D
@@ -1506,7 +1480,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://angeltv.biz:
 #EXTINF: -1 tvg-id="Pac12Washington.us" tvg-name="" tvg-logo="https://d2z1w4aiblvrwu.cloudfront.net/brand/Iwt/Iwt_large.png" group-title="Sports", PAC-12 Washington
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdUGFjLTEyIFdhc2hpbmd0b24gfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvNTI3Mzk3ZDZiZTc5NDRhMGIzMDgyZjEzMzdkNjQ5YzIvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="I489.109784.schedulesdirect.org" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s109784_dark_360w_270h.png" group-title="Sports", Real Madrid
-plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Flive-news-manifest.tubi.video%2Flive-news-manifest%2Fcsm%2Fextlive%2Ftubiprd01%2CReal-Madrid.m3u8&mode=12
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Real-Madrid.m3u8
 #EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="SKY Sports 1" tvg-logo="http://static.epg.best/gb/SkySportsArena.uk.png" group-title="Sports", SKY Arena
 plugin://plugin.video.tvone1112/play983/play.pvr
 #EXTINF:-1 tvg-id="SkySportsBoxOffice.uk" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sky_Sports_Box_Office.png/325px-Sky_Sports_Box_Office.png" group-title="Sports", SKY BoxOffice
@@ -1528,9 +1502,7 @@ plugin://plugin.video.tvone11/play/8/580/play.pvr
 #EXTINF:-1 tvg-id="I402.1890.tvguide.co.uk" tvg-name="SKY Sports 5" tvg-logo="https://archive.org/download/SkySportsPremierLeague_201708/sky%20sports%20premier%20league.png" group-title="Sports", SKY Priemiere League
 plugin://plugin.video.tvone1112/play/96/play.pvr
 #EXTINF:-1 tvg-id="USBA300031OT" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/11/USBA300031OT_20210525T051532.png" group-title="Sports", SportsGrid
-plugin://slyguy.samsung.tv.plus/?_=play&id=USBA300031OT&_l=.pvr
-#fixMe
-
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumosportsgrid/CDN/master.m3u8
 #EXTINF:-1 tvg-id="I410.20203.schedulesdirect.org" tvg-name="" tvg-logo="http://4.bp.blogspot.com/-cgtNkdhig8E/ToT2t8TMywI/AAAAAAAACOU/i0EYFf4geUA/s320/Sportsnet+icon+2011.png" group-title="Sports", Sportsnet 360
 plugin://plugin.video.tvone1112/play/1327/play.pvr
 #EXTINF:-1 tvg-id="I406.18798.schedulesdirect.org" tvg-name="" tvg-logo="http://4.bp.blogspot.com/-cgtNkdhig8E/ToT2t8TMywI/AAAAAAAACOU/i0EYFf4geUA/s320/Sportsnet+icon+2011.png" group-title="Sports", Sportsnet East
@@ -1682,8 +1654,7 @@ plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fwww.youtube.com%2F%2Fwa
 #EXTINF:-1 tvg-id="I520.59961.zap2it.com" tvg-name="5 StarMax" tvg-logo="https://ia801004.us.archive.org/15/items/Cinemax5Starmax/cinemax%205%20starmax.png" group-title="Movies", 5 Star Max
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdNVN0YXJNYXggfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvNjNlZDQ1ZGFmNDc5NGE2MTkzODNiYTBmMTQyZWFhZDMvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="I519.59948.zap2it.com" tvg-name="ActionMax East" tvg-logo="https://ia803107.us.archive.org/34/items/ActionMax/action%20max.png" group-title="Movies", ActionMax
-#plugin://plugin.video.tvone/play/468/play.pvr
-http://89.187.175.143:80/3012/mpegts
+plugin://plugin.video.tvone/play/468/play.pvr
 #EXTINF:-1 tvg-id="I515.34933.zap2it.com" tvg-name="Cinemax East HD" tvg-logo="https://ia800603.us.archive.org/7/items/CinemaxHd/cinemax%20hd.png" group-title="Movies", Cinemax East
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/cinemax/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/cinemax/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I516.12508.zap2it.com" tvg-name="Cinemax West" tvg-logo="https://ia803104.us.archive.org/22/items/cinemax_201805/cinemax.png" group-title="Movies", Cinemax West
@@ -1691,8 +1662,7 @@ plugin://plugin.video.tvone1112/play/1983/play.pvr
 #EXTINF:-1 tvg-id="I517.10121.zap2it.com" tvg-name="MoreMax" tvg-logo="https://ia800802.us.archive.org/5/items/CinemaxMoremax/cinemax%20moremax.png" group-title="Movies", MoreMax
 plugin://plugin.video.tvone1112/play/1983/play.pvr
 #EXTINF:-1 tvg-id="I522.59954.zap2it.com" tvg-name="ThrillerMax East" tvg-logo="https://archive.org/download/thrillermax/thrillermax.png" group-title="Movies", ThrillerMax
-#plugin://plugin.video.tvone/play/471/play.pvr
-http://89.187.175.143:80/3032/mpegts
+plugin://plugin.video.tvone/play/471/play.pvr
 #EXTINF:-1 tvg-id="I558.65687.zap2it.com" tvg-name="" tvg-logo="https://ia800809.us.archive.org/15/items/stevechatfield27_gmail_Epix/epix.png" group-title="Movies", Epix
 https://edge.roku-live.top.comcast.net/out/u/epix-east.m3u8
 #EXTINF:-1 tvg-id="Epix2East.us" tvg-name="" tvg-logo="https://ia800806.us.archive.org/18/items/Epix2_201708/epix%202.png" group-title="Movies", Epix 2
@@ -1760,9 +1730,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5e84f54a82f05300080e6746&_l=.pvr
 #EXTINF:-1 tvg-id="5fb5844bf5514d0007945bda" tvg-name="BBC Food" tvg-logo="https://images.pluto.tv/channels/5fb5844bf5514d0007945bda/colorLogoPNG.png" group-title="Food", BBC Food
 plugin://slyguy.pluto.tv.provider/?_=play&id=5fb5844bf5514d0007945bda&_l=.pvr
 #EXTINF:-1 tvg-id="USAJ1700008H6" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5fb5844bf5514d0007945bda/colorLogoPNG.png" group-title="Food", Bon Appatit
-plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ1700008H6&_l=.pvr
-#fixMe
-
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbonappetit/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="I232.68065.zap2it.com" tvg-name="Cooking Channel" tvg-logo="https://ia801003.us.archive.org/3/items/CookingChannel/cooking%20channel.png" group-title="Food", Cooking Channel
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdQ29va2luZyBDaGFubmVsIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzL2JmNmU3ZjlkYmUzNzRhMjZhYTZmZmY0NDhiYzdhMGQyL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
 #EXTINF:-1 tvg-id="I231.50747.zap2it.com" tvg-name="Food Network East" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", Food Network
@@ -1774,18 +1742,11 @@ plugin://plugin.video.tvone111/play/1358/play.pvr
 #EXTINF:-1 tvg-id="5877ac8cb791f4eb4a140d81" tvg-name="Food TV" tvg-logo="https://images.pluto.tv/channels/5877ac8cb791f4eb4a140d81/colorLogoPNG.png" group-title="Food", Food TV
 plugin://slyguy.pluto.tv.provider/?_=play&id=5877ac8cb791f4eb4a140d81&_l=.pvr
 #EXTINF:-1 tvg-id="USAK3508724A" tvg-name="Gusto TV" tvg-logo="https://i.imgur.com/DZD4jTq.png" group-title="Food", Gusto TV
-https://gustotv-samsung-au.samsung.wurl.com/manifest/playlist.m3u8
-#fixMe
-
+https://gusto-localnow.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="USAJ2200009C2" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/20/USAJ2200009C2_20210525T051654.png" group-title="Food", Hungry
-plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ2200009C2&_l=.pvr
-#fixMe
-
-
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhungry/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="I235.107076.zap2it.com" tvg-logo="https://i.imgur.com/dwMUVhs.png" group-title="Food", Tastemade[COLOR magenta] (6 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Tastemade&playlist=%5B%27https%3A%2F%2Ftastemade-xumo.amagi.tv%2Fhls%2Famagi_hls_data_tastemade-tastemadefreetv16xumo%2FCDN%2Fmaster.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https%3A%2F%2Ftmint-aus-samsungau.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DAustralia%27%7C%7C+%27https%3A%2F%2Ftastemadees16intl-samsungmexico.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DMexico%27%7C%7C+%27https%3A%2F%2Ftastemade-intl-vizioca.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DInternational%27%7C%7C+%27https%3A%2F%2Ftastemade-pt16intl-samsungbrazil.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DBrazil%27%7C%7C+%27https%3A%2F%2Ftastemadeintaus-smindia.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DIndia%27%5D
-
-
 #EXTINF:-1 tvg-id="I298.21883.zap2it.com" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids", Boomerang
 plugin://plugin.video.tvone111/play/1225/play.pvr
 #EXTINF:-1 tvg-id="I296.12131.zap2it.com" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network
@@ -1853,9 +1814,8 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Beach+TV&playlist=%5B%27http
 #EXTINF:-1 tvg-id="5f7796e470510900070d4e3d" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5f7796e470510900070d4e3d/colorLogoPNG.png" group-title="24/7", Beverly Hillbillies
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f7796e470510900070d4e3d&_l=.pvr
 #EXTINF:-1 tvg-id="GBBA1500007LS" tvg-name="" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/35/DEAH3904003A_20200923T100327.png" group-title="24/7", The Boat Show
-plugin://slyguy.samsung.tv.plus/?_=play&id=DEAH3904003A&_l=.pvr
-#fixMe
-
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/14c063cc-8be5-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
+#plugin://slyguy.samsung.tv.plus/?_=play&id=DEAH3904003A&_l=.pvr
 #EXTINF:-1 tvg-id="5812bfbe4ced4f7b601b12e6" tvg-name="Buzzr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Buzzr_%28TV_Network%29_Logo.png" group-title="24/7", Buzzr
 https://buzzrota-web.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5ef396d1be50a3000722808b" tvg-name="The Carol Burnett Show" tvg-logo="https://images.pluto.tv/channels/5ef396d1be50a3000722808b/colorLogoPNG.png" group-title="24/7", Carol Burnett Show
@@ -1863,10 +1823,7 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5ef396d1be50a3000722808b&_l=.pvr
 #EXTINF:-1 tvg-id="USAJ1700002HO"  tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg" group-title="24/7", Chive TV
 https://a.jsrdn.com/broadcast/4df1bf71c1/+0000/c.m3u8
 #EXTINF:-1 tvg-id="USAJ1700002HO" tvg-logo="https://image.roku.com/channels/images/4a8ec37c110c4c7b93f3cdc3bac84dec-hd.jpg" group-title="24/7", Chive TV HD
-plugin://slyguy.samsung.tv.plus/?_=play&id=USAJ1700002HO&_l=.pvr
-#fixMe
-
-
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxchive/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="stirr-externallinearfeed-01-28-2021-210659535-01-28-2021" tvg-logo="https://image.roku.com/developer_channels/prod/9c84e0af21bfc0733a7a616a610e790d7e2ece2b7371eaebe5c7c494542f122b.png" group-title="24/7", CONtv
 https://dai.google.com/linear/hls/event/o8Smo_gsSAm26uW9Xkww_g/master.m3u8
 #https://contv-localnow.cinedigm.com/playlist.m3u8
@@ -1877,7 +1834,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5b85a7582921777994caea63&_l=.pvr
 #EXTINF:-1 tvg-id="DocumentaryChannel.ca" tvg-name="Documentary" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/docu-can.png" group-title="24/7", Documentary
 plugin://plugin.video.tvone111/play/2099/play.pvr
 #EXTINF:-1 tvg-id="externallinearfeed-05-20-2019-05-20-2019" tvg-name="Docurama" tvg-logo="https://www.mayday.is/img/showcase_docurama/dcr-branding-full.png" group-title="24/7", Docurama
-https://dai.google.com/linear/hls/event/Hx_PEMEsSzOCcZgy0Tq2YQ/master.m3u8
+#https://dai.google.com/linear/hls/event/Hx_PEMEsSzOCcZgy0Tq2YQ/master.m3u8
+https://docurama-tcl.amagi.tv/playlist.m3u8
 #https://docurama-localnow.cinedigm.com/playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="24/7", DogTV Main
 https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
@@ -1915,29 +1873,19 @@ http://30a-tv.com/darcizzle.m3u8
 plugin://slyguy.pluto.tv.provider/?_=play&id=5bb1ad55268cae539bcedb08&_l=.pvr
 #EXTINF:-1 tvg-id="USAJ34000175A" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/03/USAJ34000175A_20210323T125703.png" group-title="24/7", Preview Channel
 https://cca0faa1668740379640339007b036ec.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_ThePreviewChannel/playlist.m3u8
-#fixMe
-
 #EXTINF:-1 tvg-id="tv.redbull.tv" tvg-name="Red Bull TV" tvg-logo="https://ia803107.us.archive.org/22/items/RedBullTVLogo/Red-Bull-TV-Logo.png" group-title="24/7", Red Bull
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="USBB3200030CG" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/40/USBB3200030CG_20210909T003507.png" group-title="24/7", Rotten Tomatoes
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00491-fandango-rottentomatoes-samsungus/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
-#fixMe
-
-
 #EXTINF:-1 tvg-id="tv.snowy-mountains" tvg-logo="https://i.mjh.nz/.images/tv.snowy-mountains.png" group-title="24/7", Snowy Mountains
 https://dcunilive30-lh.akamaihd.net/i/dclive_1@535229/master.m3u8
 #https://d2xeo83q8fcni6.cloudfront.net/scheduler/scheduleMaster/193.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.pinimg.com/originals/d6/8c/dd/d68cdd473f7a56f574b7514e24fbc1ce.jpg" group-title="24/7", Squidbillies
 https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream_7.m3u8
-#EXTINF:-1 tvg-id="ESBA140000460" tvg-name="" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/89/ESBA140000460_20211208T015344.png" group-title="24/7", Surf Channel
-plugin://slyguy.samsung.tv.plus/?_=play&id=ESBA140000460&_1=.pvr
-#fixMe
-
-#EXTINF:-1 tvg-id="USBB10000058A" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/79/USBB10000058A_20210525T094606.png" group-title="24/7", Surf Now
-plugin://slyguy.samsung.tv.plus/?_=play&id=USBB10000058A&_1=.pvr
-#fixMe
-
-
+#EXTINF:-1 tvg-id="5d1ce51dbaca4afdb7abfe5f" tvg-name="" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/89/ESBA140000460_20211208T015344.png" group-title="24/7", Surf Channel
+plugin://slyguy.pluto.tv.provider/?_=play&_play=1&id=5d1ce51dbaca4afdb7abfe5f&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="mjh-7-cas08" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/79/USBB10000058A_20210525T094606.png" group-title="24/7", Surf Now
+plugin://plugin.video.au.freeview/?_=play&_play=1&slug=mjh-7-cas08&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="ITBA33000456L" tvg-name="" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/05/91/ITBA33000456L_20210908T010437.png" group-title="24/7", Surf World
 plugin://slyguy.samsung.tv.plus/?_=play&id=ITBA33000456L&_1=.pvr
 #fixMe
@@ -2049,10 +1997,9 @@ https://cmc-ono.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-193009840-12-04-2019" tvg-name="Qello" tvg-logo="https://i.imgur.com/X63rCqD.png" group-title="Music Videos", Concerts Qello
 https://dai.google.com/linear/hls/event/BakMHO8xRSmGKYeiyhsq3A/master.m3u8
 #EXTINF:-1 tvg-id="GBBB1500003NF" tvg-name="Qello" tvg-logo="https://i.imgur.com/X63rCqD.png" group-title="Music Videos", Concerts Stingray
-plugin://slyguy.samsung.tv.plus/?_=play&amp;_play=1&amp;id=GBBB1500003NF&amp;_is_live=1&amp;_noresume=.pvr
-#fixMe
-
-
+#plugin://slyguy.samsung.tv.plus/?_=play&amp;_play=1&amp;id=GBBB1500003NF&amp;_is_live=1&amp;_noresume=.pvr
+#https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_uk_stingrayqello_001.m3u8
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-vizioqelloconcerts/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-12-04-2019-193009840-12-04-2019" tvg-name="Qello" tvg-logo="https://i.imgur.com/X63rCqD.png" group-title="Music Videos", Concerts Stingray UK
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-12-04-2019-193009840-12-04-2019&_l=.pvr
 #EXTINF:-1 tvg-id="6080411af03506000759916e" tvg-name="" tvg-logo="https://images.pluto.tv/channels/6080411af03506000759916e/colorLogoPNG.png" group-title="Music Videos", Concert Pluto Live
