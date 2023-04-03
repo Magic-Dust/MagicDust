@@ -1,13 +1,16 @@
 #EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
 #EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
-http://v-ny.theus6tv.duckdns.org/hls/7.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+#http://v-ny.theus6tv.duckdns.org/hls/7.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+plugin://plugin.video.tvone/play/23/play.pvr
 #EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="CBS New York" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Broadcast", CBS
-http://v-ny.theus6tv.duckdns.org/hls/2.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+#http://v-ny.theus6tv.duckdns.org/hls/2.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+plugin://plugin.video.tvone11/play/5/164/play.pvr
 #EXTINF:-1 tvg-id="I5.1.20360.zap2it.com" tvg-name="FOX New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FOX-Channel-Germany.svg/150px-FOX-Channel-Germany.svg.png" group-title="Broadcast", FOX
-http://v-ny.theus6tv.duckdns.org/hls/5.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+#http://v-ny.theus6tv.duckdns.org/hls/5.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+plugin://plugin.video.tvone111/play/1277/play.pvr
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
-#http://v-pi.theus6tv.duckdns.org/hls/10.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-http://v-ny.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+#http://v-ny.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+plugin://plugin.video.tvone/play/160/play.pvr
 #EXTINF:-1 tvg-id="WBXXDT1.us" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
 #CWEast.us
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/the-cw-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
@@ -299,9 +302,9 @@ http://dai.google.com/linear/hls/event/rtcMlf4RTvOEkaudeany5w/master.m3u8
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTTG-Monetizer.m3u8
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Local", WNBC NEW YORK NBC
 http://v-ny.theus6tv.duckdns.org/hls/4.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+
+
 #EXTINF:-1 tvg-id="I111.21253.zap2it.com" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Local", WPIX NEW YORK
-http://v-ny.theus6tv.duckdns.org/hls/11.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="I111.21253.zap2it.com" tvg-name="" tvg-logo="https://ewscripps.brightspotcdn.com/dims4/default/eb56578/2147483647/strip/true/crop/400x139+0+0/resize/400x139!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8e%2Fe7%2F4fa2cda0476bb459bccbe3adeb02%2Fpix.png" group-title="Local", WPIX NEW YORK HD
 https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8
 #EXTINF:-1 tvg-id="WVECDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/P5PtUcR.jpg" group-title="Local", WVEC Norfolk ABC
 https://livevideo01.13newsnow.com/hls/live/2014545/newscasts/live.m3u8
@@ -320,16 +323,17 @@ http://51.161.118.146:8080/ISG03_FOX_ORLANDO_FL_WOFL/video.m3u8
 #EXTINF:-1 tvg-id="WESHDT1.us" tvg-name="" tvg-logo="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/htv_default_image/wesh/logo.png" group-title="Local", WESH Orlando NBC
 http://51.161.118.146:8080/ISG03_NBC_ORLANDO_FL_WESH/video.m3u8
 #EXTINF:-1 tvg-id="WPVIDT1.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/WPVI-TV_logos.svg/1024px-WPVI-TV_logos.svg.pn" group-title="Local", WPVI Philadelphia ABC
-http://v-pi.theus6tv.duckdns.org/hls/6.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://content.uplynk.com/channel/ext/10b98e7c615f43a98b180d51797e74aa/wpvi_24x7_news.m3u8
 #EXTINF:-1 tvg-id="WPHLDT1.us" tvg-name="" tvg-logo="" group-title="Local", KYW Philadelphia CBS 3
 http://v-pi.theus6tv.duckdns.org/hls/3.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="WPHLDT1.us" tvg-name="" tvg-logo="https://phl17.com/wp-content/uploads/sites/7/2020/08/cropped-WPHL17_App_logo.png" group-title="Local", WPHL Philadelphia 17
-http://v-pi.theus6tv.duckdns.org/hls/17.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+
+
 #EXTINF:-1 tvg-id="WTXFDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Local", WTXF Philadelphia FOX
-#https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTXF-Monetizer.m3u8
-http://v-pi.theus6tv.duckdns.org/hls/29.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-WTXF-Monetizer.m3u8
 #EXTINF:-1 tvg-id="WCAUDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/f1FiXuX.jpg" group-title="Local", WCAU Philadelphia NBC
 http://v-pi.theus6tv.duckdns.org/hls/10.1/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="KNXVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC
 https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
 #EXTINF:-1 tvg-id="KNXVDT1.us" tvg-name="" tvg-logo="https://i.imgur.com/SBiEXzP.png" group-title="Local", KNXV Phoenix ABC HD
@@ -568,8 +572,6 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
 plugin://plugin.video.tvone11/play/5/254/play.pvr
-#EXTINF:-1 tvg-id="AntennaTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Antenna_TV_logo.svg/800px-Antenna_TV_logo.svg.png" group-title="Cable", Antenna TV
-http://v-pi.theus6tv.duckdns.org/hls/17.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I115.1609.tvguide.co.uk" tvg-name="BBC ONE" tvg-logo="https://ia800102.us.archive.org/14/items/stevechatfield27_gmail_Bbc1/bbc%201.png" group-title="Cable", BBC 1
 plugin://plugin.video.tvone111/play/1301/play.pvr
 #EXTINF:-1 tvg-id="I102.1782.tvguide.co.uk" tvg-name="BBC TWO" tvg-logo="https://ia800600.us.archive.org/26/items/stevechatfield27_gmail_Bbc2/bbc%202.jpg" group-title="Cable", BBC 2
@@ -586,7 +588,8 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3
 #EXTINF:-1 tvg-id="5ca670f6593a5d78f0e85aed" tvg-name="BET Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ca670f6593a5d78f0e85aed/colorLogoPNG.png" group-title="Cable", BET Pluto
 plugin://slyguy.pluto.tv.provider/?_=play&id=5ca670f6593a5d78f0e85aed&_l=.pvr
 #EXTINF:-1 tvg-id="Bounce.us" tvg-name="Bounce" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/bounce.png" group-title="Cable", Bounce
-http://v-ny.theus6tv.duckdns.org/hls/31.2/playlist.m3u8|User-Agent==Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://c217322ca48e4d1e98ab33fe41a5ed01.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung_BounceXL/playlist.m3u8
+#http://v-ny.theus6tv.duckdns.org/hls/31.2/playlist.m3u8|User-Agent==Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name="Bravo East" tvg-logo="https://ia800807.us.archive.org/18/items/BravoHd/bravo%20hd.png" group-title="Cable", Bravo
 plugin://plugin.video.tvone11/play/5/173/play.pvr
 #EXTINF:-1 tvg-id="I571.61469.zap2it.com" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s61469_dark_360w_270h.png" group-title="Cable", C&I
@@ -594,11 +597,14 @@ plugin://plugin.video.tvone1112/play/1363/play.pvr
 #EXTINF:-1 tvg-id="I210.10091.schedulesdirect.org" tvg-name="CBC" tvg-logo="http://www.userlogos.org/files/logos/macleod.mac/cbc2.png" group-title="Cable", CBC
 plugin://plugin.video.tvone111/play/2086/play.pvr
 #EXTINF:-1 tvg-id="CBSJusticeUK.uk" tvg-name="CBS Justice" tvg-logo="https://ia800801.us.archive.org/3/items/CbsAction/cbs%20action.png" group-title="Cable", CBS Action
-plugin://plugin.video.tvone11/play/4/292/play.pvr
+http://62.131.92.221:60230/play/a04y/index.m3u8
+#plugin://plugin.video.tvone11/play/4/292/play.pvr
 #EXTINF:-1 tvg-id="I68.1518.tvguide.co.uk" tvg-name="CBS Drama" tvg-logo="https://ia800803.us.archive.org/33/items/CbsDrama_201708/cbs%20drama.png" group-title="Cable", CBS Drama
-plugin://plugin.video.tvone11/play/4/293/play.pvr
+http://62.131.92.221:60230/play/a04u/index.m3u8
+#plugin://plugin.video.tvone11/play/4/293/play.pvr
 #EXTINF:-1 tvg-id="I146.1512.tvguide.co.uk" tvg-name="CBS Reality" tvg-logo="https://ia800806.us.archive.org/12/items/CbsReality/cbs%20reality.png" group-title="Cable", CBS Reality
-plugin://plugin.video.tvone11/play/4/331/play.pvr
+http://62.131.92.221:60230/play/a051/index.m3u8
+#plugin://plugin.video.tvone11/play/4/331/play.pvr
 #EXTINF:-1 tvg-id="I104.1404.tvguide.co.uk" tvg-name="Channel 4" tvg-logo="https://ia800808.us.archive.org/35/items/Channel4_201708/channel%204.png" group-title="Cable", Channel 4
 plugin://plugin.video.tvone1112/play144/play.pvr
 #EXTINF:-1 tvg-id="I137.1684.tvguide.co.uk" tvg-name="4 Seven" tvg-logo="https://ia800804.us.archive.org/10/items/4Seven/4%20seven.png" group-title="Cable", Channel 4/7
@@ -664,21 +670,14 @@ https://cdn-katz-networks-01.vos360.video/Content/HLS/Live/channel%28courttv%29/
 https://rfdtv-jw.cdn.vustreams.com/live/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf/live.isml/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf.m3u8
 #plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXUNPV0JPWSBDSEFOTkVMWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIiIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImRpcmVjdDovL2h0dHA6Ly84OS4xODcuMTc1LjE0Mzo4MC8zMTEyL21wZWd0cyJdfQ==
 #EXTINF:-1 tvg-id="CoziTV.us" tvg-name="Cozi TV" tvg-logo="http://static.epg.best/us/CoziTV.us.png" group-title="Cable", Cozi TV HD
-http://v-ny.theus6tv.duckdns.org/hls/4.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#WNBCDT2.us
-#EXTINF:-1 tvg-id="Create.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/1920px-Create_TV_network_logo.svg.png" group-title="Cable", Create TV
-http://v-ny.theus6tv.duckdns.org/hls/21.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://2-fss-2.streamhoster.com/pl_120/201852-1297026-1/master.m3u8
+#http://v-ny.theus6tv.duckdns.org/hls/4.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I212.10108.schedulesdirect.org" tvg-name="CTV" tvg-logo="http://img2.wikia.nocookie.net/__cb20130421182722/logopedia/images/c/c4/CTV3d.png" group-title="Cable", CTV
 plugin://plugin.video.tvone11/play/17/1082/play.pvr
 #EXTINF:-1 tvg-id="5ef0fbed39ff730007383a69" tvg-name="Dabl" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="Cable", Dabl
 http://dai.google.com/linear/hls/event/oIKcyC8QThaW4F2KeB-Tdw/master.m3u8
 #EXTINF:-1 tvg-id="I111.1659.tvguide.co.uk" tvg-name="Dave" tvg-logo="https://fanart.tv/fanart/movies/11566/hdmovielogo/dave-5717db724bef8.png" group-title="Cable", Dave
 plugin://plugin.video.tvone11/play/4/278/play.pvr
-#EXTINF:-1 tvg-id="WNYWDT5.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Decades_Logo.svg/215px-Decades_Logo.svg.png" group-title="Cable", Decades
-http://v-ny.theus6tv.duckdns.org/hls/5.5/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="KKPXDT4.us" tvg-logo="https://www.defytvnet.com/wp-content/uploads/2021/06/logo-defy.png" group-title="Cable", Defy
-#DefyTV.us
-http://v-ny.theus6tv.duckdns.org/hls/31.4/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="CAAJ3400016J9" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/06/CAAJ3400016J9_20210525T053320.png" group-title="Cable", Design Network
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=CAAJ3400016J9&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="CAAJ3400016J9" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/78/GBBB200000207_20220323T071140.png" group-title="Cable", Design Network UK
@@ -732,14 +731,13 @@ plugin://plugin.video.tvone1112/play1082/play.pvr
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdRllJIHxTTHxbL0NPTE9SXVsvQ09MT1JdIiwgInRodW1ibmFpbCI6ICItIiwgInNwb3J0amV0ZXh0cmFjdG9ycyI6IFsiaHR0cDovL2NiZDQ2Yjc3LmNkbi5jbXMubW92ZXR2LmNvbS9jbXMvYXBpL2NoYW5uZWxzL2Q5YThlM2JiMjk0YTRjMDhiMjM1NWVkNzcxYjNjY2IxL3NjaGVkdWxlL25vdy9wbGF5YmFja19pbmZvLnF2dCJdfQ==
 #EXTINF:-1 tvg-id="I233.14909.zap2it.com" tvg-name="Game Show Network" tvg-logo="http://direct-vs-dish.com/media/channel_logos/GSN.png.300x300_q85.png" group-title="Cable", Game Show
 http://n1.klowdtv.net/live2/gsn_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="GetTV.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/GetTV_2016_logo.png" user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" group-title="Cable", GetTV
-http://v-px.theus6tv.duckdns.org/hls/13.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I234.17406.schedulesdirect.org" tvg-name="Global" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Old_Global_TV_Logo.svg/1080px-Old_Global_TV_Logo.svg.png" group-title="Cable", Global
 plugin://plugin.video.tvone1112/play/1975/play.pvr
 #EXTINF:-1 tvg-id="I110.2108.tvguide.co.uk" tvg-name="Gold" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Gold_2014.svg/1200px-Gold_2014.svg.png" group-title="Cable", Gold
 plugin://plugin.video.tvone11/play/4/276/play.pvr
 #EXTINF:-1 tvg-id="WXTVDT4.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Cable", Grit
-http://v-pi.theus6tv.duckdns.org/hls/2.2/playlist.m3u8|User-Agent==Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://scripps-gritxtra-1-us.vizio.wurl.tv/playlist.m3u8
+#http://v-pi.theus6tv.duckdns.org/hls/2.2/playlist.m3u8|User-Agent==Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="GritXtra.us"tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Grit_TV_Network_Logo.gif" group-title="Cable", Grit Xtra
 https://scripps-gritxtra-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I312.11221.zap2it.com" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Cable", Hallmark
@@ -751,10 +749,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&_play=1&id=628e685ba3811100070551a8&_i
 #EXTINF:-1 tvg-id="I564.105723.zap2it.com" tvg-name="Hallmark Drama" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Cable", Hallmark Drama
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdSGFsbG1hcmsgRHJhbWEgfFNMfFsvQ09MT1JdWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJodHRwOi8vY2JkNDZiNzcuY2RuLmNtcy5tb3ZldHYuY29tL2Ntcy9hcGkvY2hhbm5lbHMvNzk0OGQwOTYwODllNDU0MWIwNTliOWM1NTYxYzVlM2Yvc2NoZWR1bGUvbm93L3BsYXliYWNrX2luZm8ucXZ0Il19
 #EXTINF:-1 tvg-id="USBB2900003O3" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Heartland_TV_logo.png" group-title="Cable", Heartland
+https://bcovlive-a.akamaihd.net/1ad942d15d9643bea6d199b729e79e48/us-east-1/6183977686001/playlist.m3u8
 #plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB2900003O3&_is_live=1&_noresume=.pvr
-http://v-ny.theus6tv.duckdns.org/hls/33.6/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="WWORDT4.us" tvg-name="Heroes and Icons" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/heroesicons.png" group-title="Cable", Heroes and Icons
-http://v-ny.theus6tv.duckdns.org/hls/9.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I229.49788.zap2it.com" tvg-name="HGTV East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Cable", HGTV
 plugin://plugin.video.tvone1112/play/1367/play.pvr
 #EXTINF:-1 tvg-id="HGTVWest.us" tvg-name="HGTV West" tvg-logo="https://hookedonhouses.net/wp-content/uploads/2013/04/HGTV-Home-Garden-Television-logo-sm.png" group-title="Cable", HGTV West
@@ -772,9 +768,9 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5e82547b6b3df60007fec2b5&_l=.pvr
 #EXTINF:-1 tvg-id="InvestigationDiscoveryEast.us" tvg-name="Investigation Discovery" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/ID_Canada_Logo.png/180px-ID_Canada_Logo.png" group-title="Cable", Invest Disc
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustvgo.tv%2F%26Origin%3Dhttps%3A%2F%2Fustvgo.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustvgo.tv/investigation-discovery-live-streaming-free/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustvgo.tv/investigation-discovery-live-streaming-free/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
 #EXTINF:-1 tvg-id="I305.76894.zap2it.com" tvg-name="ION Television East" tvg-logo="https://vignette.wikia.nocookie.net/ideas/images/7/71/ION_Television_Studios_logo.png/revision/latest?cb=20190206005433" group-title="Cable", ION
-http://v-ny.theus6tv.duckdns.org/hls/31.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+plugin://plugin.video.tvone112/play/78/2292/play.pvr
 #EXTINF:-1 tvg-id="IONPlusEast.us" tvg-logo="https://vignette.wikia.nocookie.net/ideas/images/7/71/ION_Television_Studios_logo.png/revision/latest?cb=20190206005433" group-title="Cable", ION Plus
-http://v-ny.theus6tv.duckdns.org/hls/33.4/playlist.m3u8
+https://ion-plus.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="USAJ2200014K9" tvg-name="" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/68/USAJ2200014K9_20201208T081550.png" group-title="Cable", ION Plus
 https://ion-plus.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="I803.43.tvguide.co.uk" tvg-name="ITV" tvg-logo="http://static.epg.best/gb/ITV1.uk.png" group-title="Cable", ITV
@@ -791,16 +787,12 @@ plugin://plugin.video.tvone11/play/4/1800/play.pvr
 plugin://plugin.video.tvone11/play/5/215/play.pvr
 #EXTINF:-1 tvg-id="I253.18480.zap2it.com" tvg-name="Lifetime Movie Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/Lifetime_tv_logo.png" group-title="Cable", LFM
 plugin://plugin.video.tvone11/play/5/215/play.pvr
-#EXTINF:-1 tvg-id="Laff.us" tvg-name="Laff" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/bf/LAFF_(You_Know_You_Want_To).png/revision/latest?cb=20150810143650" group-title="Cable", Laff
-http://v-pi.theus6tv.duckdns.org/hls/61.5/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="I272.46762.zap2it.com" tvg-name="Logo" tvg-logo="http://images.pluto.tv/channels/5ce5a8954311f992edbe1da2/colorLogoPNG.png" group-title="Cable", Logo
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUiOiAiW0NPTE9ScmVkXVtDT0xPUmRvZGdlcmJsdWVdTG9nbyB8U0x8Wy9DT0xPUl1bL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImh0dHA6Ly9jYmQ0NmI3Ny5jZG4uY21zLm1vdmV0di5jb20vY21zL2FwaS9jaGFubmVscy9iNmQ1MjI2ZWZjMjc0MjJiODZmM2JmMGZhOGQ5MGQzYS9zY2hlZHVsZS9ub3cvcGxheWJhY2tfaW5mby5xdnQiXX0=
 #EXTINF:-1 tvg-id="I1625.52745.schedulesdirect.org" tvg-name="Love Nature" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png" group-title="Cable", Love Nature
 http://bamus-eng-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I230.67375.zap2it.com" tvg-name="MAGN" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s18544_dark_360w_270h.png" group-title="Cable", Magnolia Network
 plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJNQUdOT0xJQSAgICAgIGh0dHA6Ly9ib3NzbWVkaWEucHJvOjgyNiAgIEEiLCAic3BvcnRqZXRleHRyYWN0b3JzIjogWyJqZXRwcm94eTovL2h0dHA6Ly9ib3NzbWVkaWEucHJvOjgyNi9saXZlL0Nvb2tpZS9Db29raWUvMTQ2My5tM3U4Il0sICJ0eXBlIjogIml0ZW0ifQ==
-#EXTINF:-1 tvg-id="MeTV.us" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/me-tv-us.png" group-title="Cable", MeTV
-http://v-ny.theus6tv.duckdns.org/hls/33.1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="WWORDT1.us" tvg-name="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/9/91/My_Network_TV_Logo_2D.png/revision/latest?cb=20101024145328" group-title="Cable", MyTV
 http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Cable", MotorTrend
@@ -842,7 +834,7 @@ plugin://plugin.video.tvone1112/play/250/play.pvr
 https://bcovlive-a.akamaihd.net/c733a9aa448a4a44a10c527c6f5bf7a4/us-east-1/5245389775001/playlist.m3u8
 #plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
 #EXTINF:-1 tvg-id="WXNYLD4.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/RetroTV_logo.png" group-title="Cable", Retro TV
-http://v-pi.theus6tv.duckdns.org/hls/2.5/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://bcovlive-a.akamaihd.net/5e531be3ed6c41229b2af2d9bffba88d/us-east-1/6183977686001/playlist.m3u8
 #EXTINF:-1 tvg-id="RFDTV.us" tvg-name="RFD TV" tvg-logo="https://www.tobincenter.org/sites/default/files/organization_logo/2015-12/rfdtv_logo.png" group-title="Cable", RFD TV
 https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8
 #EXTINF:-1 tvg-id="I108.1629.tvguide.co.uk" tvg-name="SKY Atlantic" tvg-logo="https://ia800803.us.archive.org/18/items/SkyAtlantic_201708/sky%20atlantic.png" group-title="Cable", SKY Atlantic
@@ -887,8 +879,6 @@ plugin://plugin.video.tvone1112/play/271/play.pvr
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Ffilmdetective-localnow.amagi.tv%2Findex.m3u8%7Chttp-user-agent%3DMozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F92.0.4515.131+Safari%2F537.36&mode=12&iconimage=https%3A%2F%2Ff9q4g5j6.ssl.hwcdn.net%2F608c4cca0d15c505155c93a2
 #EXTINF:-1 tvg-id="ThisTV.us" tvg-logo="https://i.imgur.com/FQCVaSR.png" group-title="Cable", This TV
 https://cdn.igocast.com/channel11_hls/channel11_master.m3u8
-#EXTINF:-1 tvg-id="WTVEDT2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/85/WTVE51.png" group-title="Cable", TimelessTV
-http://v-pi.theus6tv.duckdns.org/hls/51.2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 #EXTINF:-1 tvg-id="TLCEast.us" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC
 plugin://plugin.video.tvone11/play/5/204/play.pvr
 #EXTINF:-1 tvg-id="CAAJ4000006UF" tvg-name="TMZ" tvg-logo="https://i.imgur.com/wzBD6fy.png" group-title="Cable", TMZ
@@ -909,9 +899,7 @@ https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3
 #EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="Tru TV West" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/trutv.png" group-title="Cable", Tru TV West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TrueCrimeNetwork.us" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/true-crime.png" group-title="Cable", True Crime
-http://v-pi.theus6tv.duckdns.org/hls/65.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-#EXTINF:-1 tvg-id="KKPXDT6.us" tvg-logo="https://www.truerealtv.com/wp-content/themes/truereal/inc/assets/images/logo-footer-TrueReal.png" group-title="Cable", TrueReal
-http://v-pi.theus6tv.duckdns.org/hls/61.4/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://alliantcontent-truecrimenow-3-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I304.16123.zap2it.com" tvg-name="TV Land" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tv_land_logo15.png/200px-Tv_land_logo15.png" group-title="Cable", TV Land
 plugin://plugin.video.tvone11/play/5/237/play.pvr
 #EXTINF:-1 tvg-id="5d40bebc5e3d2750a2239d7e" tvg-name="TV Land Drama" tvg-logo="https://images.pluto.tv/channels/5d40bebc5e3d2750a2239d7e/colorLogoPNG.png" group-title="Cable", TV Land Drama
@@ -996,6 +984,7 @@ https://pe-fa-lp02a.9c9media.com/live/News1Digi/p/hls/00000201/38ef78f479b07aa0/
 #https://hls.youtb.workers.dev/channel/UCknLrEdhRCp1aegoMqRaCZg.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr"" tvg-name="Euronews" tvg-logo="https://ia802804.us.archive.org/20/items/euronews_201708/euronews.png" group-title="News", Euronews
+#http://62.131.92.221:60450/play/a08m/index.m3u8
 https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
 #EXTINF:-1 tvg-id="I359.58718.zap2it.com" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
@@ -1073,7 +1062,6 @@ https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 https://tv-trtworld.live.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/40/USBB1500001GD_20210622T090612.png" group-title="News", USA Today
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-USA-Today.m3u8
-
 #EXTINF:-1 tvg-id="VoATVGlobal.us" tvg-logo="https://media.wnyc.org/i/800/0/c/85/1/voa_radio_global_live.JPG" group-title="News", Voice of America
 https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/VOA-TVMC06_1080/chunklist.m3u8
 #EXTINF:-1 tvg-id="YahooFinance.us" tvg-logo="https://i0.wp.com/thetechnologygeek.org/wp-content/uploads/2016/12/yahoo-logo.png" group-title="News", Yahoo! Finance
@@ -1085,7 +1073,7 @@ https://content.uplynk.com/channel/411ba7ca8cb6403a9e73509e49c3a77b.m3u8
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
 #https://accuweatherx-lg.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us" tvg-logo="https://1.bp.blogspot.com/-TIj7_AZ8kM4/YOw0VXC_ClI/AAAAAAAACBg/Rim7peVzaK4w9pOIbOtZuNfOMyyMh7fnACLcBGAsYHQ/s320/foxweather.png" group-title="Weather", Fox Weather
-http://v-ny.theus6tv.duckdns.org/hls/5.3/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://foxweather-xumo.amagi.tv/playlist.m3u8
 #https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Fox-Weather.m3u8
 #EXTINF:-1 tvg-id="I362.11187.zap2it.com" tvg-name="The Weather Channel" tvg-logo="http://userlogos.org/files/logos/bcm2009/weatherchannel.png" group-title="Weather", Weather Channel
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D%7CUser-Agent%3DiPad%26Referer%3Dhttps%3A%2F%2Fustv247.tv%2F%26Origin%3Dhttps%3A%2F%2Fustv247.tv&mode=17&regexs=%7B%27getUrl%27%3A%20%7B%27name%27%3A%20%27getUrl%27%2C%20%27expres%27%3A%20%22hls_src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv%24doregex%5Bstripper%5D%27%2C%20%27referer%27%3A%20%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%2C%20%27post%27%3A%20%27stream%3A%24doregex%5Bstripper%5D%27%2C%20%27cookiejar%27%3A%20%27%27%7D%2C%20%27stripper%27%3A%20%7B%27name%27%3A%20%27stripper%27%2C%20%27expres%27%3A%20%22%3Ciframe%20src%3D%27%28%5B%5E%27%5D%2B%29%22%2C%20%27page%27%3A%20%27https%3A//ustv247.tv/watch-weather-channel-live-stream/%27%2C%20%27cookiejar%27%3A%20%27%27%7D%7D
@@ -1684,7 +1672,7 @@ https://lsqvc4us-lh.akamaihd.net/i/lsqvc4us_01@802711/master.m3u8
 #EXTINF:-1 tvg-id="ShopHQ.us" tvg-name="Shop HQ" tvg-logo="https://i.imgur.com/OG8ifFe.png" group-title="Shopping", Shop HQ
 https://aos01-evine.secure.footprint.net/evine/cleanfeed/VIDEO_0_2064000.m3u8
 #EXTINF:-1 tvg-id="ShopLC.us" tvg-name="Shop LC" tvg-logo="https://fastly.4sqi.net/img/general/200x200/87388367_O3maBQFIh-37n2OK6cczEK-kQSc40PE_-G_1CVRh2HA.png" group-title="Shopping", Shop LC
-http://v-pi.theus6tv.duckdns.org/hls/4.4/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(xumo)/index.m3u8
 #EXTINF:-1 tvg-id="TheShoppingChannel.us" tvg-name="" tvg-logo="https://i.imgur.com/i3lItFB.png" group-title="Shopping", The Shopping Channel
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 
@@ -1747,9 +1735,7 @@ plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-20-2020-10-20-20
 #EXTINF:-1 tvg-id="5f7794a788d29000079d2f07" tvg-name="The Love Boat" tvg-logo="https://images.pluto.tv/channels/5f7794a788d29000079d2f07/colorLogoPNG.png" group-title="24/7", Love Boat
 plugin://slyguy.pluto.tv.provider/?_=play&id=5f7794a788d29000079d2f07&_1=.pvr
 #EXTINF:-1 tvg-id="USAJ340000677" tvg-name="Magellan" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/04/96/USAJ340000677_20210126T072617.png" group-title="24/7", Magellan
-plugin://slyguy.samsung.tv.plus/?_=play&amp;_play=1&amp;id=USAJ340000677&amp;_is_live=1&amp;_noresume=.pvr
-#fixMe
-
+https://dai.google.com/linear/hls/event/5xreV3X4T9WxeIbrwOmdMA/master.m3u8
 #EXTINF:-1 tvg-id="I352.12553.zap2it.com" tvg-name="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/nasa.png" group-title="24/7", NASA TV
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ytimg.com/vi/hSDw-eIVn-4/hqdefault.jpg" group-title="24/7", NASA Earth
@@ -2058,9 +2044,6 @@ plugin://plugin.audio.radio_de/station/19004
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://wgna.com/files/2012/07/GNA1a-revised3.png" group-title="Radio", WGNA - 107.7
 plugin://plugin.audio.radio_de/station/23601
 
-#EXTINF:-1 tvg-id="A3Bikini.us" tvg-name="A3Bikini" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/A3Network_A3Bikini.png?raw=true" group-title="Adult TV", A3Bikini
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
-https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/playlist.m3u8
 #EXTINF:-1 tvg-id="AdultIPTVnetAnal.us" tvg-logo="https://adult-tvclub.com/wp-content/uploads/2019/04/favicon.png" group-title="Adult TV", AdultIPTV.net Anal
 http://cdn.adultiptv.net/anal.m3u8
 #EXTINF:-1 tvg-id="AdultIPTVnetAsian.us" tvg-logo="https://adult-tvclub.com/wp-content/uploads/2019/04/favicon.png" group-title="Adult TV", AdultIPTV Asian
