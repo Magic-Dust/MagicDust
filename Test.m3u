@@ -524,13 +524,17 @@ plugin://plugin.video.tvone111/play/1286/play.pvr
 #EXTINF:-1 tvg-id="I244.58623.zap2it.com" tvg-name="Syfy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sci_Fi_2002.svg/320px-Sci_Fi_2002.svg.png" group-title="Cable", Syfy
 plugin://plugin.video.tvone111/play/1247/play.pvr
 #EXTINF:-1 tvg-id="I247.11867.zap2it.com" tvg-name="TBS East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable", TBS
-https://tve-live-lln.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TBSWest.us" tvg-name="TBS West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PerfectTBS.svg/200px-PerfectTBS.svg.png" group-title="Cable", TBS West
-https://tve-live-lln.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I256.12852.zap2it.com" tvg-name="TCM US" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM
-https://tve-live-lln.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="TCMWest.us" tvg-name="" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM West
-https://tve-live-lln.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="TCM Movies" tvg-name="TCM UK" tvg-logo="https://seeklogo.com/images/T/tcm-logo-3581046A26-seeklogo.com.png" group-title="Cable", TCM UK
 #TCMMovies.uk
 plugin://plugin.video.tvone11/play/4/296/play.pvr
@@ -542,9 +546,11 @@ https://cdn.igocast.com/channel11_hls/channel11_master.m3u8
 #EXTINF:-1 tvg-id="I52.11158.zap2it.com" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC
 plugin://plugin.video.tvone11/play/5/204/play.pvr
 #EXTINF:-1 tvg-id="I245.42642.zap2it.com" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable", TNT
-https://tve-live-lln.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TNTWest.us" tvg-name="" tvg-logo="https://i.imgur.com/xvL9KPI.png" group-title="Cable", TNT West
-https://tve-live-lln.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I277.11180.zap2it.com" tvg-name="Travel Channel US" tvg-logo="https://ia800804.us.archive.org/11/items/TravelChannel/travel%20channel.png" group-title="Cable", Travel Channel
 plugin://plugin.video.tvone1112/play/1373/play.pvr
 #EXTINF:-1 tvg-id="59c01b1953680139c6ae9d4d" tvg-name="Pluto TV Travel" tvg-logo="https://images.pluto.tv/channels/59c01b1953680139c6ae9d4d/colorLogoPNG.png" group-title="Cable", Travel TV
@@ -553,7 +559,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=59c01b1953680139c6ae9d4d&_l=.pvr
 #plugin://slyguy.samsung.tv.plus/?_=play&id=GBAJ49000184K&_l=.pvr
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I246.10153.zap2it.com" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Cable", Tru TV
-https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="Tru TV West" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/trutv.png" group-title="Cable", Tru TV West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I304.16123.zap2it.com" tvg-name="TV Land" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tv_land_logo15.png/200px-Tv_land_logo15.png" group-title="Cable", TV Land
@@ -624,7 +631,8 @@ plugin://plugin.video.tvone111/play/1323/play.pvr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
 #EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
+#https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I358.10146.zap2it.com" tvg-name="CNN International" tvg-logo="https://ia800802.us.archive.org/11/items/CnnHd/cnn%20hd.png" group-title="News", CNN International
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
@@ -662,13 +670,15 @@ https://live-gbnews-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2F49a91e7f-1023-430f-8d66-561055f3d0f7%2Flive.isml%2F.m3u8&mode=12
 #EXTINF:-1 tvg-id="I202.10145.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://cdn.cnn.com/cnnnext/dam/assets/170504153446-hln-logo-card-may-2017-large-169.jpg" group-title="News", Headline News
 #HLN.us
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="InfoWars.us" tvg-name="Info Wars" tvg-logo="https://archives.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars
 http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
 #EXTINF:-1 tvg-id="I356.64241.zap2it.com" tvg-name="MSNBC" tvg-logo="http://4.bp.blogspot.com/_SXhQqHh6qKk/TF-00SipWMI/AAAAAAAADwE/uvVu_Accgxk/s320/msnbc.png" group-title="News", MSNBC
 plugin://plugin.video.tvone1112/play1372/play.pvr
 #EXTINF:-1 tvg-id="NBCNewsNOW.us" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/NBCNewsNow.png?raw=true" group-title="News", NBC News Now
-http://nbcnews2.akamaized.net/hls/live/723426-b/NBCNewsPlaymaker24x7Linear99a3a827-ua/master.m3u8
+#http://nbcnews2.akamaized.net/hls/live/723426-b/NBCNewsPlaymaker24x7Linear99a3a827-ua/master.m3u8
+https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a827-ua/master.m3u8
 #EXTINF:-1 tvg-id="NBCNewsNowEvent1.us" tvg-name="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/NBCNewsNow.png?raw=true" group-title="News", NBCN LIVE[COLOR magenta] (8 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=NBCN+LIVE&playlist=%5B%27https%3A%2F%2Ffox-foxnewsnow-vizio.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DNews+Now%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live11%40183427%2Fmaster.m3u8%24%24lsname%3DEvent+1%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live12%40187393%2Fmaster.m3u8%24%24lsname%3DEvent+2%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live13%40187394%2Fmaster.m3u8%24%24lsname%3DEvent+3%27%7C%7C+%27https%3A%2F%2Fnbcnews-lh.akamaihd.net%2Fi%2Fnbc_live14%40187395%2Fmaster.m3u8%24%24lsname%3DEvent+4%27%7C%7C+%27http%3A%2F%2Fwmaqlive-f.akamaihd.net%2Fi%2Fwmaqa1_1%4022923%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fwrclive-f.akamaihd.net%2Fi%2Fwrcb1_1%4046880%2Fmaster.m3u8%24%24lsname%3DDC%27%7C%7C+%27http%3A%2F%2Fmedia-hls-az1.wral.com%2Flivehttporigin%2F_definst_%2Fmp4%3Aencoder25-high%2Fchunklist.m3u8%24%24lsname%3DRaleigh%27%5D
 #EXTINF:-1 tvg-id="externallinearfeed-09-28-2021-09-28-2021" tvg-name="" tvg-logo="https://corporate.tubitv.com/wp-content/uploads/2020/10/News12BlueLogo2.png" group-title="News", News12 New York
@@ -1146,7 +1156,8 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Tastemade&playlist=%5B%27htt
 #EXTINF:-1 tvg-id="I298.21883.zap2it.com" tvg-name="Boomerang USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/OnAir_Logo_Boomerang_HD_2015.png/320px-OnAir_Logo_Boomerang_HD_2015.png" group-title="Kids", Boomerang
 plugin://plugin.video.tvone111/play/1225/play.pvr
 #EXTINF:-1 tvg-id="I296.12131.zap2it.com" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network
-https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_2_1964000.m3u8
+#https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_2_1964000.m3u8
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023180/toonwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkWest.us" tvg-name="Cartoon Network West" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network West
 https://tve-live-lln.warnermediacdn.com/hls/live/2023180/toonwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkUK.uk" tvg-name="Cartoon Network UK" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network UK
