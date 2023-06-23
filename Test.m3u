@@ -413,6 +413,7 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAidGl0bGUi
 #EXTINF:-1 tvg-id="HeartlandEastern.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Heartland_TV_logo.png" group-title="Cable", Heartland
 #USBB2900003O3
 https://bcovlive-a.akamaihd.net/1ad942d15d9643bea6d199b729e79e48/us-east-1/6183977686001/playlist.m3u8
+#https://2-fss-2.streamhoster.com/pl_118/amlst:204972-3078008/playlist.m3u8
 #plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB2900003O3&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I229.49788.zap2it.com" tvg-name="HGTV East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Cable", HGTV
 plugin://plugin.video.tvone1112/play/1367/play.pvr
@@ -535,9 +536,6 @@ https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5
 plugin://plugin.video.tvone11/play/4/296/play.pvr
 #EXTINF:-1 tvg-id="I804.83.tvguide.co.uk" tvg-name="TG 4" tvg-logo="https://ansionnachfionn.files.wordpress.com/2012/01/tg4.jpg" group-title="Cable", TG 4
 plugin://plugin.video.tvone1112/play/271/play.pvr
-#EXTINF:-1 tvg-id="KGODT3.us" tvg-logo="https://i.imgur.com/FQCVaSR.png" group-title="Cable", This TV
-#ThisTV.us
-https://cdn.igocast.com/channel11_hls/channel11_master.m3u8
 #EXTINF:-1 tvg-id="I52.11158.zap2it.com" tvg-name="TLC" tvg-logo="http://static.epg.best/de/TLC.de.png" group-title="Cable", TLC
 plugin://plugin.video.tvone11/play/5/204/play.pvr
 #EXTINF:-1 tvg-id="I245.42642.zap2it.com" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Cable", TNT
@@ -653,7 +651,8 @@ https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/cha
 #https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="I547.119993.schedulesdirect.org" tvg-name="GB News" tvg-logo="https://yt3.googleusercontent.com/9QATDXAANCn4Z5pqMiRj54aYxsZza-nHbKGk6mmEfVfEPp5bsfwHXBzG8XIcJizrT4Ed67RY=s176-c-k-c0x00ffffff-no-rj" group-title="News", GBN
 #GBNews.uk
-https://live-gbnews-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/gbnews-live/live.m3u8
+#https://live-gbnews-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/gbnews-live/live.m3u8
+https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 #EXTINF:-1 tvg-id="I68.15993.schedulesdirect.org" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
 plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2F49a91e7f-1023-430f-8d66-561055f3d0f7%2Flive.isml%2F.m3u8&mode=12
 #EXTINF:-1 tvg-id="I202.10145.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://cdn.cnn.com/cnnnext/dam/assets/170504153446-hln-logo-card-may-2017-large-169.jpg" group-title="News", Headline News
@@ -705,7 +704,7 @@ plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs
 #EXTINF:-1 tvg-id="SkyNewsExtra1.uk" tvg-name="SKY News Extra" tvg-logo="https://i.imgur.com/Wl0iGsD.png" group-title="News", SKY News Live[COLOR magenta] (3 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Sky+News&playlist=%5B%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002689%2Fskynewsau-extra1%2Fmaster.m3u8%24%24lsname%3DExtra+1%27%7C%7C+%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002690%2Fskynewsau-extra2%2Fmaster.m3u8%24%24lsname%3DExtra+2%27%7C%7C+%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002691%2Fskynewsau-extra3%2Fmaster.m3u8%24%24lsname%3DExtra+3%27%5D
 #EXTINF:-1 tvg-id="TalkTV.uk" tvg-logo="https://media.info/i/lf/900/1650993741/7543.png" group-title="News", Talk TV
-https://newsuk-talkradiotv-brightcove.amagi.tv/playlist.m3u8
+https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/talktv-live/index.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-05-25-2020-174756630-05-25-2020" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc953ab6426646dbd7347b4" group-title="News", The First
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="https://images.tvguide.co.uk/pa/0x80/1f44f6b5-2568-5d0b-ab57-ebef563add07.png" group-title="News", TRT World
