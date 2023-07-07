@@ -1,15 +1,37 @@
 #EXTM3U x-tvg-url="https://github.com/acidjesuz/EPG/raw/master/guide.xml"
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="ABC New York" tvg-logo="http://2.bp.blogspot.com/_6kYzhJGqq2M/TGpoVXng50I/AAAAAAAAFGM/JkJMfrJH43w/s310/ABC-TV+Logo.png" group-title="Broadcast", ABC
-plugin://plugin.video.tvone/play/23/play.pvr
+#plugin://plugin.video.tvone/play/23/play.pvr
+https://webudit.cdnhks.lol/lb/premium51/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=51&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="CBS New York" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/cbs1.png" group-title="Broadcast", CBS
-plugin://plugin.video.tvone11/play/5/164/play.pvr
+#plugin://plugin.video.tvone11/play/5/164/play.pvr
+https://webudit.cdnhks.lol/lb/premium52/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=52&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTINF:-1 tvg-id="I5.1.20360.zap2it.com" tvg-name="FOX New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FOX-Channel-Germany.svg/150px-FOX-Channel-Germany.svg.png" group-title="Broadcast", FOX
-plugin://plugin.video.tvone111/play/1277/play.pvr
+#plugin://plugin.video.tvone111/play/1277/play.pvr
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://webudit.cdnhks.lol/lb/premium54/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=54&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="NBC New York" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/567px-NBC_logo.svg.png" group-title="Broadcast", NBC
-plugin://plugin.video.tvone/play/160/play.pvr
+#plugin://plugin.video.tvone/play/160/play.pvr
+https://webudit.cdnhks.lol/lb/premium53/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=53&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTINF:-1 tvg-id="I44.1.30617.zap2it.com" tvg-name="CW" tvg-logo="https://ia800801.us.archive.org/17/items/TheCwHd/the%20cw%20hd.png" group-title="Broadcast", CW
-plugin://plugin.video.tvone112/play/78/1412/play.pvr
-
+#plugin://plugin.video.tvone112/play/78/1412/play.pvr
+https://webudit.cdnhks.lol/lb/premium300/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=300&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name="" tvg-logo="https://s3.amazonaws.com/media.muckrack.com/groups/icons/wwaytv3.png" group-title="Broadcast", ABC 3.1 WWAY Wilmington
 http://192.168.1.2:5004/auto/v3.1
 #WWAYDT1.us
@@ -423,8 +445,6 @@ plugin://plugin.video.tvone11/play/16/1038/play.pvr
 plugin://slyguy.pluto.tv.provider/?_=play&id=5a4d35dfa5c02e717a234f86&_l=.pvr
 #EXTINF:-1 tvg-id="I333.14873.zap2it.com" tvg-name"IFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/IFC_2014_logo.svg/320px-IFC_2014_logo.svg.png" group-title="Cable", IFC
 https://bcovlive-a.akamaihd.net/070ffdaa203f439cacbf0d45a1ddb356/us-east-1/6240731308001/playlist.m3u8
-
-
 
 #EXTINF:-1 tvg-id="5e82547b6b3df60007fec2b5" tvg-name="Slightly Off By IFC" tvg-logo="https://images.pluto.tv/channels/5e82547b6b3df60007fec2b5/colorLogoPNG.png" group-title="Cable", IFC Slightly Off
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e82547b6b3df60007fec2b5&_l=.pvr
