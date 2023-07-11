@@ -819,11 +819,11 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Beach+TV&playlist=%5B%27http
 #EXTINF:-1 tvg-id="USBD300006A6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300006A6_20230307T222319SQUARE.png_20230307222319.png" tvg-name="Divorce Court" group-title="Reality", Divorce Court
 plugin://slyguy.samsung.tv.plus/?_=play&id=USBD300006A6&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="AKCTV.us" tvg-name="" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="Reality", DogTV Main
-https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
+https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-name="" tvg-logo="https://www.akc.org/wp-content/themes/akc/component-library/assets/img/akc_tv.png" group-title="Reality", DogTV Breeds
-https://broadcast.blivenyc.com/speed/broadcast/71/desktop-playlist.m3u8
+https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-name="AKC TV - Puppies" tvg-logo="https://th.bing.com/th/id/R.5a5460df3f33f1a9965e9b3de3e772a4?rik=1MNReo6BCupJbQ&pid=ImgRaw&r=0" group-title="Reality", DogTV Puppies
-https://broadcast.blivenyc.com/speed/broadcast/29/desktop-playlist.m3u8
+https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="CABB260002016" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20221229T010709SQUARE.png_20221229010710.png" tvg-name="Fireplace 4K" group-title="Reality", Fireplace 4K
 plugin://slyguy.samsung.tv.plus/?_=play&id=CABB260002016&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="USBB520002173" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB520002173_20230125T022253SQUARE.png_20230125022253.png" tvg-name="Ice Road Truckers" group-title="Reality", Ice Road Truckers
@@ -912,6 +912,11 @@ plugin://slyguy.pluto.tv.provider/?_=play&_play=1&id=5e9f2c05172a0f0007db4786&_i
 https://edgesport-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-10-28-2020-232939597-10-28-2020" tvg-name="ACCDN" tvg-logo="https://i0.wp.com/cardinalsportszone.com/wp-content/uploads/2016/08/20160828_090514.png?ssl=1" group-title="Sports", ACC Network
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTINF:-1 tvg-id="I612.111871.zap2it.com" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/500px-ACC_Network_ESPN_logo.svg.png" group-title="Sports", ESPN ACC
+https://webudit.cdnhks.lol/lb/premium664/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=664&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="I677.72861.zap2it.com" tvg-name="Longhorn Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Longhorn_Network_logo.svg/1024px-Longhorn_Network_logo.svg.png" group-title="Sports", ESPN Longhorn
 plugin://slyguy.stirr.provider/?_=play&id=externallinearfeed-10-28-2020-232939597-10-28-2020&_l=.pvr
 #EXTINF:-1 tvg-id="I207.16485.zap2it.com" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports", ESPN News
@@ -934,6 +939,11 @@ https://mavtv-1.sinclair.wurl.com/manifest/3000.m3u8
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=CAAJ3400020SN&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="5cb626cfcaf83414128f439c" tvg-name="MLS" tvg-logo="https://images.pluto.tv/channels/5cb626cfcaf83414128f439c/colorLogoPNG.png" group-title="Sports", MLS
 plugin://slyguy.pluto.tv.provider/?_=play&id=5cb626cfcaf83414128f439c&_l=.pvr
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTINF:-1 tvg-id="I628.10996.zap2it.com" tvg-name="New England Sports Network" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-nesn.png" group-title="Sports", NESN
+https://webudit.cdnhks.lol/lb/premium762/index.m3u8?Connection=keep-alive|Referer=https://ntuplay.xyz/premiumtv/daddylivehd.php?id=762&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="I703.65025.zap2it.com" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone
 plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fnfl-red-zone%2F&amp;page=1&title=NFL+Red+Zone&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
 #EXTINF:-1 tvg-id="I215.58570.zap2it.com" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
