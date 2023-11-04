@@ -725,8 +725,12 @@ plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB40000028E&_is_live=1&_nor
 #https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
 #EXTINF:-1 tvg-id="externallinearfeed-09-28-2021-09-28-2021" tvg-name="" tvg-logo="https://corporate.tubitv.com/wp-content/uploads/2020/10/News12BlueLogo2.png" group-title="News", News12 New York
 https://lnc-news12.tubi.video/index.m3u8
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTINF:-1 tvg-id="I349.87925.zap2it.com" tvg-name="NewsmaxTV" tvg-logo="http://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax-TV-White.png" group-title="News", Newsmax
-plugin://plugin.video.madtitansports/play_video/eyJ0aXRsZSI6ICJVU0EgfCBOZXdzTWF4ICAgICAgaHR0cDovL3N0cmVhbXN5Lm9ubGluZToyOTk5ICAgUyIsICJzcG9ydGpldGV4dHJhY3RvcnMiOiBbImpldHByb3h5Oi8vaHR0cDovL3N0cmVhbXN5Lm9ubGluZToyOTk5L2xpdmUvbXJKL2FtaWpEVVFVMGQvODY0Lm0zdTg_JkNvbm5lY3Rpb249a2VlcC1hbGl2ZXxVc2VyLUFnZW50PVR2VGltZSJdLCAidHlwZSI6ICJpdGVtIn0
+http://cord-cutter.net:8080/live/jesus1/jesus1/18939.m3u8?Connection=keep-alive
+#plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin%3A%2F%2Fplugin.video.madtitansports%2Fsearch_json%2Fhttps%3A%2F%2Fmagnetic.website%2Fjet%2FCHANNELS_GUIDE%2FNEWSMAX.json%3Fquery%3D+%26dialog%3Dtrue%28NEWSMAX+-+%5BCOLORlime%5DDIRECT%7CNEW%5B%2FCOLOR%5D%29%2A%2A%2Aplugin%3A%2F%2Fplugin.video.madtitansports%2Fsearch_json%2Fhttps%3A%2F%2Fmagnetic.website%2Fjet%2FAPP_lowres.json%3Fquery%3Dnewsmax%26dialog%3Dtrue%28NEWSMAX+-+%5BCOLORlime%5DLOW+RES+APPS%5B%2FCOLOR%5D%29
 #plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-613.php
 #EXTINF:-1 tvg-id="55b179af994403942f3061d6" tvg-name="Newsmax2" tvg-logo="https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax2-white.png" group-title="News", Newsmax2
 #https://nmxlive.akamaized.net/hls/live/529965/Live_1/index_720.m3u8
@@ -745,7 +749,9 @@ https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/oan_720p/playlist.m3u8
 #OANPlus.us
 plugin://slyguy.pluto.tv.provider/?_=play&id=5e7cf6c7b156d500078c5f44&_l=.pvr
 #EXTINF:-1 tvg-id="" tvg-name="RSBN" tvg-logo="https://www.rsbnetwork.com/wp-content/uploads/2021/12/site-logo-rrwdsfc2.png" group-title="News", RSBN
-https://live-b9exd20e.rmbl.ws/slot-29/jvqc-hwwb_720p/chunklist_DVR.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 Edg/111.0.1661.62|Referer=https://rsbnetwork.tv/|Origin=https://rsbnetwork.tv
+#https://live-b9exd20e.rmbl.ws/slot-29/jvqc-hwwb_720p/chunklist_DVR.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 Edg/111.0.1661.62|Referer=https://rsbnetwork.tv/|Origin=https://rsbnetwork.tv
+https://rumble.com/live-hls-dvr/3ov9oj/playlist.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 Edg/111.0.1661.62|Referer=https://rsbntv.maz.tv/apps/3578/139782
+
 #EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", Real America's Voice
 #https://p1media-americasvoice-1.vizio.wurl.com/manifest/playlist.m3u8
 https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
