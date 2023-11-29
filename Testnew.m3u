@@ -369,10 +369,16 @@ https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
 plugin://slyguy.pluto.tv.provider/?_=play&id=5dae084727c8af0009fe40a4&_is_live=1&_noresume=.pvr
 
 #Entertainment
+#EXTINF:-1 tvg-id="I265.10035.zap2it.com" tvg-name="A&E East" tvg-logo="http://www.hdicon.com/wp-content/uploads/2013/04/AE_2008.png" group-title="Cable", A&E Tv
+plugin://plugin.video.thetvapp/?mode=playvideo&amp;url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fae-live-stream%2F&amp;page=1&amp;title=A%26E&amp;image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
+#EXTINF:-1 tvg-id="I254.10021.zap2it.com" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Cable"", AMC
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Famc-live-stream%2F&page=1&title=AMC&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
 #EXTINF:-1 tvg-id="62f2ce24f328e00007e7f55a" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/62f2ce24f328e00007e7f55a/colorLogoPNG-1660316210137.png" group-title="Entertainment", Stories by AMC
 plugin://slyguy.pluto.tv.provider/?_=play&id=62f2ce24f328e00007e7f55a&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I287.18284.zap2it.com" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Entertainment", AHC
 plugin://plugin.video.tvone1112/play1905/play.pvr
+#EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fanimal-planet-live-stream%2F&page=1&title=Animal+Planet&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
 #EXTINF:-1 tvg-id="I153.16325.schedulesdirect.org" tvg-logo="http://direct-vs-dish.com/media/channel_logos/Classic_Arts_Showcase.png.300x300_q85.jpg" group-title="Entertainment", Classic Arts Showcase
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 #EXTINF:-1 tvg-id="I327.59440.zap2it.com" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Entertainment", CMT
@@ -491,8 +497,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5fb5844bf5514d0007945bda&_l=.pvr
 #EXTINF:-1 tvg-id="USAJ1700008H6" tvg-name="" tvg-logo="https://images.pluto.tv/channels/5fb5844bf5514d0007945bda/colorLogoPNG.png" group-title="Food", Bon Appatit
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbonappetit/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="I232.68065.zap2it.com" tvg-name="Cooking Channel" tvg-logo="https://ia801003.us.archive.org/3/items/CookingChannel/cooking%20channel.png" group-title="Food", Cooking Channel
-#plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fcooking-channel-live-stream%2F&page=1&title=Cooking+Channel&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin%3A%2F%2Fplugin.video.madtitansports%2Fsearch_json%2Fhttps%3A%2F%2Fmagnetic.website%2Fjet%2FCHANNELS_GUIDE%2FCooking_Channel.json%3Fquery%3D+%26dialog%3Dtrue%28COOKING+CHANNEL+-+%5BCOLORlime%5DDIRECT%7CNEW%5B%2FCOLOR%5D%29
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fcooking-channel-live-stream%2F&page=1&title=Cooking+Channel&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
+#plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin%3A%2F%2Fplugin.video.madtitansports%2Fsearch_json%2Fhttps%3A%2F%2Fmagnetic.website%2Fjet%2FCHANNELS_GUIDE%2FCooking_Channel.json%3Fquery%3D+%26dialog%3Dtrue%28COOKING+CHANNEL+-+%5BCOLORlime%5DDIRECT%7CNEW%5B%2FCOLOR%5D%29
 #EXTINF:-1 tvg-id="I231.50747.zap2it.com" tvg-name="Food Network East" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", The Food Network
 plugin://plugin.video.tvone1112/play132/play.pvr
 #EXTINF:-1 tvg-id="tv.320203000304" tvg-name="Food Network UA" tvg-logo="https://echo-g.livenettv.to/1/d0dbe9/food_network_aus.png" group-title="Food", The Food Network AU
@@ -1223,8 +1229,8 @@ plugin://slyguy.pluto.tv.provider/?_=play&id=5cb626cfcaf83414128f439c&_l=.pvr
 #EXTINF:-1 tvg-id="I628.10996.zap2it.com" tvg-name="New England Sports Network" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-nesn.png" group-title="Sports", NESN
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin%3A%2F%2Fplugin.video.madtitansports%2Fsearch_json%2Fhttps%3A%2F%2Fmagnetic.website%2Fjet%2FCHANNELS_GUIDE%2FNESN.json%3Fquery%3D+%26dialog%3Dtrue%28NESN+-+%5BCOLORlime%5DDIRECT%7CNEW%5B%2FCOLOR%5D%29
 #EXTINF:-1 tvg-id="I703.65025.zap2it.com" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone
-#plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fnfl-red-zone%2F&amp;page=1&title=NFL+Red+Zone&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
-plugin://plugin.video.tvone112/play/38/2375/play.pvr
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fnfl-red-zone%2F&amp;page=1&title=NFL+Red+Zone&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
+#plugin://plugin.video.tvone112/play/38/2375/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.zap2it.com" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://plugin.video.tvone112/play/38/1544/play.pvr
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://onegolftv.com/wp-content/uploads/2018/08/onegolf-HD-with-image-200px.png" group-title="Sports", One Golf
