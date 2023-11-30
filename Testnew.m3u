@@ -369,15 +369,15 @@ https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
 plugin://slyguy.pluto.tv.provider/?_=play&id=5dae084727c8af0009fe40a4&_is_live=1&_noresume=.pvr
 
 #Entertainment
-#EXTINF:-1 tvg-id="I265.10035.zap2it.com" tvg-name="A&E East" tvg-logo="http://www.hdicon.com/wp-content/uploads/2013/04/AE_2008.png" group-title="Cable", A&E Tv
-plugin://plugin.video.thetvapp/?mode=playvideo&amp;url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fae-live-stream%2F&amp;page=1&amp;title=A%26E&amp;image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
-#EXTINF:-1 tvg-id="I254.10021.zap2it.com" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Cable"", AMC
+#EXTINF:-1 tvg-id="I265.10035.zap2it.com" tvg-name="A&E East" tvg-logo="http://www.hdicon.com/wp-content/uploads/2013/04/AE_2008.png" group-title="Entertainment", A&E Tv
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fae-live-stream%2F&amp;page=1&title=A%26E&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
+#EXTINF:-1 tvg-id="I254.10021.zap2it.com" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Entertainment", AMC
 plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Famc-live-stream%2F&page=1&title=AMC&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
 #EXTINF:-1 tvg-id="62f2ce24f328e00007e7f55a" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/62f2ce24f328e00007e7f55a/colorLogoPNG-1660316210137.png" group-title="Entertainment", Stories by AMC
 plugin://slyguy.pluto.tv.provider/?_=play&id=62f2ce24f328e00007e7f55a&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I287.18284.zap2it.com" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Entertainment", AHC
 plugin://plugin.video.tvone1112/play1905/play.pvr
-#EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Cable", Animal Planet
+#EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name="Animal Planet" tvg-logo="http://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Entertainment", Animal Planet
 plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fanimal-planet-live-stream%2F&page=1&title=Animal+Planet&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
 #EXTINF:-1 tvg-id="I153.16325.schedulesdirect.org" tvg-logo="http://direct-vs-dish.com/media/channel_logos/Classic_Arts_Showcase.png.300x300_q85.jpg" group-title="Entertainment", Classic Arts Showcase
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
@@ -403,7 +403,8 @@ plugin://plugin.video.tvone1112/play1082/play.pvr
 #EXTINF:-1 tvg-id="I266.58988.zap2it.com" tvg-name="FYISD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Entertainment", FYI
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin%3A%2F%2Fplugin.video.madtitansports%2Fsearch_json%2Fhttps%3A%2F%2Fmagnetic.website%2Fjet%2FCHANNELS_GUIDE%2FFYI.json%3Fquery%3D+%26dialog%3Dtrue%28FYI+-+%5BCOLORlime%5DDIRECT%7CNEW%5B%2FCOLOR%5D%29
 #EXTINF:-1 tvg-id="I312.11221.zap2it.com" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Entertainment", Hallmark
-plugin://plugin.video.tvone112/play/78/1421/play.pvr
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fhallmark-live-stream%2F&page=1&title=Hallmark&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
+#plugin://plugin.video.tvone112/play/78/1421/play.pvr
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -778,6 +779,8 @@ https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/m
 #EXTINF:-1 tvg-id="USBA370000104" tvg-name="" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBSN LIVE [COLOR magenta]4 Items[/COLOR]
 #CBSNLiveEvent.us
 plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+LIVE&playlist=%5B%27https%3A%2F%2Fcbsn-chi.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fb2fc0d5715d54908adf07f97d2616646%2Fmaster.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Fcbsn-la.cbsnstream.cbsnews.com%2Fout%2Fv1%2F57b6c4534a164accb6b1872b501e0028%2Fmaster.m3u8%24%24lsname%3DLA%27%7C%7C+%27https%3A%2F%2Fcbsn-mia.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fac174b7938264d24ae27e56f6584bca0%2Fmaster.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https%3A%2F%2Fwww.cbsnews.com%2Fcommon%2Fvideo%2Fcbsn-ny-prod.m3u8%24%24lsname%3DNew+York%27%5D
+#EXTINF:-1 tvg-id="I355.10139.zap2it.com" tvg-name="CNBC US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="News", CNBC
+plugin://plugin.video.thetvapp/?mode=playvideo&url=https%3A%2F%2Fthetvapp.to%2Ftv%2Fcnbc-live-stream%2F&page=1&title=CNBC&image=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.video.thetvapp%2F%2Fresources%2F..%2Ficon.png
 #EXTINF:-1 tvg-id="I357.26849.zap2it.com" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC World
 plugin://plugin.video.tvone111/play/1323/play.pvr
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC Europe
