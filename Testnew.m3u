@@ -1099,9 +1099,9 @@ plugin://plugin.audio.dashradio/?action=play&video=https%3A%2F%2Fice55.securenet
 #https://playerservices.streamtheworld.com/api/livestream-redirect/WAMCFMAAC.aac
 plugin://plugin.audio.tuneinradio/?path=tune&id=s27092&name=90.3+%7C+WAMC+%28US+News%29&logo=http%3A%2F%2Fcdn-profiles.tunein.com%2Fs27092%2Fimages%2Flogoq.jpg%3Ft%3D1
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn-radiotime-logos.tunein.com/s28576d.png" group-title="Radio", WEQX 102.7
-#http://rocket.surfernetwork.com:10000/live/weqx_aac/chunklist_w1718796682.m3u8
+https://rocket.surfernetwork.com:10001/live/weqx_aac/playlist.m3u8|User-Agent=iPad
 #http://crystalout.surfernetwork.com:8001/WEQX_MP3|User-Agent=iPad
-plugin://plugin.audio.tuneinradio/?path=tune&id=s28576&name=WEQX&logo=http%3A%2F%2Fcdn-radiotime-logos.tunein.com%2Fs28576q.png
+#plugin://plugin.audio.tuneinradio/?path=tune&id=s28576&name=WEQX&logo=http%3A%2F%2Fcdn-radiotime-logos.tunein.com%2Fs28576q.png
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.radio.net/images/broadcasts/0e/36/19004/1/c175.png" group-title="Radio", WFAN 101.9 FM
 plugin://plugin.audio.radio_de/station/19004
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn-profiles.tunein.com/s39244/images/logoq.png?t=1" group-title="Radio", WMLB AM 1690
@@ -1366,23 +1366,27 @@ plugin://plugin.video.youtube/play/?video_id=eEJFbzFpbrk
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.livebeaches.com/wp-content/uploads/2018/07/breakwater-lighthouse-rockland-me-webcam-490x375-01.jpg" group-title="Web-Cams", Rockland Maine
 http://142.0.109.159/axis-cgi/mjpg/video.cgi?resolution=1280x720
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ytimg.com/vi/6Ca5dC37c9g/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZX1dZ4GeF7oF2bOXR6SXvU5n8JQ" group-title="Web-Cams", Kennebunk Maine
-plugin://plugin.video.youtube/play/?video_id=ehttps://youtu.be/6Ca5dC37c9g
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Albany Egg
+plugin://plugin.video.youtube/play/?video_id=6Ca5dC37c9g
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Albany Egg (Down)
 https://wms-prod-2.wetmet.net/live/225-05-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Albany Skyline
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Albany Skyline (Down)
 https://wms-prod-2.wetmet.net/live/225-09-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Albany Capital
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Albany Capital (Down)
 https://wms-prod-1.wetmet.net/live/153-06-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Glens Falls
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Glens Falls (Down)
 https://wms-prod-2.wetmet.net/live/225-08-01/playlist.m3u8|Referer=https://cbs6albany.com/weather/cameras/glens-falls&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Lake George
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Lake George (Down)
 https://wms-prod-2.wetmet.net/live/225-04-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Saratoga Springs
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Saratoga Springs (Down)
 https://wms-prod-2.wetmet.net/live/225-03-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Schenectady
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Schenectady (Down)
 https://wms-prod-2.wetmet.net/live/225-02-01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Troy
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.pixabay.com/photo/2017/02/24/21/51/new-york-ny-2096506_640.png" group-title="Web-Cams", Troy (Down)
 https://wms-prod-2.wetmet.net/live/225-01-01/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Web-Cams", Murrels Inlet Marsh
 https://wms-prod-1.wetmet.net/live/02-18-01/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i0.wp.com/capitalrotary.com/wp-content/uploads/2015/10/South-Carolina-Map-Outline.png" group-title="Web-Cams", Myrtle Avista
