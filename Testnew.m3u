@@ -856,6 +856,8 @@ https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=GBAJ4900020VP&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I359.58718.zap2it.com" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27%3A%20%7B%27expres%27%3A%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27%3A%20u%27getstream%27%2C%20%27page%27%3A%20u%27https%3A//www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
+#EXTINF:-1 tvg-id="I360.16374.zap2it.com" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="USBA300024TN" tvg-name="FOX News Now" tvg-logo="https://i.imgur.com/hc5a1YP.png" group-title="News", Fox News Now
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I532.60961.schedulesdirect.org" tvg-name="France 24" tvg-logo="http://static.epg.best/fr/France24English.fr.png" group-title="News", France 24
@@ -1177,7 +1179,10 @@ https://replays.robertsstream.com/racereplays/cust/gemshopping/live.m3u8
 #EXTINF:-1 tvg-id="HSN.us" tvg-name="HSN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/HSN_logo.svg/1038px-HSN_logo.svg.png" group-title="Shopping", Home Shopping Network
 plugin://plugin.video.youtube/play/?video_id=1ph8qQnjXts
 #EXTINF:-1 tvg-id="HSN2.us" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/hsn2.jpg.300x300_q85.jpg" group-title="Shopping", Home Shopping Network 2
-plugin://plugin.video.youtube/play/?video_id=q-BvtDrTnxc
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
+#plugin://plugin.video.youtube/play/?video_id=q-BvtDrTnxc
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/hsn2.jpg.300x300_q85.jpg" group-title="Shopping", HSN West
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8
 #EXTINF:-1 tvg-id="JewelryTV.us" tvg-name="" tvg-logo="https://i.imgur.com/1HJraea.png" group-title="Shopping", Jewelry Television
 https://cdn3.wowza.com/1/eUdsNEcyMmRvckor/K3pydHZw/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="JewelryTVExtra.us" tvg-logo="https://i.imgur.com/1HJraea.png" group-title="Shopping", Jewelry TV Extra
@@ -1188,12 +1193,16 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uscln/master.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2uscln/medhigh.m3u8
 #EXTINF:-1 tvg-id="QVC3.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC 3
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC Everyday Refresh
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc6us/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC Kitchen
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uscln/master.m3u8
 #EXTINF:-1 tvg-id="QVCBeauty.uk" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC Beauty
 http://live.qvcuk.simplestreamcdn.com/live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC West
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
 #EXTINF:-1 tvg-id="ShopHQ.us" tvg-name="Shop HQ" tvg-logo="https://i.imgur.com/OG8ifFe.png" group-title="Shopping", Shop HQ
-https://aos01-evine.secure.footprint.net/evine/clean/appleman.m3u8
+https://aos01-evine.secure.footprint.net/evine/cleanfeed/master.m3u8
 #EXTINF:-1 tvg-id="ShopLC.us" tvg-name="Shop LC" tvg-logo="https://fastly.4sqi.net/img/general/200x200/87388367_O3maBQFIh-37n2OK6cczEK-kQSc40PE_-G_1CVRh2HA.png" group-title="Shopping", Shop LC
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(xumo)/index.m3u8
 #https://dai.google.com/linear/hls/event/9WYzyYxrRvafiVxUGKV2OA/master.m3u8
