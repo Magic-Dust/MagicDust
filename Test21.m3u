@@ -89,6 +89,8 @@ plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAiZ3JvdXAi
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAiZ3JvdXAiOiAiVVNBOi0tLS0tfE5CQ3wiLCAidGl0bGUiOiAiW0NPTE9ScmVkXVVTNjExOk5CQyA2IChXRUNUKSBXSUxNSU5HVE9OWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAibGluayI6ICJodHRwOi8vbXVrYTAzLndhbmljZWxpZmUuY29tOjg4ODAvM2NhMDYxNTNuMDMvZnIzcjIzMzIzMi8yOTU3OSJ9
 
 #Classic TV
+#EXTINF:-1 tvg-id="MeTV.us" tvg-name="" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Classic TV", METV USA
+plugin://plugin.video.daddylive/?mode=play&url=https%3A%2F%2Fdaddylivehd.com%2F%2Fstream%2Fstream-662.php
 
 #Crime
 
@@ -148,8 +150,6 @@ plugin://plugin.video.tvone112/play/78/1423/play.pvr
 https://webhdrus.onlinehdhls.ru/lb/premium326/index.m3u8|Referer=https://weblivehdplay.ru/premiumtv/daddylivehd.php?id=326&Origin=https://weblivehdplay.ru/premiumtv/daddylivehd.php?id=326&Keep-Alive=true&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="I230.67375.zap2it.com" tvg-name="MAGN" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s18544_dark_360w_270h.png" group-title="Entertainment", Magnolia Network
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-299.php
-#EXTINF:-1 tvg-id="MeTV.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/me-tv-us.png" group-title="Entertainment", METV USA
-plugin://plugin.video.daddylive/?mode=play&url=https%3A%2F%2Fdaddylivehd.com%2F%2Fstream%2Fstream-662.php
 #EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Entertainment", MotorTrend
 plugin://plugin.video.tvone112/play/78/2162/play.pvr
 #EXTINF:-1 tvg-id="I283.66804.zap2it.com" tvg-name="Nat Geo Wild" tvg-logo="http://static.epg.best/us/NatGeoWild.us.png" group-title="Entertainment", Nat Geo Wild
@@ -157,7 +157,7 @@ plugin://plugin.video.tvone11/play/4/304/play.pvr
 #EXTINF:-1 tvg-id="I238.52199.zap2it.com" tvg-name="Reelz Channel HD" tvg-logo="https://www.directv.com/rwd/ent/networks/logos/logo_lg__Reelz.png" group-title="Entertainment", Reelz
 https://bcovlive-a.akamaihd.net/c733a9aa448a4a44a10c527c6f5bf7a4/us-east-1/5245389775001/playlist.m3u8
 #plugin://plugin.video.live.streamspro/?url=https%3A%2F%2Fdai2.xumo.com%2Fxumocdn%2Fp%3Dredbox%26deviceid%3D%26is_lat%3D%26subp%3DRedboxdesktopWebLinux%2Famagi_hls_data_xumo1212A-redboxreelzchannel%2FCDN%2Fplaylist.m3u8&mode=12
-#EXTINF:-1 tvg-id="RFDTV.us" tvg-name="RFD TV" tvg-logo="https://www.tobincenter.org/sites/default/files/organization_logo/2015-12/rfdtv_logo.png" group-title="Entertainment", RFD TV
+#EXTINF:-1 tvg-id="I603.10188.zap2it.com" tvg-name="RFD TV" tvg-logo="https://www.tobincenter.org/sites/default/files/organization_logo/2015-12/rfdtv_logo.png" group-title="Entertainment", RFD TV
 https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8
 #EXTINF:-1 tvg-id="I239.16108.zap2it.com" tvg-name="Sundance TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Sundance_Channel_Logo.png" group-title="Entertainment", Sundance
 plugin://plugin.video.tvone111/play/1286/play.pvr
@@ -727,9 +727,9 @@ http://169.47.9.197:1935/live/dw.stream/playlist.m3u8
 http://169.47.9.197:1935/live/wb.stream/playlist.m3u8
 
 #24/7
-#EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East" group-title="24/7", Adult Swim East
+#EXTINF:-1 tvg-id="I659.16496.schedulesdirect.org" tvg-name="Adult Swim East" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="24/7", Adult Swim East
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="AdultSwimWest.us" tvg-name="Adult Swim West" group-title="24/7", Adult Swim West
+#EXTINF:-1 tvg-id="AdultSwimWest.us" tvg-name="Adult Swim West" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="24/7", Adult Swim West
 https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="BeachTVPawleysIsland.us" tvg-name="" tvg-logo="https://i.imgur.com/tHopHL9.png" group-title="24/7", Beach TV [COLOR magenta] (5 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Beach+TV&playlist=%5B%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FDTVHD%2Fplaylist.m3u8%24%24lsname%3DFlorida+-+Alabama%27%7C%7C+%27https%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FKTVHD%2Fplaylist.m3u8%24%24lsname%3DKey+West%27%7C%7C+%27https%3A%2F%2F5ed325193d4e1.streamlock.net%3A444%2FLiveTV%2FMTVHD%2Fplaylist.m3u8%24%24lsname%3DMyrtle+Beach%27%7C%7C+%27http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FBTVHD%2Fplaylist.m3u8%24%24lsname%3DPanama+City%27%7C%7C+%22http%3A%2F%2Fmedia4.tripsmarter.com%3A1935%2FLiveTV%2FMTVHD%2Fplaylist.m3u8%24%24lsname%3DPawley%27s+Island%22%5D
@@ -737,7 +737,7 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Beach+TV&playlist=%5B%27http
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-name="" tvg-logo="https://www.akc.org/wp-content/themes/akc/component-library/assets/img/akc_tv.png" group-title="24/7", DogTV Breeds
 https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
-#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-name="AKC TV - Puppies" tvg-logo="https://th.bing.com/th/id/R.5a5460df3f33f1a9965e9b3de3e772a4?rik=1MNReo6BCupJbQ&pid=ImgRaw&r=0" group-title="24/7", DogTV Puppies
+#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-name="AKC TV - Puppies" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="24/7", DogTV Puppies
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="30ADarcizzleOffshore.us" tvg-name="" tvg-logo="https://i.imgur.com/l2O0fY1.png" group-title="24/7", Offshore Fishing
 http://30a-tv.com/darcizzle.m3u8
