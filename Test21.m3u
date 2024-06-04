@@ -16,6 +16,8 @@ plugin://plugin.video.tvone/play/87/play.pvr
 #Classic TV
 #EXTINF:-1 tvg-id="Cozi(WNBC-DT2).us2" tvg-name="Cozi" tvg-logo="https://www.cozitv.com/wp-content/themes/cozi/static/images/cozilogo.png" group-title="Classic TV", Cozi
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/newchannels.json%3Fquery%3Dcozi%26dialog%3Dtrue%28Cozi+%28WNBC-DT2%29+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
+#EXTINF:-1 tvg-id="" tvg-name="Grit" tvg-logo="https://www.grittv.com/static/media/grit-logo.d95f9d5baad19e7f7c0d.png" group-title="Classic TV", Grit
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-752.php
 #EXTINF:-1 tvg-id="MeTV.us" tvg-name="METV" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Classic TV", METV USA
 plugin://plugin.video.the-loop/eplayer/play?url=epg/662
 
@@ -42,8 +44,8 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/304
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-369.php
 #EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name="Bravo East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10057/s10057_ll_h15_ab.png" group-title="Entertainment", Bravo TV
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-324.php
-#EXTINF:-1 tvg-id="I253.10136.zap2it.com" tvg-name="CityTV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10136/s10125_ll_h15_ab.png" group-title="Entertainment", Citytv
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-831.php
+#EXTINF:-1 tvg-id="I210.10091.zap2it.com" tvg-name="CBC" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10091/s10084_ll_h15_ab.png" group-title="Entertainment", CBC
+plugin://plugin.video.tvone/play/613/play.pvr
 #EXTINF:-1 tvg-id="I153.16325.schedulesdirect.org" tvg-logo="http://direct-vs-dish.com/media/channel_logos/Classic_Arts_Showcase.png.300x300_q85.jpg" group-title="Entertainment", Classic Arts Showcase
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 #EXTINF:-1 tvg-id="I327.59440.zap2it.com" tvg-name="CMT" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/cmtcanada.png" group-title="Entertainment", CMT
@@ -52,6 +54,10 @@ plugin://plugin.video.tvone112/play/78/2157/play.pvr
 plugin://plugin.video.the-loop/eplayer/play?url=epg/310
 #EXTINF:-1 tvg-id="I603.10188.zap2it.com" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s10188_dark_360w_270h.png" group-title="Entertainment", Cowboy Channel
 https://rfdtv-jw.cdn.vustreams.com/live/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf/live.isml/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf.m3u8
+#EXTINF:-1 tvg-id="I212.10108.zap2it.com" tvg-name="CTV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10108/s10108_ll_h15_ab.png" group-title="Entertainment", CTV
+plugin://plugin.video.tvone111/play/2091/play.pvr
+#EXTINF:-1 tvg-id="I209.10116.zap2it.com" tvg-name="CTV 2" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10116/s10135_ll_h15_ab.png" group-title="Entertainment", CTV 2
+plugin://plugin.video.tvone1112/play/1977/play.pvr
 #EXTINF:-1 tvg-id="I286.16617.zap2it.com" tvg-name="Destination America HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/55/Destination_America_Logo_2012.png" group-title="Entertainment", Dest America
 plugin://plugin.video.tvone112/play/78/2156/play.pvr
 #EXTINF:-1 tvg-id="I278.11150.zap2it.com" tvg-name="Discovery Channel" tvg-logo="http://img1.wikia.nocookie.net/__cb20091118145134/logopedia/images/thumb/6/69/Discovery_Channel_1995.png/250px-Discovery_Channel_1995.png" group-title="Entertainment", Discovery HD
@@ -168,8 +174,6 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium354/index.m3u8&Title=Channel 4 UK&Icon=https://www.thesportsdb.com/images/media/tvlogo/xuwwut1480458246.png
 #EXTINF:-1 tvg-id="I267.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/uxputq1467822824.png" group-title="UK Entertainment", Channel 5 UK
 plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium355/index.m3u8&Title=Channel 5 UK&Icon=https://www.thesportsdb.com/images/media/tvlogo/uxputq1467822824.png
-#EXTINF:-1 tvg-id="I214.10125.zap2it.com" tvg-name="CityTV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10125/s10125_ll_h15_ab.png" group-title="UK Entertainment", City TV
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-673.php
 #EXTINF:-1 tvg-id="I342.73129.schedulesdirect.org" tvg-name="Dave" tvg-logo="https://i.imgur.com/FgR03oA.png" group-title="UK Entertainment", Dave Channel
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Dave.json%3Fquery%3D+%26dialog%3Dtrue%28Dave-%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29%2A%2A%2Aplugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/APP_lowres.json%3Fquery%3Ddave%26dialog%3Dtrue%28Dave-%5BCOLORlime%5DLOW+RES+APPS%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I381.110785.schedulesdirect.org" tvg-name="Discovery UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="UK Entertainment", Discovery UK
@@ -554,14 +558,14 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Great_Lakes.json%3Fquery%3D+%26dialog%3Dtrue%28Bally+Sports+Great+Lakes+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsIndiana.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports Indiana US
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Indiana.json%3Fquery%3D+%26dialog%3Dtrue%28Bally+Sports+Indiana+US+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
-#EXTINF:-1 tvg-id="BallySportsMidwest.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports Midwest US
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Midwest.json%3Fquery%3D+%26dialog%3Dtrue%28Bally+Sports+Midwest+US+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsKansasCity.us" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports Kansas US
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Kansas.json%3Fquery%3D+%26dialog%3Dtrue%28Bally+Sports+Kansas+US+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
-#EXTINF:-1 tvg-id="BallySportsNorth.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports NORTH
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_NORTH.json%3Fquery%3D+%26dialog%3Dtrue%28sports+NORTH+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
+#EXTINF:-1 tvg-id="BallySportsMidwest.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports Midwest US
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Midwest.json%3Fquery%3D+%26dialog%3Dtrue%28Bally+Sports+Midwest+US+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsNewOrleans.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports New Orleans
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_New_Orleans.json%3Fquery%3D+%26dialog%3Dtrue%28sports+NEW+ORLEANS+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
+#EXTINF:-1 tvg-id="BallySportsNorth.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports NORTH
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_NORTH.json%3Fquery%3D+%26dialog%3Dtrue%28sports+NORTH+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsOhio.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports OHIO
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_OHIO.json%3Fquery%3D+%26dialog%3Dtrue%28sports+OHIO+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsOklahoma.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports OKLAHOMA
@@ -580,10 +584,10 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_SUN.json%3Fquery%3D+%26dialog%3Dtrue%28sports+SUN+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsTennessee.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports TENNESSE
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_TENNESSE.json%3Fquery%3D+%26dialog%3Dtrue%28sports+TENNESSE+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
-#EXTINF:-1 tvg-id="BallySportsWisconsin.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports Wisconsin
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Wisconsin.json%3Fquery%3D+%26dialog%3Dtrue%28sports+Wisconsin+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="BallySportsWest.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports WEST
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_WEST.json%3Fquery%3D+%26dialog%3Dtrue%28sports+WEST+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
+#EXTINF:-1 tvg-id="BallySportsWisconsin.us2" tvg-logo="https://play-lh.googleusercontent.com/PHBX1vx-6mKiQlYO3jlRtSI5dbyCbpIKcR4M8OlTsB11WhBUZYud4mbcIBF3bmZQbGRp=w480-h960-rw" group-title="Sports", Bally Sports Wisconsin
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Bally_Sports_Wisconsin.json%3Fquery%3D+%26dialog%3Dtrue%28sports+Wisconsin+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports US" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/76950/s76950_ll_h15_ab.png" group-title="Sports", Bein Sports USA
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-317.php
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports 1" tvg-logo="https://i.imgur.com/4VxNbjS.png" group-title="Sports", Bein Sports 1
@@ -638,6 +642,8 @@ http://4.26.188.2:8081/udp/239.193.10.101:23901
 http://4.26.188.2:8081/udp/239.193.10.102:23902
 #EXTINF:-1 tvg-id="I342.14899.schedulesdirect.org" tvg-name="Golf Channel" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="Sports", Golf Channel
 plugin://plugin.video.the-loop/eplayer/play?url=epg/318
+#EXTINF:-1 tvg-id="I1113.87579.schedulesdirect.org" tvg-name="SuperSport Golf" tvg-logo="https://images.supersport.com/media/u40dtm0w/supersport-logo.png" group-title="Sports", Golf SuperSport
+plugin://plugin.video.the-loop/eplayer/play?url=epg/422
 #EXTINF:-1 tvg-id="I640.46817.zap2it.com" tvg-name="MASN" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/46817/s46817_ll_h9_aa.png" group-title="Sports", MASN USA
 plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-829.php
 #EXTINF:-1 tvg-id="I214.61036.zap2it.com" tvg-name="MAV tv" tvg-logo="https://assets.lucasoil.com/logos/mavtv_motorsports_network_dark.png" group-title="Sports", MAV tv
@@ -686,7 +692,6 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 https://lnc-real-madrid.tubi.video/playlist.m3u8
 #EXTINF:-1 tvg-id="I611.89535.zap2it.com" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/89535/s89535_ll_h15_aa.png" group-title="Sports", SEC Network USA
 plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-385.php
-
 #EXTINF:-1 tvg-id="I1095.19038.schedulesdirect.org" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/kf0oba1502554875.png" group-title="Sports", Sky Sports Action UK
 plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-37.php
 #EXTINF:-1 tvg-id="I1099.104322.schedulesdirect.org" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/kdr04z1502554338.png" group-title="Sports", Sky Sport Arena UK
