@@ -14,12 +14,16 @@ plugin://plugin.video.tvone/play/160/play.pvr
 plugin://plugin.video.tvone/play/87/play.pvr
 
 #Classic TV
-#EXTINF:-1 tvg-id="Cozi(WNBC-DT2).us2" tvg-name="Cozi" tvg-logo="https://www.cozitv.com/wp-content/themes/cozi/static/images/cozilogo.png" group-title="Classic TV", Cozi
+#EXTINF:-1 tvg-id="I22.5.88931.zap2it.com" tvg-name="Comet TV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/88931/s82462_ll_h9_aa.png" group-title="Classic TV", Comet TV
+https://usgeowall.sinclairstoryline.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+#EXTINF:-1 tvg-id="I341.45805.zap2it.com" tvg-name="Cozi" tvg-logo="https://www.cozitv.com/wp-content/themes/cozi/static/images/cozilogo.png" group-title="Classic TV", Cozi
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/newchannels.json%3Fquery%3Dcozi%26dialog%3Dtrue%28Cozi+%28WNBC-DT2%29+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="" tvg-name="Grit" tvg-logo="https://www.grittv.com/static/media/grit-logo.d95f9d5baad19e7f7c0d.png" group-title="Classic TV", Grit
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-752.php
 #EXTINF:-1 tvg-id="MeTV.us" tvg-name="METV" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Classic TV", METV USA
 plugin://plugin.video.the-loop/eplayer/play?url=epg/662
+#EXTINF:-1 tvg-id="I73.16123.zap2it.com" tvg-name="TVLAND" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/16123/s16123_ll_h15_aa.png" group-title="Classic TV", TVLAND
+plugin://plugin.video.the-loop/eplayer/play?url=epg/342
 
 #Crime
 #EXTINF:-1 tvg-id="I571.61469.zap2it.com" tvg-name="CRIME AND INVESTIGATION" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Crime", C&I
@@ -53,7 +57,8 @@ plugin://plugin.video.tvone112/play/78/2157/play.pvr
 #EXTINF:-1 tvg-id="I249.62420.zap2it.com" tvg-name="Comedy Central East" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Comedy_Central_UK.svg/861px-Comedy_Central_UK.svg.png" group-title="Entertainment", Comedy Central
 plugin://plugin.video.the-loop/eplayer/play?url=epg/310
 #EXTINF:-1 tvg-id="I603.10188.zap2it.com" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s10188_dark_360w_270h.png" group-title="Entertainment", Cowboy Channel
-https://rfdtv-jw.cdn.vustreams.com/live/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf/live.isml/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf.m3u8
+#https://rfdtv-jw.cdn.vustreams.com/live/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf/live.isml/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf.m3u8
+https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8
 #EXTINF:-1 tvg-id="I212.10108.zap2it.com" tvg-name="CTV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10108/s10108_ll_h15_ab.png" group-title="Entertainment", CTV
 plugin://plugin.video.tvone111/play/2091/play.pvr
 #EXTINF:-1 tvg-id="I209.10116.zap2it.com" tvg-name="CTV 2" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10116/s10135_ll_h15_ab.png" group-title="Entertainment", CTV 2
@@ -111,7 +116,8 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/334
 #EXTINF:-1 tvg-id="I238.52199.zap2it.com" tvg-name="Reelz Channel HD" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/52199/s52199_ll_h9_ac.png" group-title="Entertainment", Reelz
 https://bcovlive-a.akamaihd.net/c733a9aa448a4a44a10c527c6f5bf7a4/us-east-1/5245389775001/playlist.m3u8
 #EXTINF:-1 tvg-id="I603.10188.zap2it.com" tvg-name="RFD TV" tvg-logo="https://rfdtv.brightspotgocdn.com/dims4/default/ecbe5e1/2147483647/strip/true/crop/684x164+0+0/resize/800x192!/format/webp/quality/90/?url=https://brightspot-go-k1-rfdtv.s3.us-east-1.amazonaws.com/brightspot/fe/55/1edd358541bb9a6a11b09f302caf/rfdtv-notag-684x164-copy.png" group-title="Entertainment", RFD TV
-https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8
+#https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8
+https://rfdtv-jw.cdn.vustreams.com/live/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf/live.isml/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf.m3u8
 #EXTINF:-1 tvg-id="I570.58532.zap2it.com" tvg-name="Smithsonian Channel" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/58532/s58532_ll_h15_aa.png" group-title="Entertainment", Smithsonian Channel
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Science_Channel.json%3Fquery%3D+%26dialog%3Dtrue%28SCIENCE+CHANNEL+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I239.16108.zap2it.com" tvg-name="Sundance TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Sundance_Channel_Logo.png" group-title="Entertainment", Sundance
@@ -203,7 +209,7 @@ plugin://plugin.video.tvone/play/679/play.pvr
 plugin://plugin.video.tvone/play/500/play.pvr
 #EXTINF:-1 tvg-id="I151.48021.schedulesdirect.org" tvg-name="Pick" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48021_dark_360w_270h.png" group-title="UK Entertainment", Pick
 plugin://plugin.video.tvone/play/650/play.pvr
-#EXTINF:-1 tvg-id="I149.102471.schedulesdirect.org" tvg-name="Quest" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102471_dark_360w_270h.png" group-title="UK Entertainment", Quest
+#EXTINF:-1 tvg-id="I935.62391.schedulesdirect.org" tvg-name="Quest" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62391_dark_360w_270h.png" group-title="UK Entertainment", Quest
 plugin://plugin.video.tvone111/play/1364/play.pvr
 #EXTINF:-1 tvg-id="I989.25554.schedulesdirect.org" tvg-name="RTE 1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25554_dark_360w_270h.png" group-title="UK Entertainment", RTE 1
 plugin://plugin.video.the-loop/eplayer/play?url=epg/364
@@ -267,7 +273,11 @@ https://playoutengine.sinclairstoryline.com/playout/c16448cc-ef21-44a5-a5b4-192f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://mdhorsemen.com/images/MARYLAND_RACING_COMMISSION.png" group-title="Horse Racing", Maryland Racing
 https://api.new.livestream.com/accounts/9869799/events/6761374/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://integratedstaffingcorp.com/wp-content/uploads/2018/01/NYRA-238x300.png"  group-title="Horse Racing", NYRA HD
-plugin://plugin.video.live.streamspro/?url=https://www.youtube.com//watch%3Fv%3D%24doregex%5BgetUrl%5D%26mode%3D19&mode=17&regexs=%7B%27getUrl%27:%20%7B%27name%27:%20%27getUrl%27%2C%20%27expres%27:%20%22%24pyFunction:%20%27%24doregex%5Bfeatured%5D%27%22%2C%20%27page%27:%20None%2C%20%27cookiejar%27:%20%27%27%7D%2C%20%27featured%27:%20%7B%27name%27:%20%27featured%27%2C%20%27expres%27:%20%27channelFeaturedContentRenderer%22:.%2A%3FvideoId%22:%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27:%20%27https://www.youtube.com/c/thenyra/featured%27%2C%20%27cookiejar%27:%20%27%27%7D%7D&iconimage=http://integratedstaffingcorp.com/wp-content/uploads/2018/01/NYRA-238x300.png
+#plugin://plugin.video.live.streamspro/?url=https://www.youtube.com//watch%3Fv%3D%24doregex%5BgetUrl%5D%26mode%3D19&mode=17&regexs=%7B%27getUrl%27:%20%7B%27name%27:%20%27getUrl%27%2C%20%27expres%27:%20%22%24pyFunction:%20%27%24doregex%5Bfeatured%5D%27%22%2C%20%27page%27:%20None%2C%20%27cookiejar%27:%20%27%27%7D%2C%20%27featured%27:%20%7B%27name%27:%20%27featured%27%2C%20%27expres%27:%20%27channelFeaturedContentRenderer%22:.%2A%3FvideoId%22:%22%28%5B%5E%22%5D%2A%29%27%2C%20%27page%27:%20%27https://www.youtube.com/c/thenyra/featured%27%2C%20%27cookiejar%27:%20%27%27%7D%7D&iconimage=http://integratedstaffingcorp.com/wp-content/uploads/2018/01/NYRA-238x300.png
+https://stream.robertsstream.com/streammobile.m3u8?forceformat=ios&t=1717617453&h=0b35d9b65a813b441153ac6556bfdd6e&referer=NYRA&stream=nyra_bcast_mbr&hd=1
+
+#EXTINF:-1 tvg-id="I954.24226.schedulesdirect.org" tvg-name="" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24226_dark_360w_270h.png"  group-title="Horse Racing", Racing TV
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-555.php
 #EXTINF:-1 tvg-id="mjh-racing-FAST" tvg-name="tv.101305020528" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/RACING.COM_logo_2016.svg/1200px-RACING.COM_logo_2016.svg.png" group-title="Horse Racing", Racing.com
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSGkXQ-WfGGnnq11_vvOdoNxTsxKxc6HIUXUPgXGA=s88-c-k-c0x00ffffff-no-rj" group-title="Horse Racing", Santa Anita Park
@@ -276,7 +286,7 @@ plugin://plugin.video.live.streamspro/?url=https://www.youtube.com//watch%3Fv%3D
 plugin://plugin.video.the-loop/eplayer/play?url=epg/554
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Sky_au_racing.png/300px-Sky_au_racing.png" group-title="Horse Racing", SKY RACING 2
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/PixL.json%3Fquery%3D+%26dialog%3Dtrue%28PixL+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.americasbestracing.net/s3fs-public/styles/large/public/tvg-logo.png" group-title="Horse Racing", TVG
+#EXTINF:-1 tvg-id="I602.21345.zap2it.com" tvg-name="" tvg-logo="https://static.americasbestracing.net/s3fs-public/styles/large/public/tvg-logo.png" group-title="Horse Racing", TVG
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAiZ3JvdXAiOiAiVVNBOi0tLS0tfFNQT1JUU3wiLCAidGl0bGUiOiAiW0NPTE9ScmVkXVVTODIxOlRWRyBORVRXT1JLWy9DT0xPUl0iLCAidGh1bWJuYWlsIjogIi0iLCAibGluayI6ICJodHRwOi8vbXVrYTAzLndhbmljZWxpZmUuY29tOjg4ODAvM2NhMDYxNTNuMDMvZnIzcjIzMzIzMi8zMTU3MSJ9
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.americasbestracing.net/s3fs-public/styles/large/public/tvg-logo.png" group-title="Horse Racing", TVG2
 plugin://plugin.video.madtitansports/play_video/eyJ0eXBlIjogIml0ZW0iLCAiZ3JvdXAiOiAiVVNBOi0tLS0tfFNQT1JUU3wiLCAidGl0bGUiOiAiW0NPTE9ScmVkXVVTODIyOlRWRyBORVRXT1JLIDJbL0NPTE9SXSIsICJ0aHVtYm5haWwiOiAiLSIsICJsaW5rIjogImh0dHA6Ly9tdWthMDMud2FuaWNlbGlmZS5jb206ODg4MC8zY2EwNjE1M24wMy9mcjNyMjMzMjMyLzMxNTcwIn0=
@@ -514,8 +524,9 @@ plugin://plugin.audio.tuneinradio/?path=tune&id=s23543&name=1240+%7C+WPTR+%28Cla
 #Shopping
 #EXTINF:-1 tvg-id="GemShoppingNetwork.us" tvg-name="" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/51R-Fu8ToGL.png" group-title="Shopping", Gem Shopping Network
 https://replays.robertsstream.com/racereplays/cust/gemshopping/live.m3u8
-#EXTINF:-1 tvg-id="HSN.us" tvg-name="HSN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/HSN_logo.svg/1038px-HSN_logo.svg.png" group-title="Shopping", Home Shopping Network
-plugin://plugin.video.youtube/play/?video_id=1ph8qQnjXts
+#EXTINF:-1 tvg-id="I70.62077.zap2it.com" tvg-name="HSN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/HSN_logo.svg/1038px-HSN_logo.svg.png" group-title="Shopping", Home Shopping Network
+#plugin://plugin.video.youtube/play/?video_id=1ph8qQnjXts
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
 #EXTINF:-1 tvg-id="HSN2.us" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/hsn2.jpg.300x300_q85.jpg" group-title="Shopping", Home Shopping Network 2
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
 #plugin://plugin.video.youtube/play/?video_id=q-BvtDrTnxc
@@ -525,10 +536,12 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8
 https://cdn3.wowza.com/1/eUdsNEcyMmRvckor/K3pydHZw/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="JewelryTVExtra.us" tvg-logo="https://i.imgur.com/1HJraea.png" group-title="Shopping", Jewelry TV Extra
 https://cdn3.wowza.com/1/NFJZMzNuclBoQ2pz/Q1FrME42/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-id="externallinearfeed-05-26-2020-05-26-2020" tvg-name="QVC" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Shopping", QVC
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uscln/master.m3u8
+#EXTINF:-1 tvg-id="I70.60222.zap2it.com" tvg-name="QVC" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/QVC_logo.png" group-title="Shopping", QVC
+#https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uscln/master.m3u8
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
 #EXTINF:-1 tvg-id="QVC2.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC 2
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2uscln/medhigh.m3u8
+#https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2uscln/medhigh.m3u8
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
 #EXTINF:-1 tvg-id="QVC3.us" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC 3
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vGaDz1I.png" group-title="Shopping", QVC Everyday Refresh
@@ -642,6 +655,8 @@ http://4.26.188.2:8081/udp/239.193.10.101:23901
 http://4.26.188.2:8081/udp/239.193.10.102:23902
 #EXTINF:-1 tvg-id="I342.14899.schedulesdirect.org" tvg-name="Golf Channel" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="Sports", Golf Channel
 plugin://plugin.video.the-loop/eplayer/play?url=epg/318
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://onegolftv.com/wp-content/uploads/2018/08/onegolf-HD-with-image-200px.png" group-title="Sports", Golf One
+http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 tvg-id="I1113.87579.schedulesdirect.org" tvg-name="SuperSport Golf" tvg-logo="https://images.supersport.com/media/u40dtm0w/supersport-logo.png" group-title="Sports", Golf SuperSport
 plugin://plugin.video.the-loop/eplayer/play?url=epg/422
 #EXTINF:-1 tvg-id="I640.46817.zap2it.com" tvg-name="MASN" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/46817/s46817_ll_h9_aa.png" group-title="Sports", MASN USA
@@ -672,8 +687,6 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/405
 plugin://plugin.video.tvone112/play/38/2375/play.pvr
 #EXTINF:-1 tvg-id="I215.58570.zap2it.com" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 plugin://plugin.video.tvone112/play/38/1544/play.pvr
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://onegolftv.com/wp-content/uploads/2018/08/onegolf-HD-with-image-200px.png" group-title="Sports", One Golf
-http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 tvg-id="I375.76366.zap2it.com" tvg-name="PAC 12 Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/76366/s76366_ll_h15_ab.png" group-title="Sports", PAC 12 Network
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/ITV4.json%3Fquery%3D+%26dialog%3Dtrue%28ITV4-%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I377.76372.zap2it.com" tvg-name="PAC 12 ARIZONA" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/76366/s76366_ll_h15_ab.png" group-title="Sports", PAC 12 ARIZONA
@@ -754,6 +767,8 @@ plugin://plugin.video.tvone112/play/38/2044/play.pvr
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I362.11187.zap2it.com" tvg-name="The Weather Channel" tvg-logo="https://i.imgur.com/YRX2tY8.png" group-title="Weather", The Weather Channel
 plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium394/index.m3u8&Title=The Weather Channel&Icon=https://i.imgur.com/YRX2tY8.png
+#EXTINF:-1 tvg-id="I215.72413.zap2it.com" tvg-name="WeatherNation" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/72413/s72413_ll_h15_aa.png" group-title="Weather", Weather Nation
+https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
 
 #Web-Cams
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.googleusercontent.com/ytc/AOPolaSXtWWzwYAvPYouW9BrGblwttbMFW7fns952amYLw=s176-c-k-c0x00ffffff-no-rj" group-title="Web-Cams", Maine Maritime
