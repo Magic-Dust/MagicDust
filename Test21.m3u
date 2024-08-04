@@ -21,7 +21,10 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 #EXTINF:-1 tvg-id="" tvg-name="Grit" tvg-logo="https://www.grittv.com/static/media/grit-logo.d95f9d5baad19e7f7c0d.png" group-title="Classic TV", Grit
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-752.php
 #EXTINF:-1 tvg-id="MeTV.us" tvg-name="METV" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Classic TV", METV USA
-plugin://plugin.video.the-loop/eplayer/play?url=epg/662
+https://d3m10mlzdolmch.cloudfront.net/v1/master/840a24ccd7c75076211d060179b3ad0c64fdc6ca/metv_nr_rt/ec1a82ca1e6b438daf35445bfbec9ad8/index.m3u8
+#plugin://plugin.video.the-loop/eplayer/play?url=epg/662
+#EXTINF:-1 tvg-id="MeTV+.us" tvg-name="METV+" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Classic TV", METV+
+https://d3m10mlzdolmch.cloudfront.net/v1/master/840a24ccd7c75076211d060179b3ad0c64fdc6ca/metvplus_nr_rt/00ff704f1eef4845a59227cf31705a01/index.m3u8
 #EXTINF:-1 tvg-id="I73.16123.zap2it.com" tvg-name="TVLAND" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/16123/s16123_ll_h15_aa.png" group-title="Classic TV", TVLAND
 plugin://plugin.video.the-loop/eplayer/play?url=epg/342
 
@@ -772,7 +775,9 @@ plugin://plugin.video.tvone112/play/38/2044/play.pvr
 #EXTINF:-1 tvg-id="I361.91994.zap2it.com" tvg-name="Acuweather Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91994/s91994_ll_h15_ab.png" group-title="Weather", AccuWeather
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I362.11187.zap2it.com" tvg-name="The Weather Channel" tvg-logo="https://i.imgur.com/YRX2tY8.png" group-title="Weather", The Weather Channel
-plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium394/index.m3u8&Title=The Weather Channel&Icon=https://i.imgur.com/YRX2tY8.png
+#plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium394/index.m3u8&Title=The Weather Channel&Icon=https://i.imgur.com/YRX2tY8.png
+#http://fl2.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
+https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
 #EXTINF:-1 tvg-id="I215.72413.zap2it.com" tvg-name="WeatherNation" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/72413/s72413_ll_h15_aa.png" group-title="Weather", Weather Nation
 https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
 
