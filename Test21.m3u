@@ -19,9 +19,38 @@ http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/95549031/69361122/120749.m3u8
 http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="I44.1.30617.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1200px-The_CW.svg.png", group-title="Broadcast", CW USA
-#plugin://plugin.video.tvone/play/87/play.pvr
-#plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/95549031/69361122/120889.m3u8
 https://cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC10 (WTEN) Albany NY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71302
+#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS06 Albany (WRGB) NY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71805
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1200px-The_CW.svg.png", group-title="Broadcast", CW15 (WCWN) Albany NY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71303
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX23 Albany (WXXA) NY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71304
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png", group-title="Broadcast", NBC13 Albany (WNYT) NY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71305
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC15 (WPDE) Myrtle Beach
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71482
+#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS13 (WBTW) Myrtle Beach
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71483
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX43 (WFXB) Myrtle Beach
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71304
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png", group-title="Broadcast", NBC32 (WMBF) Myrtle Beach
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71668
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC11 (WTVD) Raleigh
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71750
+#EXTINF:-1 tvg-id="I2.1.16689.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS17 (WNCN) Raleigh
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71522
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1200px-The_CW.svg.png", group-title="Broadcast", CW22 (WLFL) Raleigh
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71751
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png", group-title="Broadcast", NBC5 (WRAL) Raleigh
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71753
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX50 (WRAZ) Raleigh
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/71752
 
 #Classic TV
 #EXTINF:-1 tvg-id="I22.5.88931.zap2it.com" tvg-name="Comet TV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/88931/s82462_ll_h9_aa.png" group-title="Classic TV", Comet TV
@@ -55,7 +84,7 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/302
 #EXTINF:-1 tvg-id="I659.16496.schedulesdirect.org" tvg-name="Adult Swim East" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="Entertainment", Adult Swim East
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="I254.10021.zap2it.com" tvg-name="AMC East HD" tvg-logo="http://static.epg.best/co/AMC.co.png" group-title="Entertainment", AMC TV
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-303.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-303.php
 #EXTINF:-1 tvg-id="I287.18284.zap2it.com" tvg-name="American Heroes Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/1200px-American_Heroes_Channel_logo.svg.png" group-title="Entertainment", AHC
 #plugin://plugin.video.tvone1112/play1905/play.pvr
 http://fl3.moveonjoy.com/American_Heroes_Channel/index.m3u8
@@ -92,13 +121,11 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.dadd
 #plugin://plugin.video.tvone1112/play/1977/play.pvr
 http://cord-cutter.net:8080/live/95549031/69361122/79547.m3u8
 #EXTINF:-1 tvg-id="I286.16617.zap2it.com" tvg-name="Destination America HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/55/Destination_America_Logo_2012.png" group-title="Entertainment", Dest America
-#plugin://plugin.video.tvone112/play/78/2156/play.pvr
-plugin://plugin.video.thetvapp/?mode=playvideo&url=https://thetvapp.to/tv/destination-america-live-stream/&page=1&title=Destination+America&image=/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/plugin.video.thetvapp//resources/../icon.png
 #EXTINF:-1 tvg-id="I278.11150.zap2it.com" tvg-name="Discovery Channel" tvg-logo="http://img1.wikia.nocookie.net/__cb20091118145134/logopedia/images/thumb/6/69/Discovery_Channel_1995.png/250px-Discovery_Channel_1995.png" group-title="Entertainment", Discovery HD
 #plugin://plugin.video.tvone1112/play/484/play.pvr
 http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
 #EXTINF:-1 tvg-id="I261.16125.zap2it.com" tvg-name="Discovery Life" tvg-logo="https://i.imgur.com/HiIqETf.png" group-title="Entertainment", Discovery Life
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-311.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-311.php
 #EXTINF:-1 tvg-id="I284.16616.zap2it.com" tvg-name="Discovery Science" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48527_dark_360w_270h.png" group-title="Entertainment", Discovery Science
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Science_Channel.json%3Fquery%3D+%26dialog%3Dtrue%28SCIENCE+CHANNEL+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I236.10989.zap2it.com" tvg-name="Entertainment TV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30259_dark_360w_270h.png" group-title="Entertainment", E! Entertainment
@@ -108,7 +135,7 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 #EXTINF:-1 tvg-id="I248.14321.zap2it.com" tvg-name="FX East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/14321/s14321_ll_h15_aa.png" group-title="Entertainment", FX TV
 plugin://plugin.video.the-loop/eplayer/play?url=epg/381
 #EXTINF:-1 tvg-id="I258.70253.zap2it.com" tvg-name="FXM East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/70253/s70253_ll_h15_aa.png" group-title="Entertainment", FX Movie Channel
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-381.php
+http://fl2.moveonjoy.com/FX_MOVIE/index.m3u8
 #EXTINF:-1 tvg-id="I259.66379.zap2it.com" tvg-name="FXX East HD" tvg-logo="https://i.ytimg.com/vi/RJ1bM5E3ZNI/hqdefault.jpg" group-title="Entertainment", FXX
 #plugin://plugin.video.tvone1112/play1082/play.pvr
 http://fl2.moveonjoy.com/FXX/index.m3u8
@@ -121,7 +148,7 @@ http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="I564.105723.zap2it.com" tvg-name="Hallmark Drama" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/105723/s105723_ll_h15_ab.png" group-title="Entertainment", Hallmark Drama
 plugin://plugin.video.the-loop/eplayer/play?url=epg/320
 #EXTINF:-1 tvg-id="I565.46710.zap2it.com" tvg-name="Hallmark Movies & More" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/07/31/USBB19000017U_20211230T073100.png" group-title="Entertainment", Hallmark Movies & More
-plugin://plugin.video.thetvapp/?mode=playvideo&url=https://thetvapp.to/tv/hallmark-movies-mysteries-hd-live-stream/&page=1&title=Hallmark+Movies+%26+Mysteries+HD&image=/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/plugin.video.thetvapp//resources/../icon.png
+https://v1.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8
 #EXTINF:-1 tvg-id="I229.49788.zap2it.com" tvg-name="HGTV East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Entertainment", HGTV
 #plugin://plugin.video.tvone1112/play/1367/play.pvr
 http://fl2.moveonjoy.com/HGTV/index.m3u8
@@ -184,8 +211,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_356
 #EXTINF:-1 tvg-id="I652.91993.schedulesdirect.org" tvg-name="TNT West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Entertainment", TNT West
 https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I277.11180.zap2it.com" tvg-name="Travel Channel" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/11180/s11180_ll_h15_ac.png" group-title="Entertainment", Travel Channel
-#plugin://plugin.video.tvone/play/786/play.pvr
-plugin://plugin.video.thetvapp/?mode=playvideo&url=https://thetvapp.to/tv/travel-channel-live-stream/&page=1&title=Travel+Channel&image=/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/plugin.video.thetvapp//resources/../icon.png
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-340.php
 #EXTINF:-1 tvg-id="I246.10153.zap2it.com" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Entertainment", tru TV
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #plugin://plugin.video.tvone112/play/78/2276/play.pvr
@@ -217,18 +243,17 @@ http://fl3.moveonjoy.com/BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="I296.12131.zap2it.com" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network
 https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I290.10171.zap2it.com" tvg-name="Disney Channel East HD" tvg-logo="http://static.epg.best/ee/DisneyChannel.ee.png" group-title="Kids", Disney Channel
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-312.php
+http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="I289.74885.zap2it.com" tvg-name="Disney Jr HD" tvg-logo="https://static.epg.best/us/DisneyJunior.us.png" group-title="Kids", Disney Jr
 #plugin://plugin.video.tvone1112/play413/play.pvr
 http://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="I292.18279.zap2it.com" tvg-name="Disney XD" tvg-logo="https://static.epg.best/us/DisneyXD.us.png" group-title="Kids", Disney XD
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-314.php
+http://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="I299.11006.zap2it.com" tvg-name="Nickelodeon East HD" tvg-logo="https://static.epg.best/nz/Nick.nz.png" group-title="Kids", Nickelodeon
 #plugin://plugin.video.tvone1112/play/547/play.pvr
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Nick_at_Nite_logo_2009.svg/1024px-Nick_at_Nite_logo_2009.svg.png" group-title="Kids", Nick at Night
-#plugin://plugin.video.tvone1112/play/1368/play.pvr
-plugin://plugin.video.thetvapp/?mode=playvideo&url=https://thetvapp.to/tv/teennick-live-stream/&page=1&title=TeenNick&image=/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/plugin.video.thetvapp//resources/../icon.png
+plugin://plugin.video.tvone1112/play/1368/play.pvr
 #EXTINF:-1 tvg-id="I471.30420.schedulesdirect.org" tvg-name="Nicktoons Network" tvg-logo="https://static.epg.best/za/NickTOONS.za.png" group-title="Kids", Nicktoons
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Nicktoons.json%3Fquery%3D+%26dialog%3Dtrue%28NICKTOONS+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="PBSKidsEasternCentral.us" tvg-name="" tvg-logo="http://www.lagovista.lib.tx.us/PBS%20Kids.jpg/@@images/image.jpeg" group-title="Kids", PBS Kids
@@ -247,10 +272,9 @@ plugin://plugin.video.tvone1112/play1983/play.pvr
 #plugin://plugin.video.tvone/play/128/play.pvr
 http://fl2.moveonjoy.com/HBO/index.m3u8
 #EXTINF:-1 tvg-id="I506.59839.zap2it.com" tvg-name="HBO Comedy" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/59839/s59839_ll_h15_aa.png" group-title="Movies", HBO Comedy
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-690.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-690.php
 #EXTINF:-1 tvg-id="I503.10243.zap2it.com" tvg-name="HBO Signature" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10243/s10243_ll_h15_aa.png" group-title="Movies", HBO Signature HD
-#plugin://plugin.video.tvone112/play/78/1649/play.pvr
-plugin://plugin.video.thetvapp/?mode=playvideo&url=https://thetvapp.to/tv/hbo-signature-live-stream/&page=1&title=HBO+Signature&image=/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/plugin.video.thetvapp//resources/../icon.png
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-693.php
 #EXTINF:-1 tvg-id="I545.11115.zap2it.com" tvg-name="Showtime.2.HDTV.(East).(SHO2HD).us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/1280px-Showtime.svg.png" group-title="Movies", Showtime USA
 plugin://plugin.video.the-loop/eplayer/play?url=epg/333
 #EXTINF:-1 tvg-id="I525.12719.zap2it.com" tvg-name="Starz East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/12719/s12719_ll_h15_ac.png" group-title="Movies", Starz East
@@ -258,7 +282,11 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/335
 
 #Music
 #EXTINF:-1 tvg-id="I340.28506.zap2it.com" tvg-name="AXS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/375px-AXS_TV_logo.svg.png" group-title="Music", AXS
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/22050
+#EXTINF:-1 tvg-id="I340.28506.zap2it.com" tvg-name="AXS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/375px-AXS_TV_logo.svg.png" group-title="Music", AXS Now
 https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 tvg-id="Backstage.us" tvg-name="Backstage" tvg-logo="https://th.bing.com/th/id/OIP.gvQK_xwJ6UAtR-hK_PamuwHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Music", Backstage
+https://fuse-backstage-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I287.30419.zap2it.com" tvg-name="BET" tvg-logo="https://i.imgur.com/xMRD76A.png" group-title="Music", BET Network
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-752.php
 
@@ -280,10 +308,9 @@ https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/m
 #EXTINF:-1 tvg-id="USBA370000104" tvg-name="" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBSN LIVE [COLOR magenta]4 Items[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+LIVE&playlist=%5B%27https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8%24%24lsname%3DLA%27%7C%7C+%27https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8%24%24lsname%3DNew+York%27%5D
 #EXTINF:-1 tvg-id="I355.10139.zap2it.com" tvg-name="CNBC US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="News", CNBC
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-309.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-309.php
 #EXTINF:-1 tvg-id="I355.10139.zap2it.com" tvg-name="CNBC US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="News", CNBC HD
 http://fl2.moveonjoy.com/CNBC/index.m3u8
-#http://fl5.moveonjoy.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="I357.26849.zap2it.com" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC World
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-682.php
 #EXTINF:-1 tvg-id="I208.58780.zap2it.com" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC Europe
@@ -325,7 +352,8 @@ https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.
 #EXTINF:-1 tvg-id="InfoWars.us" tvg-name="Info Wars" tvg-logo="https://archives.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars
 http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
 #EXTINF:-1 tvg-id="I356.64241.zap2it.com" tvg-name="MSNBC" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64241/s64241_ll_h15_ac.png" group-title="News", MSNBC
-plugin://plugin.video.tvone/play/424/play.pvr
+#plugin://plugin.video.tvone/play/424/play.pvr
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-327.php
 #EXTINF:-1 tvg-id="I349.87925.zap2it.com" tvg-name="NewsmaxTV" tvg-logo="https://www.sling.com/whatson/entertainment/documentary-and-news/media_1d9c6173fe0e5875ae0b6c75b1914e1cf07b60539.jpeg" group-title="News", Newsmax
 #plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-613.php
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
@@ -333,7 +361,7 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="newsnation.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/News_nation_logo.jpg/220px-News_nation_logo.jpg" group-title="News", NewsNation
 #NewsNation.HDTV.(NEWSNTN).us
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-292.php
+http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
 #EXTINF:-1 tvg-id="oneamericanews.us" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
 #One.America.News.Network.HDTV.(East).(OANHD).us
 https://oneamericanews-vizio.amagi.tv/playlist.m3u8
@@ -447,11 +475,11 @@ plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CH
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports US" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/76950/s76950_ll_h15_ab.png" group-title="Sports", Bein Sports USA
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-317.php
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports 1" tvg-logo="https://i.imgur.com/4VxNbjS.png" group-title="Sports", Bein Sports 1
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-61.php
+plugin://plugin.video.the-loop/eplayer/play?url=epg/61
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports 2" tvg-logo="https://i.imgur.com/FaJxsj3.png" group-title="Sports", Bein Sports 2
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-90.php
+plugin://plugin.video.the-loop/eplayer/play?url=epg/90
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports 3" tvg-logo="https://i.imgur.com/ny87BCt.png" group-title="Sports", Bein Sports 3
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-46.php
+plugin://plugin.video.the-loop/eplayer/play?url=epg/46
 #EXTINF:-1 tvg-id="I392.76950.zap2it.com" tvg-name="Bein Sports XTRA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA8000043F_20231114T233257SQUARE.png_20231114233258.png" group-title="Sports", beIN SPORTS XTRA
 plugin://slyguy.samsung.tv.plus/?_=play&id=CABA8000043F&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I610.56783.zap2it.com" tvg-name="Big Ten Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/360px-Big_Ten_Network_Logo.svg.png" group-title="Sports", BIG TEN Network
@@ -463,7 +491,7 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/44
 #EXTINF:-1 tvg-id="I209.12444.zap2it.com" tvg-name="ESPN2" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/12444/s12444_ll_h15_ab.png" group-title="Sports", ESPN2 USA
 plugin://plugin.video.the-loop/eplayer/play?url=epg/45
 #EXTINF:-1 tvg-id="I612.111871.zap2it.com" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/500px-ACC_Network_ESPN_logo.svg.png" group-title="Sports", ESPN ACC
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-664.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-666.php
 #EXTINF:-1 tvg-id="I612.111871.zap2it.com" tvg-name="ACC Network" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2021-08/acc-networkjpg_zqyhbcc7ngjq1o22gz5uw1d3o.jpg" group-title="Sports", ACC Digital Network
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USAK3508702A&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I207.16485.zap2it.com" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports", ESPN News
@@ -481,7 +509,7 @@ http://4.26.188.2:8081/udp/239.193.10.102:23902
 #EXTINF:-1 tvg-id="I342.14899.schedulesdirect.org" tvg-name="Golf Channel" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="Sports", Golf Channel
 plugin://plugin.video.the-loop/eplayer/play?url=epg/318
 #EXTINF:-1 tvg-id="I640.46817.zap2it.com" tvg-name="MASN" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/46817/s46817_ll_h9_aa.png" group-title="Sports", MASN USA
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-829.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-829.php
 #EXTINF:-1 tvg-id="I214.61036.zap2it.com" tvg-name="MAV tv" tvg-logo="https://assets.lucasoil.com/logos/mavtv_motorsports_network_dark.png" group-title="Sports", MAV tv
 https://mavtv-1.sinclair.wurl.com/manifest/3000.m3u8
 #EXTINF:-1 tvg-id="I213.62079.zap2it.com" tvg-name="MLB Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/62079/s62079_ll_h15_aa.png" group-title="Sports", MLB Network
@@ -492,17 +520,18 @@ plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CH
 #Madison.Square.Garden.Plus.HDTV.(MSG+H).us
 plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/MSG_plus.json?query= &dialog=true
 #EXTINF:-1 tvg-id="I696.63138.zap2it.com" tvg-name="NBC Sports Bay Area" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NBC_Sports_2023.svg/330px-NBC_Sports_2023.svg.png" group-title="Sports", NBC Sports Bay Area
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-753.php
+https://v1.thetvapp.to/hls/nbc-sports-bay-area/index.m3u8
 #EXTINF:-1 tvg-id="I630.49198.zap2it.com" tvg-name="NBC Sports Boston" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NBC_Sports_2023.svg/330px-NBC_Sports_2023.svg.png" group-title="Sports", NBC Sports Boston
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/FOX.json%3Fquery%3Dwtfx%26dialog%3Dtrue%28FOX%28WTFX9-PHILLY++PA%29+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
+https://v1.thetvapp.to/hls/nbc-sports-boston/index.m3u8
+#plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/FOX.json%3Fquery%3Dwtfx%26dialog%3Dtrue%28FOX%28WTFX9-PHILLY++PA%29+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I698.73564.zap2it.com" tvg-name="NBC Sports California" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NBC_Sports_2023.svg/330px-NBC_Sports_2023.svg.png" group-title="Sports", NBC Sports California
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-776.php
+https://v1.thetvapp.to/hls/nbc-sports-philadelphia/index.m3u8
 #EXTINF:-1 tvg-id="NBC.Sports.Chicago.HDTV.(NBCSCHHD).us" tvg-name="NBC Sports Chicago" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NBC_Sports_2023.svg/330px-NBC_Sports_2023.svg.png" group-title="Sports", NBC Sports Chicago
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-776.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-776.php
 #EXTINF:-1 tvg-id="I370.17596.zap2it.com" tvg-name="NBC Sports Philadelphia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NBC_Sports_2023.svg/330px-NBC_Sports_2023.svg.png" group-title="Sports", NBC Sports Philadelphia
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-777.php
+https://v1.thetvapp.to/hls/nbc-sports-philadelphia/index.m3u8
 #EXTINF:-1 tvg-id="NBC.Sports.Washington.(NBCSWA).us" tvg-name="NBC Sports Washington" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NBC_Sports_2023.svg/330px-NBC_Sports_2023.svg.png" group-title="Sports", NBC Sports Washington
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-778.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-778.php
 #EXTINF:-1 tvg-id="I628.10996.zap2it.com" tvg-name="New England Sports Network" tvg-logo="https://www.fubo.tv/lp/v3_files/nlogos/logo-nesn.png" group-title="Sports", NESN
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/NESN.json%3Fquery%3D+%26dialog%3Dtrue%28NESN+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I212.45399.zap2it.com" tvg-name="NFL Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/45399/s45399_ll_h15_aa.png" group-title="Sports", NFL Network
@@ -517,7 +546,7 @@ http://fl2.moveonjoy.com/NHL_NETWORK/index.m3u8
 https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_32.m3u8|X-Forwarded-For=158.69.124.9
 #EXTINF:-1 tvg-id="I611.89535.zap2it.com" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/89535/s89535_ll_h15_aa.png" group-title="Sports", SEC Network USA
 #SEC.Network.HDTV.(SECN).us
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-385.php
+http://fl2.moveonjoy.com/SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_Golf_-_Logo_2018.svg/768px-Sky_Sport_Golf_-_Logo_2018.svg.png?20180730152211" group-title="Sports", Sky Sport Golf
 plugin://plugin.video.the-loop/eplayer/play?url=epg/70
 #EXTINF:-1 tvg-id="I639.49603.zap2it.com" tvg-name="SportsNet New York" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/49603/s49603_ll_h9_aa.png" group-title="Sports", SNY
@@ -525,15 +554,15 @@ plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CH
 #EXTINF:-1 tvg-id="I410.20203.zap2it.com" tvg-name="Sportsnet 360" tvg-logo="https://farm7.static.flickr.com/6238/6219787089_0d1dc2bc26.jpg" group-title="Sports", Sportsnet 360
 plugin://plugin.video.the-loop/eplayer/play?url=epg/409
 #EXTINF:-1 tvg-id="I406.18798.zap2it.com" tvg-name="Sportsnet East" tvg-logo="https://farm7.static.flickr.com/6238/6219787089_0d1dc2bc26.jpg" group-title="Sports", Sportsnet East
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-408.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-409.php
 #EXTINF:-1 tvg-id="I406.18798.zap2it.com" tvg-name="Sportsnet One" tvg-logo="https://farm7.static.flickr.com/6238/6219787089_0d1dc2bc26.jpg" group-title="Sports", Sportsnet One
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-411.php
+plugin://plugin.video.the-loop/eplayer/play?url=epg/411
 #EXTINF:-1 tvg-id="I405.18799.zap2it.com" tvg-name="Sportsnet Ontario" tvg-logo="https://farm7.static.flickr.com/6238/6219787089_0d1dc2bc26.jpg" group-title="Sports", Sportsnet Ontario
 plugin://plugin.video.the-loop/eplayer/play?url=epg/406
 #EXTINF:-1 tvg-id="I407.18801.zap2it.com" tvg-name="Sportsnet Pacific" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/18801/s18801_ll_h15_aa.png" group-title="Sports", Sportsnet Pacific
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/SHOxBET.json%3Fquery%3D+%26dialog%3Dtrue%28SHOxBET+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I408.18800.zap2it.com" tvg-name="Sportsnet West" tvg-logo="https://farm7.static.flickr.com/6238/6219787089_0d1dc2bc26.jpg" group-title="Sports", Sportsnet West
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-407.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-407.php
 #EXTINF:-1 tvg-id="I420.57735.zap2it.com" tvg-name="Sportsnet World" tvg-logo="https://farm7.static.flickr.com/6238/6219787089_0d1dc2bc26.jpg" group-title="Sports", Sportsnet World
 plugin://plugin.video.the-loop/eplayer/play?url=epg/410
 #EXTINF:-1 tvg-id="I217.33395.zap2it.com" tvg-name="Tennis Channel" tvg-logo="http://static.epg.best/us/TennisChannel.us.png" group-title="Sports", Tennis Channel
@@ -560,11 +589,15 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/113
 plugin://plugin.video.the-loop/eplayer/play?url=epg/114
 #EXTINF:-1 tvg-id="I404.90124.zap2it.com" tvg-name="TSN5" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/90124/s90124_ll_h15_aa.png" group-title="Sports", TSN5
 plugin://plugin.video.the-loop/eplayer/play?url=epg/115
+#EXTINF:-1 tvg-id="I602.21345.zap2it.com" tvg-name="" tvg-logo="https://static.americasbestracing.net/s3fs-public/styles/large/public/tvg-logo.png" group-title="Sports", TVG
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/22167
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.americasbestracing.net/s3fs-public/styles/large/public/tvg-logo.png" group-title="Sports", TVG2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/144264/661943/22168
 #EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91306/s91306_ll_h15_aa.png" group-title="Sports", WWE Network
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-376.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-376.php
 #EXTINF:-1 tvg-id="I631.30017.zap2it.com" tvg-name="Yes Network" tvg-logo="https://www.sportfacts.org/wp-content/uploads/2017/05/YES_Network_logo-300x191.png" group-title="Sports", Yes Network
 #plugin://plugin.video.tvone112/play/38/2044/play.pvr
-plugin://plugin.video.daddylive/?mode=play&url=https://daddylivehd.com//stream/stream-763.php
+plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-763.php
 
 #Weather
 #EXTINF:-1 tvg-id="I361.91994.zap2it.com" tvg-name="Acuweather Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91994/s91994_ll_h15_ab.png" group-title="Weather", AccuWeather
