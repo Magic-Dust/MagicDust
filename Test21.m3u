@@ -7,7 +7,7 @@
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="I120.10098.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS USA
 #plugin://plugin.video.tvone/play/64/play.pvr
-http://fl2.moveonjoy.com/CBSEAST/index.m3u8
+http://fl3.moveonjoy.com/CBS_News/index.m3u8
 #EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX USA
 #plugin://plugin.video.tvone/play/117/play.pvr
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/95549031/69361122/120751.m3u8
@@ -84,7 +84,7 @@ https://cvtv.cvalley.net/hls/KMIZMeTV/KMIZMeTV.m3u8
 #plugin://plugin.video.the-loop/eplayer/play?url=epg/662
 #EXTINF:-1 tvg-id="I304.73541.gracenote.com" tvg-name="TVLAND" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/16123/s16123_ll_h15_aa.png" group-title="Classic TV", TVLAND
 #plugin://plugin.video.the-loop/eplayer/play?url=epg/342
-http://fl2.moveonjoy.com/TV_Land/index.m3u8
+http://fl3.moveonjoy.com/TV_Land/index.m3u8
 
 #Crime
 #EXTINF:-1 tvg-id="I571.61469.gracenote.com" tvg-name="CRIME AND INVESTIGATION" tvg-logo="https://metv.com/images/metv_logo.png" group-title="Crime", C&I
@@ -93,10 +93,9 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.dadd
 https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e.m3u8
 #EXTINF:-1 tvg-id="I285.16615.gracenote.com" tvg-name="Investigation Discovery" tvg-logo="https://i.imgur.com/SDFQyJV.png" group-title="Crime", Investigation Discovery
 #plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium324/index.m3u8&Title=Investigation Discovery&Icon=https://i.imgur.com/SDFQyJV.png
-http://fl2.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
+http://fl3.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
 #EXTINF:-1 tvg-id="I251.70522.gracenote.com" tvg-name="True Crime" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/21484/s21484_ll_h15_ac.png" group-title="Crime", Oxygen True Crime
-#plugin://plugin.video.tvone112/play/78/2266/play.pvr
-http://fl2.moveonjoy.com/OXYGEN/index.m3u8
+plugin://plugin.video.tvone112/play/78/2266/play.pvr
 
 #Entertainment
 #EXTINF:-1 tvg-id="I265.10035.gracenote.com" tvg-name="A&E East" tvg-logo="http://www.hdicon.com/wp-content/uploads/2013/04/AE_2008.png" group-title="Entertainment", A&E Tv
@@ -132,13 +131,13 @@ https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/liv
 http://fl3.moveonjoy.com/CRAVE_1/index.m3u8
 #EXTINF:-1 tvg-id="I301.12222.gracenote.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Crave_2018_logo.svg/330px-Crave_2018_logo.svg.png" group-title="Entertainment", CRAVE 2
 #crave2.ca
-http://fl2.moveonjoy.com/CRAVE_2/index.m3u8
+http://fl3.moveonjoy.com/CRAVE_2/index.m3u8
 #EXTINF:-1 tvg-id="I302.12223.gracenote.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Crave_2018_logo.svg/330px-Crave_2018_logo.svg.png" group-title="Entertainment", CRAVE 3
 #crave3.ca
 http://fl3.moveonjoy.com/CRAVE_3/index.m3u8
 #EXTINF:-1 tvg-id="I303.21351.gracenote.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Crave_2018_logo.svg/330px-Crave_2018_logo.svg.png" group-title="Entertainment", CRAVE 4
 #crave4.ca
-http://fl2.moveonjoy.com/CRAVE_4/index.m3u8
+http://fl3.moveonjoy.com/CRAVE_4/index.m3u8
 #EXTINF:-1 tvg-id="I1031.65995.gracenote.com" tvg-name="CTV" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10108/s10108_ll_h15_ab.png" group-title="Entertainment", CTV
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-602.php
 #EXTINF:-1 tvg-id="I1054.72705.gracenote.com" tvg-name="CTV 2" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10116/s10135_ll_h15_ab.png" group-title="Entertainment", CTV 2
@@ -160,23 +159,23 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 #EXTINF:-1 tvg-id="I248.58574.gracenote.com" tvg-name="FX East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/14321/s14321_ll_h15_aa.png" group-title="Entertainment", FX TV
 plugin://plugin.video.the-loop/eplayer/play?url=epg/381
 #EXTINF:-1 tvg-id="I258.70253.gracenote.com" tvg-name="FXM East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/70253/s70253_ll_h15_aa.png" group-title="Entertainment", FX Movie Channel
-http://fl2.moveonjoy.com/FX_MOVIE/index.m3u8
+http://fl5.moveonjoy.com/FX_MOVIE/index.m3u8
 #EXTINF:-1 tvg-id="I259.66379.gracenote.com" tvg-name="FXX East HD" tvg-logo="https://i.ytimg.com/vi/RJ1bM5E3ZNI/hqdefault.jpg" group-title="Entertainment", FXX
 #plugin://plugin.video.tvone1112/play1082/play.pvr
-http://fl2.moveonjoy.com/FXX/index.m3u8
+http://fl3.moveonjoy.com/FXX/index.m3u8
 #EXTINF:-1 tvg-id="I266.58988.gracenote.com" tvg-name="FYISD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Entertainment", FYI
 #plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/FYI.json%3Fquery%3D+%26dialog%3Dtrue%28ri+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
-http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
+http://fl3.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="I312.11221.gracenote.com" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Entertainment", Hallmark
 #plugin://plugin.video.tvone/play/479/play.pvr
-http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
+http://fl3.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="I564.105723.gracenote.com" tvg-name="Hallmark Drama" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/105723/s105723_ll_h15_ab.png" group-title="Entertainment", Hallmark Drama
 plugin://plugin.video.the-loop/eplayer/play?url=epg/320
 #EXTINF:-1 tvg-id="I565.46710.gracenote.com" tvg-name="Hallmark Movies & More" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/07/31/USBB19000017U_20211230T073100.png" group-title="Entertainment", Hallmark Movies & More
 https://v1.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8
 #EXTINF:-1 tvg-id="I229.14902.gracenote.com" tvg-name="HGTV East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Entertainment", HGTV
 #plugin://plugin.video.tvone1112/play/1367/play.pvr
-http://fl2.moveonjoy.com/HGTV/index.m3u8
+http://fl3.moveonjoy.com/HGTV/index.m3u8
 #EXTINF:-1 tvg-id="I54.34215.gracenote.com" tvg-name="HGTV West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Entertainment", HGTV West
 http://supersonictv.live:8080/live/l144264/661943/22103.m3u8
 #EXTINF:-1 tvg-id="I269.14771.gracenote.com" tvg-name="History" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/14771/s14771_ll_h15_af.png" group-title="Entertainment", History TV
@@ -189,7 +188,7 @@ https://bcovlive-a.akamaihd.net/045bd3b615254da880c3db79b2e42fd0/us-east-1/62407
 #EXTINF:-1 tvg-id="I252.60150.gracenote.com" tvg-name="Lifetime East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Lifetime_tv_logo.svg/377px-Lifetime_tv_logo.svg.png" group-title="Entertainment", Lifetime
 #plugin://plugin.video.the-loop/eplayer/play?url=epg/326
 #plugin://plugin.video.tvone/play/146/play.pvr
-http://fl2.moveonjoy.com/LIFETIME/index.m3u8
+http://fl3.moveonjoy.com/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="I253.18480.gracenote.com" tvg-name="LMN" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/18480/s18480_ll_h15_ad.png" group-title="Entertainment", Lifetime Movie Network
 #plugin://plugin.video.the-loop/eplayer/play?url=epg/389
 #plugin://plugin.video.tvone/play/608/play.pvr
@@ -204,10 +203,10 @@ plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBC3600005U9&_is_live=1&_nor
 plugin://plugin.video.the-loop/eplayer/play?url=epg/328
 #EXTINF:-1 tvg-id="I283.66804.gracenote.com" tvg-name="Nat Geo Wild" tvg-logo="http://static.epg.best/us/NatGeoWild.us.png" group-title="Entertainment", Nat Geo Wild
 #plugin://plugin.video.tvone11/play/4/304/play.pvr
-http://fl2.moveonjoy.com/Nat_Geo_Wild/index.m3u8
+http://fl3.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1 tvg-id="I241.11163.gracenote.com" tvg-name="Paramount Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s106215_dark_360w_270h.png" group-title="Entertainment", Paramount Network
 #plugin://plugin.video.the-loop/eplayer/play?url=epg/334
-http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
+http://fl3.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="I238.52199.gracenote.com" tvg-name="Reelz Channel HD" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/52199/s52199_ll_h9_ac.png" group-title="Entertainment", Reelz
 https://bcovlive-a.akamaihd.net/c733a9aa448a4a44a10c527c6f5bf7a4/us-east-1/5245389775001/playlist.m3u8
 #EXTINF:-1 tvg-id="I603.10188.zap2it.com" tvg-name="RFD TV" tvg-logo="https://rfdtv.brightspotgocdn.com/dims4/default/ecbe5e1/2147483647/strip/true/crop/684x164+0+0/resize/800x192!/format/webp/quality/90/?url=https://brightspot-go-k1-rfdtv.s3.us-east-1.amazonaws.com/brightspot/fe/55/1edd358541bb9a6a11b09f302caf/rfdtv-notag-684x164-copy.png" group-title="Entertainment", RFD TV
@@ -217,10 +216,10 @@ https://rfdtv-jw.cdn.vustreams.com/live/e72bcb8b-2e76-49d6-99e9-c09d224e8bdf/liv
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/CHANNELS_GUIDE/Science_Channel.json%3Fquery%3D+%26dialog%3Dtrue%28SCIENCE+CHANNEL+-+%5BCOLORlime%5DDIRECT%7CNEW%5B/COLOR%5D%29
 #EXTINF:-1 tvg-id="I239.16108.gracenote.com" tvg-name="Sundance TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Sundance_Channel_Logo.png" group-title="Entertainment", Sundance
 #plugin://plugin.video.tvone111/play/1286/play.pvr
-http://fl2.moveonjoy.com/SUNDANCE/index.m3u8
+http://fl3.moveonjoy.com/SUNDANCE/index.m3u8
 #EXTINF:-1 tvg-id="I244.58623.gracenote.com" tvg-name="Syfy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sci_Fi_2002.svg/320px-Sci_Fi_2002.svg.png" group-title="Entertainment", Syfy
 #plugin://plugin.video.tvone111/play/1247/play.pvr
-http://fl2.moveonjoy.com/SYFY/index.m3u8
+http://fl3.moveonjoy.com/SYFY/index.m3u8
 #EXTINF:-1 tvg-id="I247.11867.gracenote.com" tvg-name="TBS East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS
 #plugin://plugin.video.tvone111/play/1271/play.pvr
 https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
@@ -249,7 +248,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_356
 plugin://plugin.video.the-loop/eplayer/play?url=epg/343
 #EXTINF:-1 tvg-id="I335.11218.gracenote.com" tvg-name="VH1 USA" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/11218/s11218_ll_h15_ac.png" group-title="Entertainment", VH1 USA
 #plugin://plugin.video.tvone/play/607/play.pvr
-http://fl2.moveonjoy.com/VH1/index.m3u8
+http://fl3.moveonjoy.com/VH1/index.m3u8
 #EXTINF:-1 tvg-id="I260.16409.gracenote.com" tvg-name="WE TV" tvg-logo="http://jeffgreenleaf.com/wp-content/uploads/WE-TV.png" group-title="Entertainment", WE TV
 #plugin://plugin.video.tvone11/play/5/1838/play.pvr
 http://fl1.moveonjoy.com/WE_TV/index.m3u8
@@ -259,7 +258,8 @@ http://fl1.moveonjoy.com/WE_TV/index.m3u8
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-764.php
 #EXTINF:-1 tvg-id="I231.50747.gracenote.com" tvg-name="Food Network East" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", The Food Network
 #plugin://plugin.video.tvone1112/play132/play.pvr
-http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
+http://fl3.moveonjoy.com/FOOD_NETWORK/index.m3u8
+
 #EXTINF:-1 tvg-id="Food.Network.uk" tvg-name="Food Network UK" tvg-logo="http://static.epg.best/bg/FoodNetwork.bg.png" group-title="Food", The Food Network UK
 #plugin://plugin.video.tvone111/play/1358/play.pvr
 plugin://plugin.video.tvone111/play/1358/play.pvr
@@ -271,15 +271,15 @@ http://fl3.moveonjoy.com/BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="I296.12131.gracenote.com" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network
 https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="I290.10171.gracenote.com" tvg-name="Disney Channel East HD" tvg-logo="http://static.epg.best/ee/DisneyChannel.ee.png" group-title="Kids", Disney Channel
-http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
+http://fl5.moveonjoy.com/DISNEY/index.m3u8
+
 #EXTINF:-1 tvg-id="I289.74796.gracenote.com" tvg-name="Disney Jr HD" tvg-logo="https://static.epg.best/us/DisneyJunior.us.png" group-title="Kids", Disney Jr
 #plugin://plugin.video.tvone1112/play413/play.pvr
-http://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
+http://fl3.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="I292.18279.gracenote.com" tvg-name="Disney XD" tvg-logo="https://static.epg.best/us/DisneyXD.us.png" group-title="Kids", Disney XD
-http://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
+http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="I299.11006.gracenote.com" tvg-name="Nickelodeon East HD" tvg-logo="https://static.epg.best/nz/Nick.nz.png" group-title="Kids", Nickelodeon
-#plugin://plugin.video.tvone1112/play/547/play.pvr
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+plugin://plugin.video.tvone1112/play/547/play.pvr
 #EXTINF:-1 tvg-id="I303.59036.gracenote.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Nick_at_Nite_logo_2009.svg/1024px-Nick_at_Nite_logo_2009.svg.png" group-title="Kids", Nick at Night
 plugin://plugin.video.tvone1112/play/1368/play.pvr
 #EXTINF:-1 tvg-id="I302.30420.gracenote.com" tvg-name="Nicktoons Network" tvg-logo="https://static.epg.best/za/NickTOONS.za.png" group-title="Kids", Nicktoons
@@ -292,13 +292,13 @@ https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
 #Movies
 #EXTINF:-1 tvg-id="I515.34933.gracenote.com" tvg-name="Cinemax East HD" tvg-logo="https://ia800603.us.archive.org/7/items/CinemaxHd/cinemax%20hd.png" group-title="Movies", Cinemax East
 #plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-677.php
-http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
+http://fl3.moveonjoy.com/CINEMAX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="I517.10121.gracenote.com" tvg-name="MoreMax" tvg-logo="https://ia800802.us.archive.org/5/items/CinemaxMoremax/cinemax%20moremax.png" group-title="Movies", MoreMax
 #plugin://plugin.video.tvone1112/play/1983/play.pvr
 plugin://plugin.video.tvone1112/play1983/play.pvr
 #EXTINF:-1 tvg-id="I501.19548.gracenote.com" tvg-name="HBO" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/19548/s19548_ll_h15_aa.png" group-title="Movies", HBO USA
 #plugin://plugin.video.tvone/play/128/play.pvr
-http://fl2.moveonjoy.com/HBO/index.m3u8
+http://fl3.moveonjoy.com/HBO/index.m3u8
 #EXTINF:-1 tvg-id="I506.59839.gracenote.com" tvg-name="HBO Comedy" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/59839/s59839_ll_h15_aa.png" group-title="Movies", HBO Comedy
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-690.php
 #EXTINF:-1 tvg-id="I503.10243.gracenote.com" tvg-name="HBO Signature" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/10243/s10243_ll_h15_aa.png" group-title="Movies", HBO Signature HD
@@ -311,14 +311,14 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/335
 #Music
 #EXTINF:-1 tvg-id="I340.28506.gracenote.com" tvg-name="AXS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/375px-AXS_TV_logo.svg.png" group-title="Music", AXS
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/144264/661943/22050
-#EXTINF:-1 tvg-id="I340.28506.gracenote.com" tvg-name="AXS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/375px-AXS_TV_logo.svg.png" group-title="Music", AXS Now
+#EXTINF:-1 tvg-id="AXSTVNOW.us"" tvg-name="AXS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/375px-AXS_TV_logo.svg.png" group-title="Music", AXS Now
 https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-id="Backstage.us" tvg-name="Backstage" tvg-logo="https://th.bing.com/th/id/OIP.gvQK_xwJ6UAtR-hK_PamuwHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Music", Backstage
 https://fuse-backstage-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I329.10051.gracenote.com" tvg-name="BET" tvg-logo="https://i.imgur.com/xMRD76A.png" group-title="Music", BET Network
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-752.php
 #EXTINF:-1 tvg-id="I384.83098.gracenote.com" tvg-name="REVOLT" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/83098/s83098_ll_h15_ac.png" group-title="Music", Revolt
-http://fl2.moveonjoy.com/REVOLT/index.m3u8
+http://fl3.moveonjoy.com/REVOLT/index.m3u8
 
 #News
 #EXTINF:-1 tvg-id="I10.1.20493.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/ABC_News_Live_logo.svg/1200px-ABC_News_Live_logo.svg.png" group-title="News", ABC NEWS
@@ -340,7 +340,8 @@ plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+LIVE&playlist=%5B%27htt
 #EXTINF:-1 tvg-id="I355.10139.gracenote.com" tvg-name="CNBC US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="News", CNBC
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-309.php
 #EXTINF:-1 tvg-id="I355.10139.gracenote.com" tvg-name="CNBC US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="News", CNBC HD
-http://fl5.moveonjoy.com/CNBC/index.m3u8
+#http://fl5.moveonjoy.com/CNBC/index.m3u8
+http://fl3.moveonjoy.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="I357.26849.gracenote.com" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC World
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-682.php
 #EXTINF:-1 tvg-id="I208.58780.zap2it.com" tvg-name="" tvg-logo="http://direct-vs-dish.com/media/channel_logos/cnbc_world.png.300x300_q85.png" group-title="News", CNBC Europe
@@ -364,6 +365,7 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="euronews.(EUNEWS).us" tvg-name="Euronews" tvg-logo="https://ia802804.us.archive.org/20/items/euronews_201708/euronews.png" group-title="News", Euronews
 https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
 #EXTINF:-1 tvg-id="I359.58649.gracenote.com" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business
+#http://fl3.moveonjoy.com/FOX_Business_Network/index.m3u8
 plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27:%20%7B%27expres%27:%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27:%20u%27getstream%27%2C%20%27page%27:%20u%27https://www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
 #EXTINF:-1 tvg-id="I360.16374.gracenote.com" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
@@ -391,7 +393,7 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="newsnation.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/News_nation_logo.jpg/220px-News_nation_logo.jpg" group-title="News", NewsNation
 #NewsNation.HDTV.(NEWSNTN).us
-http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
+http://fl3.moveonjoy.com/NEWS_NATION/index.m3u8
 #EXTINF:-1 tvg-id="oneamericanews.us" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
 #One.America.News.Network.HDTV.(East).(OANHD).us
 https://oneamericanews-vizio.amagi.tv/playlist.m3u8
@@ -476,7 +478,7 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.dadd
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USAK3508702A&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I207.16485.gracenote.com" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports", ESPN News
 #plugin://plugin.video.tvone112/play/78/2013/play.pvr
-http://fl2.moveonjoy.com/ESPN_NEWS/index.m3u8
+http://fl3.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ESPN 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN8_The_Ocho_ESPN_Organization_Logo.svg/330px-ESPN8_The_Ocho_ESPN_Organization_Logo.svg.png" group-title="Sports", ESPN OCHO
 https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
 #EXTINF:-1 tvg-id="I208.60696.gracenote.com" tvg-name="ESPNU" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/60696/s60696_ll_h15_aa.png" group-title="Sports", ESPNU USA
@@ -522,7 +524,8 @@ plugin://plugin.video.madtitansports/sportjetextractors/play?urls=plugin://plugi
 plugin://plugin.video.the-loop/eplayer/play?url=epg/405
 #EXTINF:-1 tvg-id="I211.65025.gracenote.com" tvg-name="NFL Redzone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/NFL_Network_Redzone.png/225px-NFL_Network_Redzone.png" group-title="Sports", NFL Redzone
 #plugin://plugin.video.tvone112/play/38/2375/play.pvr
-http://cord-cutter.net:8080/live/95549031/69361122/159118.m3u8
+#http://cord-cutter.net:8080/live/95549031/69361122/159118.m3u8
+http://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
 #EXTINF:-1 tvg-id="I215.58570.gracenote.com" tvg-name="NHL Network USA" tvg-logo="http://direct-vs-dish.com/media/channel_logos/nhl_network.png.300x300_q85.png" group-title="Sports", NHL Network
 #plugin://plugin.video.tvone112/play/38/1544/play.pvr
 http://fl3.moveonjoy.com/NHL_NETWORK/index.m3u8
@@ -530,7 +533,7 @@ http://fl3.moveonjoy.com/NHL_NETWORK/index.m3u8
 https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_32.m3u8|X-Forwarded-For=158.69.124.9
 #EXTINF:-1 tvg-id="I611.89535.gracenote.com" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/89535/s89535_ll_h15_aa.png" group-title="Sports", SEC Network USA
 #SEC.Network.HDTV.(SECN).us
-http://fl2.moveonjoy.com/SEC_NETWORK/index.m3u8
+http://fl3.moveonjoy.com/SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_Golf_-_Logo_2018.svg/768px-Sky_Sport_Golf_-_Logo_2018.svg.png?20180730152211" group-title="Sports", Sky Sport Golf
 plugin://plugin.video.the-loop/eplayer/play?url=epg/70
 #EXTINF:-1 tvg-id="I1704.50038.gracenote.com" tvg-name="SportsNet New York" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/49603/s49603_ll_h9_aa.png" group-title="Sports", SNY
@@ -590,7 +593,7 @@ https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="I362.11187.gracenote.com" tvg-name="The Weather Channel" tvg-logo="https://i.imgur.com/YRX2tY8.png" group-title="Weather", The Weather Channel
 #The.Weather.Channel.HDTV.(WEAHD).us
 #plugin://plugin.video.the-loop/ddplayer/play?url=https://webhdrunns.onlinehdhls.ru/lb/premium394/index.m3u8&Title=The Weather Channel&Icon=https://i.imgur.com/YRX2tY8.png
-#http://fl2.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
+#http://fl3.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
 https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
 #EXTINF:-1 tvg-id="WeatherNation.HDTV.(WTHRN).us" tvg-name="WeatherNation" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/72413/s72413_ll_h15_aa.png" group-title="Weather", Weather Nation
 https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
