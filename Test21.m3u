@@ -2,27 +2,17 @@
 
 #Broadcast
 #EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC USA
-plugin://plugin.video.tvone/play/23/play.pvr
-#EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC USA HD
 #plugin://plugin.video.tvone/play/23/play.pvr
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="I120.10098.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS USA
-plugin://plugin.video.tvone/play/64/play.pvr
-#EXTINF:-1 tvg-id="I120.10098.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS USA HD
 http://fl3.moveonjoy.com/CBS_News/index.m3u8
 #EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX USA
-plugin://plugin.video.tvone/play/117/play.pvr
-#EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX USA HD
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/95549031/69361122/120751.m3u8
 http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png", group-title="Broadcast", NBC USA
-plugin://plugin.video.tvone/play/160/play.pvr
-#EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png", group-title="Broadcast", NBC USA HD
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/95549031/69361122/120749.m3u8
 http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="I44.1.30617.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/500px-The_CW_2024.svg.png", group-title="Broadcast", CW USA
-plugin://plugin.video.tvone/play/87/play.pvr
-#EXTINF:-1 tvg-id="I44.1.30617.zap2it.com" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/500px-The_CW_2024.svg.png", group-title="Broadcast", CW USA HD
 https://cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8
 
 #EXTINF:-1 tvg-id="I10.1.32470.schedulesdirect.org" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Albany
@@ -184,8 +174,6 @@ https://fl3.moveonjoy.com/FYI/index.m3u8
 #EXTINF:-1 tvg-id="I312.11221.schedulesdirect.org" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Entertainment", Hallmark
 #plugin://plugin.video.tvone/play/479/play.pvr
 http://fl3.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="I312.11221.schedulesdirect.org" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Entertainment", Hallmark SD
-plugin://plugin.video.tvone/play/479/play.pvr
 #EXTINF:-1 tvg-id="I312.11221.schedulesdirect.org" tvg-name="Hallmark Channel" tvg-logo="https://ia801000.us.archive.org/18/items/HallmarkChannel/hallmark%20channel.png" group-title="Entertainment", Hallmark HD
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-320.php
 #EXTINF:-1 tvg-id="I564.105723.schedulesdirect.org" tvg-name="Hallmark Drama" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/105723/s105723_ll_h15_ab.png" group-title="Entertainment", Hallmark Drama
@@ -217,8 +205,7 @@ http://cord-cutter.net:8080/live/95549031/69361122/20863.m3u8
 #EXTINF:-1 tvg-id="I230.67375.schedulesdirect.org" tvg-name="MAGN" tvg-logo="https://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s18544_dark_360w_270h.png" group-title="Entertainment", Magnolia Network
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-299.php
 #EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Entertainment", MotorTrend
-plugin://plugin.video.tvone/play/697/play.pvr
-#EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="MotorTrend" tvg-logo="https://daystarr.net/wp-content/uploads/2019/01/2000px-Motor_Trend_logo.svg_.png" group-title="Entertainment", MotorTrend HD
+#plugin://plugin.video.tvone/play/697/play.pvr
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-661.php
 #EXTINF:-1 tvg-id="I276.24959.schedulesdirect.org" tvg-name="National Geographic" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/24959/s24959_ll_h15_ab.png" group-title="Entertainment", National Geographic
 I7.49438.schedulesdirect.org
