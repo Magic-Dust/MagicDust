@@ -20,7 +20,7 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]Cord-cutter 7686199[/COLOR] ts</title>
+<title>[COLOR=FF00FFFF]Cord-cutter 30550113[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -33,13 +33,13 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=7686199&amp;password=9576982&amp;type=m3u</page>
+<page>http://cord-cutter.net:8080/get.php?username=30550113&amp;password=30550113&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]Cord-cutter JoanP@112[/COLOR] ts</title>
+<title>[COLOR=FF00FFFF]Cord-cutter DAFsm1[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -52,13 +52,13 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=JoanP@112&amp;password=443@112&amp;type=m3u</page>
+<page>http://cord-cutter.net:8080/get.php?username=DAFsm1&amp;password=015993&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]Cord-cutter 95549031[/COLOR] ts</title>
+<title>[COLOR=FF00FFFF]Cord-cutter KB0cRT[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -71,26 +71,7 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=95549031&amp;password=69361122&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]Cord-cutter Crystal[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=crystal&amp;password=crystal&amp;type=m3u</page>
+<page>http://cord-cutter.net:8080/get.php?username=KB0cRT&amp;password=666742&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
@@ -114,24 +95,6 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]Supersonictv Bobby1[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht[^\n]+)</expres>
-<page>http://supersonictv.live:8080/get.php?username=Bobby1&amp;password=Bobby1&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=FF00FFFF]iptvtree[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -150,6 +113,23 @@
 </item>
 <item>
 
+<title>[COLOR=FF00FFFF]filex[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
+<page>http://filex.me:8080/get.php?username=989898&amp;password=989898&amp;type=m3u_plus&output=m3u8</page>
+</regex>
+</item>
+
 <title>[COLOR=FF00FFFF]1tv41[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -164,6 +144,23 @@
 ]]></listrepeat>
 <expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
 <page>http://1tv41.icu:8080/get.php?username=95135258&amp;password=95135258&amp;type=m3u</page>
+</regex>
+</item>
+
+<title>[COLOR=FF00FFFF]xxip25[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
+<page>http://xxip25.top:8080/get.php?username=k6fFPK&amp;password=788484&amp;type=m3u_plus</page>
 </regex>
 </item>
 
@@ -218,24 +215,6 @@
 ]]></listrepeat>
 <expres>,([^\n]+)\n(http:\/\/cod5.me[^\n]+)</expres>
 <page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/cod5.ts</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]x96.pro[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
-<page>http://x96.pro:8880/get.php?username=signaltv86&amp;password=90642361&amp;type=m3u</page>
 </regex>
 </item>
 
