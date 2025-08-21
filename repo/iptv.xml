@@ -126,7 +126,7 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
-<page>http://filex.me:8080/get.php?username=989898&amp;password=989898&amp;type=m3u_plus&output=m3u8</page>
+<page>http://filex.me:8080/get.php?username=989898&amp;password=989898&amp;type=m3u_plus&amp;output=m3u8</page>
 </regex>
 </item>
 
@@ -159,7 +159,7 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
+<expres>(?i),US.([^\n]+)\n(ht[^\n]+)</expres>
 <page>http://xxip25.top:8080/get.php?username=k6fFPK&amp;password=788484&amp;type=m3u_plus</page>
 </regex>
 </item>
@@ -179,78 +179,6 @@
 ]]></listrepeat>
 <expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
 <page>http://fortv.cc:8080/get.php?username=q8KuDU&amp;password=354945&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]TBTV[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/tbtv.me[^\n]+)</expres>
-<page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/tbtv.ts</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]Cod5[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/cod5.me[^\n]+)</expres>
-<page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/cod5.ts</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]TronicTV[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/tronicstvpanel[^\n]+)</expres>
-<page>https://github.com/iptvtvmini/boss/raw/refs/heads/tv/tronic</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]6oclock - Pumpkin1[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>group-title="[^\"]*",(.*)\(US\)[^\n]*\n(ht[^\s]*)</expres>
-<page>https://6oclock.xyz:8443/get.php?username=Pumpkin1&amp;password=Pumpkin1&amp;type=m3u_plus&amp;output=m3u</page>
 </regex>
 </item>
 
@@ -287,24 +215,6 @@
 ]]></listrepeat>
 <expres>group-title="Live Channels",([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://github.com/InsolenceWillow/insolencetvgo/raw/refs/heads/main/insolencetvgo.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]Stalker[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/stalker[^\n]+)</expres>
-<page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/stalker</page>
 </regex>
 </item>
 
