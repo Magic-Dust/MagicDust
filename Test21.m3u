@@ -133,7 +133,8 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/310
 https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8
 #EXTINF:-1 tvg-id="I300.10191.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Crave_2018_logo.svg/330px-Crave_2018_logo.svg.png" group-title="Entertainment", CRAVE 1
 #crave1.ca
-https://fl3.moveonjoy.com/CRAVE_1/index.m3u8
+#https://fl3.moveonjoy.com/CRAVE_1/index.m3u8
+plugin://plugin.video.myiptvpro/?url=https%3A%2F%2Fott.udptv.xyz%2Fstream%2Fudptv%2Fcrave1%2Fmaster.m3u8%3Fu%3Dcocked%26p%3Ddd0abb52723d22acc0f97fe0336480feaa88a37ecda55a138a8d5e0ee14b0664&amp;mode=12&amp;iconimage=https%3A%2F%2Fgithub.com%2Ftv-logo%2Ftv-logos%2Fblob%2Fmain%2Fcountries%2Fcanada%2Fcrave-1-ca.png%3Fraw%3Dtrue
 #EXTINF:-1 tvg-id="I301.12222.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Crave_2018_logo.svg/330px-Crave_2018_logo.svg.png" group-title="Entertainment", CRAVE 2
 #crave2.ca
 http://fl3.moveonjoy.com/CRAVE_2/index.m3u8
@@ -390,7 +391,7 @@ https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/cha
 https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 #EXTINF:-1 tvg-id="I68.15993.schedulesdirect.org" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
 plugin://plugin.video.live.streamspro/?url=https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8&mode=12
-#EXTINF:-1 tvg-id="I47.10145.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://cdn.cnn.com/cnnnext/dam/assets/170504153446-hln-logo-card-may-2017-large-169.jpg" group-title="News", Headline News
+#EXTINF:-1 tvg-id="I47.10145.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="InfoWars.us" tvg-name="Info Wars" tvg-logo="https://archives.infowars.com/wp-content/themes/infowars-sitegoals/images/logo.png" group-title="News", Info Wars
 http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
@@ -419,7 +420,7 @@ https://32ce4aad1eed49b1ba2999fb68d119c8.mediatailor.us-east-1.amazonaws.com/v1/
 plugin://plugin.video.live.streamspro/?url=%24doregex%5BgetUrl%5D&mode=17&regexs=%7B%27getUrl%27:%20%7B%27name%27:%20%27getUrl%27%2C%20%27expres%27:%20%27%23%24pyFunction%5Cnimport%20re%2Curllib.request%2Cresolveurl%5Cnfrom%20urllib.request%20import%20urlopen%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29:%23NYRA%5Cn%20%20source%20%3D%20urllib.request.urlopen%28%5C%27https://www.youtube.com/c/SkyNews/featured%5C%27%29.read%28%29.decode%28%5C%27utf-8%5C%27%29%5Cn%20%20return%20resolveurl.resolve%28%5C%27https://www.youtube.com//watch%3Fv%3D%5C%27%2Bre.findall%28%5C%27channelFeaturedContentRenderer%22:.%2A%3FvideoId%22:%22%28%5B%5E%22%5D%2A%29%5C%27%2Csource%29%5B0%5D%29%5Cn%27%2C%20%27page%27:%20%27https://www.youtube.com/c/thenyra/featured%27%2C%20%27cookiejar%27:%20%27%27%7D%7D&iconimage=https://static.epg.best/gb/SkyNews.uk.png
 #EXTINF:-1 tvg-id="USBB52000022Q" tvg-name="SKY News Extra" tvg-logo="https://i.imgur.com/Wl0iGsD.png" group-title="News", SKY News Live[COLOR magenta] (3 items )[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Sky+News&playlist=%5B%27https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8%24%24lsname%3DExtra+1%27%7C%7C+%27https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8%24%24lsname%3DExtra+2%27%7C%7C+%27https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8%24%24lsname%3DExtra+3%27%5D
-#EXTINF:-1 tvg-id="I1181.122614.schedulesdirect.org" tvg-logo="https://media.info/i/lf/900/1650993741/7543.png" group-title="News", Talk TV
+#EXTINF:-1 tvg-id="I1181.122614.schedulesdirect.org" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122614_dark_360w_270h.png" group-title="News", Talk TV
 #TalkTV.uk
 https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/talktv-live/index.m3u8
 #EXTINF:-1 tvg-id="I347.114934.schedulesdirect.org" tvg-logo="https://tf-a1.freetls.fastly.net/static/images/header-logo2.png" group-title="News", The First
@@ -485,7 +486,8 @@ plugin://plugin.video.the-loop/eplayer/play?url=epg/44
 #EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN2" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/12444/s12444_ll_h15_ab.png" group-title="Sports", ESPN2 USA
 plugin://plugin.video.the-loop/eplayer/play?url=epg/45
 #EXTINF:-1 tvg-id="I612.111871.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/500px-ACC_Network_ESPN_logo.svg.png" group-title="Sports", ESPN ACC
-plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-666.php
+#plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-666.php
+https://fl3.moveonjoy.com/ACC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="I612.111905.schedulesdirect.org" tvg-name="ACC Network" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2021-08/acc-networkjpg_zqyhbcc7ngjq1o22gz5uw1d3o.jpg" group-title="Sports", ACC Digital Network
 plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USAK3508702A&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="I207.16485.schedulesdirect.org" tvg-name="ESPNews US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/320px-ESPNews.svg.png" group-title="Sports", ESPN News
@@ -594,7 +596,7 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/144264/661943/22168
 #EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91306/s91306_ll_h15_aa.png" group-title="Sports", WWE Network
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-376.php
-#EXTINF:-1 tvg-id="I1702.46275.schedulesdirect.org" tvg-name="Yes Network" tvg-logo="https://www.sportfacts.org/wp-content/uploads/2017/05/YES_Network_logo-300x191.png" group-title="Sports", Yes Network
+#EXTINF:-1 tvg-id="I1702.46275.schedulesdirect.org" tvg-name="Yes Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s63558_dark_360w_270h.png" group-title="Sports", Yes Network
 #http://fl3.moveonjoy.com/YES_NETWORK/index.m3u8
 #plugin://plugin.video.tvone112/play/38/2044/play.pvr
 plugin://plugin.video.madtitansports/sportjetextractors/play?urls=https://d.daddylivehd.sx/stream/stream-763.php
