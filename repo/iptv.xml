@@ -129,8 +129,8 @@
 <page>http://iptvtree.net:8080/get.php?username=F15554&amp;password=Tve5ZWQEd485&amp;type=m3u</page>
 </regex>
 </item>
-<item>
 
+<item>
 <title>[COLOR=FF00FFFF]filex[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -148,6 +148,7 @@
 </regex>
 </item>
 
+<item>
 <title>[COLOR=FF00FFFF]1tv41[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -165,6 +166,7 @@
 </regex>
 </item>
 
+<item>
 <title>[COLOR=FF00FFFF]xxip25[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -213,7 +215,7 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)title="?????".*?,([^\n]+)\n(ht[^\n]+)</expres>
+<expres>(?i),([^\n]+)\n(ht[^\n]+)</expres>
 <page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
 </regex>
 </item>
