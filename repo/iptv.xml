@@ -20,6 +20,24 @@
 </item>
 
 <item>
+<title>[COLOR=FF00FFFF]Sports4kuhd[/COLOR] ad</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/kgasaz/4kuhd/master/sports-channels-4k.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=FF00FFFF]Cord-cutter 30550113[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -183,7 +201,7 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]Ivue[/COLOR] ts</title>
+<title>[COLOR=FF00FFFF]Russian[/COLOR] ad</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -193,10 +211,10 @@
 <title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/new.ivu[^\n]+)</expres>
-<page>https://github.com/iptvtvmini/boss/raw/refs/heads/tv/ivue</page>
+<expres>(?i)(?s)title="?????".*?,([^\n]+)\n(ht[^\n]+)</expres>
+<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
 </regex>
 </item>
 
@@ -233,6 +251,24 @@
 ]]></listrepeat>
 <expres>,([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>tvpass</title>
+<thumbnail>https://www.tvpassport.com/resource/img/tv-passport-logo.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>,([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tvpass.m3u</page>
 </regex>
 </item>
 
