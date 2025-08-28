@@ -20,6 +20,24 @@
 </item>
 
 <item>
+<title>[COLOR=FF00FFFF]Sports4kuhd[/COLOR] ad</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/kgasaz/4kuhd/master/sports-channels-4k.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=FF00FFFF]Cord-cutter 30550113[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -126,7 +144,7 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
-<page>http://filex.me:8080/get.php?username=989898&amp;password=989898&amp;type=m3u_plus&output=m3u8</page>
+<page>http://filex.me:8080/get.php?username=989898&amp;password=989898&amp;type=m3u_plus&amp;output=m3u8</page>
 </regex>
 </item>
 
@@ -159,7 +177,7 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
+<expres>(?i),US.([^\n]+)\n(ht[^\n]+)</expres>
 <page>http://xxip25.top:8080/get.php?username=k6fFPK&amp;password=788484&amp;type=m3u_plus</page>
 </regex>
 </item>
@@ -183,7 +201,7 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]TBTV[/COLOR] ts</title>
+<title>[COLOR=FF00FFFF]Russian[/COLOR] ad</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -193,82 +211,10 @@
 <title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/tbtv.me[^\n]+)</expres>
-<page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/tbtv.ts</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]Cod5[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/cod5.me[^\n]+)</expres>
-<page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/cod5.ts</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]TronicTV[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/tronicstvpanel[^\n]+)</expres>
-<page>https://github.com/iptvtvmini/boss/raw/refs/heads/tv/tronic</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]6oclock - Pumpkin1[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>group-title="[^\"]*",(.*)\(US\)[^\n]*\n(ht[^\s]*)</expres>
-<page>https://6oclock.xyz:8443/get.php?username=Pumpkin1&amp;password=Pumpkin1&amp;type=m3u_plus&amp;output=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]Ivue[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/new.ivu[^\n]+)</expres>
-<page>https://github.com/iptvtvmini/boss/raw/refs/heads/tv/ivue</page>
+<expres>(?i)(?s)title="?????".*?,([^\n]+)\n(ht[^\n]+)</expres>
+<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
 </regex>
 </item>
 
@@ -291,24 +237,6 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]Stalker[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]+)\n(http:\/\/stalker[^\n]+)</expres>
-<page>https://raw.githubusercontent.com/iptvtvmini/boss/refs/heads/tv/stalker</page>
-</regex>
-</item>
-
-<item>
 <title>IPTV-org</title>
 <thumbnail>https://cdn.appsplayground.com/ru.iptvremote.android.iptv-logo.png</thumbnail>
 <fanart></fanart>
@@ -323,6 +251,24 @@
 ]]></listrepeat>
 <expres>,([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>tvpass</title>
+<thumbnail>https://www.tvpassport.com/resource/img/tv-passport-logo.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>,([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tvpass.m3u</page>
 </regex>
 </item>
 
