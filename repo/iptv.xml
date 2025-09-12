@@ -20,6 +20,24 @@
 </item>
 
 <item>
+<title>hubsport</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>,([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/Love4vn/love4vn/refs/heads/main/hubsport.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>tvAPP</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -142,6 +160,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>UDPTV</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
+<page>https://github.com/ICEZOMBIE-m3u/DrewLive/raw/refs/heads/main/UDPTV.m3u</page>
 </regex>
 </item>
 
@@ -276,6 +312,24 @@
 </item>
 
 <item>
+<title>[COLOR=FF00FFFF]Supersonictv 006779[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]+)\n(ht[^\n]+)</expres>
+<page>http://supersonictv.live:8080/get.php?username=006779&amp;password=439866&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=FF00FFFF]xxip25[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -292,6 +346,7 @@
 <page>http://xxip25.top:8080/get.php?username=k6fFPK&amp;password=788484&amp;type=m3u_plus</page>
 </regex>
 </item>
+http://iptvtree.net:8080/F28312/cc1dc138/8793
 
 <item>
 <title>[COLOR=FF00FFFF]fortv[/COLOR] ts</title>
