@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
 
+<items_info>
+<title>MagicDust IPTV Lists</title>
+<genre></genre>
+<description></description>
+<thumbnail>https://github.com/Magic-Dust/MagicDust/blob/master/icon.png?raw=true</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/blob/master/fanart.jpg?raw=true</fanart>
+</items_info>
+
 <item>
 <title>LiveTVCollector</title>
 <thumbnail>https://avatars.githubusercontent.com/u/113718082?v=4</thumbnail>
@@ -111,7 +119,7 @@
 
 <item>
 <title>Mad Titan</title>
-<thumbnail>plugin://plugin.video.madtitansports/icon.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -129,7 +137,7 @@
 
 <item>
 <title>The Loop</title>
-<thumbnail>plugin://plugin.video.looptv/icon.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.looptv/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
