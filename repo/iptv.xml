@@ -3,7 +3,7 @@
 
 <item>
 <title>LiveTVCollector</title>
-<thumbnail></thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/113718082?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -20,8 +20,8 @@
 </item>
 
 <item>
-<title>hubsport</title>
-<thumbnail></thumbnail>
+<title>Xtreamlist Sports</title>
+<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -33,13 +33,13 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/Love4vn/love4vn/refs/heads/main/hubsport.m3u</page>
+<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
 </regex>
 </item>
 
 <item>
 <title>tvAPP</title>
-<thumbnail></thumbnail>
+<thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -57,7 +57,7 @@
 
 <item>
 <title>tvpass</title>
-<thumbnail>https://www.tvpassport.com/resource/img/tv-passport-logo.png</thumbnail>
+<thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -75,7 +75,7 @@
 
 <item>
 <title>nextgen</title>
-<thumbnail>https://www.tvpassport.com/resource/img/tv-passport-logo.png</thumbnail>
+<thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -93,7 +93,7 @@
 
 <item>
 <title>Moveonjoy</title>
-<thumbnail></thumbnail>
+<thumbnail>https://wooservers.com/wp-content/uploads/2020/04/flussonic.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -111,7 +111,7 @@
 
 <item>
 <title>Mad Titan</title>
-<thumbnail></thumbnail>
+<thumbnail>plugin://plugin.video.madtitansports/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -129,7 +129,7 @@
 
 <item>
 <title>The Loop</title>
-<thumbnail></thumbnail>
+<thumbnail>plugin://plugin.video.looptv/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -147,7 +147,7 @@
 
 <item>
 <title>BuddyTV</title>
-<thumbnail></thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/144280901?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -165,7 +165,7 @@
 
 <item>
 <title>UDPTV</title>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Image/logo2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -183,7 +183,7 @@
 
 <item>
 <title>A1Xmedia</title>
-<thumbnail></thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/188494592?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -200,8 +200,8 @@
 </item>
 
 <item>
-<title>Sports4kuhd</title>
-<thumbnail></thumbnail>
+<title>Russian tvclub</title>
+<thumbnail>https://s4.mzstatic.com/us/r1000/069/Purple/v4/71/18/91/71189130-1dcb-8dc8-e110-b973959710ef/mzm.ehnnxpmy.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -212,8 +212,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/kgasaz/4kuhd/master/sports-channels-4k.m3u</page>
+<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
 </regex>
 </item>
 
@@ -346,7 +346,6 @@
 <page>http://xxip25.top:8080/get.php?username=k6fFPK&amp;password=788484&amp;type=m3u_plus</page>
 </regex>
 </item>
-http://iptvtree.net:8080/F28312/cc1dc138/8793
 
 <item>
 <title>[COLOR=FF00FFFF]fortv[/COLOR] ts</title>
@@ -363,42 +362,6 @@ http://iptvtree.net:8080/F28312/cc1dc138/8793
 ]]></listrepeat>
 <expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
 <page>http://fortv.cc:8080/get.php?username=q8KuDU&amp;password=354945&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Russian</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
-</regex>
-</item>
-
-<item>
-<title>RO</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/CatmanT/Wk/refs/heads/main/trsh</page>
 </regex>
 </item>
 
