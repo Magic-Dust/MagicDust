@@ -46,8 +46,8 @@
 </item>
 
 <item>
-<title>nextgen</title>
-<thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
+<title>BuddyTV</title>
+<thumbnail>https://avatars.githubusercontent.com/u/144280901?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -58,26 +58,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Archive/nexgen.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>Moveonjoy</title>
-<thumbnail>https://wooservers.com/wp-content/uploads/2020/04/flussonic.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
-<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_moveonjoy.m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u</page>
 </regex>
 </item>
 
@@ -100,6 +82,24 @@
 </item>
 
 <item>
+<title>Russian tvclub</title>
+<thumbnail>https://s4.mzstatic.com/us/r1000/069/Purple/v4/71/18/91/71189130-1dcb-8dc8-e110-b973959710ef/mzm.ehnnxpmy.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
+</regex>
+</item>
+
+<item>
 <title>Xtreamlist Sports</title>
 <thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
 <fanart></fanart>
@@ -118,8 +118,8 @@
 </item>
 
 <item>
-<title>Mad Titan</title>
-<thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
+<title>nextgen</title>
+<thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -130,44 +130,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(plug[^\n]*)</expres>
-<page>https://magnetic.website/jet/playlist1.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>The Loop</title>
-<thumbnail>special://home/addons/plugin.video.looptv/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(plug[^\n]*)</expres>
-<page>https://bit.ly/4oo63xG</page>
-</regex>
-</item>
-
-<item>
-<title>BuddyTV</title>
-<thumbnail>https://avatars.githubusercontent.com/u/144280901?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Archive/nexgen.m3u8</page>
 </regex>
 </item>
 
@@ -204,24 +168,6 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(ht[^\n]*)</expres>
 <page>https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/a1x.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Russian tvclub</title>
-<thumbnail>https://s4.mzstatic.com/us/r1000/069/Purple/v4/71/18/91/71189130-1dcb-8dc8-e110-b973959710ef/mzm.ehnnxpmy.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
 </regex>
 </item>
 
@@ -356,24 +302,6 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]xxip25[/COLOR] ts</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US.([^\n]+)\n(ht[^\n]+)</expres>
-<page>http://xxip25.top:8080/get.php?username=k6fFPK&amp;password=788484&amp;type=m3u_plus</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=FF00FFFF]fortv[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -392,8 +320,8 @@
 </item>
 
 <item>
-<title>IPTV-org</title>
-<thumbnail>https://cdn.appsplayground.com/ru.iptvremote.android.iptv-logo.png</thumbnail>
+<title>[COLOR=Green]Mad Titan[/COLOR]</title>
+<thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -404,14 +332,14 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://iptv-org.github.io/iptv/languages/eng.m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(plug[^\n]*)</expres>
+<page>https://magnetic.website/jet/playlist1.m3u8</page>
 </regex>
 </item>
 
 <item>
-<title>tubi</title>
-<thumbnail>https://image.roku.com/developer_channels/prod/9f8dc98af9137fa19e6fc147405f914c2207e8499aa88313d8faf5dd43febfe7.png</thumbnail>
+<title>[COLOR=Green]The Loop[/COLOR]</title>
+<thumbnail>special://home/addons/plugin.video.looptv/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -422,14 +350,14 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_tubi.m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(plug[^\n]*)</expres>
+<page>https://bit.ly/4oo63xG</page>
 </regex>
 </item>
 
 <item>
-<title>Vizio</title>
-<thumbnail>https://www.yupptv.com/images/devices/vizio_store.png</thumbnail>
+<title>[COLOR=Orange]Moveonjoy[/COLOR] OFFLINE</title>
+<thumbnail>https://wooservers.com/wp-content/uploads/2020/04/flussonic.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -440,26 +368,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_vizio.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>XUMO</title>
-<thumbnail>https://www.demandafrica.com/wp-content/uploads/2016/09/Demand-africa-xumo-logo.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_xumo.m3u</page>
+<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
+<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_moveonjoy.m3u</page>
 </regex>
 </item>
 
