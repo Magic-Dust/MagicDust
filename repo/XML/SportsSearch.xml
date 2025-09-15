@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+<item>
+<title>NFL</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(NFL[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for NFL", links)
+     html=links[ret]
+     msg="Scraping NFL from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NCAAF</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(NCAAF[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for NCAAF", links)
+     html=links[ret]
+     msg="Scraping NCAAF from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NCAAB</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaab.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(NCAAB[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for NCAAB", links)
+     html=links[ret]
+     msg="Scraping NCAAB from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>MLB</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/mlb.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(MLB[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for MLB", links)
+     html=links[ret]
+     msg="Scraping MLB from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NBA</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nba.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(NBA[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for NBA", links)
+     html=links[ret]
+     msg="Scraping NBA from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NHL</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nhl.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(NHL[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for NHL", links)
+     html=links[ret]
+     msg="Scraping NHL from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>PGA</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/pga.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(PGA[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for PGA", links)
+     html=links[ret]
+     msg="Scraping PGA from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>PPV</title>
+<fanart></fanart>
+<thumbnail>special://home/addons/plugin.program.magicdust/resources/media/ppv-events-10.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(PPV[^\n]+)\n([^\n]+)]]></expres>
+<page>$doregex[get-source]</page>
+</regex>
+<regex>
+<name>get-source</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib.request
+ from urllib.request import urlopen 
+ import re
+ import xbmc
+ import xbmcgui
+ from xbmcgui import ListItem
+ title="MagicDust "
+ addon_name="[B][COLOR skyblue]MagicDust[/COLOR][/B]"
+ icon='special://home/addons/plugin.program.magicdust/resources/media/fractureft.jpg'
+ url = 'https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml'
+ f = urllib.request.urlopen(url)
+ html = f.read().decode('utf-8')
+ html=html.replace('\r', '')
+ IPTVsearch = r'(?i)<item>\n<title>([^<]+)[^,]+[^\n]+\n<expres>([^<]+)<\/expres>\n<page>([^<]+)'
+ found=[]
+ links=[]
+ found = re.findall(IPTVsearch, html)
+ for item in found:
+     temp={}
+     temp="[B][UPPERCASE]"+item[0]+"[/UPPERCASE][/B]- " +item[2] +"$" +item[1] +"|"
+     temp=temp.replace('\n', '').replace('\r', '')
+     if temp not in links:
+         links.append(temp)
+ f.close
+ if not links:
+     msg = 'No IPTV Services Found in iptv.xml'
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     sys.exit("No IPTV Services Found")
+ if len(links) > 0:
+     dialog = xbmcgui.Dialog()
+     ret = dialog.select("Choose IPTV Source for PPV", links)
+     html=links[ret]
+     msg="Scraping PPV from " + html
+     xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
+     Sourcesearch = 'http[^$]*'
+     link = re.findall(Sourcesearch, html, re.IGNORECASE)
+     url = link[0]
+     url=url.replace('&amp;', '&')
+     return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+</items>
