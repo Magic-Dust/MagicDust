@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+<item>
+<title>World-IPTV - [COLOR gold]All Telegram[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2] - [COLOR gold][makelist.param4][/COLOR]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>$doregex[makesublist]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(h[^\/]+\/\/)([^\/]+)([^=]+=)([^&]+&)([^&]+&)([^\s]*)]]></expres>
+<page>https://raw.githubusercontent.com/akeotaseo/world_repo/1ccf9868078341604f5045b1bde594777db9ef12/Updater_Matrix/XML2/%7BAllTelegram%7D2.txt</page>
+</regex>
+<regex>
+<name>makesublist</name>
+<listrepeat><![CDATA[
+  <title>[makesublist.param1]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makesublist.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[(?i),US.([^\n]+)\n(ht[^\n]+)]]></expres>
+<page>[makelist.param1][makelist.param2][makelist.param3][makelist.param4][makelist.param5][makelist.param6]</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>World-IPTV - [COLOR gold]25[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2] - [COLOR gold][makelist.param4][/COLOR]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>$doregex[makesublist]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(h[^\/]+\/\/)([^\/]+)([^=]+=)([^&]+&)([^&]+&)([^\s]*)]]></expres>
+<page>https://raw.githubusercontent.com/akeotaseo/world_repo/1ccf9868078341604f5045b1bde594777db9ef12/Updater_Matrix/XML2/25.txt</page>
+</regex>
+<regex>
+<name>makesublist</name>
+<listrepeat><![CDATA[
+  <title>[makesublist.param1]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makesublist.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[(?i),US.([^\n]+)\n(ht[^\n]+)]]></expres>
+<page>[makelist.param1][makelist.param2][makelist.param3][makelist.param4][makelist.param5][makelist.param6]</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>World-IPTV - [COLOR gold]ABN[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2] - [COLOR gold][makelist.param4][/COLOR]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>$doregex[makesublist]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(h[^\/]+\/\/)([^\/]+)([^=]+=)([^&]+&)([^&]+&)([^\s]*)]]></expres>
+<page>https://github.com/akeotaseo/world_repo/raw/refs/heads/main/Updater_Matrix/XML2/ABN.txt</page>
+</regex>
+<regex>
+<name>makesublist</name>
+<listrepeat><![CDATA[
+  <title>[makesublist.param1]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makesublist.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[(?i),US.([^\n]+)\n(ht[^\n]+)]]></expres>
+<page>[makelist.param1][makelist.param2][makelist.param3][makelist.param4][makelist.param5][makelist.param6]</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>World-IPTV - [COLOR gold]DOV[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2] - [COLOR gold][makelist.param4][/COLOR]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>$doregex[makesublist]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)(h[^\/]+\/\/)([^\/]+)([^=]+=)([^&]+&)([^&]+&)([^\s]*)]]></expres>
+<page>https://raw.githubusercontent.com/akeotaseo/world_repo/1ccf9868078341604f5045b1bde594777db9ef12/Updater_Matrix/XML2/DOV.txt</page>
+</regex>
+<regex>
+<name>makesublist</name>
+<listrepeat><![CDATA[
+  <title>[makesublist.param1]</title>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makesublist.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[(?i),US.([^\n]+)\n(ht[^\n]+)]]></expres>
+<page>[makelist.param1][makelist.param2][makelist.param3][makelist.param4][makelist.param5][makelist.param6]</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>Hubsport IPTV Providers</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
+<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/hubsport.m3u
+</page>
+</regex>
+</item>
+
+</items>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+<item>
+<title>Latest Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/top?limit=50</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>MLB Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2521705/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NFL Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2459789/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NBA Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2459788/clips?limit=30</page>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NCAA Football Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2564308/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NCAA Basketball Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2459792/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NASCAR Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2492290/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>NHL Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2459791/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Tennis Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2491545/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Golf Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2630020/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>MMA Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2881270/clips?limit=30</page>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41</agent>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Boxing Clips</title>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/250px-ESPNews.svg.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][/COLOR]</title>
+<description>[makelist.param2]</description>
+<link>$doregex[get-link]</link>
+<thumbnail>$doregex[get-icon]</thumbnail>
+<info>[makelist.param2]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)(?i)"headline" :"([^"]*).*?description"[^"]+"([^"]*)".*?thumbnail" :"([^"]*).*?HLS" :{"href" :"([^"]*)]]></expres>
+<page>http://api-app.espn.com/v1/video/channels/2491554/clips?limit=30</page>
+</regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param4]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-icon</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+</item>
+
+</items>
