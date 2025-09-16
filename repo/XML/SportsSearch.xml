@@ -55,7 +55,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NFL from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -119,7 +119,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NCAAF from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -183,7 +183,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NCAAB from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -247,7 +247,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping MLB from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -311,7 +311,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NBA from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -375,7 +375,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NHL from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -439,7 +439,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping PGA from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -503,7 +503,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping PPV from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = 'http|plug[^$]*'
+     Sourcesearch = '[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
