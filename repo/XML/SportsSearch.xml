@@ -10,7 +10,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>[makelist.param2]</link>
+<link>$doregex[get-link]</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
@@ -63,6 +63,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:'[makelist.param2]'.replace('%0A','')</expres>
+<page></page>
+</regex>
+<regex>
+
 </item>
 
 <item>
