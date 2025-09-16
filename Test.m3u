@@ -1,0 +1,78 @@
+#EXTM3U x-tvg-url="https://github.com/acidjesuz/EPGTalk/raw/master/guide.xml"
+#Broadcast
+#EXTINF:-1 tvg-id="I10.1.32470.schedulesdirect.org" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Albany
+http://cord-cutter.net:8080/hq3y4G/234247/48324
+#EXTINF:-1 tvg-id="I2.10367.schedulesdirect.org" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS Albany
+http://supersonictv.live:8080/live/Bobby1/Bobby1/71805.m3u8
+#EXTINF:-1 tvg-id="I11.10741.schedulesdirect.org" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Albany
+http://supersonictv.live:8080/live/Bobby1/Bobby1/71304.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Myrtle Beach
+http://supersonictv.live:8080/live/Bobby1/Bobby1/71482.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png" group-title="Broadcast", CBS Myrtle Beach
+http://supersonictv.live:8080/live/Bobby1/Bobby1/71483.m3u8
+
+#Entertainment
+#EXTINF:-1 tvg-id="I659.16496.schedulesdirect.org" tvg-name="Adult Swim East" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="Entertainment", Adult Swim East
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS EAST HD
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I104.34240.schedulesdirect.org" tvg-name="TBS West" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS West HD
+https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I256.64312.schedulesdirect.org" tvg-name="TCM US" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64312/s64312_ll_h15_ab.png" group-title="Entertainment", TCM HD
+https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="turnerclassicmovies.us" tvg-name="TCM WEST" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64312/s64312_ll_h15_ab.png" group-title="Entertainment", TCM West HD
+https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Entertainment", TNT USA HD
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I652.91993.schedulesdirect.org" tvg-name="TNT West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tnt_tv_logo_old.svg/480px-Tnt_tv_logo_old.svg.png" group-title="Entertainment", TNT West HD
+https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I246.64490.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Entertainment", tru TV HD
+https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I74.24569.schedulesdirect.org" tvg-name="Tru TV West" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Entertainment", tru TV West HD
+https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
+
+#Kids
+#EXTINF:-1 tvg-id="I296.12131.schedulesdirect.org" tvg-name="Cartoon Network" tvg-logo="https://static.epg.best/nz/CartoonNetwork.nz.png" group-title="Kids", Cartoon Network HD
+https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
+
+#Movies
+#Music
+#News
+#EXTINF:-1 tvg-id="USBC39000171G" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABC News LIVE[COLOR magenta] (6 items )[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8%24%24lsname%3DLive+1%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8%24%24lsname%3DLive+2%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8%24%24lsname%3DLive+3%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8%24%24lsname%3DLive+4%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
+#EXTINF:-1 tvg-id="USBA370000104" tvg-name="" tvg-logo="https://mainstream.whatfinger.com/wp-content/uploads/2024/10/live-latest-news-breaking-storie-19.jpg" group-title="News", CBSN LIVE [COLOR magenta]4 Items[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+LIVE&playlist=%5B%27https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8%24%24lsname%3DLA%27%7C%7C+%27https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8%24%24lsname%3DNew+York%27%5D
+#EXTINF:-1 tvg-id="I202.58646.schedulesdirect.org" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN USA HD
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="I359.58649.schedulesdirect.org" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business HD
+plugin://plugin.video.live.streamspro/?url=%24doregex%5Bgetstream%5D&mode=17&regexs=%7Bu%27getstream%27:%20%7B%27expres%27:%20u%27playerInstance.setup%5C%5C%28%7B%5B%5E%22%5D%2A%22%28%5B%5E%22%5D%2A%29%27%2C%20%27name%27:%20u%27getstream%27%2C%20%27page%27:%20u%27https://www.livenewsnow.com/business/fox-business-network-fbn.html%27%7D%7D
+#EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-logo="https://freespeech.org/wp-content/uploads/2021/02/FSTVLogo.png" group-title="News", Free Speech
+https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
+#EXTINF:-1 tvg-id="I506.118853.schedulesdirect.org" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN
+https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
+#EXTINF:-1 tvg-id="I68.15993.schedulesdirect.org" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
+plugin://plugin.video.live.streamspro/?url=https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8&mode=12
+#EXTINF:-1 tvg-id="I47.10145.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="InfoWars.us" tvg-name="" tvg-logo="https://logodix.com/logo/1638409.jpg" group-title="News", INFOWARS
+https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
+#EXTINF:-1 tvg-id="NewsmaxTV" tvg-name="NewsmaxTV" tvg-logo="https://www.sling.com/whatson/entertainment/documentary-and-news/media_1d9c6173fe0e5875ae0b6c75b1914e1cf07b60539.jpeg" group-title="News", Newsmax HD
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
+#EXTINF:-1 tvg-id="55b179af994403942f3061d6" tvg-name="Newsmax2" tvg-logo="https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax2-white.png" group-title="News", Newsmax2 HD
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-id="One.America.News.Network.HDTV.(East).(OANHD).us" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
+https://oneamericanews-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", Real America's Voice
+https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8
+#EXTINF:-1 tvg-id="I347.114934.schedulesdirect.org" tvg-logo="https://tf-a1.freetls.fastly.net/static/images/header-logo2.png" group-title="News", The First
+https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
+
+#Sports
+#Weather
+#EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" tvg-logo="https://i.imgur.com/YRX2tY8.png" group-title="Weather", The Weather Channel HD
+https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
+#EXTINF:-1 tvg-id="WeatherNation.HDTV.(WTHRN).us" tvg-name="WeatherNation" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/72413/s72413_ll_h15_aa.png" group-title="Weather", Weather Nation HD
+https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
+#EXTINF:-1 tvg-id="15.4.WPDEDT4@HDHomerunSimple" tvg-name="WPDEDT4" tvg-logo="https://play-lh.googleusercontent.com/RXXx5R-ZU9c5y1mP2SZwneTV-f3i_Vj6-_2lsZHhaHX6lXIxSJHBgstVxSyWdMHe3g" group-title="Weather", WPDE
+pvr://channels/tv/Favorite%20channels@3/0@pvr.hdhomerun_1613215902.pvr
