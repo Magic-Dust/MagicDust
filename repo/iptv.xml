@@ -28,6 +28,24 @@
 </item>
 
 <item>
+<title>Moveonjoy[/COLOR]</title>
+<thumbnail>https://wooservers.com/wp-content/uploads/2020/04/flussonic.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
+<page>https://github.com/abusaeeidx/IPTV-Scraper-Zilla/raw/refs/heads/main/Moveonjoy.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>tvpass</title>
 <thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
 <fanart></fanart>
@@ -202,7 +220,7 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
 <page>http://cord-cutter.net:8080/get.php?username=hq3y4G&amp;password=121149&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
@@ -221,7 +239,7 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
 <page>http://cord-cutter.net:8080/get.php?username=30550113&amp;password=30550113&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
@@ -240,7 +258,7 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
 <page>http://cord-cutter.net:8080/get.php?username=DAFsm1&amp;password=015993&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
@@ -259,8 +277,46 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US.([^\n]*)\n(ht[^\s]*)</expres>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
 <page>http://cord-cutter.net:8080/get.php?username=KB0cRT&amp;password=666742&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=FF00FFFF]Cord-cutter JoanP@112[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=JoanP@112&amp;password=443@112&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=FF00FFFF]Cord-cutter 95549031[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=95549031&amp;password=69361122&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
@@ -302,7 +358,7 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]fortv[/COLOR] ts</title>
+<title>[COLOR=FF00FFFF]fortv q8KuDU[/COLOR] ts</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -314,13 +370,13 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US[^\:]+:([^\n]+)\n(ht[^\n]+)</expres>
+<expres>(?i),US([^\n]+)\n(ht[^\n]+)</expres>
 <page>http://fortv.cc:8080/get.php?username=q8KuDU&amp;password=354945&amp;type=m3u</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=Green]Mad Titan[/COLOR]</title>
+<title>[COLOR=green]Mad Titan[/COLOR]</title>
 <thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -338,7 +394,7 @@
 </item>
 
 <item>
-<title>[COLOR=Green]The Loop[/COLOR]</title>
+<title>[COLOR=green]The Loop[/COLOR]</title>
 <thumbnail>special://home/addons/plugin.video.looptv/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -352,24 +408,6 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(plug[^\n]*)</expres>
 <page>https://bit.ly/4oo63xG</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=Orange]Moveonjoy[/COLOR] OFFLINE</title>
-<thumbnail>https://wooservers.com/wp-content/uploads/2020/04/flussonic.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
-<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_moveonjoy.m3u</page>
 </regex>
 </item>
 
