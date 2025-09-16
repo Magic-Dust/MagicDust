@@ -65,7 +65,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <regex>
 <name>get-link</name>
-<expres>$pyFunction:'[makelist.param2]'.replace('%0A','')</expres>
+<expres>$pyFunction:'[makelist.param2]'.replace('\n','')</expres>
 <page></page>
 </regex>
 </item>
