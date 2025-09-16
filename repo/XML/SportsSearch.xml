@@ -14,7 +14,7 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NFL["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NFL["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -55,7 +55,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NFL from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -78,7 +78,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NCAAF["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NCAAF["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -119,7 +119,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NCAAF from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -142,7 +142,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NCAAB["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NCAAB["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -183,7 +183,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NCAAB from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -206,7 +206,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(MLB["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(MLB["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -247,7 +247,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping MLB from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -270,7 +270,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NBA["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NBA["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -311,7 +311,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NBA from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -334,7 +334,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NHL["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NHL["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -375,7 +375,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping NHL from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -398,7 +398,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(PGA["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(PGA["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -439,7 +439,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping PGA from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
@@ -462,7 +462,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i),(PPV["| ][^\n]+)\n([^\s\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i),(PPV["| ][^\n]+)\n([^\n]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -503,7 +503,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
      html=links[ret]
      msg="Scraping PPV from " + html
      xbmcgui.Dialog().notification(addon_name, msg, icon, 2000, False)
-     Sourcesearch = '[a-z][^$]*'
+     Sourcesearch = 'http[^$]*'
      link = re.findall(Sourcesearch, html, re.IGNORECASE)
      url = link[0]
      url=url.replace('&amp;', '&')
