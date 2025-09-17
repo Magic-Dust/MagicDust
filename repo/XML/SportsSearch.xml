@@ -10,11 +10,11 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>$doregex[get-link]</link>
+<link>[makelist.param2]</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NFL["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NFL["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -63,11 +63,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<regex>
-<name>get-link</name>
-<expres>$pyFunction:'[makelist.param2]'.replace('\n','')</expres>
-<page></page>
-</regex>
 </item>
 
 <item>
@@ -83,7 +78,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NCAAF["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NCAAF["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -147,7 +142,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NCAAB["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NCAAB["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -211,7 +206,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(MLB["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(MLB["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -275,7 +270,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NBA["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NBA["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -339,7 +334,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NHL["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NHL["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -403,7 +398,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(PGA["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(PGA["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -467,7 +462,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i),(PPV["| ][^\n]+)\n([^\n]+)]]></expres>
+<expres><![CDATA[(?s)(?i),(PPV["| ][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
