@@ -394,6 +394,42 @@
 </item>
 
 <item>
+<title>[COLOR=FF00FFFF]tv14s A1Jay[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://tv14s.xyz:8080/get.php?username=A1Jay5&amp;password=362586&&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=FF00FFFF]goldenpro miyem2026[/COLOR] ts</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://goldenpro.xyz:80/get.php?username=miyem2026amp;password=RV1G544&&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=green]Mad Titan[/COLOR]</title>
 <thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
 <fanart></fanart>
