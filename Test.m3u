@@ -266,8 +266,13 @@ https://tvpass.org/live/MTVEast/sd
 https://tvpass.org/live/mtv-2-east/sd
 
 #News
-#EXTINF:-1 tvg-id="ABC.NEWS.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-live-event-us.png?raw=true" group-title="News", ABC News LIVE[COLOR magenta] (6 items )[/COLOR]
+#EXTINF:-1 tvg-id="ABC.NEWS.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="News", ABC News
+#https://live-manifest.production-public.tubi.io/live/10154005-877b-45cb-b6a5-81eca4662c74/playlist.m3u8
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABC LIVE Feeds[COLOR magenta] (5 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8%24%24lsname%3DLive+1%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8%24%24lsname%3DLive+2%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8%24%24lsname%3DLive+3%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8%24%24lsname%3DLive+4%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="News", ABC Regional[COLOR magenta] (4 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=ABC+Regional&playlist=%5B%27plugin://slyguy.stirr.provider/?_=play&_play=1&id=6527&_is_live=1&_noresume=.pvr%24%24lsname%3DAlbany%27%7C%7C+%27%27https://livetv-fa.tubi.video/wcvb/playlist.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8%24%24lsname%3DDenver%27%7C%7C+%27https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8%24%24lsname%3New+York5%27%5D
 #EXTINF:-1 tvg-id="BBC.News.-.North.America.ca" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News North America HD SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bbc-america-hz-us.png?raw=true" group-title="News", BBC News (SD)
@@ -278,6 +283,8 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
 #EXTINF:-1 tvg-id="bloomberg-tv-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" tvg-name="Bloomberg TV USA SD" group-title="News", Bloomberg (SD)
 https://tvpass.org/live/BloombergTV/sd
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" group-title="News", Bloomberg LIVE Feeds[COLOR magenta] (4 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlist=%5B%27https://bloomberg.com/media-manifest/streams/us-event.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/politics.m3u8%24%24lsname%3DUS+Politics%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/eu-event.m3u8%24%24lsname%3DEurope%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8%24%24lsname%3DBloomberg+Extra%27%5D
 #EXTINF:-1 tvg-id="cspan" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/c-span-1-us.png?raw=true" tvg-name="C-SPAN SD" group-title="News", C-SPAN (SD)
 https://tvpass.org/live/CSPAN/sd
 #EXTINF:-1 tvg-id="cspan-2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/c-span-2-us.png?raw=true" tvg-name="C-SPAN 2 SD" group-title="News", C-SPAN 2 (SD)
@@ -286,6 +293,11 @@ https://tvpass.org/live/CSPAN2/sd
 https://d36tuf8zz9b2bm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hfw6opvomwxih/CBC_News_International.m3u8
 #EXTINF:-1 tvg-id="CBN.ca" tvg-logo="https://secure.cbn.com/images8/cbnnews/news-channel-logo.png" group-title="News", CBN
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+#EXTINF:-1 tvg-id="CBNNews.us" tvg-name="CBSN" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBSN
+#https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://mainstream.whatfinger.com/wp-content/uploads/2024/10/live-latest-news-breaking-storie-19.jpg" group-title="News", CBSN Regional [COLOR magenta](4 Items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=CBSN+Regional&playlist=%5B%27https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8%24%24lsname%3DLA%27%7C%7C+%27https://lineup.cbsivideo.com/playout/8796731e-7ce7-4bcf-bb04-41ef5a969c62/master.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8%24%24lsname%3DNew+York%27%5D
 #EXTINF:-1 tvg-id="cnbc-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-prime-neon-shark-tank-us.png?raw=true" tvg-name="CNBC USA SD" group-title="News", CNBC (SD)
 https://tvpass.org/live/CNBC/sd
 #EXTINF:-1 tvg-id="cnn" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnn-us.png?raw=true" tvg-name="CNN US SD" group-title="News", CNN (SD)
@@ -312,10 +324,10 @@ https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
 #EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN
 https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
-#EXTINF:-1 tvg-id="I506.118853.schedulesdirect.org" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN HD
+#EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN HD
 https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="Global.BC.ca" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News
-https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
+#EXTINF:-1 tvg-id="Global.BC.ca" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News[COLOR magenta] (5 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8%24%24lsname%3DBC%27%7C%7C+%27https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8%24%24lsname%3DMontreal%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8%24%24lsname%3DNational%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8%24%24lsname%3DToronto%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
 #EXTINF:-1 tvg-id="hln" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hln-us.png?raw=true" tvg-name="HLN SD" , HLN (SD)
 https://tvpass.org/live/HLN/sd
 #EXTINF:-1 tvg-id="HLN.us" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News HD
@@ -324,16 +336,8 @@ https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.
 https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="msnbc-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-hz-us.png?raw=true" tvg-name="MSNBC USA SD" group-title="News", MSNBC (SD)
 https://tvpass.org/live/MSNBC/sd
-#EXTINF:-1 tvg-id="plex.tv.News.12.New.York.plex" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 New York
-https://aegis-cloudfront-1.tubi.video/1568cc70-2bf5-4f52-805b-42e0e514a77a/playlist.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 Bronx
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 Brooklyn
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 Hudson Valley
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 Long Island
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 New York[COLOR magenta] (4 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=News+12+NY&playlist=%5B%27https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8%24%24lsname%3DBronx%27%7C%7C+%27https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8%24%24lsname%3DBrooklyn%27%7C%7C+%27https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8%24%24lsname%3DHudson+Valley%27%7C%7C+%27https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12WH_A1/index_new.m3u8%24%24lsname%3DWestchester%27%7C%7C+%27https://live-manifest.production-public.tubi.io/live/3b3697be-6add-4564-abb1-9358014f2d3a/playlist.m3u8%24%24lsname%3DMain%27%5D
 #EXTINF:-1 tvg-id="newsmax-tv" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/newsmax-tv-us.png?raw=true" tvg-name="NewsMax TV SD" group-title="News", NewsMax (SD)
 https://tvpass.org/live/NewsmaxTV/sd
 #EXTINF:-1 tvg-id="NewsMax.TV.us" tvg-name="NewsmaxTV" tvg-logo="https://www.sling.com/whatson/entertainment/documentary-and-news/media_1d9c6173fe0e5875ae0b6c75b1914e1cf07b60539.jpeg" group-title="News", Newsmax HD
