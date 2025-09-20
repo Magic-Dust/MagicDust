@@ -62,7 +62,7 @@ http://cord-cutter.net:8080/hq3y4G/234247/120750
 https://tvpass.org/live/WNET/sd
 #EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="NBC (WNBC) New York" group-title="Broadcast", NBC NY HD
 http://cord-cutter.net:8080/hq3y4G/234247/120751
-#EXTINF:-1 tvg-id="wpix-new-york-superstation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cw-ca.png?raw=true" tvg-name="WPIX New York (SUPERSTATION) SD" group-title="Broadcast", WPIX NY (SD)
+#EXTINF:-1 tvg-id="wpix-new-york-superstation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cw-ca.png?raw=true" tvg-name="WPIX New York (SUPERSTATION) SD" group-title="Broadcast", CW NY WPIX (SD)
 https://tvpass.org/live/WPIX/sd
 
 #EXTINF:-1 tvg-id="ABC.(KTVO).Kirskville,.MO.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC MO KTVO-DT1 (720p)
@@ -124,7 +124,7 @@ https://cvtv.cvalley.net/hls/KMCIBounceTV/KMCIBounceTV.m3u8
 https://tvpass.org/live/BravoEast/sd
 #EXTINF:-1 tvg-id="comedy-central-us-eastern-feed" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/comedy-central-icon-us.png?raw=true" tvg-name="Comedy Central (US) Eastern Feed SD" group-title="Entertainment", Comedy Central (SD)
 https://tvpass.org/live/ComedyCentralEast/sd
-#EXTINF:-1 tvg-id="cmt-us-eastern-feed" tvg-name="CMT US Eastern Feed SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cmt-color-us.png?raw=true" group-title="Entertainment", CMT US (SD)
+#EXTINF:-1 tvg-id="cmt-us-eastern-feed" tvg-name="CMT US Eastern Feed SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cmt-color-us.png?raw=true" group-title="Entertainment", CMT (SD)
 https://tvpass.org/live/CMTEast/sd
 #EXTINF:-1 tvg-id="Comet.TV.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/comet-us.png?raw=true" group-title="Entertainment", Comet  (720p)
 https://cvtv.cvalley.net/hls/KRCGComet/KRCGComet.m3u8
@@ -260,6 +260,8 @@ https://tvpass.org/live/HBOComedyEast/sd
 https://tvpass.org/live/ShowtimeEast/sd
 
 #Music
+#EXTINF:-1 tvg-id="" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png|user-agent=okhttp/4.9.3" tvg-name="Music Legends" group-title="Music", Music Legends
+plugin://slyguy.plex.live/?_=play&_play=1&id=5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="mtv-usa-eastern-feed" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-us.png?raw=true" tvg-name="MTV USA Eastern Feed SD" group-title="Music", MTV (SD)
 https://tvpass.org/live/MTVEast/sd
 #EXTINF:-1 tvg-id="mtv-2-east" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-2-us.png?raw=true" tvg-name="MTV 2 East SD" group-title="Music", MTV 2 (SD)
@@ -363,15 +365,15 @@ https://tvpass.org/live/CBSSportsNetworkUSA/sd
 https://tvpass.org/live/ESPN/sd
 #EXTINF:-1 tvg-id="espn-news" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" tvg-name="ESPN News SD" group-title="Sports", ESPN News (SD)
 https://tvpass.org/live/ESPNews/sd
-#EXTINF:-1 tvg-id="espn-u" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" tvg-name="ESPN U SD" group-title="Sports", ESPN U (SD)
+#EXTINF:-1 tvg-id="espn-u" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" tvg-name="ESPN U SD" group-title="Sports", ESPNU (SD)
 https://tvpass.org/live/ESPNU/sd
 #EXTINF:-1 tvg-id="espn2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" tvg-name="ESPN2 SD" group-title="Sports", ESPN2 (SD)
 https://tvpass.org/live/ESPN2/sd
 #EXTINF:-1 tvg-id="sec-network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-sec-us.png?raw=true" tvg-name="SEC Network SD" , ESPN SEC Network (SD)
 https://tvpass.org/live/SECN/sd
-#EXTINF:-1 tvg-id="" tvg-name="ESPN 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN8_The_Ocho_ESPN_Organization_Logo.svg/330px-ESPN8_The_Ocho_ESPN_Organization_Logo.svg.png" group-title="Sports", ESPN OCHO
-https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 8" tvg-logo="https://espnpressroom.com/us/files/2021/08/ESPN_Ocho_1600-768x432-1.jpg" group-title="Sports", ESPN OCHO
 #https://amg00497-amg00497c24-amgplt0023.playout.now3.amagi.tv/playlist/amg00497-amg00497c24-amgplt0023/playlist.m3u8
+https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
 #EXTINF:-1 tvg-id="fanduel-sports-network-detroit-hd" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-detroit-us.png?raw=true" tvg-name="Fanduel Sports Network Detroit SD" group-title="Sports", Fanduel Detroit (SD)
 https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
 #EXTINF:-1 tvg-id="fanduel-sports-network-florida" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-florida-us.png?raw=true" tvg-name="Fanduel Sports Network Florida SD" group-title="Sports", Fanduel Florida (SD)
@@ -420,9 +422,9 @@ https://tvpass.org/live/midatlantic-sports-network/sd
 https://tvpass.org/live/MLBNetwork/sd
 #EXTINF:-1 tvg-id="msg-madison-square-gardens" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true tvg-name="MSG Madison Square Gardens" group-title="Sports", MSG (SD)
 https://tvpass.org/live/msg-madison-square-gardens/sd
-#EXTINF:-1  tvg-name="MSG Plus SD" tvg-id="msg-plus" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports", MSG Plus (SD)
+#EXTINF:-1 tvg-name="MSG Plus SD" tvg-id="msg-plus" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports", MSG Plus (SD)
 https://tvpass.org/live/msg-plus/sd
-EXTINF:-1 tvg-id="nba-tv-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" tvg-name="NBA TV USA SD" group-title="Sports", NBA TV (SD)
+#EXTINF:-1 tvg-id="nba-tv-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" tvg-name="NBA TV USA SD" group-title="Sports", NBA TV (SD)
 https://tvpass.org/live/NBATV/sd
 #EXTINF:-1 tvg-id="nbc-sports-bay-area" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbcsn-bay-area-us.png?raw=true" tvg-name="NBC Sports Bay Area SD" group-title="Sports", NBC Sports Bay Area (SD)
 https://tvpass.org/live/nbc-sports-bay-area/sd
