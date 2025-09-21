@@ -11,11 +11,11 @@ http://supersonictv.live:8080/live/Bobby1/Bobby1/71304.m3u8
 #EXTINF:-1 tvg-id="NBC.(WNYT).Albany,.NY.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC Albany
 http://cord-cutter.net:8080/hq3y4G/234247/120745
 
-#EXTINF:-1 tvg-id="abc-kabc-los-angeles-ca" tvg-name="ABC (KABC) Los Angeles SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC LA (SD) Los Angeles
+#EXTINF:-1 tvg-id="ABC.(KABC).Los.Angeles,.CA.us" tvg-name="ABC (KABC) Los Angeles SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC LA (SD) Los Angeles
 https://tvpass.org/live/abc-kabc-los-angeles-ca/sd
 #EXTINF:-1 tvg-id="ABC.(KABC).Los.Angeles,.CA.us" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA HD Los Angeles
 http://supersonictv.live:8080/live/Bobby1/Bobby1/71609.m3u8
-#EXTINF:-1 tvg-id="cbs-kcbs-los-angeles-ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-logo-white-us.png?raw=true" tvg-name="CBS (KCBS) Los Angeles SD" group-title="Broadcast", CBS LA (SD) Los Angeles
+#EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-logo-white-us.png?raw=true" tvg-name="CBS (KCBS) Los Angeles SD" group-title="Broadcast", CBS LA (SD) Los Angeles
 https://tvpass.org/live/cbs-kcbs-los-angeles-ca/sd
 #EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA HD Los Angeles
 http://cord-cutter.net:8080/hq3y4G/234247/120654
@@ -46,7 +46,7 @@ http://cord-cutter.net:8080/hq3y4G/234247/120789
 #EXTINF:-1 tvg-id="NBC.(WMBF).Myrtle.Beach,.SC.us" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC Myrtle Beach
 http://cord-cutter.net:8080/hq3y4G/234247/120790
 
-#EXTINF:-1 tvg-id="abc-wabc-new-york-ny" tvg-name="ABC (WABC) New York " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC NY (SD)
+#EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-name="ABC (WABC) New York " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC NY (SD)
 https://tvpass.org/live/WNET/sd
 #EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-name="ABC (WABC) New York " tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC NY HD
 http://cord-cutter.net:8080/hq3y4G/234247/121139
@@ -393,7 +393,7 @@ http://cord-cutter.net:8080/KB0cRT/666742/46214
 http://cord-cutter.net:8080/KB0cRT/666742/9299
 
 #Music
-#EXTINF:-1 tvg-id="AXS.TV.USA.HD.us" tvg-logo="" tvg-name="US AXS TV" group-title="Music", AXS TV HD
+#EXTINF:-1 tvg-id="AXS.TV.USA.HD.us" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/1/18/AXS_TV_Logo.png" tvg-name="US AXS TV" group-title="Music", AXS TV HD
 http://cord-cutter.net:8080/KB0cRT/666742/48324
 #EXTINF:-1 tvg-id="" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png|user-agent=okhttp/4.9.3" tvg-name="Music Legends" group-title="Music", Music Legends
 plugin://slyguy.plex.live/?_=play&_play=1&id=5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615&_is_live=1&_noresume=.pvr
@@ -408,18 +408,15 @@ http://cord-cutter.net:8080/KB0cRT/666742/9308
 
 #News
 #EXTINF:-1 tvg-id="ABC.NEWS.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="News", ABC News
-https://live-manifest.production-public.tubi.io/live/10154005-877b-45cb-b6a5-81eca4662c74/playlist.m3u8
-#https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABC LIVE Feeds[COLOR magenta] (5 items)[/COLOR]
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABCN Live Feeds[COLOR magenta] (5 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8%24%24lsname%3DLive+1%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8%24%24lsname%3DLive+2%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8%24%24lsname%3DLive+3%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8%24%24lsname%3DLive+4%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
-#EXTINF:-1 tvg-id="BBC.News.-.North.America.ca" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
+#EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News North America HD SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bbc-america-hz-us.png?raw=true" group-title="News", BBC News (SD)
 https://tvpass.org/live/BBCWorldNewsNorthAmerica/sd
 #EXTINF:-1 tvg-id="BBC.World.News.North.America.(BBCWN).us" tvg-name="BBC WORLD NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-news-uk.png?raw=true" group-title="News", BBC WORLD NEWS
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1 tvg-id="Blaze.TV.us2" tvg-logo="https://images.pluto.tv/channels/5e46fba0c43b0d00096e5ac1/colorLogoPNG.png" group-title="News", BLAZE
-https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
 #EXTINF:-1 tvg-id="bloomberg-tv-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" tvg-name="Bloomberg TV USA SD" group-title="News", Bloomberg (SD)
 https://tvpass.org/live/BloombergTV/sd
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" group-title="News", Bloomberg LIVE Feeds[COLOR magenta] (4 items)[/COLOR]
@@ -441,7 +438,7 @@ https://tvpass.org/live/CNBC/sd
 https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8
 #EXTINF:-1 tvg-id="CNBC.USA.us" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-prime-neon-shark-tank-us.png?raw=true" group-title="News", CNBC HD
 http://cord-cutter.net:8080/KB0cRT/666742/9815
-#EXTINF:-1 tvg-id="CNBC.World.us" tvg-logo="https://piketrail.com/wp-content/uploads/2019/09/cnbclogo.png" tvg-name="US CNBC World" group-title="News", CNBC World HD
+#EXTINF:-1 tvg-id="CNBC.World.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-world-flat-us.png?raw=true" tvg-name="US CNBC World" group-title="News", CNBC World HD
 http://cord-cutter.net:8080/KB0cRT/666742/20860
 #EXTINF:-1 tvg-id="cnn" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnn-us.png?raw=true" tvg-name="CNN US SD" group-title="News", CNN (SD)
 https://tvpass.org/live/CNN/sd
@@ -449,7 +446,7 @@ https://tvpass.org/live/CNN/sd
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN HD
 http://cord-cutter.net:8080/KB0cRT/666742/104884
-#EXTINF:-1 tvg-id="CNN.International.us2" tvg-name="CNN INT" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/cnn-hd-us.png?raw=true" group-title="News", CNN INT
+#EXTINF:-1 tvg-id="CNN.International.us2" tvg-name="CNN International" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/cnn-hd-us.png?raw=true" group-title="News", CNN INT
 https://dqmhiwgbe98iq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1e8xhm2nv4xdw/index.m3u8
 #EXTINF:-1 tvg-id="DW.English.ca" tvg-name="DWNEWS" tvg-logo="https://ortus-global.com/images/tv/dw-news-big.png" group-title="News", DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
@@ -467,7 +464,7 @@ https://tvpass.org/live/FoxNewsChannel/sd
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 tvg-id="Fox.News.us" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News HD
 http://cord-cutter.net:8080/KB0cRT/666742/1818
-#EXTINF:-1 tvg-id="Free.Speech.Network.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Logo_of_Free_Speech_TV.png" group-title="News", Free Speech
+#EXTINF:-1 tvg-id="Free.Speech.Network.us" tvg-name="Free Speech Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Logo_of_Free_Speech_TV.png" group-title="News", Free Speech
 https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
 #EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN
 https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
@@ -495,7 +492,7 @@ https://tvpass.org/live/NewsmaxTV/sd
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="NewsMax.TV.us" tvg-name="NewsmaxTV" tvg-logo="https://www.sling.com/whatson/entertainment/documentary-and-news/media_1d9c6173fe0e5875ae0b6c75b1914e1cf07b60539.jpeg" group-title="News", Newsmax HD
 http://cord-cutter.net:8080/KB0cRT/666742/18939
-#EXTINF:-1 tvg-id="Newsmax.TV.HD.us2" tvg-name="Newsmax2" tvg-logo="https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax2-white.png" group-title="News", Newsmax2 HD
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="Newsmax2" tvg-logo="https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax2-white.png" group-title="News", Newsmax2 HD
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="One.America.News.Network.us" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
 #https://oneamericanews-vizio.amagi.tv/playlist.m3u8
@@ -518,7 +515,7 @@ https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 
 #Sports
-#EXTINF:-1 tvg-id="acc-network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" tvg-name="ACC Network SD" group-title="Sports", ACC Network (SD)
+#EXTINF:-1 tvg-id="ACC.Network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" tvg-name="ACC Network SD" group-title="Sports", ACC Network (SD)
 https://tvpass.org/live/ACCNetwork/sd
 #EXTINF:-1 tvg-id="ACC.Network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" tvg-name="US ACC Network" group-title="Sports", ACC Network HD
 http://cord-cutter.net:8080/KB0cRT/666742/9273
@@ -550,50 +547,25 @@ http://cord-cutter.net:8080/KB0cRT/666742/17608
 https://tvpass.org/live/ESPNU/sd
 #EXTINF:-1 tvg-id="espn-u" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" tvg-name="ESPN.U.us" group-title="Sports", ESPNU HD
 http://cord-cutter.net:8080/KB0cRT/666742/10255
-#EXTINF:-1 tvg-id="ESPN8.us" tvg-name="ESPN 8" tvg-logo="https://espnpressroom.com/us/files/2021/08/ESPN_Ocho_1600-768x432-1.jpg" group-title="Sports", ESPN OCHO
+#EXTINF:-1 tvg-id="ESPN8.us" tvg-name="ESPN8" tvg-logo="https://espnpressroom.com/us/files/2021/08/ESPN_Ocho_1600-768x432-1.jpg" group-title="Sports", ESPN8 OCHO
 #https://amg00497-amg00497c24-amgplt0023.playout.now3.amagi.tv/playlist/amg00497-amg00497c24-amgplt0023/playlist.m3u8
 https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
-#EXTINF:-1 tvg-id="fanduel-sports-network-detroit-hd" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-detroit-us.png?raw=true" tvg-name="Fanduel Sports Network Detroit SD" group-title="Sports", Fanduel Detroit (SD)
-https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
 #EXTINF:-1 tvg-id="fanduel-sports-network-florida" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-florida-us.png?raw=true" tvg-name="Fanduel Sports Network Florida SD" group-title="Sports", Fanduel Florida (SD)
 https://tvpass.org/live/fanduel-sports-network-florida/sd
-#EXTINF:-1 tvg-id="fanduel-sports-network-great-lakes" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-great-lakes-us.png?raw=true" tvg-name="Fanduel Sports Network Great Lakes SD" group-title="Sports", Fanduel Great Lakes (SD)
-https://tvpass.org/live/fanduel-sports-network-great-lakes/sd
-#EXTINF:-1 tvg-id="fanduel-sports-indiana" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-indiana-us.png?raw=true" tvg-name="Fanduel Sports Indiana SD" group-title="Sports", Fanduel Indiana (SD)
-https://tvpass.org/live/fanduel-sports-indiana/sd
 #EXTINF:-1 tvg-id="fanduel-sports-network-north" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-north-us.png?raw=true" tvg-name="Fanduel Sports Network North SD" group-title="Sports", Fanduel North (SD)
 https://tvpass.org/live/fanduel-sports-network-north/sd
 #EXTINF:-1 tvg-id="fanduel-sports-network-ohio-cleveland" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-ohio-us.png?raw=true" tvg-name="Fanduel Sports Network Ohio Cleveland SD" group-title="Sports", Fanduel Ohio (SD)
 https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/sd
 tvg-id="fanduel-sports-network-ohio-cleveland" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-ohio-us.png?raw=true" tvg-name="Fanduel Sports Network Ohio Cleveland" group-title="Sports", FanDuel Sports Ohio HD
 http://cord-cutter.net:8080/KB0cRT/666742/17752
-#EXTINF:-1 tvg-id="fanduel-sports-network-oklahoma" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-oklahoma-us.png?raw=true" tvg-name="Fanduel Sports Network Oklahoma SD" group-title="Sports", Fanduel Oklahoma (SD)
-https://tvpass.org/live/fanduel-sports-network-oklahoma/sd
-#EXTINF:-1 tvg-id="fanduel-sports-network-san-diego" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-san-diego-us.png?raw=true" tvg-name="Fanduel Sports Network San Diego SD" group-title="Sports", Fanduel San Diego (SD)
-https://tvpass.org/live/fanduel-sports-network-san-diego/sd
-#EXTINF:-1 tvg-id="fanduel-sports-network-socal" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-socal-us.png?raw=true" tvg-name="Fanduel Sports Network Socal SD" group-title="Sports", Fanduel Socal (SD)
-https://tvpass.org/live/fanduel-sports-network-socal/sd
-#EXTINF:-1 tvg-id="fanduel-sports-network-south-carolinas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/FanDuel_Sports_Network_South_logo.svg/1200px-FanDuel_Sports_Network_South_logo.svg.png" tvg-name="Fanduel Sports Network South Carolinas SD" group-title="Sports", Fanduel South Carolinas (SD)
-https://tvpass.org/live/fanduel-sports-network-south-carolinas/sd
 #EXTINF:-1 tvg-id="fanduel-sports-network-south-tennessee-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-south-us.png?raw=true" tvg-name="Fanduel South Tennessee SD" group-title="Sports", Fanduel South (SD)
 https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
-#EXTINF:-1 tvg-id="fanduel-sports-southeast-georgia" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southeast-us.png?raw=true" tvg-name="Fanduel Sports Southeast Georgia SD" group-title="Sports", Fanduel Southeast (SD)
-https://tvpass.org/live/fanduel-sports-southeast-georgia/sd
-#EXTINF:-1 tvg-id="fanduel-sports-southeast-north-carolina" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-north-us.png?raw=true" tvg-name="Fanduel Sports Southeast North Carolina SD" group-title="Sports", Fanduel Southeast North (SD)
-https://tvpass.org/live/fanduel-sports-southeast-north-carolina/sd
-#EXTINF:-1 tvg-id="fanduel-sports-southeast-south-carolina" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-south-us.png?raw=true" tvg-name="Fanduel Sports Southeast South Carolina SD" group-title="Sports", Fanduel Southeast South (SD)
-https://tvpass.org/live/fanduel-sports-southeast-south-carolina/sd
-#EXTINF:-1 tvg-id="fanduel-sports-southeast-tennessee-nashville" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southeast-us.png?raw=true" tvg-name="Fanduel Sports Southeast Tennessee Nashville SD" group-title="Sports", Fanduel Southeast (SD)
-https://tvpass.org/live/fanduel-sports-southeast-tennessee-nashville/sd
 #EXTINF:-1 tvg-id="bally-sports-sun" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-sun-us.png?raw=true" tvg-name="Fanduel Sports Sun SD" group-title="Sports", Fanduel Sun (SD)
 https://tvpass.org/live/fanduel-sports-sun/sd
 #EXTINF:-1 tvg-id="bally-sports-sun" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-sun-us.png?raw=true" tvg-name="Fanduel Sports Sun SD" group-title="Sports", Fanduel Sun HD
 http://cord-cutter.net:8080/KB0cRT/666742/104917
-#EXTINF:-1 tvg-id="fanduel-sports-tennessee-east" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southeast-us.png?raw=true" tvg-name="Fanduel Sports Tennessee East SD" group-title="Sports", Fanduel Tennessee (SD)
-https://tvpass.org/live/fanduel-sports-tennessee-east/sd
 #EXTINF:-1 tvg-id="fanduel-sports-wisconsin" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-wisconsin-us.png?raw=true" tvg-name="Fanduel Sports Wisconsin" group-title="Sports", FanDuel Sports Wisconsin HD
 http://cord-cutter.net:8080/KB0cRT/666742/78599
-
 #EXTINF:-1 tvg-id="fox-sports-1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" tvg-name="Fox Sports 1 SD" group-title="Sports", Fox Sports 1 (SD)
 https://tvpass.org/live/FoxSports1/sd
 #EXTINF:-1 tvg-id="Fox.Sports.1.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" tvg-name="Fox Sports 1 SD" group-title="Sports", Fox Sports 1 HD
@@ -606,7 +578,7 @@ http://cord-cutter.net:8080/KB0cRT/666742/1847
 https://tvpass.org/live/GolfChannel/sd
 #EXTINF:-1 tvg-id="golf-channel-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-us.png?raw=true" tvg-name="Golf Channel USA SD" group-title="Sports", Golf Channel HD
 http://cord-cutter.net:8080/KB0cRT/666742/9806
-#EXTINF:-1 tvg-id="golf-channel-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-us.png?raw=true" tvg-name="Golf Channel USA SD" group-title="Sports", Golf Channel UHD
+#EXTINF:-1 tvg-id="golf-channel-usa" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-us.png?raw=true" tvg-name="Golf Channel USA SD" group-title="Sports", Golf Channel (1080)
 #EXTINF:-1 tvg-id="marquee-sports-network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/marquee-sports-network-us.png?raw=true" tvg-name="Marquee Sports Network SD" group-title="Sports", Marquee Sports Network (SD)
 https://tvpass.org/live/marquee-sports-network/sd
 #EXTINF:-1 tvg-id="midatlantic-sports-network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" tvg-name="Midatlantic Sports Network SD" group-title="Sports", MASN (SD)
@@ -617,9 +589,9 @@ http://cord-cutter.net:8080/KB0cRT/666742/65697
 https://tvpass.org/live/MLBNetwork/sd
 #EXTINF:-1 tvg-id="mlb.network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mlb-network-us.png?raw=true" tvg-name="MLB Network SD" group-title="Sports", MLB Network HD
 http://cord-cutter.net:8080/KB0cRT/666742/21360
-#EXTINF:-1 tvg-id="MLB Strike Zone" tvg-logo="https://thestreamable.com/media/pages/news/sling-tv-adds-mlb-network-and-mlb-strike-zone-ahead-just-in-time-for-opening-day/de6b7ceff7-1618516374/cut-5-576x324.jpg" tvg-name="MLB Strike Zone" group-title="Sports", MLB Strike Zone
+#EXTINF:-1 tvg-id="MLB.Network.Strike.Zone.HD.us2" tvg-name="MLB Strike Zone HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mlb-network-strike-zone-us.png?raw=true"  group-title="Sports", MLB Strike Zone
 http://cord-cutter.net:8080/KB0cRT/666742/65699
-#EXTINF:-1 tvg-id="msg-madison-square-gardens" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true tvg-name="MSG Madison Square Gardens" group-title="Sports", MSG (SD)
+#EXTINF:-1 tvg-id="msg-madison-square-gardens" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" tvg-name="MSG Madison Square Gardens" group-title="Sports", MSG (SD)
 https://tvpass.org/live/msg-madison-square-gardens/sd
 #EXTINF:-1 tvg-name="MSG Plus SD" tvg-id="msg-plus" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports", MSG Plus (SD)
 https://tvpass.org/live/msg-plus/sd
@@ -665,11 +637,11 @@ https://tvpass.org/live/NHLNetwork/sd
 http://cord-cutter.net:8080/KB0cRT/666742/20179
 #EXTINF:-1 tvg-id="racinguk.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
 http://cord-cutter.net:8080/KB0cRT/666742/53741
-#EXTINF:-1 tvg-id="sky.sports.golf.gb" tvg-logo="" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf FHD
+#EXTINF:-1 tvg-id="sky.sports.golf.gb" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-golf-hd-hz-uk.png?raw=true" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf HD
 http://cord-cutter.net:8080/KB0cRT/666742/35240
-#EXTINF:-1 tvg-id="sky.sports.main.event.gb" tvg-logo="" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event
+#EXTINF:-1 tvg-id="sky.sports.main.event.gb" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-main-event-hz-uk.png?raw=true" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event HD
 http://cord-cutter.net:8080/KB0cRT/666742/35243
-#EXTINF:-1 tvg-id="sky.sports.racing.gb" tvg-logo="" tvg-name="UK: SKY SP RACING FHD" group-title="Sports", SKY SP RACING FHD
+#EXTINF:-1 tvg-id="sky.sports.racing.gb" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-racing-hd-uk.png?raw=true" tvg-name="UK: SKY SP RACING FHD" group-title="Sports", SKY SP RACING HD
 http://cord-cutter.net:8080/KB0cRT/666742/76842
 #EXTINF:-1 tvg-id="sportsnet-360" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-360-ca.png?raw=true" tvg-name="Sportsnet 360 SD" group-title="Sports", Sportsnet 360 (SD)
 https://tvpass.org/live/sportsnet-360/sd
@@ -700,7 +672,7 @@ https://tvpass.org/live/sportsnet-west/sd
 http://cord-cutter.net:8080/KB0cRT/666742/20975
 #EXTINF:-1 tvg-id="the-tennis-channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tennis-channel-hz-us.png?raw=true" tvg-name="The Tennis Channel SD" group-title="Sports", Tennis Channel (SD)
 https://tvpass.org/live/TennisChannel/sd
-#EXTINF:-1 tvg-id="the-tennis-channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tennis-channel-hz-us.png?raw=true" tvg-name="The Tennis Channel" group-title="Sports", Tennis Channel HD
+#EXTINF:-1 tvg-id="Tennis.Channel.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tennis-channel-hz-us.png?raw=true" tvg-name="The Tennis Channel SD" group-title="Sports", Tennis Channel HD
 http://cord-cutter.net:8080/KB0cRT/666742/20184
 #EXTINF:-1 tvg-id="tsn1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-1-ca.png?raw=true" tvg-name="TSN1 SD" group-title="Sports", TSN1 (SD)
 https://tvpass.org/live/tsn1/sd
@@ -712,21 +684,17 @@ https://tvpass.org/live/tsn2/sd
 http://cord-cutter.net:8080/KB0cRT/666742/16129
 #EXTINF:-1 tvg-id="tsn3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-3-ca.png?raw=true" tvg-name="TSN3 SD" group-title="Sports", TSN3 (SD)
 https://tvpass.org/live/tsn3/sd
-#EXTINF:-1 tvg-id="tsn3.ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-3-ca.png?raw=true" tvg-name="TSN3 SD" group-title="Sports", TSN3 HD
-
 #EXTINF:-1 tvg-id="tsn4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-4-ca.png?raw=true" tvg-name="TSN4 SD" group-title="Sports", TSN4 (SD)
 https://tvpass.org/live/tsn4/sd
-#EXTINF:-1 tvg-id="tsn4.ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-4-ca.png?raw=true" tvg-name="TSN4 SD" group-title="Sports", TSN4 HD
-
 #EXTINF:-1 tvg-id="tsn5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true" tvg-name="TSN5 SD" group-title="Sports", TSN5 (SD)
 https://tvpass.org/live/tsn5/sd
 #EXTINF:-1 tvg-id="tsn5.ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true" tvg-name="TSN5 SD" group-title="Sports", TSN5 HD
 http://cord-cutter.net:8080/KB0cRT/666742/16131
-#EXTINF:-1 tvg-id="" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" tvg-name="TVG Network" group-title="Sports", TVG Network
+#EXTINF:-1 tvg-id="TVG.Network.us" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" group-title="Sports", TVG Network
 http://cord-cutter.net:8080/KB0cRT/666742/10259
-#EXTINF:-1 tvg-id="" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/tvg2.png" tvg-name="TVG2 Network" group-title="Sports", TVG2 Network
+#EXTINF:-1 tvg-id="TVG.Network2.us" tvg-name="TVG2 Network HD" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/tvg2.png" group-title="Sports", TVG2 Network
 http://cord-cutter.net:8080/KB0cRT/666742/18940
-#EXTINF:-1 tvg-id="wwe.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/wwe-us.png" tvg-name="US: WWE NETWORK" group-title="Sports", WWE NETWORK HD
+#EXTINF:-1 tvg-id="WWE.Network.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/wwe-us.png" tvg-name="WWE NETWORK" group-title="Sports", WWE NETWORK HD
 http://cord-cutter.net:8080/KB0cRT/666742/11645
 #EXTINF:-1  tvg-id="yes-network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/yes-network-us.png?raw=true" tvg-name="Yes Network" group-title="Sports", Yes Network (SD)
 https://tvpass.org/live/yes-network/sd
@@ -736,7 +704,7 @@ http://cord-cutter.net:8080/KB0cRT/666742/57972
 #Weather
 #EXTINF:-1 tvg-id="AccuWeather.us" tvg-name="Acuweather Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91994/s91994_ll_h15_ab.png" group-title="Weather", AccuWeather
 https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxWeather.us" tvg-name="FoxWeather" tvg-logo="https://static.foxnews.com/foxnews.com/content/uploads/2021/10/Fox-Weather.jpg" group-title="Weather", Fox Weather
+#EXTINF:-1 tvg-id="FoxWeather.us" tvg-name="Fox Weather" tvg-logo="https://static.foxnews.com/foxnews.com/content/uploads/2021/10/Fox-Weather.jpg" group-title="Weather", Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="The.Weather.Channel.us" tvg-name="The Weather Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/weather-channel-us.png?raw=true" group-title="Weather", The Weather Channel HD
 https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
