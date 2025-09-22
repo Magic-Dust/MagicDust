@@ -28,7 +28,7 @@
 </item>
 
 <item>
-<title>Moveonjoy</title>
+<title>Moveonjoy (F141)</title>
 <thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -64,7 +64,7 @@
 </item>
 
 <item>
-<title>Doms9</title>
+<title>Doms9 (F17)</title>
 <thumbnail>https://avatars.githubusercontent.com/u/96013514?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -82,20 +82,20 @@
 </item>
 
 <item>
-<title>tvpass</title>
-<thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
+<title>nextgen</title>
+<thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param3]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>logo="([^"]+)[^,]+,([^\n]+)\n([^\n]+)</expres>
-<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/TVPass.m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Archive/nexgen.m3u8</page>
 </regex>
 </item>
 
@@ -136,6 +136,24 @@
 </item>
 
 <item>
+<title>tvpass</title>
+<thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>logo="([^"]+)[^,]+,([^\n]+)\n([^\n]+)</expres>
+<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/TVPass.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>Xtreamlist Sports</title>
 <thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
 <fanart></fanart>
@@ -150,42 +168,6 @@
 ]]></listrepeat>
 <expres>,([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>nextgen</title>
-<thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Archive/nexgen.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>UDPTV</title>
-<thumbnail>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Image/logo2.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://github.com/ICEZOMBIE-m3u/DrewLive/raw/refs/heads/main/UDPTV.m3u</page>
 </regex>
 </item>
 
