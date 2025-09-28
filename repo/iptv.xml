@@ -190,7 +190,7 @@
 </item>
 
 <item>
-<title>UDPTV</title>
+<title>FSTV24</title>
 <thumbnail>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Image/logo2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -203,7 +203,25 @@
 <link>[makelist.param5]|http-origin=[makelist.param2]&smp;http-referrer=[makelist.param3]&smp;http-user-agent=[makelist.param4]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\n]+)</expres>
-<page>https://github.com/ICEZOMBIE-m3u/DrewLive/raw/refs/heads/main/UDPTV.m3u</page>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>UDPTV</title>
+<thumbnail>https://wpuploads.appadvice.com/wp-content/uploads/2015/02/Sling_TV_Logo.0.0.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/ICEZOMBIE-m3u/Zombietv/refs/heads/main/UDPTV.m3u</page>
 </regex>
 </item>
 
