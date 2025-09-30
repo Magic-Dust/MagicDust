@@ -200,9 +200,9 @@
 <title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|origin=[makelist.param2]&amp;referrer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+<link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\n]+)</expres>
+<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/FSTV24.m3u8</page>
 </regex>
 </item>
@@ -479,6 +479,42 @@
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://iptvtree.net:8080/get.php?username=p2NuH0rjWw&amp;password=45035275294&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=FF00FFFF]iptvtree [/COLOR] 85468216</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://xxip25.top:8080/get.php?username=85468216&amp;password=20751659&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=FF00FFFF]tvmate [/COLOR] 60023165</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://tvmate.icu:8080/get.php?username=60023165&amp;password=94429242&amp;type=m3u</page>
 </regex>
 </item>
 
