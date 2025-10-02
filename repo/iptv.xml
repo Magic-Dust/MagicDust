@@ -10,7 +10,7 @@
 </items_info>
 
 <item>
-<title>tvAPP</title>
+<title>tvAPP (SD only in prime time)</title>
 <thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -24,6 +24,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
 <page>https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/TheTVApp.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Doms9 (F125)</title>
+<thumbnail>https://avatars.githubusercontent.com/u/96013514?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.m3u8</page>
 </regex>
 </item>
 
@@ -64,24 +82,6 @@
 </item>
 
 <item>
-<title>Doms9 (F17)</title>
-<thumbnail>https://avatars.githubusercontent.com/u/96013514?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>nextgen</title>
 <thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
 <fanart></fanart>
@@ -96,6 +96,42 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Archive/nexgen.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>tvpass</title>
+<thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>logo="([^"]+)[^,]+,([^\n]+)\n([^\n]+)</expres>
+<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/TVPass.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>FSTV24</title>
+<thumbnail>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Image/logo2.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/FSTV24.m3u8</page>
 </regex>
 </item>
 
@@ -136,24 +172,6 @@
 </item>
 
 <item>
-<title>tvpass</title>
-<thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>logo="([^"]+)[^,]+,([^\n]+)\n([^\n]+)</expres>
-<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/TVPass.m3u</page>
-</regex>
-</item>
-
-<item>
 <title>Xtreamlist Sports</title>
 <thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
 <fanart></fanart>
@@ -190,24 +208,6 @@
 </item>
 
 <item>
-<title>FSTV24</title>
-<thumbnail>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Image/logo2.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/FSTV24.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>UDPTV</title>
 <thumbnail>https://wpuploads.appadvice.com/wp-content/uploads/2015/02/Sling_TV_Logo.0.0.jpg</thumbnail>
 <fanart></fanart>
@@ -221,7 +221,7 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/ICEZOMBIE-m3u/Zombietv/refs/heads/main/UDPTV.m3u</page>
+<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/UDPTV.m3u</page>
 </regex>
 </item>
 
@@ -411,24 +411,6 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FFFF]kstv [/COLOR] Babeboi11</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://kstv.us:8080/get.php?username=Babeboi11&amp;password=9785992589&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=FF00FFFF]line.lemotv [/COLOR] Xhafer8765</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -443,42 +425,6 @@
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://line.lemotv.cc:80/get.php?username=Xhafer8765&amp;password=jUDPsUgPek&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]ncsshost [/COLOR] garylee540</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://ncsshost.xyz:8080/get.php?username=garylee540&amp;password=999549&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=FF00FFFF]iptvtree [/COLOR] p2NuH0rjWw</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=FF00FFFF][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://iptvtree.net:8080/get.php?username=p2NuH0rjWw&amp;password=45035275294&amp;type=m3u</page>
 </regex>
 </item>
 
