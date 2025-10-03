@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz"
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz"
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"
 #Broadcast
 
 #EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Albany
@@ -188,14 +188,14 @@ http://cord-cutter.net:8080/KB0cRT/666742/48324
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABCN Live Feeds[COLOR magenta] (5 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8%24%24lsname%3DLive+1%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8%24%24lsname%3DLive+2%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8%24%24lsname%3DLive+3%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8%24%24lsname%3DLive+4%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
-#EXTINF:-1 tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
+#EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
 #https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 https://b638a299.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fQkJDTmV3c19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="BBC WORLD NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-news-uk.png?raw=true" group-title="News", BBC WORLD NEWS
+#EXTINF:-1 tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC WORLD NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-news-uk.png?raw=true" group-title="News", BBC WORLD NEWS
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" group-title="News", Bloomberg LIVE Feeds[COLOR magenta] (4 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlist=%5B%27https://bloomberg.com/media-manifest/streams/us-event.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/politics.m3u8%24%24lsname%3DUS+Politics%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/eu-event.m3u8%24%24lsname%3DEurope%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8%24%24lsname%3DBloomberg+Extra%27%5D
-#EXTINF:-1 tvg-id="CBC.News.Network.ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
+#EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
 #https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master720p.m3u8
 https://d36tuf8zz9b2bm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hfw6opvomwxih/CBC_News_International.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-logo="https://secure.cbn.com/images8/cbnnews/news-channel-logo.png" group-title="News", CBN
@@ -209,7 +209,7 @@ https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8
 http://cord-cutter.net:8080/KB0cRT/666742/9815
 #EXTINF:-1 tvg-id="CNBC.World.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-world-flat-us.png?raw=true" tvg-name="US CNBC World" group-title="News", CNBC World HD
 http://cord-cutter.net:8080/KB0cRT/666742/20860
-#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN USA HD
+#EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN USA HD
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN HD
 https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
@@ -231,7 +231,7 @@ https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/cha
 https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 #EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN HD
 https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News[COLOR magenta] (4 items)[/COLOR]
+#EXTINF:-1 tvg-id="Global.Montreal.ca2" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News[COLOR magenta] (4 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8%24%24lsname%3DBC%27%7C%7C+%27https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8%24%24lsname%3DMontreal%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8%24%24lsname%3DNational%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8%24%24lsname%3DToronto%27%5D
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News 1080
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
@@ -263,20 +263,17 @@ https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 #Sports
 #EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="Dudai Racing" tvg-logo="https://github.com/tv-logo/tv-logos/blob/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-arab-emirates/dubai-racing-tv-ae.png?raw=true" group-title="News", Dudai Racing[COLOR magenta] (3 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Dudai+Racing&playlist=%5B%27https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist_b700000.m3u8%24%24lsname%3DDudai+1%27%7C%7C+%27https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/chunklist_b300000.m3u8%24%24lsname%3DDudai+2%27%7C%7C+%27https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/chunklist_b300000.m3u8%24%24lsname%3DDudai+3%27%5D
-#EXTINF:-1 tvg-id="ESPN8.us" tvg-name="ESPN8" tvg-logo="https://espnpressroom.com/us/files/2021/08/ESPN_Ocho_1600-768x432-1.jpg" group-title="Sports", ESPN8 OCHO
-#https://amg00497-amg00497c24-amgplt0023.playout.now3.amagi.tv/playlist/amg00497-amg00497c24-amgplt0023/playlist.m3u8
-https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
-#EXTINF:-1 tvg-id="racinguk.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
+#EXTINF:-1 tvg-id="Racing.TV.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
 http://cord-cutter.net:8080/KB0cRT/666742/53741
-#EXTINF:-1 tvg-id="sky.sports.golf.gb" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-golf-hd-hz-uk.png?raw=true" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf HD
+#EXTINF:-1 tvg-id="SkySp.Golf.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-golf-hd-hz-uk.png?raw=true" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf HD
 http://cord-cutter.net:8080/KB0cRT/666742/35240
-#EXTINF:-1 tvg-id="sky.sports.main.event.gb" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-main-event-hz-uk.png?raw=true" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event HD
+#EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-main-event-hz-uk.png?raw=true" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event HD
 http://cord-cutter.net:8080/KB0cRT/666742/35243
-#EXTINF:-1 tvg-id="sky.sports.racing.gb" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-racing-hd-uk.png?raw=true" tvg-name="UK: SKY SP RACING FHD" group-title="Sports", SKY SP RACING HD
+#EXTINF:-1 tvg-id="SkySp.Racing.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-racing-hd-uk.png?raw=true" tvg-name="UK: SKY SP RACING FHD" group-title="Sports", SKY SP RACING HD
 http://cord-cutter.net:8080/KB0cRT/666742/76842
-#EXTINF:-1 tvg-id="TVG.Network.us" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" group-title="Sports", TVG Network
+#EXTINF:-1 tvg-id="TVG.Network.us2" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" group-title="Sports", TVG Network
 http://cord-cutter.net:8080/KB0cRT/666742/10259
-#EXTINF:-1 tvg-id="TVG.Network2.us" tvg-name="TVG2 Network HD" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/tvg2.png" group-title="Sports", TVG2 Network
+#EXTINF:-1 tvg-id="TVG.Network2.us2" tvg-name="TVG2 Network HD" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/tvg2.png" group-title="Sports", TVG2 Network
 http://cord-cutter.net:8080/KB0cRT/666742/18940
 
 #Weather
