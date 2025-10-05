@@ -82,7 +82,7 @@
 </item>
 
 <item>
-<title>nextgen</title>
+<title>nextgen (prime time restricted)</title>
 <thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -100,7 +100,7 @@
 </item>
 
 <item>
-<title>tvpass</title>
+<title>tvpass (prime time restricted)</title>
 <thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -172,7 +172,7 @@
 </item>
 
 <item>
-<title>A1Xmedia</title>
+<title>A1Xmedia (Sports)</title>
 <thumbnail>https://avatars.githubusercontent.com/u/188494592?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -208,6 +208,24 @@
 </item>
 
 <item>
+<title>CricHd (Sports)</title>
+<thumbnail>https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/image/logo.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/ALL.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=yellow]FSTV24[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Image/logo2.jpg</thumbnail>
 <fanart></fanart>
@@ -222,6 +240,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/FSTV24.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=yellow]PPVLand[/COLOR]</title>
+<thumbnail>special://home/addons/plugin.program.magicdust/resources/media/ppv-events-10.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/PPVLand.m3u8</page>
 </regex>
 </item>
 
@@ -281,7 +317,8 @@
 
 <item>
 <title>[COLOR=orange]Cord-cutter [/COLOR] 30550113</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -300,7 +337,8 @@
 
 <item>
 <title>[COLOR=orange]Cord-cutter [/COLOR] DAFsm1</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -319,7 +357,8 @@
 
 <item>
 <title>[COLOR=orange]Cord-cutter [/COLOR] KB0cRT</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -338,7 +377,8 @@
 
 <item>
 <title>[COLOR=orange]Cord-cutter [/COLOR]JoanP@112</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -357,7 +397,8 @@
 
 <item>
 <title>[COLOR=orange]Cord-cutter [/COLOR]95549031</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -376,7 +417,8 @@
 
 <item>
 <title>[COLOR=orange]Cord-cutter [/COLOR]Ss5DKE</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -395,7 +437,8 @@
 
 <item>
 <title>[COLOR=orange]Supersonictv [/COLOR] Bobby1</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -413,7 +456,8 @@
 
 <item>
 <title>[COLOR=orange]Supersonictv [/COLOR] 006779</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -431,7 +475,8 @@
 
 <item>
 <title>[COLOR=orange]fortv [/COLOR]q8KuDU</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -449,7 +494,8 @@
 
 <item>
 <title>[COLOR=orange]fortv [/COLOR]b6twFE</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -467,7 +513,8 @@
 
 <item>
 <title>[COLOR=orange]tv14s [/COLOR] A1Jay</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -485,7 +532,8 @@
 
 <item>
 <title>[COLOR=orange]line.lemotv [/COLOR] Xhafer8765</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -503,7 +551,8 @@
 
 <item>
 <title>[COLOR=orange]g-med [/COLOR] antokata</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -521,7 +570,8 @@
 
 <item>
 <title>[COLOR=orange]xxip25 [/COLOR] 85468216</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -539,7 +589,8 @@
 
 <item>
 <title>[COLOR=orange]tvmate [/COLOR] 60023165</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -557,7 +608,8 @@
 
 <item>
 <title>[COLOR=orange]tvmate [/COLOR] 99437538</title>
-<thumbnail></thumbnail>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -570,6 +622,25 @@
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://tvmate.icu:8080/get.php?username=99437538&amp;password=28260477&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]vocotv [/COLOR] 10</title>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://vocotv.pro:80/get.php?username=10&amp;password=12345&amp;type=m3u</page>
 </regex>
 </item>
 
