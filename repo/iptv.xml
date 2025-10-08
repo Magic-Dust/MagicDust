@@ -626,6 +626,25 @@
 </item>
 
 <item>
+<title>[COLOR=orange]tvmate [/COLOR] 99437538</title>
+<thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
+</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://tvmate.icu:8080/get.php?username=nCqH8t&amp;password=631017&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=orange]vocotv [/COLOR] 10</title>
 <thumbnail>special://home/script.thecrew.artwork/resources/media/thecrew/iptv.png
 </thumbnail>
