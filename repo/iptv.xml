@@ -208,6 +208,24 @@
 </item>
 
 <item>
+<title>UDPTV</title>
+<thumbnail>https://camo.githubusercontent.com/021555ac2bcfabcdab5c97cf9fef386f0ddfcd71d195d96b6030d377372c1a2b/68747470733a2f2f692e706f7374696d672e63632f5a35396477635a422f7564702e706e67</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/UDPTV.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>CricHd (Sports)</title>
 <thumbnail>https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/image/logo.jpg</thumbnail>
 <fanart></fanart>
