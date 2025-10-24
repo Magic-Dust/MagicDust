@@ -82,6 +82,24 @@
 </item>
 
 <item>
+<title>iykyk</title>
+<thumbnail>https://realiptv.to/wp-content/uploads/Transparent-02-small.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
+</regex>
+</item>
+
+<item>
 <title>nextgen (prime time restricted)</title>
 <thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
 <fanart></fanart>
@@ -448,6 +466,25 @@
 </item>
 
 <item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]8fRQNT</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=8fRQNT&amp;password=761091&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=orange]Supersonictv [/COLOR] Bobby1</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -661,6 +698,25 @@ special://home/addons/plugin.video.daddylive/icon.png
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://vocotv.pro:80/get.php?username=10&amp;password=12345&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]23.227.140.75 [/COLOR] ElizJohn614</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+special://home/addons/plugin.video.daddylive/icon.png
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://23.227.140.75:8880/get.php?username=ElizJohn614&amp;password=fdtXMLpTA9&amp;type=m3u_plus</page>
 </regex>
 </item>
 
