@@ -10,8 +10,8 @@
 </items_info>
 
 <item>
-<title>tvAPP (SD only in prime time)</title>
-<thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
+<title>Moveonjoy (F141)</title>
+<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -22,8 +22,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/TheTVApp.m3u8</page>
+<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/moveonjoy.m3u8</page>
 </regex>
 </item>
 
@@ -42,24 +42,6 @@
 ]]></listrepeat>
 <expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>Moveonjoy (F141)</title>
-<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/moveonjoy.m3u8</page>
 </regex>
 </item>
 
@@ -96,6 +78,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>tvAPP (SD only in prime time)</title>
+<thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
+<page>https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/TheTVApp.m3u8</page>
 </regex>
 </item>
 
@@ -172,24 +172,6 @@
 </item>
 
 <item>
-<title>Xtreamlist Sports</title>
-<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
-</regex>
-</item>
-
-<item>
 <title>A1Xmedia (Sports)</title>
 <thumbnail>https://avatars.githubusercontent.com/u/188494592?v=4</thumbnail>
 <fanart></fanart>
@@ -240,6 +222,24 @@
 ]]></listrepeat>
 <expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/AriaPlus.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Xtreamlist Sports</title>
+<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>,([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
 </regex>
 </item>
 
