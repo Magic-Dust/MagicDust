@@ -466,25 +466,6 @@
 </item>
 
 <item>
-<title>[COLOR=orange]Cord-cutter [/COLOR]8fRQNT</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=8fRQNT&amp;password=761091&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=orange]Supersonictv [/COLOR] 006779</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -498,7 +479,25 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://supersonictv.live:8080/get.php?username=006779&amp;password=439866&amp;type=m3u</page>
+<page>http://supersonictv.live:8080/get.php?username=006943&amp;password=072377&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Supersonictv [/COLOR] 728829</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://supersonictv.live:8080/get.php?username=728829&amp;password=005443&amp;type=m3u</page>
 </regex>
 </item>
 
@@ -680,6 +679,25 @@ special://home/addons/plugin.video.daddylive/icon.png
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://23.227.140.75:8880/get.php?username=ElizJohn614&amp;password=fdtXMLpTA9&amp;type=m3u_plus</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]cdn1host [/COLOR] xman2</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+special://home/addons/plugin.video.daddylive/icon.png
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://cdn1host.online:2999/get.php?username=xman2&amp;password=hhqgjFfHXF&amp;type=m3u</page>
 </regex>
 </item>
 
