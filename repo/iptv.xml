@@ -556,24 +556,6 @@
 </item>
 
 <item>
-<title>[COLOR=orange]line.lemotv [/COLOR] Xhafer8765</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://line.lemotv.cc:80/get.php?username=Xhafer8765&amp;password=jUDPsUgPek&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=orange]g-med [/COLOR] antokata</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -664,7 +646,25 @@
 </item>
 
 <item>
-<title>[COLOR=orange]23.227.140.75 [/COLOR] ElizJohn614</title>
+<title>[COLOR=skyblue]line.lemotv [/COLOR] Xhafer8765</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://line.lemotv.cc:80/get.php?username=Xhafer8765&amp;password=jUDPsUgPek&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]23.227.140.75 [/COLOR] ElizJohn614</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
@@ -677,13 +677,13 @@ special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://23.227.140.75:8880/get.php?username=ElizJohn614&amp;password=fdtXMLpTA9&amp;type=m3u_plus</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=orange]cdn1host [/COLOR] xman2</title>
+<title>[COLOR=skyblue]cdn1host [/COLOR] xman2</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
