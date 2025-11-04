@@ -78,7 +78,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NCAAF["| ][^\n]+)\n([^\s]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NCAAF[^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
@@ -142,7 +142,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)(?i)(NCAAB["| ][^\n]+)\n([^\s]+)]]></expres>
+<expres><![CDATA[(?s)(?i)(NCAA[B|M][^\n]+)\n([^\s]+)]]></expres>
 <page>$doregex[get-source]</page>
 </regex>
 <regex>
