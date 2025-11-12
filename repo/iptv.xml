@@ -95,7 +95,7 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/TheTVApp.m3u8</page>
+<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/TheTVApp.m3u8</page>
 </regex>
 </item>
 
@@ -113,7 +113,7 @@
 <link>[makelist.param3]</link>
 ]]></listrepeat>
 <expres>logo="([^"]+)[^,]+,([^\n]+)\n([^\n]+)</expres>
-<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/TVPass.m3u</page>
+<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/TVPass.m3u</page>
 </regex>
 </item>
 
@@ -221,7 +221,7 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/Roxiestreams.m3u8</page>
+<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Roxiestreams.m3u8</page>
 </regex>
 </item>
 
@@ -272,7 +272,7 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param4]|origin=[makelist.param3]&amp;referer=[makelist.param2]</link>
+<link>[makelist.param4]|referer=[makelist.param2]&amp;origin=[makelist.param3]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/CricHD.m3u</page>
@@ -293,7 +293,7 @@
 <link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/PPVLand.m3u8</page>
+<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/PPV.m3u8</page>
 </regex>
 </item>
 
@@ -311,13 +311,13 @@
 <link>[makelist.param5]|origin=[makelist.param4]&amp;referer=[makelist.param3]&amp;agent=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>http://drewlive24.duckdns.org:8081/Pixelsports.m3u8</page>
+<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Pixelsports.m3u8</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=yellow]SportsWebcast[/COLOR]</title>
-<thumbnail>https://www.arunfoot.com/wp-content/uploads/2022/09/JustWatch.jpg</thumbnail>
+<title>[COLOR=yellow]kibz[/COLOR]</title>
+<thumbnail>https://i1.sndcdn.com/avatars-amy3IwrTH4ApUC51-qNlqVA-t500x500.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -329,7 +329,7 @@
 <link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>http://drewlive24.duckdns.org:8081/SportsWebcast.m3u8</page>
+<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/kibz.m3u8</page>
 </regex>
 </item>
 
