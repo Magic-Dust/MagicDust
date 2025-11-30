@@ -82,25 +82,6 @@
 </item>
 
 <item>
-<title>Real-IPTV2</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk2.m3u8</page>
-</regex>
-</item>
-
-
-<item>
 <title>tvAPP (SD only in prime time)</title>
 <thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
 <fanart></fanart>
@@ -467,6 +448,25 @@
 </item>
 
 <item>
+<title>[COLOR=orange]nocable.cc [/COLOR]5AGbfz</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://nocable.cc:8080/get.php?username=5AGbfz&amp;password=324331&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=orange]fortv [/COLOR]b6twFE</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -594,24 +594,6 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>[COLOR=skyblue]line.lemotv [/COLOR] Xhafer8765</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://line.lemotv.cc:80/get.php?username=Xhafer8765&amp;password=jUDPsUgPek&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]23.227.140.75 [/COLOR] ElizJohn614</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 special://home/addons/plugin.video.daddylive/icon.png
@@ -703,6 +685,42 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
+<title>[COLOR=skyblue]Defaultgen [/COLOR]warrior4547@yahoo.com</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://defaultgen.com:5050/get.php?username=warrior4547@yahoo.com&amp;password=RwSAU6LPzi&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Defaultgen [/COLOR]mmarcmiller@gmail.com</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://defaultgen.com:5050/get.php?username=mmarcmiller@gmail.com&amp;password=45FmZ8YgTJ&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=skyblue]Zeuspro [/COLOR]Mickael</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -717,6 +735,96 @@ special://home/addons/plugin.video.daddylive/icon.png
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://tv.zeuspro.xyz:8080/get.php?username=Mickael&amp;password=0fbfc1d5b527&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]realiptv [/COLOR]19742329</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://restream-live.realiptv.to:443/get.php?username=19742329&amp;password=27604387&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]realiptv [/COLOR]Theone</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://restream-live.realiptv.to:443/get.php?username=Theone-restream&amp;password=o3kTHZ0JdL&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]realiptv [/COLOR]monstercable</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://restream-live.realiptv.to:443/get.php?username=monstercable&amp;password=Dq6jjknxCr&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]realiptv [/COLOR]Bert123</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://restream-live.realiptv.to:443/get.php?username=Bert123&amp;password=Bert123&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]realiptv [/COLOR]Lewis12345</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://restream-live.realiptv.to:443/get.php?username=Lewis12345&amp;password=Lewis12345&amp;type=m3u</page>
 </regex>
 </item>
 
