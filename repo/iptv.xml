@@ -829,6 +829,42 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
+<title>[COLOR=skyblue]vipbhbiss [/COLOR]VIP019411733324306274</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),USA: ([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://vipbhbiss.top:8080/get.php?username=VIP019411733324306274&amp;password=5c5c9b45df3a&amp;type=m3u_plus</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]vipbhbiss [/COLOR]VIP018941749329923479</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),USA: ([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://vipbhbiss.top:8080/get.php?username=VIP018941749329923479&amp;password=bd3b04d8b34a&amp;type=m3u_plus</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=green]Mad Titan[/COLOR]</title>
 <thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
 <fanart></fanart>
