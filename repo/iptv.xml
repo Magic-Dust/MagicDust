@@ -64,7 +64,7 @@
 </item>
 
 <item>
-<title>Real-IPTV</title>
+<title>Real-IPTV TSDOWNLOADER</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -74,7 +74,61 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Real-IPTV HLSRETRY</title>
+<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Real-IPTV ADAPTATIVE</title>
+<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Real-IPTV Pick</title>
+<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
