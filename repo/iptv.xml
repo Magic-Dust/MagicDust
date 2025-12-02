@@ -823,7 +823,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US[A ]([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
 <page>https://restream-live.realiptv.to:443/get.php?username=Lewis12345&amp;password=Lewis12345&amp;type=m3u</page>
 </regex>
 </item>
