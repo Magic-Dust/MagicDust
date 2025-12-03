@@ -20,7 +20,7 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
 <page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/moveonjoy.m3u8</page>
