@@ -27,26 +27,26 @@ plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live
 http://supersonictv.live:8080/live/006943/072377/71609.m3u8
 #EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA HD
 #CBS.(KCBS).Los.Angeles,.CA.us
-http://cord-cutter.net:8080/Ss5DKE/232455/120654
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/120654
 #EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA HD
 #FOX.(KTTV).Los.Angeles,.CA.us
-http://cord-cutter.net:8080/Ss5DKE/232455/120655
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/120655
 #EXTINF:-1 tvg-id="KNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC LA HD
 #NBC.(KNBC).Los.Angeles,.CA.us
-http://cord-cutter.net:8080/Ss5DKE/232455/120656
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/120656
 
 #EXTINF:-1 tvg-id="WPLG-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Miami
 #ABC.(WPLG).Miami,.FL.us
-http://cord-cutter.net:8080/Ss5DKE/232455/121245
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/121245
 #EXTINF:-1 tvg-id="WFOR-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS Miami
 #CBS.(WFOR).Miami,.FL.us
-http://cord-cutter.net:8080/Ss5DKE/232455/121243
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/121243
 #EXTINF:-1 tvg-id="WSVN-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX Miami
 #FOX.(WSVN).Miami,.FL.us
-http://cord-cutter.net:8080/Ss5DKE/232455/121242
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/121242
 #EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC Miami
 #NBC.(WTVJ).Miami,.FL.us
-http://cord-cutter.net:8080/Ss5DKE/232455/121241
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/121241
 
 #EXTINF:-1 tvg-id="WPDE-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Myrtle Beach
 #ABC.(WPDE).Lumberton,.NC.us
@@ -104,7 +104,7 @@ https://cvtv.cvalley.net/hls/KCTVCBS/KCTVCBS.m3u8
 #EXTINF:-1 tvg-id="KSHB-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC KC KSHB (720p)
 #NBC.(KSHB).Kansas.City,.MO.us
 https://cvtv.cvalley.net/hls/KSHBNBC/KSHBNBC.m3u8
-#EXTINF:-1 tvg-id="WDAF-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-us.png?raw=true" group-title="Broadcast", FOX Kansas City WDAF (720p)
+#EXTINF:-1 tvg-id="WDAF-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-us.png?raw=true" group-title="Broadcast", FOX KC WDAF (720p)
 #FOX.(WDAF).Kansas.City,.MO.us
 https://cvtv.cvalley.net/hls/WDAFFox/WDAFFox.m3u8
 #EXTINF:-1 tvg-id="KCWE-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true"group-title="Broadcast", CW KC KCWE (720p)
@@ -126,10 +126,11 @@ https://cvtv.cvalley.net/hls/KOMUNBC/KOMUNBC.m3u8
 
 #EXTINF:-1 tvg-id="WABC-DT.us_locals1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/American_Broadcasting_Company_Logo.svg/479px-American_Broadcasting_Company_Logo.svg.png" tvg-name="USA: ABC" group-title="Broadcast", ABC USA HD
 #ABC.(WABC).New.York,.NY.us
-http://cord-cutter.net:8080/Ss5DKE/232455/22990
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/22990
 #EXTINF:-1 tvg-id="WNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="USA: NBC" , NBC USA HD
 #NBC.(WNBC).New.York,.NY.us
-http://cord-cutter.net:8080/Ss5DKE/232455/46687
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/46687
+
 #EXTINF:-1 tvg-id="KYCW-LD.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="Broadcast", CW IA (720)
 #CW.(KYOU4).Ottumwa,.IA.us
 https://cvtv.cvalley.net/hls/KYOUDT4/KYOUDT4.m3u8
@@ -140,12 +141,6 @@ https://cvtv.cvalley.net/hls/KCWECW/KCWECW.m3u8
 #Entertainment
 #EXTINF:-1 tvg-id="AdultSwim.com.Cartoon.Network.us2" tvg-name="Adult Swim East" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="Entertainment", Adult Swim East
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="Bounce.TV.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bounce-us.png?raw=true" group-title="Entertainment", Bounce KMCI-DT1 (720p)
-https://cvtv.cvalley.net/hls/KMCIBounceTV/KMCIBounceTV.m3u8
-#EXTINF:-1 tvg-id="Comet.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/comet-us.png?raw=true" group-title="Entertainment", Comet (720p)
-https://cvtv.cvalley.net/hls/KRCGComet/KRCGComet.m3u8
-#EXTINF:-1 tvg-id="COZI.TV.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cozi-tv-us.png?raw=true" group-title="Entertainment", Cozi (720p)
-https://cvtv.cvalley.net/hls/KSHBCozi/KSHBCozi.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-channel-us.png?raw=true" tvg-name="Hallmark Eastern Feed SD" group-title="Entertainment", Hallmark Channel HD
 #http://cord-cutter.net:8080/Ss5DKE/232455/46719
 plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/3740
@@ -155,18 +150,16 @@ plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live
 #EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" tvg-name="Hallmark Mystery Eastern HD" group-title="Entertainment", Hallmark Mystery HD
 #http://cord-cutter.net:8080/Ss5DKE/232455/10289
 plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/3741
-#EXTINF:-1 tvg-id="Laff.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/laff-us.png?raw=true" group-title="Entertainment", Laff (720p)
-https://cvtv.cvalley.net/hls/KSHBLaff/KSHBLaff.m3u8
 #EXTINF:-1 tvg-id="Lifetime.HD.us2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/lifetime-us.png" tvg-name="Lifetime Network US Eastern Feed SD" group-title="Entertainment", Lifetime HD
 #http://cord-cutter.net:8080/Ss5DKE/232455/9275
 plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/645914
 #EXTINF:-1 tvg-id="Lifetime.HD.us2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/lifetime-us.png" tvg-name="Lifetime Network US Eastern Feed SD" group-title="Entertainment", Lifetime HD (feed2)
-http://cord-cutter.net:8080/Ss5DKE/232455/46714
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/46714
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/lifetime-movies-us.png?raw=true" tvg-name="Lifetime Movies East SD" group-title="Entertainment", Lifetime Movies HD
 #http://cord-cutter.net:8080/Ss5DKE/232455/2208
 plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/647764
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/lifetime-movies-us.png?raw=true" tvg-name="Lifetime Movies East SD" group-title="Entertainment", Lifetime Movies HD (feed2)
-http://cord-cutter.net:8080/Ss5DKE/232455/20863
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/20863
 #EXTINF:-1 tvg-id="Me.TV.Network.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-us.png?raw=true" group-title="Entertainment", MeTV KMBC (720p)
 https://cvtv.cvalley.net/hls/KMBCMeTV/KMBCMeTV.m3u8
 #EXTINF:-1 tvg-id="MOTORTREND.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/motor-trend-us.png?raw=true" tvg-name="Motor Trend HD SD" group-title="Entertainment", Motor Trend HD
@@ -178,8 +171,9 @@ https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_356
 https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="Turner.Classic.Movies.HD.us2" tvg-name="TCM US" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64312/s64312_ll_h15_ab.png" group-title="Entertainment", TCM HD
 https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="Turner.Classic.Movies.HD.(Pacific).us2" tvg-name="TCM WEST" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64312/s64312_ll_h15_ab.png" group-title="Entertainment", TCM West HD
+#EXTINF:-1 tvg-id="Turner.Classic.Movies.Canada.HD.ca2" tvg-name="TCM WEST" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64312/s64312_ll_h15_ab.png" group-title="Entertainment", TCM West HD
 https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+#Turner.Classic.Movies.HD.(Pacific).us2
 #EXTINF:-1 tvg-id="TNT.HD.us2" tvg-name="TNT" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="Entertainment", TNT East HD
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TNT.HD.(Pacific).us2" tvg-name="TNT West" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="Entertainment", TNT West HD
@@ -197,7 +191,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_35
 
 #Music
 #EXTINF:-1 tvg-id="AXS.TV.us2" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/1/18/AXS_TV_Logo.png" tvg-name="US AXS TV" group-title="Music", AXS TV HD
-http://cord-cutter.net:8080/Ss5DKE/232455/48324
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/48324
 
 #News
 #EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="News", ABC News
@@ -225,7 +219,7 @@ https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8
 #http://cord-cutter.net:8080/Ss5DKE/232455/9815
 plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/3714
 #EXTINF:-1 tvg-id="CNBC.World.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-world-flat-us.png?raw=true" tvg-name="US CNBC World" group-title="News", CNBC World HD
-http://cord-cutter.net:8080/Ss5DKE/232455/20860
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/20860
 #EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN USA HD
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN HD
@@ -282,20 +276,20 @@ https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="Dudai Racing" tvg-logo="https://github.com/tv-logo/tv-logos/blob/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-arab-emirates/dubai-racing-tv-ae.png?raw=true" group-title="Sports", Dudai Racing[COLOR magenta] (3 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Dudai+Racing&playlist=%5B%27https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist_b700000.m3u8%24%24lsname%3DDudai+1%27%7C%7C+%27https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/chunklist_b300000.m3u8%24%24lsname%3DDudai+2%27%7C%7C+%27https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/chunklist_b300000.m3u8%24%24lsname%3DDudai+3%27%5D
 #EXTINF:-1 tvg-id="Racing.TV.HD.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
-http://cord-cutter.net:8080/Ss5DKE/232455/53741
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/53741
 #EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-golf-hd-hz-uk.png?raw=true" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf HD
-http://cord-cutter.net:8080/Ss5DKE/232455/35240
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/35240
 #EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-main-event-hz-uk.png?raw=true" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event HD
-http://cord-cutter.net:8080/Ss5DKE/232455/35243
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/35243
 #EXTINF:-1 tvg-id="SkySp.Racing.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-racing-hd-uk.png?raw=true" tvg-name="UK: SKY SP RACING FHD" group-title="Sports", SKY SP RACING HD
-http://cord-cutter.net:8080/Ss5DKE/232455/76842
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/76842
 #EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" group-title="Sports", TVG Network
 #TVG.Network.us2
 #http://cord-cutter.net:8080/Ss5DKE/232455/10259
 plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/21628
 #EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="TVG2 Network HD" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/tvg2.png" group-title="Sports", TVG2 Network
 #TVG.Network2.us2
-http://cord-cutter.net:8080/Ss5DKE/232455/18940
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/18940
 
 #Weather
 #EXTINF:-1 tvg-id="AccuWeather.HD.us2" tvg-name="Acuweather Network" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91994/s91994_ll_h15_ab.png" group-title="Weather", AccuWeather
@@ -313,6 +307,6 @@ http://192.168.1.3:5004/auto/v15.4
 
 #24/7
 #EXTINF:-1 tvg-id="DOG.TV.us2" tvg-logo="https://i.ytimg.com/vi/OKZ54sj8NWo/maxresdefault.jpg" tvg-name="USA: DOGTV" group-title="24/7", DOGTV
-http://cord-cutter.net:8080/Ss5DKE/232455/53539
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/Ss5DKE/232455/53539
 #EXTINF:-1 tvg-id="Redbull.Dummy.us" tvg-logo="https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv" tvg-name="RED BULL TV" group-title="24/7", RED BULL TV
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
