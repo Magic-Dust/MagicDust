@@ -721,7 +721,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV2</title>
+<title>[COLOR=skyblue]Real-IPTV2[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -739,7 +739,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV3</title>
+<title>[COLOR=skyblue]Real-IPTV3[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -757,7 +757,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV4</title>
+<title>[COLOR=skyblue]Real-IPTV4[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -775,7 +775,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV5</title>
+<title>[COLOR=skyblue]Real-IPTV5[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -793,7 +793,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV6</title>
+<title>[COLOR=skyblue]Real-IPTV6[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -811,7 +811,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV7</title>
+<title>[COLOR=skyblue]Real-IPTV7[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -829,7 +829,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV8</title>
+<title>[COLOR=skyblue]Real-IPTV8[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -847,7 +847,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>Real-IPTV9</title>
+<title>[COLOR=skyblue]Real-IPTV9[/COLOR]</title>
 <thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -901,44 +901,8 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>[COLOR=green]Mad Titan[/COLOR]</title>
-<thumbnail>special://home/addons/plugin.video.madtitansports/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(plug[^\n]+)</expres>
-<page>https://magnetic.website/jet/playlist1.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]The Loop[/COLOR]</title>
-<thumbnail>special://home/addons/plugin.video.looptv/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(plug[^\n]+)</expres>
-<page>https://loopaddon.uk/files/k19/epg2025/gameDay_epg.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Daddylive[/COLOR]</title>
-<thumbnail>special://home/addons/plugin.video.daddylive/icon.png</thumbnail>
+<title>[COLOR=green]tvone[/COLOR]</title>
+<thumbnail>special://home/addons/plugin.video.tvone/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -950,7 +914,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/dlive.m3u</page>
+<page>https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/tvone.m3u</page>
 </regex>
 </item>
 
