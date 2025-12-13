@@ -251,8 +251,12 @@ https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62c
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 
 #Sports
-#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="Dudai Racing" tvg-logo="https://github.com/tv-logo/tv-logos/blob/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-arab-emirates/dubai-racing-tv-ae.png?raw=true" group-title="Sports", Dudai Racing[COLOR magenta] (3 items)[/COLOR]
-plugin://plugin.video.live.streamspro/?mode=13&name=Dudai+Racing&playlist=%5B%27https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist_b700000.m3u8%24%24lsname%3DDudai+1%27%7C%7C+%27https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/chunklist_b300000.m3u8%24%24lsname%3DDudai+2%27%7C%7C+%27https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/chunklist_b300000.m3u8%24%24lsname%3DDudai+3%27%5D
+#EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC NETWORK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" group-title="Sports", ACC Test tsdownloader
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC NETWORK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" group-title="Sports", ACC Test hlsretry
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC NETWORK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" group-title="Sports", ACC Test adaptive
+plugin://plugin.video.f4mTester/?streamtype=ADAPTATIVE&url=https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Racing.TV.HD.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/53741
 #EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-golf-hd-hz-uk.png?raw=true" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf HD
