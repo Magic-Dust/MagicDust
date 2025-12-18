@@ -3,10 +3,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
-#EXTM3U x-tvg-url="https://i.mjh.nz/PBS/all.xml.gz"
 
 #Broadcast
-#EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Albany WTEN
+#EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Albany WTEN
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/48324
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/64027
 #EXTINF:-1 tvg-id="WRGB-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Albany WRGB
@@ -18,6 +17,19 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-li
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC Albany WNYT
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120745
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/63932
+#EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
+plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
+
+#EXTINF:-1, tvg-id="WCIV-DT2.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Charleston WCIV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121759
+#EXTINF:-1, tvg-id="WCSC-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Charleston WCSC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/122058
+#EXTINF:-1, tvg-id="WTAT-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Charleston WTAT
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120782
+#EXTINF:-1, tvg-id="WCBD-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC Charleston WCBD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120783
+#EXTINF:-1 tvg-id="WBRA-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wbra-color-cobranded-logo-7iIKCK5.png" group-title="Broadcast", PBS Charleston WBRA
+plugin://slyguy.pbs.live/?_=play&callsign=WBRA&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="WLS-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Chicago WLS
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8
@@ -27,61 +39,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/IL_Chicago_FOX/index.m3u8
 #EXTINF:-1 tvg-id="WMAQ-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC Chicago WMAQ
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/IL_Chicago_NBC/index.m3u8
-
-#EXTINF:-1 tvg-id="KABC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA KABC
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71609.m3u8
-#EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA KCBS
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120654
-#EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120655
-#EXTINF:-1 tvg-id="KNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC LA KNBC
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120656
-
-#EXTINF:-1 tvg-id="WPLG-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Miami WPLG
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121245
-#EXTINF:-1 tvg-id="WFOR-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Miami WFOR
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121243
-#EXTINF:-1 tvg-id="WSVN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" group-title="Broadcast", FOX Miami WSVN
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121242
-#EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC Miami WTVJ
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121241
-
-#EXTINF:-1 tvg-id="WPDE-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Myrtle WPDE
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71482.m3u8
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70155
-#EXTINF:-1 tvg-id="WBTW-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Myrtle WBTW
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71483.m3u8
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70156
-#EXTINF:-1 tvg-id="WFXB-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX Myrtle WFXB
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120789
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70153
-#EXTINF:-1 tvg-id="WMBF-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC Myrtle WMBF
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120790
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70152
-
-#EXTINF:-1 tvg-id="WABC-DT.us_locals1" tvg-name="ABC (WABC) New York " tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC NY WABC
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121139
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/112234
-#EXTINF:-1 tvg-id="WCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS (WCBS) New York " group-title="Broadcast", CBS NY WCBS
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120749
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/89712
-#EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX (WNYW) New York" group-title="Broadcast", FOX NY WNYW
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120750
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/38209
-#EXTINF:-1 tvg-id="WNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="NBC (WNBC) New York" group-title="Broadcast", NBC NY WNBC
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120751
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/89714
-
-#EXTINF:-1 tvg-id="KTVO-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC MO KTVO
-https://cvtv.cvalley.net/hls/KTVOABC/KTVOABC.m3u8
-#EXTINF:-1 tvg-id="KTVO-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-logo-white-us.png?raw=true" group-title="Broadcast", CBS MO KTVO
-https://cvtv.cvalley.net/hls/KTVOCBS/KTVOCBS.m3u8
-#EXTINF:-1 tvg-id="KYOU-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC MO KYOU
-https://cvtv.cvalley.net/hls/KYOUNBC2/KYOUNBC2.m3u8
-#EXTINF:-1 tvg-id="WDAF-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-us.png?raw=true" group-title="Broadcast", FOX MO WDAF
-https://cvtv.cvalley.net/hls/WDAFFox/WDAFFox.m3u8
-#EXTINF:-1 tvg-id="KYCW-LD.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="Broadcast", CW MO
-https://cvtv.cvalley.net/hls/KYOUDT4/KYOUDT4.m3u8
+#EXTINF:-1 tvg-id="WDSE-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wdse-color-cobranded-logo-P2nzl7Z.png" group-title="Broadcast", PBS Chicago WDSE
+plugin://slyguy.pbs.live/?_=play&callsign=WDSE&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="KMBC-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC KC KMBC
 https://cvtv.cvalley.net/hls/KMBCABC/KMBCABC.m3u8
@@ -95,6 +54,60 @@ https://cvtv.cvalley.net/hls/WDAFFox/WDAFFox.m3u8
 https://cvtv.cvalley.net/hls/KCWECW/KCWECW.m3u8
 #EXTINF:-1 tvg-id="KCWC-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="Broadcast", CW KC KCWC
 https://cvtv.cvalley.net/hls/KCWECW/KCWECW.m3u8
+#EXTINF:-1 tvg-id="KPTS-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/kpts-color-cobranded-logo-THeGpUD.png" group-title="Broadcast", PBS KC KPTS
+plugin://slyguy.pbs.live/?_=play&callsign=KPTS&_is_live=1&_noresume=.pvr
+
+#EXTINF:-1 tvg-id="KABC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA KABC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71609.m3u8
+#EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA KCBS
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120654
+#EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120655
+#EXTINF:-1 tvg-id="KNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC LA KNBC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120656
+#EXTINF:-1 tvg-id="KRCB-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/krcb-color-single-brand-logo-4eMIGN0.png" group-title="Broadcast", PBS LA KRCB
+plugin://slyguy.pbs.live/?_=play&callsign=KRCB&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="KEET-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/keet-color-single-brand-logo-ga7RElo.png" group-title="Broadcast", PBS LA KEET
+plugin://slyguy.pbs.live/?_=play&callsign=KEET&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="KVIE-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/kvie-color-cobranded-logo-8vr1GYl.png" group-title="Broadcast", PBS LA KVIE
+plugin://slyguy.pbs.live/?_=play&callsign=KVIE&_is_live=1&_noresume=.pvr
+
+#EXTINF:-1 tvg-id="WPLG-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Miami WPLG
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121245
+#EXTINF:-1 tvg-id="WFOR-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Miami WFOR
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121243
+#EXTINF:-1 tvg-id="WSVN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" group-title="Broadcast", FOX Miami WSVN
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121242
+#EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC Miami WTVJ
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121241
+#EXTINF:-1 tvg-id="WXEL-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png" group-title="Broadcast", PBS Miami WXEL
+plugin://slyguy.pbs.live/?_=play&callsign=WXEL&_is_live=1&_noresume=.pvr
+
+#EXTINF:-1 tvg-id="WPDE-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Myrtle WPDE
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71482.m3u8
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70155
+#EXTINF:-1 tvg-id="WBTW-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Myrtle WBTW
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71483.m3u8
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70156
+#EXTINF:-1 tvg-id="WFXB-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX Myrtle WFXB
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120789
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70153
+#EXTINF:-1 tvg-id="WMBF-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="" group-title="Broadcast", NBC Myrtle WMBF
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120790
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/70152
+#EXTINF:-1 tvg-id="WRLK-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wrlk-color-single-brand-logo-AJhI6Sj.png" group-title="Broadcast", PBS Myrtle SCETV
+plugin://slyguy.pbs.live/?_=play&callsign=WRLK&_is_live=1&_noresume=.pvr
+
+#EXTINF:-1 tvg-id="KTVO-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC MO KTVO
+https://cvtv.cvalley.net/hls/KTVOABC/KTVOABC.m3u8
+#EXTINF:-1 tvg-id="KTVO-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-logo-white-us.png?raw=true" group-title="Broadcast", CBS MO KTVO
+https://cvtv.cvalley.net/hls/KTVOCBS/KTVOCBS.m3u8
+#EXTINF:-1 tvg-id="KYOU-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC MO KYOU
+https://cvtv.cvalley.net/hls/KYOUNBC2/KYOUNBC2.m3u8
+#EXTINF:-1 tvg-id="WDAF-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-us.png?raw=true" group-title="Broadcast", FOX MO WDAF
+https://cvtv.cvalley.net/hls/WDAFFox/WDAFFox.m3u8
+#EXTINF:-1 tvg-id="KYCW-LD.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="Broadcast", CW MO
+https://cvtv.cvalley.net/hls/KYOUDT4/KYOUDT4.m3u8
 
 #EXTINF:-1 tvg-id="KMIZ-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-2013-garnet-us.png?raw=true" group-title="Broadcast", ABC MO KMIZ
 https://cvtv.cvalley.net/hls/KMIZABC/KMIZABC.m3u8
@@ -104,6 +117,40 @@ https://cvtv.cvalley.net/hls/KRCGCBS/KRCGCBS.m3u8
 https://cvtv.cvalley.net/hls/KQFXFOX/KQFXFOX.m3u8
 #EXTINF:-1 tvg-id="KOMU-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC MO KOMU
 https://cvtv.cvalley.net/hls/KOMUNBC/KOMUNBC.m3u8
+
+#EXTINF:-1 tvg-id="WABC-DT.us_locals1" tvg-name="ABC (WABC) New York " tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC NY WABC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121139
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/112234
+#EXTINF:-1 tvg-id="WCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS (WCBS) New York " group-title="Broadcast", CBS NY WCBS
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120749
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/89712
+#EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX (WNYW) New York" group-title="Broadcast", FOX NY WNYW
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120750
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/38209
+#EXTINF:-1 tvg-id="WNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="NBC (WNBC) New York" group-title="Broadcast", NBC NY WNBC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120751
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/89714
+#EXTINF:-1 tvg-id="WCNY-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wcny-color-cobranded-logo-phmt23z.png" group-title="Broadcast", PBS NY WCNY
+plugin://slyguy.pbs.live/?_=play&callsign=WCNY&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="WPBS-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wpbs-color-cobranded-logo-TrmdjC5.png" group-title="Broadcast", PBS NY WPBS
+plugin://slyguy.pbs.live/?_=play&callsign=WPBS&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="WNET-DT.us_locals" tvg-logo="https://image.pbs.org/stations/wnet-color-cobranded-logo-GXznsKF.png" group-title="Broadcast", PBS NY WNET
+plugin://slyguy.pbs.live/?_=play&callsign=WNET&_is_live=1&_noresume=.pvr
+
+#EXTINF:-1, tvg-id="WTVD-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Raleigh WTVD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/122064
+#EXTINF:-1, tvg-id="WNCN-DT.us_locals1"  tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Raleigh WNCN
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/140820
+#EXTINF:-1, tvg-id="WRAZ-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Raleigh WRAZ
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120735
+#EXTINF:-1, tvg-id="WRAL-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" group-title="Broadcast", NBC RALEIGH WRAL
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120736
+#EXTINF:-1, tvg-id="WLFL-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="Broadcast", CW Raleigh WLFL
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/184544
+#EXTINF:-1 tvg-id="WUNC-DT.20.us_locals1" tvg-name="" tvg-logo="https://image.pbs.org/stations/wunc-color-cobranded-logo-rDOxVbV.png" group-title="Broadcast", PBS Raleigh WUNC
+plugin://slyguy.pbs.live/?_=play&callsign=WUNC&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="WTVI-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wtvi-color-cobranded-logo-K8AIvnk.png" group-title="Broadcast", PBS Charlotte WTVI
+plugin://slyguy.pbs.live/?_=play&callsign=WTVI&_is_live=1&_noresume=.pvr
 
 #Entertainment
 #EXTINF:-1 tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="Entertainment", A&E TV
@@ -171,8 +218,6 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.
 #EXTINF:-1 tvg-id="Me.TV.Network.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-us.png?raw=true" group-title="Entertainment", MeTV
 #https://cvtv.cvalley.net/hls/KMBCMeTV/KMBCMeTV.m3u8
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/ME_TV/index.m3u8
-#EXTINF:-1 tvg-id="MeTV.us@SD",MeTV
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/ME_TV/index.m3u8
 #EXTINF:-1 tvg-id="MOTORTREND.HD.us2" tvg-name="Motor Trend HD SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/motor-trend-us.png?raw=true" group-title="Entertainment", Motor Trend
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/10399
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/3747
@@ -222,6 +267,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/WE_TV/index.m3u8
 
 #Kids
+#EXTINF:-1 tvg-id="Boomerang.us2" tvg-name="Boomerang" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png" group-title="Kids", Boomerang
+http://cord-cutter.net:8080/30550113/30550113/14741
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="Kids", Cartoon Network
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/46708
 https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
@@ -268,88 +315,229 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/STARZ_WEST/index.m3u8
 
 #Music
-#EXTINF:-1 tvg-id="AXS.TV.us2" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/1/18/AXS_TV_Logo.png" tvg-name="US AXS TV" group-title="Music", AXS TV HD
+#EXTINF:-1 tvg-id="AXS.TV.us2" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/1/18/AXS_TV_Logo.png" tvg-name="US AXS TV" group-title="Music",  AXS TV HD
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/48324
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/Axs_TV/index.m3u8
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-606605549dbfca002d2ae875" tvg-name="AXS TV Now"tvg-logo="https://provider-static.plex.tv/7/epg/channels/logos/gracenote/74e18f9a2e4db79d32836869508722b9.png" group-title="Music", AXS TV Now
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-606605549dbfca002d2ae875" tvg-name="AXS TV Now"tvg-logo="https://provider-static.plex.tv/7/epg/channels/logos/gracenote/74e18f9a2e4db79d32836869508722b9.png" group-title="Music",  AXS TV Now
 plugin://slyguy.plex.live/?_=play&id=5e20b730f2f8d5003d739db7-606605549dbfca002d2ae875&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615" tvg-name="Music Legends" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png" group-title="Music" , AXS Music Legends
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615" tvg-name="Music Legends" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png" group-title="Music",  AXS Music Legends
 plugin://slyguy.plex.live/?_=play&id=5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="USBD3500024YB" tvg-name="Qello Concerts by Stingray" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500024YB_20250121T101146SQUARE.png" group-title="Music", Stingray  Qello Concerts
+#EXTINF:-1 tvg-id="USBD3500024YB" tvg-name="Qello Concerts by Stingray" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500024YB_20250121T101146SQUARE.png" group-title="Music",  Qello Concerts
 plugin://slyguy.samsung.tv.plus/?_=play&id=USBD3500024YB&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Easy Listening
+
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Easy Listening
 https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Hits List
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Hits List
 https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Pop Adult
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Pop Adult
 https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Hot Country
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Country Hot
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Country Greats
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Country Greats
 https://lotus.stingray.com/manifest/ose-109ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Alternative
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Alternative
 https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Classic Rock
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Classic Rock
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Greatest Hits
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Greatest Hits
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Flashback 70's
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", 70's Flashback
 https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Remember the 80's
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", 80's Remember
 https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Nothin but 90's
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", 90's Nothin but
 https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Soul Storm
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Soul Storm
 https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Stingray Smooth Jazz
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Jazz Smooth
 https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" group-title="Music", Vevo 70s
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" group-title="Music", 70s
 #https://amg00056-vevotv-amg00056c17-slingtv-worldwide-1195.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo70s-slingtvworldwide/playlist.m3u8
 https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" group-title="Music", Vevo 80s
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" group-title="Music", 80s
 #https://amg00056-vevotv-amg00056c16-slingtv-worldwide-1192.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo80s-slingtvworldwide/playlist.m3u8
 https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg" group-title="Music", Vevo 90s
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg" group-title="Music", 90s
 #https://amg00056-amg00056c24-slingtv-worldwide-2523.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo90s-slingtvworldwide/playlist.m3u8
 https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" group-title="Music", Vevo 2Ks
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" group-title="Music", 2Ks
 #https://live1009.delivery.roku.com/91a7a549-6c7a-43cd-a80c-00445443ccbd/t2-origin/out/v1/live.m3u8
 https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" group-title="Music", Vevo Country
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" group-title="Music", Country
 #https://amg00056-vevotv-amg00056c18-slingtv-worldwide-1194.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevocountry-slingtvworldwide/playlist.m3u8
 https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dZHktKR.png" group-title="Music", Vevo Pop
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dZHktKR.png" group-title="Music", Pop
 #https://amg00056-vevotv-amg00056c19-slingtv-worldwide-1196.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopop-slingtvworldwide/playlist.m3u8
 https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/H1Aap4E.png" group-title="Music", Vevo Retro Rock
+#EXTINF:-1 tvg-logo="https://i.imgur.com/H1Aap4E.png" group-title="Music", Retro Rock
 #https://amg00056-amg00056c2-slingtv-worldwide-3017.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevoretrorock-slingtvworldwide/playlist.m3u8
 https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE 60s & 70s Groove
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", 60s & 70s Groove
 https://amg01243-xite-amg01243c16-tcl-us-6476.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE 80s Flashback
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", 80s Flashback
 https://amg01243-xite-amg01243c2-tcl-us-6487.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE 90s Throwback
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", 90s Throwback
 https://amg01243-xite-amg01243c3-tcl-us-6486.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Celebrates
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Celebrates
 https://amg01243-xite-amg01243c1-tcl-us-6480.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Hits 1
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Hits 1
 https://amg01243-xite-amg01243c10-tcl-us-6490.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Hits 2
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Hits 2
 https://amg01243-xite-amg01243c22-tcl-us-6474.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Hits 3
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Hits 3
 https://amg01243-xite-amg01243c23-tcl-us-6475.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Just Chill
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Just Chill
 https://amg01243-xite-amg01243c9-tcl-us-6482.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE R&B Classic Jams
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", R&B Classic Jams
 https://amg01243-xite-amg01243c6-tcl-us-6484.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE R&B Feels
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", R&B Feels
 https://amg01243-xite-amg01243c13-tcl-us-6478.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Rock x Metal
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Rock x Metal
 https://amg01243-xite-amg01243c21-tcl-us-6483.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", XITE Reggae Vibes
+#EXTINF:-1 tvg-logo="https://mms.businesswire.com/media/20190312005548/en/710041/23/logo_XITE_2017_zwart_.jpg" group-title="Music", Reggae Vibes
 https://amg01243-xite-amg01243c26-tcl-us-6510.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", 60's Hits
+http://rfcm.streamguys1.com/60hitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", 70's Hits
+http://rfcm.streamguys1.com/70hitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", 80's Hits
+http://rfcm.streamguys1.com/80hitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", 90's Hits
+http://rfcm.streamguys1.com/90hitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", 2000's Hits
+http://rfcm.streamguys1.com/00hitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Today's Hits
+http://rfcm.streamguys1.com/todayhitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Pop Hits
+http://rfcm.streamguys1.com/pophitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", R&B Hits
+http://rfcm.streamguys1.com/rbhitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", R&B Today
+http://rfcm.streamguys1.com/todaysrbpremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Soul Groove
+http://rfcm.streamguys1.com/soulgroovepremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Hip-Hop Classic
+http://rfcm.streamguys1.com/classichiphoppremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Hot Hip-Hop and R&B
+http://rfcm.streamguys1.com/hothiphoppremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Hits Classic
+http://rfcm.streamguys1.com/classichitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Rock Classic
+http://rfcm.streamguys1.com/classicrockpremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", 90's Classic Rock
+http://rfcm.streamguys1.com/90classicrockpremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Rock On
+http://rfcm.streamguys1.com/rockonpremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Alternative Hits
+http://rfcm.streamguys1.com/alternativehitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Alternative
+Classic
+http://rfcm.streamguys1.com/classicalternativehitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Country Hits
+http://rfcm.streamguys1.com/countryhitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Country Vintage
+http://rfcm.streamguys1.com/vintagecountrypremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Country 90's
+http://rfcm.streamguys1.com/90countrypremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Country Roads
+http://rfcm.streamguys1.com/countryroadspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Soft Rock Hits
+http://rfcm.streamguys1.com/softrockhitspremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Mix Lite
+http://rfcm.streamguys1.com/mixlitpremium-mp3
+#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Music", Jazz Smooth
+http://rfcm.streamguys1.com/smoothjazzpremium-mp3
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rumba
+https://stream.revma.ihrhls.com/zc4451/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Tropical Top 20
+https://stream.revma.ihrhls.com/zc9912/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Reggae
+https://stream.revma.ihrhls.com/zc6788/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Hit Nation
+https://stream.revma.ihrhls.com/zc4422/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", K-Pop Radio
+https://stream.revma.ihrhls.com/zc9003/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Mix Rewind
+https://stream.revma.ihrhls.com/zc7361/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Mix Today's
+https://stream.revma.ihrhls.com/zc4409/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Pop Rewind
+https://stream.revma.ihrhls.com/zc9756/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Pop Top 20
+https://stream.revma.ihrhls.com/zc4878/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", iHeartRadio Countdown
+https://stream.revma.ihrhls.com/zc6455/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country
+https://stream.revma.ihrhls.com/zc4418/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country New
+https://stream.revma.ihrhls.com/zc4712/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country Classics
+https://stream.revma.ihrhls.com/zc4435/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country 80's
+https://stream.revma.ihrhls.com/zc6836/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country 90's
+https://stream.revma.ihrhls.com/zc6870/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country 2000's
+https://stream.revma.ihrhls.com/zc10027/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country Favorites
+https://stream.revma.ihrhls.com/zc8625/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country Top 20
+https://stream.revma.ihrhls.com/zc4882/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Crook & Chase Countdown
+https://stream.revma.ihrhls.com/zc6921/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Yee Yee Radio
+https://stream.revma.ihrhls.com/zc10082/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 60's
+https://stream.revma.ihrhls.com/zc6873/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 70's
+https://stream.revma.ihrhls.com/zc6843/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 80's
+https://stream.revma.ihrhls.com/zc5060/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 90's
+https://stream.revma.ihrhls.com/zc6834/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 2000's
+https://stream.revma.ihrhls.com/zc6850/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 2010's
+https://stream.revma.ihrhls.com/zc8478/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Casey Kasem's Classic American Top 40 (70's & 80's)
+https://stream.revma.ihrhls.com/zc6545/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Casey Kasem's Classic American Top 40 (90's & 2000's)
+https://stream.revma.ihrhls.com/zc10423/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rick Dees Weekly Top 40 (80's 90's & 2000's)
+https://stream.revma.ihrhls.com/zc10600/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 80's Lost
+https://stream.revma.ihrhls.com/zc7934/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", One Hit Wonders
+https://stream.revma.ihrhls.com/zc6669/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rock Classic
+https://stream.revma.ihrhls.com/zc4426/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Jazz Classics
+https://stream.revma.ihrhls.com/zc9918/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rat Pack Radio
+https://stream.revma.ihrhls.com/zc6784/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Blues Hits Radio
+https://stream.revma.ihrhls.com/zc9567/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Motown Sounds
+https://stream.revma.ihrhls.com/zc7801/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 90's Dance Nation
+https://stream.revma.ihrhls.com/zc6946/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Disco Forever
+https://stream.revma.ihrhls.com/zc6755/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Evolution
+https://stream.revma.ihrhls.com/zc5953/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Dance Top 20
+https://stream.revma.ihrhls.com/zc9762/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Cardio Mix
+https://stream.revma.ihrhls.com/zc7250/hls.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Trancid
+https://stream.revma.ihrhls.com/zc5144/hls.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s28576d.png" group-title="Music", WEQX 102.7
+http://rocket.surfernetwork.com:10000/live/weqx_aac/chunklist_w1718796682.m3u8
 
 #News
 #EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="News", ABC News
@@ -388,6 +576,8 @@ https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CNN.International.us2" tvg-name="CNN International" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/cnn-hd-us.png?raw=true" group-title="News", CNN World
 https://dqmhiwgbe98iq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1e8xhm2nv4xdw/index.m3u8
+#EXTINF:-1 tvg-id="CTV.News.Channel.ca2" tvg-name="CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20250729T185109SQUARE.png" group-title="News", CTV News
+plugin://slyguy.samsung.tv.plus/?_=play&id=CA1400004AE&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="DWNEWS" tvg-logo="https://ortus-global.com/images/tv/dw-news-big.png" group-title="News", DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="EURONEWS" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/Euronews_2016_Logo.png" group-title="News", EuroNews
@@ -441,60 +631,6 @@ https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62c
 #EXTINF:-1 tvg-id="The.First.us2" tvg-logo="https://tf-a1.freetls.fastly.net/static/images/header-logo2.png" group-title="News", The First
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 
-#PBS
-#EXTINF:-1 tvg-id="KOZK" tvg-logo="https://image.pbs.org/stations/kozk-color-single-brand-logo-4J6w0Sm.png" group-title="PBS", Ozarks Public Television
-plugin://slyguy.pbs.live/?_=play&callsign=KOZK&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-single-brand-logo-CKvfnQs.png" group-title="PBS", Alaska Public Media
-plugin://slyguy.pbs.live/?_=play&callsign=KAKM&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KEET" tvg-logo="https://image.pbs.org/stations/keet-color-single-brand-logo-ga7RElo.png" group-title="PBS", KEET
-plugin://slyguy.pbs.live/?_=play&callsign=KEET&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KVIE" tvg-logo="https://image.pbs.org/stations/kvie-color-cobranded-logo-8vr1GYl.png" group-title="PBS", PBS KVIE
-plugin://slyguy.pbs.live/?_=play&callsign=KVIE&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KRCB" tvg-logo="https://image.pbs.org/stations/krcb-color-single-brand-logo-4eMIGN0.png" group-title="PBS", Northern California Public Media
-plugin://slyguy.pbs.live/?_=play&callsign=KRCB&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WRLK" tvg-logo="https://image.pbs.org/stations/wrlk-color-single-brand-logo-AJhI6Sj.png" group-title="PBS", SCETV
-plugin://slyguy.pbs.live/?_=play&callsign=WRLK&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WUNC" tvg-logo="https://image.pbs.org/stations/wunc-color-cobranded-logo-rDOxVbV.png" group-title="PBS", PBS North Carolina
-plugin://slyguy.pbs.live/?_=play&callsign=WUNC&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WKLE" tvg-logo="https://image.pbs.org/stations/wkle-color-single-brand-logo-OAnywhf.png" group-title="PBS", KET - Kentucky Educational Television
-plugin://slyguy.pbs.live/?_=play&callsign=WKLE&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KPTS" tvg-logo="https://image.pbs.org/stations/kpts-color-cobranded-logo-THeGpUD.png" group-title="PBS", PBS Kansas Public Television
-plugin://slyguy.pbs.live/?_=play&callsign=KPTS&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WCBB" tvg-logo="https://image.pbs.org/stations/wcbb-color-single-brand-logo-Bvv2GbM.png" group-title="PBS", Maine Public
-plugin://slyguy.pbs.live/?_=play&callsign=WCBB&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WENH" tvg-logo="https://image.pbs.org/stations/wenh-color-cobranded-logo-I1seXpP.png" group-title="PBS", New Hampshire PBS
-plugin://slyguy.pbs.live/?_=play&callsign=WENH&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WETK" tvg-logo="https://image.pbs.org/stations/wetk-color-single-brand-logo-f1F43CM.png" group-title="PBS", Vermont Public
-plugin://slyguy.pbs.live/?_=play&callsign=WETK&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WMHT" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="PBS", WMHT
-plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WLVT" tvg-logo="https://image.pbs.org/stations/wlvt-color-single-brand-logo-yxa3feS.png" group-title="PBS", PBS39
-plugin://slyguy.pbs.live/?_=play&callsign=WLVT&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WDSE" tvg-logo="https://image.pbs.org/stations/wdse-color-cobranded-logo-P2nzl7Z.png" group-title="PBS", PBS North
-plugin://slyguy.pbs.live/?_=play&callsign=WDSE&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WCMU" tvg-logo="https://image.pbs.org/stations/wcmu-color-cobranded-logo-0YMvnSJ.png" group-title="PBS", WCMU Public Television
-plugin://slyguy.pbs.live/?_=play&callsign=WCMU&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WNET" tvg-logo="https://image.pbs.org/stations/wnet-color-cobranded-logo-GXznsKF.png" group-title="PBS", THIRTEEN PBS
-plugin://slyguy.pbs.live/?_=play&callsign=WNET&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KRMA" tvg-logo="https://image.pbs.org/stations/krma-color-cobranded-logo-5wuRPLn.png" group-title="PBS", Rocky Mountain PBS
-plugin://slyguy.pbs.live/?_=play&callsign=KRMA&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WCFE" tvg-logo="https://image.pbs.org/stations/wcfe-color-cobranded-logo-q9QJoDW.png" group-title="PBS", Mountain Lake PBS
-plugin://slyguy.pbs.live/?_=play&callsign=WCFE&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WCNY" tvg-logo="https://image.pbs.org/stations/wcny-color-cobranded-logo-phmt23z.png" group-title="PBS", WCNY
-plugin://slyguy.pbs.live/?_=play&callsign=WCNY&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WPBS" tvg-logo="https://image.pbs.org/stations/wpbs-color-cobranded-logo-TrmdjC5.png" group-title="PBS", WPBS
-plugin://slyguy.pbs.live/?_=play&callsign=WPBS&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WTVI" tvg-logo="https://image.pbs.org/stations/wtvi-color-cobranded-logo-K8AIvnk.png" group-title="PBS", PBS Charlotte
-plugin://slyguy.pbs.live/?_=play&callsign=WTVI&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WBRA" tvg-logo="https://image.pbs.org/stations/wbra-color-cobranded-logo-7iIKCK5.png" group-title="PBS", Blue Ridge/Appalachia VA
-plugin://slyguy.pbs.live/?_=play&callsign=WBRA&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KERA" tvg-logo="https://image.pbs.org/stations/kera-color-single-brand-logo-Vorsfue.png" group-title="PBS", KERA
-plugin://slyguy.pbs.live/?_=play&callsign=KERA&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="KLRU" tvg-logo="https://image.pbs.org/stations/klru-color-cobranded-logo-BWySPnV.png" group-title="PBS", Austin PBS, KLRU-TV
-plugin://slyguy.pbs.live/?_=play&callsign=KLRU&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="WXEL" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png" group-title="PBS", WXEL South Florida PBS
-plugin://slyguy.pbs.live/?_=play&callsign=WXEL&_is_live=1&_noresume=.pvr
-
 #Sports
 #EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC NETWORK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" group-title="Sports", ACC Network
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
@@ -517,23 +653,23 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/17707
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Detroit.24/7.HDTV.us" tvg-name="FDSN Detroit" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s54286_dark_360w_270h.png" group-title="Sports", FanDuel Detroit
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/20936
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/20936
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Florida.HDTV.(Out.of.Market).us" tvg-name="FDSN Florida" tvg-logo="https://i.gyazo.com/fad701fbaaafe161b13b23ed9b50179b.png" group-title="Sports", FanDuel Florida
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/46794
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/46794
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Midwest.24/7.HDTV.us" tvg-name="FDSN Midwest" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11058_dark_360w_270h.png" group-title="Sports", FanDuel Midwest
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/66795
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/66795
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.North.HDTV.us" tvg-name="FDSN North" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10977_dark_360w_270h.png" group-title="Sports", FanDuel North
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/58827
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/58827
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Ohio.(Cleveland).HDTV.us" tvg-name="FDSN Ohio" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49691_dark_360w_270h.png" group-title="Sports", FanDuel Ohio
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/17752
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/17752
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Southeast.HDTV.(Mont./Birm./Dothan/Mobile.AL).us" tvg-name="FDSN Southeast" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20789_dark_360w_270h.png" group-title="Sports", FanDuel Southeast
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/81111
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/81111
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Southwest.HDTV.24/7.(Main).us" tvg-name="FDSN Southwest" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59629_dark_360w_270h.png" group-title="Sports", FanDuel Southwest
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/21843
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/21843
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Sun.South.24/7.HDTV.(South.Marlins,.Rays,.Heat).us" tvg-name="FDSN Sun" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61084_dark_360w_270h.png" group-title="Sports", FanDuel Sun
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/104917
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/104917
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.West.HDTV.us" tvg-name="FDSN West" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59627_dark_360w_270h.png" group-title="Sports", FanDuel West
-#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/20932
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/20932
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="Sports", Fox Sports 1
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/1846
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8
@@ -558,7 +694,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 #EXTINF:-1 tvg-id="NFL.RedZone.HD.us2" tvg-name="NFL RedZone" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/nfl-red-zone-hz-us.png" group-title="Sports", NFL RedZone
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/208830
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
-#EXTINF:-1 group-title="Sports" tvg-chno="239" tvg-id="NHL.Network.HD.us2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" tvg-name="NHL Network" , NHL Network
+#EXTINF:-1 tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" group-title="Sports", NHL Network
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://23.237.104.106:8080/USA_NHL_NETWORK/index.m3u8
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/NHL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Racing.TV.HD.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
@@ -591,13 +727,13 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.
 #EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="TSN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61474_dark_360w_270h.png" group-title="Sports", TSN2
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/47442
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/TSN_2/index.m3u8
-#EXTINF:-1 tvg-id="TSN.3.ca2" tvg-name="TSN3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-3-hd-ca.png" group-title="Sports", TSN3
+#EXTINF:-1 tvg-id="TSN.3.ca2" tvg-name="TSN3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-3-hd-ca.png?raw=true" group-title="Sports", TSN3
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/TSN_3/index.m3u8
-#EXTINF:-1 tvg-id="TSN.4.ca2" tvg-name="TSN4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-4-hd-ca.png" group-title="Sports", TSN4
+#EXTINF:-1 tvg-id="TSN.4.ca2" tvg-name="TSN4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-4-hd-ca.png?raw=true" group-title="Sports", TSN4
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/TSN_4/index.m3u8
-#EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="TSN5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-5-hd-ca.png" group-title="Sports", TSN5
+#EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="TSN5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-5-hd-ca.png?raw=true" group-title="Sports", TSN5
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/TSN_5/index.m3u8
-#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" group-title="Sports", TVG Network
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png?raw=true" group-title="Sports", TVG Network
 #TVG.Network.us2
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/10259
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/21628
@@ -627,307 +763,3 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.
 #EXTINF:-1 tvg-id="Redbull.Dummy.us" tvg-logo="https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv" tvg-name="RED BULL TV" group-title="24/7", RED BULL TV
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 
-#Radio
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Mega
-https://stream.revma.ihrhls.com/zc10087/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Rumba
-https://stream.revma.ihrhls.com/zc4451/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Tropical Top 20
-https://stream.revma.ihrhls.com/zc9912/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Reggae
-https://stream.revma.ihrhls.com/zc6788/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Hit Nation
-https://stream.revma.ihrhls.com/zc4422/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart K-Pop Radio
-https://stream.revma.ihrhls.com/zc9003/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Mix Rewind
-https://stream.revma.ihrhls.com/zc7361/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Today's Mix
-https://stream.revma.ihrhls.com/zc4409/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Power
-https://stream.revma.ihrhls.com/zc7360/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Pop Rewind
-https://stream.revma.ihrhls.com/zc9756/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart WiLD
-https://stream.revma.ihrhls.com/zc4722/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Pop Top 20
-https://stream.revma.ihrhls.com/zc4878/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Trending Pop Top 20
-https://stream.revma.ihrhls.com/zc10479/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Pop Rocks
-https://stream.revma.ihrhls.com/zc8842/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Minivan Rock
-https://stream.revma.ihrhls.com/zc10055/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Coffee Shop Radio
-https://stream.revma.ihrhls.com/zc6698/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart American Top 40
-https://stream.revma.ihrhls.com/zc4802/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart The iHeartRadio Countdown
-https://stream.revma.ihrhls.com/zc6455/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country
-https://stream.revma.ihrhls.com/zc4418/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart New Country
-https://stream.revma.ihrhls.com/zc4712/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country Classics
-https://stream.revma.ihrhls.com/zc4435/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country 80's
-https://stream.revma.ihrhls.com/zc6836/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country 90's
-https://stream.revma.ihrhls.com/zc6870/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country 2000's
-https://stream.revma.ihrhls.com/zc10027/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country Favorites
-https://stream.revma.ihrhls.com/zc8625/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country Outlaws
-https://stream.revma.ihrhls.com/zc6851/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country Love Songs
-https://stream.revma.ihrhls.com/zc7803/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country Top 20
-https://stream.revma.ihrhls.com/zc4882/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Trending Country Top 20
-https://stream.revma.ihrhls.com/zc10485/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Women of iHeartCountry
-https://stream.revma.ihrhls.com/zc7367/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Cross Country
-https://stream.revma.ihrhls.com/zc10164/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Bluegrass
-https://stream.revma.ihrhls.com/zc6892/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Red Dirt Radio
-https://stream.revma.ihrhls.com/zc6842/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Country Top 30
-https://stream.revma.ihrhls.com/zc6760/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Crook & Chase Countdown
-https://stream.revma.ihrhls.com/zc6921/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart After MidNite
-https://stream.revma.ihrhls.com/zc6563/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Yee Yee Radio
-https://stream.revma.ihrhls.com/zc10082/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 50's
-https://stream.revma.ihrhls.com/zc6882/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 60's
-https://stream.revma.ihrhls.com/zc6873/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 70's
-https://stream.revma.ihrhls.com/zc6843/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 80's
-https://stream.revma.ihrhls.com/zc5060/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 90's
-https://stream.revma.ihrhls.com/zc6834/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 2000's Y2K
-https://stream.revma.ihrhls.com/zc6850/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 2010's
-https://stream.revma.ihrhls.com/zc8478/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Doo-Wop
-https://stream.revma.ihrhls.com/zc10058/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Real Oldies (60's & 70's)
-https://stream.revma.ihrhls.com/zc4717/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Cool Oldies (70's & 80's)
-https://stream.revma.ihrhls.com/zc4439/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Big Classic Hits (70's 80's & 90's)
-https://stream.revma.ihrhls.com/zc4455/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Casey Kasem's Classic American Top 40 (70's & 80's)
-https://stream.revma.ihrhls.com/zc6545/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Casey Kasem's Classic American Top 40 (90's & 2000's)
-https://stream.revma.ihrhls.com/zc10423/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Classic Rick Dees Weekly Top 40 (80's 90's & 2000's)
-https://stream.revma.ihrhls.com/zc10600/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Lost 80's
-https://stream.revma.ihrhls.com/zc7934/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart The Beatles Now And Then
-https://stream.revma.ihrhls.com/zc10023/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart British Invasion
-https://stream.revma.ihrhls.com/zc5708/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart One Hit Wonders
-https://stream.revma.ihrhls.com/zc6669/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Real Fun Beach Radio
-https://stream.revma.ihrhls.com/zc6221/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Rock Drive
-https://stream.revma.ihrhls.com/zc7402/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Pop Drive
-https://stream.revma.ihrhls.com/zc7403/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Classic Rock
-https://stream.revma.ihrhls.com/zc4426/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Vinyl Classic Rock
-https://stream.revma.ihrhls.com/zc7078/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart The Vinyl Experience
-https://stream.revma.ihrhls.com/zc6878/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Deep Cuts
-https://stream.revma.ihrhls.com/zc9652/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Café
-https://stream.revma.ihrhls.com/zc6951/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Southern Rock Ride
-https://stream.revma.ihrhls.com/zc10053/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 70's Rock Ride
-https://stream.revma.ihrhls.com/zc6803/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart 80's Rock Ride
-https://stream.revma.ihrhls.com/zc10054/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Slippery When Wet
-https://stream.revma.ihrhls.com/zc4858/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Classic Hard Rock
-https://stream.revma.ihrhls.com/zc10068/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart The Brew
-https://stream.revma.ihrhls.com/zc8626/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Rock Nation
-https://stream.revma.ihrhls.com/zc4443/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Rock Top 20
-https://stream.revma.ihrhls.com/zc4932/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart ALT Radio
-https://stream.revma.ihrhls.com/zc4447/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart ALT Top 20
-https://stream.revma.ihrhls.com/zc9759/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart ALT 2K
-https://stream.revma.ihrhls.com/zc7727/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart ALT Rewind
-https://stream.revma.ihrhls.com/zc6950/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart ALT X
-https://stream.revma.ihrhls.com/zc10098/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Smells Like the 90's
-https://stream.revma.ihrhls.com/zc6437/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Freeform Radio
-https://stream.revma.ihrhls.com/zc9719/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Indie Radio
-https://stream.revma.ihrhls.com/zc7189/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Nu Metal Radio
-https://stream.revma.ihrhls.com/zc9483/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Emo Nation
-https://stream.revma.ihrhls.com/zc9380/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Jam Bands
-https://stream.revma.ihrhls.com/zc7278/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Full Metal Jackie
-https://stream.revma.ihrhls.com/zc6225/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Soft Rock
-https://stream.revma.ihrhls.com/zc4414/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Lite Rock
-https://stream.revma.ihrhls.com/zc6830/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart The Breeze
-https://stream.revma.ihrhls.com/zc8143/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Sunny Radio
-https://stream.revma.ihrhls.com/zc5014/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Yacht Rock Radio
-https://stream.revma.ihrhls.com/zc8681/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Love Songs Radio
-https://stream.revma.ihrhls.com/zc6790/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Delilah
-https://stream.revma.ihrhls.com/zc4846/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Smooth Jazz
-https://stream.revma.ihrhls.com/zc4242/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Jazz Top 20
-https://stream.revma.ihrhls.com/zc9761/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Jazz Classics
-https://stream.revma.ihrhls.com/zc9918/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Vinyl Jazz
-https://stream.revma.ihrhls.com/zc7079/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Black Jazz & Blues
-https://stream.revma.ihrhls.com/zc7804/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Bluestown
-https://stream.revma.ihrhls.com/zc10029/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Rat Pack Radio
-https://stream.revma.ihrhls.com/zc6784/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Blues Hits Radio
-https://stream.revma.ihrhls.com/zc9567/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Broadway
-https://stream.revma.ihrhls.com/zc7378/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Fly Nation (Classic Hip-Hop)
-https://stream.revma.ihrhls.com/zc6732/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Throwbacks (Classic Hip-Hop and R&B)
-https://stream.revma.ihrhls.com/zc7397/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Hip-Hop 2000's
-https://stream.revma.ihrhls.com/zc10170/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart The Beat
-https://iheart-iheartthebeat-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Hip-Hop Top 20
-https://stream.revma.ihrhls.com/zc4886/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Trending Hip-Hop Top 20
-https://stream.revma.ihrhls.com/zc10484/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Hip-Hop 50 Radio
-https://stream.revma.ihrhls.com/zc9717/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart R&B Jams
-https://stream.revma.ihrhls.com/zc4433/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart R&B Top 20
-https://stream.revma.ihrhls.com/zc4940/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Chill Jams
-https://stream.revma.ihrhls.com/zc4719/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Sweat Hotel with Keith Sweat
-https://stream.revma.ihrhls.com/zc6529/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Motown Sounds
-https://stream.revma.ihrhls.com/zc7801/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Classic Soul
-https://stream.revma.ihrhls.com/zc7120/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Classic Funk
-https://stream.revma.ihrhls.com/zc6955/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Dance Nation 90's
-https://stream.revma.ihrhls.com/zc6946/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Freestyle
-https://stream.revma.ihrhls.com/zc7368/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Forever Disco
-https://stream.revma.ihrhls.com/zc6755/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Evolution
-https://stream.revma.ihrhls.com/zc5953/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Dance Top 20
-https://stream.revma.ihrhls.com/zc9762/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" roup-title="Radio", iHeart Mix Nation
-https://stream.revma.ihrhls.com/zc4776/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Cardio Mix
-https://stream.revma.ihrhls.com/zc7250/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Chill Beats Radio
-https://stream.revma.ihrhls.com/zc9959/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Radio" radio="true", iHeart Trancid
-https://stream.revma.ihrhls.com/zc5144/hls.m3u8
-
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 60's Hits
-http://rfcm.streamguys1.com/60hitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 70's Hits
-http://rfcm.streamguys1.com/70hitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 80's Hits
-http://rfcm.streamguys1.com/80hitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 90's Hits
-http://rfcm.streamguys1.com/90hitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 2000's Hits
-http://rfcm.streamguys1.com/00hitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Today's Hits
-http://rfcm.streamguys1.com/todayhitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Pop Hits
-http://rfcm.streamguys1.com/pophitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn R&B Hits
-http://rfcm.streamguys1.com/rbhitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Today's R&B
-http://rfcm.streamguys1.com/todaysrbpremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Soul Groove
-http://rfcm.streamguys1.com/soulgroovepremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Classic Hip-Hop
-http://rfcm.streamguys1.com/classichiphoppremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Hot Hip-Hop and R&B
-http://rfcm.streamguys1.com/hothiphoppremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Adult Hits
-http://rfcm.streamguys1.com/adulthitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Classic Hits
-http://rfcm.streamguys1.com/classichitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Classic Rock
-http://rfcm.streamguys1.com/classicrockpremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 90's Classic Rock
-http://rfcm.streamguys1.com/90classicrockpremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Rock On
-http://rfcm.streamguys1.com/rockonpremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Adult Alternative
-http://rfcm.streamguys1.com/adultalternativepremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Alternative Hits
-http://rfcm.streamguys1.com/alternativehitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Classic Alternative
-http://rfcm.streamguys1.com/classicalternativehitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Country Hits
-http://rfcm.streamguys1.com/countryhitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Vintage Country
-http://rfcm.streamguys1.com/vintagecountrypremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn 90's Country
-http://rfcm.streamguys1.com/90countrypremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Country Roads
-http://rfcm.streamguys1.com/countryroadspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Soft Rock Hits
-http://rfcm.streamguys1.com/softrockhitspremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Mix Lite
-http://rfcm.streamguys1.com/mixlitpremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Sailing
-http://rfcm.streamguys1.com/sailingpremium-mp3
-#EXTINF:-1 tvg-logo="https://github.com/joaconigro/plugin.audio.tuneinradio/blob/master/resources/icon.png?raw=true" group-title="Radio" radio="true", TuneIn Smooth Jazz
-http://rfcm.streamguys1.com/smoothjazzpremium-mp3
-#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s28576d.png" group-title="Radio" radio="true", WEQX 102.7
-#http://rocket.surfernetwork.com:10000/live/weqx_aac/chunklist_w1718796682.m3u8
