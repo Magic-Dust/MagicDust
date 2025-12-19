@@ -3,6 +3,8 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz"
 
 #Broadcast
 #EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Albany WTEN
@@ -538,9 +540,17 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 #EXTINF:-1 tvg-id="AXS.TV.us2" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/1/18/AXS_TV_Logo.png" tvg-name="US AXS TV" group-title="24/7", AXS TV HD
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/48324
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/Axs_TV/index.m3u8
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-606605549dbfca002d2ae875" tvg-name="AXS TV Now"tvg-logo="https://provider-static.plex.tv/7/epg/channels/logos/gracenote/74e18f9a2e4db79d32836869508722b9.png" group-title="24/7", AXS TV Now
+#EXTINF:-1 tvg-id="plex.tv.AXS.TV.NOW.plex" tvg-name="AXS TV Now"tvg-logo="https://provider-static.plex.tv/7/epg/channels/logos/gracenote/74e18f9a2e4db79d32836869508722b9.png" group-title="24/7", AXS TV Now
 plugin://slyguy.plex.live/?_=play&id=5e20b730f2f8d5003d739db7-606605549dbfca002d2ae875&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615" tvg-name="Music Legends" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png" group-title="24/7", Music Legends
+#EXTINF:-1 tvg-id="plex.tv.Music.Legends.plex" tvg-name="Music Legends" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png" group-title="24/7", Music Legends
 plugin://slyguy.plex.live/?_=play&id=5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615&_is_live=1&_noresume=.pvr
-#EXTINF:-1 tvg-id="USBD3500024YB" tvg-name="Qello Concerts by Stingray" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500024YB_20250121T101146SQUARE.png" group-title="24/7", Qello Concerts
+#EXTINF:-1 tvg-id="plex.tv.Qello.Concerts.plex" tvg-name="Qello Concerts by Stingray" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500024YB_20250121T101146SQUARE.png" group-title="24/7", Qello Concerts
 plugin://slyguy.samsung.tv.plus/?_=play&id=USBD3500024YB&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="plex.tv.Gardening.with.Monty.Don.plex" tvg-name="Gardening with Monty Don" tvg-logo="https://provider-static.plex.tv/epg/cms/production/db913c01-eb1b-4e36-9f88-f7fe25389bc4/Wurl_GWMD_ChannelAllWhite_1500x1000.png" group-title="24/7", Gardening with Monty Don
+plugin://slyguy.plex.live/?_=play&_play=1&id=647f8d22a2fc3fadb4721685-63d6f9b67c3070b6e06e0aad&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="plex.tv.BBC.Home.&amp;.Garden.plex" tvg-name="BBC Home & Garden" tvg-logo="https://provider-static.plex.tv/epg/cms/production/ca13d56c-b5ee-41c8-be4c-fbacc7972c57/PLEX_HOME_GARDEN_Logo_Light_1500X1000.png" group-title="24/7", BBC Home & Garden
+plugin://slyguy.plex.live/?_=play&_play=1&id=5e20b730f2f8d5003d739db7-6308eda9ac9983739c8a29bb&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="plex.tv.Qwest.TV.plex" tvg-name="Qwest TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/9625dc39-aca4-4f28-91ca-e2b61c6c726a/Channel_Hero_Logo_-_1500x1000.png" group-title="24/7", Qwest TV
+plugin://slyguy.plex.live/?_=play&_play=1&id=5e20b730f2f8d5003d739db7-60b0f65c0c8ffb002c821a75&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="plex.tv.SNL.Vault.plex" tvg-name="SNL Vault" tvg-logo="https://provider-static.plex.tv/epg/cms/production/712dae9e-9111-4bbc-8ea4-242e891ab5b3/snl-vault-fclogo-72-dpi-1500-x-1000-3-2-channel-logo-dark-plex-1.png" group-title="24/7", SNL Vault
+plugin://slyguy.plex.live/?_=play&_play=1&id=5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd34&_is_live=1&_noresume=.pvr
