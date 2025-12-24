@@ -10,7 +10,25 @@
 </items_info>
 
 <item>
-<title>Moveonjoy (F11)</title>
+<title>Moveonjoy Big</title>
+<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+).*?(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/MoveOnJoy.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>Moveonjoy Small</title>
 <thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -150,24 +168,6 @@
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
 <page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Moveonjoy (F130)</title>
-<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/moveonjoy.m3u8</page>
 </regex>
 </item>
 
@@ -803,7 +803,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=watercoolpcguy@gmail.com&amp;password=AuhB4NcZdR&amp;type=m3u</page>
@@ -821,7 +821,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=yvetteangelinahubbs@icloud.com&amp;password=LJ2wkazRV6&amp;type=m3u</page>
@@ -839,7 +839,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=warrior4547@yahoo.com&amp;password=RwSAU6LPzi&amp;type=m3u</page>
@@ -857,7 +857,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=mmarcmiller@gmail.com&amp;password=45FmZ8YgTJ&amp;type=m3u</page>
@@ -879,6 +879,24 @@ special://home/addons/plugin.video.daddylive/icon.png
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://tv.zeuspro.xyz:8080/get.php?username=Mickael&amp;password=0fbfc1d5b527&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]1tv41 [/COLOR]8434692955</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=8434692955&amp;password=judgen64@yahoo.com&amp;type=m3u</page>
 </regex>
 </item>
 
