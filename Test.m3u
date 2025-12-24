@@ -62,6 +62,7 @@ plugin://slyguy.pbs.live/?_=play&callsign=KPTS&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="KABC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA KABC
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://supersonictv.live:8080/live/006943/072377/71609.m3u8
 #EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA KCBS
+#http://fl1.moveonjoy.com/NV_LAS_VEGAS_CBS/index.m3u8
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120654
 #EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120655
@@ -119,17 +120,20 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-li
 plugin://slyguy.pbs.live/?_=play&callsign=WRLK&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="WABC-DT.us_locals1" tvg-name="ABC (WABC) New York " tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC NY WABC
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121139
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/121139
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/112234
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="WCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS (WCBS) New York " group-title="Broadcast", CBS NY WCBS
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120749
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/89712
 #EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX (WNYW) New York" group-title="Broadcast", FOX NY WNYW
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120750
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120750
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/38209
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="WNBC-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10991_h15_ad.png" tvg-name="NBC (WNBC) New York" group-title="Broadcast", NBC NY WNBC
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120751
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/120751
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=https://restream-live.realiptv.to:443/Theone-restream/o3kTHZ0JdL/89714
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="WCNY-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wcny-color-cobranded-logo-phmt23z.png" group-title="Broadcast", PBS NY WCNY
 plugin://slyguy.pbs.live/?_=play&callsign=WCNY&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="WPBS-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wpbs-color-cobranded-logo-TrmdjC5.png" group-title="Broadcast", PBS NY WPBS
@@ -176,7 +180,8 @@ plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.
 #EXTINF:-1 tvg-id="Science.Channel.HD.us2" tvg-name="Discovery Science" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24282_dark_360w_270h.png" group-title="Entertainment", Discovery Science
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/Discovery_Science/index.m3u8
 #EXTINF:-1 tvg-id="E!.Entertainment.Television.HD.us2" tvg-name="E! Entertainment" tvg-logo="https://i.gyazo.com/f73b80e3eb56cec06df6705d00e2f422.png" group-title="Entertainment", E! Entertainment
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
+#plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 tvg-id="Food.Network.HD.us2" tvg-name="Food Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_dark_360w_270h.png" group-title="Entertainment", Food Network
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/7323
 #EXTINF:-1 tvg-id="FX.HD.us2" tvg-name="FX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14321_dark_360w_270h.png" group-title="Entertainment", FX
@@ -229,6 +234,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/MTV_CLASSIC/index.m3u8
 #EXTINF:-1 tvg-id="MTVLIVE.us2" tvg-name="MTV Live" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV Live
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/MTV_LIVE/index.m3u8
+#EXTINF:-1 tvg-id="mtv-U.us2" tvg-name="mtvU" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-u-us.png?raw=true" group-title="Entertainment", MTV U
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/MTV_U/index.m3u8
 #EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="Entertainment", National Geographic
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/National_Geographic/index.m3u8
 #EXTINF:-1 tvg-id="National.Geographic.Wild.HD.us2" tvg-name="Nat Geo Wild" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="Entertainment", Nat Geo Wild
@@ -268,7 +275,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 
 #Kids
 #EXTINF:-1 tvg-id="Boomerang.us2" tvg-name="Boomerang" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png" group-title="Kids", Boomerang
-http://cord-cutter.net:8080/30550113/30550113/14741
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/14741
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="Kids", Cartoon Network
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/46708
 https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
@@ -298,6 +306,10 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 #EXTINF:-1 tvg-id="Crave4.ca2" tvg-name="Crave4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies", Crave 4 HD
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/30550113/30550113/57311
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/CRAVE_4/index.m3u8
+#EXTINF:-1 tvg-id="Cinemax.HD.us2" tvg-name="CINEMAX EAST" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cinemax-us.png" group-title="Movies", CINEMAX EAST
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/CINEMAX_EAST/index.m3u8
+#EXTINF:-1 tvg-id="Cinemax.(Pacific).us2" tvg-name="CINEMAX WEST" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies", CINEMAX WEST
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/CINEMAX_WEST/index.m3u8
 #EXTINF:-1 tvg-id="HBO.East.us2" tvg-name="HBO" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10240_dark_360w_270h.png" group-title="Movies", HBO
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/46713
 #EXTINF:-1 tvg-id="HBO2.HD.us2" tvg-name="HBO 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png" group-title="Movies", HBO 2
@@ -325,8 +337,12 @@ https://b638a299.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW
 #EXTINF:-1 tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC WORLD NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-news-uk.png?raw=true" group-title="News", BBC WORLD NEWS
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="Blaze.TV.us2" tvg-name="BLAZE" tvg-logo="https://images.pluto.tv/channels/5e46fba0c43b0d00096e5ac1/colorLogoPNG.png" group-title="News", BLAZE
+https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" group-title="News", Bloomberg LIVE Feeds[COLOR magenta] (4 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlist=%5B%27https://bloomberg.com/media-manifest/streams/us-event.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/politics.m3u8%24%24lsname%3DUS+Politics%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/eu-event.m3u8%24%24lsname%3DEurope%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8%24%24lsname%3DBloomberg+Extra%27%5D
+#EXTINF:-1 tvg-id="C-SPAN.us" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://fl1.moveonjoy.com/C-SPAN/index.m3u8
 #EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
 #https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master720p.m3u8
 https://d36tuf8zz9b2bm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hfw6opvomwxih/CBC_News_International.m3u8
@@ -418,7 +434,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.c
 #plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/10454
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-id="ESPN.HD.us2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png" tvg-name="ESPN" , ESPN
-plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/14197
+#plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/14197
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://41.205.93.154/ESPN/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-id="ESPN2.HD.us2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png" tvg-name="ESPN2" , ESPN2
 plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://cord-cutter.net:8080/k4Svp2/645504/2210
 #EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPN U" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png" group-title="Sports", ESPN U
