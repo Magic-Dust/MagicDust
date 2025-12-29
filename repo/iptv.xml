@@ -58,7 +58,7 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
+<expres>(?i)#EXTINF:.*?,([^\n]+)\n(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.m3u8</page>
 </regex>
 </item>
@@ -154,6 +154,24 @@
 </item>
 
 <item>
+<title>Bear1964 livetv</title>
+<thumbnail>https://avatars.githubusercontent.com/u/243696226?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/livetv.m3u8</page>
+</regex>
+</item>
+
+<item>
 <title>LiveTVCollector</title>
 <thumbnail>https://avatars.githubusercontent.com/u/113718082?v=4</thumbnail>
 <fanart></fanart>
@@ -186,6 +204,24 @@
 ]]></listrepeat>
 <expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=green]tvone[/COLOR] addons</title>
+<thumbnail>special://home/addons/plugin.video.tvone/icon.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]+)\n(plugin[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/tvone.m3u</page>
 </regex>
 </item>
 
@@ -316,7 +352,7 @@
 </item>
 
 <item>
-<title>[COLOR=orange]Cord-cutter [/COLOR] 30550113</title>
+<title>[COLOR=orange]Cord-cutter [/COLOR] k4Svp2</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -329,7 +365,7 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=30550113&amp;password=30550113&amp;type=m3u</page>
+<page>http://cord-cutter.net:8080/get.php?username=k4Svp2&amp;password=645504&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
@@ -480,24 +516,6 @@
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://tv14s.xyz:8080/get.php?username=A1Jay5&amp;password=362586&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]tvmate [/COLOR] 60023165</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://tvmate.icu:8080/get.php?username=60023165&amp;password=94429242&amp;type=m3u</page>
 </regex>
 </item>
 
@@ -693,15 +711,33 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),USA: ([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://vipbhbiss.top:8080/get.php?username=VIP019411733324306274&amp;password=5c5c9b45df3a&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]vipbhbiss [/COLOR]VIP012171027704956</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),USA: ([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://vipbhbiss.top:8080/get.php?username=VIP019411733324306274&amp;password=5c5c9b45df3a&amp;type=m3u_plus</page>
+<page>http://vipbhbiss.top:8080/get.php?username=VIP012171027704956&amp;password=f7eb91dc3c1e&amp;type=m3u</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=orange]vipbhbiss [/COLOR]VIP018941749329923479</title>
+<title>[COLOR=orange]1tv41 [/COLOR]8434692955</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -713,46 +749,8 @@ special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),USA: ([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://vipbhbiss.top:8080/get.php?username=VIP018941749329923479&amp;password=bd3b04d8b34a&amp;type=m3u_plus</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]23.227.140.75 [/COLOR] ElizJohn614</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-special://home/addons/plugin.video.daddylive/icon.png
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://23.227.140.75:8080/get.php?username=ElizJohn614&amp;password=fdtXMLpTA9&amp;type=m3u_plus</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]213.176.3.65 [/COLOR] COOPERath</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-special://home/addons/plugin.video.daddylive/icon.png
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://213.176.3.65:8080/get.php?username=COOPERath&amp;password=w3EBgdaXF0&amp;type=m3u&amp;output=ts</page>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=8434692955&amp;password=judgen64@yahoo.com&amp;type=m3u</page>
 </regex>
 </item>
 
@@ -775,7 +773,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>[COLOR=skyblue]Supersonictv [/COLOR] 728829</title>
+<title>[COLOR=skyblue]Supersonictv [/COLOR] 923429</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -788,7 +786,25 @@ special://home/addons/plugin.video.daddylive/icon.png
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://supersonictv.live:8080/get.php?username=728829&amp;password=005443&amp;type=m3u</page>
+<page>http://supersonictv.live:8080/get.php?username=923429&amp;password=481252&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Supersonictv [/COLOR] Dara123</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://Supersonictv.live:8080/get.php?username=Dara123&amp;password=Dara123&amp;type=m3u</page>
 </regex>
 </item>
 
@@ -865,7 +881,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>[COLOR=skyblue]Zeuspro [/COLOR]Mickael</title>
+<title>[COLOR=skyblue]iptvpro [/COLOR]swtv123</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -877,44 +893,8 @@ special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://tv.zeuspro.xyz:8080/get.php?username=Mickael&amp;password=0fbfc1d5b527&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]1tv41 [/COLOR]8434692955</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://1tv41.icu:8080/get.php?username=8434692955&amp;password=judgen64@yahoo.com&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]tvone[/COLOR] addons</title>
-<thumbnail>special://home/addons/plugin.video.tvone/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(plugin[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/tvone.m3u</page>
+<expres>(?i),([^\n]+)\n(ht.*?ts)</expres>
+<page>http://iptvpro.pw:35451//live/get.php?username=swtv123&amp;password=87654321&amp;type=m3u</page>
 </regex>
 </item>
 
