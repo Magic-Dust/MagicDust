@@ -819,28 +819,10 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=watercoolpcguy@gmail.com&amp;password=AuhB4NcZdR&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]Defaultgen [/COLOR]yvetteangelinahubbs</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://defaultgen.com:5050/get.php?username=yvetteangelinahubbs@icloud.com&amp;password=LJ2wkazRV6&amp;type=m3u</page>
 </regex>
 </item>
 
@@ -855,7 +837,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=warrior4547@yahoo.com&amp;password=RwSAU6LPzi&amp;type=m3u</page>
@@ -873,7 +855,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=PICK&amp;url=[makelist.param2]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://defaultgen.com:5050/get.php?username=mmarcmiller@gmail.com&amp;password=45FmZ8YgTJ&amp;type=m3u</page>
@@ -893,7 +875,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht.*?ts)</expres>
+<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://iptvpro.pw:35451//live/get.php?username=swtv123&amp;password=87654321&amp;type=m3u</page>
 </regex>
 </item>
