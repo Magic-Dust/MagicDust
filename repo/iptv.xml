@@ -244,7 +244,7 @@
 </item>
 
 <item>
-<title>Roxiestreams (Sports events)</title>
+<title>[COLOR=yellow]Roxiestreams [/COLOR](Sports events)</title>
 <thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -262,7 +262,7 @@
 </item>
 
 <item>
-<title>Xtreamlist (Sports)</title>
+<title>[COLOR=yellow]Xtreamlist[/COLOR] (Sports)</title>
 <thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -520,6 +520,42 @@
 </item>
 
 <item>
+<title>[COLOR=orange]1tv41 [/COLOR]8434692955</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=8434692955&amp;password=judgen64@yahoo.com&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]1tv41 [/COLOR]Dj8p2K</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=Dj8p2K&amp;password=309688&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=orange]tvmate [/COLOR] 99437538</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -737,24 +773,6 @@ special://home/addons/plugin.video.daddylive/icon.png
 </item>
 
 <item>
-<title>[COLOR=orange]1tv41 [/COLOR]8434692955</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://1tv41.icu:8080/get.php?username=8434692955&amp;password=judgen64@yahoo.com&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]Supersonictv [/COLOR] 006779</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -805,60 +823,6 @@ special://home/addons/plugin.video.daddylive/icon.png
 ]]></listrepeat>
 <expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://Supersonictv.live:8080/get.php?username=Dara123&amp;password=Dara123&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]Defaultgen [/COLOR]watercoolpcguy</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://defaultgen.com:5050/get.php?username=watercoolpcguy@gmail.com&amp;password=AuhB4NcZdR&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]Defaultgen [/COLOR]warrior4547@yahoo.com</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://defaultgen.com:5050/get.php?username=warrior4547@yahoo.com&amp;password=RwSAU6LPzi&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]Defaultgen [/COLOR]mmarcmiller@gmail.com</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://defaultgen.com:5050/get.php?username=mmarcmiller@gmail.com&amp;password=45FmZ8YgTJ&amp;type=m3u</page>
 </regex>
 </item>
 
