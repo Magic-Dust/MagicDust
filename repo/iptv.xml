@@ -10,25 +10,7 @@
 </items_info>
 
 <item>
-<title>Moveonjoy Big</title>
-<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+).*?(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/MoveOnJoy.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Moveonjoy Small</title>
+<title>Moveonjoy</title>
 <thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -42,6 +24,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
 <page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/Moveonjoy.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>Moveonjoy +Regional</title>
+<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+).*?(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/MoveOnJoy.m3u</page>
 </regex>
 </item>
 
@@ -94,7 +94,7 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<expres>(?i)(?s)",([^\n]+)\n(htt.*?).ts</expres>
 <page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
 </regex>
 </item>
@@ -172,8 +172,8 @@
 </item>
 
 <item>
-<title>LiveTVCollector</title>
-<thumbnail>https://avatars.githubusercontent.com/u/113718082?v=4</thumbnail>
+<title>A1Xmedia (4k and Sports Channels)</title>
+<thumbnail>https://avatars.githubusercontent.com/u/188494592?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -184,8 +184,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(ht[^\n]*)</expres>
+<page>https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/a1x.m3u</page>
 </regex>
 </item>
 
@@ -208,6 +208,42 @@
 </item>
 
 <item>
+<title>LiveTVCollector</title>
+<thumbnail>https://avatars.githubusercontent.com/u/113718082?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
+<page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>Xtreamlist</title>
+<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>,([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=green]tvone[/COLOR] addons</title>
 <thumbnail>special://home/addons/plugin.video.tvone/icon.png</thumbnail>
 <fanart></fanart>
@@ -226,26 +262,26 @@
 </item>
 
 <item>
-<title>A1Xmedia (Sports Channels)</title>
-<thumbnail>https://avatars.githubusercontent.com/u/188494592?v=4</thumbnail>
+<title>[COLOR=yellow]Roxiestreams[/COLOR]</title>
+<thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>[makelist.param3]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(ht[^\n]*)</expres>
-<page>https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/a1x.m3u</page>
+<expres>(?i)logo="([^"]+).*?,([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/Roxiestreams.m3u8</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=yellow]Roxiestreams [/COLOR](Sports events)</title>
-<thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
+<title>[COLOR=yellow]Live Events[/COLOR]</title>
+<thumbnail>https://s3.amazonaws.com/busites_www/witzamfm/pages/meta/live_sports_1522507843.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -257,66 +293,66 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Roxiestreams.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=yellow]Xtreamlist[/COLOR] (Sports)</title>
-<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>,([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=yellow]CricHd[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/image/logo.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param4]|referer=[makelist.param2]&amp;origin=[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/CricHD.m3u</page>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/Live_Events.m3u8</page>
 </regex>
 </item>
 
 <item>
 <title>[COLOR=yellow]StreamedSU[/COLOR]</title>
-<thumbnail>https://pixelsport.tv/static/media/PixelSportLogo.1182b5f687c239810f6d.png</thumbnail>
+<thumbnail>https://streameast-0c.storage.googleapis.com/images/image2.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+<link>[makelist.param6]|[makelist.param3]&amp;[makelist.param4]&amp;[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-logo="([^"]+).*?,([^\n]+)[^:]+:[^-]+-([^\n]+)[^:]+:[^-]+-([^\n]+)[^:]+:[^-]+-([^\n]+).(htt.*?m3u8)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/StreamedSU.m3u8</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=yellow]PPVLand[/COLOR]</title>
+<title>[COLOR=yellow]StreamEast[/COLOR]</title>
+<thumbnail>https://bigstarbio.com/wp-content/uploads/streameast-xyz-1024x535.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|[makelist.param3]&amp;[makelist.param4]&amp;[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^"]+).*?,([^\n]+)[^:]+:[^-]+-([^\n]+)[^:]+:[^-]+-([^\n]+)[^:]+:[^-]+-[^-]+-([^\n]+).(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/StreamEast.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=yellow]SportsWebcast[/COLOR]</title>
+<thumbnail>https://cdn1.sportngin.com/attachments/news_article/6f9f-204888328/webcast-generic-football_large.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|[makelist.param3]&amp;[makelist.param4]&amp;[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^"]+).*?,([^\n]+)[^:]+:[^-]+-([^\n]+)[^:]+:[^-]+-([^\n]+)[^:]+:[^-]+-[^-]+-([^\n]+).(htt.*?m3u8)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/SportsWebcast.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=yellow]PPV[/COLOR]</title>
 <thumbnail>special://home/addons/plugin.program.magicdust/resources/media/ppv-events-10.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -326,10 +362,28 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|origin=[makelist.param2]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+<link>[makelist.param5]|[makelist.param2]&amp;[makelist.param3]&amp;[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/PPV.m3u8</page>
+<expres>(?i)(?s)",([^\n]+)\n[^:]+:[^-]+-([^\n]+)\n[^:]+:[^-]+-([^\n]+)\n[^:]+:[^-]+-[^-]+-([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/PPV.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=yellow]PPVLand[/COLOR]</title>
+<thumbnail>https://thesoftwiz.com/wp-content/uploads/2025/11/f4336a77-0bb2-4c34-a8cd-bfd20bddeba4-1024x683.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|[makelist.param2]&amp;[makelist.param3]&amp;[makelist.param4]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n[^:]+:[^-]+-([^\n]+)\n[^:]+:[^-]+-([^\n]+)\n[^:]+:[^-]+-[^-]+-([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/PPVLand.m3u8</page>
 </regex>
 </item>
 
@@ -344,10 +398,10 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|origin=[makelist.param4]&amp;referer=[makelist.param3]&amp;agent=[makelist.param2]</link>
+<link>[makelist.param5]|[makelist.param2]&amp;[makelist.param3]&amp;[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Bainchiclo/nickiptv/refs/heads/main/Pixelsports.m3u8</page>
+<expres>(?i)(?s)",([^\n]+)\n[^:]+:[^-]+-[^-]+-([^\n]+)\n[^:]+:[^-]+-([^\n]+)\n[^:]+:([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Bear1964/Misc/refs/heads/main/PixelSport.m3u8</page>
 </regex>
 </item>
 
@@ -442,6 +496,25 @@
 ]]></listrepeat>
 <expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
 <page>http://cord-cutter.net:8080/get.php?username=Ss5DKE&amp;password=232455&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]30550113</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=30550113&amp;password=30550113&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
