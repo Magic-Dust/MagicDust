@@ -82,6 +82,24 @@
 </item>
 
 <item>
+<title>tvimate</title>
+<thumbnail>https://staticiptv.us/wp-content/uploads/2024/03/tivimate-subscription.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/moj.m3u8</page>
+</regex>
+</item>
+
+<item>
 <title>tvAPP (SD only in prime time)</title>
 <thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
 <fanart></fanart>
