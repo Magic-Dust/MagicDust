@@ -38,9 +38,9 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt.*?.ts)</expres>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s])</expres>
 <page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
 </regex>
 </item>
