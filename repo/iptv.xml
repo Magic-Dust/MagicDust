@@ -82,6 +82,24 @@
 </item>
 
 <item>
+<title>BuddyTV2</title>
+<thumbnail>https://github.com/BuddyChewChew/My-Streams/raw/main/Logos/Gemini_Generated_Image_qek3m4qek3m4qek3.png?raw=true</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/tv.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>tvimate</title>
 <thumbnail>https://staticiptv.us/wp-content/uploads/2024/03/tivimate-subscription.png</thumbnail>
 <fanart></fanart>
@@ -222,6 +240,24 @@
 ]]></listrepeat>
 <expres>\n([^\,]+),(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive</page>
+</regex>
+</item>
+
+<item>
+<title>Roxiestreams (Sports)</title>
+<thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>\n([^\,]+),(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/Roxiestreams.m3u</page>
 </regex>
 </item>
 
