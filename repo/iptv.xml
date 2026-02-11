@@ -29,7 +29,7 @@
 
 <item>
 <title>Real-IPTV</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -251,12 +251,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>[makelist.param3]</link>
 ]]></listrepeat>
-<expres>\n([^\,]+),(ht[^\s]+)</expres>
+<expres>(?i)(?s)logo="([^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/Roxiestreams.m3u</page>
 </regex>
 </item>
@@ -540,7 +540,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV2[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -558,7 +558,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV3[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -576,7 +576,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV4[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -594,7 +594,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV5[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -612,7 +612,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV6[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -630,7 +630,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV7[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -648,7 +648,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV8[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -666,7 +666,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV9[/COLOR]</title>
-<thumbnail>https://iptv-provider4k.com/wp-content/uploads/2024/12/Real-IPTV-2.jpg</thumbnail>
+<thumbnail>https://www.iptvplayers.com/wp-content/uploads/2022/05/Real-IPTV-8.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
