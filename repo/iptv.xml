@@ -29,7 +29,7 @@
 
 <item>
 <title>Real-IPTV</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -393,6 +393,25 @@
 </item>
 
 <item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]Rw83jK</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=Rw83jK&amp;password=946540&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=orange]nocable.cc [/COLOR]5AGbfz</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
@@ -540,7 +559,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV2[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -558,7 +577,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV3[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -576,7 +595,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV4[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -594,7 +613,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV5[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -612,7 +631,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV6[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -630,7 +649,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV7[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -648,7 +667,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV8[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -666,7 +685,7 @@ special://home/addons/plugin.video.daddylive/icon.png
 
 <item>
 <title>[COLOR=orange]Real-IPTV9[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?s=48&v=4</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
