@@ -791,4 +791,41 @@ special://home/addons/plugin.video.daddylive/icon.png
 </regex>
 </item>
 
+<item>
+<title>[COLOR=orange]tv.diablotv [/COLOR]eEiiLll09384Ecaiman</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),USA-([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://tv.diablotv.net:8080/get.php?username=eEiiLll09384Ecaiman34RtR&amp;password=KTap2pdJx7&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]s.rocketdns [/COLOR]52748969</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),USA ([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://s.rocketdns.info:8080/get.php?username=52748969&amp;password=72335180&amp;type=m3u</page>
+</regex>
+</item>
+
+
 </items>
