@@ -81,7 +81,8 @@ http://cord-cutter.net:8080/KB0cRT/666742/121243
 #https://fl7.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8
 http://cord-cutter.net:8080/KB0cRT/666742/121242
 #EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Miami WTVJ
-http://cord-cutter.net:8080/KB0cRT/666742/121241
+#http://cord-cutter.net:8080/KB0cRT/666742/121241
+http://fl41.moveonjoy.com/FL_Miami_NBC/index.m3u8
 #EXTINF:-1 tvg-id="WXEL-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png" group-title="Broadcast", PBS Miami WXEL
 plugin://slyguy.pbs.live/?_=play&callsign=WXEL&_is_live=1&_noresume=.pvr
 
@@ -118,12 +119,13 @@ plugin://slyguy.pbs.live/?_=play&callsign=WRLK&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="WABC-DT.us_locals1" tvg-name="ABC (WABC) New York " tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC NY WABC
 #http://cord-cutter.net:8080/KB0cRT/666742/121139
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl2.moveonjoy.com/ABC_EAST/index.m3u8
+http://fl41.moveonjoy.com/NY_NEW_YORK_ABC/index.m3u8
 #EXTINF:-1 tvg-id="WCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS (WCBS) New York " group-title="Broadcast", CBS NY WCBS
-http://cord-cutter.net:8080/KB0cRT/666742/120749
+#http://cord-cutter.net:8080/KB0cRT/666742/120749
+http://fl41.moveonjoy.com/NY_NEW_YORK_CBS/index.m3u8
 #EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX (WNYW) New York" group-title="Broadcast", FOX NY WNYW
 #http://cord-cutter.net:8080/KB0cRT/666742/120750
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl2.moveonjoy.com/FOX_EAST/index.m3u8
+http://fl41.moveonjoy.com/FL_ORLANDO_FOX/index.m3u8
 #EXTINF:-1 tvg-id="WNBC-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="NBC (WNBC) New York" group-title="Broadcast", NBC NY WNBC
 #http://cord-cutter.net:8080/KB0cRT/666742/120751
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl2.moveonjoy.com/NBC_EAST/index.m3u8
@@ -156,8 +158,9 @@ http://mytvstream.net:8080/live/30550113/30550113/59056.m3u8
 #EXTINF:-1 tvg-id="AdultSwim.com.Cartoon.Network.us2" tvg-name="Adult Swim East" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="Entertainment", Adult Swim East
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="AMC.HD.us2" tvg-name="AMC" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png" group-title="Entertainment", AMC
-http://mytvstream.net:8080/live/30550113/30550113/18925.m3u8
 #https://fl2.moveonjoy.com/AMC_NETWORK/index.m3u8
+#http://mytvstream.net:8080/live/30550113/30550113/18925.m3u8
+http://41.205.93.154/AMC/index.m3u8
 #EXTINF:-1 tvg-id="Animal.Planet.HD.us2" tvg-name="Animal Planet" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16331_dark_360w_270h.png" group-title="Entertainment", Animal Planet
 #https://fl2.moveonjoy.com/Animal_Planet/index.m3u8
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
@@ -172,11 +175,14 @@ http://mytvstream.net:8080/live/30550113/30550113/46703.m3u8
 #http://fl7.moveonjoy.com/BRAVO/index.m3u8
 http://41.205.93.154/BRAVO/index.m3u8
 #EXTINF:-1 tvg-id="CMT.HD.us2" tvg-name="CMT" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10138_dark_360w_270h.png" group-title="Entertainment", CMT East
-https://fl2.moveonjoy.com/CMT/index.m3u8
+#https://fl2.moveonjoy.com/CMT/index.m3u8
+http://23.237.104.106:8080/USA_CMT/index.m3u8
 #EXTINF:-1 tvg-id="Comedy.Central.HD.us2" tvg-name="Comedy Central" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_dark_360w_270h.png" group-title="Entertainment", Comedy Central
-http://cord-cutter.net:8080/KB0cRT/666742/7466
+#http://cord-cutter.net:8080/KB0cRT/666742/7466
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="Cooking.Channel.HD.us2" tvg-name="Cooking Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png" group-title="Entertainment", Cooking Channel
-https://fl2.moveonjoy.com/COOKING_CHANNEL/index.m3u8
+#https://fl2.moveonjoy.com/COOKING_CHANNEL/index.m3u8
+http://23.237.104.106:8080/USA_COOKING/index.m3u8
 #EXTINF:-1 tvg-id="Discovery.Channel.HD.us2" tvg-name="Discovery Channel (US) Eastern Feed SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/discovery-channel-icon-2-us.png?raw=true" group-title="Entertainment", Discovery Channel East
 #http://cord-cutter.net:8080/KB0cRT/666742/46720
 #http://fl31.moveonjoy.com/Discovery_Channel/index.m3u8
@@ -185,39 +191,44 @@ http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 https://fl2.moveonjoy.com/Discovery_Science/index.m3u8
 #EXTINF:-1 tvg-id="E!.Entertainment.Television.HD.us2" tvg-name="E! Entertainment" tvg-logo="https://i.gyazo.com/f73b80e3eb56cec06df6705d00e2f422.png" group-title="Entertainment", E! Entertainment
 #https://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
+http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 tvg-id="Food.Network.HD.us2" tvg-name="Food Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_dark_360w_270h.png" group-title="Entertainment", Food Network
-http://cord-cutter.net:8080/KB0cRT/666742/7323
+#http://cord-cutter.net:8080/KB0cRT/666742/7323
+http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="FX.HD.us2" tvg-name="FX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14321_dark_360w_270h.png" group-title="Entertainment", FX
-https://fl2.moveonjoy.com/FX/index.m3u8
+#https://fl2.moveonjoy.com/FX/index.m3u8
+http://23.237.104.106:8080/USA_FX/index.m3u8
 #EXTINF:-1 tvg-id="FYI.Channel.HD.us2" tvg-name="FYI East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/get-tv-us.png?raw=true" group-title="Entertainment", FYI East
-http://fl31.moveonjoy.com/FYI/index.m3u8
+#http://fl31.moveonjoy.com/FYI/index.m3u8
+http://mytvstream.net:8080/live/A0t5Ax/625375/9240.m3u8
 #EXTINF:-1 tvg-id="Grit.us2" tvg-name="GRIT TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/grit-us.png?raw=true" group-title="Entertainment", GRIT TV
-http://fl31.moveonjoy.com/GRIT_TV/index.m3u8
+#http://fl31.moveonjoy.com/GRIT_TV/index.m3u8
+http://mytvstream.net:8080/live/A0t5Ax/625375/20861.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-channel-us.png?raw=true" tvg-name="Hallmark Eastern Feed SD" group-title="Entertainment", Hallmark Channel
 http://cord-cutter.net:8080/KB0cRT/666742/46719
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-channel-us.png?raw=true" tvg-name="Hallmark Eastern Feed SD" group-title="Entertainment", Hallmark Channel HD
 #https://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Family.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-family-us.png?raw=true" tvg-name="Hallmark Family HD SD" group-title="Entertainment", Hallmark Family
-#http://cord-cutter.net:8080/KB0cRT/666742/9307
-http://143.244.60.30/HALLMARK_DRAMA/index.m3u8
+http://cord-cutter.net:8080/KB0cRT/666742/9307
 #EXTINF:-1 tvg-id="Hallmark.Family.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-family-us.png?raw=true" tvg-name="Hallmark Family HD SD" group-title="Entertainment", Hallmark Family HD
-https://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
+#https://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
+http://mytvstream.net:8080/live/A0t5Ax/625375/9307.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" tvg-name="Hallmark Mystery Eastern HD" group-title="Entertainment", Hallmark Mystery
-#http://cord-cutter.net:8080/KB0cRT/666742/10289
-http://143.244.60.30/HALLMARK_MOVIES_MYSTERIES/index.m3u8
+http://cord-cutter.net:8080/KB0cRT/666742/10289
 #EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" tvg-name="Hallmark Mystery Eastern HD" group-title="Entertainment", Hallmark Mystery HD
 #https://fl2.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8
 http://mytvstream.net:8080/live/30550113/30550113/10289.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-id="History.HD.us2" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87679_dark_360w_270h.png" tvg-name="History Channel" , History Channel
 #http://cord-cutter.net:8080/KB0cRT/666742/15017
-https://fl7.moveonjoy.com/history_channel/index.m3u8
+#https://fl7.moveonjoy.com/history_channel/index.m3u8
+http://mytvstream.net:8080/live/A0t5Ax/625375/15017.m3u8
 #EXTINF:-1 tvg-id="Home.and.Garden.Television.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hgtv-us.png?raw=true" tvg-name="HGTV USA Eastern Feed SD" group-title="Entertainment", HGTV East
 http://cord-cutter.net:8080/KB0cRT/666742/46717
 #EXTINF:-1 tvg-id="Lifetime.HD.us2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/lifetime-us.png" tvg-name="Lifetime Network US Eastern Feed SD" group-title="Entertainment", Lifetime
 #https://fl2.moveonjoy.com/LIFETIME/index.m3u8
-http://mytvstream.net:8080/live/30550113/30550113/46713.m3u8
+http://41.205.93.154/LIFETIME/index.m3u8
+#http://mytvstream.net:8080/live/30550113/30550113/46713.m3u8
 #EXTINF:-1 tvg-id="Lifetime.HD.us2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/lifetime-us.png" tvg-name="Lifetime Network US Eastern Feed SD" group-title="Entertainment", Lifetime HD
 http://cord-cutter.net:8080/KB0cRT/666742/9275
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/lifetime-movies-us.png?raw=true" tvg-name="Lifetime Movies East SD" group-title="Entertainment", Lifetime Movies
@@ -235,7 +246,7 @@ https://fl2.moveonjoy.com/ME_TV/index.m3u8
 http://mytvstream.net:8080/live/30550113/30550113/10399.m3u8
 #http://cord-cutter.net:8080/KB0cRT/666742/10399
 #EXTINF:-1 tvg-id="MTV.-.Music.Television.HD.us2" tvg-name="MTV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV
-https://fl2.moveonjoy.com/MTV/index.m3u8
+http://fl12.moveonjoy.com/MTV/index.m3u8
 #EXTINF:-1 tvg-id="MTV.-.Music.Television.HD.(Pacific).us2" tvg-name="MTV2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV 2
 https://fl2.moveonjoy.com/MTV_2/index.m3u8
 #EXTINF:-1 tvg-id="MTV.Classic.us2" tvg-name="MTV Classic" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV Classic
@@ -245,7 +256,8 @@ https://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="mtv-U.us2" tvg-name="mtvU" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-u-us.png?raw=true" group-title="Entertainment", MTV U
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl2.moveonjoy.com/MTV_U/index.m3u8
 #EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="Entertainment", National Geographic
-http://fl31.moveonjoy.com/National_Geographic/index.m3u
+#http://fl31.moveonjoy.com/National_Geographic/index.m3u
+http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
 #EXTINF:-1 tvg-id="National.Geographic.Wild.HD.us2" tvg-name="Nat Geo Wild" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="Entertainment", Nat Geo Wild
 http://fl31.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1 tvg-id="Paramount.Network.HD.us2" tvg-name="Paramount Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11163_dark_360w_270h.png" group-title="Entertainment", Paramount Network
@@ -282,15 +294,17 @@ http://cord-cutter.net:8080/KB0cRT/666742/10252
 #EXTINF:-1 tvg-id="VH1.HD.us2" tvg-name="VH1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11218_dark_360w_270h.png" group-title="Entertainment", VH1
 https://fl2.moveonjoy.com/VH1/index.m3u8
 #EXTINF:-1 tvg-id="WE.tv.HD.us2" tvg-name="WeTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/we-tv-us.png?raw=true" group-title="Entertainment", WeTV
-https://fl31.moveonjoy.com/WE_TV/index.m3u8
+http://fl12.moveonjoy.com/WE_TV/index.m3u8
 
 #Kids
 #EXTINF:-1 tvg-id="Boomerang.us2" tvg-name="Boomerang" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png" group-title="Kids", Boomerang
 #http://cord-cutter.net:8080/KB0cRT/666742/14741
-http://fl7.moveonjoy.com/BOOMERANG/index.m3u8
+#http://fl7.moveonjoy.com/BOOMERANG/index.m3u8
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="Kids", Cartoon Network
 #http://cord-cutter.net:8080/KB0cRT/666742/46708
-https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
+#https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="Disney Channel East" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png" group-title="Kids", Disney Channel East
 #http://cord-cutter.net:8080/KB0cRT/666742/2206
 https://fl31.moveonjoy.com/DISNEY/index.m3u8
@@ -418,7 +432,8 @@ https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg010
 #EXTINF:-1 tvg-id="Global.Montreal.ca2" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News[COLOR magenta] (4 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8%24%24lsname%3DBC%27%7C%7C+%27https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8%24%24lsname%3DMontreal%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8%24%24lsname%3DNational%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8%24%24lsname%3DToronto%27%5D
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News 1080
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://logodix.com/logo/1638409.jpg" group-title="News", INFOWARS
 https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="MS.NOW.HD.us2" tvg-name="MS Now" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ms-now-us.png?raw=true" group-title="News", MS NOW
@@ -435,8 +450,7 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation.us2" tvg-name="NewsNation" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91096_dark_360w_270h.png" group-title="News", NewsNation
 #http://cord-cutter.net:8080/KB0cRT/666742/161450
-#http://fl31.moveonjoy.com/NEWS_NATION/index.m3u8
-http://mytvstream.net:8080/live/30550113/30550113/161450.m3u8
+http://fl41.moveonjoy.com/NEWS_NATION/index.m3u8
 #EXTINF:-1 tvg-id="One.America.News.Network.HD.us2" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
 #https://oneamericanews-vizio.amagi.tv/playlist.m3u8
 https://a-cdn.klowdtv.com/live1/oan_720p/chunks.m3u8
@@ -468,16 +482,19 @@ https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x
 #Sports
 #EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC NETWORK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" group-title="Sports", ACC Network
 #http://fl31.moveonjoy.com/ACC_NETWORK/index.m3u8
-http://mytvstream.net:8080/live/30550113/30550113/9273.m3u8
+#http://mytvstream.net:8080/live/30550113/30550113/9273.m3u8
+http://23.239.31.26:8989/accnetwork/index.m3u8
 #EXTINF:-1 tvg-id="beIN.Sports.USA.HD.us2" tvg-name="beIN Sports USA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bein-sports-us.png?raw=true" group-title="Sports", beIN Sports USA
 #https://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
 http://supersonictv.live:8080/Dara123/Dara123/22187
 #EXTINF:-1 tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56783_dark_360w_270h.png" group-title="Sports", Big Ten Network
 #http://cord-cutter.net:8080/KB0cRT/666742/9828
-http://fl7.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
+#http://fl7.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
+http://23.237.104.106:8080/USA_BTN/index.m3u8
 #EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16365_dark_360w_270h.png" group-title="Sports", CBS Sports Network
 #http://cord-cutter.net:8080/KB0cRT/666742/10454
-http://fl31.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
+#http://fl31.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
+http://23.237.104.106:8080/USA_CBS_SPORTS/index.m3u
 #EXTINF:-1 group-title="Sports" tvg-id="ESPN.HD.us2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png" tvg-name="ESPN" , ESPN
 #http://cord-cutter.net:8080/KB0cRT/666742/14197
 https://a1xs.vip/40000011
@@ -544,12 +561,13 @@ http://cord-cutter.net:8080/KB0cRT/666742/159117
 #https://fl2.moveonjoy.com/NFL_RedZone/index.m3u8
 https://a1xs.vip/40000033
 #EXTINF:-1 tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" group-title="Sports", NHL Network
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://23.237.104.106:8080/USA_NHL_NETWORK/index.m3u8
 #https://fl2.moveonjoy.com/NHL_NETWORK/index.m3u8
+http://23.237.104.106:8080/USA_NHL_NETWORK/index.m3u
 #EXTINF:-1 tvg-id="Racing.TV.HD.uk" tvg-logo="https://hamilton-park.co.uk/wp-content/uploads/2018/12/v01_Racing-TV-Logo-RTV-Blue_RGB_NOBG-003.png" tvg-name="UK: RACING UK" group-title="Sports", RACING UK
 http://cord-cutter.net:8080/KB0cRT/666742/53741
 #EXTINF:-1 tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png" group-title="Sports", SEC Network
-http://cord-cutter.net:8080/KB0cRT/666742/17608
+#http://cord-cutter.net:8080/KB0cRT/666742/17608
+http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-golf-hd-hz-uk.png?raw=true" tvg-name="UK Sky Sports Golf FHD " group-title="Sports", Sky Sports Golf
 http://cord-cutter.net:8080/KB0cRT/666742/35240
 #EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-main-event-hz-uk.png?raw=true" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event
@@ -620,7 +638,7 @@ http://nocable.cc:8080/5AGbfz/324331/53539
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 #EXTINF:-1 tvg-id="AXS.TV.us2" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/1/18/AXS_TV_Logo.png" tvg-name="US AXS TV" group-title="24/7", AXS TV HD
 #http://cord-cutter.net:8080/KB0cRT/666742/48324
-https://fl31.moveonjoy.com/Axs_TV/index.m3u
+http://fl41.moveonjoy.com/Axs_TV/index.m3u8
 #EXTINF:-1 tvg-id="plex.tv.AXS.TV.NOW.plex" tvg-name="AXS TV Now"tvg-logo="https://provider-static.plex.tv/7/epg/channels/logos/gracenote/74e18f9a2e4db79d32836869508722b9.png" group-title="24/7", AXS TV Now
 plugin://slyguy.plex.live/?_=play&id=5e20b730f2f8d5003d739db7-606605549dbfca002d2ae875&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="plex.tv.Music.Legends.plex" tvg-name="Music Legends" tvg-logo="https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png" group-title="24/7", Music Legends
