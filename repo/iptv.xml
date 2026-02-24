@@ -644,6 +644,23 @@
 </regex>
 </item>
 
+<item>
+<title>[COLOR=orange]Real-IPTV10[/COLOR]</title>
+<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt.*?).ts</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk-10.m3u8</page>
+</regex>
+</item>
 
 <item>
 <title>[COLOR=skyblue]Supersonictv [/COLOR] 006779</title>
