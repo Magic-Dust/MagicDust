@@ -33,17 +33,6 @@ http://cord-cutter.net:8080/KB0cRT/666742/120783
 #EXTINF:-1 tvg-id="WBRA-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wbra-color-cobranded-logo-7iIKCK5.png" group-title="Broadcast", PBS Charleston WBRA
 plugin://slyguy.pbs.live/?_=play&callsign=WBRA&_is_live=1&_noresume=.pvr
 
-#EXTINF:-1 tvg-id="WLS-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Chicago WLS
-https://fl2.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8
-#EXTINF:-1 tvg-id="WBBM-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png"group-title="Broadcast", CBS Chicago WBBM
-https://fl2.moveonjoy.com/IL_Chicago_CBS/index.m3u8
-#EXTINF:-1 tvg-id="WFLD-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Chicago WFLD
-https://fl2.moveonjoy.com/IL_Chicago_FOX/index.m3u8
-#EXTINF:-1 tvg-id="WMAQ-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Chicago WMAQ
-https://fl2.moveonjoy.com/IL_Chicago_NBC/index.m3u8
-#EXTINF:-1 tvg-id="WDSE-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wdse-color-cobranded-logo-P2nzl7Z.png" group-title="Broadcast", PBS Chicago WDSE
-plugin://slyguy.pbs.live/?_=play&callsign=WDSE&_is_live=1&_noresume=.pvr
-
 #EXTINF:-1 tvg-id="KMBC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC KC KMBC
 https://cvtv.cvalley.net/hls/KMBCABC/KMBCABC.m3u8
 #EXTINF:-1 tvg-id="KCTV-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS KC KCTV
@@ -214,6 +203,7 @@ http://cord-cutter.net:8080/live/KB0cRT/666742/9307.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Family.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-family-us.png?raw=true" tvg-name="Hallmark Family HD SD" group-title="Entertainment", Hallmark Family HD
 #https://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
 http://mytvstream.net:8080/live/A0t5Ax/625375/9307.m3u8
+http://hardcoremedia.xyz/live/rabdsbmz/3731346838/130118.ts
 #EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" tvg-name="Hallmark Mystery Eastern HD" group-title="Entertainment", Hallmark Mystery
 http://cord-cutter.net:8080/live/KB0cRT/666742/10289.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" tvg-name="Hallmark Mystery Eastern HD" group-title="Entertainment", Hallmark Mystery HD
@@ -365,7 +355,7 @@ http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8
 
 #News
 #EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="News", ABC News
-https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+http://41.205.93.154/ABC/index.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABCN Live Feeds[COLOR magenta] (5 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8%24%24lsname%3DLive+1%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8%24%24lsname%3DLive+2%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8%24%24lsname%3DLive+3%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8%24%24lsname%3DLive+4%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
 #EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
@@ -381,9 +371,7 @@ https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virgin
 plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlist=%5B%27https://bloomberg.com/media-manifest/streams/us-event.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/politics.m3u8%24%24lsname%3DUS+Politics%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/eu-event.m3u8%24%24lsname%3DEurope%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8%24%24lsname%3DBloomberg+Extra%27%5D
 #EXTINF:-1 tvg-id="C-SPAN.us" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN
 #http://fl7.moveonjoy.com/C-SPAN/index.m3u8
-http://23.237.104.106:8080/USA_C-SPAN/index.m3u8
-
-
+http://mytvstream.net:8080/live/30550113/30550113/136589.m3u8
 #EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
 https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master720p.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://secure.cbn.com/images8/cbnnews/news-channel-logo.png" group-title="News", CBN
@@ -425,12 +413,14 @@ http://41.205.93.154/FOXBUSINESS/index.m3u8
 #EXTINF:-1 tvg-id="Fox.Business.HD.us2" tvg-name="Fox Business" tvg-logo="https://ia600802.us.archive.org/27/items/FoxBusinessNews_201708/fox%20business%20news.png" group-title="News", Fox Business HD
 #https://fl31.moveonjoy.com/FOX_Business_Network/tracks-v1a1/mono.ts.m3u8
 http://mytvstream.net:8080/live/30550113/30550113/17639.m3u8
-#EXTINF:-1 tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News (720)
-https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
+#EXTINF:-1 tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News (480)
+#https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
+https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary_400.m3u8
 #EXTINF:-1 tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News HD
 #https://fl2.moveonjoy.com/FOX_NEWS_CHANNEL/index.m3u8
 #http://mytvstream.net:8080/live/30550113/30550113/1818.m3u8
-https://a1xs.vip/300011
+#https://a1xs.vip/300011
+https://ustvgo.live/proxy.php?url=https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="FRANCE 24" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/france/france-24-fr.png?raw=true" group-title="News", FRANCE 24
 https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="Free.Speech.TV.us2" tvg-name="Free Speech Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Logo_of_Free_Speech_TV.png" group-title="News", Free Speech
@@ -534,6 +524,8 @@ https://a1xs.vip/40000022
 #EXTINF:-1 tvg-id="Golf.Channel.HD.us2" tvg-name="Golf Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="Sports", Golf Channel
 #https://fl31.moveonjoy.com/GOLF/index.m3u8
 http://mytvstream.net:8080/live/30550113/30550113/46728.m3u8
+#EXTINF:-1 tvg-id="Golf.Channel.HD.us2" tvg-name="Golf Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="Sports", Golf Channel HD
+http://hardcoremedia.xyz/live/rabdsbmz/3731346838/258721.ts
 #EXTINF:-1 tvg-id="MLB.Network.HD.us2" tvg-name="MLB Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png" group-title="Sports", MLB Network
 #http://fl31.moveonjoy.com/MLB_NETWORK/index.m3u8
 http://cord-cutter.net:8080/KB0cRT/666742/21360
