@@ -57,8 +57,8 @@ http://cord-cutter.net:8080/KB0cRT/666742/120654
 #EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
 http://cord-cutter.net:8080/KB0cRT/666742/120655
 #EXTINF:-1 tvg-id="KNBC-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="" group-title="Broadcast", NBC LA KNBC
-https://fl2.moveonjoy.com/CA_Los_Angeles_NBC/index.m3u8
-#http://cord-cutter.net:8080/KB0cRT/666742/120656
+#https://fl2.moveonjoy.com/CA_Los_Angeles_NBC/index.m3u8
+http://cord-cutter.net:8080/KB0cRT/666742/120656
 #EXTINF:-1 tvg-id="KRCB-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/krcb-color-single-brand-logo-4eMIGN0.png" group-title="Broadcast", PBS LA KRCB
 plugin://slyguy.pbs.live/?_=play&callsign=KRCB&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="KVIE-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/kvie-color-cobranded-logo-8vr1GYl.png" group-title="Broadcast", PBS LA KVIE
@@ -72,8 +72,8 @@ http://cord-cutter.net:8080/KB0cRT/666742/121243
 #https://fl7.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8
 http://cord-cutter.net:8080/KB0cRT/666742/121242
 #EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Miami WTVJ
-#http://cord-cutter.net:8080/KB0cRT/666742/121241
-http://fl41.moveonjoy.com/FL_Miami_NBC/index.m3u8
+http://cord-cutter.net:8080/KB0cRT/666742/121241
+#http://fl41.moveonjoy.com/FL_Miami_NBC/index.m3u8
 #EXTINF:-1 tvg-id="WXEL-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png" group-title="Broadcast", PBS Miami WXEL
 plugin://slyguy.pbs.live/?_=play&callsign=WXEL&_is_live=1&_noresume=.pvr
 
@@ -177,7 +177,8 @@ http://23.237.104.106:8080/USA_COOKING/index.m3u8
 #http://fl31.moveonjoy.com/Discovery_Channel/index.m3u8
 http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 #EXTINF:-1 tvg-id="Science.Channel.HD.us2" tvg-name="Discovery Science" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24282_dark_360w_270h.png" group-title="Entertainment", Discovery Science
-https://fl2.moveonjoy.com/Discovery_Science/index.m3u8
+#https://fl2.moveonjoy.com/Discovery_Science/index.m3u8
+http://mytvstream.net:8080/live/30550113/30550113/20866.m3u8
 #EXTINF:-1 tvg-id="E!.Entertainment.Television.HD.us2" tvg-name="E! Entertainment" tvg-logo="https://i.gyazo.com/f73b80e3eb56cec06df6705d00e2f422.png" group-title="Entertainment", E! Entertainment
 #https://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 http://23.237.104.106:8080/USA_E/index.m3u8
@@ -185,16 +186,14 @@ http://23.237.104.106:8080/USA_E/index.m3u8
 #http://cord-cutter.net:8080/KB0cRT/666742/7323
 http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="FX.HD.us2" tvg-name="FX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14321_dark_360w_270h.png" group-title="Entertainment", FX
-http://fl12.moveonjoy.com/FX/index.m3u8
-#http://23.237.104.106:8080/USA_FX/index.m3u8
+#http://fl12.moveonjoy.com/FX/index.m3u8
+http://23.237.104.106:8080/USA_FX/index.m3u8
 #EXTINF:-1 tvg-id="FYI.Channel.HD.us2" tvg-name="FYI East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/get-tv-us.png?raw=true" group-title="Entertainment", FYI East
 #http://fl31.moveonjoy.com/FYI/index.m3u8
 http://mytvstream.net:8080/live/A0t5Ax/625375/9240.m3u8
 #EXTINF:-1 tvg-id="Grit.us2" tvg-name="GRIT TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/grit-us.png?raw=true" group-title="Entertainment", GRIT TV
 #http://fl31.moveonjoy.com/GRIT_TV/index.m3u8
 http://mytvstream.net:8080/live/A0t5Ax/625375/20861.m3u8
-
-
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-channel-us.png?raw=true" tvg-name="Hallmark Eastern Feed SD" group-title="Entertainment", Hallmark Channel
 #plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/live/KB0cRT/666742/46719.m3u8
 http://kstv.us:8080/live/BUhtuqR9kT/91839575806/22519.ts
@@ -234,22 +233,15 @@ http://23.237.104.106:8080/USA_LMN/index.m3u8
 #EXTINF:-1 tvg-id="Magnolia.Network.HD.us2" tvg-logo="https://dockanddeck.com/wp-content/uploads/2019/02/diy.png" tvg-name="US Magnolia Network " group-title="Entertainment", Magnolia (DIY)
 http://cord-cutter.net:8080/KB0cRT/666742/10503
 #EXTINF:-1 tvg-id="Me.TV.Network.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-us.png?raw=true" group-title="Entertainment", MeTV
-#https://cvtv.cvalley.net/hls/KMBCMeTV/KMBCMeTV.m3u8
-https://fl2.moveonjoy.com/ME_TV/index.m3u8
+https://cvtv.cvalley.net/hls/KMBCMeTV/KMBCMeTV.m3u8
+#https://fl2.moveonjoy.com/ME_TV/index.m3u8
 #EXTINF:-1 tvg-id="MOTORTREND.HD.us2" tvg-name="Motor Trend HD SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/motor-trend-us.png?raw=true" group-title="Entertainment", Motor Trend
 #http://fl7.moveonjoy.com/MOTOR_TREND/index.m3u8
 http://mytvstream.net:8080/live/30550113/30550113/10399.m3u8
 #http://cord-cutter.net:8080/KB0cRT/666742/10399
 #EXTINF:-1 tvg-id="MTV.-.Music.Television.HD.us2" tvg-name="MTV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV
-http://fl12.moveonjoy.com/MTV/index.m3u8
-#EXTINF:-1 tvg-id="MTV.-.Music.Television.HD.(Pacific).us2" tvg-name="MTV2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV 2
-https://fl2.moveonjoy.com/MTV_2/index.m3u8
-#EXTINF:-1 tvg-id="MTV.Classic.us2" tvg-name="MTV Classic" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV Classic
-https://fl2.moveonjoy.com/MTV_CLASSIC/index.m3u8
-#EXTINF:-1 tvg-id="MTVLIVE.us2" tvg-name="MTV Live" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV Live
-https://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
-#EXTINF:-1 tvg-id="mtv-U.us2" tvg-name="mtvU" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-u-us.png?raw=true" group-title="Entertainment", MTV U
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=https://fl2.moveonjoy.com/MTV_U/index.m3u8
+#http://fl12.moveonjoy.com/MTV/index.m3u8
+http://23.237.104.106:8080/USA_MTV/index.m3u8
 #EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="Entertainment", National Geographic
 #http://fl31.moveonjoy.com/National_Geographic/index.m3u
 http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
@@ -263,7 +255,8 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 #https://fl31.moveonjoy.com/SYFY/index.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="The.Cowboy.Channel.us2" tvg-name="Cowboy Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="Entertainment", The Cowboy Channel
-https://fl2.moveonjoy.com/Cowboy_Channel/index.m3u8
+#https://fl2.moveonjoy.com/Cowboy_Channel/index.m3u8
+http://s.rocketdns.info:8080/live/52748969/72335180/84912.ts
 #EXTINF:-1 tvg-id="TBS.HD.us2" tvg-name="TBS East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS EAST
 https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TBS.HD.(Pacific).us2" tvg-name="TBS West" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS West
@@ -314,8 +307,8 @@ http://cord-cutter.net:8080/KB0cRT/666742/75621
 http://cord-cutter.net:8080/KB0cRT/666742/38
 #http://fl31.moveonjoy.com/NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30420_dark_360w_270h.png" tvg-name="Nicktoons" group-title="Kids", Nicktoons
-http://cord-cutter.net:8080/KB0cRT/666742/36
 #https://fl2.moveonjoy.com/NICKTOONS/index.m3u8
+http://cord-cutter.net:8080/KB0cRT/666742/36
 
 #Movies
 #EXTINF:-1 tvg-id="Crave1.HD.ca2" tvg-name="Crave1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies", Crave 1 HD
@@ -504,8 +497,8 @@ http://cord-cutter.net:8080/KB0cRT/666742/20936
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Florida.HDTV.(Out.of.Market).us" tvg-name="FDSN Florida" tvg-logo="https://i.gyazo.com/fad701fbaaafe161b13b23ed9b50179b.png" group-title="Sports", FanDuel Florida
 http://cord-cutter.net:8080/KB0cRT/666742/46794
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Midwest.24/7.HDTV.us" tvg-name="FDSN Midwest" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11058_dark_360w_270h.png" group-title="Sports", FanDuel Midwest
-#http://cord-cutter.net:8080/KB0cRT/666742/66795
-http://fl7.moveonjoy.com/BALLY_SPORTS_MIDWEST/index.m3u8
+http://cord-cutter.net:8080/KB0cRT/666742/66795
+#http://fl7.moveonjoy.com/BALLY_SPORTS_MIDWEST/index.m3u8
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.North.HDTV.us" tvg-name="FDSN North" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10977_dark_360w_270h.png" group-title="Sports", FanDuel North
 http://cord-cutter.net:8080/KB0cRT/666742/58827
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Ohio.(Cleveland).HDTV.us" tvg-name="FDSN Ohio" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49691_dark_360w_270h.png" group-title="Sports", FanDuel Ohio
