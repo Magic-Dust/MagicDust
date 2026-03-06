@@ -82,42 +82,6 @@
 </item>
 
 <item>
-<title>Moveonjoy</title>
-<thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(ht.*?m3u8)</expres>
-<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/Moveonjoy.m3u</page>
-</regex>
-</item>
-<item>
-
-<title>tvimate</title>
-<thumbnail>https://staticiptv.us/wp-content/uploads/2024/03/tivimate-subscription.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/moj.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>tvAPP (SD only in prime time)</title>
 <thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
 <fanart></fanart>
@@ -190,24 +154,6 @@
 </item>
 
 <item>
-<title>Xtreamlist</title>
-<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>group-title="US[^"]+",([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
-</regex>
-</item>
-
-<item>
 <title>LiveTVCollector</title>
 <thumbnail>https://avatars.githubusercontent.com/u/113718082?v=4</thumbnail>
 <fanart></fanart>
@@ -222,6 +168,24 @@
 ]]></listrepeat>
 <expres>group-title="(Spo|Mov|New|Netwo)[^"]+",([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>Xtreamlist</title>
+<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>group-title="US[^"]+",([^\n]*)\n(ht[^\s]*)</expres>
+<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
 </regex>
 </item>
 
@@ -280,7 +244,7 @@
 </item>
 
 <item>
-<title>tvone addons</title>
+<title>tvtap</title>
 <thumbnail>special://home/addons/plugin.video.tvone/icon.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
