@@ -226,6 +226,42 @@
 </item>
 
 <item>
+<title>Powerstreams (Sports)</title>
+<thumbnail>https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/lc267FVfC4sOGCbW/logo-26-transparent-horizontal-web-2-fBvVvApscWJshO8t.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|referer=[makelist.param4]&amp;agent=[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/powerv2/powerv2.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Live Events (Sports)</title>
+<thumbnail>https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/lc267FVfC4sOGCbW/logo-26-transparent-horizontal-web-2-fBvVvApscWJshO8t.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
+</regex>
+</item>
+
+<item>
 <title>Russian tvclub</title>
 <thumbnail>https://s4.mzstatic.com/us/r1000/069/Purple/v4/71/18/91/71189130-1dcb-8dc8-e110-b973959710ef/mzm.ehnnxpmy.png</thumbnail>
 <fanart></fanart>
