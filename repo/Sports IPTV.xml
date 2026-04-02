@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+<items_info>
+<title>MagicDust Sports IPTV Lists</title>
+<genre></genre>
+<description></description>
+<thumbnail>https://github.com/Magic-Dust/MagicDust/blob/master/icon.png?raw=true</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/blob/master/fanart.jpg?raw=true</fanart>
+</items_info>
+
+<item>
+<title>Sports IPTV</title>
+<thumbnail>https://livesports808--v6.s3.amazonaws.com/images/image2.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelistmaster]</link>
+<regex>
+<name>makelistmaster</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelistmaster.param1][/COLOR]</title>
+<thumbnail>[makelistmaster.param2]</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres>(?i)(?s)COLOR=skyblue.([^\[]+).*?<thumbnail>([^\<]+).*?<title>([^\<]+).*?<thumbnail>([^\<]+).*?<link>([^\<]+).*?<expres>([^\<]+).*?<page>([^\<]+)</expres>
+<page>https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/iptv.xml</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelistmaster.param3]</title>
+<thumbnail>[makelistmaster.param4]</thumbnail>
+<fanart></fanart>
+<link>[makelistmaster.param5]</link>
+]]></listrepeat>
+<expres>[makelistmaster.param6]</expres>
+<page>[makelistmaster.param7]</page>
+</regex>
+</item>
+
+</items>

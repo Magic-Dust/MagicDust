@@ -226,96 +226,6 @@
 </item>
 
 <item>
-<title>Powerstreams (Sports)</title>
-<thumbnail>https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/lc267FVfC4sOGCbW/logo-26-transparent-horizontal-web-2-fBvVvApscWJshO8t.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param4]&amp;agent=[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/powerv2/powerv2.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>Live Events (Sports)</title>
-<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>Live Events 2(Sports)</title>
-<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>Roxiestreams (Sports)</title>
-<thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/Roxiestreams.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Love4vn (Sports)</title>
-<thumbnail>https://avatars.githubusercontent.com/u/162122812</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param3][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param4]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]*)[^=]+="(USA|LIV[^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Love4vn/love4vn/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
-</regex>
-</item>
-
-<item>
 <title>Russian tvclub</title>
 <thumbnail>https://s4.mzstatic.com/us/r1000/069/Purple/v4/71/18/91/71189130-1dcb-8dc8-e110-b973959710ef/mzm.ehnnxpmy.png</thumbnail>
 <fanart></fanart>
@@ -348,6 +258,114 @@
 ]]></listrepeat>
 <expres>(?i)(?s),([^\n]+)\n(plugin[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/tvone.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Powerstreams [/COLOR]</title>
+<thumbnail>https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/lc267FVfC4sOGCbW/logo-26-transparent-horizontal-web-2-fBvVvApscWJshO8t.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|referer=[makelist.param4]&amp;agent=[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/powerv2/powerv2.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Live Events [/COLOR]</title>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Live Events 2[/COLOR]</title>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Roxiestreams [/COLOR]</title>
+<thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/Roxiestreams.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Love4vn [/COLOR]</title>
+<thumbnail>https://avatars.githubusercontent.com/u/162122812</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param3][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param4]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]*)[^=]+="(USA|LIV[^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Love4vn/love4vn/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]drsports [/COLOR]</title>
+<thumbnail>https://avatars.githubusercontent.com/u/252164465?s=48&v=4</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/iptv2025tx/drsports/refs/heads/main/awaf.m3u</page>
 </regex>
 </item>
 
@@ -698,7 +716,7 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Supersonictv [/COLOR] 006779</title>
+<title>[COLOR=gold]Supersonictv [/COLOR] 006779</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -716,7 +734,7 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Supersonictv [/COLOR] 923429</title>
+<title>[COLOR=gold]Supersonictv [/COLOR] 923429</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -734,7 +752,7 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Supersonictv [/COLOR] Dara123</title>
+<title>[COLOR=gold]Supersonictv [/COLOR] Dara123</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -752,7 +770,7 @@
 </item>
 
 <item>
-<title>[COLOR=orange]tv.diablotv [/COLOR]eEiiLll09384Ecaiman</title>
+<title>[COLOR=gold]tv.diablotv [/COLOR]eEiiLll09384Ecaiman</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
