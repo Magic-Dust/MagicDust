@@ -100,20 +100,20 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]drsports [/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/252164465?s=48</thumbnail>
+<title>[COLOR=skyblue]Sharkstreams [/COLOR]</title>
+<thumbnail>https://static.vecteezy.com/system/resources/thumbnails/002/815/730/small_2x/shark-esport-gaming-mascot-logo-template-vector.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>[makelist.param6]|referer=[makelist.param4]&amp;origin=[makelist.param5]&amp;agent=[makelist.param3]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/iptv2025tx/drsports/refs/heads/main/awaf.m3u</page>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/yIsus-mEx/Sports.M3U8/refs/heads/main/SharkStreams.m3u8</page>
 </regex>
 </item>
 

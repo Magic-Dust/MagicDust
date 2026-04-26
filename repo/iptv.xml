@@ -10,24 +10,6 @@
 </items_info>
 
 <item>
-<title>Real-IPTV</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>Doms9</title>
 <thumbnail>https://avatars.githubusercontent.com/u/96013514?v=4</thumbnail>
 <fanart></fanart>
@@ -47,24 +29,6 @@
 
 <item>
 <title>BuddyTV</title>
-<thumbnail>https://avatars.githubusercontent.com/u/144280901?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>BuddyTV2</title>
 <thumbnail>https://github.com/BuddyChewChew/My-Streams/raw/main/Logos/Gemini_Generated_Image_qek3m4qek3m4qek3.png?raw=true</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -100,42 +64,6 @@
 </item>
 
 <item>
-<title>swtvlive (news heavy)</title>
-<thumbnail>https://livetvworld.net/images/default_share_image.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>\n([^\,]+),(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive</page>
-</regex>
-</item>
-
-<item>
-<title>tvAPP SD</title>
-<thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://tvpass.org/playlist/m3u</page>
-</regex>
-</item>
-
-<item>
 <title>tvpass (prime time restricted)</title>
 <thumbnail>https://pbs.twimg.com/profile_images/419067950948052992/QccMPBsT_400x400.png</thumbnail>
 <fanart></fanart>
@@ -154,8 +82,8 @@
 </item>
 
 <item>
-<title>nextgen (prime time restricted)</title>
-<thumbnail>https://www.watchnextgentv.com/wp-content/uploads/2022/03/nextgen-tv-logo-light.png</thumbnail>
+<title>swtvlive (news heavy)</title>
+<thumbnail>https://livetvworld.net/images/default_share_image.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -166,8 +94,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\n]*)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Archive/nexgen.m3u8</page>
+<expres>\n([^\,]+),(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive</page>
 </regex>
 </item>
 
@@ -190,8 +118,8 @@
 </item>
 
 <item>
-<title>Xtreamlist</title>
-<thumbnail>https://avatars.githubusercontent.com/u/162122812?v=4</thumbnail>
+<title>Real-IPTV1</title>
+<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -202,228 +130,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>group-title="US[^"]+",([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://github.com/Love4vn/love4vn/raw/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Russian tvclub</title>
-<thumbnail>https://s4.mzstatic.com/us/r1000/069/Purple/v4/71/18/91/71189130-1dcb-8dc8-e110-b973959710ef/mzm.ehnnxpmy.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]*)\n(ht[^\s]*)</expres>
-<page>https://ilook.epg.one/BYLVWVF26T7ZPE/2</page>
-</regex>
-</item>
-
-<item>
-<title>tvtap</title>
-<thumbnail>special://home/addons/plugin.video.tvone/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(plugin[^\s]*)</expres>
-<page>https://raw.githubusercontent.com/Magic-Dust/MagicDust/refs/heads/master/repo/tvone.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]Cord-cutter [/COLOR] KB0cRT</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=KB0cRT&amp;password=666742&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]Cord-cutter [/COLOR]JoanP@112</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=JoanP@112&amp;password=443@112&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]Cord-cutter [/COLOR]30550113</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=30550113&amp;password=30550113&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]Cord-cutter [/COLOR]Rw83jK</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
-<page>http://cord-cutter.net:8080/get.php?username=Rw83jK&amp;password=946540&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]fortv [/COLOR]b6twFE</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://fortv.cc:8080/get.php?username=b6twFE&amp;password=414151&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]fortv [/COLOR]rayray_65@yahoo.com</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://fortv.cc:8080/get.php?username=rayray_65@yahoo.com&amp;password=R7068779956H&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]tv14s [/COLOR] A1Jay</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://tv14s.xyz:8080/get.php?username=A1Jay5&amp;password=362586&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]1tv41 [/COLOR]8434692955</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://1tv41.icu:8080/get.php?username=8434692955&amp;password=judgen64@yahoo.com&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]1tv41 [/COLOR]Dj8p2K</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://1tv41.icu:8080/get.php?username=Dj8p2K&amp;password=309688&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]tvmate [/COLOR] 99437538</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://tvmate.icu:8080/get.php?username=99437538&amp;password=28260477&amp;type=m3u</page>
+<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
 </regex>
 </item>
 
@@ -495,7 +203,8 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk5.3u8</page>
+<page>
+https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk5.m3u8</page>
 </regex>
 </item>
 
@@ -585,12 +294,199 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)",([^\n]+)\n(htt.*?).ts</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk-10.m3u8</page>
+<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/ikyky-10.m3u8</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=gold]Supersonictv [/COLOR] 006779</title>
+<title>[COLOR=orange]Cord-cutter [/COLOR] KB0cRT</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=KB0cRT&amp;password=666742&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]Hydren1@ogbtv.com</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=Hydren1@ogbtv.com&amp;password=0411@1981&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]JoanP@112</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=JoanP@112&amp;password=443@112&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]p9qQu1</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=p9qQu1&amp;password=372083&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Cord-cutter [/COLOR]969478</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://cord-cutter.net:8080/get.php?username=969478&amp;password=759984&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]kstv [/COLOR]R2ugWvNTwc</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://kstv.us:8080/get.php?username=R2ugWvNTwc&amp;password=39522&amp;type=m3u_plus</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]kstv [/COLOR]WeaponX</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://kstv.us:8080/get.php?username=WeaponX&amp;password=Dawkins22&amp;type=m3u_plus</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Itv41 [/COLOR] qU5K345</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=qU5K345&amp;password=784922&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]Itv14 [/COLOR]Janice@443</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=Janice@443&amp;password=443@9029&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]1tv41 [/COLOR]Dj8p2K</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://1tv41.icu:8080/get.php?username=Dj8p2K&amp;password=309688&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=gold]Supersonictv [/COLOR] 006943</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -608,7 +504,7 @@
 </item>
 
 <item>
-<title>[COLOR=gold]Supersonictv [/COLOR] 923429</title>
+<title>[COLOR=gold]Supersonictv [/COLOR] Zeek44</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -621,30 +517,12 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://supersonictv.live:8080/get.php?username=923429&amp;password=481252&amp;type=m3u</page>
+<page>http://supersonictv.live:8080/get.php?username=Zeek44&amp;password=Super4422&amp;type=m3u</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=gold]Supersonictv [/COLOR] Dara123</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://Supersonictv.live:8080/get.php?username=Dara123&amp;password=Dara123&amp;type=m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=gold]tv.diablotv [/COLOR]eEiiLll09384Ecaiman</title>
+<title>[COLOR=gold]tv.diablotv [/COLOR]Daced0111</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -657,7 +535,25 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),USA-([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://tv.diablotv.net:8080/get.php?username=eEiiLll09384Ecaiman34RtR&amp;password=KTap2pdJx7&amp;type=m3u</page>
+<page>http://tv.diablotv.net:8080/get.php?username=Daced0111&amp;password=aa705122bacc&amp;type=m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=gold]tv.diablotv [/COLOR]JgRpyRAieu</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),USA-([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://tv.diablotv.net:8080/get.php?username=JgRpyRAieu&amp;password=4cb6b920dc92&amp;type=m3u</page>
 </regex>
 </item>
 
