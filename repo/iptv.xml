@@ -118,7 +118,7 @@
 </item>
 
 <item>
-<title>Real-IPTV1</title>
+<title>[COLOR=orange]Real-IPTV1[/COLOR]</title>
 <thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -408,6 +408,25 @@ https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/
 ]]></listrepeat>
 <expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
 <page>http://kstv.us:8080/get.php?username=R2ugWvNTwc&amp;password=39522&amp;type=m3u_plus</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=orange]kstv [/COLOR]BUhtuqR9kT</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]*)\n(ht[^\s]*)</expres>
+<page>http://kstv.us:8080/get.php?username=BUhtuqR9kT&amp;password=91839575806&amp;type=m3u_plus</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
