@@ -10,6 +10,42 @@
 </items_info>
 
 <item>
+<title>[COLOR=skyblue]ESPN+ [/COLOR]1</title>
+<thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]ESPN+ [/COLOR]2</title>
+<thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tvmate_live.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=skyblue]Powerstreams[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/powerstreams.png</thumbnail>
 <fanart></fanart>
