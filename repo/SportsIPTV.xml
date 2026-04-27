@@ -11,24 +11,6 @@
 
 
 <item>
-<title>[COLOR=skyblue]Powerstreams[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/powerstreams.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param4]&amp;agent=[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/powerv2/powerv2.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]Live Events[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/ppv2.png</thumbnail>
 <fanart></fanart>
@@ -43,6 +25,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Powerstreams[/COLOR]</title>
+<thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/powerstreams.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|referer=[makelist.param4]&amp;agent=[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/powerv2/powerv2.m3u8</page>
 </regex>
 </item>
 
@@ -108,13 +108,13 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param3][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param4]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]*)[^=]+="(USA|LIV[^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Love4vn/love4vn/refs/heads/main/Xtreamlist_Sports_All.m3u</page>
+<expres>(?i)(?s),([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Love4vn/Live-Schedue/refs/heads/1/live_schedule_clean.m3u</page>
 </regex>
 </item>
 
@@ -126,10 +126,10 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<title>[COLOR=orange][makelist.param2][/COLOR]-[makelist.param1]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>[makelist.param3]</link>
 ]]></listrepeat>
 <expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
