@@ -130,7 +130,7 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)title="USA[^\"]*",([^\n]+)\n(ht[^\sn]+)</expres>
+<expres>(?i)(?s)title="USA[^\"]*",([^\n]+)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/xxip9_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
@@ -479,7 +479,7 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i)(?s),US([^\n]+)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/1tv41_live.m3u</page>
 </regex>
 </item>
@@ -627,7 +627,7 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i),US([^\n]+)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
 </regex>
 </item>
@@ -645,13 +645,13 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i),([^\n]+)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/supersonictv_live.m3u</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=gold]Supersonictv [/COLOR] 006943</title>
+<title>[COLOR=orange]Supersonictv [/COLOR] 006943</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -669,7 +669,7 @@
 </item>
 
 <item>
-<title>[COLOR=gold]Supersonictv [/COLOR] Zeek44</title>
+<title>[COLOR=orange]Supersonictv [/COLOR] Zeek44</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -699,7 +699,7 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i),USA-([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i),USA-([^\n]+)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tvmate_live.m3u</page>
 </regex>
 </item>
