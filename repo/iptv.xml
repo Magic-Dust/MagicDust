@@ -128,7 +128,7 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)title="USA[^\"]*",([^\n]+)\n(ht[^\sn]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/xxip9_live.m3u</page>
