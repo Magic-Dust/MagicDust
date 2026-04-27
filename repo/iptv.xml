@@ -125,12 +125,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]-[makelist.param2]-</title>
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER</link>
 ]]></listrepeat>
-<expres>(?i)(?s)title="USA[^\"]*",([^\n]+)\n(ht[^\n]+)</expres>
+<expres>(?i)(?s)title="USA[^\"]*",([^\n]+)\n(ht[^\sn]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/xxip9_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
