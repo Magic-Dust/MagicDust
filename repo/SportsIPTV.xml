@@ -9,41 +9,6 @@
 <fanart>https://github.com/Magic-Dust/MagicDust/blob/master/fanart.jpg?raw=true</fanart>
 </items_info>
 
-<item>
-<title>[COLOR=skyblue]ESPN+ [/COLOR]1</title>
-<thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]ESPN+ [/COLOR]2</title>
-<thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tvmate_live.m3u</page>
-</regex>
-</item>
 
 <item>
 <title>[COLOR=skyblue]Powerstreams[/COLOR]</title>
@@ -118,6 +83,24 @@
 </item>
 
 <item>
+<title>[COLOR=skyblue]Sharkstreams [/COLOR]</title>
+<thumbnail>https://static.vecteezy.com/system/resources/thumbnails/002/815/730/small_2x/shark-esport-gaming-mascot-logo-template-vector.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param4]&amp;origin=[makelist.param5]&amp;agent=[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/yIsus-mEx/Sports.M3U8/refs/heads/main/SharkStreams.m3u8</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=skyblue]Love4vn [/COLOR]</title>
 <thumbnail>https://avatars.githubusercontent.com/u/162122812</thumbnail>
 <fanart></fanart>
@@ -136,20 +119,38 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Sharkstreams [/COLOR]</title>
-<thumbnail>https://static.vecteezy.com/system/resources/thumbnails/002/815/730/small_2x/shark-esport-gaming-mascot-logo-template-vector.jpg</thumbnail>
+<title>[COLOR=skyblue]ESPN+ [/COLOR]1</title>
+<thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
 <fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param4]&amp;origin=[makelist.param5]&amp;agent=[makelist.param3]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/yIsus-mEx/Sports.M3U8/refs/heads/main/SharkStreams.m3u8</page>
+<expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]ESPN+ [/COLOR]2</title>
+<thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tvmate_live.m3u</page>
 </regex>
 </item>
 
