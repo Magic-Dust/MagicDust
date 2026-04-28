@@ -129,7 +129,7 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i),ESPN([^\n]+)\n(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
@@ -148,7 +148,7 @@
 <title>[COLOR=orange][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s),(ESPN+[^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/xxip9_live.m3u</page>
