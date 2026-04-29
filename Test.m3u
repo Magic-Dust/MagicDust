@@ -283,16 +283,16 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="The.Cowboy.Channel.us2" tvg-name="Cowboy Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="Entertainment", The Cowboy Channel
 http://s.rocketdns.info:8080/live/52748969/72335180/84912.ts
-#EXTINF:-1 tvg-id="TBS.HD.us2" tvg-name="TBS East" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS EAST
+#EXTINF:-1 tvg-id="TBS.HD.us2" tvg-name="TBS East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="Entertainment", TBS EAST
 https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TBS.HD.(Pacific).us2" tvg-name="TBS West" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/34240/s11867_ll_h15_ac.png" group-title="Entertainment", TBS West
+#EXTINF:-1 tvg-id="TBS.HD.(Pacific).us2" tvg-name="TBS West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="Entertainment", TBS West
 https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TLC.HD.(US).us2" tvg-name="TLC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11158_dark_360w_270h.png" group-title="Entertainment", TLC
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 http://cord-cutter.net:8080/KB0cRT/666742/12734|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
-#EXTINF:-1 tvg-id="Turner.Classic.Movies.HD.us2" tvg-name="TCM US" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/64312/s64312_ll_h15_ab.png" group-title="Entertainment", TCM
+#EXTINF:-1 tvg-id="Turner.Classic.Movies.HD.us2" tvg-name="TCM US" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tcm-us.png?raw=true" group-title="Entertainment", TCM
 https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="TNT.HD.us2" tvg-name="TNT" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="Entertainment", TNT East
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
@@ -463,7 +463,8 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://cord-cutter.net:8080/KB0cRT/666742/161450|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#http://cord-cutter.net:8080/KB0cRT/666742/161450
+http://nor1live.win/livehttpplay?channel_id=23102|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="One.America.News.Network.HD.us2" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
 #https://oneamericanews-vizio.amagi.tv/playlist.m3u8
 https://a-cdn.klowdtv.com/live1/oan_720p/chunks.m3u8
@@ -496,6 +497,8 @@ http://23.237.104.106:8080/USA_BTN/index.m3u8
 #EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16365_dark_360w_270h.png" group-title="Sports", CBS Sports Network
 #http://cord-cutter.net:8080/KB0cRT/666742/10454
 http://23.237.104.106:8080/USA_CBS_SPORTS/index.m3u
+#EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16365_dark_360w_270h.png" group-title="Sports", CBS Sports Network HD
+http://nor1live.win/livehttpplay?channel_id=23132
 #EXTINF:-1 group-title="Sports" tvg-id="ESPN.HD.us2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png" tvg-name="ESPN" , ESPN
 #http://cord-cutter.net:8080/KB0cRT/666742/14197
 http://41.205.93.154/ESPN/tracks-v1a1/mono.m3u8
@@ -526,16 +529,13 @@ http://nor1live.win/livehttpplay?channel_id=23121|reconnect=1&reconnect_streamed
 #EXTINF:-1 tvg-id="ESPN+.Dummy.us" tvg-name="ESPN8TheOcho" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN8_The_Ocho_ESPN_Organization_Logo.svg/500px-ESPN8_The_Ocho_ESPN_Organization_Logo.svg.png" group-title="Sports", ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vz67vw1bljinm/ESPNTheOcho.m3u8
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="Sports", Fox Sports 1
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://cord-cutter.net:8080/KB0cRT/666742/1846|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+https://tvpass.org/live/FoxSports1/sd
+#EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="Sports", Fox Sports 1 HD
+http://nor1live.win/livehttpplay?channel_id=23131
 #EXTINF:-1 tvg-id="FS2.Fox.Sports.2.HD.us2" tvg-name="Fox Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33178_dark_360w_270h.png" group-title="Sports", Fox Sports 2
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://cord-cutter.net:8080/KB0cRT/666742/1847|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
-#https://a1xs.vip/40000022
+https://tvpass.org/live/FoxSports2/sd
+#EXTINF:-1 tvg-id="FS2.Fox.Sports.2.HD.us2" tvg-name="Fox Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33178_dark_360w_270h.png" group-title="Sports", Fox Sports 2 HD
+http://nor1live.win/livehttpplay?channel_id=23142
 #EXTINF:-1 tvg-id="Golf.Channel.HD.us2" tvg-name="Golf Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="Sports", Golf Channel
 #http://hardcoremedia.xyz/live/rabdsbmz/3731346838/258721.ts
 https://tvpass.org/live/GolfChannel/sd
@@ -689,6 +689,11 @@ http://cord-cutter.net:8080/KB0cRT/666742/10259|reconnect=1&reconnect_streamed=1
 http://cord-cutter.net:8080/KB0cRT/666742/18940|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="Sports", YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="Sports", YES Network HD
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
+http://nor1live.win/livehttpplay?channel_id=23145|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 
 #Weather
 #EXTINF:-1 tvg-id="AccuWeather.HD.us2" tvg-name="Acuweather Network" tvg-logo="https://cdn.wccftech.com/wp-content/uploads/2017/08/accuweather.jpg" group-title="Weather", AccuWeather
