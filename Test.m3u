@@ -528,6 +528,8 @@ http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 http://nor1live.win/livehttpplay?channel_id=23121|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="ESPN+.Dummy.us" tvg-name="ESPN8TheOcho" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN8_The_Ocho_ESPN_Organization_Logo.svg/500px-ESPN8_The_Ocho_ESPN_Organization_Logo.svg.png" group-title="Sports", ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vz67vw1bljinm/ESPNTheOcho.m3u8
+#EXTINF:-1 tvg-id="FanDuel.TV.us" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png" group-title="Sports", Fanduel TV
+http://cord-cutter.net:8080/KB0cRT/666742/10259
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="Sports", Fox Sports 1
 https://tvpass.org/live/FoxSports1/sd
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="Sports", Fox Sports 1 HD
@@ -679,7 +681,7 @@ http://cord-cutter.net:8080/969478/759984/57467|reconnect=1&reconnect_streamed=1
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://cord-cutter.net:8080/KB0cRT/666742/10259|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://cord-cutter.net:8080/live/KB0cRT/666742/10259.m3u8|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="TVG2 Network HD" tvg-logo="https://godish.com/wp-content/uploads/channel-logos/tvg2.png" group-title="Sports", TVG2 Network
 #TVG.Network2.us2
 #https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8
