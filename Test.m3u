@@ -391,13 +391,9 @@ https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m
 #EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10139_dark_360w_270h.png" group-title="News", CNBC
 http://41.205.93.154:80/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News", CNBC (720)
-#http://nor1live.win/livehttpplay?channel_id=23115
-https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8
+http://nor1live.win/livehttpplay?channel_id=23115
 #EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News", CNBC HD
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://cord-cutter.net:8080/KB0cRT/666742/9815|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://cord-cutter.net:8080/KB0cRT/666742/9815
 #EXTINF:-1 tvg-id="CNBC.World.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-europe/cnbc-eu.png?raw=true" tvg-name="US CNBC World" group-title="News", CNBC World
 #https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w576315509_b384000_sleng.m3u8
 #KODIPROP:inputstream=inputstream.ffmpegdirect
