@@ -21,7 +21,8 @@ http://supersonictv.live:8080/006943/072377/71805|reconnect=1&reconnect_streamed
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 #http://cord-cutter.net:8080/KB0cRT/666742/216103
-http://supersonictv.live:8080/006943/072377/71305|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#http://supersonictv.live:8080/006943/072377/71305
+http://tvmate.icu:8080/VM121628/56784321/216103|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Albany WNYT
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120745
 #EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
@@ -32,7 +33,8 @@ plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/71609|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#http://supersonictv.live:8080/006943/072377/71609
+http://tvmate.icu:8080/VM121628/56784321/120857|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA KCBS
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120654
 #EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
@@ -152,9 +154,11 @@ http://23.237.104.106:8080/USA_FX/index.m3u8
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/22096|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#http://supersonictv.live:8080/006943/072377/22096
+http://tvmate.icu:8080/VM121628/56784321/9240|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="Grit.us2" tvg-name="GRIT TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/grit-us.png?raw=true" group-title="Entertainment", GRIT TV
-http://supersonictv.live:8080/006943/072377/22100
+#http://supersonictv.live:8080/006943/072377/22100
+http://tvmate.icu:8080/live/VM121628/56784321/20861.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-channel-us.png?raw=true" tvg-name="Hallmark Eastern Feed SD" group-title="Entertainment", Hallmark Channel
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
@@ -212,7 +216,8 @@ http://23.237.104.106:8080/USA_LMN/index.m3u8
 #http://cord-cutter.net:8080/KB0cRT/666742/10503
 http://fl51.moveonjoy.com/DIY/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Me.TV.Network.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-us.png?raw=true" group-title="Entertainment", MeTV
-http://supersonictv.live:8080/006943/072377/22118
+#http://supersonictv.live:8080/006943/072377/22118
+http://tvmate.icu:8080/live/VM121628/56784321/16149.m3u8
 #EXTINF:-1 tvg-id="MOTORTREND.HD.us2" tvg-name="Motor Trend HD SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/motor-trend-us.png?raw=true" group-title="Entertainment", Motor Trend
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/10399
 #EXTINF:-1 tvg-id="MTV.-.Music.Television.HD.us2" tvg-name="MTV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="Entertainment", MTV
@@ -247,7 +252,8 @@ https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_356
 #EXTINF:-1 tvg-id="truTV.HD.(Pacific).us2" tvg-name="Tru TV West" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Entertainment", tru TV West
 https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TV.Land.HD.us2" tvg-name="TV Land" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16123_dark_360w_270h.png" group-title="Entertainment", TV Land
-http://supersonictv.live:8080/006943/072377/22169
+#http://supersonictv.live:8080/006943/072377/22169
+http://tvmate.icu:8080/live/VM121628/56784321/46696.m3u8
 #EXTINF:-1 tvg-id="USA.Network.HD.us2" tvg-name="USA East" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11207_dark_360w_270h.png" group-title="Entertainment", USA East
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/10252
 #EXTINF:-1 tvg-id="VH1.HD.us2" tvg-name="VH1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11218_dark_360w_270h.png" group-title="Entertainment", VH1
@@ -303,7 +309,8 @@ https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virgin
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" group-title="News", Bloomberg LIVE Feeds[COLOR magenta] (4 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlist=%5B%27https://bloomberg.com/media-manifest/streams/us-event.m3u8%24%24lsname%3DUSA%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/politics.m3u8%24%24lsname%3DUS+Politics%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/eu-event.m3u8%24%24lsname%3DEurope%27%7C%7C+%27https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8%24%24lsname%3DBloomberg+Extra%27%5D
 #EXTINF:-1 tvg-id="C-SPAN.us" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN
-http://supersonictv.live:8080/006943/072377/21757
+#http://supersonictv.live:8080/006943/072377/21757
+http://tvmate.icu:8080/live/VM121628/56784321/136589.m3u8
 #EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
 https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master720p.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://secure.cbn.com/images8/cbnnews/news-channel-logo.png" group-title="News", CBN
@@ -343,7 +350,8 @@ http://41.205.93.154/FOXBUSINESS/index.m3u8
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/21769|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#http://supersonictv.live:8080/006943/072377/21769
+http://tvmate.icu:8080/VM121628/56784321/17639|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News Channel" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox News (480)
 #https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary_400.m3u8
@@ -489,7 +497,8 @@ http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 #http://cord-cutter.net:8080/969478/759984/35240
-http://supersonictv.live:8080/006943/072377/84412|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#http://supersonictv.live:8080/006943/072377/84412
+http://tvmate.icu:8080/VM121628/56784321/35240|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-main-event-hz-uk.png?raw=true" tvg-name="UK-Sky Sports Main Event" group-title="Sports", Sky Sports Main Event
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/35243
 #EXTINF:-1 tvg-id="SkySp.Racing.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/hd/sky-sports-racing-hd-uk.png?raw=true" tvg-name="UK: SKY SP RACING FHD" group-title="Sports", SKY Sports RACING
