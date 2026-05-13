@@ -20,9 +20,8 @@ http://supersonictv.live:8080/006943/072377/71805|reconnect=1&reconnect_streamed
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-#http://cord-cutter.net:8080/KB0cRT/666742/216103
 #http://supersonictv.live:8080/006943/072377/71305
-http://tvmate.icu:8080/VM121628/56784321/216103|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://cord-cutter.net:8080/KB0cRT/666742/216103|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Albany WNYT
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120745
 #EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
@@ -30,11 +29,8 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:
 plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="KABC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA KABC
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 #http://supersonictv.live:8080/006943/072377/71609
-http://tvmate.icu:8080/VM121628/56784321/120857|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120857
 #EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA KCBS
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120654
 #EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
@@ -213,8 +209,7 @@ http://kstv.us:8080/live/BUhtuqR9kT/91839575806/23292.ts|reconnect=1&reconnect_s
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/lifetime-movies-us.png?raw=true" tvg-name="Lifetime Movies East SD" group-title="Entertainment", Lifetime Movies HD
 http://23.237.104.106:8080/USA_LMN/index.m3u8
 #EXTINF:-1 tvg-id="Magnolia.Network.HD.us2" tvg-logo="https://dockanddeck.com/wp-content/uploads/2019/02/diy.png" tvg-name="US Magnolia Network " group-title="Entertainment", Magnolia (DIY)
-#http://cord-cutter.net:8080/KB0cRT/666742/10503
-http://fl51.moveonjoy.com/DIY/tracks-v1a1/mono.ts.m3u8
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/10503
 #EXTINF:-1 tvg-id="Me.TV.Network.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-us.png?raw=true" group-title="Entertainment", MeTV
 #http://supersonictv.live:8080/006943/072377/22118
 http://tvmate.icu:8080/live/VM121628/56784321/16149.m3u8
@@ -234,7 +229,7 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 #http://cord-cutter.net:8080/KB0cRT/666742/46685
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="The.Cowboy.Channel.us2" tvg-name="Cowboy Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="Entertainment", The Cowboy Channel
-http://s.rocketdns.info:8080/live/52748969/72335180/84912.ts
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/122527
 #EXTINF:-1 tvg-id="TBS.HD.us2" tvg-name="TBS East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="Entertainment", TBS EAST
 https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TBS.HD.(Pacific).us2" tvg-name="TBS West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="Entertainment", TBS West
