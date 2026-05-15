@@ -317,14 +317,17 @@ http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3
 #EXTINF:-1 tvg-id="CityTv.ca2" tvg-name="CityTv" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/ctv-news-ca.png?raw=true" group-title="News", CityTv
 https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8
 #EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10139_dark_360w_270h.png" group-title="News", CNBC
-http://41.205.93.154:80/CNBC/index.m3u8
+https://tvpass.org/live/CNBC/sd
 #EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News", CNBC (720)
-http://nor1live.win/livehttpplay?channel_id=23115
+#http://nor1live.win/livehttpplay?channel_id=23115
+#https://tvpass.org/live/CNBC/hd
+http://realsport.scalecdn.co:8080/live/supersonicstreams/cUewZolveU8Jh18jk34BDJ/2610.ts
 #EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News", CNBC HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/KB0cRT/666742/9815.m3u8
 #EXTINF:-1 tvg-id="CNBC.World.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-europe/cnbc-eu.png?raw=true" tvg-name="US CNBC World" group-title="News", CNBC World
 #https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w576315509_b384000_sleng.m3u8
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/KB0cRT/666742/20860.m3u8
+#plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/live/KB0cRT/666742/20860.m3u8
+http://41.205.93.154:80/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN HD
 #https://a1xs.vip/1000016
 https://dqmhiwgbe98iq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1e8xhm2nv4xdw/index.m3u8
@@ -552,7 +555,7 @@ https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be
 #EXTINF:-1 tvg-id="Weather.Nation.TV.HD.us2" tvg-name="WeatherNation" tvg-logo="https://www.vhv.rs/dpng/d/613-6139189_weather-nation-logo-png-transparent-png.png" group-title="Weather", Weather Nation HD
 https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
 #EXTINF:-1 tvg-id="15.4.WPDEDT4@HDHomerunSimple" tvg-name="WPDEDT4" tvg-logo="https://play-lh.googleusercontent.com/RXXx5R-ZU9c5y1mP2SZwneTV-f3i_Vj6-_2lsZHhaHX6lXIxSJHBgstVxSyWdMHe3g" group-title="Weather", WPDE
-http://192.168.1.3:5004/auto/v15.4
+http://192.168.1.2:5004/auto/v15.4
 
 #24/7
 #EXTINF:-1 tvg-id="DOG.TV.us2" tvg-logo="https://i.ytimg.com/vi/OKZ54sj8NWo/maxresdefault.jpg" tvg-name="USA: DOGTV" group-title="24/7", DOGTV
