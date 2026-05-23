@@ -7,21 +7,11 @@
 
 #Broadcast
 #EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Albany WTEN
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/71302|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://stream.cammonitorplus.net/1839/index.m3u8
 #EXTINF:-1 tvg-id="WRGB-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Albany WRGB
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/71805|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://stream.cammonitorplus.net/1840/index.m3u8
 #EXTINF:-1 tvg-id="WXXA-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Albany WXXA
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-#http://supersonictv.live:8080/006943/072377/71305
-http://cord-cutter.net:8080/KB0cRT/666742/216103|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/216103
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Albany WNYT
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120745
 #EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
@@ -54,15 +44,9 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:
 plugin://slyguy.pbs.live/?_=play&callsign=WXEL&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="WPDE-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast" , ABC Myrtle WPDE
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/71482|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://stream.cammonitorplus.net/1839/index.m3u8
 #EXTINF:-1 tvg-id="WBTW-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Myrtle WBTW
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/71483|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://stream.cammonitorplus.net/1840/index.m3u8
 #EXTINF:-1 tvg-id="WFXB-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX Myrtle WFXB
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120789
 #EXTINF:-1 tvg-id="WMBF-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="" group-title="Broadcast", NBC Myrtle WMBF
@@ -133,7 +117,7 @@ http://41.205.93.154/DISCOVERY/tracks-v1a1/mono.m3u8
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/46720
 http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 #EXTINF:-1 tvg-id="Science.Channel.HD.us2" tvg-name="Discovery Science" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24282_dark_360w_270h.png" group-title="Entertainment", Discovery Science
-http://supersonictv.live:8080/006943/072377/22077
+http://cdn1host.online:2999/live//bongus/35zqYxrbg0/181.ts
 #EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="Disney Channel East" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png" group-title="Entertainment", Disney Channel East
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/2206
 #EXTINF:-1 tvg-id="Disney.XD.HD.us2" tvg-name="Disney XD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" group-title="Entertainment", Disney XD
@@ -401,10 +385,7 @@ http://23.239.31.26:8989/accnetwork/index.m3u8
 #EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC NETWORK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" group-title="Sports", ACC Network HD
 http://23.237.104.106:8080/USA_ACCN/mpegts
 #EXTINF:-1 tvg-id="beIN.Sports.USA.HD.us2" tvg-name="beIN Sports USA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bein-sports-us.png?raw=true" group-title="Sports", beIN Sports USA
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
-http://supersonictv.live:8080/006943/072377/22187|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+http://195.26.87.217/live.ts?channelId=102481&uid=3453&deviceMac=00:1A:79:13:65:70
 #EXTINF:-1 tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56783_dark_360w_270h.png" group-title="Sports", Big Ten Network
 #http://cord-cutter.net:8080/KB0cRT/666742/9828
 http://23.237.104.106:8080/USA_BTN/index.m3u8
