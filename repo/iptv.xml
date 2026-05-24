@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
 
@@ -65,66 +66,6 @@
 </item>
 
 <item>
-<title>Dreammachine (last used)</title>
-<thumbnail>special://home/addons/plugin.video.dreammachine/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),([^\n]+)\n(htt[^\s]+)</expres>
-<page>[makelist2.param1]/get.php?username=[makelist2.param2]&amp;password=[makelist2.param3]&amp;type=m3u</page>
-</regex>
-<regex>
-<name>makelist2</name>
-<expres><![CDATA[(?i)(?s);(http[^&]+)&quot;, &quot;username&quot;: &quot;([^&]+)&quot;, &quot;password&quot;: &quot;([^&]+)]]></expres>
-<page>special://home/userdata/addon_data/plugin.video.dreammachine/settings.xml</page>
-</regex>
-</item>
-
-<item>
-<title>Dreammachine (last used2)</title>
-<thumbnail>special://home/addons/plugin.video.dreammachine/icon.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]*)\n(ht[^\s]+)</expres>
-<page>$doregex[get-url]</page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres><![CDATA[#$pyFunction
-import urllib.request
-from urllib.request import urlopen
-import re
-import xbmcvfs
-url = xbmcvfs.translatePath('special://home/userdata/addon_data/plugin.video.dreammachine/settings.xml')
-f = urllib.request.urlopen(url)
-html = f.read().decode('utf-8')
-#html=html.replace('\r', '')
-IPTVsearch = r'(?i)(?s);(http[^&]+)&quot;, &quot;username&quot;: &quot;([^&]+)&quot;, &quot;password&quot;: &quot;([^&]+)'
-found = re.findall(IPTVsearch, html)
-for item in found:
-    temp=item[0]+"/get.php?username="+item[1]+"&password="+item[2]+"&type=m3u"
-return temp
-]]></expres>
-<page></page>
-</regex>
-</item>
-
-<item>
 <title>tvAPP (HD except prime time)</title>
 <thumbnail>https://troypoint.com/wp-content/uploads/2023/05/the-tv-app-live.png</thumbnail>
 <fanart></fanart>
@@ -132,12 +73,12 @@ return temp
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>[makelist.param3]</link>
 ]]></listrepeat>
-<expres>"MoveOnJoy" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
+<expres>tvg-logo="([^\"]+)"[^\,]+,([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/TheTVApp.m3u8</page>
 </regex>
 </item>
