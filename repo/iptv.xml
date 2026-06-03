@@ -46,6 +46,24 @@
 </item>
 
 <item>
+<title>Stalker</title>
+<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: USA"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Mac_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>IPTVFlixBD</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
