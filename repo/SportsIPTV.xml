@@ -46,42 +46,6 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Live Events 2[/COLOR]</title>
-<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]Sharkstreams [/COLOR]</title>
-<thumbnail>https://static.vecteezy.com/system/resources/thumbnails/002/815/730/small_2x/shark-esport-gaming-mascot-logo-template-vector.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param4]&amp;origin=[makelist.param5]&amp;agent=[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/yIsus-mEx/Sports.M3U8/refs/heads/main/SharkStreams.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]ESPN+ [/COLOR]</title>
 <thumbnail>https://assets-prd.ignimgs.com/2024/09/06/espn-plus-1610568756053-1725664669204.jpg</thumbnail>
 <fanart></fanart>
@@ -92,11 +56,10 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param3]</link>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - ESPN\+",US ([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | ESPN PLUS"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
 </regex>
 </item>
 
@@ -111,17 +74,16 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param3]</link>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - FLOSPORTS",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | FLO SPORTS TV"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=skyblue]Peacock Events[/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nbc_sports.png</thumbnail>
+<title>[COLOR=skyblue]Prime [/COLOR]</title>
+<thumbnail>https://yt3.ggpht.com/a/AATXAJzXJSCGYZN_CHjPWAmz2m2ijtNO8P20jX_bmQ=s900-c-k-c0xffffffff-no-rj-mo</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -130,11 +92,28 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param3]</link>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - PEACOCK EVENTS",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: UK| PRIME[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]PPV [/COLOR]</title>
+<thumbnail>https://logodix.com/logo/2188744.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | PPV"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
 </regex>
 </item>
 
@@ -149,9 +128,100 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | MLB[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]NBA [/COLOR]</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nba.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | NBA"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]NFL [/COLOR]</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | NFL"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]NHL[/COLOR]</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nhl.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US: AM | USA | NHL"[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]NCAAF [/COLOR]</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
 <link>[makelist.param3]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - MLB",([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NCAA FOOTBALL",([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]NCAAB [/COLOR]</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaab.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NCAA MEN's BASKETBALL",([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
@@ -171,25 +241,6 @@
 <link>[makelist.param3]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NCAA BASEBALL",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]NBA [/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nba.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NBA",([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
@@ -234,101 +285,6 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]NHL[/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nhl.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>p[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NHL",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]PPV [/COLOR]</title>
-<thumbnail>https://logodix.com/logo/2188744.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - PPV",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]NCAAF [/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NCAA FOOTBALL",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]NFL [/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NFL",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=skyblue]NCAAB [/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaab.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)" group-title="SPORTS - NCAA MEN's BASKETBALL",([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]Soccer [/COLOR]</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/fifa.png</thumbnail>
 <fanart></fanart>
@@ -367,6 +323,42 @@
 </item>
 
 <item>
+<title>[COLOR=skyblue]Live Events 2[/COLOR]</title>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Sharkstreams [/COLOR]</title>
+<thumbnail>https://static.vecteezy.com/system/resources/thumbnails/002/815/730/small_2x/shark-esport-gaming-mascot-logo-template-vector.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param4]&amp;origin=[makelist.param5]&amp;agent=[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/yIsus-mEx/Sports.M3U8/refs/heads/main/SharkStreams.m3u8</page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=skyblue]Roxiestreams[/COLOR]</title>
 <thumbnail>https://s.ipaddress.com/siteimg/8d069442/roxiestreams.pro.png</thumbnail>
 <fanart></fanart>
@@ -383,42 +375,5 @@
 <page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/Roxiestreams.m3u</page>
 </regex>
 </item>
-
-<item>
-<title>Weblink Channels</title>
-<thumbnail>https://cdn1.plesk.com/wp-content/uploads/2016/10/27013456/weblink-logo_200_400px.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)"SPORTS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
-</regex>
-</item>
-
-<item>
-<title>Stalker Channels</title>
-<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^\"]+)" group-title="US[^\,]+,([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/Stalker2M3U/refs/heads/1/Sports_playlist.m3u</page>
-</regex>
-</item>
-
 
 </items>
