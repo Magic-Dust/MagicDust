@@ -46,8 +46,8 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Pixelsport[/COLOR]</title>
-<thumbnail>https://pixelsport.tv/logo.png</thumbnail>
+<title>[COLOR=skyblue]Live Events 2[/COLOR]</title>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -56,10 +56,10 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param4]&amp;agent=[makelist.param3]&amp;icy-metadata=[makelist.param5]</link>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/Pixelsports.m3u</page>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
 
@@ -340,24 +340,6 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Live Events 2[/COLOR]</title>
-<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]Sharkstreams [/COLOR]</title>
 <thumbnail>https://static.vecteezy.com/system/resources/thumbnails/002/815/730/small_2x/shark-esport-gaming-mascot-logo-template-vector.jpg</thumbnail>
 <fanart></fanart>
@@ -390,6 +372,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)logo="([^"]+).*?",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/Roxiestreams.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Pixelsport[/COLOR]</title>
+<thumbnail>https://pixelsport.tv/logo.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param4]&amp;agent=[makelist.param3]&amp;icy-metadata=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/Pixelsports.m3u</page>
 </regex>
 </item>
 
