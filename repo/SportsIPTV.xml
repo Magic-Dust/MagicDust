@@ -393,4 +393,22 @@
 </regex>
 </item>
 
+<item>
+<title>Sports Channels</title>
+<thumbnail>https://cdn1.plesk.com/wp-content/uploads/2016/10/27013456/weblink-logo_200_400px.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)"SPORTS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
+</regex>
+</item>
+
 </items>
