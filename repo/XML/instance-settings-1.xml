@@ -1,14 +1,14 @@
 <settings version="2">
     <setting id="kodi_addon_instance_name">IPTV Merge</setting>
     <setting id="kodi_addon_instance_enabled" default="true">true</setting>
-    <setting id="m3uPathType" default="true">1</setting>
-    <setting id="m3uPath">http://127.0.0.1:8096/playlist.m3u8</setting>
-    <setting id="m3uUrl">http://127.0.0.1:8096/playlist.m3u8</setting>
+    <setting id="m3uPathType">0</setting>
+    <setting id="m3uPath">special://home/userdata/addon_data/plugin.program.iptv.merge/playlist.m3u8</setting>
+    <setting id="m3uUrl" default="true" />
     <setting id="m3uCache">false</setting>
     <setting id="startNum" default="true">1</setting>
     <setting id="numberByOrder" default="true">false</setting>
     <setting id="m3uRefreshMode">1</setting>
-    <setting id="m3uRefreshIntervalMins">55</setting>
+    <setting id="m3uRefreshIntervalMins">5</setting>
     <setting id="m3uRefreshHour" default="true">4</setting>
     <setting id="connectioncheckinterval">1</setting>
     <setting id="connectionchecktimeout">1</setting>
@@ -33,8 +33,8 @@
     <setting id="fiveRadioGroup" default="true" />
     <setting id="customRadioGroupsFile" default="true">special://userdata/addon_data/pvr.iptvsimple/channelGroups/customRadioGroups-example.xml</setting>
     <setting id="radioChannelGroupsOnly" default="true">false</setting>
-    <setting id="epgPathType" default="true">1</setting>
-    <setting id="epgPath" default="true" />
+    <setting id="epgPathType">0</setting>
+    <setting id="epgPath">special://home/userdata/addon_data/plugin.program.iptv.merge/epg.xml</setting>
     <setting id="epgUrl" default="true" />
     <setting id="epgCache">false</setting>
     <setting id="epgTimeShift" default="true">0</setting>
@@ -44,7 +44,7 @@
     <setting id="genresPathType" default="true">0</setting>
     <setting id="genresPath" default="true">special://userdata/addon_data/pvr.iptvsimple/genres/genreTextMappings/genres.xml</setting>
     <setting id="genresUrl" default="true" />
-    <setting id="logoPathType" default="true">1</setting>
+    <setting id="logoPathType">0</setting>
     <setting id="logoPath" default="true" />
     <setting id="logoBaseUrl" default="true" />
     <setting id="useLogosLocalPathOnly" default="true">false</setting>
@@ -63,7 +63,7 @@
     <setting id="timeshiftEnabledCustom" default="true">false</setting>
     <setting id="catchupEnabled" default="true">false</setting>
     <setting id="catchupQueryFormat" default="true" />
-    <setting id="catchupDays" default="true">5</setting>
+    <setting id="catchupDays">7</setting>
     <setting id="allChannelsCatchupMode" default="true">0</setting>
     <setting id="catchupOverrideMode" default="true">0</setting>
     <setting id="catchupCorrection" default="true">0</setting>
@@ -71,12 +71,13 @@
     <setting id="catchupWatchEpgBeginBufferMins" default="true">5</setting>
     <setting id="catchupWatchEpgEndBufferMins" default="true">15</setting>
     <setting id="catchupOnlyOnFinishedProgrammes" default="true">false</setting>
-    <setting id="transformMulticastStreamUrls" default="true">false</setting>
+    <setting id="transformMulticastStreamUrls">true</setting>
     <setting id="udpxyHost" default="true">127.0.0.1</setting>
     <setting id="udpxyPort" default="true">4022</setting>
     <setting id="useFFmpegReconnect" default="true">true</setting>
-    <setting id="useInputstreamAdaptiveforHls" default="true">false</setting>
+    <setting id="useInputstreamAdaptiveforHls">true</setting>
     <setting id="defaultUserAgent" default="true" />
     <setting id="defaultInputstream" default="true" />
     <setting id="defaultMimeType" default="true" />
+    <setting id="epgRefreshInterval" default="true">43200</setting>
 </settings>
