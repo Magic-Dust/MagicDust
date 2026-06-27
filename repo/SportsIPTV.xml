@@ -431,7 +431,7 @@
 <item>
 <title>ESPN Test</title>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[tvc]</link>
+<link>$doregex[tvc]</link>
 <regex>
 <name>tvc</name>
 <expres>(?i)(?s),ESPN\n(ht[^\s]+)</expres>
