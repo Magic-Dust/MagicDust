@@ -12,9 +12,11 @@ plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/li
 plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/324612.ts
 #EXTINF:-1 tvg-id="WXXA-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Albany WXXA
 #plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/216103
-special://home/addons/plugin.program.magicdust/strm/FOX-Albany.strm
+#special://home/addons/plugin.program.magicdust/strm/FOX-Albany.strm
+special://home/addons/plugin.program.magicdust/strm/FOX-LA.strm
+
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Albany WNYT
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120745
+plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/120745.ts
 #EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
 #WMHT-DT.us_locals1
 plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
