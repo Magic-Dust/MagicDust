@@ -434,7 +434,7 @@
 <link>$doregex[tvc]</link>
 <regex>
 <name>tvc</name>
-<expres>(?i)(?s)WXXA\n(ht[^\s]+)</expres>
+<expres>(?i)(?s)WXXA[^\n]+\n(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/cord-cutter_live.m3u</page>
 </regex>
 </item>
@@ -442,7 +442,7 @@
 <item>
 <title>WXXA CCA test2</title>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url==http://cord-cutter.net:8080/live/KB0cRT/666742/120892.ts$$LSPlayOnlyOne$$</link>
+<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/KB0cRT/666742/120892.ts$$LSPlayOnlyOne$$</link>
 <link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/JoanP/443@112/120892.ts</link>
 <link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/p9qQu1/372083/120892.ts</link>
 <link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/969478/759984/120892.ts</link>
@@ -456,7 +456,7 @@
 <item>
 <title>WXXA CCA test3</title>
 <thumbnail></thumbnail>
-<link>special://home/addons/plugin.program.magicdust/strm/FOX-LA.strm</link>
+<link>special://home/addons/plugin.program.magicdust/strm/FOX-LA.strm$$LSDirect$$</link>
 </item>
 
 </items>
