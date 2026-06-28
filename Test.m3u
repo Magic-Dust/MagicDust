@@ -6,8 +6,13 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz"
 
 #Broadcast
+#EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Albany WTEN
+plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/324617.ts
+#EXTINF:-1 tvg-id="WRGB-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS Albany WRGB
+plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/324612.ts
 #EXTINF:-1 tvg-id="WXXA-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Albany WXXA
-plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/216103
+#plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/216103
+special://home/addons/plugin.program.magicdust/strm/FOX-Albany.strm
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Albany WNYT
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:8080/KB0cRT/666742/120745
 #EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
@@ -15,7 +20,7 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&url=http://cord-cutter.net:
 plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
 
 #EXTINF:-1 tvg-id="KABC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA KABC
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120857
+plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/324431
 #EXTINF:-1 tvg-id="KCBS-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS LA KCBS
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120654
 #EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
@@ -30,7 +35,7 @@ plugin://slyguy.pbs.live/?_=play&callsign=KVIE&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="WPLG-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Miami WPLG
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/121245
 #EXTINF:-1 tvg-id="WFOR-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Miami WFOR
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/121243
+plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/324459
 #EXTINF:-1 tvg-id="WSVN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" group-title="Broadcast", FOX Miami WSVN
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/121242
 #EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Miami WTVJ
@@ -38,6 +43,10 @@ plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/1
 #EXTINF:-1 tvg-id="WXEL-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png" group-title="Broadcast", PBS Miami WXEL
 plugin://slyguy.pbs.live/?_=play&callsign=WXEL&_is_live=1&_noresume=.pvr
 
+#EXTINF:-1 tvg-id="WPDE-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Myrtle WPDE
+plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/324704.ts
+#EXTINF:-1 tvg-id="WBTW-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Myrtle WBTW
+plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/324604.ts
 #EXTINF:-1 tvg-id="WFXB-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX Myrtle WFXB
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120789
 #EXTINF:-1 tvg-id="WMBF-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="" group-title="Broadcast", NBC Myrtle WMBF
@@ -68,7 +77,7 @@ plugin://slyguy.pbs.live/?_=play&callsign=WNET&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="WTVD-DT.us_locals1" tvg-name="ABC Raleigh WTVD" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Raleigh WTVD
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/122064
 #EXTINF:-1 tvg-id="WNCN-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS Raleigh WNCN" group-title="Broadcast", CBS Raleigh WNCN
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/140820
+plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/324592
 #EXTINF:-1 tvg-id="WRAZ-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX RALEIGH WRAZ" group-title="Broadcast", FOX RALEIGH WRAZ
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120735
 #EXTINF:-1 tvg-id="WRAL-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="NBC RALEIGH WRAL" group-title="Broadcast", NBC RALEIGH WRAL
