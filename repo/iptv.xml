@@ -100,6 +100,24 @@
 </item>
 
 <item>
+<title>TVapp</title>
+<thumbnail>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/d7/ff/4cd7ff74-90a4-8ceb-5263-39aa669a57b4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x630wa.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param1][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/buddylive-combined/refs/heads/main/combined_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
 <title>WEBLINK</title>
 <thumbnail>https://cdn1.plesk.com/wp-content/uploads/2016/10/27013456/weblink-logo_200_400px.png</thumbnail>
 <fanart></fanart>
