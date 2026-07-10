@@ -172,25 +172,6 @@
 </item>
 
 <item>
-<title>IPTVFlixBD</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",US ([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tv14s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=green]Real-IPTV1[/COLOR]</title>
 <thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
 <fanart></fanart>
@@ -382,7 +363,7 @@
 
 <item>
 <title>[COLOR=green]Alienstreams [/COLOR] AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -400,27 +381,8 @@
 </item>
 
 <item>
-<title>[COLOR=green]bgdc.live [/COLOR]rodneyb5777</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),([^\n]*)\n(ht[^\s]+)</expres>
-<page>http://bgdc.live:25461/get.php?username=rodneyb5777&amp;password=5777&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=green]Cord-cutter [/COLOR] AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -590,8 +552,8 @@
 </item>
 
 <item>
-<title>[COLOR=green]megashtv [/COLOR] AUTO (down)</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<title>[COLOR=green]megashtv [/COLOR] AUTO</title>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -609,8 +571,27 @@
 </item>
 
 <item>
+<title>[COLOR=green]mutant [/COLOR] AUTO (down)</title>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)title="USA[^\,]+,([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/mutant_live.m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=green]nocable [/COLOR]AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -628,8 +609,46 @@
 </item>
 
 <item>
+<title>[COLOR=green]nplay [/COLOR] AUTO (down)</title>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s) US",([^\n]+)\n(ht[^\s]*)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nplay_live.m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=green]predator [/COLOR]AUTO</title>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)group-title="Usa",[^:]+: ([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/predator_live.m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=green]pw-iptv [/COLOR]AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -648,7 +667,7 @@
 
 <item>
 <title>[COLOR=green]rocketdns [/COLOR]AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -667,7 +686,7 @@
 
 <item>
 <title>[COLOR=green]tvmate [/COLOR]AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
@@ -686,7 +705,7 @@
 
 <item>
 <title>[COLOR=green]teck-tv [/COLOR]AUTO</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
