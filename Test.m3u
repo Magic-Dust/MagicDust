@@ -204,6 +204,10 @@ http://kstv.us:8080/live/BUhtuqR9kT/91839575806/22518.ts|reconnect=1&reconnect_s
 #http://40.160.24.53/HALLMARK_MOVIES_AND_MYSTERIES/index.m3u8
 #http://206.212.244.63/86/index.m3u8
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/live/KB0cRT/666742/10289.m3u8
+#EXTINF:-1 tvg-id="plex.tv.Hallmark.Movies.&amp;.More.plex" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" tvg-name="Hallmark Movies & More" group-title="Entertainment", Hallmark Movies & More
+https://jmp2.uk/plex-6a1610bebdf296985fd95603-6244cf3c742b0d58cd4f2514.m3u8
+#EXTINF:-1 tvg-id="plex.tv.Hallmark.Movies.&amp;.More.plex" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" tvg-name="Hallmark Movies & More" group-title="Entertainment", Hallmark Movies & More HD
+plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBD270001633&_is_live=1&_noresume=.pvr
 #EXTINF:-1 group-title="Entertainment" tvg-id="History.HD.us2" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87679_dark_360w_270h.png" tvg-name="History Channel" , History Channel
 #http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
 #http://206.212.244.63/91/index.m3u8
@@ -229,6 +233,14 @@ http://kstv.us:8080/live/BUhtuqR9kT/91839575806/23292.ts|reconnect=1&reconnect_s
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/lifetime-movies-us.png?raw=true" tvg-name="Lifetime Movies East SD" group-title="Entertainment", Lifetime Movies HD
 #http://40.160.24.53/LMN/index.m3u8
 http://23.237.104.106:8080/USA_LMN/index.m3u8
+#EXTINF:-1 tvg-id="plex.tv.Lifetime.Movie.Favorites.plex" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200019FO_20260420T153045SQUARE.png" tvg-name="Lifetime Movie Favorites" group-title="Entertainment", Lifetime Favorites
+https://jmp2.uk/plex-6a1610bebdf296985fd95603-63c1e47ef0f132afc3afbab2.m3u8
+#EXTINF:-1 tvg-id="plex.tv.Lifetime.Movie.Favorites.plex" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200019FO_20260420T153045SQUARE.png" tvg-name="Lifetime Movie Favorites" group-title="Entertainment", Lifetime Favorites HD
+plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBB5200019FO&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="plex.tv.Lifetime.Movies.Love.&amp;.Drama.plex" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1600002OK_20260714T040814SQUARE.png" tvg-name="Lifetime Movies Love & Drama" group-title="Entertainment", Lifetime Love & Drama
+https://jmp2.uk/plex-6a1610bebdf296985fd95603-680adc83ea62ac6a05a626e6.m3u8
+#EXTINF:-1 tvg-id="plex.tv.Lifetime.Movies.Love.&amp;.Drama.plex" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1600002OK_20260714T040814SQUARE.png" tvg-name="Lifetime Movies Love & Drama" group-title="Entertainment", Lifetime Love & Drama HD
+plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=US1600002OK&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="Magnolia.Network.HD.us2" tvg-logo="https://dockanddeck.com/wp-content/uploads/2019/02/diy.png" tvg-name="US Magnolia Network " group-title="Entertainment", Magnolia (DIY)
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/10503
 #EXTINF:-1 tvg-id="Magnolia.Network.HD.us2" tvg-logo="https://dockanddeck.com/wp-content/uploads/2019/02/diy.png" tvg-name="US Magnolia Network " group-title="Entertainment", Magnolia (DIY)
@@ -339,11 +351,10 @@ http://23.237.104.106:8080/USA_STARZ/index.m3u8
 http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8
 
 #News
-#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="News", ABC News
-#https://aegis-cloudfront-1.tubi.video/d6cbb0de-68e4-4f3b-82f9-bf5d526e0bde/index.m3u8
-https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABCN Live Feeds[COLOR magenta] (5 items)[/COLOR]
-plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8%24%24lsname%3DLive+1%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8%24%24lsname%3DLive+2%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8%24%24lsname%3DLive+3%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8%24%24lsname%3DLive+4%27%7C%7C+%27https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8%24%24lsname%3DLive+5%27%5D
+#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="News", ABC News[COLOR magenta] (5 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=ABCN&playlist=%5B%27https%3A%2F%2Fpb-0n3n2ej0w8pl9.akamaized.net%2FABCNewsLive_Disney.m3u8%24%24lsname%3DNational%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2Fc2e3094d-ad56-4c5f-9655-cd80df71fbab%2Fplaylist.m3u8%24%24lsname%3DBoston%27%7C%7C+%27https%3A%2F%2Flinear-700.frequency.stream%2Fdist%2Fstirr%2F700%2Fhls%2Fmaster%2Fplaylist.m3u8%24%24lsname%3DCharleston%27%7C%7C+%27https%3A%2F%2Flinear-696.frequency.stream%2Fdist%2Fstirr%2F696%2Fhls%2Fmaster%2Fplaylist.m3u8%24%24lsname%3DMyrtle%27%7C%7C+%27https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F64ca339f04964a5e961c3207a7771bf1.m3u8%24%24lsname%3DDenver%27%5D
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://cdn.abcotvs.com/dip/images/994847_092115-abcnewslivestreams-img.jpg" group-title="News", ABC Live Feeds[COLOR magenta] (5 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=ABCN+LIVE&playlist=%5B%27https%3A%2F%2Fabcnews-streams.akamaized.net%2Fhls%2Flive%2F2023560%2Fabcnews1%2Fmaster.m3u8%24%24lsname%3DFeed+1%27%7C%7C+%27https%3A%2F%2Fabcnews-streams.akamaized.net%2Fhls%2Flive%2F2023561%2Fabcnews2%2Fmaster.m3u8%24%24lsname%3DFeed+2%27%7C%7C+%27https%3A%2F%2Fabcnews-streams.akamaized.net%2Fhls%2Flive%2F2023562%2Fabcnews3%2Fmaster.m3u8%24%24lsname%3DFeed+3%27%7C%7C+%27https%3A%2F%2Fabcnews-streams.akamaized.net%2Fhls%2Flive%2F2023563%2Fabcnews4%2Fmaster.m3u8%24%24lsname%3DFeed+4%27%7C%7C+%27https%3A%2F%2Fabcnews-streams.akamaized.net%2Fhls%2Flive%2F2023564%2Fabcnews5%2Fmaster.m3u8%24%24lsname%3DFeed+5%27%5D
 #EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News", BBC News
 #https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 https://b638a299.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fQkJDTmV3c19ITFM/playlist.m3u8
@@ -362,13 +373,10 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlis
 http://40.160.24.52/C-SPAN_HD/index.m3u8
 #EXTINF:-1 tvg-id="CSPAN2.us2" tvg-name="C-SPAN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN2
 http://40.160.24.52/C-SPAN_2/index.m3u8
-#EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
-#https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
-#https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
-https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master720p.m3u8
-#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBSN" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBSN
-#https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8
-https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS[COLOR magenta] (4 items )[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=CBC+NEWS&playlist=%5B%27https%3A%2F%2Fd2ny9lo79ujali.cloudfront.net%2FCBC_News_International.m3u8%24%24lsname%3DNational%27%7C%7C+%27https%3A%2F%2Fcbcrclinear-tor.akamaized.net%2Fhls%2Flive%2F2042760%2FCBCRCLINEAR_TOR_6%2Fmaster5.m3u8%24%24lsname%3DTORONTO%27%7C%7C+%27https%3A%2F%2Fcbcrclinear-tor.akamaized.net%2Fhls%2Flive%2F2042761%2FCBCRCLINEAR_TOR_7%2Fmaster5.m3u8%24%24lsname%3DMONTREAL%27%7C%7C+%27https%3A%2F%2Fcbcrclinear-tor.akamaized.net%2Fhls%2Flive%2F2042768%2FCBCRCLINEAR_TOR_14%2Fmaster5.m3u8%24%24lsname%3DVancouver%27%5D
+#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBSN" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBSN[COLOR magenta] (4 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=CBSN&playlist=%5B%27https%3A%2F%2Fcbsn-us.cbsnstream.cbsnews.com%2Fout%2Fv1%2F55a8648e8f134e82a470f83d562deeca%2Fmaster.m3u88%24%24lsname%3DNational%27%7C%7C+%27https%3A%2F%2Fcbsn-la.cbsnstream.cbsnews.com%2Fout%2Fv1%2F57b6c4534a164accb6b1872b501e0028%2Fmaster.m3u8%24%24lsname%3DLA%27%7C%7C+%27https%3A%2F%2Fcbsn-mia.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fac174b7938264d24ae27e56f6584bca0%2Fmaster.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https%3A%2F%2Fcbsn-ny.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fec3897d58a9b45129a77d67aa247d136%2Fmaster.m3u8%24%24lsname%3DNY%27%7C%7C+%27https%3A%2F%2Fcbsn-det.cbsnstream.cbsnews.com%2Fout%2Fv1%2F169f5c001bc74fa7a179b19c20fea069%2Fmaster.m3u8%24%24lsname%3DDetroit%27%5D
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="CNA NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/international/cna-int.png?raw=true" group-title="News", CNA NEWS
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 #EXTINF:-1 tvg-id="CityTv.ca2" tvg-name="CityTv" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/ctv-news-ca.png?raw=true" group-title="News", CityTv
@@ -422,6 +430,8 @@ https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary_400.m3u8
 #http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #http://167.250.126.140:7777/FOXNEWS-HD/index.m3u8
 http://206.212.244.63/67/index.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="Fox Regional" tvg-logo="http://static.epg.best/us/FoxNews.us.png" group-title="News", Fox Regional[COLOR magenta] (5 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=FOXN&playlist=%5B%27https%3A%2F%2Flinear-688.frequency.stream%2Fdist%2Fstirr%2F688%2Fhls%2Fmaster%2Fplaylist.m3u8%24%24lsname%3DBaltimore%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2F3600d45a-dfbf-4878-9ca1-2e2bc9077fed%2Findex.m3u8%24%24lsname%3DChicago%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2F317a6700-b890-4066-a2e7-dea5c15fd915%2Findex.m3u8%24%24lsname%3DLA%27%7C%7C+%27https%3A%2F%2Flivetv-fa.tubi.video%2Fwtvt%2Findex.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2F36a435c5-f70a-411a-b237-e32738c486a8%2Findex.m3u8%24%24lsname%3DNY%27%5D
 #EXTINF:-1 tvg-id="plex.tv.LiveNOW.from.FOX.plex" tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="News", FoxLiveNOW
 #https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
@@ -436,14 +446,12 @@ https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 #EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News" tvg-logo="https://www.gbnews.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zMzAyMTkwOS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3Njk2OTY2Mn0.Zvn26EqsfixGMQPCZnuayrrW9mG_7kGjNuXRc3mRrBk/image.png?width=284&height=102" group-title="News", GBN HD
 https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="Global.Montreal.ca2" tvg-name="Global" tvg-logo="http://4.bp.blogspot.com/-5OhuDcNdOds/USO9Rr18cXI/AAAAAAAAC8Q/r86AmsVxv_I/s1600/global-tv-logo.jpg" group-title="News", Global News[COLOR magenta] (4 items)[/COLOR]
-plugin://plugin.video.live.streamspro/?mode=13&name=ABC+LIVE+Digital&playlist=%5B%27https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8%24%24lsname%3DBC%27%7C%7C+%27https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8%24%24lsname%3DMontreal%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8%24%24lsname%3DNational%27%7C%7C+%27https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8%24%24lsname%3DToronto%27%5D
+plugin://plugin.video.live.streamspro/?mode=13&name=Global&playlist=%5B%27https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupa%2Flive%2F48a5882b-a1ec-42d7-bfd7-6c2739e737da%2Flive.isml%2F.m3u8%24%24lsname%3DBC%27%7C%7C+%27https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupa%2Flive%2F6bfb7f13-9d9d-4211-9c50-fb56330e4ccd%2Flive.isml%2F.m3u8%24%24lsname%3DMontreal%27%7C%7C+%27https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2F49a91e7f-1023-430f-8d66-561055f3d0f7%2Flive.isml%2F.m3u8%24%24lsname%3DNational%27%7C%7C+%27https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2Fdeb8cec5-87fb-460a-ab82-0929374fc5fb%2Flive.isml%2F.m3u8%24%24lsname%3DToronto%27%5D
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News 1080
 #https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://logodix.com/logo/1638409.jpg" group-title="News", INFOWARS
-#https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
-#https://freespeech.akamaized.net/hls/live/2024574/live4/playlist.m3u8
-https://freespeech.akamaized.net/hls/live/2024574/live4/playlist-270.m3u8
+https://rumble.com/live-hls/v7bs3xy/playlist.m3u8
 #EXTINF:-1 tvg-id="LindellTV.us@SD" tvg-name="LindellTV" tvg-logo="https://lindelltv.com/wp-content/uploads/2025/01/lindelltv.logo_.horizontal-color-lg.png" group-title="News", Lindell TV
 #https://stream.vocl.com/hls/lindelltv/index.m3u8
 https://rumble.com/live-hls/6v67mu/playlist.m3u8
@@ -457,10 +465,11 @@ http://cdn.haititivi.com/MSNBC/index.m3u8
 #https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
 #http://40.160.24.53/NBC_NEWS_NOW/index.m3u8
 http://206.212.244.63/127/index.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 New York
-https://live-manifest.production-public.tubi.io/live/3b3697be-6add-4564-abb1-9358014f2d3a/playlist.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12 Hudson Valley
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="NBC NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-news-now-us.png?raw=true" group-title="News", NBC Regional[COLOR magenta] (4 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=NBCN&playlist=%5B%27https%3A%2F%2Famg01942-amg01942c5-stirr-us-10184.playouts.now.amagi.tv%2Fplaylist.m3u8%24%24lsname%3DAlbany%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2Fd4d923f2-17de-4371-b86d-43490499bcdb%2Fplaylist.m3u8%24%24lsname%3DMilwaukee%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2F97fbb992-c212-4164-8406-abb6f731e517%2Fplaylist.m3u8%24%24lsname%3DNY%27%7C%7C+%27https%3A%2F%2Faegis-cloudfront-1.tubi.video%2F54b357b4-bf4b-4356-97b4-b1acb6ab62f7%2Fplaylist.m3u8%24%24lsname%3DRaleigh%27%7C%7C+%27https%3A%2F%2Flinear-708.frequency.stream%2Fdist%2Fstirr%2F708%2Fhls%2Fmaster%2Fplaylist.m3u8%24%24lsname%3DVegas%27%5D
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/News_12_logo_2019.png" group-title="News", News12[COLOR magenta] (6 items)[/COLOR]
+#https://live-manifest.production-public.tubi.io/live/3b3697be-6add-4564-abb1-9358014f2d3a/playlist.m3u8
+plugin://plugin.video.live.streamspro/?mode=13&name=News12&playlist=%5B%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12XH_A1%2Findex_new.m3u8%24%24lsname%3DBronx%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12KH_A1%2Findex_new.m3u8%24%24lsname%3DBrooklyn%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12HH_A1%2Findex_new.m3u8%24%24lsname%3DHV%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12LH_WEST_A1%2Findex_new.m3u8%24%24lsname%3DLI%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12WH_A1%2Findex_new.m3u8%24%24lsname%3DWestchester%27%5D
 #EXTINF:-1 tvg-id="Newsmax.TV.HD.us2" tvg-name="NewsmaxTV" tvg-logo="https://www.sling.com/whatson/entertainment/documentary-and-news/media_1d9c6173fe0e5875ae0b6c75b1914e1cf07b60539.jpeg" group-title="News", Newsmax
 #https://amg00217-newsmax-amg00217c2-zeasn-us-2412.playouts.now.amagi.tv/playlist/amg00217-newsmaxmediafast-newsmaxn1-zeasnus/playlist.m3u8
 #http://40.160.24.53/NEWSMAX/index.m3u8
@@ -483,6 +492,8 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="Sky.News.HD.uk" tvg-name="SKY News" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY News
 #https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 https://d25w9q07b2mtmw.cloudfront.net/live/master.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="SKY Live" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News", SKY Live Feed[COLOR magenta] (3 items)[/COLOR]
+plugin://plugin.video.live.streamspro/?mode=13&name=Sky+News+Live+Feeds&playlist=%5B%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002689%2Fskynewsau-extra1%2Fmaster.m3u8%24%24lsname%3DExtra+1%27%7C%7C+%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002690%2Fskynewsau-extra2%2Fmaster.m3u8%24%24lsname%3DExtra+2%27%7C%7C+%27https%3A%2F%2Fskynewsau-live.akamaized.net%2Fhls%2Flive%2F2002691%2Fskynewsau-extra3%2Fmaster.m3u8%24%24lsname%3DExtra+3%27%5D
 #EXTINF:-1 tvg-id="The.First.us2" tvg-logo="https://tf-a1.freetls.fastly.net/static/images/header-logo2.png" group-title="News", The First
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
 
@@ -663,6 +674,11 @@ https://jmp2.uk/plex-6a1610bebdf296985fd95603-63d6f9b67c3070b6e06e0aad.m3u8
 https://jmp2.uk/plex-6a1610bebdf296985fd95603-6308eda9ac9983739c8a29bb.m3u8
 #EXTINF:-1 tvg-id="plex.tv.BBC.Home.&amp;.Garden.plex" tvg-name="BBC Home & Garden" tvg-logo="https://provider-static.plex.tv/epg/cms/production/ca13d56c-b5ee-41c8-be4c-fbacc7972c57/PLEX_HOME_GARDEN_Logo_Light_1500X1000.png" group-title="24/7", BBC Home & Garden HD
 https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="plex.tv.BBC.Food.plex" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000108Z_20260421T143120SQUARE.png" group-title="24/7", BBC Food
+#https://jmp2.uk/plex-6a1610bebdf296985fd95603-630905af0417b7074a4ad95e.m3u8
+plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=USBC6000108Z&_is_live=1&_noresume=.pvr
+#EXTINF:-1 tvg-id="" tvg-name="Epic Gardening" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2000017HT_20260407T042323SQUARE.png" group-title="24/7", Epic Gardening
+plugin://slyguy.samsung.tv.plus/?_=play&_play=1&id=US2000017HT&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="plex.tv.Qwest.TV.plex" tvg-name="Qwest TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/9625dc39-aca4-4f28-91ca-e2b61c6c726a/Channel_Hero_Logo_-_1500x1000.png" group-title="24/7", Qwest TV
 #plugin://slyguy.plex.live/?_=play&_play=1&id=5e20b730f2f8d5003d739db7-60b0f65c0c8ffb002c821a75&_is_live=1&_noresume=.pvr
 https://jmp2.uk/plex-6a1610bebdf296985fd95603-60b0f65c0c8ffb002c821a75.m3u8
