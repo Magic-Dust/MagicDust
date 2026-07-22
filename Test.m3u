@@ -373,9 +373,9 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE+Feeds&playlis
 http://40.160.24.52/C-SPAN_HD/index.m3u8
 #EXTINF:-1 tvg-id="CSPAN2.us2" tvg-name="C-SPAN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN2
 http://40.160.24.52/C-SPAN_2/index.m3u8
-#EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS[COLOR magenta] (4 items )[/COLOR]
-plugin://plugin.video.live.streamspro/?mode=13&name=CBC+NEWS&playlist=%5B%27https%3A%2F%2Fd2ny9lo79ujali.cloudfront.net%2FCBC_News_International.m3u8%24%24lsname%3DNational%27%7C%7C+%27https%3A%2F%2Fcbcrclinear-tor.akamaized.net%2Fhls%2Flive%2F2042760%2FCBCRCLINEAR_TOR_6%2Fmaster5.m3u8%24%24lsname%3DTORONTO%27%7C%7C+%27https%3A%2F%2Fcbcrclinear-tor.akamaized.net%2Fhls%2Flive%2F2042761%2FCBCRCLINEAR_TOR_7%2Fmaster5.m3u8%24%24lsname%3DMONTREAL%27%7C%7C+%27https%3A%2F%2Fcbcrclinear-tor.akamaized.net%2Fhls%2Flive%2F2042768%2FCBCRCLINEAR_TOR_14%2Fmaster5.m3u8%24%24lsname%3DVancouver%27%5D
-#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBSN" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBSN[COLOR magenta] (4 items)[/COLOR]
+#EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
+https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
+#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBSN" tvg-logo="https://archive.org/download/stevechatfield27_gmail_Cbsn/cbsn.png" group-title="News", CBS News[COLOR magenta] (4 items)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=CBSN&playlist=%5B%27https%3A%2F%2Fcbsn-us.cbsnstream.cbsnews.com%2Fout%2Fv1%2F55a8648e8f134e82a470f83d562deeca%2Fmaster.m3u88%24%24lsname%3DNational%27%7C%7C+%27https%3A%2F%2Fcbsn-la.cbsnstream.cbsnews.com%2Fout%2Fv1%2F57b6c4534a164accb6b1872b501e0028%2Fmaster.m3u8%24%24lsname%3DLA%27%7C%7C+%27https%3A%2F%2Fcbsn-mia.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fac174b7938264d24ae27e56f6584bca0%2Fmaster.m3u8%24%24lsname%3DMiami%27%7C%7C+%27https%3A%2F%2Fcbsn-ny.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fec3897d58a9b45129a77d67aa247d136%2Fmaster.m3u8%24%24lsname%3DNY%27%7C%7C+%27https%3A%2F%2Fcbsn-det.cbsnstream.cbsnews.com%2Fout%2Fv1%2F169f5c001bc74fa7a179b19c20fea069%2Fmaster.m3u8%24%24lsname%3DDetroit%27%5D
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="CNA NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/international/cna-int.png?raw=true" group-title="News", CNA NEWS
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
@@ -402,13 +402,13 @@ https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlis
 #https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
 http://206.212.244.63/42/index.m3u8
 #EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN HD
-#https://a1xs.vip/1000016
 https://dqmhiwgbe98iq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1e8xhm2nv4xdw/index.m3u8
 #EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News", CNN USA
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CNN.International.us2" tvg-name="CNN International" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/cnn-hd-us.png?raw=true" group-title="News", CNN World
 https://ds2c506obo7m8.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/51afc09f-23c7-44d8-b866-8c4669d00460/1.m3u8
 #EXTINF:-1 tvg-id="CTV.News.Channel.ca2" tvg-name="CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20250729T185109SQUARE.png" group-title="News", CTV News
+#https://jmp2.uk/stvp-CA1400004AE
 plugin://slyguy.samsung.tv.plus/?_=play&id=CA1400004AE&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="DWNEWS" tvg-logo="https://ortus-global.com/images/tv/dw-news-big.png" group-title="News", DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
@@ -450,8 +450,10 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Global&playlist=%5B%27https%
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="Headline News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113876_dark_360w_270h.png" group-title="News", Headline News 1080
 #https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 http://23.237.104.106:8080/USA_HLN/index.m3u8
-#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://logodix.com/logo/1638409.jpg" group-title="News", INFOWARS
-https://rumble.com/live-hls/v7bs3xy/playlist.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="INFOWARS" tvg-logo="https://logodix.com/logo/1638409.jpg" group-title="News", INFOWARS
+#https://rumble.com/live-hls/v7bs3xy/playlist.m3u8
+#https://rumble.com/live-hls-dvr/5UX4Y9qtkiI/playlist.m3u8?level=1
+https://rumble.com/live-hls-dvr/6uORWUUNxbA/playlist.m3u8
 #EXTINF:-1 tvg-id="LindellTV.us@SD" tvg-name="LindellTV" tvg-logo="https://lindelltv.com/wp-content/uploads/2025/01/lindelltv.logo_.horizontal-color-lg.png" group-title="News", Lindell TV
 #https://stream.vocl.com/hls/lindelltv/index.m3u8
 https://rumble.com/live-hls/6v67mu/playlist.m3u8
@@ -599,18 +601,20 @@ plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/1
 #EXTINF:-1 tvg-id="Tennis.Channel.HD.us2" tvg-name="Tennis Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png" group-title="Sports", Tennis Channel
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/20184
 #EXTINF:-1 tvg-id="TSN.1.ca2" tvg-name="TSN1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11182_dark_360w_270h.png" group-title="Sports", TSN1
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/57292
-#https://a1xs.vip/6000001
+#plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/57292
+http://40.160.24.55/TSN_1/index.m3u8
 #EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="TSN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61474_dark_360w_270h.png" group-title="Sports", TSN2
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/47442
-#https://a1xs.vip/6000002
+#plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/47442
+http://40.160.24.55/TSN_2/index.m3u8
 #EXTINF:-1 tvg-id="TSN.3.ca2" tvg-name="TSN3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-3-hd-ca.png?raw=true" group-title="Sports", TSN3
-#https://a1xs.vip/6000003
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/969478/759984/10389
+#plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/969478/759984/10389
+http://40.160.24.55/TSN_3/index.m3u8
 #EXTINF:-1 tvg-id="TSN.4.ca2" tvg-name="TSN4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-4-hd-ca.png?raw=true" group-title="Sports", TSN4
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/969478/759984/66783
+#plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/969478/759984/66783
+http://40.160.24.55/TSN_4/index.m3u8
 #EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="TSN5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/e1f173ddc5d4df19e11f8ad2f233b229e16edbd8/countries/canada/tsn-5-hd-ca.png?raw=true" group-title="Sports", TSN5
-plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/969478/759984/57467
+#plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/969478/759984/57467
+http://40.160.24.55/TSN_5/index.m3u8
 #EXTINF:-1 tvg-id="FanDuel.Racing.us" tvg-name="TVG Network HD" tvg-logo="https://theme.zdassets.com/theme_assets/2065024/e6225e6a5baf490c31661291d86a2eb5095a499d.png?raw=true" group-title="Sports", TVG Network
 #TVG.Network.us2
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/live/KB0cRT/666742/10259.m3u8
