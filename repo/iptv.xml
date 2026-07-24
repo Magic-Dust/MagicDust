@@ -58,8 +58,26 @@
 <fanart></fanart>
 <link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?USA? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?US.*? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U-public/refs/heads/main/Mac_playlist.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>Stalker2</title>
+<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?US.*? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.m3u</page>
 </regex>
 </item>
 
@@ -76,44 +94,8 @@
 <fanart></fanart>
 <link>[makelist.param3]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)"ENTERTAINMENT PLUS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
+<expres>(?i)(?s)"ENTERTAINMEN[^\"]+" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
-</regex>
-</item>
-
-<item>
-<title>Myztical1</title>
-<thumbnail>https://avatars.githubusercontent.com/u/49458553</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)"ENTERTAINMENT" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
-</regex>
-</item>
-
-<item>
-<title>TVapp</title>
-<thumbnail>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/d7/ff/4cd7ff74-90a4-8ceb-5263-39aa669a57b4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x630wa.jpg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)[^,]+,([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/buddylive-combined/refs/heads/main/combined_playlist.m3u</page>
 </regex>
 </item>
 
@@ -136,7 +118,26 @@
 </item>
 
 <item>
-<title>swtvlive (news heavy)</title>
+<title>iptv-org</title>
+<thumbnail>https://avatars.githubusercontent.com/u/55937028</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s),([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u
+</page>
+</regex>
+</item>
+
+<item>
+<title>swtvlive [COLOR=red]-news heavy[/COLOR]</title>
 <thumbnail>https://livetvworld.net/images/default_share_image.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -168,6 +169,24 @@
 ]]></listrepeat>
 <expres>group-title="(Spo|Mov|New|Netwo)[^"]+",([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
+</regex>
+</item>
+
+<item>
+<title>TVapp [COLOR=red]-down[/COLOR]</title>
+<thumbnail>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/d7/ff/4cd7ff74-90a4-8ceb-5263-39aa669a57b4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x630wa.jpg</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-logo="([^"]+)[^,]+,([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/buddylive-combined/refs/heads/main/combined_playlist.m3u</page>
 </regex>
 </item>
 
@@ -704,7 +723,7 @@
 </item>
 
 <item>
-<title>[COLOR=green]teck-tv [/COLOR]AUTO</title>
+<title>[COLOR=green]tkosportz [/COLOR]AUTO</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -716,8 +735,8 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)\D",US -([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/teck-tv_live.m3u</page>
+<expres>(?i)(?s),([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tkosportz_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>

@@ -409,56 +409,5 @@
 </regex>
 </item>
 
-<item>
-<title>[COLOR=orange]teck-tv sports[/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)\D",US -([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/teck-tv_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>WXXA CCA test</title>
-<thumbnail></thumbnail>
-<link>$doregex[tvc]</link>
-<regex>
-<name>tvc</name>
-<expres>(?i)(?s)WXXA[^\n]+\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/cord-cutter_live.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>WXXA CCA test2</title>
-<thumbnail></thumbnail>
-<multilink>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/KB0cRT/666742/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/JoanP/443@112/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/p9qQu1/372083/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/969478/759984/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://cord-cutter.net:8080/live/07886134/71848003/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://1tv41.icu:8080/qU5K345/live/784922/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://1tv41.icu:8080/live/Janice@443/443@9029/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://1tv41.icu:8080/live/Dj8p2K/309688/120892.ts</link>
-<link>plugin://plugin.video.giptv/?mode=play_stream&amp;url=http://nocable.cc:8080/live/cdm86@rogers.com/carol@2024/120892.ts</link>
-</multilink>
-</item>
-
-<item>
-<title>WXXA CCA test3</title>
-<thumbnail></thumbnail>
-<link>special://home/addons/plugin.program.magicdust/strm/FOX-LA.strm$$LSDirect$$</link>
-</item>
 
 </items>
