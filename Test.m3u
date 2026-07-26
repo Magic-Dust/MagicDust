@@ -7,17 +7,41 @@
 
 #Broadcast
 #EXTINF:-1 tvg-id="WTEN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC Albany WTEN
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 plugin://plugin.video.live.streamspro/?mode=13&name=ALBABC&playlist=%5B%27http%3A%2F%2Fcord-cutter.net%3A8080%2Flive%2FKB0cRT%2F666742%2F324617.ts%24%24lsname%3DCordcutter%27%7C%7C+%27http%3A%2F%2F1tv41.icu%3A8080%2Flive%2FJanice%40443%2F443%409029%2F324617.ts%24%24lsname%3D1tv41%27%7C%7C+%27http%3A%2F%2Fnocable.cc%3A8080%2Flive%2Fcdm86%40rogers.com%2Fcarol%402024%2F324617.ts%24%24lsname%3Dnocable%27%7C%7C+%27https%3A%2F%2Frestream-live.realiptv.to%3A443%2Fmonstercable%2FDq6jjknxCr%2F64027%24%24lsname%3Drealiptv%27%7C%7C+%27http%3A%2F%2Fs.rocketdns.info%3A8080%2Flive%2Fmonstercable%2FDq6jjknxCr%2F64027.ts%24%24lsname%3Drocketdns%27%5D
 #EXTINF:-1 tvg-id="WRGB-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="" group-title="Broadcast", CBS Albany WRGB
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 plugin://plugin.video.live.streamspro/?mode=13&name=ALBCBS&playlist=%5B%27http%3A%2F%2Fcord-cutter.net%3A8080%2Flive%2FKB0cRT%2F666742%2F324612.ts%24%24lsname%3DCordcutter%27%7C%7C+%27http%3A%2F%2F1tv41.icu%3A8080%2Flive%2FJanice%40443%2F443%409029%2F324612.ts%24%24lsname%3D1tv41%27%7C%7C+%27http%3A%2F%2Fnocable.cc%3A8080%2Flive%2Fcdm86%40rogers.com%2Fcarol%402024%2F324612.ts%24%24lsname%3Dnocable%27%7C%7C+%27https%3A%2F%2Frestream-live.realiptv.to%3A443%2Fmonstercable%2FDq6jjknxCr%2F89720%24%24lsname%3Drealiptv%27%7C%7C+%27http%3A%2F%2Fs.rocketdns.info%3A8080%2Flive%2Fmonstercable%2FDq6jjknxCr%2F89720.ts%24%24lsname%3Drealiptv%27%5D
-#EXTINF:-1 tvg-id="WXXA-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png"group-title="Broadcast", FOX Albany WXXA
+#EXTINF:-1 tvg-id="WXXA-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="Broadcast", FOX Albany WXXA
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 plugin://plugin.video.live.streamspro/?mode=13&name=ALBFOX&playlist=%5B%27http%3A%2F%2Fcord-cutter.net%3A8080%2Flive%2FKB0cRT%2F666742%2F216103.ts%24%24lsname%3DCordcutter%27%7C%7C+%27http%3A%2F%2F1tv41.icu%3A8080%2Flive%2FJanice%40443%2F443%409029%2F216103.ts%24%24lsname%3D1tv41%27%7C%7C+%27http%3A%2F%2Fnocable.cc%3A8080%2Flive%2Fcdm86%40rogers.com%2Fcarol%402024%2F216103.ts%24%24lsname%3Dnocable%27%7C%7C+%27https%3A%2F%2Frestream-live.realiptv.to%3A443%2Fmonstercable%2FDq6jjknxCr%2F21543%24%24lsname%3Drealiptv%27%7C%7C+%27http%3A%2F%2Fs.rocketdns.info%3A8080%2Flive%2Fmonstercable%2FDq6jjknxCr%2F63931.ts%24%24lsname%3Drocketdns%27%5D
 #EXTINF:-1 tvg-id="WNYT-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Albany WNYT
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
 plugin://plugin.video.live.streamspro/?mode=13&name=ALBNBC&playlist=%5B%27http%3A%2F%2Fcord-cutter.net%3A8080%2Flive%2FKB0cRT%2F666742%2F120745.ts%24%24lsname%3DCordcutter%27%7C%7C+%27http%3A%2F%2F1tv41.icu%3A8080%2Flive%2FJanice%40443%2F443%409029%2F120745.ts%24%24lsname%3D1tv41%27%7C%7C+%27http%3A%2F%2Fnocable.cc%3A8080%2Flive%2Fcdm86%40rogers.com%2Fcarol%402024%2F120745.ts%24%24lsname%3Dnocable%27%7C%7C+%27https%3A%2F%2Frestream-live.realiptv.to%3A443%2Fmonstercable%2FDq6jjknxCr%2F63932%24%24lsname%3Drealiptv%27%7C%7C+%27http%3A%2F%2Fs.rocketdns.info%3A8080%2Flive%2Fmonstercable%2FDq6jjknxCr%2F63932.ts%24%24lsname%3Drocketdns%27%5D
 #EXTINF:-1 tvg-id="WMHT-DT.us_locals1" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png" group-title="Broadcast", PBS Albany WMHT
 plugin://slyguy.pbs.live/?_=play&callsign=WMHT&_is_live=1&_noresume=.pvr
 #EXTINF:-1 tvg-id="WCWN-DT.us_locals1" tvg-logo="https://i.gyazo.com/afd5b481b327d204087dfde6a7741f9d.png" tvg-name="CW East" group-title="Broadcast", CW Albany
-https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/34440
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
+https://restream-live.realiptv.to:443/live/monstercable/Dq6jjknxCr/34440.ts|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#EXTINF:-1 tvg-id="WCWN-DT.us_locals1" tvg-logo="https://i.gyazo.com/afd5b481b327d204087dfde6a7741f9d.png" tvg-name="CW East" group-title="Broadcast", CW Albany2
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=live
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/64027.ts|reconnect=1&reconnect_streamed=1&reconnect_at_eof=1&reconnect_delay_max=5
+#EXTINF:-1 tvg-id="WCWN-DT.us_locals1" tvg-logo="https://i.gyazo.com/afd5b481b327d204087dfde6a7741f9d.png" tvg-name="CW East" group-title="Broadcast", CW Albany3
+plugin://plugin.video.f4mTester/?url=http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/64027.ts
+#EXTINF:-1 tvg-id="WCWN-DT.us_locals1" tvg-logo="https://i.gyazo.com/afd5b481b327d204087dfde6a7741f9d.png" tvg-name="CW East" group-title="Broadcast", CW Albany4
+plugin://plugin.video.giptv/?mode=play_stream&url=http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/64027.ts
 
 #EXTINF:-1 tvg-id="KABC-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10003_h15_ac.png" group-title="Broadcast", ABC LA KABC
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/2684
@@ -28,7 +52,7 @@ http://stream.cammonitorplus.net/1797/index.m3u8
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/2637
 #plugin://plugin.video.f4mTester/?url=http://kstv.us:8080/live/Kh2fHxR0c8/3333726709/49269.ts
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120654
-#EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
+#EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" tvg-name="" group-title="Broadcast", FOX LA KTTV
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/2550
 #plugin://plugin.video.f4mTester/?url=http://kstv.us:8080/live/Kh2fHxR0c8/3333726709/49282.ts
 #plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120655
@@ -54,7 +78,7 @@ plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/1
 #EXTINF:-1 tvg-id="WFOR-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Miami WFOR
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/2636
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/324459
-#EXTINF:-1 tvg-id="WSVN-DT.us_locals1" tvg-name="" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" group-title="Broadcast", FOX Miami WSVN
+#EXTINF:-1 tvg-id="WSVN-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="Broadcast", FOX Miami WSVN
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/3641
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/121242
 #EXTINF:-1 tvg-id="WTVJ-DT.us_locals1" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" group-title="Broadcast", NBC Miami WTVJ
@@ -73,7 +97,7 @@ plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/li
 #EXTINF:-1 tvg-id="WBTW-DT.us_locals1" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="Broadcast", CBS Myrtle WBTW
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/70156
 plugin://plugin.video.giptv/?mode=play_stream&url=http://cord-cutter.net:8080/live/KB0cRT/666742/324604.ts
-#EXTINF:-1 tvg-id="WFXB-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="" group-title="Broadcast", FOX Myrtle WFXB
+#EXTINF:-1 tvg-id="WFXB-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" tvg-name="" group-title="Broadcast", FOX Myrtle WFXB
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/70153
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120789
 #EXTINF:-1 tvg-id="WMBF-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="" group-title="Broadcast", NBC Myrtle WMBF
@@ -95,7 +119,7 @@ http://stream.cammonitorplus.net/1790/index.m3u8
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/89712
 #plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120749
 http://stream.cammonitorplus.net/1810/index.m3u8
-#EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX (WNYW) New York" group-title="Broadcast", FOX NY WNYW
+#EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" tvg-name="FOX (WNYW) New York" group-title="Broadcast", FOX NY WNYW
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/2544
 #plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120750
 #http://206.212.244.63/64/index.m3u8
@@ -122,7 +146,7 @@ plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/1
 #EXTINF:-1 tvg-id="WNCN-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS Raleigh WNCN" group-title="Broadcast", CBS Raleigh WNCN
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/89668
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/324592
-#EXTINF:-1 tvg-id="WRAZ-DT.us_locals1" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s10212_h15_ab.png" tvg-name="FOX RALEIGH WRAZ" group-title="Broadcast", FOX RALEIGH WRAZ
+#EXTINF:-1 tvg-id="WRAZ-DT.us_locals1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" tvg-name="FOX RALEIGH WRAZ" group-title="Broadcast", FOX RALEIGH WRAZ
 #https://restream-live.realiptv.to:443/monstercable/Dq6jjknxCr/89672
 plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/120735
 #EXTINF:-1 tvg-id="WRAL-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-alt-us.png?raw=true" tvg-name="NBC RALEIGH WRAL" group-title="Broadcast", NBC RALEIGH WRAL
