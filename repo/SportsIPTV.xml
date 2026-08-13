@@ -10,7 +10,7 @@
 </items_info>
 
 <item>
-<title>[COLOR=skyblue]MLB [/COLOR]</title>
+<title>[COLOR=skyblue]MLB[/COLOR]</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/mlb.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/mlb_fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
@@ -46,24 +46,6 @@
 </item>
 
 <item>
-<title>[COLOR=skyblue]Golf[/COLOR]</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/pga.png</thumbnail>
-<fanart>https://photo-assets.masters.com/images/pics/large/h_12ANGC2026.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)[^,]+,(PGA|NBC GOLF|GOLF[^\n]+)\n(http[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]NCAAF[/COLOR]</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
 <fanart>https://www.si.com/.image/t_share/MTY4MTI4MzgyNzA5NDA5MTUy/notre-dame-fieldjpg.jpg</fanart>
@@ -74,10 +56,28 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param3]</link>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)[^,]+,(NCAAF[^\n]+)\n(http[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NCAAF|NCAA F|COLLEGE F|NCAA - F|CFB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR=skyblue]Golf[/COLOR]</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/pga.png</thumbnail>
+<fanart>https://photo-assets.masters.com/images/pics/large/h_12ANGC2026.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
+]]></listrepeat>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,(.PGA|GOLF[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
 
@@ -92,10 +92,10 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param3]</link>
+<link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^"]+)[^,]+,(NCAAB[^\n]+)\n(http[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NCAAB|NCAA B|COLLEGE B|NCAA - B|NCAAM|NCAA M|MARCH|CBB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
 
@@ -189,24 +189,6 @@
 </item>
 
 <item>
-<title>Sports Channels</title>
-<thumbnail>https://cdn1.plesk.com/wp-content/uploads/2016/10/27013456/weblink-logo_200_400px.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param3]</link>
-]]></listrepeat>
-<expres>(?i)(?s)"SPORTS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=skyblue]Live Events[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/ppv2.png</thumbnail>
 <fanart></fanart>
@@ -219,7 +201,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.MLB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
 </regex>
 </item>
@@ -239,6 +221,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Sports Channels</title>
+<thumbnail>https://cdn1.plesk.com/wp-content/uploads/2016/10/27013456/weblink-logo_200_400px.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param3]</link>
+]]></listrepeat>
+<expres>(?i)(?s)"SPORTS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
 </regex>
 </item>
 
