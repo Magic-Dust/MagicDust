@@ -58,7 +58,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NCAAF|NCAA F|COLLEGE F|NCAA - F|CFB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NCAAF|.NCAA F|.COLLEGE F|.NCAA - F|.CFB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -76,7 +76,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.PGA|GOLF[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,(.PGA|.GOLF[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -94,7 +94,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NCAAB|NCAA B|COLLEGE B|NCAA - B|NCAAM|NCAA M|MARCH|CBB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NCAAB|.NCAA B|.COLLEGE B|.NCAA - B|.NCAAM|.NCAA M|.MARCH|.CBB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -121,6 +121,7 @@
 <title>[COLOR=skyblue]NHL[/COLOR]</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nhl.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/nhl_fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
