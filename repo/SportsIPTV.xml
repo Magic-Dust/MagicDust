@@ -13,8 +13,9 @@
 <title>[COLOR=skyblue]MLB[/COLOR]</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/mlb.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/mlb_fanart.jpg</fanart>
-<link>$doregex[makelist]</link>
 <info>Information test</info>
+<description>this is the descripton string</description>
+<link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -32,8 +33,9 @@
 <title>[COLOR=skyblue]NFL[/COLOR]</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/nfl_fanart.jpg</fanart>
-<link>$doregex[makelist]</link>
 <info>$doregex[gameslist]</info>
+<description>this is the descripton string</description>
+<link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
