@@ -14,6 +14,7 @@
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/mlb.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/mlb_fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
+<info>Information test</info>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -32,6 +33,7 @@
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/nfl_fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
+<info>$doregex[gameslist]</info>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -42,6 +44,16 @@
 ]]></listrepeat>
 <expres>(?i)(?s)logo="([^"]+)[^,]+,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
+</regex>
+<regex>
+<name>gameslist</name>
+<listrepeat><![CDATA[
+<title>[gameslist.param1] [gameslist.param3] [gameslist.param4] OU: [gameslist.param5] [gameslist.param2]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres>(?i)(?s)shortName":"([^"]+)".*?slug":"([^"]+)".*?shortDetail":"([^"]+)".*?details":"([^"]+)"[^:]+:([^,]+)</expres>
+<page>https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard</page>
 </regex>
 </item>
 
