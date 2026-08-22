@@ -270,19 +270,12 @@ https://b638a299.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="Bloomberg.Business.Television.us2" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-television-us.png?raw=true" group-title="News", Bloomberg TV
 #http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
-#http://40.160.24.52/BLOOMBERG/index.m3u8
 #http://167.250.126.140:7777/BLOOMBERG-HD/index.m3u8
 #http://206.212.244.63/22/index.m3u8
 #https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
 https://bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bloomberg-live-events-us.png?raw=true" group-title="News", Bloomberg LIVE Feeds[COLOR magenta] (multi)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=Bloomberg+LIVE&playlist=%5B%27https%3A%2F%2Fbloomberg.com%2Fmedia-manifest%2Fstreams%2Fus-event.m3u8%24%24lsname%3DLive+Event+USA%27%7C%7C+%27https%3A%2F%2Fbloomberg.com%2Fmedia-manifest%2Fstreams%2Fpolitics.m3u8%24%24lsname%3DLive+Event+US+Politics%27%7C%7C+%27https%3A%2F%2Fbloomberg.com%2Fmedia-manifest%2Fstreams%2Feu-event.m3u8%24%24lsname%3DLive+Event+Europe%27%7C%7C+%27https%3A%2F%2Fbloomberg.com%2Fmedia-manifest%2Fstreams%2Fphoenix-us.m3u8%24%24lsname%3DBloomberg%2B%27%5D
-#EXTINF:-1 tvg-id="CSPAN.us2" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN
-#http://kstv.us:8080/live/N427DpynGE/7049166651/48417.ts
-#plugin://plugin.video.f4mTester/?url=http://nocable.cc:8080/live/chrisbu0064@gmail.com1/28uzUTHmVn/136589.m3u8
-http://40.160.24.52/C-SPAN_HD/index.m3u8
-#EXTINF:-1 tvg-id="CSPAN2.us2" tvg-name="C-SPAN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="News", C-SPAN2
-http://40.160.24.52/C-SPAN_2/index.m3u8
 #EXTINF:-1 tvg-id="CBC.News.Network.ca2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-news-network-ca.png?raw=true" group-title="News", CBC NEWS
 #https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
 https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
@@ -334,7 +327,7 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Global+News&playlist=%5B%27h
 #https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="INFOWARS" tvg-logo="https://logodix.com/logo/1638409.jpg" group-title="News", INFOWARS
-https://rumble.com/live-hls-dvr/6uORWUUNxbA/playlist.m3u8
+https://rumble.com/live-hls-dvr/5RH_b6bktP8/playlist.m3u8
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="LindellTV" tvg-logo="https://lindelltv.com/wp-content/uploads/2025/01/lindelltv.logo_.horizontal-color-lg.png" group-title="News", Lindell TV
 #https://stream.vocl.com/hls/lindelltv/index.m3u8
 https://rumble.com/live-hls/6v67mu/playlist.m3u8
@@ -343,7 +336,6 @@ plugin://plugin.video.live.streamspro/?mode=13&name=MSNBC&playlist=%5B%27http%3A
 #EXTINF:-1 tvg-id="plex.tv.NBC.News.NOW.plex" tvg-name="NBC NEWS NOW" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-news-now-us.png?raw=true" group-title="News", NBC NEWS NOW
 #https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
 #https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
-#http://40.160.24.53/NBC_NEWS_NOW/index.m3u8
 #http://206.212.244.63/127/index.m3u8
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
 #EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="NBC NEWS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-news-now-us.png?raw=true" group-title="News", NBC Regional[COLOR magenta] (multi)[/COLOR]
@@ -352,7 +344,6 @@ plugin://plugin.video.live.streamspro/?mode=13&name=NBCN&playlist=%5B%27https%3A
 plugin://plugin.video.live.streamspro/?mode=13&name=News12&playlist=%5B%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12XH_A1%2Findex_new.m3u8%24%24lsname%3DBronx%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12KH_A1%2Findex_new.m3u8%24%24lsname%3DBrooklyn%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12HH_A1%2Findex_new.m3u8%24%24lsname%3DHudsonV%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12LH_WEST_A1%2Findex_new.m3u8%24%24lsname%3DLI%27%7C%7C+%27https%3A%2F%2Fmdc.ott.alticeusa.net%2Flive4.ott.optimum.net%2Flive4-uploads%2FN12WH_A1%2Findex_new.m3u8%24%24lsname%3DWestchester%27%5D
 #EXTINF:-1 tvg-id="Newsmax.TV.HD.us2" tvg-name="NewsmaxTV" tvg-logo="https://www.sling.com/whatson/entertainment/documentary-and-news/media_1d9c6173fe0e5875ae0b6c75b1914e1cf07b60539.jpeg" group-title="News", Newsmax
 #https://amg00217-newsmax-amg00217c2-zeasn-us-2412.playouts.now.amagi.tv/playlist/amg00217-newsmaxmediafast-newsmaxn1-zeasnus/playlist.m3u8
-#http://40.160.24.53/NEWSMAX/index.m3u8
 #http://206.212.244.63/128/index.m3u8
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="plex.tv.Newsmax2.plex" tvg-name="Newsmax2" tvg-logo="https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax2-white.png" group-title="News", Newsmax2
@@ -361,11 +352,9 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation.us2" tvg-name="NewsNation" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91096_dark_360w_270h.png" group-title="News", NewsNation
 #https://restream-live.realiptv.to:443/Lowblowmusic/6322468/647784
 #http://206.212.244.63/712/index.m3u8
-#plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/161450
-http://40.160.24.58/NEWSNATION/index.m3u8
+plugin://plugin.video.f4mTester/?url=http://cord-cutter.net:8080/KB0cRT/666742/161450
 #EXTINF:-1 tvg-id="One.America.News.Network.HD.us2" tvg-name="One America News Network" tvg-logo="http://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News", OAN
 #https://oneamericanews-vizio.amagi.tv/playlist.m3u8
-#http://40.160.24.55/ONE_AMERICA_NEWS/index.m3u8
 #http://206.212.244.63/131/index.m3u8
 https://a-cdn.klowdtv.com/live1/oan_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="Real.Americas.Voice.us2" tvg-name="Real America's Voice" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News", Real America's Voice
@@ -450,7 +439,7 @@ plugin://plugin.video.live.streamspro/?mode=13&name=SNPitt&playlist=%5B%27plugin
 #EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="SportsNet West" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26028_dark_360w_270h.png" group-title="Sports", SportsNet West[COLOR magenta] (multi)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=SNW&playlist=%5B%27plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Furl%3Dhttp%3A%2F%2Fcord-cutter.net%3A8080%2FKB0cRT%2F666742%2F15903.ts%24%24lsname%3Dcordcutter%27%7C%7C+%27plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Furl%3Dhttp%3A%2F%2Fnocable.cc%3A8080%2Fcdm86%40rogers.com%2Fcarol%402024%2F15903%24%24lsname%3Dnocable%27%7C%7C+%27http%3A%2F%2Fkstv.us%3A8080%2Flive%2FKh2fHxR0c8%2F3333726709%2F40613.ts%24%24lsname%3Dkstv%27%5D
 #EXTINF:-1 tvg-id="Tennis.Channel.HD.us2" tvg-name="Tennis Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png" group-title="Sports", Tennis Channel
-http://40.160.24.55/TENNIS_CHANNEL/index.m3u8
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
 #EXTINF:-1 tvg-id="TSN.1.ca2" tvg-name="TSN1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11182_dark_360w_270h.png" group-title="Sports", TSN1[COLOR magenta] (multi)[/COLOR]
 plugin://plugin.video.live.streamspro/?mode=13&name=TSN1&playlist=%5B%27http%3A%2F%2F40.160.24.55%2FTSN_1%2Findex.m3u8%24%24lsname%3DNET40%27%7C%7C+%27plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Furl%3Dhttp%3A%2F%2Fcord-cutter.net%3A8080%2FKB0cRT%2F666742%2F57292.ts%24%24lsname%3Dcordcutter%27%7C%7C+%27plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Furl%3Dhttp%3A%2F%2Fnocable.cc%3A8080%2Fcdm86%40rogers.com%2Fcarol%402024%2F57292%24%24lsname%3Dnocable%27%7C%7C+%27http%3A%2F%2Fkstv.us%3A8080%2Flive%2FKh2fHxR0c8%2F3333726709%2F15929.ts%24%24lsname%3Dkstv%27%5D
 #EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="TSN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61474_dark_360w_270h.png" group-title="Sports", TSN2[COLOR magenta] (multi)[/COLOR]
