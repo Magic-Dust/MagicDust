@@ -80,7 +80,6 @@
 <page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.m3u</page>
 </regex>
 </item>
-https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.m3u
 
 <item>
 <title>Moveonjoy</title>
@@ -170,196 +169,6 @@ https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.
 ]]></listrepeat>
 <expres>group-title="(Spo|Mov|New|Netwo)[^"]+",([^\n]*)\n(ht[^\s]*)</expres>
 <page>https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/USA/LiveTV.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV1[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV2[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk2.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV3[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk3.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV4[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk4.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV5[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk5.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV6[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk6.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV7[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk7.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV8[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk8.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV9[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt.*?).ts</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/iykyk9.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]Real-IPTV10[/COLOR]</title>
-<thumbnail>https://avatars.githubusercontent.com/u/191819590?v=4</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)",([^\n]+)\n(htt.*?).ts</expres>
-<page>https://raw.githubusercontent.com/premiumcreativeuser/live_events_pu/refs/heads/main/ikyky-10.m3u8</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
 
@@ -668,6 +477,25 @@ https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.
 </item>
 
 <item>
+<title>[COLOR=orange]nocable [/COLOR]</title>
+<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=green][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
+<page>http://nocable.cc:8080/get.php?username=darriusthomas115@gmail.com&amp;password=darriusthomas115@2025&amp;type=m3u</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+</regex>
+</item>
+
+<item>
 <title>[COLOR=green]predator [/COLOR]AUTO</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
@@ -682,25 +510,6 @@ https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.
 ]]></listrepeat>
 <expres>(?i)(?s)group-title="Usa",[^:]+: ([^\n]+)\n(ht[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/predator_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]puppy [/COLOR]AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),USA - ([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/30198-puppy_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
@@ -744,26 +553,7 @@ https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.
 </item>
 
 <item>
-<title>[COLOR=green]rocketdns [/COLOR]AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)group-title="US[^,]+,([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>skynetdigital</title>
+<title>[COLOR=orange]skynetdigital [/COLOR]</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -801,7 +591,7 @@ https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.
 </item>
 
 <item>
-<title>tvmate</title>
+<title>[COLOR=orange]tvmate [/COLOR]</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -814,7 +604,7 @@ https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.
 <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)group-title="US[^,]+,([^\n]+)\n(ht[^\s]+)</expres>
-<page>$doregex[get-decode]</page>
+<page>http://tvmate.icu:8080/get.php?username=zrKFScbH5h&amp;password=24v86AjU9w&amp;type=m3u</page>
 </regex>
 <regex>
 <name>get-decode</name>
