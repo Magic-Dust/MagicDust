@@ -46,42 +46,6 @@
 </item>
 
 <item>
-<title>Stalker</title>
-<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?US.*? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U-public/refs/heads/main/Mac_playlist.m3u</page>
-</regex>
-</item>
-
-<item>
-<title>Stalker2</title>
-<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?US.*? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.m3u</page>
-</regex>
-</item>
-
-<item>
 <title>Moveonjoy</title>
 <thumbnail>https://www.mediacp.net/wp-content/uploads/2019/01/Flussonic.png</thumbnail>
 <fanart></fanart>
@@ -173,40 +137,38 @@
 </item>
 
 <item>
-<title>[COLOR=green]Alienstreams [/COLOR] AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
+<title>Stalker</title>
+<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=green][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i),USA: ([^\n]*)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/alienstreams_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?US.*? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U-public/refs/heads/main/Mac_playlist.m3u</page>
 </regex>
 </item>
 
 <item>
-<title>[COLOR=green]Cord-cutter [/COLOR] AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
+<title>Stalker2</title>
+<thumbnail>https://play-lh.googleusercontent.com/2l4vo8TgUFZoNyUIzO5m1ghzW2AxtztGb_-DCYTK6qFdfBSC8lprXg4wzjtmq95TRg</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=green][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
+<link>[makelist.param6]|agent=[makelist.param3]&amp;Cookie=[makelist.param4]&amp;header=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i),US([^\n]*)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/cord-cutter_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
+<expres>(?i)(?s)tvg-logo="([^\"]+)"[^\,]+,?US.*? ([^\n]+)\n#EXTVLCOPT:http-user-agent=([^\n]+)\n#EXTVLCOPT:http-cookie=([^\n]+)\n#EXTVLCOPT:http-header=([^\n]+)\n(ht[^\s]+)</expres>
+<page>https://raw.githubusercontent.com/Love4vn/Stalker2M3U/refs/heads/1/Mac_playlist.m3u</page>
 </regex>
 </item>
 
@@ -344,82 +306,6 @@
 </item>
 
 <item>
-<title>[COLOR=orange]kstv [/COLOR]QX90g3Gk68</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://kstv.us:8080/get.php?username=QX90g3Gk68&amp;password=11123892408&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]kstv [/COLOR]Kh2fHxR0c8</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://kstv.us:8080/get.php?username=Kh2fHxR0c8&amp;password=3333726709&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=orange]kstv [/COLOR]brendan1</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/iptv.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>http://kstv.us:8080/get.php?username=brendan1&amp;password=brendan1&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]lunar [/COLOR] AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)group-title="USA[^\"]+"([^\n]+)\n(htt[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/lunar_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=orange]lunar [/COLOR]kita</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
@@ -439,7 +325,7 @@
 </item>
 
 <item>
-<title>[COLOR=green]mutant [/COLOR] AUTO (down)</title>
+<title>[COLOR=orange]lunar [/COLOR]2055676975</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -451,27 +337,8 @@
 <fanart></fanart>
 <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)title="USA[^\,]+,([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/mutant_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]nocable [/COLOR]AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i),US([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/nocable_live.m3u</page>
+<expres>(?i)(?s)group-title="USA[^\"]+"([^\n]+)\n(htt[^\s]+)</expres>
+<page>http://lunar.pm:8080/get.php?username=2055676975&amp;password=MAAvrCmWZ8FZ&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
@@ -496,44 +363,6 @@
 </item>
 
 <item>
-<title>[COLOR=green]predator [/COLOR]AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)group-title="Usa",[^:]+: ([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/predator_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]pw-iptv [/COLOR]AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s),US: ([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/pw-iptv_live.m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
 <title>[COLOR=green]rocketdns [/COLOR]AUTO</title>
 <thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
 <fanart></fanart>
@@ -547,7 +376,7 @@
 <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)group-title="US[^,]+,([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/s_live.m3u</page>
+<page>http://s.rocketdns.info:8080/get.php?username=39619456&amp;password=57108545&amp;type=m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
@@ -567,25 +396,6 @@
 ]]></listrepeat>
 <expres>(?i)(?s),([^\n]+)\n(ht[^\s]+)</expres>
 <page>http://skynetdigital.us:8080/get.php?username=MmKU@danli&amp;password=CEN6KqB23&amp;type=m3u</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
-</regex>
-</item>
-
-<item>
-<title>[COLOR=green]tvmate [/COLOR]AUTO</title>
-<thumbnail>https://avatars.githubusercontent.com/u/229142481</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=green][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)group-title="US[^,]+,([^\n]+)\n(ht[^\s]+)</expres>
-<page>https://raw.githubusercontent.com/IPTVFlixBD/RynoCast-IPTV-M3u-Playlist/refs/heads/main/tvmate_live.m3u</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0</agent>
 </regex>
 </item>
