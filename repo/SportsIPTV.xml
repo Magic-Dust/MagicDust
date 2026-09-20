@@ -45,16 +45,6 @@
 <expres>(?i)(?s)logo="(h[^"]+)[^,]*,.(N[F|a][L|t][^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
-<regex>
-<name>gameslist</name>
-<listrepeat><![CDATA[
-<title>[gameslist.param1] [gameslist.param3] [gameslist.param4] OU: [gameslist.param5] [gameslist.param2]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>(?i)(?s)shortName":"([^"]+)".*?slug":"([^"]+)".*?shortDetail":"([^"]+)".*?details":"([^"]+)"[^:]+:([^,]+)</expres>
-<page>https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard</page>
-</regex>
 </item>
 
 <item>
