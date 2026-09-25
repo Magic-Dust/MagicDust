@@ -23,7 +23,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,.(M[L|a][B|j][^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="MLB.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -42,7 +42,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,.(N[F|a][L|t][^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="NFL.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -61,7 +61,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,.(NCAA[F| ]([^\n]+))\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="Football.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -80,7 +80,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.PGA|.GOLF[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="Golf.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -99,7 +99,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,.(NCAA[M|B| ]([^\n]+))\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="Basket.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -118,7 +118,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NBA[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="NBA.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -137,7 +137,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.NHL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="NHL.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -155,7 +155,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)"Soccer.Dummy.us".*?logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="Soccer.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -174,7 +174,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="([^"]+)[^,]+,(.Tennis[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="Tennis.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -193,7 +193,7 @@
 <fanart></fanart>
 <link>[makelist.param6]|referer=[makelist.param3]&amp;origin=[makelist.param4]&amp;agent=[makelist.param5]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)"PPV.EVENTS.Dummy.us".*?logo="([^"]+)[^,]+,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="PPV.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
