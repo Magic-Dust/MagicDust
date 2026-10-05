@@ -199,42 +199,6 @@
 </item>
 
 <item>
-<title>Live Events</title>
-<thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/ppv2.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-id=".*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
-</regex>
-</item>
-
-<item>
-<title>Live Events 2</title>
-<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
-]]></listrepeat>
-<expres>(?i)(?s)tvg-id=".*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
-</regex>
-</item>
-
-<item>
 <title>ESPN+</title>
 <thumbnail>https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/espn-plus-us.png</thumbnail>
 <fanart></fanart>
@@ -289,20 +253,38 @@
 </item>
 
 <item>
-<title>NCAAF (backup)</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
-<fanart>https://www.si.com/.image/t_share/MTY4MTI4MzgyNzA5NDA5MTUy/notre-dame-fieldjpg.jpg</fanart>
+<title>Live Events</title>
+<thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/ppv2.png</thumbnail>
+<fanart></fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param2]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)(NCAAF[^\n]+)\n(htt[^\s]+)</expres>
-<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u</page>
+<expres>(?i)(?s)tvg-id=".*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
+</regex>
+</item>
+
+<item>
+<title>Live Events 2</title>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param2][/COLOR]</title>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart></fanart>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+]]></listrepeat>
+<expres>(?i)(?s)tvg-id=".*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
 
@@ -321,6 +303,24 @@
 ]]></listrepeat>
 <expres>(?i)(?s)"SPORTS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
+</regex>
+</item>
+
+<item>
+<title>NCAAF (backup)</title>
+<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
+<fanart>https://www.si.com/.image/t_share/MTY4MTI4MzgyNzA5NDA5MTUy/notre-dame-fieldjpg.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR=orange][makelist.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres>(?i)(?s)(NCAAF[^\n]+)\n(htt[^\s]+)</expres>
+<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u</page>
 </regex>
 </item>
 
