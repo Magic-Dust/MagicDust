@@ -23,7 +23,7 @@
 <fanart></fanart>
 <link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="MLB.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="MLB|BASE.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
