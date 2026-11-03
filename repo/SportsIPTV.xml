@@ -211,8 +211,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)(ESPN+ [^\n]+)\n(htt[^\s]+)</expres>
-<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u</page>
+<expres>(?i)(?s),US (ESPN+ [^\n]+)\n(htt[^\s]+)</expres>
+<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u_plus</page>
 </regex>
 </item>
 
@@ -229,8 +229,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)(FLSP [^\n]+)\n(htt[^\s]+)</expres>
-<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u</page>
+<expres>(?i)(?s),(FLSP [^\n]+)\n(htt[^\s]+)</expres>
+<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u_plus</page>
 </regex>
 </item>
 
@@ -246,8 +246,8 @@
 <fanart></fanart>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)(Peacock [^\n]+)\n(htt[^\s]+)</expres>
-<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u</page>
+<expres>(?i)(?s),Peacock [^\n]+)\n(htt[^\s]+)</expres>
+<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u_plus</page>
 </regex>
 </item>
 
@@ -302,24 +302,6 @@
 ]]></listrepeat>
 <expres>(?i)(?s)"SPORTS" tvg-logo="([^\"]+)",([^\n]+)\n(htt[^\s]+)</expres>
 <page>https://raw.githubusercontent.com/Myztical1/web101/refs/heads/main/WEBLINK</page>
-</regex>
-</item>
-
-<item>
-<title>NCAAF (backup)</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
-<fanart>https://www.si.com/.image/t_share/MTY4MTI4MzgyNzA5NDA5MTUy/notre-dame-fieldjpg.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param1][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>[makelist.param2]</link>
-]]></listrepeat>
-<expres>(?i)(?s)(NCAAF[^\n]+)\n(htt[^\s]+)</expres>
-<page>https://primevip.day:443/get.php?username=Mary&amp;password=Johnson&amp;type=m3u</page>
 </regex>
 </item>
 
