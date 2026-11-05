@@ -74,6 +74,9 @@ plugin://plugin.video.live.streamspro/?mode=13&name=RALnbc&playlist=%5B%27plugin
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
 #EXTINF:-1 tvg-id="KPBS-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/pbs-us.png?raw=true" group-title="Broadcast", PBS National West [COLOR magenta]MD[/COLOR]
 https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+#EXTINF:-1 tvg-id="KMOS-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/pbs-us.png?raw=true" group-title="Broadcast", PBS National Central [COLOR magenta]MD[/COLOR]
+https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
+
 
 #Entertainment
 #EXTINF:-1 tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="Entertainment", A&E TV[COLOR magenta] MD (multi) [/COLOR]
@@ -549,93 +552,86 @@ plugin://plugin.video.live.streamspro/?mode=13&name=Beach+TV&playlist=%5B%27http
 https://d1cgf0ptrv4t22.cloudfront.net/Mythbusters_GB.m3u8
 
 #Music
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", 70's Flashback
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", 70's Flashback
 https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", 80's Remember
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", 80's Remember
 https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", 90's Nothin but
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", 90's Nothin but
 https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Alternative
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Alternative
 https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Classic Rock
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Classic Rock
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Country Hot
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Country Hot
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Country Greats
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Country Greats
 https://lotus.stingray.com/manifest/ose-109ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Greatest Hits
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Greatest Hits
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Hits List
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Hits List
 https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music", Pop Adult
+#EXTINF:-1 tvg-logo="https://musiccanada.com/wp-content/uploads/2014/06/StingrayMusic-logo1.png" group-title="Music" radio="true", Pop Adult
 https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Hit Nation
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Hit Nation
 https://stream.revma.ihrhls.com/zc4422/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Mix Today's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Mix Today's
 https://stream.revma.ihrhls.com/zc4409/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Pop Rewind
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Pop Rewind
 https://stream.revma.ihrhls.com/zc9756/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Pop Top 20
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Pop Top 20
 https://stream.revma.ihrhls.com/zc4878/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", iHeartRadio Countdown
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", iHeartRadio Countdown
 https://stream.revma.ihrhls.com/zc6455/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country
 https://stream.revma.ihrhls.com/zc4418/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country New
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country New
 https://stream.revma.ihrhls.com/zc4712/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country Classics
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country Classics
 https://stream.revma.ihrhls.com/zc4435/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country 80's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country 80's
 https://stream.revma.ihrhls.com/zc6836/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country 90's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country 90's
 https://stream.revma.ihrhls.com/zc6870/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country 2000's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country 2000's
 https://stream.revma.ihrhls.com/zc10027/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Country Top 20
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Country Top 20
 https://stream.revma.ihrhls.com/zc4882/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 70's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", 70's
 https://stream.revma.ihrhls.com/zc6843/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 80's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", 80's
 https://stream.revma.ihrhls.com/zc5060/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 90's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", 90's
 https://stream.revma.ihrhls.com/zc6834/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 2000's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", 2000's
 https://stream.revma.ihrhls.com/zc6850/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 2010's
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", 2010's
 https://stream.revma.ihrhls.com/zc8478/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Casey Kasem's Classic American Top 40 (70's & 80's)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Casey Kasem's Classic American Top 40 (70's & 80's)
 https://stream.revma.ihrhls.com/zc6545/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Casey Kasem's Classic American Top 40 (90's & 2000's)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Casey Kasem's Classic American Top 40 (90's & 2000's)
 https://stream.revma.ihrhls.com/zc10423/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rick Dees Weekly Top 40 (80's 90's & 2000's)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Rick Dees Weekly Top 40 (80's 90's & 2000's)
 https://stream.revma.ihrhls.com/zc10600/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", 80's Lost
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", 80's Lost
 https://stream.revma.ihrhls.com/zc7934/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", One Hit Wonders
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", One Hit Wonders
 https://stream.revma.ihrhls.com/zc6669/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rock Classic
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Rock Classic
 https://stream.revma.ihrhls.com/zc4426/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Rat Pack Radio
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Rat Pack Radio
 https://stream.revma.ihrhls.com/zc6784/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Disco Forever
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Disco Forever
 https://stream.revma.ihrhls.com/zc6755/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Evolution
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Evolution
 https://stream.revma.ihrhls.com/zc5953/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Big Classic Hits (70's 80's & 90's)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Big Classic Hits (70's 80's & 90's)
 https://stream.revma.ihrhls.com/zc4455/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", British Invasion
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", British Invasion
 https://stream.revma.ihrhls.com/zc5708/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Vinyl Classic Rock
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Vinyl Classic Rock
 https://stream.revma.ihrhls.com/zc7078/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Yee Yee Radio
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Yee Yee Radio
 https://stream.revma.ihrhls.com/zc10082/hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music", Christmas
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/IHeartMedia_Logo.svg/500px-IHeartMedia_Logo.svg.png" group-title="Music" radio="true", Christmas
 https://stream.revma.ihrhls.com/zc4596/hls.m3u8
-
-
-
-
-
-
-
