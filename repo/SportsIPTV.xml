@@ -21,9 +21,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="NFL.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -40,9 +40,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="Football.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NCAA[F| ][^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -59,9 +59,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="Basket.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NCAA [M|B][^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -78,9 +78,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="NBA.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NBA[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -97,9 +97,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="MLB|BASE.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.MLB[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -116,9 +116,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="Golf.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.Golf[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -135,9 +135,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="NHL.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NHL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -154,9 +154,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="PPV.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="PPV.*?logo="(h[^"]+)[^,]*,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -180,7 +180,7 @@
 </item>
 
 <item>
-<title>ESPN+</title>
+<title>ESPN+ backup</title>
 <thumbnail>https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/espn-plus-us.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/espn_fanart.png</fanart>
 <link>$doregex[makelist]</link>
@@ -215,7 +215,7 @@
 </item>
 
 <item>
-<title>flosports 2</title>
+<title>flosports backup</title>
 <thumbnail>https://raw.githubusercontent.com/tv-logo/tv-logos/d32e347bb7c4c640dceec23957802ad9182f58a6/misc/media/flosports.png</thumbnail>
 <fanart>https://www.advanced-television.com/wp-content/uploads/2025/09/FloSports-logo.png</fanart>
 <link>$doregex[makelist]</link>
@@ -251,7 +251,7 @@
 </item>
 
 <item>
-<title>Peacock 2</title>
+<title>Peacock backup</title>
 <thumbnail>https://raw.githubusercontent.com/tv-logo/tv-logos/d32e347bb7c4c640dceec23957802ad9182f58a6/misc/media/peacock.png</thumbnail>
 <fanart>https://www.peacocktv.com/dam/growth/assets/gift-cards/gift-card-refresh.png</fanart>
 <link>$doregex[makelist]</link>
@@ -269,7 +269,7 @@
 </item>
 
 <item>
-<title>Live Events</title>
+<title>Live Events Buddy</title>
 <thumbnail>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/sports%20logos/ppv2.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -279,7 +279,7 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)tvg-id=".*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8</page>
@@ -287,7 +287,7 @@
 </item>
 
 <item>
-<title>Live Events 2</title>
+<title>Live Events Dom</title>
 <thumbnail>https://cdn-radiotime-logos.tunein.com/s87085g.png</thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist]</link>
@@ -315,9 +315,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="Soccer.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="soccer.*?logo="(h[^"]+)[^,]*,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
@@ -334,9 +334,9 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]&amp;origin=[makelist.param5]</link>
+<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="Tennis.*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="soccer.*?logo="(h[^"]+)[^,]*,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
