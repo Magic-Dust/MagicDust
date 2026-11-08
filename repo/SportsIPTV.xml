@@ -297,7 +297,7 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+<link>[makelist.param5]&amp;referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)tvg-id=".*?logo="(h[^"]+)[^,]*,.([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
@@ -336,7 +336,7 @@
 <fanart></fanart>
 <link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)tvg-id="soccer.*?logo="(h[^"]+)[^,]*,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
+<expres>(?i)(?s)tvg-id="tennis.*?logo="(h[^"]+)[^,]*,([^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
