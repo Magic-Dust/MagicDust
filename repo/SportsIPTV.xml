@@ -51,30 +51,6 @@
 </item>
 
 <item>
-<title>NFL3</title>
-<thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
-<fanart>special://home/addons/script.thecrew.artwork/resources/fanart/nfl_fanart.jpg</fanart>
-<info>National Football League</info>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR=orange][makelist.param2][/COLOR]</title>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart></fanart>
-<link>$doregex[get-decode]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
-]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
-</regex>
-<regex>
-<name>get-decode</name>
-<expres>$pyFunction:'[makelist.param5]'.replace('&','&amp;')</expres>
-<page></page>
-</regex>
-</item>
-
-<item>
 <title>NCAAF</title>
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/ncaa.png</thumbnail>
 <fanart>https://www.si.com/.image/t_share/MTY4MTI4MzgyNzA5NDA5MTUy/notre-dame-fieldjpg.jpg</fanart>
