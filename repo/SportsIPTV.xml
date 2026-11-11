@@ -23,7 +23,7 @@
 <fanart></fanart>
 <link>[makelist.param5]&amp;[makelist.param6]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^&|\s]+).([^\s]+)</expres>
+<expres><![CDATA[(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^&|\s]+).([^\s]+)]]></expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
