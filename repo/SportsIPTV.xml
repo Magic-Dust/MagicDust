@@ -22,7 +22,7 @@
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
 #<link>[makelist.param5]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
-<link>$pyFunction:'[makelist.param3]'.replace('&','&amp;')</link>
+<link>$pyFunction:[makelist.param3].replace('&','&amp;')</link>
 ]]></listrepeat>
 #<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n([^\n]+)</expres>
@@ -43,7 +43,7 @@
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-<link>$pyFunction:'[makelist.param5]'.replace('&','&amp;')|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
+<link>$pyFunction:[makelist.param5].replace('&','&amp;')|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
 <expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^\s]+)</expres>
 <page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
