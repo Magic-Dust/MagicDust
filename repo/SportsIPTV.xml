@@ -14,18 +14,17 @@
 <thumbnail>special://home/addons/script.thecrew.artwork/resources/media/thecrew/nfl.png</thumbnail>
 <fanart>special://home/addons/script.thecrew.artwork/resources/fanart/nfl_fanart.jpg</fanart>
 <info>National Football League</info>
-<link>$pyFunction:'$doregex[makelist]'.replace('&','&amp;')</link>
+<link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR=orange][makelist.param2][/COLOR]</title>
 <thumbnail>[makelist.param1]</thumbnail>
 <fanart></fanart>
-</link>
-<link>[makelist.param3]</link>
+<link>[makelist.param5]&amp;[makelist.param6]|referer=[makelist.param3]&amp;agent=[makelist.param4]</link>
 ]]></listrepeat>
-<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n([^\n]+)</expres>
-<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/kodi.m3u8</page>
+<expres>(?i)(?s)logo="(h[^"]+)[^,]*,(.NFL[^\n]+)\n[^=]+=([^\n]+)\n[^=]+=([^\n]+)\n([^&|\s]+).([^\s]+)</expres>
+<page>https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8</page>
 </regex>
 </item>
 
